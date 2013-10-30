@@ -11,4 +11,8 @@ locale:
   children: 'Child posts are posts that were inspired by, are updates on, obsolete, or follow this one.'
   feedback: 'Praise, thoughts, criticism? <a href="https://twitter.com/passcod">@passcod</a> or <a href="mailto:ask@passcod.name">ask@passcod.name</a>'
   flip: 'Click to turn lights on xor off.'
+tags:
+  auto-thief: I think this was inspired by HPMoR.
+  foobar: Foo! Bar! Baz! Unicorns!
+  document: Generic but not so generic. Generally written in the 3rd person.
 
