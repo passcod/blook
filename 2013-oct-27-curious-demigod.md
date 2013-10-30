@@ -6,8 +6,6 @@ tags:
 parents:
   - 2013/sep/13/parenting
   - 2013/oct/25/new-blog-new-format
-children:
-  - 2013/dec/04/plane-trees
 ---
 what if you could ask for one thing and have it either made reality or see it forbidden to you forever, at the whim of the demigod who likes to play with people by asking them this?
 

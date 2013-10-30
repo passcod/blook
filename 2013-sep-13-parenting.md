@@ -2,8 +2,6 @@
 tags:
   - document
   - graphs
-children:
-  - 2013/oct/27/curious-demigod
 ---
 What, did you think there was something to win? Life isn't about winning, kid.
 
