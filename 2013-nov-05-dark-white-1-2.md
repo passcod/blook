@@ -2,8 +2,8 @@
 tags:
   - chapter
   - nano
-  - blanck
-title: Blanck 1-2
+  - dark-white
+title: Dark White 1-2
 ---
 
 In among grassy hills and hedges of pines, the house looked almost out of place. It was a fine house, but it looked like it belonged in a suburban neighbourhood, not in the middle of nowhere. It has white smooth walls and a black slate roof, simple steel flashings adorning its ridges. The third floor windows were the only hint it might hide something more, their round brass frame and symmetrical quarter panes dripping black rust onto the plasterboard a reminder of the style that was ever-present centuries ago.

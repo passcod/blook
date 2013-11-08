@@ -2,8 +2,8 @@
 tags:
   - chapter
   - nano
-  - blanck
-title: Blanck 1-3
+  - dark-white
+title: Dark White 1-3
 ---
 
 I fucked up. I wanted to see what kind of carpet it was and it had reacted explosively, trashing my room, and pushing itself against the ceiling and away from me. I had no idea it could do that! In fact, I'm pretty sure it shouldn't have. Except I fucked up. Well, to be fair, mom fucked up, dad, whoever he was and wherever he is, fucked up, and Terri probably fucked up a bit as well.

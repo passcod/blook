@@ -2,8 +2,8 @@
 tags:
   - chapter
   - nano
-  - blanck
-title: Blanck 1-1
+  - dark-white
+title: Dark White 1-1
 ---
 
 My mom's new boyfriend is kinda weird. For one thing, they never kiss or do anything in front of me, which is cool because that's kinda gross but also makes me wonder if he's really a boyfriend. Mom has had a few boyfriends. None have lasted very long, no more than a couple of months, and then she swears never to trust the essobees again, whatever that means, and spends more time with me for half a year before getting a new one. Some boyfriends were just-out-and-about-boyfriends, mom went out with them and they never came to stay; some were all-into-your-business-boyfriends, trying to help me with school and cooking dinners; some were eww-boyfriends, kissing and cuddling without caring who was watching.
