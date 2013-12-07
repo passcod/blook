@@ -1,10 +1,10 @@
 ---
 tags:
-	- entry
-    - rust
-    - pippo
+  - entry
+  - rust
+  - pippo
 parents:
-	- 2013/dec/06/modern-systems-languages
+  - 2013/dec/06/modern-systems-languages
 ---
 
 Today I'm starting on **Pippo**, a DBMS I've spent the past 18 months thinking about. It started as a experimental thought on a NoSQL document store based on git, and has evolved to be both complex and beautifully simple at the same time.
