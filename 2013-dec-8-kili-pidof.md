@@ -1,10 +1,10 @@
 ---
 parents: 
-  - 2013/oct/15/darkwhite
+  - 2013/oct/15/whitealdus
   - "2013/dec/03/maria-bobi-tabula"
 tags: 
   - character
-  - darkwhite
+  - whitealdus
 published: true
 ---
 
