@@ -1,5 +1,4 @@
 ---
-date: 19 February 2014, 19:19:19 NZST
 tags:
   - github
   - cleanup
