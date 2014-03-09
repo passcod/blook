@@ -1,10 +1,10 @@
 ---
-title: 'Blograph'
+title: 'Félix "passcod" Saparelli - Blog'
 author: 'passcod' # Default author
 header:
   title: 'Félix Saparelli'
   subtitle: 'a.k.a. passcod'
-footer: 'Dedicated to the <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain</a>'
+footer: 'Dedicated to the <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain</a>. <a rel="alternate" href="/feed">Feed</a>.'
 locale:
   date: '%b %-d'
   parents: 'Parent posts are posts that inspired, led to, or are obsoleted by this one.'
