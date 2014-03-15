@@ -76,3 +76,5 @@ lz4 initramfs-linux-nozip.img.lz4  0.02s user 0.01s system 88% cpu 0.026 total
 Ladies, gentlemen, and otherwise-gendered, I present thee `lz4`. At full compression, slightly faster. And for decompression, an order of magnitude faster. This is impressive.
 
 Hear hear!
+
+__Update__: [Yann Collet](https://twitter.com/Cyan4973) has kindly [informed me](https://twitter.com/Cyan4973/status/444791758376169472) of a «"hidden" option -A, which compresses a tiny bit more than -9... for "compress once, decompress plenty" scenarios», which fits the bill perfectly. Thanks Yann! I'll definitely use this.
