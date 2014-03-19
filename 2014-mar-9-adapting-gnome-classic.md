@@ -1,5 +1,6 @@
 ---
 tags:
+  - entry
   - gnome
   - desktop
   - linux

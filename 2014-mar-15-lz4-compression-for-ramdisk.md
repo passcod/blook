@@ -1,5 +1,6 @@
 ---
 tags:
+  - entry
   - linux
   - kernel
   - software

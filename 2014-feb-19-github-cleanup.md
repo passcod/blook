@@ -1,5 +1,6 @@
 ---
 tags:
+  - entry
   - github
   - cleanup
   - projects
