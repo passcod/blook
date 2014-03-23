@@ -7,6 +7,7 @@ header:
 footer: 'Dedicated to the <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain</a>. <a rel="alternate" href="/feed">Feed</a>.'
 locale:
   date: '%b %-d'
+  year: '‘14'
   parents: 'Parent posts are posts that inspired, led to, or are obsoleted by this one.'
   children: 'Child posts are posts that were inspired by, are updates on, obsolete, or follow this one.'
   feedback: 'Praise, thoughts, criticism? <a href="https://twitter.com/passcod">@passcod</a> or <a href="mailto:ask@passcod.name">ask@passcod.name</a>'
