@@ -1,0 +1,63 @@
+ WIP ! NOT APPLICABLE ! WIP
+
+PUBLIC DOMAIN BLANKET LICENSE
+=============================
+
+This document is covered by its own terms.
+
+Félix Saparelli (the Principal), as verified by
+the digital signature below, which key is available
+on https://stuff.passcod.name/gpg/ hereby agrees to
+abide to the following.
+
+1. Definitions
+
+- Published: Made available to the general public, for example
+  by way of listing it on the Internet at a URI that can be
+  accessed by third parties without the Principal's knowledge,
+  or by being released in a paper publication, or on broadcast
+  media, etc.
+
+- Own Work: A work that the Principal has authored, created, or
+  in any other way detains the full copyrights of.
+
+2. General Terms
+
+2.1. The Original Version (§3.1), as of the date of application
+of this document, is canceled and void.
+
+2.2. All of the Principal's Own Work is released in the Public
+Domain if such a concept exists in the applicable jurisdiction,
+or under the text of Creative Commons' Public Domain Declaration,
+version 1.0 (§3.2), except as described below:
+
+- Any Work that has a notice of any kind that is contrary to
+releasing the Work under these terms attached to it.
+- Any Work that has a License governing its use.
+- Any Work that the Principal does not own.
+- Any Work that the Principal has created under employment or
+  contract to a third party.
+
+3. Appendices
+
+3.1. Original Version
+
+All text and code and bytes and images that I have and will
+author, barring any contrary notice on or joined to the work
+in question, or a global notice published here on passcod.name
+(which would apply to all future works — one cannot, after all,
+un-release something), is hereby released in the Public Domain,
+or licensed under CC0 or the Unlicense, whichever gives you the
+most rights. — 7th November 2012, minor amendment on 9th May 2013.
+
+3.2. Creative Commons' Public Domain Declaration
+
+Available at https://creativecommons.org/publicdomain/zero/1.0/
+
+Also available at the following locations:
+
+- https://gist.github.com/passcod/6861361
+- https://stuff.passcod.name/LICENSE.txt
+- As a LICENSE file in works also covered by these terms (as a way
+  to explicit the release).
+- As a file adjoined to this document.

@@ -1,0 +1,128 @@
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  color: #494949;
+  font-size: 14px;
+}
+
+html, pre, code, kbd, samp {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+pre, code {
+  padding: 0 0.5em;
+  background: #eee;
+  border-radius: 3px;
+}
+
+pre, pre code {
+  padding: 0;
+}
+
+body, .container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 25rem;
+  max-width: 50ch;
+  min-width: 7rem;
+  min-width: 30ch;
+  padding: 1rem;
+}
+
+p {
+  margin: 0.5em auto;
+}
+
+h1, h2, h3, h4, h5, h6, th, thead, tfoot {
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #494949;
+}
+
+article img {
+  border-radius: 5px;
+  box-shadow: 0 0 10px 1px #AAA;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+button {
+  background: none;
+  border: 0px;
+  cursor: pointer;
+  font-family: inherit;
+  outline: 0 none transparent;
+}
+
+a, a:active, a:visited, button {
+  border-bottom: 1px dashed black;
+  color: black;
+  text-decoration: none;
+}
+
+a:focus, a:hover, button:focus, button:hover {
+  border-bottom-style: solid;
+}
+
+hr {
+  border: none;
+  padding: 0.5rem;
+  position: relative;
+}
+
+hr:before {
+  color: black;
+  content: '⁂';
+  left: 50%;
+  position: absolute;
+  top: 50%;
+}
+
+header {
+  border-bottom: 1px solid #494949;
+  padding-bottom: 1em;
+  margin: 1em 0;
+}
+
+header a {
+  border-bottom: 0;
+}
+
+header p, footer p {
+  margin: 0;
+}
+
+section, footer {
+  border-top: 1px solid #494949;
+  padding-top: 1em;
+  margin: 1em 0;
+}
+
+.github-fork-ribbon {
+  background-color: #494949;
+}
+
+.github-fork-ribbon a {
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.7);
+  color: white;
+}
