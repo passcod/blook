@@ -90,7 +90,7 @@ That evening, I got back to mako finding C++ less than unyielding:
 
 > [ mako ]: I almost just caused an access violation.  
 > [ mako ]: Already blowing my fingers off.  
-> [ mako ]: Arg, exposing raw pointers.
+> [ mako ]: Arg, exposing raw pointers. I'm so out of practice.
 
 Out of curiosity and a stray "There must be a better way" thought, I started implementing it in Rust. Ninety minutes later, I had this:
 
