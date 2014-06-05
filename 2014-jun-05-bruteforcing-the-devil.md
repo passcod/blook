@@ -5,7 +5,33 @@ tags:
   - rust
 ---
 
-On the 3rd, [mako] gave me an interesting challenge. He'd been trying for a while now to get me into a particular community, but this is what actually brought me over:
+Preface, of a sort, by mako himself:
+
+>  Once, there was a circle of artists and wizards. The convocation called itself #Merveilles.
+> 
+> For a long time, most of the members of the cadre could be distinguished only by their names. The most connected among them took on varied faces of animals, but they were only a few.
+> 
+> One day, a faun arrived at the convocation. Lamenting that so many of its members looked exactly the same, it decided to use its *wild generative majykks* to weave a spell that would illuminate all members of the circle equally.
+>
+> By the name of the subject, the majic would produce a number.
+>
+> By that number, it would resolve a face.
+>
+> And [so](http://syhexgen.makopool.com) [it](http://makopool.com/showBoard.html) [did](http://merveill.es/).
+>
+> The faun's enchantment brought joy to the circle, and for a time, it was good.
+>
+> Many moons later, the faun, reviewing its work, realized that the m4g1kz it had cast had an imperfection. It was struck with a vision of the eventual coming of a strange being.
+>
+> By the name of that devil, the mædʒIkz would produce **6** **6** **6**
+>
+> From 666, it would resolve **no face at all**
+>
+> Hearing the prognostication, a few set out in search of the name of the devil who hath no face, so that they may take it for their own. This is where our story begins...
+
+***
+
+On the 3rd of June — it was Tuesday — [mako] gave me an interesting challenge. He'd been trying for a while now to get me into a particular community, but this is what actually brought me over:
 
 [mako]: http://makopool.com/
 
