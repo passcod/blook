@@ -239,7 +239,7 @@ As I speak, I have computed another 12 billion hashes, or a grand total of about
 
 ![16 billion hashes and just four devil names](http://i.imgur.com/dqYz7Za.png)
 
-It's been fun!
+It's been fun! …and I can now assume _the face of the **Devil**_.
 
 [t]: https://rubygems.org/gems/t
 [4]: https://github.com/passcod/merhash/blob/master/godname.scala
