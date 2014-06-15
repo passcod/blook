@@ -16,4 +16,8 @@ tidbits going through my head.
 
 ***
 
-> 
+> Ooo, this one's a strange one: all our pawns intact, rooks and kings mirrored, and nothing else on the board. Play becomes tricky.
+>
+> ![r3k1r1/1pp4p/p3p3/2PpP3/3p1PpP/P2P2P1/2P5/R3K1R1 b Qq - 1 15](https://stuff.passcod.name/humgur/gaming/chess/all-pawns-rooks-nothing-else.png)
+
+
