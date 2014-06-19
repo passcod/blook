@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/passcod
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://passcod.name
+  * I am passcod (https://keybase.io/passcod) on keybase.
+  * I have a public key with fingerprint E49C 3114 2E3D 10A4 69F0  86DC 6B09 4637 AE1E D85D
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "e49c31142e3d10a469f086dc6b094637ae1ed85d",
+            "host": "keybase.io",
+            "key_id": "6b094637ae1ed85d",
+            "uid": "6576ae0af4f9f9e9b68e187d39c88100",
+            "username": "passcod"
+        },
+        "service": {
+            "hostname": "passcod.name",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1403184137,
+    "expire_in": 157680000,
+    "prev": "e22c671798f1b029e8bd981df6e1497c47d347e1dd82925385962ae47694d400",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owGbwMvMwMSYzelmvk7uRizj6QOfkhiCFz2xr1ZKyk+pVLKqVspOBVNpmXnpqUUF
+RZl5JUpWSqkmlsnGhoYmRqnGKYYGiSZmlmkGFmYpyWZJBpYmZsbmiamGqSkWpilK
+OkoZ+cUgHUBjkhKLU/Uy84FiQE58ZgpQFIv6UoiEqblZYqpBYppJmmWaZaplkplF
+qqGFeYqxZbKFhaGBAUhhcWpRXmJuKlB1QWJxcXJ+ilKtjhJQsCwzORXkZJDNqAr0
+wFwdpYKi/JL85PwcoExGSUlBsRVIZ0llAUhpeWpSPNSQ+KTMvBSgv4E6ylKLijPz
+85SsDIEqk0syQaYamhgYG1qYGBqb6yilVhRkFqXGZ4JUAJ1uYQAEIHtSy0ChZWSU
+bGZuaG5pkWaYZGBkmWqRlGJpYZiSZpZqaGJpnmwC9JeJeaphSoqFkaWRqbGFqaWZ
+UWKqibmZpUmKCdizxamFeflKVsZAZyamA40szkzPSywpLUpVquXqZJJhYWBkYmBj
+ZQJFHQMXpwAsQreZ8f/TVt4zL3nBnMUvXm2RqXdbk+Od5qcWuOjfvVzLzrbu7WGc
+cgfPGXjLzLkppd5skrFsSnj+9ubTDvF1ahITJtTIm4cJH6r7G9325fLh9tdGt7Lj
+d/Pusubtvp0ezr8ibOrVJG+eZ2cdFxxMaJhz+4HcW8ZVzIsu81+/v/yOf0nFlSSP
+c3OeuxS1rIt4uoJ11f4ahV+f3m8+IrHw1KKE1ROlDjFN6+voXRGpk3GRhbVI4Vzs
+xi0ipk5TsnZoznZbW9BdYCFi4z7Zx2rTYo4Qq9u/orYfm163Ysqnz78uls4zfFnv
+KcnAl3wgc543R0a50IslyYvZt5XdOK3U6TGzfUPAPs21q55kJhx4s/6c14lZVhJP
+vj5KCs7W+sIfqrFx5qF7MxzCrizc4PhTK+oLe/Y9/YvCkRtj3u9WXNbRJaiz/F+i
+8rPn9w4JTv1YFZcpHrWNKVg9SVPW/c6qDo2yeRemfJ6bvrTK5X5gYVzDGV8e85US
+SguuyzX8SXBcG56rzb/0R05A3u5pEoyrnlYfWvqzjtXbI+Z4m01ltsb0rWcm/PIp
+e2164eadI3F/VPsOlj5dF3poIcfLYo51yQErXNLf6l756eDCynWuU3vy1ijZeZ8n
++Ze+jAivunorVzZJV0tdyC1AJrkj44HX8ZAjwkryW96r3OXy2vWI41Xk5YKPRxMn
+3hZ3Xdy3wVEjfLPu+sv5DDprePLcardyCDoAAA==
+=6i+T
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/passcod
+
+==================================================================
