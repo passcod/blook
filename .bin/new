@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+
+date=$(date +"%Y-%b-%d")
+date=${date,,}
+title="$@"
+slug=${title// /-}
+file="${date}-${slug}.md"
+
+cp ~/blog/template.md $file
+e $file
+git add $file
