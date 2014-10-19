@@ -216,12 +216,44 @@ asked for. So far so good.
 
 "So, that explains a lot, but now I have something like fifty questions."
 
-Ooh boy.
+Ooh boy. Okay, to make things simpler, could you just tell me which questions
+you have and I'll see what I have to answer?
 
-…to be continued.
+"Yeah, sure. So…
 
-"You're just going to leave me with all these questions? Hey? Hello?"
+- Why might the server not know about the address we've used to ask it a
+  question, i.e. why is that `Host` header there?
+- What's the Gecko engine? What's an engine? How is it different from a
+  browser?
+- What's the format of the `Accept` header? What are those `q=0.something`
+  things? What's the difference between `text/html` and, say `application/xml`?
+- What's the format of the `Accept-Language` header? Why is it both `en-US` and
+  `en`? Where do I change that?
+- What are `gzip` and `deflate` and why were those two picked instead of, say,
+  WinRAR? WinRAR does compression, too, doesn't it? My friend said it was
+  better than Zip.
+- Can you tell me more about the caching business? Pretty please?
+- Why is the response giving us the current date? We've got a computer, we know
+  what today is…
+- What if `Content-Type` *isn't* in the `Accept` list we sent through?
+- That `Tranfer-Encoding: chunked` thing is weird. Why would the server give us
+  the response in small bits? Can't it just give it whole?
+- The Internet doesn't run on phones anymore, there's nothing to 'hang up' and
+  'holding the line' isn't literal anymore, so what are you actually talking
+  about there?
+- So can you explain that `Vary` business and proxies?
+- `X-UA-Compatible` might only be for Internet Explorer, but what does it mean?
+- What's a frame?
+- How does Varnish make big website faster?
+- Earlier you said that when the browser got the response back, it displayed it
+  to me. All that I see in the response is text, and not even all of it, as you
+  have omitted a bunch of it. Where does the browser get the nice layout and
+  pretty pictures from just a lot of text?
+- In the `Content-Type` of the response, there's something that says
+  `charset=utf-8`. UTF-8… I feel like I've heard that before? What is it?"
 
-\*closes door behind self and runs away\*
+Firstly, that's not even fifty questions. More like half that.
 
-Nah, seriously, it's like midnight here. I'll answer your questions tomorrow.
+"You're a pedant."
+
+[Sometimes](https://blog.passcod.name/2014/mar/28/contribution-style-guide). As for answers…
