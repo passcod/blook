@@ -60,6 +60,7 @@ A better comparison is that being NB is *as* or *more* likely than to be gay.
 
 Now tell me again how non-binary people are statistical errors.
 
+[Alice]: https://twitter.com/enbygorawr
 [analysis]: http://practicalandrogyny.com/2011/07/21/uk-census-2011-summary-and-analysis/
 [beyond]: https://en.wikipedia.org/wiki/Beyond_2011
 [census]: https://en.wikipedia.org/wiki/United_Kingdom_Census_2011
