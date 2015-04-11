@@ -5,7 +5,10 @@
     <title>GPG keys - passcod.name</title>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/g/normalize@3">
     <link rel="stylesheet" href="/style.css">
-    <style>main{max-width:60ch;max-width:30rem}</style>
+    <style>
+      body,.container{position:static}
+      main{max-width:60ch;max-width:30rem}
+    </style>
   </head>
   <body>
     <div class="container">
@@ -46,11 +49,21 @@ uid   Felix Saparelli (:passcod) &lt;me@passcod.name&gt;
           </code></pre>
         </section>
         <section>
-          <h1>passcod05: (current)</h1>
-          <p><a href="passcod05.asc">Key</a>: <a href="passcod05.asc.04.sig">signed by 04</a>.</p>
+          <h1>passcod05:</h1>
+          <p><a href="passcod05.asc">Key</a>: <a href="passcod05.asc.04.sig">signed by 04</a>, <a href="passcod05.asc.06.sig">signed by 06</a>.</p>
+          <p><a href="passcod05.revok">Revocation</a>: <a href="passcod05.revok.06.sig">signed by 06</a>.</p>
           <pre><code>
 pub   4096R/AE1ED85D 2014-03-27 [expires: 2015-03-27]
 key   E49C 3114 2E3D 10A4 69F0  86DC 6B09 4637 AE1E D85D
+uid   Félix Saparelli (:passcod) &lt;felix@passcod.name&gt;
+          </code></pre>
+        </section>
+        <section>
+          <h1>passcod06:</h1>
+          <p><a href="passcod06.asc">Key</a>: <a href="passcod06.asc.05.sig">signed by 05</a>.</p>
+          <pre><code>
+pub   4096R/E44FC474 2015-04-11 [expires: 2025-04-08]
+key   C24C ED9C 5790 0009 12F3  BAB4 B948 C4BA E44F C474
 uid   Félix Saparelli (:passcod) &lt;felix@passcod.name&gt;
           </code></pre>
         </section>
