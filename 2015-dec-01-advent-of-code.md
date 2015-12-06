@@ -138,7 +138,7 @@ removing 1 from the correct variable (starting position is 0, 0) then
 after each instruction we write the coordinates to a Set. The solution is then
 simply the `.size` of the Set. (Sets only store unique values.)
 
-```
+```js
 let moves = input
   .replace(/</g, 'x-=1;')
   .replace(/>/g, 'x+=1;')
@@ -158,7 +158,7 @@ Same idea, nearly the same program, except now we need to keep track of who's
 who. We do this by using a tuple, and using either the first or the second
 value, switching after every instructions.
 
-```
+```js
 let moves = input
   .replace(/</g, 'x[who]-=1;')
   .replace(/>/g, 'x[who]+=1;')
@@ -171,5 +171,21 @@ return eval(`x=[0,0];y=[0,0];s=new Set();who=0;
 save=function(a,b){s.add([a,b].join('|'))};
 save(x[who],y[who]);${moves}s`).size
 ```
+
+## 4.1
+
+Let's bruteforce some MD5s:
+
+```js
+const crypto = require('crypto')
+hash = n => crypto.createHash('md5').update(`${input}${n}`)
+let n = 1
+while (!hash(n).digest('hex').startsWith('00000')) { n += 1 }
+return n
+```
+
+## 4.2
+
+Just modify the `.startsWith()` part.
 
 
