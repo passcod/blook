@@ -99,11 +99,11 @@ return eval(`t=0;s=0;${input.
 
 In case you're confused (mwahaha):
 
-- `.map(n => +n)` casts all items to numbers
-- `.sort((a, b) => a - b)` sorts an array numerically
 - `.slice(0, N)` takes the first N items
-- `.reduce((m, d) => m * d, 1)` product of the array
-- `.reduce((m, d) => m + d, 0)` sum of the array (used below)
+- `.map(n => +n)` casts all items to numbers
+- `.sort((a, b) => a - b)` sorts numerically
+- `.reduce((m, d) => m * d, 1)` product of all items
+- `.reduce((m, d) => m + d, 0)` sum of all items (used below)
 
 ## 2.2
 
@@ -127,4 +127,49 @@ const bows = eval(input.replace(/x/g, '*').replace(/\s+/g, '+') + '.0')
 const wrap = eval(`"${input.replace(/\s+/g, '\".split(/x/g).map(n => +n).sort((a, b) => a - b).slice(0, 2).reduce((m, d) => m + d, 0)+"')}".length`)
 return bows + wrap * 2
 ```
+
+## 3.1
+
+I only implemented the evil version of this, because I found it easier. Each
+axis (north-south, east-west) is represented as a number, together they form
+coordinates. The insight was that a pair of coordinates identified uniquely
+a particular house, so we translate each instruction to either adding or
+removing 1 from the correct variable (starting position is 0, 0) then
+after each instruction we write the coordinates to a Set. The solution is then
+simply the `.size` of the Set. (Sets only store unique values.)
+
+```
+let moves = input
+  .replace(/</g, 'x-=1;')
+  .replace(/>/g, 'x+=1;')
+  .replace(/v/g, 'y+=1;')
+  .replace(/\^/g, 'y-=1;')
+  .replace(/;/g, ';save(x,y);')
+
+// Construct and run the program:
+return eval(`x=0;y=0;s=new Set();
+save=function(a,b){s.add([a,b].join('|'))};
+save(x,y);${moves}s`).size
+```
+
+## 3.2
+
+Same idea, nearly the same program, except now we need to keep track of who's
+who. We do this by using a tuple, and using either the first or the second
+value, switching after every instructions.
+
+```
+let moves = input
+  .replace(/</g, 'x[who]-=1;')
+  .replace(/>/g, 'x[who]+=1;')
+  .replace(/v/g, 'y[who]+=1;')
+  .replace(/\^/g, 'y[who]-=1;')
+  .replace(/;/g, ';save(x[who],y[who]);who=+!who;')
+
+// Construct and run the program:
+return eval(`x=[0,0];y=[0,0];s=new Set();who=0;
+save=function(a,b){s.add([a,b].join('|'))};
+save(x[who],y[who]);${moves}s`).size
+```
+
 
