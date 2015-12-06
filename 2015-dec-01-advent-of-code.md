@@ -188,4 +188,36 @@ return n
 
 Just modify the `.startsWith()` part.
 
+## 5.1
+
+- `str.replace(/[^aeiou]/g, '').length > 2` contains at least 3 vowels
+- `null !== str.match(/(.)\1/)` contains a repeating letter
+- `null === str.match(/(ab|cd|pq|xy)/)` does not have the forbidden chars
+
+```js
+input
+  .split(/\s+/)
+  .filter(str =>
+    (str.replace(/[^aeiou]/g, '').length > 2) &&
+    (null !== str.match(/(.)\1/)) &&
+    (null === str.match(/(ab|cd|pq|xy)/))
+  )
+  .length
+```
+
+## 5.2
+
+- `null !== str.match(/(..).*\1/)` non-overlapping pairs
+- `null !== str.match(/(.).\1/)` repeat with a letter in between
+
+```js
+input
+  .split(/\s+/)
+  .filter(str =>
+    (null !== str.match(/(..).*\1/)) &&
+    (null !== str.match(/(.).\1/))
+  )
+  .length
+```
+
 
