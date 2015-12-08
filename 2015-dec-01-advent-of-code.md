@@ -220,4 +220,122 @@ input
   .length
 ```
 
+## 6.1
+
+I don't particularly want to implement a million-entry state box. So let's
+figure out a few things about the input. First, are the coordinates always from
+the top-left corner to the bottom-right, or are they sometimes of the other
+corners?
+
+Wait wait, _actually first_, let's parse the input into a more machine friendly
+data structure:
+
+```js
+let stack = input
+  .split("\n")
+  .filter(l => l !== '')
+  .map(l => {
+    let p = l.match(/(turn (on|off)|(toggle)) (\d+),(\d+) through (\d+),(\d+)/)
+    return {
+      action: p[3] || p[2],
+      from: p.slice(4,6),
+      to: p.slice(6,8)
+    }
+  })
+```
+
+Now onto analysis:
+
+```js
+let sizes = stack.map(l => [l.to[0] - l.from[0], l.to[1] - l.from[1]])
+sizes.map(s => s.map(d => d >= 0)) // If all are true, corners are all TL->BR.
+```
+
+They are. OK. To make further processing easier, let's remove all stack
+"frames" that are zero pixels wide or high:
+
+```js
+stack = stack.filter(frame => frame.from[0] !== frame.to[0] &&
+  frame.from[1] !== frame.to[1])
+```
+
+At this point I was going to look at some logic properties to try and compress
+the stack of definitions down to a manageable level, but then I thought:
+wouldn't it be fun to see the pattern that results from the instructions? So I
+went and `JSON.stringify(stack)`, carried it across to a browser's console, and
+opened up a 1000x1000 canvas.
+
+```js
+$c = $('#lightsout') // In consoles, without jQuery, `$` is an alias for
+                     // `querySelector`, and `$$` for `querySelectorAll`.
+ctx = $c.getContext('2d')
+```
+
+Now then. Turn on is easy. Turn off is easy. Toggle is... slightly harder:
+
+```js
+function cornersToDims(from, to) {
+  return [from[0], from[1], to[0] - from[0] + 1, to[1] - from[1] + 1]
+}
+
+function turnOn(from, to) {
+  ctx.fillStyle = 'white'
+  ctx.fillRect.apply(ctx, cornersToDims(from, to))
+}
+
+function turnOff(from, to) {
+  ctx.fillStyle = 'black'
+  ctx.fillRect.apply(ctx, cornersToDims(from, to))
+}
+
+function toggle(from, to) {
+  let image = ctx.getImageData.apply(ctx, cornersToDims(from, to))
+  let data = image.data
+  for (let i = 0; i < data.length; i += 4) {
+    data[i] = 255 - data[i]; // red
+    data[i + 1] = 255 - data[i + 1]; // green
+    data[i + 2] = 255 - data[i + 2]; // blue
+    // and skip the 4th value as we don't want to touch the alpha channel
+  }
+  ctx.putImageData(image, from[0], from[1])
+}
+```
+
+Okay, let's do this:
+
+```js
+turnOff([0, 0], [1000, 1000]) // Everything starts off
+stack.forEach(frame => {
+  switch (frame.action) {
+  case 'on':
+    turnOn(frame.from, frame.to)
+    break
+  case 'off':
+    turnOff(frame.from, frame.to)
+    break
+  case 'toggle':
+    toggle(frame.from, frame.to)
+    break
+  }
+})
+```
+
+![Render of the light array](http://i.imgur.com/NMovEW9.png)
+
+Uhm. Santa is into modern art, I guess?
+
+Now onto actually retrieving the number of lights that are on:
+
+```js
+let image = ctx.getImageData(0, 0, 1000, 1000)
+let data = image.data
+let counter = 0
+for (let i = 0; i < data.length; i += 4) {
+  if (data[i] === 255) { counter += 1 }
+}
+```
+
+## 6.2
+
+
 
