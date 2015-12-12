@@ -337,5 +337,40 @@ for (let i = 0; i < data.length; i += 4) {
 
 ## 6.2
 
+Oh, fuck off. Well, let's go, rewriting these functions. I'll use transparency
+to indicate brightness, which gives me a visible result while only having a
+single value to modify and query.
 
+```js
+function bright(from, to, amount) {
+  let image = ctx.getImageData.apply(ctx, cornersToDims(from, to))
+  let data = image.data
+  for (let i = 0; i < data.length; i += 4) {
+    let value = data[i + 3] + amount
+    data[i + 3] = value < 0 ? 0 : value
+  }
+  ctx.putImageData(image, from[0], from[1])
+}
 
+// Reset to yellow, zero opacity/brightness
+ctx.clearRect(0, 0, 1001, 1001)
+ctx.fillStyle = 'rgba(255,255,0,0)'
+ctx.fillRect(0, 0, 1001, 1001)
+
+stack.forEach(frame => {
+  switch (frame.action) {
+  case 'on':
+    bright(frame.from, frame.to, 1/500)
+    break
+  case 'off':
+    bright(frame.from, frame.to, -1/500)
+    break
+  case 'toggle':
+    bright(frame.from, frame.to, 2/500)
+    break
+  }
+})
+```
+
+Annnnd it didn't work, at which point I got interested by the next shiny thing,
+and gave up.
