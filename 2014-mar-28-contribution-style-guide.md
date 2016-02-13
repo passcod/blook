@@ -171,24 +171,20 @@ You should at least recognise a [few][c3] [of][c4] [the][c5] [most][c6]
 head to understand what they are and how they bind you and others.
 That will make it easier in the future and save time.
 
-### Public Domain release
+### ~~Public Domain release~~
 
-Most of *my* projects are released in the Public Domain (or licensed under
+**Update 13 Feb 2016:** This is not applicable anymore.
+
+~~Most of *my* projects are released in the Public Domain (or licensed under
 [CC0][c1] if applicable). To keep the projects free of legal trouble, you
 should include this statement (inspired by the [CC0 waiver][c2]) in your
-first pull request (I do not actually enforce this all the time):
-
-> I hereby waive all copyright and related or neighboring rights together
-> with all associated claims and causes of action with respect to this
-> work to the extent possible under the law. This waiver shall be kept in
-> effect for all future work I might contribute to this project until I
-> give written notice of the contrary.
+first pull request (I do not actually enforce this all the time):~~
 
 [c1]: https://creativecommons.org/publicdomain/zero/1.0
 [c2]: https://creativecommons.org/choose/zero/waiver
 [c3]: http://mit-license.org/
 [c4]: https://www.gnu.org/copyleft/gpl.html
-[c5]: http://opensource.org/licenses/BSD-2-Clause
+[c5]: https://spdx.org/licenses/ISC.html
 [c6]: http://opensource.org/licenses/BSD-3-Clause
 [c7]: https://www.mozilla.org/MPL/
 [c8]: https://www.apache.org/licenses/LICENSE-2.0.html
@@ -301,3 +297,13 @@ you to fix things. Your work is not the Holy Graal, it may need refining
 and modifying, getting angry because a maintainer does not see your work
 as an untouchable masterpiece is more likely to see your PR closed and
 your time wasted than it is to make things better.
+
+### Codes of Conduct
+
+Many projects, venues, and other places, physical, virtual, or otherwise,
+are adopting or have adopted Codes of Conduct. Respecting them is an
+integral part of interacting with the communities they apply to. A lot of
+what is in such Codes may seem fairly obvious, but do understand they
+exist for a reason. Besides codifying what kind of interactions is deemed
+unacceptable by the community, they define processes to allow people a
+clear way to report problems and request review, attention, and moderation.
