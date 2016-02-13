@@ -6,6 +6,6 @@ title="$@"
 slug=${title// /-}
 file="${date}-${slug}.md"
 
-cp ~/blog/template.md $file
+cp ~/write/blog/template.md $file
 e $file
 git add $file
