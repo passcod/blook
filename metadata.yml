@@ -4,7 +4,7 @@ author: 'passcod' # Default author
 header:
   title: 'Félix Saparelli'
   subtitle: 'a.k.a. passcod'
-footer: 'Dedicated to the <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/">Public Domain</a>. <a rel="alternate" href="/feed">Feed</a>.'
+footer: 'Content licensed under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. <a rel="alternate" href="/feed">Feed</a>.'
 locale:
   date: '%b %-d ‘%y'
   parents: 'Parent posts are posts that inspired, led to, or are obsoleted by this one.'
@@ -15,5 +15,5 @@ tags:
   auto-thief: I think this was inspired by HPMoR.
   foobar: Foo! Bar! Baz! Unicorns!
   document: Generic but not so generic. Generally written in the 3rd person.
-  nano: I write my NaNoWriMo on here.
+  nano: Notes on the NaNoWriMo.
   chapter: Some kind of story might be writing itself here…
