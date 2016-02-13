@@ -1,0 +1,97 @@
+This document is not binding anymore, I have revoked it as of
+Saturday 13th February 2016.
+
+---
+
+Félix Saparelli (the Principal), as verified by
+the digital signature PUBLIC.sig, which key is available
+on https://passcod.name/gpg/ hereby agrees to abide
+to the following.
+
+PUBLIC DOMAIN BLANKET LICENSE
+=============================
+
+Version 2.0.0, 19 April 2014.
+
+This document is covered by its own terms.
+
+1. Definitions
+
+- Principal: the signatory. Signature may be done by digital
+  signing of this document, and the signature file must be made
+  available with this document.
+
+- Published: Made available to the general public, for example
+  by way of listing it on the Internet at a URI that can be
+  accessed by third parties without the Principal's knowledge,
+  or by being released in a paper publication, or on broadcast
+  media, etc.
+
+- Own Work: A work that the Principal has authored, created, or
+  in any other way detains the full copyrights of.
+
+2. General Terms
+
+2.1. The Original Version (§3.1), as of the date of application
+of this document, is canceled and void.
+
+2.2. All of the Principal's Own Work is released in the Public
+Domain if such a concept exists in the applicable jurisdiction,
+or under the text of Creative Commons' Public Domain Declaration,
+version 1.0 (§3.2), except as described below:
+
+- Any Work that has a notice of any kind that is contrary to
+  releasing the Work under these terms attached to it.
+
+- Any Work that is governed, e.g. through a license of its own or
+  through any other legal process, in ways that make these terms
+  incompatible and/or not applicable.
+
+- Any Work that the Principal does not own.
+
+- Any Work that the Principal has created under employment or
+  contract to a third party.
+
+2.3. Any Work that is covered by these terms may, at any time,
+at the Principal's discretion, be placed under a different legal
+status through the application of any of the exceptions defined
+in §2.2. Past versions of the Work, up to and including the state
+of the Work just before the legal status change in question, remain
+in the Public Domain forever.
+
+2.4. These terms may be canceled and voided at the Principal's
+discretion, through public notice.
+
+2.5. These terms may be amended, modified, or updated at any
+moment, at the Principal's discretion, without public notice
+being necessary.
+
+2.5.1. These terms may not change while retaining the same version
+number.
+
+2.5.2. Any modification to these terms requires a new digital
+signature to be applicable.
+
+3. Appendices
+
+3.1. Original Version
+
+All text and code and bytes and images that I have and will
+author, barring any contrary notice on or joined to the work
+in question, or a global notice published here on passcod.name
+(which would apply to all future works — one cannot, after all,
+un-release something), is hereby released in the Public Domain,
+or licensed under CC0 or the Unlicense, whichever gives you the
+most rights. — 7th November 2012, minor amendment on 9th May 2013.
+
+3.2. Creative Commons' Public Domain Declaration
+
+Available at https://creativecommons.org/publicdomain/zero/1.0/
+
+Also available at the following locations:
+
+- https://gist.github.com/passcod/6861361
+- https://passcod.name/LICENSE.txt
+- As a LICENSE file in some works also covered by these terms
+  (as a way to explicit the release).
+- As a file adjoined to this document.

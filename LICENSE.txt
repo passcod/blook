@@ -1,3 +1,16 @@
+This header only applies to works contained in this folder. If you were
+linked to this page from another project or page, you are looking for the
+CC0 declaration below; ignore this header.
+
+Works in this folder and subfolders created *after* Saturday 13th February
+2016 are Copyright © Félix Saparelli (and may be released under a license
+when specified). Works created prior to that date are covered by the CC0.
+Modifications to works created prior to that date are covered by the CC0
+unless otherwise specified.
+
+------------------------------------------------------------------------
+
+
 Public Domain Dedication (CC0 v1.0)
 https://creativecommons.org/publicdomain/zero/1.0/
 
@@ -14,7 +27,7 @@ purposes, all without asking permission.
 
 In no way are the patent or trademark rights of any person affected by
 CC0, nor are the rights that other persons may have in the work or in how
-the work is used, such as publicity or privacy rights. 
+the work is used, such as publicity or privacy rights.
 
 Unless expressly stated otherwise, the person who associated a work with
 this deed makes no warranties about the work, and disclaims liability for
