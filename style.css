@@ -110,6 +110,16 @@ header p, footer p {
   margin: 0;
 }
 
+.avatar {
+  float: right;
+  height: 3em;
+  filter: grayscale(100%);
+}
+
+.avatar:hover, .avatar:focus, .avatar:active {
+  filter: unset;
+}
+
 section, footer {
   border-top: 1px solid #494949;
   padding-top: 1em;
