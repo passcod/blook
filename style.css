@@ -1,15 +1,14 @@
 * {
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 html {
   color: #494949;
-  font-size: 14px;
+  font-size: 0.8rem;
 }
 
 html, pre, code, kbd, samp {
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'DroidSans Mono', 'Droid Sans Mono', 'Fira Mono', 'Ubuntu Mono', monospace;
 }
 
 pre, code {
@@ -30,7 +29,6 @@ body, .container {
 
 .container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
 }
 
