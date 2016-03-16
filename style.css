@@ -110,10 +110,15 @@ header p, footer p {
   margin: 0;
 }
 
-.avatar {
+header .avatar {
   float: right;
   height: 3em;
   filter: grayscale(100%);
+}
+
+section .avatar {
+  margin: 1em 0;
+  max-width: calc(50ch - 2em);
 }
 
 .avatar:hover, .avatar:focus, .avatar:active {
