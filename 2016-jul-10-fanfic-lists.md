@@ -1,3 +1,10 @@
+---
+tags:
+  - entry
+  - fanfic
+  - fiction
+---
+
 For the past two months and a few weeks, I had given myself the challenge to
 read all fics on [this list of Harry Potter fanfics][hplist], provided they met
 my criteria and I hadn't already read them, of course. My criteria went thus:
