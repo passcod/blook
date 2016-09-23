@@ -19,27 +19,27 @@ Yet we nerds of the real world _can't do that_. We don't have superpowers, alien
 
 This is what **Gaston** represents, to me. Let me introduce you. This is Gaston:
 
-![Gaston tripping on a can](http://www.marsuproductions.com/lib/media/Gaston-115-GA.jpg)
+![Gaston tripping on a can](/gaston/tripping.jpg)
 
 He's an office junior in a busy publication house. He's clumsy, lazy, easy-going, socially-awkward, and an unrecognised genius. This is one of his minor inventions, a radio-controlled lawn mower:
 
-![Gaston falls asleep mowing the lawn](https://25.media.tumblr.com/tumblr_m586s7WWGx1rq3prxo1_500.jpg)
+![Gaston falls asleep mowing the lawn](/gaston/lawn-mower.jpg)
 
 He also probably has some ADHD symptoms, or at least [that thing where you have a million ideas and can't focus on what you're supposed to be doing](https://medium.com/@randileeharper/mental-health-adhd-ca63b1836fa1). So he has a radical solution: he goes and creates those ideas. He follows the threads and does stuff.
 
-![A few of Gaston's ideas](http://images.delcampe.com/img_large/auction/000/339/798/878_002.jpg)
+![A few of Gaston's ideas](/gaston/ideas.jpg)
 
 And yet, Gaston is hopelessly out of society's proper functioning. He isn't a role model: this isn't someone you want to emulate in every way. He's not successful, he doesn't have the recognition of his peers, and he's still despised by "normals". But this is also precisely why I think he is a better representation for nerds.
 
 You see, he _doesn't want these things_. He's not successful by society's standards, but he has fun and creates a bunch of things and clearly believes he's doing pretty well, by _his_ standards. He doesn't have the recognition of his peers, but he has good friends who are more or less as quirky as he is, and accept him for who he his. Even those who initially despise him come to a grudging respect and even occasional admiration.
 
-![Gaston's library labyrinth](https://67.media.tumblr.com/10f782ed5f4ad23eba3bade7cf314200/tumblr_inline_nlju0gsT4o1sjdbdf_1280.jpg)
+![Gaston's library labyrinth](/gaston/labyrinth.jpg)
 
 For most of the series, he has a romantic aspiration with another character, but, until the very end, it's an asexual relationship. And it's not just that our antihero is too socially awkward to initiate sex: no, both of them are happy in the relationship they share.
 
 But most importantly, Gaston fails. A lot.
 
-![Gaston and chemicals make very good friends](http://www.nerdlich.org/wp-content/uploads/2015/06/gaston-lagaffe-006-e1435401013245.jpg)
+![Gaston and chemicals make very good friends](/gaston/oops.jpg)
 
 This is a funny comic strip, and many of the gags feature Gaston's inventions, ideas, setups, and other creations going wrong, either at his or others' expense. He fails and fails and yet never fails to get back up and go on. In fact, we never see him getting back up, it happens in between the strips.
 
@@ -47,4 +47,4 @@ Gaston is never angsty nor brooding; he might not be a regular member of society
 
 And, really, that's all I've ever wanted.
 
-![Gaston hard at work](http://podcast.widoobiz.com.s3.amazonaws.com/wp-content/uploads/2015/06/gaston-lagaffe-une-600x400.png)
+![Gaston hard at work](/gaston/hard-work.png)
