@@ -17,7 +17,7 @@ parents:
   Well written. The sequel is good too, albeit much more brutal, and abandoned.
   {65k words + 33k sequel}
 
-- {HP} [893](https://www.fanfiction.net/s/7161848/34/893). Great story, good
+- {HP} [893](https://www.fanfiction.net/s/7161848/1/893). Great story, good
   writing. Unsure how accurate the Japanese/Yakuza details are (but it's gotta
   be better than Rowling's own attempts at representing asians), and the large
   amount of Japanese words and phrases embedded in the text make it somewhat
@@ -30,3 +30,10 @@ parents:
 - {HP} [Harry Potter and the Connection Reversed](https://www.fanfiction.net/s/9132770/1/Harry-Potter-and-the-Connection-Reversed).
   Very amusing little short. A bit of a Deus Ex on that Horcrux business, but
   nevermind the details, there's not enough space for them anyway. {9.5k words}
+
+- {HP} [Harry Potter and The Acts of Betrayal](https://www.fanfiction.net/s/3807777/1/Harry-Potter-and-The-Acts-of-Betrayal).
+  Short and sweet. Yes, the story manages to be sweet even while including
+  graphic depictions of sexual assault. Cathartic ending and skillful munchkin
+  lawyering. The last author note illustrates well the utter ridiculousness and
+  sheer contrarian nature of some of the cretinous parts of fandom. {78k words}
+
