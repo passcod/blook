@@ -27,3 +27,6 @@ parents:
   Consistently bad spelling and borderline grammar, but enjoyable story.
   Interesting original material. A bit too much angst at times. {370k words}
 
+- {HP} [Harry Potter and the Connection Reversed](https://www.fanfiction.net/s/9132770/1/Harry-Potter-and-the-Connection-Reversed).
+  Very amusing little short. A bit of a Deus Ex on that Horcrux business, but
+  nevermind the details, there's not enough space for them anyway. {9.5k words}
