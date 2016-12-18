@@ -37,3 +37,14 @@ parents:
   lawyering. The last author note illustrates well the utter ridiculousness and
   sheer contrarian nature of some of the cretinous parts of fandom. {78k words}
 
+- {HP/Dresden} The Denarian Trilogy: [Renegade](https://www.fanfiction.net/s/3473224/1/The-Denarian-Renegade), [Knight](https://www.fanfiction.net/s/3856581/1/The-Denarian-Knight), and [Lord](https://www.fanfiction.net/s/4359957/1/The-Denarian-Lord).
+  Good writing, great humour, manageable gore and satisfying battle scenes. Oh,
+  and let's not forget the lore and world-building of epic proportions. The
+  finale in **Lord** was exactly what was needed. There are supposedly
+  continuations, but do yourself a favour and ignore both **Variation** and
+  **Apocalypse**. They're unfinished, apparently abandoned, and reek of Bad
+  Sequel Syndrome. The only worthwhile point of note is that indeed (rot13)
+  Nznaqn Pnecragre unq n puvyq sebz ure rapbhagre jvgu Uneel. Fur'f anzrq Yvyl
+  Pnecragre naq vf nccneragyl cerggl phgr. And with that, the last plot point
+  of the series is concluded. {235k + 190k + 245k + 23k words}
+
