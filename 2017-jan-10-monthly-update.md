@@ -48,3 +48,26 @@ parents:
   Pnecragre naq vf nccneragyl cerggl phgr. And with that, the last plot point
   of the series is concluded. {235k + 190k + 245k + 23k words}
 
+- {HP} The Firebird Trilogy: [Son](https://www.fanfiction.net/s/8629685/1/Firebird-s-Son-Book-I-of-the-Firebird-Trilogy), [Song](https://www.fanfiction.net/s/9646669/1/Firebird-s-Song-Book-II-of-the-Firebird-Trilogy), and [Fury](https://www.fanfiction.net/s/10373959/1/Firebird-s-Fury-Book-III-of-the-Firebird-Trilogy).
+  Despite claiming, as is usual, that all belongs to Rowling, this fic really
+  only uses the characters and some general elements of plot. The universe is
+  one of the most original I have ever read. It is an utterly different world,
+  and extremely well built and detailed. Not content to be defined over a few
+  departure points, it is rich of several dozen centuries of history with a
+  particular focus, due to the story, around Europe, the British Isles, and the
+  Americas. But this world is dark and cruel and bleak, and that itself is a
+  terrible understatement. Content warnings for sexual and otherwise abuse,
+  exploitation, horror... and yet that feels like too little said. It is a very
+  good work. It surpasses many original, published, novels I have read in the
+  genre. But while it hooked me and wouldn't let me go as I devoured it, each
+  further installment shook me deeper. Even with an active imagination and few
+  of the 'moral' blockers on thought most my peers have, this world and its
+  inhabitants shocked me in their depravity and casual evil, but most
+  importantly, in the way it showed every single cause and character as
+  believing they were in the right, even while performing and perpetuating
+  wickedness, resulting in institutionalised malevolence in every situation and
+  at every level of society. Even the heroes, the protagonists, the good ones,
+  those trying to quite literally save the world from itself, are merely
+  _questionably good_ most of the time. It is a dark, dark work, but it is very,
+  very good. It will haunt me for while. If you at all can, **read it.**
+  {170k + 150k + 170k words}
