@@ -77,5 +77,5 @@ parents:
   at every level of society. Even the heroes, the protagonists, the good ones,
   those trying to quite literally save the world from itself, are merely
   _questionably good_ most of the time. It is a dark, dark work, but it is very,
-  very good. It will haunt me for while. If you at all can, **read it.**
+  very good. It will haunt me for a while. If you at all can, **read it.**
   {170k + 150k + 170k words}
