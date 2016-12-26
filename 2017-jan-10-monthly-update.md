@@ -7,7 +7,7 @@ parents:
 
 ## Music
 
-Didn't listen to anything new until the New Year, as is my habit. During the
+I didn't listen to anything new until the New Year, as is my habit. During the
 year, all the music I like goes into a big playlist called "Sort". Then at the
 end of the year I pick a name for my yearly playlist based on stars (first one
 was "Level Orion", then came "Rain Stars", "Llama Shepherd", and this year's
@@ -19,7 +19,21 @@ playlists I maintain ("Music for Making" for writing/coding music, "Sing",
 This year the "Sort" playlist counted over 450 songs, and took me about two
 weeks to go through. The "Carrier of the Dawn" playlist now numbers NNN tracks.
 
+While last year my listening was dominated by [Blue Man Group], [Eiffel], and
+[Woodkid], this year I've enjoyed a lot of [Jin Oki], [Thomas Bergensen], [Zero
+7], [Ásgeir], [Hiromi], and some 19th century compositors like Chopin and
+Beethoven. Of course, the full list is much more varied than just these seven.
+
 In the past 10 days I've started listening to new music again.
+
+[Blue Man Group]: https://www.blueman.com/
+[Eiffel]: http://www.eiffelnews.com/
+[Woodkid]: http://www.woodkid.com/
+[Jin Oki]: http://jinoki.net/
+[Thomas Bergensen]: http://www.thomasbergersen.com/
+[Zero 7]: http://zero7.co.uk
+[Ásgeir]: https://www.asgeirmusic.com/
+[Hiromi]: http://www.hiromiuehara.com/
 
 ## Fanfiction
 
