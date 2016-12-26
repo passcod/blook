@@ -5,6 +5,22 @@ parents:
   - "2016/dec/09/blogging-more-and-starting-on-new-year-resolutions-early"
 ---
 
+## Music
+
+Didn't listen to anything new until the New Year, as is my habit. During the
+year, all the music I like goes into a big playlist called "Sort". Then at the
+end of the year I pick a name for my yearly playlist based on stars (first one
+was "Level Orion", then came "Rain Stars", "Llama Shepherd", and this year's
+"Carrier of the Dawn"), and go through the Sort playlist sequentially, either
+discarding or sorting into the yearly playlist and/or any of the few thematic
+playlists I maintain ("Music for Making" for writing/coding music, "Sing",
+"Music Box" for songs I'd like to cover, etc).
+
+This year the "Sort" playlist counted over 450 songs, and took me about two
+weeks to go through. The "Carrier of the Dawn" playlist now numbers NNN tracks.
+
+In the past 10 days I've started listening to new music again.
+
 ## Fanfiction
 
 - {HP} [Prodigy](https://www.fanfiction.net/s/3415504/1/Prodigy).
