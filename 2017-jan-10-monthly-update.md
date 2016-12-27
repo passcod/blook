@@ -125,3 +125,9 @@ In the past 10 days I've started listening to new music again.
 
   That was fun! {75k words}
 
+- {HP} [To Be Loved](https://www.fanfiction.net/s/5599903/25/To-Be-Loved).
+
+  Interesting prompt, and although the latter plots were a bit simplistic, I
+  liked the politics, as well as the occasional insight into Dumbledore's
+  thinking. {95k words}
+
