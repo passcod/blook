@@ -5,6 +5,25 @@ parents:
   - "2016/dec/10/blogging-more-and-starting-on-new-year-resolutions-early"
 ---
 
+## Rust
+
+I've [released Cargo Watch 3.1.1][watch-3.1.1], a minor update to upgrade
+dependencies, notably the Notify library to version 3. That brought event
+debouncing, which should solve a few of the most common issues encountered.
+
+Nonetheless, Cargo Watch has been more or less supplanted by [watchexec], which
+I have to admit is a superior albeit more generic alternative. I'm debating
+retiring Cargo Watch, and focusing instead wholly on Notify. That, or making
+Cargo Watch into more of a development tool than it was, and integrating
+features such as port and socket management as first-class features, perhaps
+combining the essential functionality of Node's [nodemon] and Ruby's [foreman]
+into a single tool for the Cargo/Rust ecosystem.
+
+[foreman]: https://github.com/ddollar/foreman
+[nodemon]: https://github.com/remy/nodemon
+[watch-3.1.1]: https://twitter.com/passcod/status/813691373643698176
+[watchexec]: https://github.com/mattgreen/watchexec
+
 ## 🂻
 
 Not sure where I encountered this, but it's a Jack of Hearts. (In case you
