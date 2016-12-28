@@ -5,6 +5,21 @@ parents:
   - "2016/dec/10/blogging-more-and-starting-on-new-year-resolutions-early"
 ---
 
+## New Keyboard
+
+I finally caved and [pre-ordered][kb-tweet] a [Keyboard.io Model 01][kb]. This
+is an incredible-looking keyboard, carved out of solid wood, with an ergonomic
+split configuration, individually-sculpted keycaps, and all the trimmings. It's
+a treat. I've been lusting over it for over a year, following their production
+newsletter. I've finally decided just before the new year (the "deadline" in
+the tweet refers to them giving away an extra keycap set if pre-ordered before
+the end of 2016) that I deserve to spend a bit of money on myself, so let's go.
+
+They're hoping for a delivery around Q1 2017, I'm hoping to have it before May.
+
+[kb]: https://shop.keyboard.io
+[kb-tweet]: https://twitter.com/passcod/status/814001529057226755
+
 ## Backup & Sync
 
 I've been outlining and tentatively speccing out my "perfect" backup and sync
