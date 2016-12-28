@@ -204,3 +204,19 @@ In the past 10 days I've started listening to new music again.
   the best fic on this list, and it was a short fun read, despite all the
   feels, but it was pretty good. {190k words}
 
+- {HP} [The Forgotten Contract](https://www.fanfiction.net/s/7985543/1/The-Forgotten-Contract).
+
+  Yeah, yeah, yet another marriage contract story. What can I say? I like
+  romance, and this is one of the most popular and least sappy romance genre in
+  this fandom. I found the basis for the story interesting, and the resolution
+  swift if perhaps a bit anti-climatic. But then again, the defeat of Voldemort
+  was never the focus of the plot. The fic brushed on [some thoughts][thoughts]
+  I had while reading, namely on the influence Harry's near worship for a
+  decade, without having a real person to mellow it, would have had on society,
+  particularly regarding standards of appearance and, to a lesser extent,
+  behaviour. There was a strange consistent corruption to the spelling of some
+  words, almost as if the text had been OCR'd: notably, various 'I' or 'i'
+  letters had been replaced with '1', but not all of them. {165k words}
+
+[thoughts]: https://twitter.com/passcod/status/813949273528102912
+
