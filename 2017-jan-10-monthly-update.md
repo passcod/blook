@@ -125,9 +125,17 @@ In the past 10 days I've started listening to new music again.
 
   That was fun! {75k words}
 
-- {HP} [To Be Loved](https://www.fanfiction.net/s/5599903/25/To-Be-Loved).
+- {HP} [To Be Loved](https://www.fanfiction.net/s/5599903/1/To-Be-Loved).
 
   Interesting prompt, and although the latter plots were a bit simplistic, I
   liked the politics, as well as the occasional insight into Dumbledore's
   thinking. {95k words}
+
+- {HP} [The Bonds of Blood](https://www.fanfiction.net/s/5435295/1/The-Bonds-of-Blood).
+
+  I really like Darth Marrs' writing. The emotions and complexity of every
+  character are well-rendered, the plots are well-rounded, and the suspens is
+  heart-wrenching. Yes, I have shed some tears and my heart has hurt. It's not
+  the best fic on this list, and it was a short fun read, despite all the
+  feels, but it was pretty good. {190k words}
 
