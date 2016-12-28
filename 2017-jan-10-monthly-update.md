@@ -5,6 +5,30 @@ parents:
   - "2016/dec/10/blogging-more-and-starting-on-new-year-resolutions-early"
 ---
 
+## Backup & Sync
+
+I've been outlining and tentatively speccing out my "perfect" backup and sync
+solution. I briefly toyed with making it closed-source (to start with) but no,
+if anything comes out of it, it will be open-source just like everything else.
+
+The ideas mostly come from missing a decent and modern syncing and backup
+daemon for Linux **and** other platforms. Something fire-and-forget, quietly
+working to provide the best it can without disrupting you. Something that can
+efficiently protect against ransom/encryption worms. Something that can be
+paused to save bandwidth yet still sync the most important things right now so
+you can work collaboratively on mobile connections and not have last night's
+photos clog your upwards link. Or, even better, something that figures out that
+you're on a slow connection and automatically prioritises syncs and backups
+without intervention at all.
+
+Behind it, a library and utility that efficiently and correctly syncs a local
+and a remote, as a daemon and not just a single invocation (because Rsync
+already exists), that works on all major platforms, and completely handles that
+state may change on either side during its run. More than that, a library that
+does not mandate the actual transport or endpoints, so it can be used to power
+sync engines for not only my "something" above, but also Google Drive, Dropbox,
+etc third-party clients.
+
 ## Rust
 
 I've [released Cargo Watch 3.1.1][watch-3.1.1], a minor update to upgrade
