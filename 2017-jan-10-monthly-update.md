@@ -5,6 +5,13 @@ parents:
   - "2016/dec/10/blogging-more-and-starting-on-new-year-resolutions-early"
 ---
 
+## 🂻
+
+Not sure where I encountered this, but it's a Jack of Hearts. (In case you
+can't see, the title of this section is the Unicode symbol for that playing
+card.) Think "Jack of all trades". It means (apparently, and that's how I use
+it for me) "pan/bi-amorous and poly-amorous".
+
 ## Music
 
 I didn't listen to anything new until the New Year, as is my habit. During the
