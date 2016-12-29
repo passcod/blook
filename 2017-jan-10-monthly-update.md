@@ -82,7 +82,7 @@ playlists I maintain ("Music for Making" for writing/coding music, "Sing",
 "Music Box" for songs I'd like to cover, etc).
 
 This year the "Sort" playlist counted over 450 songs, and took me about two
-weeks to go through. The "Carrier of the Dawn" playlist now numbers NNN tracks.
+weeks to go through. The "Carrier of the Dawn" playlist now numbers 224 tracks.
 
 While last year my listening was dominated by [Blue Man Group], [Eiffel], and
 [Woodkid], this year I've enjoyed a lot of [Jin Oki], [Thomas Bergensen], [Zero
