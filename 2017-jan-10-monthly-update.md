@@ -65,6 +65,8 @@ into a single tool for the Cargo/Rust ecosystem.
 
 ## 🂻
 
+(This isn't new this month, but I got a question about it the other day.)
+
 Not sure where I encountered this, but it's a Jack of Hearts. (In case you
 can't see, the title of this section is the Unicode symbol for that playing
 card.) Think "Jack of all trades". It means (apparently, and that's how I use
