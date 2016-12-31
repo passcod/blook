@@ -222,3 +222,8 @@ In the past 10 days I've started listening to new music again.
 
 [thoughts]: https://twitter.com/passcod/status/813949273528102912
 
+Also enjoyed:
+
+- {HP} [Harry Potter and the Siren's Song](https://www.fanfiction.net/s/6307611/1/Harry-Potter-and-the-Siren-s-Song). {90k words}
+- {HP} [Rewriting History](https://www.fanfiction.net/s/4978734/1/Rewriting-History). {164k words}
+
