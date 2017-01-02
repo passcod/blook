@@ -213,8 +213,8 @@ Also enjoyed, but no lengthy comment:
 - {HP} [Return of the Marauders](https://www.fanfiction.net/s/5856625/1/The-Return-of-the-Marauders). A bit too much angst at times. {370k words}
 - {HP} [Harry Potter and the Connection Reversed](https://www.fanfiction.net/s/9132770/1/Harry-Potter-and-the-Connection-Reversed). Very amusing short. {10k words}
 - {HP} [Gryffindors Never Die](https://www.fanfiction.net/s/6452481/1/Gryffindors-Never-Die). That was fun! {75k words}
-- {HP} [Harry Potter and the Siren's Song](https://www.fanfiction.net/s/6307611/1/Harry-Potter-and-the-Siren-s-Song). {90k words}
-- {HP} [Rewriting History](https://www.fanfiction.net/s/4978734/1/Rewriting-History). {164k words}
+- {HP} [Harry Potter and the Siren's Song](https://www.fanfiction.net/s/6307611/1/Harry-Potter-and-the-Siren-s-Song). Ending was meh. {90k words}
+- {HP} [Rewriting History](https://www.fanfiction.net/s/4978734/1/Rewriting-History). Cute. {164k words}
 - {HP} [Changed Future](https://www.fanfiction.net/s/8660666/1/Changed-Future). Sequel to above, very cute. {55k words}
 - {HP} [Paid In Blood](https://www.fanfiction.net/s/9474009/1/Paid-In-Blood). Lots of shouting and mushiness. {277k words}
 
