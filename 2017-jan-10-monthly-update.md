@@ -196,7 +196,7 @@ Contains lemons. Content warning for sexual assault in at least half the fics.
   romance, and this is one of the most popular and least sappy romance genre in
   this fandom. I found the basis for the story interesting, and the resolution
   swift if perhaps a bit anti-climatic. But then again, the defeat of Voldemort
-  was never the focus of the plot. The fic brushed on [some thoughts][thoughts]
+  was never the focus of the plot. The fic brushed on [some thoughts]
   I had while reading, namely on the influence Harry's near worship for a
   decade, without having a real person to mellow it, would have had on society,
   particularly regarding standards of appearance and, to a lesser extent,
@@ -204,7 +204,24 @@ Contains lemons. Content warning for sexual assault in at least half the fics.
   words, almost as if the text had been OCR'd: notably, various 'I' or 'i'
   letters had been replaced with '1', but not all of them. {165k words}
 
-[thoughts]: https://twitter.com/passcod/status/813949273528102912
+- {HP} [To Fight The Coming Darkness](https://www.fanfiction.net/s/2686464/1/To-Fight-The-Coming-Darkness).
+
+  [Jbern] rarely disappoints. This was a fun story, but not a Humour story.
+  Typical plot of Individual!Harry going against Dumbledore, but various
+  atypical plot elements, mostly around making typically-always-good characters
+  have questionable morals and make less-than-Light decisions, and making
+  typically-always-evil characters be borderline good but forced in a bad
+  situation. It adds an interesting realism. Few bad points, but one in
+  particular (rot13): va gung lrf, gurer vf n cybg-rkphfr sbe ebznapr gb tb
+  snfgre bapr Uneel naq Fhfna ner vaibyirq, ohg _orsber_ gurer'f abg. Fb gung
+  cneg bs gur fgbel srryf n ovg gbb snfg sbe gung ernfba. Good discussions and
+  reasoning in dialogue, it changes from both naïve or
+  overcomplex-in-hopes-of-sounding-smart plans and narration simply omitting
+  planning and showing only the results. Including planning that actually feels
+  intelligent is a great addition to any story. {340k words}
+
+[Jbern]: https://www.fanfiction.net/u/940359/jbern
+[some thoughts]: https://twitter.com/passcod/status/813949273528102912
 
 Also enjoyed, but no lengthy comment:
 
