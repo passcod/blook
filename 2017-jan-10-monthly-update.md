@@ -211,7 +211,7 @@ Also enjoyed, but no lengthy comment:
 - {HP} [Yet Another Universe](https://www.fanfiction.net/s/6320683/1/Yet-Another-Universe). {65k words}
 - {HP} [Yet Again](https://www.fanfiction.net/s/7077695/1/Yet-Again). Abandoned sequel to above, darker but good. {33k words}
 - {HP} [Return of the Marauders](https://www.fanfiction.net/s/5856625/1/The-Return-of-the-Marauders). A bit too much angst at times. {370k words}
-- {HP} [Harry Potter and the Connection Reversed](https://www.fanfiction.net/s/9132770/1/Harry-Potter-and-the-Connection-Reversed). Very amusing little short. {10k words}
+- {HP} [Harry Potter and the Connection Reversed](https://www.fanfiction.net/s/9132770/1/Harry-Potter-and-the-Connection-Reversed). Very amusing short. {10k words}
 - {HP} [Gryffindors Never Die](https://www.fanfiction.net/s/6452481/1/Gryffindors-Never-Die). That was fun! {75k words}
 - {HP} [Harry Potter and the Siren's Song](https://www.fanfiction.net/s/6307611/1/Harry-Potter-and-the-Siren-s-Song). {90k words}
 - {HP} [Rewriting History](https://www.fanfiction.net/s/4978734/1/Rewriting-History). {164k words}
