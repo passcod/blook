@@ -104,17 +104,15 @@ In the past 10 days I've started listening to new music again.
 
 ## Fanfiction
 
+All in reading order within their sections. Word counts are rounded to nearest
+1 or 5k. I explored the Harry Potter fanficdom, all nearly exclusively rated M.
+
 - {HP} [Prodigy](https://www.fanfiction.net/s/3415504/1/Prodigy).
 
   Pretty good. I liked the modern take. A bit *too* prodigious perhaps, but
   that's what the title announced so who's complaining? Waaay crazy story. Do
   not read in more than one sitting, because there is SO MUCH SHIT HAPPENING
   and you'd end up horribly confused. Great stuff. {135k words}
-
-- {HP} [Yet Another Universe](https://www.fanfiction.net/s/6320683/1/Yet-Another-Universe).
-
-  Well written. The sequel is good too, albeit much more brutal, and abandoned.
-  {65k words + 33k sequel}
 
 - {HP} [893](https://www.fanfiction.net/s/7161848/1/893).
 
@@ -123,16 +121,6 @@ In the past 10 days I've started listening to new music again.
   asian ~~stereotypes~~ characters), and the large amount of Japanese words and
   phrases embedded in the text make it somewhat tougher to read than usual.
   {360k words}
-
-- {HP} [Return of the Marauders](https://www.fanfiction.net/s/5856625/1/The-Return-of-the-Marauders).
-
-  Consistently bad spelling and borderline grammar, but enjoyable story.
-  Interesting original material. A bit too much angst at times. {370k words}
-
-- {HP} [Harry Potter and the Connection Reversed](https://www.fanfiction.net/s/9132770/1/Harry-Potter-and-the-Connection-Reversed).
-
-  Very amusing little short. A bit of a Deus Ex on that Horcrux business, but
-  nevermind the details, there's not enough space for them anyway. {9.5k words}
 
 - {HP} [Harry Potter and The Acts of Betrayal](https://www.fanfiction.net/s/3807777/1/Harry-Potter-and-The-Acts-of-Betrayal).
 
@@ -151,7 +139,7 @@ In the past 10 days I've started listening to new music again.
   Sequel Syndrome. The only worthwhile point of note is that indeed (rot13)
   Nznaqn Pnecragre unq n puvyq sebz ure rapbhagre jvgu Uneel. Fur'f anzrq Yvyl
   Pnecragre naq vf nccneragyl cerggl phgr. And with that, the last plot point
-  of the series is concluded. {235k + 190k + 245k + 23k words}
+  of the series is concluded. {235k + 190k + 245k words}
 
 - {HP} The Firebird Trilogy: [Son](https://www.fanfiction.net/s/8629685/1/Firebird-s-Son-Book-I-of-the-Firebird-Trilogy), [Song](https://www.fanfiction.net/s/9646669/1/Firebird-s-Song-Book-II-of-the-Firebird-Trilogy), and [Fury](https://www.fanfiction.net/s/10373959/1/Firebird-s-Fury-Book-III-of-the-Firebird-Trilogy).
 
@@ -188,10 +176,6 @@ In the past 10 days I've started listening to new music again.
   in the background, rather about the original plot lines that make it all
   interesting). {370k words at time of writing}
 
-- {HP} [Gryffindors Never Die](https://www.fanfiction.net/s/6452481/1/Gryffindors-Never-Die).
-
-  That was fun! {75k words}
-
 - {HP} [To Be Loved](https://www.fanfiction.net/s/5599903/1/To-Be-Loved).
 
   Interesting prompt, and although the latter plots were a bit simplistic, I
@@ -222,8 +206,13 @@ In the past 10 days I've started listening to new music again.
 
 [thoughts]: https://twitter.com/passcod/status/813949273528102912
 
-Also enjoyed:
+Also enjoyed, but no lengthy comment:
 
+- {HP} [Yet Another Universe](https://www.fanfiction.net/s/6320683/1/Yet-Another-Universe). {65k words}
+- {HP} [Yet Again](https://www.fanfiction.net/s/7077695/1/Yet-Again). Abandoned sequel to above, darker but good. {33k words}
+- {HP} [Return of the Marauders](https://www.fanfiction.net/s/5856625/1/The-Return-of-the-Marauders). A bit too much angst at times. {370k words}
+- {HP} [Harry Potter and the Connection Reversed](https://www.fanfiction.net/s/9132770/1/Harry-Potter-and-the-Connection-Reversed). Very amusing little short. {10k words}
+- {HP} [Gryffindors Never Die](https://www.fanfiction.net/s/6452481/1/Gryffindors-Never-Die). That was fun! {75k words}
 - {HP} [Harry Potter and the Siren's Song](https://www.fanfiction.net/s/6307611/1/Harry-Potter-and-the-Siren-s-Song). {90k words}
 - {HP} [Rewriting History](https://www.fanfiction.net/s/4978734/1/Rewriting-History). {164k words}
 - {HP} [Changed Future](https://www.fanfiction.net/s/8660666/1/Changed-Future). Sequel to above, very cute. {55k words}
