@@ -106,6 +106,7 @@ In the past 10 days I've started listening to new music again.
 
 All in reading order within their sections. Word counts are rounded to nearest
 1 or 5k. I explored the Harry Potter fanficdom, all nearly exclusively rated M.
+Contains lemons. Content warning for sexual assault in at least half the fics.
 
 - {HP} [Prodigy](https://www.fanfiction.net/s/3415504/1/Prodigy).
 
@@ -124,8 +125,7 @@ All in reading order within their sections. Word counts are rounded to nearest
 
 - {HP} [Harry Potter and The Acts of Betrayal](https://www.fanfiction.net/s/3807777/1/Harry-Potter-and-The-Acts-of-Betrayal).
 
-  Short and sweet. Yes, the story manages to be sweet even while including
-  graphic depictions of sexual assault. Cathartic ending and skillful munchkin
+  Short and sweet. Graphic at times. Cathartic ending and skillful munchkin
   lawyering. The last author note illustrates well the utter ridiculousness and
   sheer contrarian nature of some of the cretinous parts of fandom. {78k words}
 
