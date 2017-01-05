@@ -234,4 +234,5 @@ Also enjoyed, but no lengthy comment:
 - {HP} [Rewriting History](https://www.fanfiction.net/s/4978734/1/Rewriting-History). Cute. {164k words}
 - {HP} [Changed Future](https://www.fanfiction.net/s/8660666/1/Changed-Future). Sequel to above, very cute. {55k words}
 - {HP} [Paid In Blood](https://www.fanfiction.net/s/9474009/1/Paid-In-Blood). Lots of shouting and mushiness. {277k words}
+- {HP} [The Power of the Press](https://www.fanfiction.net/s/8831374/1/The-Power-of-the-Press). Love the different viewpoints. {235k words}
 
