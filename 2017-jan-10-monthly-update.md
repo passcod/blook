@@ -220,6 +220,20 @@ Contains lemons. Content warning for sexual assault in at least half the fics.
   planning and showing only the results. Including planning that actually feels
   intelligent is a great addition to any story. {340k words}
 
+- {HP} [Pride of Time](https://www.fanfiction.net/s/7453087/50/Pride-of-Time).
+
+  This was really really good. I love Hermione time travel stories. I love when
+  all the characters have their own flame, their own passions and thoughts and
+  reasons and defects. I also really love stories that were planned out before
+  they were written, and written before they were published, as they are
+  invariably of better quality, simply due to having been revised and
+  cross-written. Contains graphic sex, but gentle and hot and furious and
+  _real_. Some scenes reminded me of sex I've had, see, that's how good and
+  real it was. Also contains instances of graphic violence, but not gore, and
+  not deeply disturbing. It covers war (both of them) and terror and torture,
+  but it's not meant to shock and disgust. If you read nothing else on this
+  list, I do recommend this one. {555k words}
+
 [Jbern]: https://www.fanfiction.net/u/940359/jbern
 [some thoughts]: https://twitter.com/passcod/status/813949273528102912
 
