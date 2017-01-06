@@ -7,16 +7,19 @@ parents:
 
 ## Tourist
 
-There's been a chapter of [Tourist] this period, so naturally I've [commented
-with my impressions][tourist-comment]. **Tourist** is [Saf]'s current serial
-novel about AI and asexuality and depression and it's great! Not only do I love
-her writing, I love the themes and the way she explores them. As mentioned in
-my comment, there's a few scenes which evoke a very particular feeling I've
+There's been two chapters of [Tourist] this period, so naturally I've commented
+with my impressions on both: [[1]][tourist-1], [[2]][tourist-2]. **Tourist** is
+[Saf]'s current serial novel about AI and asexuality and depression and it's
+great! Not only do I love her writing, I love the themes and the way she
+explores them. There's a few scenes which evoke a very particular feeling I've
 experienced, and it's fascinating that Saf is able to make me remember how that
-feeling is like just through her words.
+feeling is like just through her words. The writing was perhaps a little
+hesitant at first, but it's been getting better and better every chapter. The
+latest chapter is excellent.
 
 [Tourist]: https://notsafforwork.com/tourist/
-[tourist-comment]: https://notsafforwork.com/2016/12/23/tourist-five/#comment-415
+[tourist-1]: https://notsafforwork.com/2016/12/23/tourist-five/#comment-415
+[tourist-2]: https://notsafforwork.com/2017/01/07/tourist-six/#comment-423
 [Saf]: https://twitter.com/Wanderlustin
 
 ## New Keyboard
