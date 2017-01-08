@@ -300,4 +300,4 @@ Also enjoyed, but no lengthy comment:
 - {HP} [Changed Future](https://www.fanfiction.net/s/8660666/1/Changed-Future). Sequel to above, very cute. {55k words}
 - {HP} [Paid In Blood](https://www.fanfiction.net/s/9474009/1/Paid-In-Blood). Lots of shouting and mushiness. {277k words}
 - {HP} [The Power of the Press](https://www.fanfiction.net/s/8831374/1/The-Power-of-the-Press). Love the different viewpoints. {235k words}
-
+- {HP} [Harry Potter and the Daughters of Fate](https://www.fanfiction.net/s/11911818/2/Harry-Potter-and-the-Daughters-of-Fate). What? What! What?! {15k words}
