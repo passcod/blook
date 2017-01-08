@@ -37,6 +37,21 @@ They're hoping for a delivery around Q1 2017, I'm hoping to have it before May.
 [kb]: https://shop.keyboard.io
 [kb-tweet]: https://twitter.com/passcod/status/814001529057226755
 
+## New laptop?
+
+Not for me, yet. But my brother is looking into an upgrade before starting his
+second year at Uni (he got into med!) and was especially interested in the
+Surface Pro. One hitch: they're _very_ expensive.
+
+We may have just found out a trick, though: by getting it [through Amazon US]
+and shipping it here, we save about $600 NZD off the in-NZ price, even if we
+get it at the cheapest source here. We're looking hard to see if there's a
+catch, but so far everything looks a-ok.
+
+So if you're looking for a Surface Pro…
+
+[through Amazon US]: https://www.amazon.com/gp/product/B01606IDL0?tag=laptop-magazine-20&th=1
+
 ## Backup & Sync
 
 I've been outlining and tentatively speccing out my "perfect" backup and sync
