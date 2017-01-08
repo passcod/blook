@@ -251,6 +251,25 @@ Contains lemons. Content warning for sexual assault in at least half the fics.
   but it's not meant to shock and disgust. If you read nothing else on this
   list, I do recommend this one. {555k words}
 
+- {HP} [Harry Potter and the Rune Stone Path](https://www.fanfiction.net/s/11898648/1/Harry-Potter-and-the-Rune-Stone-Path).
+
+  This list is getting way too long, but fortunately we're two days before this
+  update goes out and the next few fics I have queued are crackfics or
+  small-length fics, so they should all make it into the short format list
+  below. Well-written, and with a delightful amount of lesbian, gay, and bi
+  characters, all presented positively, little prejudice in this regard all
+  around. Also remarkably good with letting everyone be happy with their
+  various religions, while calling out cultural misappropriation. No trans or
+  enbies that I could find, but we're getting there. Happy-ending fic, even
+  more so than the other happy-ending fics I've read recently; this is
+  positively Disney-esque in its epilogue. Although it's certainly _not_
+  Disney-esque in its contents, with sex à gogo, lots of innuendo, etc. There's
+  also violence and abuse present, this isn't an all-rainbows fest. One
+  persistent bad point: the cavalier way horrific fates are dished onto some
+  antagonists. Sure, it might seem like karmic retribution, but cheerfully
+  finishing off Malfoy by having him be taken by _human traffickers intent on
+  forcing him into prostitution_ still leaves a bad taste in. {520k words}
+
 [Jbern]: https://www.fanfiction.net/u/940359/jbern
 [some thoughts]: https://twitter.com/passcod/status/813949273528102912
 
