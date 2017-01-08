@@ -109,11 +109,11 @@ it for me) "pan/bi-amorous and poly-amorous".
 I didn't listen to anything new until the New Year, as is my habit. During the
 year, all the music I like goes into a big playlist called "Sort". Then at the
 end of the year I pick a name for my yearly playlist based on stars (first one
-was "Level Orion", then came "Rain Stars", "Llama Shepherd", and this year's
-"Carrier of the Dawn"), and go through the Sort playlist sequentially, either
-discarding or sorting into the yearly playlist and/or any of the few thematic
-playlists I maintain ("Music for Making" for writing/coding music, "Sing",
-"Music Box" for songs I'd like to cover, etc).
+was "[Level Orion]", then came "[Rain Stars]", "[Llama Shepherd]", and this
+year's "[Carrier of the Dawn]"), and go through the Sort playlist sequentially,
+either discarding or sorting into the yearly playlist and/or any of the few
+thematic playlists I maintain ("[Music for Making]" for writing/coding music,
+"Sing", "Music Box" for songs I'd like to cover, etc).
 
 This year the "Sort" playlist counted over 450 songs, and took me about two
 weeks to go through. The "Carrier of the Dawn" playlist now numbers 224 tracks.
@@ -126,13 +126,18 @@ Beethoven. Of course, the full list is much more varied than just these seven.
 In the past 10 days I've started listening to new music again.
 
 [Blue Man Group]: https://www.blueman.com/
+[Carrier of the Dawn]: https://play.spotify.com/user/passcod/playlist/4ROxOg5BYFe4SXo8YLEXrR
 [Eiffel]: http://www.eiffelnews.com/
-[Woodkid]: http://www.woodkid.com/
+[Hiromi]: http://www.hiromiuehara.com/
 [Jin Oki]: http://jinoki.net/
+[Level Orion]: https://play.spotify.com/user/passcod/playlist/5wS0AZ6nQ5BUGt36jYbvo0
+[Llama Shepherd]: https://play.spotify.com/user/passcod/playlist/5NtXFS8YFZtnDRvPNmKPOy
+[Music for Making]: https://play.spotify.com/user/passcod/playlist/15G3i15GTFluL6jgwj7f70
+[Rain Stars]: https://play.spotify.com/user/passcod/playlist/5zkHK8ynwd3NdiAbA7Q8lK
 [Thomas Bergensen]: http://www.thomasbergersen.com/
+[Woodkid]: http://www.woodkid.com/
 [Zero 7]: http://zero7.co.uk
 [Ásgeir]: https://www.asgeirmusic.com/
-[Hiromi]: http://www.hiromiuehara.com/
 
 ## Fanfiction
 
