@@ -309,3 +309,4 @@ Also enjoyed, but no lengthy comment:
 - {HP} [Paid In Blood](https://www.fanfiction.net/s/9474009/1/Paid-In-Blood). Lots of shouting and mushiness. {277k words}
 - {HP} [The Power of the Press](https://www.fanfiction.net/s/8831374/1/The-Power-of-the-Press). Love the different viewpoints. {235k words}
 - {HP} [Harry Potter and the Daughters of Fate](https://www.fanfiction.net/s/11911818/2/Harry-Potter-and-the-Daughters-of-Fate). What? What! What?! {15k words}
+- {HP} [The Fall of the House of Potter](https://www.fanfiction.net/s/7508571/1/The-Fall-of-the-house-of-Potter). {42k words}
