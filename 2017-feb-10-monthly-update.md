@@ -21,4 +21,5 @@ to the fandoms. These are all excellent.
 - {HP} [Escalation](https://www.fanfiction.net/s/7258617/1/Escalation). {3k words}
 - {HP} [Saying No](https://www.fanfiction.net/s/7274734/1/Saying-No). {120k words}
 - {HP} [The Boy Who Wasn't](https://www.fanfiction.net/s/8837099/1/The-Boy-who-wasn-t). {3.6k words}
+- {HP} [Wizards' Fall](https://www.fanfiction.net/s/8837257/5/Wizards-Fall). One story and four addenda, really. {143k words}
 
