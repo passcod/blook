@@ -16,3 +16,4 @@ to the fandoms. These are all excellent.
 
 - {HP} [Mutant Storm](https://www.fanfiction.net/s/7404056/1/Mutant-Storm). {247k words}
 - {HP} [Parallels](https://www.fanfiction.net/s/3150414/1/Parallels). {53k words}
+- {HP} [Messing with Fate](https://www.fanfiction.net/s/4859313/1/Messing-with-Fate). {0.5k words}
