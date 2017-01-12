@@ -11,6 +11,10 @@ All in reading order within their sections. Word counts are rounded to nearest
 1 or 5k. I explored the Harry Potter fanficdom, all nearly exclusively rated M.
 Contains lemons.
 
+Also enjoyed, but no lengthy comment:
+
+- {HP} [Harry Potter and the Metamorph](https://www.fanfiction.net/s/10516162/8/Harry-Potter-and-the-Metamorph). {42k words}
+
 I've been reading a lot of [Bobmin]'s stories, to honour his rich contribution
 to the fandoms. These are all excellent.
 
