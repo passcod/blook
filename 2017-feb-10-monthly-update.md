@@ -11,9 +11,22 @@ All in reading order within their sections. Word counts are rounded to nearest
 1 or 5k. I explored the Harry Potter fanficdom, all nearly exclusively rated M.
 Contains lemons.
 
+- {HP/SW Legends} [The Katarn Side](https://www.fanfiction.net/s/11576387/1/The-Katarn-Side).
+
+  A very nice tale. While I enjoyed the story, I spent a lot of it using the
+  material as both inspiration and warning, given I was writing my very own
+  Star Wars fanfic at the same time. It convinced me _not_ to write a Star Wars
+  × Harry Potter crossover, as I do not have nearly enough knowledge about the
+  Star Wars universe to pull it off. But it also gave me pointers at how to
+  interpret Jedi lore and dogma, a style guide when writing droid speech, and a
+  remedial course in basic Galactic tenets. I particularly liked the tonne of
+  potential the crossover's universe has… many stories could have been written
+  within, but this one was finished and done, and the rest is up to us readers'
+  imagination. Rated T. {135k words}
+
 Also enjoyed, but no lengthy comment:
 
-- {HP} [Harry Potter and the Metamorph](https://www.fanfiction.net/s/10516162/8/Harry-Potter-and-the-Metamorph). {42k words}
+- {HP} [Harry Potter and the Metamorph](https://www.fanfiction.net/s/10516162/1/Harry-Potter-and-the-Metamorph). {42k words}
 
 I've been reading a lot of [Bobmin]'s stories, to honour his rich contribution
 to the fandoms. These are all excellent.
