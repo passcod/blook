@@ -24,6 +24,29 @@ Contains lemons.
   within, but this one was finished and done, and the rest is up to us readers'
   imagination. Rated T. {135k words}
 
+- {SW Legends} [The Last Jedi](https://www.fanfiction.net/s/5704904/1/The-Last-Jedi).
+
+  Rated T but should have been M. Probably. This is Dune, but in the Star Wars
+  universe, with more sex and less Bene Gesserit. It does a good job of showing
+  the horror of the amount of lives lost during space conflict, when billions
+  of lives cry out in the Force, and it has an actual effect on those
+  sensitive. In the original six, there is a whole three minutes spent on the
+  destruction of a planet and millions of souls; two Jedi briefly look up and
+  say, almost deadpan, that they felt two billion souls die… and then they go
+  back to what they were doing, barely affected. In TFA, Starkiller Base
+  destroys five planets — there are no estimates I could find on the population
+  of the system, but let's estimate it in the high billions, maybe even a
+  trillion — and there is even less effect on the Force-sensitive. Like, come
+  on! Billions have just died. At least show the Force-touched having a
+  _little_ emotion here, maybe. So, in The Last Jedi, our protagonist Tobin, as
+  a youngling, witnesses the killing of "merely" thousands and feels it in the
+  Force, and it disturbs him so greatly that he has to isolate himself and cry
+  for hours at a time. A trained Jedi Knight is shown as losing control of her
+  emotions in violent manner. Even a less-monstrously-sensitive Mirakula is
+  strained and isolates herself, even while she has lived through dozens or
+  hundreds of such events already and could be thought to be inured against the
+  horror. So, anyway, I liked this fic a lot. {185k words}
+
 Also enjoyed, but no lengthy comment:
 
 - {HP} [Harry Potter and the Metamorph](https://www.fanfiction.net/s/10516162/1/Harry-Potter-and-the-Metamorph). {42k words}
