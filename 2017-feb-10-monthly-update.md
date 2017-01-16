@@ -35,7 +35,7 @@ Contains lemons.
   say, almost deadpan, that they felt two billion souls die… and then they go
   back to what they were doing, barely affected. In TFA, Starkiller Base
   destroys five planets — there are no estimates I could find on the population
-  of the system, but let's estimate it in the high dozen billions, maybe even a
+  of the system, but let's put it in the high dozen billions, maybe even half a
   trillion — and there is even less effect on the Force-sensitive. Like, come
   on! Billions have just died. At least show the Force-touched having a
   _little_ emotion here, maybe. So, in The Last Jedi, our protagonist Tobin, as
