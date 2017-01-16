@@ -35,7 +35,7 @@ Contains lemons.
   say, almost deadpan, that they felt two billion souls die… and then they go
   back to what they were doing, barely affected. In TFA, Starkiller Base
   destroys five planets — there are no estimates I could find on the population
-  of the system, but let's estimate it in the high billions, maybe even a
+  of the system, but let's estimate it in the high dozen billions, maybe even a
   trillion — and there is even less effect on the Force-sensitive. Like, come
   on! Billions have just died. At least show the Force-touched having a
   _little_ emotion here, maybe. So, in The Last Jedi, our protagonist Tobin, as
@@ -45,11 +45,12 @@ Contains lemons.
   emotions in violent manner. Even a less-monstrously-sensitive Mirakula is
   strained and isolates herself, even while she has lived through dozens or
   hundreds of such events already and could be thought to be inured against the
-  horror. So, anyway, I liked this fic a lot. {185k words}
+  horror. Anyway, as you may see, I liked this fic a lot. {185k words}
 
 Also enjoyed, but no lengthy comment:
 
 - {HP} [Harry Potter and the Metamorph](https://www.fanfiction.net/s/10516162/1/Harry-Potter-and-the-Metamorph). {42k words}
+- {HP} [Not Normal](https://www.fanfiction.net/s/7144149/1/Not-Normal). Higher description:action ratio than Tolkien. {585k words}
 
 I've been reading a lot of [Bobmin]'s stories, to honour his rich contribution
 to the fandoms. These are all excellent.
