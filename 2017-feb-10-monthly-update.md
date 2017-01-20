@@ -47,6 +47,18 @@ Contains lemons.
   hundreds of such events already and could be thought to be inured against the
   horror. Anyway, as you may see, I liked this fic a lot. {185k words}
 
+- {HP} [Innocent](https://www.fanfiction.net/s/9469064/1/Innocent), [Initiate](https://www.fanfiction.net/s/10093402/1/Initiate), [Identity](https://www.fanfiction.net/s/10858061/1/Identity), [Impose](https://www.fanfiction.net/s/11732213/1/Impose).
+
+  Good story. The plots are thought-out and I really appreciate the insight
+  into other characters. The entire Chamber of Secrets episode, in particular,
+  is as much about Ginny and her struggle against Tom, than it is about Harry
+  and Sirius and friends… and then after that, the experience didn't just
+  completely not matter, there are credible post-trauma effects, and the people
+  around don't just forget what they've been through either. Last volume is
+  unfinished at time of writing, but updated recently. I'm hoping for a
+  Harry/Ginny ship but not holding my breath: there's a lot of potential still.
+  {495k + 175k + 145k + 72k words}
+
 Also enjoyed, but no lengthy comment:
 
 - {HP} [Harry Potter and the Metamorph](https://www.fanfiction.net/s/10516162/1/Harry-Potter-and-the-Metamorph). {42k words}
