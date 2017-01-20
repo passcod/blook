@@ -5,6 +5,23 @@ parents:
   - "2017/jan/10/monthly-update"
 ---
 
+## Writing
+
+I've spent a lot of my weekends writing a Star Wars fanfic. I'm going to finish
+it before I publish, to avoid publishing and then abandoning it when I
+eventually realise I've written myself into a corner. It's completely outlined,
+and I've got some willing and eager proofreaders waiting for it, so I have
+hope.
+
+I've already got ideas for a sequel; if there's interest I might be
+working on that for a while, too. The sequel will contain [a certain ship].
+
+No title as of yet, working title of my file is SW:E:SI, but what it stands for
+was already outdated by the time I got to the middle of the outlining, so it
+will be changing.
+
+[a certain ship]: https://twitter.com/passcod/status/822330577307086849
+
 ## Fanfiction
 
 All in reading order within their sections. Word counts are rounded to nearest
