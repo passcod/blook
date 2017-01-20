@@ -63,6 +63,7 @@ Also enjoyed, but no lengthy comment:
 
 - {HP} [Harry Potter and the Metamorph](https://www.fanfiction.net/s/10516162/1/Harry-Potter-and-the-Metamorph). {42k words}
 - {HP} [Not Normal](https://www.fanfiction.net/s/7144149/1/Not-Normal). Higher description:action ratio than Tolkien. {585k words}
+- {HP} [Dimension Hopping for Beginners](https://www.fanfiction.net/s/2829366/1/Dimension-Hopping-for-Beginners). 10 chapters, 14 stories. {56k words}
 
 I've been reading a lot of [Bobmin]'s stories, to honour his rich contribution
 to the fandoms. These are all excellent.
@@ -74,5 +75,6 @@ to the fandoms. These are all excellent.
 - {HP} [Escalation](https://www.fanfiction.net/s/7258617/1/Escalation). {3k words}
 - {HP} [Saying No](https://www.fanfiction.net/s/7274734/1/Saying-No). {120k words}
 - {HP} [The Boy Who Wasn't](https://www.fanfiction.net/s/8837099/1/The-Boy-who-wasn-t). {3.6k words}
-- {HP} [Wizards' Fall](https://www.fanfiction.net/s/8837257/5/Wizards-Fall). One story and four addenda, really. {143k words}
-- {HP} [Dimension Hopping for Beginners](https://www.fanfiction.net/s/2829366/1/Dimension-Hopping-for-Beginners). 10 chapters, 14 stories. {56k words}
+- {HP} [Wizards' Fall](https://www.fanfiction.net/s/8837257/1/Wizards-Fall). One story and four addenda, really. {143k words}
+
+[Bobmin]: https://www.fanfiction.net/u/777540/Bobmin356
