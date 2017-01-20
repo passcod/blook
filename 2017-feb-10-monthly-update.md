@@ -63,4 +63,4 @@ to the fandoms. These are all excellent.
 - {HP} [Saying No](https://www.fanfiction.net/s/7274734/1/Saying-No). {120k words}
 - {HP} [The Boy Who Wasn't](https://www.fanfiction.net/s/8837099/1/The-Boy-who-wasn-t). {3.6k words}
 - {HP} [Wizards' Fall](https://www.fanfiction.net/s/8837257/5/Wizards-Fall). One story and four addenda, really. {143k words}
-
+- {HP} [Dimension Hopping for Beginners](https://www.fanfiction.net/s/2829366/1/Dimension-Hopping-for-Beginners). 10 chapters, 14 stories. {56k words}
