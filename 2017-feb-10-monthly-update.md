@@ -22,6 +22,25 @@ will be changing.
 
 [a certain ship]: https://twitter.com/passcod/status/822330577307086849
 
+## 300 Shorts
+
+I've moved my "300 Shorts" collection entirely to this blog, instead of its
+previous home on Medium. I've also added [an introductory post], which
+additionally serves as a common 'parent post' for all the shorts, taking
+advantage of my blog engine's capabilities: it will add a link from each entry
+to the main post, and add a list (with links) of all the entries onto that main
+post.
+
+I've also published two so-far-unpublished shorts into this collection. The
+first is a short poem written last year: [Unlit]. The second is a sci-fi story
+originally written for a contest: [Regulus]. It is accompanied by a few pages
+of [notes and commentary].
+
+[an introductory post]: /2015/jan/25/300-shorts
+[Unlit]: /2016/oct/14/unlit
+[Regulus]: /2016/aug/16/regulus
+[notes and commentary]: /2016/aug/16/regulus-notes
+
 ## Fanfiction
 
 All in reading order within their sections. Word counts are rounded to nearest
