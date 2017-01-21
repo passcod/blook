@@ -1,4 +1,5 @@
 ---
+title: Bruteforcing the Devil
 tags:
   - write-up
   - software

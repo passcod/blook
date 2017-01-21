@@ -1,10 +1,12 @@
 ---
+title: Self
 tags:
   - poem
   - self
+  - 300-shorts
+parents:
+  - "2015/jan/25/300-shorts"
 ---
-
-(_Also published on [Medium]._)
 
 Selflove, selfhate, selfwhatever  
 I am a professional selfhater  
@@ -25,5 +27,3 @@ Shining down; a rainbow of moonlight
 Every day, every night, every one, every all.
 
 Until one day perhaps — it’s the dream — none at all.
-
-[Medium]: https://medium.com/300-shorts/self-6abee08937cb

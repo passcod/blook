@@ -1,7 +1,11 @@
 ---
+title: The Road to Hell
 tags:
   - poem
   - hell
+  - 300-shorts
+parents:
+  - "2015/jan/25/300-shorts"
 ---
 
 We are walking on the road to hell  

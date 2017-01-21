@@ -1,8 +1,8 @@
 ---
+title: The Girl Laughing in the Dictionary
 tags:
   - oneshot
   - prose
-  - triggered
 date: Dec 31st, 2012 12:00am
 ---
 

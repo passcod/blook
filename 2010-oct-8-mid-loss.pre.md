@@ -1,10 +1,10 @@
 ---
+title: Mid-loss
 tags:
   - poem
   - love
   - death
 date: Oct 8th, 2010 12:00am
-title: Mid-loss
 ---
 
 Dark.

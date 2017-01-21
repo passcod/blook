@@ -30,11 +30,11 @@ I think there is a way to make this better:
 - __Make cuts more meaningful.__ Given the above rule, consider this: the cut-off is at 800±100px, and the content height is 905px. In this case, the cut-off would be at 800px, leaving a measly 105px below the fold. Avoid situations like this by moving the cut-off to make below-the-fold content more meaningful, e.g. at least 250px. Here, we would have a final cut-off at 655px.
 
 - __"But computing height is difficult server-side, and we don't want to do it client-side!"__ No it's not. You don't need to render the page to calculate height. Yes, it's more precise, but you can estimate it fairly easily, especially if you have good control over your styles.
-  
+
   For text: you know what your font-size is. You have a good amount of content so you can easily compute (once!) the average number of words per line. You can easily count the number of line breaks and line rules. Thus you can quickly estimate the total text height.
-  
+
   For images: either take the same route and compute (once) the average height of images, or compute it per-image (maybe you host images, and create thumbs + metadata to be able to optimise loading times; in that case you could put the image height straight from your own service).
-  
+
   Combining both, you can obtain an estimate of the content height of any given article or text, and apply cut-offs then. And of course, the results can be cached!
 
 (Screenshots are from [this Quora article](http://www.quora.com/Countries/What-do-you-think-every-foreigner-should-know-about-your-country), which you should really have a look at, at least just for the beautiful images of the world.)
