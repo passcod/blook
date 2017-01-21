@@ -100,9 +100,10 @@ Also enjoyed, but no lengthy comment:
 - {HP} [Harry Potter and the Metamorph](https://www.fanfiction.net/s/10516162/1/Harry-Potter-and-the-Metamorph). {42k words}
 - {HP} [Not Normal](https://www.fanfiction.net/s/7144149/1/Not-Normal). Higher description:action ratio than Tolkien. {585k words}
 - {HP} [Dimension Hopping for Beginners](https://www.fanfiction.net/s/2829366/1/Dimension-Hopping-for-Beginners). 10 chapters, 14 stories. {56k words}
+- {HP} [Things We Do For Love](https://www.fanfiction.net/s/8678295/1/Things-We-Do-For-Love). A bit too classic at times. Includes Bi characters! {190k words}
 
-I've been reading a lot of [Bobmin]'s stories, to honour his rich contribution
-to the fandoms. These are all excellent.
+I've been reading a lot of [Bobmin]'s stories around the middle of January, to
+honour his rich contribution to the fandoms. These are all excellent:
 
 - {HP} [Mutant Storm](https://www.fanfiction.net/s/7404056/1/Mutant-Storm). {247k words}
 - {HP} [Parallels](https://www.fanfiction.net/s/3150414/1/Parallels). {53k words}
