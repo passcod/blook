@@ -102,6 +102,7 @@ Also enjoyed, but no lengthy comment:
 - {HP} [Dimension Hopping for Beginners](https://www.fanfiction.net/s/2829366/1/Dimension-Hopping-for-Beginners). 10 chapters, 14 stories. {56k words}
 - {HP} [Things We Do For Love](https://www.fanfiction.net/s/8678295/1/Things-We-Do-For-Love). A bit too classic at times. Includes Bi characters! {190k words}
 - {HP} [The Pureblood Princess](https://www.fanfiction.net/s/6943436/1/The-Pureblood-Princess). {205k words}
+- {HP} [Harry Potter and the Betrothal Contract](https://www.fanfiction.net/s/5598642/1/Harry-Potter-and-the-Betrothal-Contract). A few infuriating unconscious patriarchy moments, but fun otherwise. {150k words}
 
 I've been reading a lot of [Bobmin]'s stories around the middle of January, to
 honour his rich contribution to the fandoms. These are all excellent:
