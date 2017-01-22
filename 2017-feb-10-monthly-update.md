@@ -101,6 +101,7 @@ Also enjoyed, but no lengthy comment:
 - {HP} [Not Normal](https://www.fanfiction.net/s/7144149/1/Not-Normal). Higher description:action ratio than Tolkien. {585k words}
 - {HP} [Dimension Hopping for Beginners](https://www.fanfiction.net/s/2829366/1/Dimension-Hopping-for-Beginners). 10 chapters, 14 stories. {56k words}
 - {HP} [Things We Do For Love](https://www.fanfiction.net/s/8678295/1/Things-We-Do-For-Love). A bit too classic at times. Includes Bi characters! {190k words}
+- {HP} [The Pureblood Princess](https://www.fanfiction.net/s/6943436/1/The-Pureblood-Princess). {205k words}
 
 I've been reading a lot of [Bobmin]'s stories around the middle of January, to
 honour his rich contribution to the fandoms. These are all excellent:
