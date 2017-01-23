@@ -104,6 +104,7 @@ Also enjoyed, but no lengthy comment:
 - {HP} [The Pureblood Princess](https://www.fanfiction.net/s/6943436/1/The-Pureblood-Princess). {205k words}
 - {HP} [Harry Potter and the Betrothal Contract](https://www.fanfiction.net/s/5598642/1/Harry-Potter-and-the-Betrothal-Contract). A few infuriating unconscious patriarchy moments, but fun otherwise. {150k words}
 - {HP} [Trouble](https://www.fanfiction.net/s/9643914/1/Trouble). Eh. {95k words}
+- {HP} [Muggle-Raised Champion](https://www.fanfiction.net/s/11610805/1/Muggle-Raised-Champion). Haphne friendship fic. Has potential; cut a bit short. {122k words}
 
 I read a lot of [Bobmin]'s stories around the middle of January, to honour his
 rich contribution to the fandoms. These are all excellent:
