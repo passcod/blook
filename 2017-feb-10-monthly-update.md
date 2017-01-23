@@ -44,8 +44,8 @@ of [notes and commentary].
 ## Fanfiction
 
 All in reading order within their sections. Word counts are rounded to nearest
-1 or 5k. I explored the Harry Potter fanficdom, all nearly exclusively rated M.
-Contains lemons.
+1 or 5k. I explored the Harry Potter fanficdom, fics rated at least T, often M.
+Contains occasional lemons. Fairly large proportion of Haphne.
 
 - {HP/SW Legends} [The Katarn Side](https://www.fanfiction.net/s/11576387/1/The-Katarn-Side).
 
@@ -103,9 +103,10 @@ Also enjoyed, but no lengthy comment:
 - {HP} [Things We Do For Love](https://www.fanfiction.net/s/8678295/1/Things-We-Do-For-Love). A bit too classic at times. Includes Bi characters! {190k words}
 - {HP} [The Pureblood Princess](https://www.fanfiction.net/s/6943436/1/The-Pureblood-Princess). {205k words}
 - {HP} [Harry Potter and the Betrothal Contract](https://www.fanfiction.net/s/5598642/1/Harry-Potter-and-the-Betrothal-Contract). A few infuriating unconscious patriarchy moments, but fun otherwise. {150k words}
+- {HP} [Trouble](https://www.fanfiction.net/s/9643914/1/Trouble). Eh. {95k words}
 
-I've been reading a lot of [Bobmin]'s stories around the middle of January, to
-honour his rich contribution to the fandoms. These are all excellent:
+I read a lot of [Bobmin]'s stories around the middle of January, to honour his
+rich contribution to the fandoms. These are all excellent:
 
 - {HP} [Mutant Storm](https://www.fanfiction.net/s/7404056/1/Mutant-Storm). {247k words}
 - {HP} [Parallels](https://www.fanfiction.net/s/3150414/1/Parallels). {53k words}
