@@ -31,10 +31,10 @@ advantage of my blog engine's capabilities: it will add a link from each entry
 to the main post, and add a list (with links) of all the entries onto that main
 post.
 
-I've also published two so-far-unpublished shorts into this collection. The
-first is a short poem written last year: [Unlit]. The second is a sci-fi story
-originally written for a contest: [Regulus]. It is accompanied by a few pages
-of [notes and commentary].
+I've also published two so-far-unpublished pieces from 2016 into this collection.
+The first is a short poem written last year: [Unlit]. The second is a sci-fi
+story originally written for a contest: [Regulus]. It is accompanied by a few
+pages of [notes and commentary].
 
 [an introductory post]: /2015/jan/25/300-shorts
 [Unlit]: /2016/oct/14/unlit
