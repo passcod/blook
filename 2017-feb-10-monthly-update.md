@@ -105,6 +105,7 @@ Also enjoyed, but no lengthy comment:
 - {HP} [Harry Potter and the Betrothal Contract](https://www.fanfiction.net/s/5598642/1/Harry-Potter-and-the-Betrothal-Contract). A few infuriating unconscious patriarchy moments, but fun otherwise. {150k words}
 - {HP} [Trouble](https://www.fanfiction.net/s/9643914/1/Trouble). Eh. {95k words}
 - {HP} [Muggle-Raised Champion](https://www.fanfiction.net/s/11610805/1/Muggle-Raised-Champion). Haphne friendship fic. Has potential; cut a bit short. {122k words}
+- {HP} The Lion's Trilogy: [Tamer](https://www.fanfiction.net/s/6311215/1/The-Lion-Tamer), [Pride](https://www.fanfiction.net/s/6554334/1/The-Lion-s-Pride), [Roar](https://www.fanfiction.net/s/6944370/1/The-Lion-s-Roar). Quite good, especially the Harry-Ron parts. {142k + 140k + 92k words}
 
 I read a lot of [Bobmin]'s stories around the middle of January, to honour his
 rich contribution to the fandoms. These are all excellent:
