@@ -1,0 +1,190 @@
+* { box-sizing: border-box; }
+
+html {
+  background-color: #f8f8f8;
+  background-image: url('leaf-a.png'), url('leaf-b.png');
+  background-repeat: repeat;
+}
+
+body {
+  --offset: 1em;
+  width: 40em;
+  margin: var(--offset) auto;
+  background: white;
+  border: calc(var(--offset) / 2) solid #eee;
+  padding: calc(var(--offset) / 2);
+  font-family: Candara, sans-serif;
+  position: relative;
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+h1, h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 0.2em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover, a:active, a:focus, a:visited {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+a:visited {
+  text-decoration-color: red;
+}
+
+a.overt {
+  text-decoration: underline;
+  position: relative;
+  margin-left: 1.5em;
+}
+
+a.overt::before {
+  content: '🌏 ';
+  position: absolute;
+  left: -1.4em;
+}
+
+header {
+  float: left;
+}
+
+header img {
+  position: absolute;
+  height: 5em;
+  width: 5em;
+  top: 0.6em;
+}
+
+header img.photo {
+  right: 6.1em;
+}
+
+header img.avatar {
+  right: 0.6em;
+}
+
+header p:not(.tagline) {
+  margin-bottom: 0;
+  line-height: 1.1;
+  color: #444;
+}
+
+header .tagline {
+  margin-top: 0.5em;
+}
+
+header a {
+  text-decoration: underline;
+  text-decoration-color: inherit !important;
+}
+
+aside {
+  --border-size: 0.3em;
+  color: rebeccapurple;
+  background: white;
+  border: var(--border-size) solid;
+  float: right;
+  margin-left: var(--offset);
+}
+
+aside h1 {
+  font-size: 1.2em;
+  border-bottom: 3px double;
+  padding: 0.1em 0.2em 0;
+}
+
+aside > *:not(h1) {
+  color: black;
+  font-size: 0.72em;
+  margin: var(--border-size);
+}
+
+aside.contact {
+  width: calc(10em + var(--border-size) * 1.5);
+  position: absolute;
+  right: calc(var(--offset) / 2 + var(--border-size) / 2);
+  top: calc(5em + var(--offset) + var(--border-size) / 2);
+}
+
+aside.contact table {
+  margin: 0;
+}
+
+aside.contact td:first-of-type {
+  font-style: italic;
+  padding-right: 0.6em;
+}
+
+aside.notify {
+  width: 15em;
+}
+
+.when, .where {
+  color: #444;
+  display: inline-block;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.when date {
+  color: slateblue;
+}
+
+.when date:hover::after {
+  content: ' (' attr(datetime) ') ';
+  color: lightblue;
+}
+
+.where::before {
+  content: '🏡 ';
+}
+
+.when::before {
+  content: '🗓 ';
+}
+
+main {
+  margin-top: 10em;
+}
+
+main section {
+  margin-bottom: 2em;
+  border-bottom: calc(var(--offset) / 3) solid lightcoral;
+}
+
+main section:last-child {
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+main section ul {
+  margin-top: 0;
+}
+
+.github .stars {
+  font-weight: bold;
+}
+
+.github .stars::before {
+  content: '★ ';
+  color: gold;
+  text-shadow: 0 0 0 black;
+  transform: scale(1.5);
+  display: inline-block;
+  margin: 0.2em;
+}
