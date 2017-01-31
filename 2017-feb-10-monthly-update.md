@@ -123,6 +123,16 @@ Contains occasional lemons. Fairly large proportion of Haphne.
   Harry/Ginny ship but not holding my breath: there's a lot of potential still.
   {495k + 175k + 145k + 72k words}
 
+- {HP} [Contractual Invalidation](https://www.fanfiction.net/s/11697407/1/Contractual-Invalidation).
+
+  Oh, that was beautifully done. It is really a work you have to read to
+  experience. A summary would not do it justice. A description could not hope
+  to cover its walks and turns. This is what people mean when they say you have
+  edit down such that only what is needed remains. It all comes together in its
+  final chapter, triggering understanding over all the previous ones, but still
+  leaving us with that uncertainty Hermione hinted to at the Grimmauld party:
+  that you cannot really be sure it was all his work, or not. {90k words}
+
 Also enjoyed, but no lengthy comment:
 
 - {HP} [Harry Potter and the Metamorph](https://www.fanfiction.net/s/10516162/1/Harry-Potter-and-the-Metamorph). {42k words}
