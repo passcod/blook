@@ -41,6 +41,13 @@ pages of [notes and commentary].
 [Regulus]: /2016/aug/16/regulus
 [notes and commentary]: /2016/aug/16/regulus-notes
 
+## Tourist
+
+Chapter Seven [made me really happy][tourist-7] and I felt more bubbly than
+usual writing its comment. Perhaps it was the ice-cream.
+
+[tourist-7]: https://notsafforwork.com/2017/01/21/tourist-seven/#comment-441
+
 ## Fanfiction
 
 All in reading order within their sections. Word counts are rounded to nearest
