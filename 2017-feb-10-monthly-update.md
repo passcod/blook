@@ -48,6 +48,27 @@ usual writing its comment. Perhaps it was the ice-cream.
 
 [tourist-7]: https://notsafforwork.com/2017/01/21/tourist-seven/#comment-441
 
+## Backup and Sync
+
+Discovered a very interesting paper, algorithm, and software: [MetaSync]. It
+provides a sync utility that can store data across several services and even
+replicate this data for maximum reliability and synchronisation speed. I have
+yet to evaluate the solution in-depth for my needs, but it certainly sounds
+promising.
+
+Ultimately, though, the software is not quite as maintained nor modern as I
+would wish it. For this reason, my next large Rust project will be to implement
+the pPaxos algorithm, the core metasync library, a CLI frontend and a sync
+Daemon, as well as some remote storage adapters (probably starting with
+Dropbox, Google Drive, MEGASync), and some local storage middleware (selective
+encryption, compression).
+
+I'll probably choose a different name, though, not only to avoid stepping on
+toes, but also because I don't quite believe "meta sync" to be a good
+descriptor for what this does.
+
+[MetaSync]: https://haneul.github.io/papers/metasync.pdf
+
 ## Fanfiction
 
 All in reading order within their sections. Word counts are rounded to nearest
