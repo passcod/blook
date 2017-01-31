@@ -136,6 +136,7 @@ Also enjoyed, but no lengthy comment:
 - {HP} The Lion's Trilogy: [Tamer](https://www.fanfiction.net/s/6311215/1/The-Lion-Tamer), [Pride](https://www.fanfiction.net/s/6554334/1/The-Lion-s-Pride), [Roar](https://www.fanfiction.net/s/6944370/1/The-Lion-s-Roar). Quite good, especially the Harry-Ron parts. {142k + 140k + 92k words}
 - {HP} [The Snake Within](https://www.fanfiction.net/s/7888771/1/The-Snake-Within). {160k words}
 - {HP} [Black Ivy](https://www.fanfiction.net/s/10322359/1/Black-Ivy). Fun, but overpowered. Fell victim to [sequel doom]. {64k words}
+- {HP} [The Demon of Hogwarts](https://www.fanfiction.net/s/9483752/1/The-Demon-of-Hogwarts). Clever and fun, but finishes abrubtly because the author lost their notes. {84k words}
 
 [sequel doom]: https://twitter.com/passcod/status/822707680347189248
 
