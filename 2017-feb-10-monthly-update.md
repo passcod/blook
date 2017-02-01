@@ -147,6 +147,7 @@ Also enjoyed, but no lengthy comment:
 - {HP} [The Snake Within](https://www.fanfiction.net/s/7888771/1/The-Snake-Within). {160k words}
 - {HP} [Black Ivy](https://www.fanfiction.net/s/10322359/1/Black-Ivy). Fun, but overpowered. Fell victim to [sequel doom]. {64k words}
 - {HP} [The Demon of Hogwarts](https://www.fanfiction.net/s/9483752/1/The-Demon-of-Hogwarts). Clever and fun, but finishes abrubtly because the author lost their notes. {84k words}
+- {HP} [Honour Thy Blood](https://www.fanfiction.net/s/12155794/1/Honour-Thy-Blood). Strong cast, bittersweet good ending. {305k words}
 
 [sequel doom]: https://twitter.com/passcod/status/822707680347189248
 
