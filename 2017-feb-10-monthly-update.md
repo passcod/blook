@@ -133,6 +133,19 @@ Contains occasional lemons. Fairly large proportion of Haphne.
   leaving us with that uncertainty Hermione hinted to at the Grimmauld party:
   that you cannot really be sure it was all his work, or not. {90k words}
 
+- {HP} [Stepping Back](https://www.fanfiction.net/s/12317784/1/Stepping-Back).
+
+  Ongoing. By [the same author][tbr] as Honour Thy Blood, and reusing the
+  original personalities and names of its supporting cast, which is an amazing
+  idea as I get to rediscover and appreciate them anew, in a much better
+  environment and not just in flashbacks, as paintings, or in history scenes.
+  Yes, this is a time travel fic. I like the way it's written, and although
+  it's not perfectly beta'd (there's homophones and awkward phrasings) it's
+  much better than HTB at that. Followed and looking forward to new chapters.
+  {100k words at time of writing}
+
+[tbr]: https://www.fanfiction.net/u/8024050/TheBlack-sResurgence
+
 Also enjoyed, but no lengthy comment:
 
 - {HP} [Harry Potter and the Metamorph](https://www.fanfiction.net/s/10516162/1/Harry-Potter-and-the-Metamorph). {42k words}
