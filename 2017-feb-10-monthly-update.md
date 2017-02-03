@@ -163,6 +163,7 @@ Also enjoyed, but no lengthy comment:
 - {HP} [Honour Thy Blood](https://www.fanfiction.net/s/12155794/1/Honour-Thy-Blood). Strong cast, bittersweet good ending. {305k words}
 - {HP} [I'm Still Here](https://www.fanfiction.net/s/9704180/1/I-m-Still-Here). Holds my attention. Ongoing. {290k words atow}
 - {HP} [Harry Potter and the Problem with Life Debts](https://www.fanfiction.net/s/11730671/1/Harry-Potter-and-the-Problem-with-Life-Debts). What problem? Too fast. Ongoing. {48k words atow}
+- {HP} Congregation Trilogy: [Second Chances](https://www.fanfiction.net/s/8769990/1/Second-Chances), [Congregation of the Asp](https://www.fanfiction.net/s/9635231/1/Harry-Potter-and-the-Congregation-of-the-Asp), [Horcrux Three](https://www.fanfiction.net/s/11107717/1/Harry-Potter-and-the-Horcrux-Three). I lost momentum to read halfway through third book. {270k + 410k + 315k words}
 
 [sequel doom]: https://twitter.com/passcod/status/822707680347189248
 
