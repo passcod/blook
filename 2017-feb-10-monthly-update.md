@@ -161,6 +161,7 @@ Also enjoyed, but no lengthy comment:
 - {HP} [Black Ivy](https://www.fanfiction.net/s/10322359/1/Black-Ivy). Fun, but overpowered. Fell victim to [sequel doom]. {64k words}
 - {HP} [The Demon of Hogwarts](https://www.fanfiction.net/s/9483752/1/The-Demon-of-Hogwarts). Clever and fun, but finishes abrubtly because the author lost their notes. {84k words}
 - {HP} [Honour Thy Blood](https://www.fanfiction.net/s/12155794/1/Honour-Thy-Blood). Strong cast, bittersweet good ending. {305k words}
+- {HP} [I'm Still Here](https://www.fanfiction.net/s/9704180/1/I-m-Still-Here). Holds my attention. Ongoing. {290k words atow}
 
 [sequel doom]: https://twitter.com/passcod/status/822707680347189248
 
