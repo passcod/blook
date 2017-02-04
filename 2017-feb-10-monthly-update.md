@@ -144,6 +144,22 @@ Contains occasional lemons. Fairly large proportion of Haphne.
   much better than HTB at that. Followed and looking forward to new chapters.
   {100k words at time of writing}
 
+- {HP} [Days to Come](https://www.fanfiction.net/s/10728064/1/Days-to-Come).
+
+  It's adult, it's sweet, it's funny, it's lively. Not lively as in it's joyful
+  and bounding and jumping around happily, but lively as in it's about life.
+  You know that quote about how grown-up fiction is about english professors
+  wondering about who to fuck, and YA fiction is about overthrowing the
+  government and picking up the pieces? This is grown-up YA fiction. The
+  government has been overthrown, the villains have been defeated, and there's
+  still the shit attitudes in society that caused it all in the first place —
+  but we're working on that. There's peace. But it's the picking up of pieces
+  that remains to be done. Recovering from all you've lived, and figuring out
+  where you're going. Treating all the fucked up stuff you've done and that's
+  still in your head. Talking to people. Getting angry and pissed off and
+  breaking up and making up and it all not being the literal end of the world.
+  Living life. And slowly getting there. {137k words}
+
 [tbr]: https://www.fanfiction.net/u/8024050/TheBlack-sResurgence
 
 Also enjoyed, but no lengthy comment:
