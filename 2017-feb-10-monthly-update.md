@@ -184,6 +184,7 @@ Also enjoyed, but no lengthy comment:
 - {HP} [A Curse of Truth](https://www.fanfiction.net/s/8586147/1/A-Curse-of-Truth). That was well planned. Nicely done. {200k words}
 - {HP} [Betrayal](https://www.fanfiction.net/s/9095016/1/Betrayal). Eeech. That was something. {21k words}
 - {HP} [Chaos of the Potter Family](https://www.fanfiction.net/s/12032761/1/Chaos-of-the-Potter-Family). Good and fun! Fast-paced but still enjoyable! {50k words}
+- {HP} [The Lies that Bind](https://www.fanfiction.net/s/6245561/1/The-Lies-that-Bind). Yeah, that was, uh, disturbing. {65k words}
 
 [sequel doom]: https://twitter.com/passcod/status/822707680347189248
 
