@@ -69,6 +69,32 @@ descriptor for what this does.
 
 [MetaSync]: https://haneul.github.io/papers/metasync.pdf
 
+## Hyperion
+
+After several years (at least four, but it gets fuzzy before then) of quiet
+research and occasional thought, I finally got the last insight into my very own
+algorithm for hypergraphs (and their somewhat-optimised subset hypermaps).
+
+My hypergraphs are optimised for a specific query: "give me all the vertices of
+all the edges that contain the given vertex." Hyperion executes that for any
+arbitrary vertex with the same time complexity as the underlying substrate. For
+a HashMap, that's O(1).
+
+Hyperion is also fairly good at memory space: it incurs only a small fixed
+overhead per-vertex and per-edge. Other implementations of bimaps, hypermaps, or
+hypergraphs use about twice the amount of memory as is input into them.
+
+Using Hyperion is mostly about thinking differently about some data. Once you
+understand that you essentially have a structure which can store _associations_
+of objects and then retrieve the entire association given _any value within_,
+in constant time… once you really understand the idea and start being able to
+apply it to problems, that's when it becomes interesting.
+
+Hyperion is not quite ready for publication, but the concept is finished and a
+full description of its algorithms — for insert, for query, for modification —
+is done in pseudocode. An initial implementation in Rust, some analysis, a few
+measurements, and better documentation remain to be completed.
+
 ## Fanfiction
 
 All in reading order within their sections. Word counts are rounded to nearest
