@@ -214,6 +214,7 @@ Also enjoyed, but no lengthy comment:
 - {HP} [Surroundings](https://www.fanfiction.net/s/10951430/1/Surroundings). Dear me the unnoticed feelings. Ongoing. {36k words atow}
 - {HP} [Unatoned](https://www.fanfiction.net/s/8262940/1/Unatoned). A real somber adult story. Depressing yet enthralling yet utterly reveling in the extraordinary mundane. {105k words}
 - {HP} [The Reunion](https://www.fanfiction.net/s/7551173/1/The-Reunion). Not too bad. I liked the first two chapters for the original storytelling device. {14k words}
+- {HP} [Lord and Ladies](https://www.fanfiction.net/s/11957089/1/Lord-and-Ladies). Starts a bit fast. {40k words}
 
 [sequel doom]: https://twitter.com/passcod/status/822707680347189248
 
