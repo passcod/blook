@@ -186,6 +186,7 @@ Also enjoyed, but no lengthy comment:
 - {HP} [Chaos of the Potter Family](https://www.fanfiction.net/s/12032761/1/Chaos-of-the-Potter-Family). Good and fun! Fast-paced but still enjoyable! {50k words}
 - {HP} [The Lies that Bind](https://www.fanfiction.net/s/6245561/1/The-Lies-that-Bind). Yeah, that was, uh, disturbing. {65k words}
 - {HP} [Surroundings](https://www.fanfiction.net/s/10951430/1/Surroundings). Dear me the unnoticed feelings. Ongoing. {36k words atow}
+- {HP} [Unatoned](https://www.fanfiction.net/s/8262940/1/Unatoned). A real somber adult story. Depressing yet enthralling yet utterly reveling in the extraordinary mundane. {105k words}
 
 [sequel doom]: https://twitter.com/passcod/status/822707680347189248
 
