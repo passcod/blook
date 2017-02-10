@@ -13,7 +13,7 @@ fanficdom, fics rated at least T, often M.
 
 - {HP} [The Brightest Witch and the Darkest House](https://www.fanfiction.net/s/11280068/78/The-Brightest-Witch-and-the-Darkest-House), followed by [The Hogwarts Six and the Darkest Wizard](https://www.fanfiction.net/s/11677935/1/The-Hogwarts-Six-and-The-Darkest-Wizard).
 
-  Has complex plots with being over-complicated, and makes very good use of
+  Has complex plots without being over-complicated, and makes very good use of
   foreshadowing and including events several chapters before they're used,
   without any flashback at all. Probably the best use of actually-explained
   time travel mechanisms I have ever read since HPMoR, and it probably
