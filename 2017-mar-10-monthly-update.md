@@ -29,3 +29,13 @@ fanficdom, fics rated at least T, often M.
   time… at any given time. And that's just the first book! The second book is
   ongoing, and I am loving it. {273k + 131k words atow}
 
+- {HP} [What's a Little Death between friends?](https://www.fanfiction.net/s/12101842/2/What-s-a-Little-Death-between-friends).
+
+  This is brilliant. Also fun and humourous and just the right amount of
+  flirty. Long chapters, lots of action: physical, verbal, and otherwise.
+  There's a very hot dominant sex scene right at the start of the second
+  chapter, preceded (at the end of the first) by a bunch of realistic in-public
+  affection and… more. It's honestly refreshing, after decidedly adult fics
+  that nevertheless ellide any actual action, and a wide corpus of fics that
+  deal with more or less horny teenagers instead of mature (*cough* as if
+  *cough*) young adults. Ongoing. {60k words atow}
