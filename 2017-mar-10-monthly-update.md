@@ -27,7 +27,7 @@ fanficdom, fics rated at least T, often M.
   planning, munchkinning, and other techniques all combine together in an
   explosive mix, with no less than three different plots going on at the same
   time… at any given time. And that's just the first book! The second book is
-  ongoing, and I am loving it. {273k + 131k words atow}
+  ongoing, and I am loving it. {274k + 131k words atow}
 
 - {HP} [What's a Little Death between friends?](https://www.fanfiction.net/s/12101842/2/What-s-a-Little-Death-between-friends).
 
@@ -39,3 +39,7 @@ fanficdom, fics rated at least T, often M.
   that nevertheless ellide any actual action, and a wide corpus of fics that
   deal with more or less horny teenagers instead of mature (*cough* as if
   *cough*) young adults. Ongoing. {60k words atow}
+
+Also enjoyed, but no lengthy comment:
+
+- {HP} [A Chance in Time](https://www.fanfiction.net/s/5928118/1/A-Chance-in-Time). Well this was sweet. {200k words}
