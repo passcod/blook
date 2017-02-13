@@ -44,3 +44,4 @@ Also enjoyed, but no lengthy comment:
 
 - {HP} [A Chance in Time](https://www.fanfiction.net/s/5928118/1/A-Chance-in-Time). Well this was sweet. {200k words}
 - {HP/X-Men} [Innocence Lost](https://www.fanfiction.net/s/12321442/1/Innocence-Lost). Mmmm. Ongoing. {38k words}
+- {HP/Marvel} [Invicible](https://www.fanfiction.net/s/11779002/1/Invincible). A good start. Ongoing. {80k words}
