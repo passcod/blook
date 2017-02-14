@@ -40,6 +40,25 @@ fanficdom, fics rated at least T, often M.
   deal with more or less horny teenagers instead of mature (*cough* as if
   *cough*) young adults. Ongoing. {60k words atow}
 
+- {HP/SW Canon} [I Still Haven't Found What I'm Looking For](https://www.fanfiction.net/s/11157943/1/I-Still-Haven-t-Found-What-I-m-Looking-For).
+
+  I love the perspective into and out of all the characters, especially Ahsoka
+  and Aayla. The analysis and conflicting opinions of power structures with the
+  Galaxy by an outsider that still has considerable experience that is more or
+  less relatable, and by insider people both accepted and excluded from those
+  same structures, yields interesting discussions packed with details. The "too
+  many assumptions" thing resonated particularly with me, as it is something I
+  struggle with when interacting with some people I know (they make assumptions
+  that are often wrong or incomplete and draw concludions from that, without
+  ever pausing to ask themselves or others about them, and end up making wild
+  accusations that are hard to defend upon on the spot (and they then take that
+  hesitation as admission of guilt, instead of confusion or trying to organise
+  thoughts) as I need to think about what their assumptions could be that they
+  end up there; the entire exercise is very frustrating). There are spectacular
+  scenes of magic and action, the forces involved are of epic proportions, and
+  yet humour both by characters and by story is pervasive. It's a good mix.
+  Ongoing. {315k words atow}
+
 Also enjoyed, but no lengthy comment:
 
 - {HP} [A Chance in Time](https://www.fanfiction.net/s/5928118/1/A-Chance-in-Time). Well this was sweet. {200k words}
