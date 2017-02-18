@@ -59,6 +59,19 @@ fanficdom, fics rated at least T, often M.
   yet humour both by characters and by story is pervasive. It's a good mix.
   Ongoing. {315k words atow}
 
+- {HP} [Behind Blue Eyes](https://www.fanfiction.net/s/2095661/1/Behind-Blue-Eyes).
+
+  It starts like any other teenager romance… well, the troubled ones anyway.
+  Girl runs away from home, boy runs away from life, they meet and fall into
+  friendship first, and then into love. But the likeness stops here. Because
+  this is a Harry Potter story, and that means heartbreak, it means danger, it
+  means terror, it means conflict and drama and emotions running high in all
+  directions. It means magic, and all the problems that brings with it. It
+  means love. And so _Behind Blue Eyes_ finishes like few other adult romances…
+  with pain and loss and success and that particular kind of happiness that is
+  like the flame of a phoenix: strong and bright, reborn many times, and
+  fiercely everlasting. {440k words}
+
 Also enjoyed, but no lengthy comment:
 
 - {HP} [A Chance in Time](https://www.fanfiction.net/s/5928118/1/A-Chance-in-Time). Well this was sweet. {200k words}
