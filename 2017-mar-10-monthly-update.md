@@ -78,3 +78,4 @@ Also enjoyed, but no lengthy comment:
 - {HP/X-Men} [Innocence Lost](https://www.fanfiction.net/s/12321442/1/Innocence-Lost). Mmmm. Ongoing. {38k words}
 - {HP/Marvel} [Invicible](https://www.fanfiction.net/s/11779002/1/Invincible). A good start. Ongoing. {80k words}
 - {HP} [Harry's Armada](https://www.fanfiction.net/s/9885587/1/Harry-s-Armada). {42k words}
+- {HP} [Nobody told Me the rules](https://www.fanfiction.net/s/10851278/1/Nobody-told-Me-the-rules). Unusually good for a crackfic, or unusually cracked for an adventure. {150k words}
