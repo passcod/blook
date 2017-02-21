@@ -4,7 +4,7 @@ tags:
   - poem
   - askpoem
   - love
-date: Aug 8th, 2013 6:50pm
+date: 2013-08-08T06:50:00+12:00
 ---
 
 tragically  

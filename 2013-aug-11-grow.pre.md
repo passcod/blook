@@ -1,9 +1,9 @@
 ---
 title: Grow
+date: 2013-08-11T03:54:00+12:00
 tags:
   - poem
   - calligraphy
-date: Aug 11th, 2013 3:54pm
 ---
 
 (to be read with a calligraphy pen or nib in your hand)

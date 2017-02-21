@@ -4,7 +4,7 @@ tags:
   - poem
   - love
   - cancer
-date: Dec 7th, 2012 12:00am
+date: 2012-12-07
 ---
 
 Oh sweet, sweet morning light  

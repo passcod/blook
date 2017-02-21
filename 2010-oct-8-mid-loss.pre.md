@@ -4,7 +4,7 @@ tags:
   - poem
   - love
   - death
-date: Oct 8th, 2010 12:00am
+date: 2010-10-08
 ---
 
 Dark.

@@ -3,7 +3,7 @@ title: The Girl Laughing in the Dictionary
 tags:
   - oneshot
   - prose
-date: Dec 31st, 2012 12:00am
+date: 2012-12-31
 ---
 
 ___Trigger Warnings: blood, death, shooting.___

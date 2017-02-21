@@ -1,11 +1,11 @@
 ---
 title: Finally, I knew
+date: 2017-01-24T05:33:00+13:00
 tags:
   - short
   - 300-shorts
 parents:
   - "2015/jan/25/300-shorts"
-date: Jan 24th, 2017 05:33am
 ---
 
 I hope, for your sake, that he forgives me.

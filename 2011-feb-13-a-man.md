@@ -2,7 +2,7 @@
 tags:
   - oneshot
   - prose
-date: Feb 13th, 2011 12:00am
+date: 2011-02-13
 ---
 
 He was lit up faintly.
