@@ -4,8 +4,10 @@ date=$(date +"%Y-%b-%d")
 date=${date,,}
 title="$@"
 slug=${title// /-}
-file="${date}-${slug}.md"
 
-cp ~/write/blog/template.md $file
-e $file
-git add $file
+dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+file="${dir}/../${date}-${slug,,}.md"
+
+cp "$dir/template.md" "$file"
+git add "$file"
+e "$file"
