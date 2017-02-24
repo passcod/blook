@@ -5,6 +5,18 @@ parents:
   - "2017/feb/10/monthly-update"
 ---
 
+## NZ.js
+
+As this is published, I am at [a JavaScript conference][NZ.js] in Wellington.
+
+Now, as I write this, I have _no idea_, but I'm pretty sure I'm going to love
+the talks and keynotes by [@aurynn], [@rockbot], [@riblah], and others.
+
+[NZ.js]: http://conference.javascript.org.nz/
+[@aurynn]: https://twitter.com/aurynn
+[@rockbot]: https://twitter.com/rockbot
+[@riblah]: https://twitter.com/riblah
+
 ## Ops School
 
 I found this: http://www.opsschool.org/ and have started on it.
