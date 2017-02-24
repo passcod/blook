@@ -5,6 +5,14 @@ parents:
   - "2017/feb/10/monthly-update"
 ---
 
+## Ops School
+
+I found this: http://www.opsschool.org/ and have started on it.
+
+I don't think I want to pivot onto Sysadmin / Syseng roles, but I am always in
+quest of knowledge to both make me more effective and combat my (waning,
+thankfully) impostor syndrome.
+
 ## Master Kylo
 
 Currently going through a second round of detailed outlining, after changing
