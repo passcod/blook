@@ -5,6 +5,37 @@ parents:
   - "2017/feb/10/monthly-update"
 ---
 
+## Master Kylo
+
+Currently going through a second round of detailed outlining, after changing
+the start point of the story and some perspective details, as well as a
+deepening of the original style. I'm still aiming for at least a beta release
+on Star Wars Day, but I may miss the mark.
+
+## Blograph
+
+The engine this blog runs on is a custom-built server designed and implemented
+over three years ago when I tired at not having the options I needed, and just
+decided to make it my way. However, I also didn't touch it much in those three
+years. Over time, some bugs were discovered, a few missing features exposed,
+and one large element of the design was never actually used — while creating a
+performance limiter nonetheless.
+
+Also, I needed an exercise to get back into Rust.
+
+So I did a blackbox reimplementation of my blog, plus a few missing features,
+minus two obsolete ones. The new version has upwards of 150 tests, sports a
+**25x** performance boost, has up-to-spec CommonMark rendering and new footnote
+support, and is a lot more _consciously designed_ instead of haphazardly put
+together. It's live; you're reading this article on an instance right now.
+
+**[Blograph]** is now also built deliberately to be possible for use by others.
+It is still highly opinionated, and quite unsuitable for non-technical authors
+— or for multiple authors, for that matter. But it can be used, if someone
+finds it useful.
+
+[Blograph]: https://github.com/passcod/blograph
+
 ## Fanfiction
 
 All in reading order within their sections. Word counts are rounded to nearest
