@@ -132,3 +132,4 @@ Also enjoyed, but no lengthy comment:
 - {HP} [Nobody told Me the rules](https://www.fanfiction.net/s/10851278/1/Nobody-told-Me-the-rules). Unusually good for a crackfic, or unusually cracked for an adventure. {150k words}
 - {HP} [Harry Potter And The Elemental's Power](https://www.fanfiction.net/s/4118383/1/Harry-Potter-And-The-Elemental-s-Power). An over-abundance of _Confringo_ variants. {410k words}
 - {HP/SW} [The Havoc side of the Force](https://www.fanfiction.net/s/8501689/1/The-Havoc-side-of-the-Force). Not sure if canon or legends, happens around the original six. Ongoing, followed. {150k words}
+- {HP/SW} [Revenge of the Wizard](https://www.fanfiction.net/s/10912355/1/Revenge-of-the-Wizard). Read the last author note! {172k words}
