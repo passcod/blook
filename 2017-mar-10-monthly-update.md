@@ -133,3 +133,4 @@ Also enjoyed, but no lengthy comment:
 - {HP} [Harry Potter And The Elemental's Power](https://www.fanfiction.net/s/4118383/1/Harry-Potter-And-The-Elemental-s-Power). An over-abundance of _Confringo_ variants. {410k words}
 - {HP/SW} [The Havoc side of the Force](https://www.fanfiction.net/s/8501689/1/The-Havoc-side-of-the-Force). Not sure if canon or legends, happens around the original six. Ongoing, followed. {150k words}
 - {HP/SW} [Revenge of the Wizard](https://www.fanfiction.net/s/10912355/1/Revenge-of-the-Wizard). Read the last author note! {172k words}
+- {HP/SW} [Broken Chains](https://www.fanfiction.net/s/7718942/1/Broken-Chains) and {HP/SW/Stargate} [The Stars Alone](https://www.fanfiction.net/s/12040341/1/The-Stars-Alone). Interesting idea of the continuous universe: SW first, then HP millions of years later, in the same universe. Another story I just read had the same idea, but inverted. {156k + 128k atow}
