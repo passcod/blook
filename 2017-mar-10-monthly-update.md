@@ -17,6 +17,18 @@ the talks and keynotes by [@aurynn], [@rockbot], [@riblah], and others.
 [@rockbot]: https://twitter.com/rockbot
 [@riblah]: https://twitter.com/riblah
 
+## Health
+
+In January, I weighed about 87kg. [In February][health-tweet], I got down to
+85kg. At the 1st of March, I weighed 84kg. Three weeks prior, my brother, who
+is an accomplished (if only by hobby) sportsman, and a second-year Med student,
+made the comment that given my stature and eating habits, he expected I could
+be _slim_ if I did just a little bit more exercise. Thus, in March, I am upping
+my exercise from a 30-minute walk three times a week to the same, but every
+day… and with an eye to increase again in, say, two months.
+
+[health-tweet]: https://twitter.com/passcod/status/828706886107082752)
+
 ## Ops School
 
 I found this: http://www.opsschool.org/ and have started on it.
