@@ -147,3 +147,4 @@ Also enjoyed, but no lengthy comment:
 - {HP/SW} [Revenge of the Wizard](https://www.fanfiction.net/s/10912355/1/Revenge-of-the-Wizard). Read the last author note! {172k words}
 - {HP/SW} [Broken Chains](https://www.fanfiction.net/s/7718942/1/Broken-Chains) and {HP/SW/Stargate} [The Stars Alone](https://www.fanfiction.net/s/12040341/1/The-Stars-Alone). Interesting idea of the continuous universe: SW first, then HP millions of years later, in the same universe. Another story I just read had the same idea, but inverted. {156k + 128k atow}
 - {SW/HP} [Harry Tano](https://www.fanfiction.net/s/9264843/1/Harry-Tano). Fandom tag reversed as it's not a Harry-in-StarWars story like many others, but a Ahsoka-in-HP story. {136k words}
+- {SW} [Free from Force](https://www.fanfiction.net/s/11171261/1/Free-from-Force). {250k words}
