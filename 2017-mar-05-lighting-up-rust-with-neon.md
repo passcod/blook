@@ -21,7 +21,7 @@ patterns that weren't obvious at first:
 
 ## Hooking up a Neon class
 
-The Neon documentation is a bit lacking right now. It's still Rust
+The [Neon documentation][neon-docs] is a bit lacking right now. It's still Rust
 documentation, which is hands down the best auto-generated documentation I've
 used, and I use it _a lot_. In fact, it being so good is the _reason_ why I use
 it a lot. Even without taking the time to write great documentation, the
@@ -187,3 +187,7 @@ Ok(array.as_value(scope))
 ```
 
 That's that for now!
+
+[Neon]: https://www.neon-bindings.com/
+[neon-docs]: https://docs.neon-bindings.com/
+[neon-tests]: https://github.com/neon-bindings/neon/tree/master/tests/
