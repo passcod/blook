@@ -141,6 +141,27 @@ fn load(call: Call) -> JsResult<JsList> {
 }
 ```
 
+### Hiding the wrapping type
+
+When I was writing tests for my binding, I found that `typeof new List()` would
+return `'WrapList'`… not what I want! I'd rather expose the "nice" name of the
+struct. So, instead of the above, I bound the actual Rust struct to a different
+name, and named the wrapping struct as the original name, like this:
+
+```rust
+use list::List as RustList;
+
+struct List(pub RustList);
+
+declare_types! {
+    pub class JsList for List {
+        init(call) { ... }
+    }
+}
+```
+
+and now this works: `typeof new List() === 'List'`.
+
 ## Making a JsArray
 
 This is much more straightforward, but I kept hitting it and then having to
