@@ -43,7 +43,8 @@ declare_types! {
 }
 ```
 
-I'd put this at the bottom of the file:
+I'd put this at the bottom of the file (making sure to have the right number of
+arguments — that caught me out once or twice):
 
 ```rust
 pub fn new(call: Call) -> JsResult<JsFoo> {
