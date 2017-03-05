@@ -56,10 +56,15 @@ performance limiter nonetheless.
 Also, I needed an exercise to get back into Rust.
 
 So I did a blackbox reimplementation of my blog, plus a few missing features,
-minus two obsolete ones. The new version has upwards of 150 tests, sports a
-**25x** performance boost, has up-to-spec CommonMark rendering and new footnote
-support, and is a lot more _consciously designed_ instead of haphazardly put
-together. It's live; you're reading this article on an instance right now.
+minus two obsolete ones. I made it a hybrid of Rust and JavaScript, using Neon
+to bridge the two. I [blogged about some patterns][neon-post] I encountered
+when wrangling the Neon bindings.
+
+The new version has upwards of 300 tests (170 on the Rust side, and more than
+that on the JS side), sports a **25x** performance boost, has up-to-spec
+CommonMark rendering and new footnote support, and is a lot more _consciously
+designed_ instead of haphazardly put together. It's live; you're reading this
+article on an instance right now.
 
 **[Blograph]** is now also built deliberately to be possible for use by others.
 It is still highly opinionated, and quite unsuitable for non-technical authors
@@ -67,6 +72,7 @@ It is still highly opinionated, and quite unsuitable for non-technical authors
 finds it useful.
 
 [Blograph]: https://github.com/passcod/blograph
+[neon-post]: https://blog.passcod.name/2017/mar/05/lighting-up-rust-with-neon
 
 ## Fanfiction
 
