@@ -128,15 +128,15 @@ fn load(call: Call) -> JsResult<JsList> {
 
     let farg = vec![JsArray::new(scope, 0)];
 
-    // Look at the `jslist::new`! That's the pattern shown just previously,
+    // Look at the `jslist::new`! That's the pattern shown just before,
     // here used to construct a Neon class within a Rust function.
     let mut list = JsFunction::new(scope, jslist::new)?
         .call(scope, JsNull::new(), farg)?
         .check::<JsList>()?;
 
     // Here's the important bit!
-    // See how the tuple struct wrapping allows you to replace the underlying
-    // Rust value? That's the entire trick!
+    // See how the tuple struct wrapping allows you to replace the
+    // underlying Rust value? That's the entire trick!
     list.grab(|list| list.0 = List::new(posts));
     Ok(list)
 }
@@ -187,11 +187,11 @@ use std::ops::DerefMut;
 
 let mut array: Handle<JsArray> = JsArray::new(scope, vec.len() as u32);
 
-// The extra scoping block is necessary to avoid mut/immut borrows clashing.
+// The extra scoping block is necessary to avoid mut/immut clashing.
 {
-    // Here's where we borrow mutably, this is necessary to get access to
-    // the underlying JsArray from the Handle, as the JsArray has the
-    // 2-parameter `.set(key: Key, value: Value)` method.
+    // Here's where we borrow mutably, this is necessary to get access
+    // to the underlying JsArray from the Handle, as the JsArray has
+    // the 2-parameter `.set(key: Key, value: Value)` method.
     let raw_array = array.deref_mut();
 
     // We have to do our own indexing.
@@ -204,7 +204,7 @@ let mut array: Handle<JsArray> = JsArray::new(scope, vec.len() as u32);
     }
 }
 
-// And here's where we borrow immutably, and also return it in the right format.
+// Here's where we borrow immutably, as well as return the right type.
 Ok(array.as_value(scope))
 ```
 
