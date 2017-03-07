@@ -1,10 +1,11 @@
 ---
+title: Adapting GNOME Classic
+frontpage: false
 tags:
   - entry
   - gnome
   - desktop
   - linux
-title: Adapting GNOME Classic
 ---
 
 The Gnome Shell has a nice little extension called "Classic Mode", available on Arch
@@ -79,7 +80,7 @@ index a6f2cd2..601dc5f 100644
 +++ b/usr/share/gnome-shell/theme/gnome-classic.css
 @@ -6,16 +6,15 @@
  */
- 
+
  #panel {
 -    background-color: #e9e9e9 !important;
 +    background-color: #000 !important;
@@ -95,12 +96,12 @@ index a6f2cd2..601dc5f 100644
 +    border-bottom: 1px solid #2d2d2d;
      app-icon-bottom-clip: 0px;
 +    color: white !important;
- 
+
  /* hrm, still no multipoint gradients
      background-image: linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0)) !important;*/
 @@ -51,7 +50,7 @@
  }
- 
+
  .panel-button {
 -    color: #555 !important;
 +    color: #ccc !important;
@@ -114,7 +115,7 @@ index a6f2cd2..601dc5f 100644
 -    color: #000 !important;
 +/*    color: #000 !important; */
    }
- 
+
    #panel:overview .panel-button:hover,
 @@ -85,7 +84,7 @@
    .panel-button:active,
@@ -127,7 +128,7 @@ index a6f2cd2..601dc5f 100644
       border-image: none !important;
 @@ -107,7 +106,7 @@
    }
- 
+
  .label-shadow {
 -    color: rgba(255,255,255,.5) !important;
 +    color: rgba(255,255,255,0) !important;
@@ -135,13 +136,13 @@ index a6f2cd2..601dc5f 100644
    .panel-button:active .label-shadow,
    .panel-button:focus .label-shadow {
 @@ -227,7 +226,7 @@
- 
+
  .system-menu-action {
      color: #e6e6e6;
 -    border: 1px solid #ddd; /* using rgba() is flaky unfortunately */
 +    border: 1px solid #666; /* using rgba() is flaky unfortunately */
  }
- 
+
  .system-menu-action:hover,
 ```
 

@@ -1,4 +1,5 @@
 ---
+frontpage: false
 tags:
   - post
   - self

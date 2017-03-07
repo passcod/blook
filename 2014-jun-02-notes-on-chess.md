@@ -1,3 +1,10 @@
+---
+frontpage: false
+tags:
+  - note
+  - chess
+---
+
 As I'm participating in two tournaments at this moment, I have various
 tidbits going through my head.
 

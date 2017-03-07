@@ -1,5 +1,6 @@
 ---
 title: "Passbot: A Gitter Logging Bot"
+frontpage: false
 tags:
   - post
   - gitter

@@ -1,5 +1,6 @@
 ---
 title: Regulus (writing notes and author commentary)
+frontpage: false
 tags:
   - commentary
   - notes
