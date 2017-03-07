@@ -2,14 +2,12 @@
 tags:
   - story
   - prose
-  - revised
-  - triggered
 date: 2013-11-08T23:30:00+13:00
 ---
 
 _This text was originally [written in 2011](http://checkthis.com/i7up), revised, and published here and [on Fictionaut](http://fictionaut.com/stories/felix-saparelli/people)._
 
-___Trigger Warnings: references to rape, trafficking, animal and human cruelty, abuse, drugs.___
+_**Warnings:** drugs, assault._
 
 There's really only two kinds of people in the world: bad people and assholes. It's not static, either. It can change. You can change. And it's not all black and white — although with that kind of a world, white is pretty rare, I tell ya — there's plenty of grey around; shades and shades of the stuff.
 

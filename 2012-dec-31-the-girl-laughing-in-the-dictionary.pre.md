@@ -6,7 +6,7 @@ tags:
 date: 2012-12-31
 ---
 
-___Trigger Warnings: blood, death, shooting.___
+_**Warnings:** death, shooting._
 
 Leaves falling. Hitting the ground softly. Steps in the snow. The shallow chaotic prints of the children and the deep purposeful ones of the adults. The grey winter sky with numerous snow flakes gliding down. The blue and red and white flashes of the police cars' lights. The white and yellow of St John's. The unbearable stillness of my brother's mitten in my hand. The silence. Silence. The moving white cloudy breaths of the officers talking. The faces of people watching: pale drawn sad tearful tense pitied fearful. The unbearable stillness of my brother's mitten in my hand. The leaves falling and hitting the ground softly. The steps in the snow. The shallow chaotic prints of the children and the deep purposeful ones of the adults. The deeper straight-in-a-line terrible terrible footprints of the coat. The blood staining the snow all around me. The memories of the shots. The memories of the fear. The memories of my brother's mitten spasming in my hand. The memories of the silence. The memories of the noise. The memories of the coat turning and leaving and leaving me alive alone among the bodies bleeding torn holed cut pierced shot bleeding of the children on the snow.
 
