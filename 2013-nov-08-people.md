@@ -1,11 +1,12 @@
 ---
+date: 2013-11-08T23:30:00+13:00
 tags:
   - story
   - prose
-date: 2013-11-08T23:30:00+13:00
+sources:
+  - http://checkthis.com/i7up
+  - http://fictionaut.com/stories/felix-saparelli/people
 ---
-
-_This text was originally [written in 2011](http://checkthis.com/i7up), revised, and published here and [on Fictionaut](http://fictionaut.com/stories/felix-saparelli/people)._
 
 _**Warnings:** drugs, assault._
 
