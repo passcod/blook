@@ -14,7 +14,7 @@ A little while ago I saw that [lz4] became a new optional dependency to [mkinitc
 
 My mkinitcpio setup is a bit more complex than the Arch default. Instead of a single __/etc/mkinitcpio.conf__, I have the following structure:
 
-```
+``` tree
 /etc/mkinitcpio
 ├── all.conf
 ├── default.conf
@@ -32,7 +32,7 @@ Anyway, enough exposition. Originally I used __cat__ for both default and fallba
 
 My `/boot/` looked like this:
 
-```
+``` plain
 49M  initramfs-linux-fallback.img
 13M  initramfs-linux-nozip.img
 4.9M initramfs-linux.img
@@ -42,7 +42,7 @@ When I initially tried `lz4`, the size jumped up to `7.0M`. No great. I adjusted
 
 To my surprise, `lz4 -9` didn't compress as well as gzip:
 
-```
+``` plain
 49M  initramfs-linux-fallback.img
 13M  initramfs-linux-nozip.img
 5.7M initramfs-linux.img
@@ -52,7 +52,7 @@ But it *seemed faster*. And that would be a big win: 800K vs. faster (de)compres
 
 ## gzip
 
-```
+``` bash
 $ time gzip initramfs-linux-nozip.img
 gzip initramfs-linux-nozip.img  0.78s user 0.01s system 99% cpu 0.793 total
 
@@ -62,7 +62,7 @@ gunzip initramfs-linux-nozip.img.gz  0.12s user 0.01s system 71% cpu 0.182 total
 
 ## LZ4
 
-```
+``` bash
 $ time lz4 -9 initramfs-linux-nozip.img
 Compressed filename will be : initramfs-linux-nozip.img.lz4
 Compressed 13149696 bytes into 5941253 bytes ==> 45.18%
