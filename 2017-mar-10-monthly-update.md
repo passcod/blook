@@ -1,4 +1,5 @@
 ---
+title: Monthly update: March 2017
 tags:
   - monthly-update
 parents:
@@ -27,11 +28,12 @@ be _slim_ if I did just a little bit more exercise. Thus, in March, I am upping
 my exercise from a 30-minute walk three times a week to the same, but every
 day… and with an eye to increase again in, say, two months.
 
-[health-tweet]: https://twitter.com/passcod/status/828706886107082752)
+[health-tweet]: https://twitter.com/passcod/status/828706886107082752
 
 ## Ops School
 
-I found this: http://www.opsschool.org/ and have started on it.
+I found this: [http://www.opsschool.org/](http://www.opsschool.org/) and have
+started on it.
 
 I don't think I want to pivot onto Sysadmin / Syseng roles, but I am always in
 quest of knowledge to both make me more effective and combat my (waning,
@@ -61,15 +63,10 @@ to bridge the two. I [blogged about some patterns][neon-post] I encountered
 when wrangling the Neon bindings.
 
 The new version has upwards of 300 tests (170 on the Rust side, and more than
-that on the JS side), sports a **25x** performance boost, has up-to-spec
+that on the JS side), sports a **5x** performance boost, has up-to-spec
 CommonMark rendering and new footnote support, and is a lot more _consciously
 designed_ instead of haphazardly put together. It's live; you're reading this
 article on an instance right now.
-
-**[Blograph]** is now also built deliberately to be possible for use by others.
-It is still highly opinionated, and quite unsuitable for non-technical authors
-— or for multiple authors, for that matter. But it can be used, if someone
-finds it useful.
 
 [Blograph]: https://github.com/passcod/blograph
 [neon-post]: https://blog.passcod.name/2017/mar/05/lighting-up-rust-with-neon
