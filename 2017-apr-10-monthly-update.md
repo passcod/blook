@@ -47,3 +47,7 @@ centimetres. I only have so much space.
 ## Fanfiction
 
 This month, taking a bit of a break, and only keeping up with stories I follow.
+The ones listed below are not _all_ I follow, but those I started before
+listing them in these Monthly Updates, and that I think deserve a mention.
+
+- {Pokémon} [The Origin of Species](https://www.fanfiction.net/s/9794740/1/Pokemon-The-Origin-of-Species).
