@@ -35,8 +35,10 @@ Universe parts of my fic, the things that are not Canon. Yes, this fic is
 multiple-points-of-departure.
 
 You can't see it because it's so faint, but there's also dates indicated. That
-busy middle bit is the period between 5 and 28–30 ABY. The leftmost of the
-board starts at 19 BBY, i.e. the end of Episode III. It's not to scale! There's
+busy middle bit before the vertical line going upwards is the period between 5
+and 28 ABY. The leftmost of the board starts at 19 BBY, i.e. the end of Episode
+III, and the rightmost lines end around 34 ABY, i.e. Episode VII. I left a bit
+of space after that for the actual action of my fic. It's not to scale! There's
 some areas that are very expanded, and some where five years take as many
 centimetres. I only have so much space.
 
