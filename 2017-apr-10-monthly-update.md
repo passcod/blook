@@ -51,3 +51,11 @@ The ones listed below are not _all_ I follow, but those I started before
 listing them in these Monthly Updates, and that I think deserve a mention.
 
 - {Pokémon} [The Origin of Species](https://www.fanfiction.net/s/9794740/1/Pokemon-The-Origin-of-Species).
+
+I managed to read a few new stories after all:
+
+- {HP} [Soul Scars](https://www.fanfiction.net/s/11923792/1/Soul-Scars). Seemed
+  creepy but the author is awesome so I read anyway… it's actually very cute and
+  an excellent exploration of the concept, written in 21 stories each following
+  a character. Very much recommended, and a short enough read to actually be
+  doable when otherwise busy. {64k words}
