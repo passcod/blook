@@ -61,5 +61,6 @@ I managed to read a few new stories after all:
   following a character. Very much recommended, and a short enough read to
   actually be doable when otherwise busy. {64k words}
 
-- {HP} [Safe Word is Devil's Snare](https://archiveofourown.org/works/8376331/chapters/19188904). This is lovely. Very NSFW. {96k words}
-- {HP} [Misplaced Moony](https://archiveofourown.org/works/8376253/chapters/19188754). Okay well I guess I'm going to binge all of ShayaLonnie's stuff. Ongoing. {64k words atow}
+- {HP} [Safe Word is Devil's Snare](https://archiveofourown.org/works/8376331). This is lovely. Very NSFW. {96k words}
+- {HP} [Misplaced Moony](https://archiveofourown.org/works/8376253). Okay well I guess I'm going to binge all of ShayaLonnie's stuff. Ongoing. {64k words atow}
+- {HP} [Amid the Chaos](https://archiveofourown.org/works/8375905). I really need to transfer my FFN skin over to AO3. {22k words atow}
