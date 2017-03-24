@@ -62,3 +62,4 @@ I managed to read a few new stories after all:
   actually be doable when otherwise busy. {64k words}
 
 - {HP} [Safe Word is Devil's Snare](https://archiveofourown.org/works/8376331/chapters/19188904). This is lovely. Very NSFW. {96k words}
+- {HP} [Misplaced Moony](https://archiveofourown.org/works/8376253/chapters/19188754). Okay well I guess I'm going to binge all of ShayaLonnie's stuff. Ongoing. {64k words atow}
