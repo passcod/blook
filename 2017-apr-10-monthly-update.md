@@ -54,8 +54,11 @@ listing them in these Monthly Updates, and that I think deserve a mention.
 
 I managed to read a few new stories after all:
 
-- {HP} [Soul Scars](https://www.fanfiction.net/s/11923792/1/Soul-Scars). Seemed
-  creepy but the author is awesome so I read anyway… it's actually very cute and
-  an excellent exploration of the concept, written in 21 stories each following
-  a character. Very much recommended, and a short enough read to actually be
-  doable when otherwise busy. {64k words}
+- {HP} [Soul Scars](https://www.fanfiction.net/s/11923792/1/Soul-Scars).
+
+  Seemed creepy but the author is awesome so I read anyway… it's actually very
+  cute and an excellent exploration of the concept, written in 21 stories each
+  following a character. Very much recommended, and a short enough read to
+  actually be doable when otherwise busy. {64k words}
+
+- {HP} [Safe Word is Devil's Snare](https://archiveofourown.org/works/8376331/chapters/19188904). This is lovely. Very NSFW. {96k words}
