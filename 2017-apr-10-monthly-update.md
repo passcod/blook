@@ -64,3 +64,4 @@ I managed to read a few new stories after all:
 - {HP} [Safe Word is Devil's Snare](https://archiveofourown.org/works/8376331). This is lovely. Very NSFW. {96k words}
 - {HP} [Misplaced Moony](https://archiveofourown.org/works/8376253). Okay well I guess I'm going to binge all of ShayaLonnie's stuff. Ongoing. {64k words atow}
 - {HP} [Amid the Chaos](https://archiveofourown.org/works/8375905). I really need to transfer my FFN skin over to AO3. {22k words atow}
+- {HP} [Storm of Yesterday](https://archiveofourown.org/works/8850352). Thank you for the tears, wanker! {130k words}
