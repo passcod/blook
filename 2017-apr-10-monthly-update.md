@@ -66,3 +66,4 @@ I managed to read a few new stories after all:
 - {HP} [Amid the Chaos](https://archiveofourown.org/works/8375905). I really need to transfer my FFN skin over to AO3. {22k words atow}
 - {HP} [Storm of Yesterday](https://archiveofourown.org/works/8850352). Thank you for the tears, wanker! {130k words}
 - {HP} [The Reclamation of Black Magic](https://archiveofourown.org/works/8374798). I love rituals and good!Blacks. {105k words atow}
+- {HP} [Arx Domus Nigrae](https://www.fanfiction.net/s/10506441/1/Arx-Domus-Nigrae). Guess who this was recommended by. {113k words atow}
