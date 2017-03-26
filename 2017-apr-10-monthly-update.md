@@ -44,6 +44,13 @@ centimetres. I only have so much space.
 
 [mk-timeline]: https://twitter.com/passcod/status/843336749388447744
 
+## Original Fiction
+
+Those are original serial fiction I follow and have read one or more chapters
+of, this month. Genre is in brackets.
+
+- {Superhero} [Tieshaunn](https://tieshaunn.wordpress.com).
+
 ## Fanfiction
 
 This month, taking a bit of a break, and only keeping up with stories I follow.
