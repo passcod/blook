@@ -52,6 +52,7 @@ listing them in these Monthly Updates, and that I think deserve a mention.
 
 - {Pokémon} [The Origin of Species](https://www.fanfiction.net/s/9794740/1/Pokemon-The-Origin-of-Species).
 - {Pokémon} [The Line](https://www.fanfiction.net/s/11273833/1/Pok%C3%A9mon-The-Line).
+- {HP} [In enemy waters](https://www.fanfiction.net/s/11685990/1/In-enemy-waters).
 
 I managed to read a few new stories after all:
 
