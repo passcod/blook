@@ -68,3 +68,4 @@ I managed to read a few new stories after all:
 - {HP} [The Reclamation of Black Magic](https://archiveofourown.org/works/8374798). I love rituals and good!Blacks. {105k words atow}
 - {HP} [Arx Domus Nigrae](https://www.fanfiction.net/s/10506441/1/Arx-Domus-Nigrae). Guess who this was recommended by. {113k words atow}
 - {HP} [Nihil est ab Omni Parte Beatum](https://archiveofourown.org/works/5733457). The Latin titles really has it. {108k words}
+- {SW} [Tomorrow (there'll be more of us)](https://archiveofourown.org/works/5648131). Perfect. {3k words}
