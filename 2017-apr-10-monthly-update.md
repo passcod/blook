@@ -61,6 +61,7 @@ listing them in these Monthly Updates, and that I think deserve a mention.
 - {Pokémon} [The Line](https://www.fanfiction.net/s/11273833/1/Pok%C3%A9mon-The-Line).
 - {HP} [In enemy waters](https://www.fanfiction.net/s/11685990/1/In-enemy-waters).
 - {LotR} [The Shadow War](https://www.fanfiction.net/s/10853714/1/The-Shadow-War).
+- {Naruto} [A Drop of Poison](https://www.fanfiction.net/s/4573620/1/A-Drop-of-Poison).
 
 I managed to read a few new stories after all:
 
