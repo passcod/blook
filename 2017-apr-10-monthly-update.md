@@ -75,7 +75,8 @@ of, this month. Genre is in brackets.
 - {Superhero} [Tieshaunn](https://tieshaunn.wordpress.com).
 - {Renaissance Fantasy} [Twisted Cogs](https://twistedcogs.wordpress.com/).
 - {Magic Fantasy} [Mother of Learning](https://www.fictionpress.com/s/2961893/1/Mother-of-Learning).
-- {Mystery} [Tourist](https://notsafforwork.com/tourist/)
+- {Superhero} [Anathema](https://anathemaserial.wordpress.com/).
+- {Mystery} [Tourist](https://notsafforwork.com/tourist/).
 
 ## Fanfiction
 
@@ -88,6 +89,7 @@ listing them in these Monthly Updates, and that I think deserve a mention.
 - {HP} [In enemy waters](https://www.fanfiction.net/s/11685990/1/In-enemy-waters).
 - {LotR} [The Shadow War](https://www.fanfiction.net/s/10853714/1/The-Shadow-War).
 - {Naruto} [A Drop of Poison](https://www.fanfiction.net/s/4573620/1/A-Drop-of-Poison).
+- {HP} [Hogwarts Battle School](https://www.fanfiction.net/s/8379655/1/Hogwarts-Battle-School).
 
 I managed to read a few new stories after all:
 
