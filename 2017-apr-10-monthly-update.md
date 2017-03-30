@@ -73,6 +73,8 @@ Those are original serial fiction I follow and have read one or more chapters
 of, this month. Genre is in brackets.
 
 - {Superhero} [Tieshaunn](https://tieshaunn.wordpress.com).
+- {Renaissance Fantasy} [Twisted Cogs](https://twistedcogs.wordpress.com/).
+- {Magic Fantasy} [Mother of Learning](https://www.fictionpress.com/s/2961893/1/Mother-of-Learning).
 
 ## Fanfiction
 
