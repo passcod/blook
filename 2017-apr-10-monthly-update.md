@@ -20,9 +20,7 @@ maybe a couple others were merely _meh_. But overall? great stuff.
 
 ## Master Kylo
 
-A bit stalled. I've got the material, and the inspiration is there, but the
-time is lacking. Most probably going to miss the May 4th goal, but should have
-something out by mid-year, I think.
+(That title will have to change, but I'm bad at titles.)
 
 I [tweeted an (intentionally) blurry photo][mk-timeline] of a timeline I put up
 on my whiteboard. That was a progress shot: its current state is quite a bit
@@ -41,6 +39,31 @@ III, and the rightmost lines end around 34 ABY, i.e. Episode VII. I left a bit
 of space after that for the actual action of my fic. It's not to scale! There's
 some areas that are very expanded, and some where five years take as many
 centimetres. I only have so much space.
+
+I'm now aiming to have a solid detailed outline for Part 1 of the fic, covering
+about 0 ABY until 33 ABY in various threads, as well as at least 15% of the
+material drafted out, for my birthday. That's in a month or so.
+
+The fic has shifted focus a few times during the last few months, and now as it
+approaches its final (for now) plan it's about the lives and events of several
+characters in-between Episodes VI and VII. We'll see a little of Luke and Leia
+and Han, but it's mostly about the Resistance and how it kept on fighting,
+about a boy being kidnapped from a Sectors planet and finding a good head for
+strategy and good company… only to lose it when his conscience calls him out,
+leaving behind a troubled young man who has no idea what he'll become. It's
+about an explorer keeping his faith even as he sees a dear friend withdraw from
+the world (with good reason) and as he leaves a place that felt like home to
+hide away, but who also cannot escape the call of discovery and curiosity. It's
+about a mysterious voice speaking on old frequencies bringing hope and tales
+and unlikely help. It's about a young woman in a hostile environment determined
+to get out and make her mark on the world, and it's about another determined to
+stay put and survive where she is. It's about the worlds continuing to turn
+while you're looking away.
+
+What's amusing is that the plot point that triggered the conception of this fic
+is now a minor detail that will be used only two or three times. But it's
+there, a reminder that even when you think you know how things work, they can
+surprise you. That's what this detail is, and that's what this story is.
 
 [mk-timeline]: https://twitter.com/passcod/status/843336749388447744
 
