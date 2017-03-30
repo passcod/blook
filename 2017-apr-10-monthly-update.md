@@ -6,6 +6,34 @@ parents:
   - "2017/mar/10/monthly-update"
 ---
 
+## Rust
+
+I wrote down [a massive design document][desdoc] for Notify's future, then
+submitted it to the Rust Reddit community to hopefully get some comments and
+reviews. The response was mostly positive, I think. However, actual
+implementation will likely take a back seat for month to come, as I work on
+other creative endeavours (see below).
+
+I also published [version 4.0 of Cargo Watch][watch4], following a
+near-complete rewrite and finally resolving several long-standing bugs and
+feature requests, including one or two that had been open for more than a year!
+
+I also upgraded Cargo Watch's supporting documents to [WeAllBehave][wab] and
+[WeAllContribute][wac]'s outstanding templates, adapting them slightly so
+they're more compatible with a Rust project.
+
+[desdoc]: https://github.com/passcod/notify/issues/117
+[watch4]: https://github.com/passcod/cargo-watch/releases/tag/v4.0.0
+[wab]: https://github.com/WeAllJS/weallbehave
+[wac]: https://github.com/WeAllJS/weallcontribute
+
+## Open source and community
+
+I'm hoping to ramp up my contribution to not only these two projects, but also
+going to more events, and participating in the developer community. The last
+two years have been _very quiet_ personally on that front, and I'd like to
+remedy that.
+
 ## NZ.js
 
 NZ.js was really good! One attendee made [a recap via tweets][nzjs-recap], and
