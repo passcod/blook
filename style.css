@@ -4,10 +4,10 @@
 
 html {
   color: #494949;
-  font-size: 0.8rem;
+  font-family: 'Rawson Pro', 'Rawson-Pro_Regular', sans-serif;
 }
 
-html, pre, code, kbd, samp {
+pre, code, kbd, samp {
   font-family: 'DroidSans Mono', 'Droid Sans Mono', 'Fira Mono', 'Ubuntu Mono', monospace;
 }
 
@@ -106,6 +106,12 @@ header a {
   border-bottom: 0;
 }
 
+header h1 {
+  font-size: 1.9em;
+  font-variant: small-caps;
+  font-weight: 500;
+}
+
 header p, footer p {
   margin: 0;
 }
@@ -116,9 +122,24 @@ header .avatar {
   filter: grayscale(100%);
 }
 
+p.p-note {
+  font-size: 1.2em;
+  color: #888;
+}
+
+footer {
+  text-align: center;
+}
+
 section .avatar {
   margin: 1em 0;
   max-width: calc(50ch - 2em);
+}
+
+section h1 {
+  font-variant: small-caps;
+  font-weight: 600;
+  letter-spacing: 0.2px;
 }
 
 .avatar:hover, .avatar:focus, .avatar:active {
@@ -138,8 +159,4 @@ section, footer {
 .github-fork-ribbon a {
   border-bottom: 1px dotted rgba(255, 255, 255, 0.7);
   color: white;
-}
-
-[hidden] {
-  display: none;
 }
