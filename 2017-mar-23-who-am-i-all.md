@@ -1,5 +1,7 @@
 ---
 title: Who am I all?
+frontpage: false
+parent: "2015/jan/25/300-shorts"
 tags:
   - poem
   - 300-shorts
