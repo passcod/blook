@@ -3,10 +3,6 @@ tags:
   - short
 ---
 
-> - Original written 2008-10-28
-> - Descriptive Writing Assignment, English class
-> - Transcribed 2016-08-28, with minor amendments for style
-
 The box was simple. It was hand-crafted, seemingly by inexperienced hands. The
 lid was not attached to it, except for two mould-eaten strings, passed through
 rough holes in the wood. There were carvings on its top: words now unredable,
