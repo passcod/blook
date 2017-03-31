@@ -6,6 +6,17 @@ parents:
   - "2017/mar/10/monthly-update"
 ---
 
+## Style
+
+As you've probably noticed, I have refreshed the style of this website, as well
+as the [root of my domain][root]. Goodbye monospaced font for everything! The
+font is [Rawson Pro], by the ever-talented foundry **Latinotype**. And do check
+out "Dark mode" by clicking the tiny little button labelled "Day" (or "Night")
+in the bottom left corner.
+
+[root]: https://passcod.name
+[Rawson Pro]: https://www.myfonts.com/fonts/latinotype/rawson
+
 ## Rust
 
 I wrote down [a massive design document][desdoc] for Notify's future, then
