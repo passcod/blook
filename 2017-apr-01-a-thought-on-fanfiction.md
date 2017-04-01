@@ -48,10 +48,10 @@ instead of only writing them.
 
 (And that's an argument for non-fanfiction writers reading more fanfiction: so
 they then are inspired to break tropes and make chaos, to not always write the
-same whitewashed hero and conventional romances, to not always throw have Bad
-Romance and Good Romance, but something in between, or something that
-transcends it, or something that perverts it. And there's writers doing that,
-sure, but they're too few and far between, I think.)
+same whitewashed hero and conventional romances, to not always have Bad Romance
+and Good Romance, but something in between, or something that transcends it, or
+something that perverts it. And there's writers doing that, sure, but they're
+too few and far between, I think.)
 
 I see it a bit like the classical composers, who (according to Dad) would
 compose something and then send it to their contemporaries and be like "look at
