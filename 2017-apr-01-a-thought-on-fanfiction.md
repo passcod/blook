@@ -68,15 +68,15 @@ delight"_… "here, have a bunch of money to keep doing what you're doing".
 
 Another thing: while there _is_ fanfic that keeps to the tone of canon, _that_
 is actually a particular style, a challenge in fact. How to write something
-that is _yours_ while also following down to the beat and semitone the cadence
-and key of the original? The rest of fanfiction doesn't follow canon, and just…
-plays in the sandbox left by the original creator. Puts concrete in the sand
-and erects impossible spires, attempts to break out of the walls, and even
-invites themselves in other sandboxes, bringing some of their sand and their
-tools over to a completely new universe. But it's all a lot easier to get
-started and get writing and get exploring than building an entirely new sandbox
-by yourself. It's a lot less emotionally taxing, and that translates as freedom
-to do a lot more.
+that is _yours_ while also following down to the beat and down to the semitone
+the cadence and key of the original? The rest of fanfiction doesn't follow
+canon, and just… plays in the sandbox left by the original creator. It puts
+concrete in the sand and erects impossible spires, it attempts to break out of
+the walls, and it even invites itself in other sandboxes, bringing some of its
+sand and some of its tools over to a completely new universe. But it's all a
+lot easier to get started and get writing and get exploring than building an
+entirely new sandbox by yourself. It's a lot less emotionally taxing, and that
+translates as freedom to do a lot more.
 
 Not that it means fanfic is always easy to write, I say as I add notes to my
 detailed timeline of my Star Wars AU, which helpfully indicates, in an
