@@ -153,7 +153,7 @@ I managed to read a few new stories after all:
 And then I started earnestly into writing my fanfic, and predictably, I got to
 reading lots more Star Wars fics. Official pretext for this is "gotta find
 voices and get into the feel for writing my characters" but of course the plots
-and cuties why I stay.
+and cuties are why I stay.
 
 But seriously, encountering characters I'm writing and have been thinking about
 for the past few months in other fanfics is pretty cool. It really lets me
