@@ -149,3 +149,36 @@ I managed to read a few new stories after all:
 - {HP} [Arx Domus Nigrae](https://www.fanfiction.net/s/10506441/1/Arx-Domus-Nigrae). Guess who this was recommended by. {113k words atow}
 - {HP} [Nihil est ab Omni Parte Beatum](https://archiveofourown.org/works/5733457). The Latin titles really has it. {108k words}
 - {SW} [Tomorrow (there'll be more of us)](https://archiveofourown.org/works/5648131). Perfect. {3k words}
+
+And then I started earnestly into writing my fanfic, and predictably, I got to
+reading lots more Star Wars fics. Official pretext for this is "gotta find
+voices and get into the feel for writing my characters" but of course the plots
+and cuties why I stay.
+
+But seriously, encountering characters I'm writing and have been thinking about
+for the past few months in other fanfics is pretty cool. It really lets me
+figure out the edges of my characters, and think about behaviour/personality
+for more than just the obvious by comparing against what I'm reading. And when
+something really clashes, I have to think and mentally point out details that
+justify why I feel like the characterisation is wrong.
+
+For example, there's a few fics-with-Rey below that have her as a sociable
+lovable figure who trusts people easily, like, what??? No. She's been a
+scavenger for fifteen years, she's canonically been betrayed by people she
+thought were her peers fairly early on, she lived alone for ages, she was
+exploited by adults around her until she got strong enough to fuck off on her
+own, one of the only beings who halfway protected her and gave her the
+opportunity to earn for the past ten years called the Empire on her at the drop
+of a hat. She's not going to be a bubbly extrovert now. What is wrong with you.
+
+- {SW} [Coupling](https://archiveofourown.org/works/5494547). Cute in fanfic, but that's actually kinda shitty, Poe. {3k words}
+- {SW} [Coming Together](https://archiveofourown.org/works/5553476). Okay, but it was done better by _Soul Scars_ above. {6k words}
+- {SW} [better stand up straight](https://archiveofourown.org/works/5481992). {3k words}
+- {SW} [do not take love advice from sweary droids](https://archiveofourown.org/works/5754172). Apart from the misgendering of BB-8, good inspiration for irreverent droids. {2k words}
+- {SW} [No other exile](https://archiveofourown.org/works/5491907). Kinda like my Phasma, except way less depth. {3k words}
+- {SW} [In Good Hands](https://archiveofourown.org/works/5519408). Another sweary droid fic. {2k words}
+- {SW} [Negotiator](https://archiveofourown.org/works/3578757). {31k words}
+- {SW} Reprise: [I](https://archiveofourown.org/works/5201648), [II](https://archiveofourown.org/works/6689737), [III](https://archiveofourown.org/works/7997587). Mostly Obi-Wan, but also good insights into Jedi/Senate mechanics. {95k + 135k + 81k words atow}
+- {SW} [to the sky without wings](https://archiveofourown.org/works/5609887). Now that was great, and also gave me lots of references for TFA voices. Lots of sadness, awesome diversity. Would love SW movies like that tbh (would also cry a lot so maybe not, but). {81k words}
+- {SW} [we wore the jacket for the longest time](https://archiveofourown.org/works/5507783). Yeah, cute, but strong feeling of "not my Rey". Behaviour goes against the character. {4k + 2k words}
+- {SW/Stargate} [A Star to Steer By](https://archiveofourown.org/works/3514793). _Really weird_ but makes sense. Clone/soldiering interactions/voices useful, although the nature of the crossover makes it tough to figure what I can safely import. Throwaway scene where Galaxy people are baffled by the Earthling concept of "only two genders" was a nice touch. {82k words atow}
