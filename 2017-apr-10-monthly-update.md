@@ -190,3 +190,4 @@ not going to be a bubbly extrovert now. What is wrong with you.
 - {SW} Ouroboros: [Wake the Storm](https://archiveofourown.org/works/1080760), [Queen's Gambit](https://archiveofourown.org/works/1287526), plus [side](https://archiveofourown.org/works/2360390) [stories](https://archiveofourown.org/works/2405450). Series followed for upcoming third part. {75k + 355k + 15k + 15k words atow}
 - {SW} [You Shall Become (me)](https://archiveofourown.org/works/6113875). {25k words}
 - {SW} Hindsight series: [Hindsight](https://archiveofourown.org/works/1046282) and [Foresight](https://archiveofourown.org/works/1167741). {58k + 160k words atow}
+- {SW} [The Story of Finn](https://archiveofourown.org/works/5594782). Lovely story, great reminder that Stormtroopers are People. {26k words}
