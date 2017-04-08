@@ -168,8 +168,10 @@ scavenger for fifteen years, she's canonically been betrayed by people she
 thought were her peers fairly early on, she lived alone for ages, she was
 exploited by adults around her until she got strong enough to fuck off on her
 own, one of the only beings who halfway protected her and gave her the
-opportunity to earn for the past ten years called the Empire on her at the drop
-of a hat. She's not going to be a bubbly extrovert now. What is wrong with you.
+opportunity to earn for the past ten years called the Empire on her (*this is
+portrayed somewhat differently in the novelisations, but while the details
+change a bit, the broad strokes remain the same*) at the drop of a hat. She's
+not going to be a bubbly extrovert now. What is wrong with you.
 
 - {SW} [Coupling](https://archiveofourown.org/works/5494547). Cute in fanfic, but that's actually kinda shitty, Poe. {3k words}
 - {SW} [Coming Together](https://archiveofourown.org/works/5553476). Okay, but it was done better by _Soul Scars_ above. {6k words}
