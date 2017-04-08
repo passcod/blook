@@ -140,11 +140,10 @@ I managed to read a few new stories after all:
 - {HP} [Safe Word is Devil's Snare](https://archiveofourown.org/works/8376331). This is lovely. Very NSFW. {96k words}
 - {HP} [Misplaced Moony](https://archiveofourown.org/works/8376253). Okay well I guess I'm going to binge all of ShayaLonnie's stuff. Ongoing. {64k words atow}
 - {HP} [Amid the Chaos](https://archiveofourown.org/works/8375905). I really need to transfer my FFN skin over to AO3. {22k words atow}
-- {HP} [Storm of Yesterday](https://archiveofourown.org/works/8850352). Thank you for the tears, wanker! {130k words}
-- {HP} [The Reclamation of Black Magic](https://archiveofourown.org/works/8374798). I love rituals and good!Blacks. {105k words atow}
-- {HP} [Arx Domus Nigrae](https://www.fanfiction.net/s/10506441/1/Arx-Domus-Nigrae). Guess who this was recommended by. {113k words atow}
-- {HP} [Nihil est ab Omni Parte Beatum](https://archiveofourown.org/works/5733457). The Latin titles really has it. {108k words}
-- {SW} [Tomorrow (there'll be more of us)](https://archiveofourown.org/works/5648131). Perfect. {3k words}
+- {HP} [Storm of Yesterday](https://archiveofourown.org/works/8850352). Well, I cried, hope you're happy, $author. {130k words}
+- {HP} [The Reclamation of Black Magic](https://archiveofourown.org/works/8374798). Rituals and good!Blacks. {105k words atow}
+- {HP} [Arx Domus Nigrae](https://www.fanfiction.net/s/10506441/1/Arx-Domus-Nigrae). Recommended by ShayaLonnie, did not disappoint. {113k words atow}
+- {HP} [Nihil est ab Omni Parte Beatum](https://archiveofourown.org/works/5733457). Another one with a latin title. {108k words}
 
 And then I started earnestly into writing my fanfic, and predictably, I got to
 reading lots more Star Wars fics. Official pretext for this is "gotta find
@@ -169,6 +168,7 @@ portrayed somewhat differently in the novelisations, but while the details
 change a bit, the broad strokes remain the same*) at the drop of a hat. She's
 not going to be a bubbly extrovert now. What is wrong with you.
 
+- {SW} [Tomorrow (there'll be more of us)](https://archiveofourown.org/works/5648131). Perfect. {3k words}
 - {SW} [Coupling](https://archiveofourown.org/works/5494547). Cute in fanfic, but that's actually kinda shitty, Poe. {3k words}
 - {SW} [Coming Together](https://archiveofourown.org/works/5553476). Okay, but it was done better by _Soul Scars_ above. {6k words}
 - {SW} [better stand up straight](https://archiveofourown.org/works/5481992). {3k words}
