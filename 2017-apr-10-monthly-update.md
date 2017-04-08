@@ -185,9 +185,11 @@ not going to be a bubbly extrovert now. What is wrong with you.
 - {SW} Reprise: [I](https://archiveofourown.org/works/5201648), [II](https://archiveofourown.org/works/6689737), [III](https://archiveofourown.org/works/7997587). Mostly Obi-Wan, but also good insights into Jedi/Senate mechanics. {95k + 135k + 81k words atow}
 - {SW} [to the sky without wings](https://archiveofourown.org/works/5609887). Now that was great, and also gave me lots of references for TFA voices. Lots of sadness, awesome diversity. Would love SW movies like that tbh (would also cry a lot so maybe not, but). {81k words}
 - {SW} [we wore the jacket for the longest time](https://archiveofourown.org/works/5507783). Yeah, cute, but strong feeling of "not my Rey". Behaviour goes against the character. {4k + 2k words}
+- {SW} [some place to hide](https://archiveofourown.org/works/5512841). {2k words}
 - {SW/Stargate} [A Star to Steer By](https://archiveofourown.org/works/3514793). _Really weird_ but makes sense. Clone/soldiering interactions/voices useful, although the nature of the crossover makes it tough to figure what I can safely import. Throwaway scene where Galaxy people are baffled by the Earthling concept of "only two genders" was a nice touch. {82k words atow}
 - {SW} [Fundamental Force Carriers](https://archiveofourown.org/works/6252790). Very detailed, well explored. {88k words}
 - {SW} Ouroboros: [Wake the Storm](https://archiveofourown.org/works/1080760), [Queen's Gambit](https://archiveofourown.org/works/1287526), plus [side](https://archiveofourown.org/works/2360390) [stories](https://archiveofourown.org/works/2405450). Series followed for upcoming third part. {75k + 355k + 15k + 15k words atow}
 - {SW} [You Shall Become (me)](https://archiveofourown.org/works/6113875). {25k words}
 - {SW} Hindsight series: [Hindsight](https://archiveofourown.org/works/1046282) and [Foresight](https://archiveofourown.org/works/1167741). {58k + 160k words atow}
 - {SW} [The Story of Finn](https://archiveofourown.org/works/5594782). Lovely story, great reminder that Stormtroopers are People. {26k words}
+
