@@ -118,6 +118,8 @@ of, this month. Genre is in brackets.
 - {Superhero} [Anathema](https://anathemaserial.wordpress.com/).
 - {Mystery} [Tourist](https://notsafforwork.com/tourist/).
 
+I also read [Aftermath: Life Debt](https://en.wikipedia.org/wiki/Star_Wars:_Aftermath:_Life_Debt) and [Empire's End](https://en.wikipedia.org/wiki/Star_Wars:_Aftermath:_Empire%27s_End). Hmmmph.
+
 ## Fanfiction
 
 This month, taking a bit of a break, and only keeping up with stories I follow.
