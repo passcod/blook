@@ -81,7 +81,8 @@ centimetres. I only have so much space.
 
 I'm now aiming to have a solid detailed outline for Part 1 of the fic, covering
 about 0 ABY until 33 ABY in various threads, as well as at least 15% (10-12k
-words) of the material drafted out, for my birthday. That's in a month or so.
+words) of the material drafted out, for my birthday. That's in a month or so,
+and I already have about 4k words written down as of publish of this update.
 
 The fic has shifted focus a few times during the last few months, and now as it
 approaches its final (for now) plan it's about the lives and events of several
