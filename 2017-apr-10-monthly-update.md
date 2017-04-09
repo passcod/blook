@@ -194,3 +194,4 @@ not going to be a bubbly extrovert now. What is wrong with you.
 - {SW} [The Story of Finn](https://archiveofourown.org/works/5594782). Lovely story, great reminder that Stormtroopers are People. {26k words}
 - {SW} [we'll look back on this road we're on](https://archiveofourown.org/works/5540198). Not enough Jess/Rey. {8k words}
 - {SW} [The Lightness of Feeling](https://archiveofourown.org/works/5552405). {5k words}
+- {SW} [Deviating Ventures](https://archiveofourown.org/works/3899560). {3k words}
