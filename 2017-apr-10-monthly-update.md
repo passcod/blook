@@ -57,9 +57,10 @@ maybe a couple others were merely _meh_. But overall? great stuff.
 [nzjs-recap]: https://storify.com/knfrances/nz-js-con-wellington-march-2017
 [nzjs-talks]: http://conference.javascript.org.nz/schedule/
 
-## Master Kylo
+## That Star Wars Fanfiction I'm Writing
 
-(That title will have to change, but I'm bad at titles.)
+(The working title was "Master Kylo", but things happened, and now Kylo Ren is a
+minor character, so I'll have to pick a _new_ working title. I'm bad at these.)
 
 I [tweeted an (intentionally) blurry photo][mk-timeline] of a timeline I put up
 on my whiteboard. That was a progress shot: its current state is quite a bit
