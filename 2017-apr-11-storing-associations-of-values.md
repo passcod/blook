@@ -7,10 +7,8 @@ tags:
 ---
 
 This is a description of an algorithm for a particular pattern I've encountered
-several times throughout my programming and systems designing experience. The
-technique and algorithm is quite simple. It probably exists elsewhere already
-(although I've looked and not found, but perhaps not with the right
-terminology). Nevertheless:
+several times throughout my programming and systems designing experience. It's
+fairly simple, but nevertheless:
 
 The pattern is this: you have a set of values, let's call them _vertices_, and
 you want to associate them together, let's call that association an _edge_,
