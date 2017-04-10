@@ -7,13 +7,10 @@ tags:
 ---
 
 This is a description of an algorithm for a particular pattern I've encountered
-several times throughout my programming and systems designing experience. But
-the technique and algorithm is quite simple. So simple, in fact, that despite
-having announced this article several times, despite having trawled through
-wiki pages and scholarly articles and datastructure collections and not found
-an analog, I still hesitated to publish it as I thought, _surely_, _surely_
-someone has already done this before. Whether "they" have or not, though… well,
-here I go.
+several times throughout my programming and systems designing experience. The
+technique and algorithm is quite simple. It probably exists elsewhere already
+(although I've looked and not found, but perhaps not with the right
+terminology). Nevertheless:
 
 The pattern is this: you have a set of values, let's call them _vertices_, and
 you want to associate them together, let's call that association an _edge_,
