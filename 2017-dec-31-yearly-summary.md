@@ -42,6 +42,7 @@ All amounts in NZ dollars, even if the donation was in another currency.
 
 - Patreon (various recipients): $94.66 * 2 + $51.66 + $48.66 * 9 ~= $678.92
 - IHC: $300
+- : $300
 - The Green Party: $50
 
 ### One time (planned) (section should be entirely removed before year's end)
