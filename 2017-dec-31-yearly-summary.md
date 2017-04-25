@@ -37,6 +37,7 @@ All amounts in NZ dollars, even if the donation was in another currency.
 ### One time (done)
 
 - ACLU: $70
+- AO3: 69 US cents
 
 ### Ongoing throughout the year
 
