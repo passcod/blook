@@ -54,3 +54,14 @@ All amounts in NZ dollars, even if the donation was in another currency.
 - Reporteurs Sans Frontières
 - CanTeen
 - GiveWell's recommended mix (donated directly to GiveWell)
+
+## Fanfiction
+
+Words read per month, based on the monthly update posts. Thus the figure is
+low-balled as the posts don't include fics I read but didn't like.
+
+- December 2016 → January 2017: 5,399k
+- January → February: 6,416k
+- February → March: 2,964k
+- March → April: 2,199k
+
