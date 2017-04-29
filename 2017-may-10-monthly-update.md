@@ -105,3 +105,4 @@ elsewhere on planet)!
 - {SW} [Sigh No More](https://archiveofourown.org/works/7916152). Very NSFW, a bit too binary, but sweet. {160k words atow}
 - {SW} [Fonder](https://archiveofourown.org/works/6510361). Great representation of Rey as a recovering scavenger and desert-dweller, if a bit too childlike, perhaps. {7k words}
 - {SW} [Measure of Force](https://archiveofourown.org/works/7964788). Could be a good prompt, but I'm pretty sure I like Re-Entry's way better (in this metaphor, mixing the two teas until they're balanced). {2k words}
+- {SW} [hope lives on](https://archiveofourown.org/works/9005656). Well, that was… interesting. Weird. But, interesting. {7k words}
