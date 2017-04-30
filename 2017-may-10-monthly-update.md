@@ -106,3 +106,4 @@ elsewhere on planet)!
 - {SW} [Fonder](https://archiveofourown.org/works/6510361). Great representation of Rey as a recovering scavenger and desert-dweller, if a bit too childlike, perhaps. {7k words}
 - {SW} [Measure of Force](https://archiveofourown.org/works/7964788). Could be a good prompt, but I'm pretty sure I like Re-Entry's way better (in this metaphor, mixing the two teas until they're balanced). {2k words}
 - {SW} [hope lives on](https://archiveofourown.org/works/9005656). Well, that was… interesting. Weird. But, interesting. {7k words}
+- {SW} [heart in a headlock](https://archiveofourown.org/works/8987779). Well-written, really, and has good emotions… I would have liked Rogue One to go more like this, I think. The depiction of Leia in this fic helped me re-evaluate a plot point that always bothered me in my fic, and that I'm going to change now. {53k words atow}
