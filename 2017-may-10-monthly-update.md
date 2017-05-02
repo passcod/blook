@@ -17,15 +17,25 @@ year. I don't really _feel_ twenty-four, but oh well.
 
 ## Star Wars fic
 
-I now have a better name, but I don't quite want to reveal it, I think. Due to
-conferencing and traveling and [the effect that has on my writing][tw-writing]
-as well as a very unfortunate (and frustrating) bout of flu or cold or whatever
-in the last week of April, I didn't get as much writing done as I'd hoped.
+New working title is: **In the pale Darkness of Dawn**. Casing tbc.
 
-I have about TK 7k of material written, but I do have a fairly large
-amount of notes and a good outline for two of the four threads in the fic. So
-it's not too bad. And now that I'm nearing the final design of this fic (or
-have already achieved it? it's hard to tell), it should go much faster.
+Due to conferencing and traveling and [the effect that has on my
+writing][tw-writing] as well as a very unfortunate (and frustrating) bout of
+flu or cold or whatever in the last week of April, I didn't get as much writing
+done as I'd hoped.
+
+I have about 6k of material written, but I do have a fairly large amount of
+notes and a good outline for two of the four threads in the fic. So it's not
+too bad. And now that I'm nearing the final design of this fic (or have already
+achieved it? it's hard to tell), it should go much faster.
+
+The _form_ of the fic has also evolved from more traditional prose in long
+sections and chapters, towards smaller single-scene sections ranging from 600
+to 1500 words in length each, and then organised in semi-chronological order
+and grouped in chapters. It's a particular form, and it provides interesting
+possibilities, like making it very easy to present the same scene from multiple
+point of views, almost in a side-by-side manner. It's also much closer to my
+own 'natural' writing style.
 
 [tw-writing]: https://twitter.com/passcod/status/857427137925529600
 
@@ -77,6 +87,25 @@ implementation) in the view of running Kubernetes on FreeBSD on Digital Ocean,
 but quickly got disabused of that notion when I tried running trivial
 containers and got fatal and critical errors straight out of the gate. So much
 for that idea.
+
+## npm 5 beta
+
+I ran npm4 and npm5 installs on some of our actual codebases at work and some
+of my own personal ones, and measured the timings and differences. The results
+are very exciting! [Read the full post][npm5-diffs].
+
+[npm5-diffs]:
+
+## [Catflap]
+
+A small single-purpose development tool for server reloading. Initially from a
+[feature request on Cargo Watch][cw-43], I wrote it instead as a separate tool
+for Linux/Mac/Unix. The name [Catflap] is both because it's a small door that
+you install so that you don't have to constantly open and close and open and
+close a door, and as a play on the `netcat` tool.
+
+[Catflap]: https://github.com/passcod/catflap
+[cw-43]: https://github.com/passcod/cargo-watch/issues/43
 
 ## Fanfiction
 
