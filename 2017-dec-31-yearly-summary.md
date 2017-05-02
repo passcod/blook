@@ -21,6 +21,10 @@ tags:
 - [The Design of Everyday Things](https://www.amazon.com/gp/product/0465050654/)
 - [Barbarian Lord](https://www.amazon.com/Barbarian-Lord-Matt-Smith/dp/0547859066)
 - [The Library of Fates](https://www.goodreads.com/book/show/32766747-the-library-of-fates)
+- [The Rogue's Guide To Life](https://www.createspace.com/7098811)
+- [City of Angles: vol//001 Bedlam](https://www.createspace.com/4405318)
+- [City of Angles: vol//002 Echoes](https://www.createspace.com/4706335)
+- [City of Angles: vol//003 Lucidity](https://www.createspace.com/5212086)
 
 ### Backed
 
