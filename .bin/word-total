@@ -1,0 +1,15 @@
+#!/usr/bin/bash
+
+echo 0 0 $(
+  rg \
+    -o \
+    '\{(([\d.]+)k[\s+]*)+ words[^}]*\}' \
+    "$1" \
+  | ag \
+    -o \
+    '[\d.]+' \
+  | xargs \
+    -n1 \
+    echo +
+) '+p' \
+| dc
