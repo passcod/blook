@@ -3,6 +3,19 @@ title: A Year of Doing More
 tags:
   - summary
   - yearly
+parents:
+  - "2017/jan/10/monthly-update"
+  - "2017/feb/10/monthly-update"
+  - "2017/mar/10/monthly-update"
+  - "2017/apr/10/monthly-update"
+  - "2017/may/10/monthly-update"
+  - "2017/jun/10/monthly-update"
+  - "2017/jul/10/monthly-update"
+  - "2017/aug/10/monthly-update"
+  - "2017/sep/10/monthly-update"
+  - "2017/oct/10/monthly-update"
+  - "2017/nov/10/monthly-update"
+  - "2017/dec/10/monthly-update"
 ---
 
 ## Conferences
