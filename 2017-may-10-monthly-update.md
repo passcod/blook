@@ -88,14 +88,6 @@ but quickly got disabused of that notion when I tried running trivial
 containers and got fatal and critical errors straight out of the gate. So much
 for that idea.
 
-## npm 5 beta
-
-I ran npm4 and npm5 installs on some of our actual codebases at work and some
-of my own personal ones, and measured the timings and differences. The results
-are very exciting! [Read the full post][npm5-diffs].
-
-[npm5-diffs]:
-
 ## [Catflap]
 
 A small single-purpose development tool for server reloading. Initially from a
