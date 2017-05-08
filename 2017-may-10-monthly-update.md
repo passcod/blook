@@ -96,6 +96,8 @@ for Linux/Mac/Unix. The name [Catflap] is both because it's a small door that
 you install so that you don't have to constantly open and close and open and
 close a door, and as a play on the `netcat` tool.
 
+I was initially skeptical of the benefits, but testing it convinced me!
+
 [Catflap]: https://github.com/passcod/catflap
 [cw-43]: https://github.com/passcod/cargo-watch/issues/43
 
