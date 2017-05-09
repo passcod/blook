@@ -1,6 +1,5 @@
 #!/usr/bin/bash
 
-iso=$(date --date='next month' +"%Y-%m-10T00:00:00%z")
 date=$(date --date='next month' +"%Y-%b-10")
 date=${date,,} # lowercase
 
@@ -17,7 +16,6 @@ if [ ! -f ]; then
 cat <<FILE > "$file"
 ---
 title: "${title}"
-date: ${iso}
 tags:
   - ${slug}
 parents:
