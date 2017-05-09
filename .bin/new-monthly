@@ -1,0 +1,33 @@
+#!/usr/bin/bash
+
+iso=$(date --date='next month' +"%Y-%m-10T00:00:00%z")
+date=$(date --date='next month' +"%Y-%b-10")
+date=${date,,} # lowercase
+
+title="Monthly Update: $(date --date='next month' +'%B %Y')"
+slug="monthly-update"
+
+prev=$(date +"%Y/%b/10/${slug}")
+prev=${date,,} # lowercase
+
+dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+file="${dir}/../${date}-${slug}.md"
+
+if [ ! -f ]; then
+cat <<FILE > "$file"
+---
+title: "${title}"
+date: ${iso}
+tags:
+  - ${slug}
+parents:
+  - "${prev}/${slug}"
+---
+
+## Fanfiction
+FILE
+fi
+
+echo "${date}-${slug}.md"
+nvim +10 "$file"
+git add "$file"
