@@ -40,6 +40,7 @@ parents:
 - [City of Angles: vol//003 Lucidity](https://www.createspace.com/5212086)
 - [We Have No Idea: A Guide to the Unknown Universe](https://www.amazon.com/gp/product/0735211515)
 - [Thing Explainer: Complicated Stuff in Simple Words](https://www.amazon.com/gp/product/0544668251)
+- [Dates volume 1](https://gumroad.com/l/datesBook)
 
 ### Backed
 
