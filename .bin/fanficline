@@ -3,15 +3,64 @@
 require 'net/http'
 require 'uri'
 require 'nokogiri'
+require 'typhoeus'
 
 class Fic
   def initialize(url)
     @url = URI url
-    @doc = Nokogiri::HTML Net::HTTP.get @url
+    @doc = Nokogiri::HTML Typhoeus.get(@url, followlocation: true).body
+    # puts @doc.inspect
+  end
+
+  def fantag(dom)
+    case dom
+    when /star wars/i
+      'SW'
+    when /avengers/i, /thor/i
+      'Thor'
+    when /harry potter/i
+      'HP'
+    when /lord of the rings/i
+      'LotR'
+    when /stargate/i, /sg-?1/i
+      'Stargate'
+    when /naruto/i
+      'Naruto'
+    when /pok.mon/i
+      'Pokémon'
+    when /x-?men/i
+      'X-Men'
+    when /dresden/i
+      'Dresden'
+    end
+  end
+
+  def fandoms
+    [fandom]
+  end
+
+  def tag
+    tags = fandoms
+      .map { |dom| fantag dom }
+      .compact
+      .uniq
+
+    if tags.empty?
+      '?'
+    else
+      tags.join '/'
+    end
+  end
+
+  def gettext(el)
+    return unless el
+    return unless el.text
+    el.text.strip
   end
 
   def to_s
-    sprintf "- [%s](%s). {%ik words%s}",
+    sprintf "- {%s} [%s](%s). {%ik words%s}",
+      tag,
       title,
       first_chapter,
       (words / 1000).round,
@@ -30,7 +79,6 @@ class Fic
   end
 end
 
-
 class Ao3 < Fic
   DOMAIN = "archiveofourown.org"
 
@@ -39,7 +87,15 @@ class Ao3 < Fic
   end
 
   def title
-    @doc.at_css('h2.title').text.strip
+    gettext(@doc.at_css('h2.title')) ||
+      @doc.at_css('title').text.split('-').first.strip
+  end
+
+  def fandoms
+    [
+      @doc.css('.fandom .tag').to_a,
+      @doc.css('.fandoms .tag').to_a
+    ].flatten.map { |el| gettext el }.compact
   end
 
   def work_id
@@ -51,11 +107,12 @@ class Ao3 < Fic
   end
 
   def words
-    @doc.at_css('.stats > dd.words').text.to_i
+    (gettext(@doc.at_css('.stats dd.words')) || '').gsub(/,/, '').to_f
   end
 
   def chapters
-    @doc.at_css('.stats > dd.chapters').text.split('/').map { |c| c.to_i }
+    ch = gettext(@doc.at_css('.stats dd.chapters')) || '1/?'
+    ch.split('/').map { |c| c.to_i }
   end
 
   def complete?
