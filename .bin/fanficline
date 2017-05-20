@@ -1,0 +1,85 @@
+#!/usr/bin/env ruby
+
+require 'net/http'
+require 'uri'
+require 'nokogiri'
+
+class Fic
+  def initialize(url)
+    @url = URI url
+    @doc = Nokogiri::HTML Net::HTTP.get @url
+  end
+
+  def to_s
+    sprintf "- [%s](%s). {%ik words%s}",
+      title,
+      first_chapter,
+      (words / 1000).round,
+      if complete?
+        ''
+      else
+        ' atow'
+      end
+  end
+
+  def self.from_url(url)
+    url = url.strip
+    if Ao3.is(url)
+      return Ao3.new url
+    end
+  end
+end
+
+
+class Ao3 < Fic
+  DOMAIN = "archiveofourown.org"
+
+  def self.is(url)
+    URI(url).host == DOMAIN
+  end
+
+  def title
+    @doc.at_css('h2.title').text.strip
+  end
+
+  def work_id
+    %r{#{DOMAIN}/works/(\d+)}.match(@url.to_s)[1].strip
+  end
+
+  def first_chapter
+    "https://#{DOMAIN}/works/#{work_id}"
+  end
+
+  def words
+    @doc.at_css('.stats > dd.words').text.to_i
+  end
+
+  def chapters
+    @doc.at_css('.stats > dd.chapters').text.split('/').map { |c| c.to_i }
+  end
+
+  def complete?
+    chapters[0] == chapters[1]
+  end
+end
+
+if ARGV.first == '-'
+  out = File.open 'fanfics', 'a+'
+  print "> "
+  STDIN.each_line do |url|
+    fic = Fic.from_url url
+    if fic
+      out.puts fic.to_s
+      puts fic.to_s
+      print "> "
+    end
+  end
+  exit
+end
+
+ARGV.each do |url|
+  fic = Fic.from_url url
+  if fic
+    puts fic.to_s
+  end
+end
