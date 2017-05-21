@@ -36,3 +36,4 @@ eww pairings. Briefly dipped into Thor fics as well. A lot of (delicious) NSFW.
 - {SW} [Down on the Plains of Lah'mu](https://archiveofourown.org/works/9762377). {8k words atow}
 - {SW} [hurricane on the edge of oblivion (with nowhere to go)](https://archiveofourown.org/works/6423526). {82k words atow}
 - {SW} [Realign the Stars](https://archiveofourown.org/works/7474128). {39k words atow}
+- {SW} [Ringo Vinda and what came after...](https://archiveofourown.org/works/10818735). {7k words}
