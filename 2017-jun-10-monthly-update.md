@@ -34,3 +34,5 @@ eww pairings. Briefly dipped into Thor fics as well. A lot of (delicious) NSFW.
 - {SW} [What the Tide Drags (In/Out)](https://archiveofourown.org/works/10926996). {0.5k words}
 - {SW} [Whatever I Do (I Do It To Protect You)](https://archiveofourown.org/works/9607955). {52k words atow}
 - {SW} [Down on the Plains of Lah'mu](https://archiveofourown.org/works/9762377). {8k words atow}
+- {SW} [hurricane on the edge of oblivion (with nowhere to go)](https://archiveofourown.org/works/6423526). {82k words atow}
+
