@@ -87,8 +87,10 @@ class Ao3 < Fic
   end
 
   def title
-    gettext(@doc.at_css('h2.title')) ||
-      @doc.at_css('title').text.split('-').first.strip
+    gettext(
+      @doc.at_css('h2.title') ||
+      @doc.at_css('.work.blurb .heading a[href^="/works/"]')
+    )
   end
 
   def fandoms
