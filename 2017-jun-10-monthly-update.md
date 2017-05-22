@@ -38,3 +38,4 @@ eww pairings. Briefly dipped into Thor fics as well. A lot of (delicious) NSFW.
 - {SW} [Realign the Stars](https://archiveofourown.org/works/7474128). {39k words atow}
 - {SW} [Ringo Vinda and what came after...](https://archiveofourown.org/works/10818735). {7k words}
 - {SW} [time to change the road you're on](https://archiveofourown.org/works/9552773). {27k words atow}
+- {SW} [The Chosen](https://archiveofourown.org/works/8477353). {78k words atow}
