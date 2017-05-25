@@ -89,3 +89,4 @@ eww pairings. Briefly dipped into Thor fics as well. A lot of (delicious) NSFW.
 - {SW} [Ad Verecundiam](https://archiveofourown.org/works/10452285). {15k words atow}
 - {SW} [Out of the Dark Valley](https://archiveofourown.org/works/6281581). Too intense at times so I had to take breaks while reading it. {305k words atow}
 - {SW} [Saving Anakin Skywalker](https://archiveofourown.org/works/7566178). I'm always a bit uneasy at redemption fics, but this... wasn't bad. {54k words}
+- {SW} [A Cog In Something Turning](https://archiveofourown.org/works/9055855). {2k words}
