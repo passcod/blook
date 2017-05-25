@@ -39,3 +39,5 @@ eww pairings. Briefly dipped into Thor fics as well. A lot of (delicious) NSFW.
 - {SW} [Ringo Vinda and what came after...](https://archiveofourown.org/works/10818735). {7k words}
 - {SW} [time to change the road you're on](https://archiveofourown.org/works/9552773). {27k words atow}
 - {SW} [The Chosen](https://archiveofourown.org/works/8477353). {78k words atow}
+- {SW} [Ad Verecundiam](https://archiveofourown.org/works/10452285). {15k words atow}
+- {SW} [Out of the Dark Valley](https://archiveofourown.org/works/6281581). Too intense at times so I had to take breaks while reading it. {305k words atow}
