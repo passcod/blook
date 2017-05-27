@@ -93,3 +93,5 @@ eww pairings. Briefly dipped into Thor fics as well. A lot of (delicious) NSFW.
 - {SW} [The Reality of Change](https://archiveofourown.org/works/7760323). {185k words}
 - {SW} [The Time the Force Sent Obi-Wan Back in Time and Quinlan Vos kept him from Going Kamikaze because let’s be Honest, Being Forced to Come Back in Time Would Suck.](https://archiveofourown.org/works/10544868). {7k words atow}
 - {SW} [Warmth](https://archiveofourown.org/works/8867632). {44k words atow}
+- {SW} [fame and glory, kid (are not the real treasures here)](https://archiveofourown.org/works/10485960). {4k words}
+- {SW} [Soldier, Poet, King](https://archiveofourown.org/works/7475079). {102k words atow}
