@@ -96,3 +96,13 @@ eww pairings. Briefly dipped into Thor fics as well. A lot of (delicious) NSFW.
 - {SW} [fame and glory, kid (are not the real treasures here)](https://archiveofourown.org/works/10485960). {4k words}
 - {SW} [Soldier, Poet, King](https://archiveofourown.org/works/7475079). {102k words atow}
 - {SW} [once you start down the dark path (forever will it dominate your destiny)](https://archiveofourown.org/works/10373568) and [forgiveness (can you imagine?)](https://archiveofourown.org/works/10485615). {30k + 6k words}
+
+### Rogue One fics I want to read but haven't gotten to yet because I'm taking a break from this crew full of feels
+
+- {SW} [The Next Chance](https://archiveofourown.org/works/10690875). {4k words atow}
+- {SW} [Be alright tomorrow](https://archiveofourown.org/works/9462311). {111k words atow}
+- {SW} [floating, sinking](https://archiveofourown.org/works/9053302). {171k words atow}
+- {SW} [ice will rise from the dead](https://archiveofourown.org/works/9410630). {27k words atow}
+- {SW} [Stay in Motion](https://archiveofourown.org/works/9055051). {6k words atow}
+- {SW} [What Stays and What Fades](https://archiveofourown.org/works/9236594). {22k words}
+- {SW} [Inevitable](https://archiveofourown.org/works/8945566). {40k words atow}
