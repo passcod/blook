@@ -96,6 +96,7 @@ eww pairings. Briefly dipped into Thor fics as well. A lot of (delicious) NSFW.
 - {SW} [fame and glory, kid (are not the real treasures here)](https://archiveofourown.org/works/10485960). {4k words}
 - {SW} [Soldier, Poet, King](https://archiveofourown.org/works/7475079). {102k words atow}
 - {SW} [once you start down the dark path (forever will it dominate your destiny)](https://archiveofourown.org/works/10373568) and [forgiveness (can you imagine?)](https://archiveofourown.org/works/10485615). {30k + 6k words}
+- {SW} [Lights Will Guide You Home](https://archiveofourown.org/works/7544575). {27k words atow}
 
 ### Rogue One fics I want to read but haven't gotten to yet because I'm taking a break from this crew full of feels
 
