@@ -98,6 +98,7 @@ eww pairings. Briefly dipped into Thor fics as well. A lot of (delicious) NSFW.
 - {SW} [once you start down the dark path (forever will it dominate your destiny)](https://archiveofourown.org/works/10373568) and [forgiveness (can you imagine?)](https://archiveofourown.org/works/10485615). {30k + 6k words}
 - {SW} [Lights Will Guide You Home](https://archiveofourown.org/works/7544575). {27k words atow}
 - {SW} [Old Ben](https://archiveofourown.org/works/10382358). {32k words}
+- {SW} [Feathers of the Sand](https://archiveofourown.org/series/478750). One of the best fics I've read this month, perhaps even _the_ best. It is very much a rationalist fic, where not only the world is constructed in a rational manner, but the characters are shown to think and behave according to complex _reason_ rather than just whatever the author needed to happen at this point in time. (A work that does only the former is called a "rational" fic, which is too subtle a word difference I think.) Does enough original worldbuilding that it can get where it wants, without overwhelming the story, even though one can just _see_ the author could happily write an entire volume about their own part and culture of the world rather than stick to the Star Wars locations and stories. A+, would recommend. {15k + 78k words atow}
 
 ### Rogue One fics I want to read but haven't gotten to yet because I'm taking a break from this crew full of feels
 
