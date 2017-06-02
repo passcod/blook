@@ -53,6 +53,16 @@ distribution; some pools of characters have a 95% or higher male content, which
 is plain ridiculous. So I create OC extras. I'm constantly running out of
 names, it's a real problem!
 
+[vanity-sw]: http://www.vanityfair.com/hollywood/2017/05/star-wars-the-last-jedi-cover-portfolio
+
+## Comics
+
+Found and binged [WIlde Life](http://www.wildelifecomic.com), about a kind?
+lost? man running from his old life to a tiny town in Oklahoma... only to find
+himself embroiled into the affairs of a typical teenager who's also a werewolf,
+at least three witches, talking animals, asshole bears, and the odd ghost or
+two. It's beautifully drawn, cute and amusing and seriously good.
+
 ## Fanfiction
 
 Apparently I'm trying to read the entire Star Wars fanficdom on AO3. Or at
@@ -109,3 +119,12 @@ eww pairings. Briefly dipped into Thor fics as well. A lot of (delicious) NSFW.
 - {SW} [Stay in Motion](https://archiveofourown.org/works/9055051). {6k words atow}
 - {SW} [What Stays and What Fades](https://archiveofourown.org/works/9236594). {22k words}
 - {SW} [Inevitable](https://archiveofourown.org/works/8945566). {40k words atow}
+- {SW} [angel\_deux's fics](https://archiveofourown.org/users/angel_deux/pseuds/angel_deux).
+
+### And then I burnt out on SW for a bit, so here's my remaining to-read / to-look-at list
+
+- {SW} [Hearts of Darkness](https://archiveofourown.org/series/674996). {389k words atow}
+- {SW} [oh rise with me forever](https://archiveofourown.org/series/233241). {7k words atow}
+- {SW} [through heaven's eyes](https://archiveofourown.org/works/2349344). {1k words}
+- [The OotDV chapter I'm on](https://archiveofourown.org/works/6281581/chapters/19086235). (see above)
+- [Star Wars Minute](http://www.starwarsminute.com/)
