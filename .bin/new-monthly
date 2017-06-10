@@ -20,6 +20,7 @@ file="${dir}/../${date}-${slug}.md"
 if [ ! -f "$file" ]; then
 cat <<FILE > "$file"
 ---
+# vim: tw=80
 title: "${title}"
 tags:
   - ${slug}
