@@ -3,11 +3,11 @@
 if [ "$(date +%d)" -lt 10 ]; then
   date=$(date +"%Y-%b-10")
   title="Monthly Update: $(date +'%B %Y')"
-  prev=$(date --date='last month' +"%Y/%b/10/${slug}")
+  prev=$(date --date='last month' +"%Y/%b/10")
 else
   date=$(date --date='next month' +"%Y-%b-10")
   title="Monthly Update: $(date --date='next month' +'%B %Y')"
-  prev=$(date +"%Y/%b/10/${slug}")
+  prev=$(date +"%Y/%b/10")
 fi
 
 date=${date,,} # lowercase
