@@ -86,4 +86,4 @@ updates for incomplete works I follow.
 - February → March: 2,964k
 - March → April: 2,199k
 - April → May: 3,325k
-
+- May → June: 2,567k
