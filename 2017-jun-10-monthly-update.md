@@ -55,7 +55,7 @@ names, it's a real problem!
 
 [vanity-sw]: http://www.vanityfair.com/hollywood/2017/05/star-wars-the-last-jedi-cover-portfolio
 
-## [Stalc]
+## A new project
 
 I've been quietly designing, speccing out, and writing [a stack calculator in
 the spirit of `dc`, but more legible][Stalc]. Instead of being character-based,
@@ -84,9 +84,16 @@ me, but I don't know much more than that just yet. To be discovered!
 [McKay]: http://www.mckay.co.nz/
 [Uber]: http://uber.co.nz/
 
+## A new avatar
+
+I commissioned [a new avatar][avatars] this month, by a young artist named
+[Luke], whom I found via a recommendation / [Alice]'s timeline.
+
+[avatars]: https://passcod.name/avatars/
+
 ## Comics
 
-Found and binged [WIlde Life](http://www.wildelifecomic.com), about a kind?
+Found and binged [Wilde Life](http://www.wildelifecomic.com), about a kind?
 lost? man running from his old life to a tiny town in Oklahoma... only to find
 himself embroiled into the affairs of a typical teenager who's also a werewolf,
 at least three witches, talking animals, asshole bears, and the odd ghost or
