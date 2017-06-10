@@ -55,6 +55,35 @@ names, it's a real problem!
 
 [vanity-sw]: http://www.vanityfair.com/hollywood/2017/05/star-wars-the-last-jedi-cover-portfolio
 
+## [Stalc]
+
+I've been quietly designing, speccing out, and writing [a stack calculator in
+the spirit of `dc`, but more legible][Stalc]. Instead of being character-based,
+it's whitespace-separated. It has first-class support for a variety of number
+formats, dates, times and durations, booleans, strings, comments. It's a simple
+little language, too, so I'll get to experiment with all that a language is.
+
+Right now I'm writing the parser, and writing out the bullet-point spec I
+started with into a more precise form. It's not a toy, but it has no great
+aspirations, either. It just wants to be a calculator.
+
+[Stalc]: https://github.com/passcod/stalc
+
+## A new job
+
+I've successfully applied and interviewed for and obtained a brand new job at
+another local tech company. I've been at [McKay] for over two and a half years,
+and in that time it's grown, shrinked, evolved, and denatured. I really liked
+the people there, but I've grown cynical about the company itself, and that's a
+good sign as any that change is needed.
+
+In three weeks I'll start at [Uber], no, not the taxi company. They're a little
+ISP serving Northland and Whangarei since 2008. It's a completely new sector for
+me, but I don't know much more than that just yet. To be discovered!
+
+[McKay]: http://www.mckay.co.nz/
+[Uber]: http://uber.co.nz/
+
 ## Comics
 
 Found and binged [WIlde Life](http://www.wildelifecomic.com), about a kind?
