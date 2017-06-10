@@ -17,7 +17,7 @@ slug="monthly-update"
 dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 file="${dir}/../${date}-${slug}.md"
 
-if [ ! -f ]; then
+if [ ! -f "$file" ]; then
 cat <<FILE > "$file"
 ---
 title: "${title}"
@@ -27,7 +27,7 @@ parents:
   - "${prev}/${slug}"
 ---
 
-##
+## Heading
 FILE
 fi
 
