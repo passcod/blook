@@ -90,6 +90,8 @@ I commissioned [a new avatar][avatars] this month, by a young artist named
 [Luke], whom I found via a recommendation / [Alice]'s timeline.
 
 [avatars]: https://passcod.name/avatars/
+[Luke]: https://twitter.com/LukrShiba
+[Alice]: https://twitter.com/neakitten
 
 ## Comics
 
