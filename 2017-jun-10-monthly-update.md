@@ -3,7 +3,7 @@ title: "Monthly Update: June 2017"
 tags:
   - monthly-update
 parents:
-  - "2017-may-10/monthly-update"
+  - "2017/may/10/monthly-update"
 ---
 
 ## In the pale darkness of dawn
