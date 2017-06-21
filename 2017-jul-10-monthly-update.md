@@ -23,3 +23,32 @@ write them down here as I find them again:
 - I want to build a giant machine.
 - I want to live in a lighthouse for a bit.
 - I want to publish a novel.
+
+## End of a job
+
+This has been a very _very_ busy month, and absolutely exhausting. Due to the
+large amounts of operational knowledge I had accumulated without opportunity to
+pass it on at my last job, as well as no less than **three** last minute
+large-scale migrations that I needed to be part of to ensure a smooth move, I
+spent my last month at McKay flat out trying to document and finish everything
+right up to my last day.
+
+I was very happy to be done with it all!
+
+## Start of a new one
+
+I started at Uber (not the taxi company) last week. It's going TBC.
+
+## Much writing
+
+I'm nearly finished with the full first draft of the first story in the "In The
+Darkness of Dawn" universe Star Wars fanfic. This one is also canon-compliant,
+ignoring some small references to future dawnverse stories, and stands fairly
+well alone even if you've only seen the films.
+
+Once done, I'll do one or two editing passes myself, before either publishing
+outright or finding some advance/beta readers for more feedback.
+
+## Fanfiction
+
+I haven't read anything new this month.
