@@ -57,3 +57,5 @@ outright or finding some advance/beta readers for more feedback.
   not reading anything new. Humour and epic battle, with a last-minute third
   crossover adding yet another dimension to an already bendingly-parallel-worlds
   story. {94k words}
+
+- {HP} [Whispers in Corners](https://archiveofourown.org/works/1134255). {64k words}
