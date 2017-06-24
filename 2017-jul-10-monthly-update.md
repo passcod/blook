@@ -51,4 +51,9 @@ outright or finding some advance/beta readers for more feedback.
 
 ## Fanfiction
 
-I haven't read anything new this month.
+- {HP/Thor/Dr Who} [Of Wizards and Heroes](https://archiveofourown.org/works/4148136).
+
+  This was great! Perfectly suited to a fresh start in fanfic after three weeks
+  not reading anything new. Humour and epic battle, with a last-minute third
+  crossover adding yet another dimension to an already bendingly-parallel-worlds
+  story. {94k words}
