@@ -6,10 +6,23 @@ date=${date,,}
 title="$@"
 slug=${title// /-}
 
-dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-file="${dir}/../${date}-${slug,,}.md"
+dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && cd .. && pwd)"
+file="${date}-${slug,,}.md"
+path="${dir}/${file}"
 
-cp "$dir/template.md" "$file"
-sed -i "s/%DATE%/${datetime}/" "$file"
-git add "$file"
-e "$file"
+if [ ! -f "$path" ]; then
+  cat <<TEMPLATE > "$path"
+---
+date: $datetime
+title: $title
+---
+
+## Heading
+TEMPLATE
+  git add "$path"
+else
+  echo "File already exists" >&2
+fi
+
+echo "$file"
+exec $EDITOR "$path"
