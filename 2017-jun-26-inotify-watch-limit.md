@@ -97,6 +97,31 @@ To do it permanently, you should put `fs.inotify.max_user_watches=65536` in the
 sysctl configuration, which is either a new file (descriptively named) in
 `/etc/sysctl.d/` (recommended) or a line in `/etc/sysctl.conf`.
 
+## Sources
+
+Information was mostly taken from kernel manpages and sources, but this article
+was preceded by various blog posts and StackExchange QAs:
+
+- http://web.archive.org/web/20161106193425/http://blog.sorah.jp/2012/01/24/inotify-limitation
+- https://unix.stackexchange.com/questions/13751/kernel-inotify-watch-limit-reached
+- http://www.linuxjournal.com/article/8478
+- https://docs.rs/inotify/0.3.0/inotify/wrapper/type.Watch.html
+- https://stackoverflow.com/questions/535768/what-is-a-reasonable-amount-of-inotify-watches-with-linux
+- https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers
+
+### Note on dnotify, inotify, fanotify, fsnotify
+
+Dnotify was the original Linux kernel implementation of filesystem watching.
+Prior to dnotify was "FAM", which came from IRIX. Dnotify was replaced around
+2008 by inotify. Then fanotify was initially implemented, but ultimately not
+merged and abandoned. Meanwhile, fsnotify replaced the entire _backend_ kernel
+implementation, with dnotify and inotify (and then fanotify) re-written as
+_frontends_ on fsnotify, eliminating duplication.
+
+Thus, nowadays (i.e. on modern kernels) when speaking of all or any of these
+systems, one is talking about the _same_ mechanism, but accessed through
+different kernel calls.
+
 [alacritty]: https://github.com/jwilm/alacritty
 [cargo watch]: https://github.com/passcod/cargo-watch
 [dropbox]: https://www.dropbox.com/
