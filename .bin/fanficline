@@ -59,7 +59,7 @@ class Fic
   end
 
   def to_s
-    sprintf "- {%s} [%s](%s). {%ik words%s}",
+    sprintf " - {%s} [%s](%s). {%ik words%s}",
       tag,
       title,
       first_chapter,

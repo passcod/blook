@@ -59,7 +59,8 @@ outright or finding some advance/beta readers for more feedback.
    bendingly-parallel-worlds story. {94k words}
 
  - {HP} [Whispers in Corners](https://archiveofourown.org/works/1134255). {64k words}
- - {HP} [Emrys Ascending](https://archiveofourown.org/works/932981). {111k words}
+ - {HP/Merlin} [Emrys Ascending](https://archiveofourown.org/works/932981). {111k words}
+ - {HP/Thor} [Spellist](https://archiveofourown.org/works/5366507). {2k words}
 
  - {HP} [Don't Fuck With Florists (They'll Fuck You Up)](https://archiveofourown.org/works/7769080).
 
