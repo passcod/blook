@@ -77,3 +77,15 @@ outright or finding some advance/beta readers for more feedback.
 
    Good and sweet. _Very_ old fic, early 2000s according to the notes, but it
    survived this long, hmm? Some sequels below. {100k words}
+
+ - {HP} [Russian Literature](https://archiveofourown.org/works/991387). {3k words}
+ - {HP} [Fever Dream](https://archiveofourown.org/works/991389). {3k words}
+ - {HP} [The Birds, The Bees, And The Snakes](https://archiveofourown.org/works/991396). {3k words}
+ - {HP} [A Lesson In Hiding](https://archiveofourown.org/works/991398). {2k words}
+ - {HP} [Bullfinch's Mythology](https://archiveofourown.org/works/991401). {4k words}
+ - {HP} [Laocoon's Children Year One: The Philosopher's Stone](https://archiveofourown.org/works/992265). {88k words}
+ - {HP} [Caramel](https://archiveofourown.org/works/992288). {1k words}
+ - {HP} [Laocoon's Children Year Two: Secret Tongues](https://archiveofourown.org/works/992558). {104k words}
+ - {HP} [Of a Linear Circle - Part I](https://archiveofourown.org/works/11284494). {61k words atow}
+ - {HP} [Harry Potter and the Stone of Life](https://archiveofourown.org/works/11096073). {7k words atow}
+ - {HP} [Third Life](https://archiveofourown.org/works/11163318). {49k words atow}
