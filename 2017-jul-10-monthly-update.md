@@ -89,3 +89,4 @@ outright or finding some advance/beta readers for more feedback.
  - {HP} [Of a Linear Circle - Part I](https://archiveofourown.org/works/11284494). {61k words atow}
  - {HP} [Harry Potter and the Stone of Life](https://archiveofourown.org/works/11096073). {7k words atow}
  - {HP} [Third Life](https://archiveofourown.org/works/11163318). {49k words atow}
+ - {Naruto/HP} [Curses of Interest](https://archiveofourown.org/works/10603038). {53k words atow}
