@@ -19,7 +19,7 @@ write them down here as I find them again:
  - I want to forge a blade.
  - I want to travel to Antarctica.
  - I want to pilot a glider.
- - I want to learn a martial art with a staff.
+ - I want to learn a martial art.
  - I want to build a giant machine.
  - I want to live in a lighthouse for a bit.
  - I want to publish a novel.
@@ -37,7 +37,33 @@ I was very happy to be done with it all!
 
 ## Start of a new one
 
-I started at Uber (not the taxi company) last week. It's going TBC.
+I started at Uber (not the taxi company) last week. It's going well! There's a
+lot -- and I do mean a _lot_ -- of technical details which I'm going to have to
+get my head around, including a whole bunch of protocols and acronyms I only
+have a vague grasp on.
+
+On a human level, there's two things I'm really happy about with this new job,
+although it _is_ subject to confirmation as I work there longer.
+
+Externally, it is astoundingly refreshing and comfortable to work with someone
+who _knows their shit_, and makes similar jumps of thought when reasoning about
+code and problems.
+
+Internally, I am no longer stressed the fuck up and in _two days_ that has
+had noticeable effects on my tiredness and well-being, despite technically
+working longer hours. Also, I now have a flexible hour-long lunch, and holy shit
+is this nice. It took me a bit to break the habit to have a fast lunch, but now
+I take the entire hour to walk to the Town Basin (a kilometre away), have lunch
+there, watching the boats and _passants_, and walk back. Awesome.
+
+On a project level, I can't really say because I haven't seen enough yet, but
+what little I _have_ leads me to believe that there is _so much fucking
+potential_ and that while there will be some tedium as we work with a massive
+codebase with a decade of history in its commits, there's many interesting
+things to be done.
+
+From the outset, I expect to stay at Uber for one or two years, and I very much
+expect to leave the system in a better place. I'm excited about this!
 
 ## Much writing
 
@@ -48,6 +74,9 @@ well alone even if you've only seen the films.
 
 Once done, I'll do one or two editing passes myself, before either publishing
 outright or finding some advance/beta readers for more feedback.
+
+As of yet, there is no title. The working title is **Naema**, from the second
+main character and OC, but that might change before publication.
 
 ## Fanfiction
 
@@ -86,7 +115,14 @@ outright or finding some advance/beta readers for more feedback.
  - {HP} [Laocoon's Children Year One: The Philosopher's Stone](https://archiveofourown.org/works/992265). {88k words}
  - {HP} [Caramel](https://archiveofourown.org/works/992288). {1k words}
  - {HP} [Laocoon's Children Year Two: Secret Tongues](https://archiveofourown.org/works/992558). {104k words}
- - {HP} [Of a Linear Circle - Part I](https://archiveofourown.org/works/11284494). {61k words atow}
+ - {HP} [Of a Linear Circle - Part I](https://archiveofourown.org/works/11284494).
+
+   That was delightful. While the disappearance of Harry isn't yet resolved, and
+   honestly at this point feels a bit too much like a convenient way to get the
+   main plot out of the way so we can explore Nizar's in peace, _I really don't
+   mind_. Nizar -- and the story -- is sweet and quietly humourous. Heartily
+   recommended. {107k words}
+
  - {HP} [Harry Potter and the Stone of Life](https://archiveofourown.org/works/11096073). {7k words atow}
  - {HP} [Third Life](https://archiveofourown.org/works/11163318). {49k words atow}
  - {Naruto/HP} [Curses of Interest](https://archiveofourown.org/works/10603038). {53k words atow}
