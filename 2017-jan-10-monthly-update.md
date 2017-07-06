@@ -258,7 +258,7 @@ Contains lemons. Content warning for sexual assault in at least half the fics.
   planning and showing only the results. Including planning that actually feels
   intelligent is a great addition to any story. {340k words}
 
-- {HP} [Pride of Time](https://www.fanfiction.net/s/7453087/50/Pride-of-Time).
+- {HP} **[Pride of Time](https://www.fanfiction.net/s/7453087/50/Pride-of-Time)**.
 
   This was really really good. I love Hermione time travel stories. I love when
   all the characters have their own flame, their own passions and thoughts and

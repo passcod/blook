@@ -115,7 +115,8 @@ main character and OC, but that might change before publication.
  - {HP} [Laocoon's Children Year One: The Philosopher's Stone](https://archiveofourown.org/works/992265). {88k words}
  - {HP} [Caramel](https://archiveofourown.org/works/992288). {1k words}
  - {HP} [Laocoon's Children Year Two: Secret Tongues](https://archiveofourown.org/works/992558). {104k words}
- - {HP} [Of a Linear Circle - Part I](https://archiveofourown.org/works/11284494).
+
+ - {HP} **[Of a Linear Circle - Part I](https://archiveofourown.org/works/11284494)**.
 
    That was delightful. While the disappearance of Harry isn't yet resolved, and
    honestly at this point feels a bit too much like a convenient way to get the
