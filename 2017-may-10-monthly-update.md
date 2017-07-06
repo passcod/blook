@@ -147,12 +147,12 @@ elsewhere on planet)!
 
 Exceptional fics within those I read this month:
 
-- {SW Legends} The entire [Re-Entry](https://archiveofourown.org/series/10129) and [Journey of the Whills](https://archiveofourown.org/series/11260) corpus.
+- {SW Legends} **The entire [Re-Entry](https://archiveofourown.org/series/10129) and [Journey of the Whills](https://archiveofourown.org/series/11260) corpus**.
 
   An epic masterpiece.
   {50k + 1k + 11k + 37k + 18k + 30k + 32k + 27k + 25k + 23k + 25k + 53k + 55k + 2k + 76k + 16k + 28k + 21k + 24k + 7k + 1k + 1k + 17k + 33k + 3k + 6k + 10k + 33k + 9k + 10k + 6k + 36k + 14k + 6k + 7k + 5k + 8k + 10k + 11k + 13k + 12k + 7k + 7k + 10k + 9k + 19k + 8k + 13k + 13k + 12k + 8k + 13k + 11k + 15k + 12k + 7k + 10k + 9k + 20k + 18k + 11k + 21k + 26k + 20k + 21k + 24k + 27k + 33k + 3k + 79k + 22k + 24k + 33k + 2k + 11k words atow}
 
-- {SW} [More Than Our Makers Intended](https://archiveofourown.org/series/392674).
+- {SW} **[More Than Our Makers Intended](https://archiveofourown.org/series/392674)**.
 
   Excellent fic both in the romance/ship side and in the PTSD side. Notably,
   _actually gets_ that Rey comes from a desert-world where water is precious
@@ -184,7 +184,7 @@ Exceptional fics within those I read this month:
   wordplay and plot irony and situational, in character development as well as
   characters stubbornly refusing to change, for good and bad. {107k words}
 
-- {LotR} [Sansûkh](https://archiveofourown.org/works/855528).
+- {LotR} **[Sansûkh](https://archiveofourown.org/works/855528)**.
 
   Another incredible epic fanfic. I really like both the concept and the
   execution, and have healthy respect for the huge amounts of research and

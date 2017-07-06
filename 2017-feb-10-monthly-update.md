@@ -103,7 +103,7 @@ All in reading order within their sections. Word counts are rounded to nearest
 1 or 5k. I explored the Harry Potter fanficdom, fics rated at least T, often M.
 Contains occasional lemons. Fairly large proportion of Haphne.
 
-- {HP/SW Legends} [The Katarn Side](https://www.fanfiction.net/s/11576387/1/The-Katarn-Side).
+- {HP/SW Legends} **[The Katarn Side](https://www.fanfiction.net/s/11576387/1/The-Katarn-Side)**.
 
   A very nice tale. While I enjoyed the story, I spent a lot of it using the
   material as both inspiration and warning, given I was writing my very own
@@ -116,7 +116,7 @@ Contains occasional lemons. Fairly large proportion of Haphne.
   within, but this one was finished and done, and the rest is up to us readers'
   imagination. Rated T. {135k words}
 
-- {SW Legends} [The Last Jedi](https://www.fanfiction.net/s/5704904/1/The-Last-Jedi).
+- {SW Legends} **[The Last Jedi](https://www.fanfiction.net/s/5704904/1/The-Last-Jedi)**.
 
   Rated T but should have been M. Probably. This is Dune, but in the Star Wars
   universe, with more sex and less Bene Gesserit. It does a good job of showing
@@ -151,7 +151,7 @@ Contains occasional lemons. Fairly large proportion of Haphne.
   Harry/Ginny ship but not holding my breath: there's a lot of potential still.
   {495k + 175k + 145k + 72k words}
 
-- {HP} [Contractual Invalidation](https://www.fanfiction.net/s/11697407/1/Contractual-Invalidation).
+- {HP} **[Contractual Invalidation](https://www.fanfiction.net/s/11697407/1/Contractual-Invalidation)**.
 
   Oh, that was beautifully done. It is really a work you have to read to
   experience. A summary would not do it justice. A description could not hope
@@ -172,7 +172,7 @@ Contains occasional lemons. Fairly large proportion of Haphne.
   much better than HTB at that. Followed and looking forward to new chapters.
   {100k words at time of writing}
 
-- {HP} [Days to Come](https://www.fanfiction.net/s/10728064/1/Days-to-Come).
+- {HP} **[Days to Come](https://www.fanfiction.net/s/10728064/1/Days-to-Come)**.
 
   It's adult, it's sweet, it's funny, it's lively. Not lively as in it's joyful
   and bounding and jumping around happily, but lively as in it's about life.

@@ -77,7 +77,7 @@ All in reading order within their sections. Word counts are rounded to nearest
 1 or 5k. I finished (for the moment!) my exploration of the Harry Potter
 fanficdom, fics rated at least T, often M.
 
-- {HP} [The Brightest Witch and the Darkest House](https://www.fanfiction.net/s/11280068/78/The-Brightest-Witch-and-the-Darkest-House), followed by [The Hogwarts Six and the Darkest Wizard](https://www.fanfiction.net/s/11677935/1/The-Hogwarts-Six-and-The-Darkest-Wizard).
+- {HP} **[The Brightest Witch and the Darkest House](https://www.fanfiction.net/s/11280068/78/The-Brightest-Witch-and-the-Darkest-House), followed by [The Hogwarts Six and the Darkest Wizard](https://www.fanfiction.net/s/11677935/1/The-Hogwarts-Six-and-The-Darkest-Wizard)**.
 
   Has complex plots without being over-complicated, and makes very good use of
   foreshadowing and including events several chapters before they're used,
@@ -106,7 +106,7 @@ fanficdom, fics rated at least T, often M.
   deal with more or less horny teenagers instead of mature (*cough* as if
   *cough*) young adults. Ongoing. {60k words atow}
 
-- {HP/SW Canon} [I Still Haven't Found What I'm Looking For](https://www.fanfiction.net/s/11157943/1/I-Still-Haven-t-Found-What-I-m-Looking-For).
+- {HP/SW Canon} **[I Still Haven't Found What I'm Looking For](https://www.fanfiction.net/s/11157943/1/I-Still-Haven-t-Found-What-I-m-Looking-For)**.
 
   I love the perspective into and out of all the characters, especially Ahsoka
   and Aayla. The analysis and conflicting opinions of power structures with the
@@ -125,7 +125,7 @@ fanficdom, fics rated at least T, often M.
   yet humour both by characters and by story is pervasive. It's a good mix.
   Ongoing. {315k words atow}
 
-- {HP} [Behind Blue Eyes](https://www.fanfiction.net/s/2095661/1/Behind-Blue-Eyes).
+- {HP} **[Behind Blue Eyes](https://www.fanfiction.net/s/2095661/1/Behind-Blue-Eyes)**.
 
   It starts like any other teenager romance… well, the troubled ones anyway.
   Girl runs away from home, boy runs away from life, they meet and fall into
