@@ -128,3 +128,4 @@ main character and OC, but that might change before publication.
  - {HP} [Third Life](https://archiveofourown.org/works/11163318). {49k words atow}
  - {Naruto/HP} [Curses of Interest](https://archiveofourown.org/works/10603038). {53k words atow}
  - {HP} [The Little Lion Cub Who Could](https://archiveofourown.org/works/10754460). {8k words atow}
+ - {HP} [Eclipse](https://archiveofourown.org/works/993712). {4k words}
