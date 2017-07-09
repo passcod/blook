@@ -24,14 +24,19 @@ write them down here as I find them again:
  - I want to live in a lighthouse for a bit.
  - I want to publish a novel.
 
+Okay, so they're a bit more like dreams. Still, I think I could get to achieve
+at least some of them in the next few decades!
+
+[commencement-speech]: https://www.youtube.com/watch?v=ikAb-NYkseI
+
 ## End of a job
 
 This has been a very _very_ busy month, and absolutely exhausting. Due to the
 large amounts of operational knowledge I had accumulated without opportunity to
 pass it on at my last job, as well as no less than **three** last minute
-large-scale migrations that I needed to be part of to ensure a smooth move, I
-spent my last month at McKay flat out trying to document and finish everything
-right up to my last day.
+large-scale migrations that I needed to be part of to ensure a smooth move (I
+hope!), I spent my last month at McKay flat out trying to document and finish
+everything right up to my last day.
 
 I was very happy to be done with it all!
 
