@@ -129,3 +129,17 @@ main character and OC, but that might change before publication.
  - {Naruto/HP} [Curses of Interest](https://archiveofourown.org/works/10603038). {53k words atow}
  - {HP} [The Little Lion Cub Who Could](https://archiveofourown.org/works/10754460). {8k words atow}
  - {HP} [Eclipse](https://archiveofourown.org/works/993712). {4k words}
+
+ - {HP} **The Alexandra Quick series: [Thorn Circle](https://www.fanfiction.net/s/3964606/1/Alexandra-Quick-and-the-Thorn-Circle), [Lands Below](https://www.fanfiction.net/s/4684861/1/Alexandra-Quick-and-the-Lands-Below), [Deathly Regiment](https://www.fanfiction.net/s/5784632/1/Alexandra-Quick-and-the-Deathly-Regiment), [Stars Above](https://www.fanfiction.net/s/7689884/1/Alexandra-Quick-and-the-Stars-Above)**.
+
+   Set in the Harry Potter verse, but ten years after Voldie's death, and set in
+   America. Does not really mention Britain or Harry or any of them. Besides the
+   story itself, which is excellent, the context of wizarding prejudices and
+   house-elves within the wider context of America's deep history and current
+   affairs with racism, corruption, police/authority violence and routine
+   violation of the very laws they are supposed to defend, paints a chilling
+   universe that left me uneasy throughout my read. On top of that, the quiet
+   horror of schooling practices that reflects, no doubt, their non-magical
+   counterparts in our reality only serves to reinforce the idea that there is
+   something fundamentally _wrong_ with that country, and magic does not help.
+   A recommended read, albeit with warnings. {166k + 235k + 204k + 262k words}
