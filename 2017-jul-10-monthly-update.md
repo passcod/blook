@@ -43,7 +43,7 @@ I was very happy to be done with it all!
 ## Start of a new one
 
 I started at Uber (not the taxi company) last week. It's going well! There's a
-lot -- and I do mean a _lot_ -- of technical details which I'm going to have to
+lot — and I do mean a _lot_ — of technical details which I'm going to have to
 get my head around, including a whole bunch of protocols and acronyms I only
 have a vague grasp on.
 
@@ -129,7 +129,7 @@ Monthly Updates to highlight recommendations there, too.
    That was delightful. While the disappearance of Harry isn't yet resolved, and
    honestly at this point feels a bit too much like a convenient way to get the
    main plot out of the way so we can explore Nizar's in peace, _I really don't
-   mind_. Nizar -- and the story -- is sweet and quietly humourous. Heartily
+   mind_. Nizar — and the story — is sweet and quietly humourous. Heartily
    recommended. {107k + 23k words atow}
 
  - {HP} [Harry Potter and the Stone of Life](https://archiveofourown.org/works/11096073). {7k words atow}
