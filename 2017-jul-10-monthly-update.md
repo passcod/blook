@@ -80,6 +80,9 @@ main character and OC, but that might change before publication.
 
 ## Fanfiction
 
+Works I recommend will now be **bolded**, and I've gone back to all other
+Monthly Updates to highlight recommendations there, too.
+
  - {HP/Thor/Dr Who} [Of Wizards and Heroes](https://archiveofourown.org/works/4148136).
 
    This was great! Perfectly suited to a fresh start in fanfic after three weeks
