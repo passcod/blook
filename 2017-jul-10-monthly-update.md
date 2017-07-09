@@ -116,13 +116,13 @@ main character and OC, but that might change before publication.
  - {HP} [Caramel](https://archiveofourown.org/works/992288). {1k words}
  - {HP} [Laocoon's Children Year Two: Secret Tongues](https://archiveofourown.org/works/992558). {104k words}
 
- - {HP} **[Of a Linear Circle - Part I](https://archiveofourown.org/works/11284494)**.
+ - {HP} **[Of a Linear Circle - Part I](https://archiveofourown.org/works/11284494) and [Part II](https://archiveofourown.org/works/11431794)**.
 
    That was delightful. While the disappearance of Harry isn't yet resolved, and
    honestly at this point feels a bit too much like a convenient way to get the
    main plot out of the way so we can explore Nizar's in peace, _I really don't
    mind_. Nizar -- and the story -- is sweet and quietly humourous. Heartily
-   recommended. {107k words}
+   recommended. {107k + 23k words atow}
 
  - {HP} [Harry Potter and the Stone of Life](https://archiveofourown.org/works/11096073). {7k words atow}
  - {HP} [Third Life](https://archiveofourown.org/works/11163318). {49k words atow}
