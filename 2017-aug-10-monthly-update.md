@@ -22,7 +22,18 @@ until Yule, then trying for a first playable in early 2018.
 ## Naema
 
 In early July, I got inspiration for writing some of the chapters that were
-missing from the current draft.
+missing from the current draft. In mid-July I rewrote the entire outline and
+added a lot more details, revealing that for consistency and pacing I had an
+additional five chapters of material to write, and a bunch more things to add in
+existing chapters.
+
+Before, I estimated this work to go for about 20-25k words. It looks like it's
+going more for the 50k mark. But it's a much better work than I ever imagined,
+so that's ok.
+
+Writing pace has picked up, and my goal (which I think is generous) is to start
+publishing in December at the latest. I'll probably spend NaNoWriMo doing final
+revisions and polish, if that's the case. If I finish earlier, who knows?
 
 ## Fanfiction
 
