@@ -20,7 +20,7 @@ class Fic
       'Thor'
     when /harry potter/i
       'HP'
-    when /lord of the rings/i
+    when /lord of the rings/i, /LotR/, /LoTR/
       'LotR'
     when /stargate/i, /sg-?1/i
       'Stargate'
@@ -32,6 +32,10 @@ class Fic
       'X-Men'
     when /dresden/i
       'Dresden'
+    when /buffy/i
+      'Buffy'
+    when /game of thrones/i, /GoT/
+      'GoT'
     end
   end
 
