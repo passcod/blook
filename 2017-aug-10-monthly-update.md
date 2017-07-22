@@ -43,4 +43,4 @@ not everything I've read during the month. Especially recommended fics are in
 
  - {HP} [the family potter](https://archiveofourown.org/works/10566861). {10k words}
  - {HP} **[There May Be Some Collateral Damage](https://archiveofourown.org/works/5030443)**. {61k words}
- - {HP/Buffy} [It's All Relative on the Hellmouth](https://www.fanfiction.net/s/2985538/21/It-s-All-Relative-on-the-Hellmouth). {112k words}
+ - {HP/Buffy} [It's All Relative on the Hellmouth](https://www.fanfiction.net/s/2985538). {112k words}

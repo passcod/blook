@@ -73,8 +73,13 @@ class Fic
 
   def self.from_url(url)
     url = url.strip
+
     if Ao3.is(url)
       return Ao3.new url
+    end
+
+    if Ffn.is(url)
+      return Ffn.new url
     end
   end
 end
@@ -115,6 +120,51 @@ class Ao3 < Fic
   def chapters
     ch = gettext(@doc.at_css('.stats dd.chapters')) || '1/?'
     ch.split('/').map { |c| c.to_i }
+  end
+
+  def complete?
+    chapters[0] == chapters[1]
+  end
+end
+
+class Ffn < Fic
+  DOMAIN = "fanfiction.net"
+
+  def self.is(url)
+    URI(url).host =~ /^(.+\.)?#{DOMAIN}$/
+  end
+
+  def title
+    gettext(@doc.at_css('#profile_top > b'))
+  end
+
+  def fandoms
+    [
+      @doc.at_css('#pre_story_links > .lc-left'),
+      @doc.at_css('#profile_top > div')
+    ].map { |el| gettext el }.compact
+  end
+
+  def work_id
+    %r{#{DOMAIN}/s/(\d+)}.match(@url.to_s)[1].strip
+  end
+
+  def first_chapter
+    "https://www.#{DOMAIN}/s/#{work_id}"
+  end
+
+  def stats
+    gettext(@doc.at_css('#profile_top > span:last-child'))
+  end
+
+  def words
+    %r{- +Words: ([\d,]+) +-}.match(stats)[1].strip.gsub(/,/, '').to_f
+  end
+
+  def chapters
+    total = %r{- +Chapters: (\d+) +-}.match(stats)[1].strip.to_i
+    complete = %r{- +Status: Complete +-} =~ stats
+    [total, if complete then total else 0 end]
   end
 
   def complete?
