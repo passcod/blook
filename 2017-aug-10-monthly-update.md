@@ -23,9 +23,9 @@ until Yule, then trying for a first playable in early 2018.
 
 In early July, I got inspiration for writing some of the chapters that were
 missing from the current draft. In mid-July I rewrote the entire outline and
-added a lot more details, revealing that for consistency and pacing I had an
-additional five chapters of material to write, and a bunch more things to add in
-existing chapters.
+added a lot more details, revealing that for consistency and pacing I had at
+least an additional five chapters of material to write, and a bunch more things
+to add in existing chapters.
 
 Before, I estimated this work to go for about 20-25k words. It looks like it's
 going more for the 50k mark. But it's a much better work than I ever imagined,
@@ -45,3 +45,4 @@ not everything I've read during the month. Especially recommended fics are in
  - {HP} **[There May Be Some Collateral Damage](https://archiveofourown.org/works/5030443)**. {61k words}
  - {HP/Buffy} [It's All Relative on the Hellmouth](https://www.fanfiction.net/s/2985538). {112k words}
  - {LotR/HP} [The Shadow of Angmar](https://www.fanfiction.net/s/11115934). {154k words atow}
+ - {HP} [The Black Prince](https://www.fanfiction.net/s/11098283). {139k words atow}
