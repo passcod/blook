@@ -67,3 +67,6 @@ not everything I've read during the month. Especially recommended fics are in
    And yes, this _is_ rationalist fiction, but embedded in great writing as an
    integral part of the work, instead of using the work as a mere transport.
    {203k words atow}
+
+ - {HP} [Applied Cultural Anthropology, or How I Learned to Stop Worrying and Love the Cruciatus](https://www.fanfiction.net/s/9238861). {162k words atow}
+ - {GoT} [Blackfish Out Of Water](https://www.fanfiction.net/s/11921280). {97k words atow}
