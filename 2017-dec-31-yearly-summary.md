@@ -52,16 +52,18 @@ parents:
 
 ## Donations
 
-All amounts in NZ dollars, even if the donation was in another currency.
+All amounts in NZ dollars, even if the donation was in another currency, except
+where explicitly noted.
 
 ### One time (done)
 
 - ACLU: $70
 - AO3: 69 US cents
+- Alice: $100
 
 ### Ongoing throughout the year
 
-- Patreon (various recipients): $94.66 * 2 + $51.66 + $48.66 * 9 ~= $678.92
+- Patreon (various recipients): to be calculated at the end of the year
 - IHC: $300
 - Unicef: $300
 - The Green Party: $50
@@ -75,7 +77,15 @@ All amounts in NZ dollars, even if the donation was in another currency.
 - CanTeen
 - GiveWell's recommended mix (donated directly to GiveWell)
 
+
 ## Fanfiction
+
+### Written
+
+- [Empire Day on Thabeska](https://archiveofourown.org/works/11542755)
+- [Naema]() - TBP
+
+### Read
 
 Words read per month, based on the monthly update posts. Thus the figure is
 low-balled as the posts don't include fics I read but didn't like, nor the
@@ -87,3 +97,4 @@ updates for incomplete works I follow.
 - March → April: 2,199k
 - April → May: 3,325k
 - May → June: 2,567k
+- June → July: 1,969k
