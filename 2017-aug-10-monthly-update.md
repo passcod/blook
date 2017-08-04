@@ -35,6 +35,11 @@ Writing pace has picked up, and my goal (which I think is generous) is to start
 publishing in December at the latest. I'll probably spend NaNoWriMo doing final
 revisions and polish, if that's the case. If I finish earlier, who knows?
 
+## Nþ
+
+I accidentally used “þ” instead of “th” in a tweet, but I like it! I think I'll
+use it more, and not accidentally.
+
 ## Fanfiction
 
 As usual, only "good enough to be listed" newly-read fics are, well, listed, and
