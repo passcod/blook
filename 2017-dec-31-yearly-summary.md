@@ -98,3 +98,31 @@ updates for incomplete works I follow.
 - April → May: 3,325k
 - May → June: 2,567k
 - June → July: 1,969k
+
+
+## Open Source Projects
+
+### Abandoned / Finished / Stalled
+
+ - [Blograph](https://github.com/passcod/blograph/tree/ruby), the old version in Ruby.
+ - [twd](https://github.com/passcod/twd), a Tweetdeck wrapper.
+
+### Maintained / Worked on
+
+ - [Notify](https://github.com/passcod/notify), my file watcher library for Rust.
+ - [Cargo Watch](https://github.com/passcod/cargo-watch), a cargo tool.
+
+### Created / Started
+
+ - [Blograph](https://github.com/passcod/blograph), the engine my blog runs on, in Rust and Node.
+ - [Catflap](https://github.com/passcod/catflap), a tool for reloading servers.
+ - [Stalc](https://github.com/passcod/stalc), a toy language and arbitrary-precision arbitrary-radix calculator with first-class date/time support.
+ - [UPPERCASE-NPM](https://github.com/passcod/UPPERCASE-NPM), a positively awful abomination.
+ - [Heroku Buildpack for Neon](https://github.com/passcod/heroku-buildpack-neon).
+ - [Cogitare](https://github.com/storily/cogitare), a collection of prompts and story aids, as preparation and backing service for my NaNoWriMo plotbots.
+ - [Parable](https://github.com/storily/parable), a lightweight deploy tool built for Cogitare.
+
+### Contributed to
+
+ - [npx](https://github.com/zkat/npx): [#7](https://github.com/zkat/npx/pull/7)
+ - [watchexec](https://github.com/mattgreen/watchexec): [#52](https://github.com/mattgreen/watchexec/pull/52)
