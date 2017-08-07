@@ -60,6 +60,10 @@ place. Not a dull day passes, with these two!
 I accidentally used “þ” instead of “th” in a tweet, but I like it! I think I'll
 use it more, and not accidentally.
 
+## Cogitare
+
+I started on a redesign of the plotbot for NaNoWriMo. More news next month!
+
 ## Fanfiction
 
 As usual, only "good enough to be listed" newly-read fics are, well, listed, and
