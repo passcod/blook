@@ -76,3 +76,4 @@ not everything I've read during the month. Especially recommended fics are in
  - {HP} [Applied Cultural Anthropology, or How I Learned to Stop Worrying and Love the Cruciatus](https://www.fanfiction.net/s/9238861). {162k words atow}
  - {GoT} [Blackfish Out Of Water](https://www.fanfiction.net/s/11921280). {97k words atow}
  - {SW} [Ad Utrumque Paratus](https://archiveofourown.org/works/7168628). {19k words atow}
+ - {SW} [people think the strangest things](https://archiveofourown.org/works/9452543). {4k words}
