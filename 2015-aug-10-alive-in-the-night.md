@@ -1,6 +1,10 @@
 ---
 date: 2015-01-10T12:00:00+12:00
 title: ali.vei.nth.eni.ght
+tags:
+   - short
+   - role-playing
+   - absurd
 ---
 
 Your cat, your glasses, and a giant butterfly walk into a room. You realise

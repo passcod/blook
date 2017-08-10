@@ -1,6 +1,10 @@
 ---
 date: 2009-07-28T14:30:00+12:00
 title: Only One Left
+tags:
+   - poem
+   - schoolwork
+   - roger-meyer
 ---
 
 The door is closed.  
