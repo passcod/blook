@@ -34,5 +34,6 @@ not everything I've read during the month. Especially recommended fics are in
 This is a new section, where I'll list films and movies I watched this month and
 think are good enough to be listed.
 
-- [After the Storm](https://en.wikipedia.org/wiki/After_the_Storm_(2016_film)),
-  _Hirokazu Koreeda_.
+ - [After the Storm](https://en.wikipedia.org/wiki/After_the_Storm_(2016_film)),
+   _Hirokazu Koreeda_.
+ - [Queen of Katwe](https://en.wikipedia.org/wiki/Queen_of_Katwe), _Mira Nair_.
