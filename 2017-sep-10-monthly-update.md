@@ -10,7 +10,7 @@ parents:
 ## Poetry imports
 
 I “imported” (as in, moved/copied from elsewhere onto this blog) three poems,
-one song, and one very short short piece of absurd fiction:
+one song, and one very short piece of absurd fiction:
 
 - [Only One Left](https://blog.passcod.name/2009/jul/28/only-one-left)
 - [Slowly](https://blog.passcod.name/2013/nov/24/slowly)
@@ -38,3 +38,5 @@ think are good enough to be listed.
  - [After the Storm](https://en.wikipedia.org/wiki/After_the_Storm_(2016_film)),
    _Hirokazu Koreeda_.
  - [Queen of Katwe](https://en.wikipedia.org/wiki/Queen_of_Katwe), _Mira Nair_.
+ - [The Tale of the Princess Kaguya](https://en.wikipedia.org/wiki/The_Tale_of_the_Princess_Kaguya),
+   _Studio Ghibli_. The Buddha is a jerk.
