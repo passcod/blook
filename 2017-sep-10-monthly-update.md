@@ -32,6 +32,7 @@ not everything I've read during the month. Especially recommended fics are in
  - {Avatar} [Touch and Go](https://archiveofourown.org/works/240250). {4k words}
  - {Avatar} [Cauterize](https://archiveofourown.org/works/240262). {13k words}
  - {Avatar} [The Compass Points North](https://archiveofourown.org/works/240279). {32k words}
+ - {Avatar} [Toward The Rising Sun](https://archiveofourown.org/works/240285). {31k words atow}
 
 ## Films
 
