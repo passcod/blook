@@ -30,6 +30,7 @@ not everything I've read during the month. Especially recommended fics are in
  - {SW} [Burnt Edges](https://archiveofourown.org/works/2536406). {33k words}
  - {SW} [Lingering Doubt](https://archiveofourown.org/works/11786151). {10k words}
  - {Avatar} [Touch and Go](https://archiveofourown.org/works/240250). {4k words}
+ - {Avatar} [Cauterize](https://archiveofourown.org/works/240262). {13k words}
 
 ## Films
 
