@@ -31,6 +31,7 @@ not everything I've read during the month. Especially recommended fics are in
  - {SW} [Lingering Doubt](https://archiveofourown.org/works/11786151). {10k words}
  - {Avatar} [Touch and Go](https://archiveofourown.org/works/240250). {4k words}
  - {Avatar} [Cauterize](https://archiveofourown.org/works/240262). {13k words}
+ - {Avatar} [The Compass Points North](https://archiveofourown.org/works/240279). {32k words}
 
 ## Films
 
