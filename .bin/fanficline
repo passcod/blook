@@ -36,6 +36,8 @@ class Fic
       'Buffy'
     when /game of thrones/i, /GoT/
       'GoT'
+    when /aang/i, /avatar/i, /airbender/i
+      'Avatar'
     end
   end
 
