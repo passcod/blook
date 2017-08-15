@@ -45,10 +45,10 @@ In essence, they had an input structure looking like this:
 and they wanted to write a `permit` rule for it. They had tried this:
 
 ```ruby
-   private
-   def box_params
-      params.require(:box).permit({kitten: [:name, :vaccination_dates]})
-   end
+private
+def box_params
+   params.require(:box).permit({kitten: [:name, :vaccination_dates]})
+end
 ```
 
 but it wasn't working. When searching, they'd found [a blog post advocating a
@@ -125,10 +125,10 @@ permit([
 or:
 
 ```ruby
-   private
-   def box_params
-      params.require(:box).permit({ kitten: [ :name, { vaccination_dates: [] } ] })
-   end
+private
+def box_params
+   params.require(:box).permit({ kitten: [ :name, { vaccination_dates: [] } ] })
+end
 ```
 
 or without the explicit brackets, as pointed out by another person in the Slack:
