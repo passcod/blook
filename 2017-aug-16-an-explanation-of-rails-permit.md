@@ -138,4 +138,4 @@ permit(kitten: [ :name, vaccination_dates: [] ])
 ```
 
 [pat]: http://patshaughnessy.net/2014/6/16/a-rule-of-thumb-for-strong-parameters
-[docs]: http://api.rubyonrails.org/classes[MaQ4[MaQ4[MaQ4/ActionController/Parameters.html#method-i-permit
+[docs]: http://api.rubyonrails.org/classes/ActionController/Parameters.html#method-i-permit
