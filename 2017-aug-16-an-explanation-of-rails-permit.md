@@ -1,6 +1,5 @@
 ---
 date: 2017-08-16T09:13:16+12:00
-frontpage: false
 title: An explanation of Rails's permit
 tags:
    - post
