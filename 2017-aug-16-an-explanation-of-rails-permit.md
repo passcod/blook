@@ -88,7 +88,7 @@ a single-element hash, you can just pass a Symbol and it will assume you mean "a
 _key_ of {whatever the symbol is} and a _type_ of 'scalar'". We'll see why
 "scalar" in a moment.
 
-So in the case of your `"name": "Book"`, you have a _key_ of `name` and a
+So in the case of your `"name": "Boo"`, you have a _key_ of `name` and a
 "type" of "a scalar" (here, a string). In the case of `"vaccination_dates":
 ["2014/10/11"]`, you have a _key_ of `vaccination_dates` and a "type" of "not a
 scalar" (here an array). Now, [`permit`'s docs][docs] say this:
