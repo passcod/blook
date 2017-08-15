@@ -92,7 +92,7 @@ So in the case of your `"name": "Boo"`, you have a _key_ of `name` and a
 ["2014/10/11"]`, you have a _key_ of `vaccination_dates` and a "type" of "not a
 scalar" (here an array). Now, [`permit`'s docs][docs] say this:
 
-> Only permitted *scalars* pass the filter.
+> Only permitted **scalars** pass the filter.
 
 (Emphasis mine.)
 
