@@ -18,6 +18,18 @@ one song, and one very short piece of absurd fiction:
 - [Up Up And Away](https://blog.passcod.name/2014/feb/08/up-up-and-away)
 - [ali.vei.nth.eni.ght](https://blog.passcod.name/2015/jan/10/alive-in-the-night)
 
+## Dawnverse
+
+I published another snippet, but this time not from Naema. I feel like posting
+more of these, but for now that's all I have that's not full of "TK" editing
+annotations and placeholders, and that's standalone enough that it actually
+makes sense without too much context.
+
+[In that bright land from which I come](http://archiveofourown.org/works/11809908).
+
+The title is a derive on a lyric from "The Wayfaring Stranger". (Johnny Cash's
+version). The "bright land" in the song is gone **to**, and represents Heaven.
+
 ## Fanfiction
 
 As usual, only "good enough to be listed" newly-read fics are, well, listed, and
