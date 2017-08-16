@@ -48,6 +48,11 @@ not everything I've read during the month. Especially recommended fics are in
  - {SW} **[Cataclasm](https://archiveofourown.org/works/10803201)**. {43k words atow}
  - {SW} [The Right Path](https://archiveofourown.org/works/5571483). {5k words}
 
+ - {SW} [Amid the Shadow](https://archiveofourown.org/works/10756650).
+
+   There really ought to be a rating in between 'Teen and up' and 'Adult'.
+   {33k words atow}
+
 ## Films
 
 This is a new section, where I'll list films and movies I watched this month and
