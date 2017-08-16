@@ -46,6 +46,7 @@ not everything I've read during the month. Especially recommended fics are in
  - {Avatar} [The Compass Points North](https://archiveofourown.org/works/240279). {32k words}
  - {Avatar} [Toward The Rising Sun](https://archiveofourown.org/works/240285). {31k words atow}
  - {SW} **[Cataclasm](https://archiveofourown.org/works/10803201)**. {43k words atow}
+ - {SW} [The Right Path](https://archiveofourown.org/works/5571483). {5k words}
 
 ## Films
 
