@@ -56,6 +56,20 @@ not everything I've read during the month. Especially recommended fics are in
 
  - {SW} [Of marriage](https://archiveofourown.org/works/8451358). {10k words atow}
 
+ - {SW} **[Lead Me From Fear To Love](https://archiveofourown.org/works/7394932)**.
+
+   This is an excellent fic, if very graphic given its premise and content.
+   There is little that I dislike about it: most of that is the lack of
+   proofreading consistent throughout. It's not badly written, but there's words
+   missing, awkward wording, common typos, etc. The story is well-organised into
+   arcs and subarcs and side-stories, with very good blending and threading so
+   while you can see the different arcs, they don't feel disjointed at all. The
+   principles that the Jedi are orienting themselves towards is also a great
+   boon to me, as it is exactly the kind of thing one group in my Dawnverse is
+   going for, so it's giving me both confirmation and ideas on how to write it.
+   Heartily recommend, albeit with warnings for very graphic violence and abuse.
+   {218k words atow}
+
 ## Films
 
 This is a new section, where I'll list films and movies I watched this month and
