@@ -70,6 +70,8 @@ not everything I've read during the month. Especially recommended fics are in
    Heartily recommend, albeit with warnings for very graphic violence and abuse.
    {218k words atow}
 
+ - {SW} [Master Kenobi](https://archiveofourown.org/works/8828086). {1k words}
+
 ## Films
 
 This is a new section, where I'll list films and movies I watched this month and
