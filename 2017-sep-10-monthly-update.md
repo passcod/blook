@@ -71,6 +71,7 @@ not everything I've read during the month. Especially recommended fics are in
    {218k words atow}
 
  - {SW} [Master Kenobi](https://archiveofourown.org/works/8828086). {1k words}
+ - {SW} [Course Correction](https://archiveofourown.org/works/8339320). {3k words atow}
 
 ## Films
 
