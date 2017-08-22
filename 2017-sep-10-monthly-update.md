@@ -73,6 +73,7 @@ not everything I've read during the month. Especially recommended fics are in
  - {SW} [Master Kenobi](https://archiveofourown.org/works/8828086). {1k words}
  - {SW} [Course Correction](https://archiveofourown.org/works/8339320). {3k words atow}
  - {SW} [Offset](https://archiveofourown.org/works/7735549). {65k words}
+ - {SW} [Deadeye](https://archiveofourown.org/works/5621677). {73k words atow}
 
 ## Films
 
