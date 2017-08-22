@@ -21,19 +21,19 @@ one song, and one very short piece of absurd fiction:
 ## Dawnverse
 
 I published another snippet, but this time not from Naema. I feel like posting
-more of these, but for now that's all I have that's not full of "TK" editing
-annotations and placeholders, and that's standalone enough that it actually
+more of these, but for now that’s all I have that’s not full of "TK" editing
+annotations and placeholders, and that’s standalone enough that it actually
 makes sense without too much context.
 
 [In that bright land from which I come](http://archiveofourown.org/works/11809908).
 
-The title is a derive on a lyric from "The Wayfaring Stranger". (Johnny Cash's
-version). The "bright land" in the song is gone **to**, and represents Heaven.
+The title is a derive on a lyric from “The Wayfaring Stranger”. (Johnny Cash’s
+version). The “bright land” in the song is gone **to**, and represents Heaven.
 
 ## Fanfiction
 
-As usual, only "good enough to be listed" newly-read fics are, well, listed, and
-not everything I've read during the month. Especially recommended fics are in
+As usual, only “good enough to be listed” newly-read fics are, well, listed, and
+not everything I’ve read during the month. Especially recommended fics are in
 **bold**.
 
  - {SW} [The Exchange](https://archiveofourown.org/works/8911009). {58k words atow}
@@ -50,9 +50,8 @@ not everything I've read during the month. Especially recommended fics are in
 
  - {SW} [Amid the Shadow](https://archiveofourown.org/works/10756650).
 
-   There really ought to be a rating in between 'Teen and up' and 'Adult'.
+   There really ought to be a rating in between ‘Teen and up’ and ‘Adult’.
    {33k words atow}
-
 
  - {SW} [Of marriage](https://archiveofourown.org/works/8451358). {10k words atow}
 
@@ -60,13 +59,13 @@ not everything I've read during the month. Especially recommended fics are in
 
    This is an excellent fic, if very graphic given its premise and content.
    There is little that I dislike about it: most of that is the lack of
-   proofreading consistent throughout. It's not badly written, but there's words
+   proofreading consistent throughout. It’s not badly written, but there’s words
    missing, awkward wording, common typos, etc. The story is well-organised into
    arcs and subarcs and side-stories, with very good blending and threading so
-   while you can see the different arcs, they don't feel disjointed at all. The
+   while you can see the different arcs, they don’t feel disjointed at all. The
    principles that the Jedi are orienting themselves towards is also a great
    boon to me, as it is exactly the kind of thing one group in my Dawnverse is
-   going for, so it's giving me both confirmation and ideas on how to write it.
+   going for, so it’s giving me both confirmation and ideas on how to write it.
    Heartily recommend, albeit with warnings for very graphic violence and abuse.
    {218k words atow}
 
@@ -77,7 +76,7 @@ not everything I've read during the month. Especially recommended fics are in
 
 ## Films
 
-This is a new section, where I'll list films and movies I watched this month and
+This is a new section, where I’ll list films and movies I watched this month and
 think are good enough to be listed.
 
  - [After the Storm](https://en.wikipedia.org/wiki/After_the_Storm_(2016_film)),
