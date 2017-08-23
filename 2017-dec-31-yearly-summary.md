@@ -52,6 +52,8 @@ parents:
 
 ## Donations
 
+Planned budget: 5% of $55k = $2750
+
 All amounts in NZ dollars, even if the donation was in another currency, except
 where explicitly noted.
 
@@ -60,22 +62,28 @@ where explicitly noted.
 - ACLU: $70
 - AO3: 69 US cents
 - Alice: $100
+- The Green Party: $150
+- Rainbow Youth: $200
+
+-=> 2230
 
 ### Ongoing throughout the year
 
-- Patreon (various recipients): to be calculated at the end of the year
-- IHC: $300
-- Unicef: $300
-- The Green Party: $50
+- Patreon (various recipients): to be calculated at the end of the year (not counted in total)
+- IHC: $200
+- Unicef: $200
+
+-=> 1830
 
 ### One time (planned) (section should be entirely removed before year's end)
 
-- Rainbow Youth
-- Amnesty International
-- Médecins Sans Frontières
-- Reporteurs Sans Frontières
-- CanTeen
-- GiveWell's recommended mix (donated directly to GiveWell)
+- Amnesty International: $150
+- Médecins Sans Frontières: $150
+- Reporteurs Sans Frontières: $150
+- CanTeen: $150
+- GiveWell's recommended mix (donated directly to GiveWell): $250
+
+-=> 980
 
 
 ## Fanfiction

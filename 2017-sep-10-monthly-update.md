@@ -76,6 +76,7 @@ not everything I’ve read during the month. Especially recommended fics are in
  - {SW} [Where Shall We Three Meet Again?](https://archiveofourown.org/works/7490736). {47k words atow}
  - {SW} [Everyone Deserves Someone Who Cares](https://archiveofourown.org/works/6029284). {12k words atow}
  - {SW} [Champion of the Force](https://archiveofourown.org/works/6186844). {18k words atow}
+ - {SW} [Deviation](https://archiveofourown.org/works/7665625). {48k words atow}
 
 ## Films
 
