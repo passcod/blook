@@ -74,6 +74,7 @@ not everything I’ve read during the month. Especially recommended fics are in
  - {SW} [Offset](https://archiveofourown.org/works/7735549). {65k words}
  - {SW} [Deadeye](https://archiveofourown.org/works/5621677). {73k words atow}
  - {SW} [Where Shall We Three Meet Again?](https://archiveofourown.org/works/7490736). {47k words atow}
+ - {SW} [Everyone Deserves Someone Who Cares](https://archiveofourown.org/works/6029284). {12k words atow}
 
 ## Films
 
