@@ -98,6 +98,7 @@ updates for incomplete works I follow.
 - April → May: 3,325k
 - May → June: 2,567k
 - June → July: 1,969k
+- July → August: 992k
 
 
 ## Open Source Projects
@@ -126,3 +127,4 @@ updates for incomplete works I follow.
 
  - [npx](https://github.com/zkat/npx): [#7](https://github.com/zkat/npx/pull/7)
  - [watchexec](https://github.com/mattgreen/watchexec): [#52](https://github.com/mattgreen/watchexec/pull/52)
+ - [Bootstrap](https://getbootstrap.com): [#23349](https://github.com/twbs/bootstrap/issues/23349)
