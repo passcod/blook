@@ -78,6 +78,7 @@ not everything I’ve read during the month. Especially recommended fics are in
  - {SW} [Champion of the Force](https://archiveofourown.org/works/6186844). {18k words atow}
  - {SW} [Deviation](https://archiveofourown.org/works/7665625). {48k words atow}
  - {SW} [I Didn't Believe Them/When They Called You/A Hurricane Thunderclap](https://archiveofourown.org/works/5276975). {32k words}
+ - {SW} [these are the good old days](https://archiveofourown.org/works/7534435) and [set this dance alight](https://archiveofourown.org/works/8402176). {2k + 3k words atow}
 
 ## Films
 
