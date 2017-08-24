@@ -65,17 +65,18 @@ except where explicitly noted.
 - ACLU: $70
 - AO3: 69 US cents
 - Alice: $100
+- The [Star Wars Galaxy Map](http://www.swgalaxymap.com): $43
 - The Green Party: $150
 - Rainbow Youth: $200
 
--=> 2230
+-=> 2187
 
 ### Ongoing throughout the year
 
 - IHC: $300
 - Unicef: $300
 
--=> 1630
+-=> 1587
 
 ### One time (planned) (section should be entirely removed before year's end)
 
@@ -85,7 +86,7 @@ except where explicitly noted.
 - CanTeen: $150
 - GiveWell's recommended mix (donated directly to GiveWell): $500
 
--=> 530
+-=> 487
 
 ### Patreon
 
