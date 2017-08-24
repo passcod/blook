@@ -52,12 +52,15 @@ parents:
 
 ## Donations
 
-Planned budget: 5% of $55k = $2750
+Every year that I am able to, I try to give a sizeable portion of my salary
+away in donations to various organisations and charities I believe make the
+world a better place. This year, I chose to give 5% of my gross salary, i.e.
+$2750, to over 15 organisations and individuals.
 
-All amounts in NZ dollars, even if the donation was in another currency, except
-where explicitly noted.
+All amounts are in NZ dollars, even if the donation was in another currency,
+except where explicitly noted.
 
-### One time (done)
+### One time
 
 - ACLU: $70
 - AO3: 69 US cents
@@ -69,11 +72,10 @@ where explicitly noted.
 
 ### Ongoing throughout the year
 
-- Patreon (various recipients): to be calculated at the end of the year (not counted in total)
-- IHC: $200
-- Unicef: $200
+- IHC: $300
+- Unicef: $300
 
--=> 1830
+-=> 1630
 
 ### One time (planned) (section should be entirely removed before year's end)
 
@@ -81,9 +83,13 @@ where explicitly noted.
 - Médecins Sans Frontières: $150
 - Reporteurs Sans Frontières: $150
 - CanTeen: $150
-- GiveWell's recommended mix (donated directly to GiveWell): $250
+- GiveWell's recommended mix (donated directly to GiveWell): $500
 
--=> 980
+-=> 530
+
+### Patreon
+
+Aside from my 5% donations, I also gave $xxx to various creators on Patreon.
 
 
 ## Fanfiction
