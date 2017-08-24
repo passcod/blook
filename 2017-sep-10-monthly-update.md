@@ -80,6 +80,7 @@ not everything I’ve read during the month. Especially recommended fics are in
  - {SW} [I Didn't Believe Them/When They Called You/A Hurricane Thunderclap](https://archiveofourown.org/works/5276975). {32k words}
  - {SW} [these are the good old days](https://archiveofourown.org/works/7534435) and [set this dance alight](https://archiveofourown.org/works/8402176). {2k + 3k words atow}
  - {SW} **[In a Lonely Place](https://archiveofourown.org/works/259403)**. My dear heart, it has fluttered off and gone upon the reading of this fic. {81k words}
+ - {SW} [Kindling](https://archiveofourown.org/works/8991613). {17k words}
 
 ## Films
 
