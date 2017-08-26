@@ -83,6 +83,7 @@ not everything I’ve read during the month. Especially recommended fics are in
  - {SW} [Kindling](https://archiveofourown.org/works/8991613), [Fuel](https://archiveofourown.org/works/9305006), [Smolder](https://archiveofourown.org/works/9375212), [Flare](https://archiveofourown.org/works/9395333), [Stoke](https://archiveofourown.org/works/9534137/chapters/22083500), [Furnace](https://archiveofourown.org/works/10685739). {17k + 1k + 2k + 8k + 18k + 20k words}
  - {HP/SW} **[rise like a phoenix in the desert winds](https://archiveofourown.org/works/8624473)**. {39k words}
  - {HP/SW} [like a phoenix from the ashes](https://archiveofourown.org/works/8779825). {9k words}
+ - {HP/SW} [they say that life is full of second chances](https://archiveofourown.org/works/8797453). {6k words}
 
 ## Films
 
