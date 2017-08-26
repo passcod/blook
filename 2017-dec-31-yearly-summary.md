@@ -86,8 +86,10 @@ except where explicitly noted.
 - Reporteurs Sans Frontières: $150
 - CanTeen: $150
 - GiveWell's recommended mix (donated directly to GiveWell): $500
+- Local marae-based code-for-kids org: $50
+- AO3: $37
 
--=> 337
+-=> 250
 
 ### Patreon
 
