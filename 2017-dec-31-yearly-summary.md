@@ -68,15 +68,16 @@ except where explicitly noted.
 - The [Star Wars Galaxy Map](http://www.swgalaxymap.com): $43
 - The Green Party: $150
 - Rainbow Youth: $200
+- Books for [a classroom](https://www.donorschoose.org/project/engaging-reluctant-readers/2724929/): $150
 
--=> 2187
+-=> 2037
 
 ### Ongoing throughout the year
 
 - IHC: $300
 - Unicef: $300
 
--=> 1587
+-=> 1437
 
 ### One time (planned) (section should be entirely removed before year's end)
 
@@ -86,7 +87,7 @@ except where explicitly noted.
 - CanTeen: $150
 - GiveWell's recommended mix (donated directly to GiveWell): $500
 
--=> 487
+-=> 337
 
 ### Patreon
 
