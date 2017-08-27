@@ -20,34 +20,34 @@ parents:
 
 ## Conferences
 
-- [NZ.js(con)](http://conference.javascript.org.nz/)
-- [Play by Play](http://playbyplay.co.nz/)
+ - [NZ.js(con)](http://conference.javascript.org.nz/)
+ - [Play by Play](http://playbyplay.co.nz/)
 
 
 ## Books
 
 ### Bought
 
-- [Dark Lord's Answer](https://www.amazon.com/Dark-Lords-Answer-Eliezer-Yudkowsky-ebook/dp/B01N9IPGWZ) {ebook}
-- [Wearing The Cape](https://www.amazon.com/Wearing-Cape-Book-ebook/dp/B004XRCC1G) and sequels {ebook}
-- [Universal Principles of Design](https://www.amazon.com/Universal-Principles-Design-Revised-Updated/dp/1592535879/)
-- [The Design of Everyday Things](https://www.amazon.com/gp/product/0465050654/)
-- [Barbarian Lord](https://www.amazon.com/Barbarian-Lord-Matt-Smith/dp/0547859066)
-- [The Library of Fates](https://www.goodreads.com/book/show/32766747-the-library-of-fates)
-- [The Rogue's Guide To Life](https://www.createspace.com/7098811)
-- [City of Angles: vol//001 Bedlam](https://www.createspace.com/4405318)
-- [City of Angles: vol//002 Echoes](https://www.createspace.com/4706335)
-- [City of Angles: vol//003 Lucidity](https://www.createspace.com/5212086)
-- [We Have No Idea: A Guide to the Unknown Universe](https://www.amazon.com/gp/product/0735211515)
-- [Thing Explainer: Complicated Stuff in Simple Words](https://www.amazon.com/gp/product/0544668251)
-- [Dates volume 1](https://gumroad.com/l/datesBook)
+ - [Dark Lord's Answer](https://www.amazon.com/Dark-Lords-Answer-Eliezer-Yudkowsky-ebook/dp/B01N9IPGWZ) {ebook}
+ - [Wearing The Cape](https://www.amazon.com/Wearing-Cape-Book-ebook/dp/B004XRCC1G) and sequels {ebook}
+ - [Universal Principles of Design](https://www.amazon.com/Universal-Principles-Design-Revised-Updated/dp/1592535879/)
+ - [The Design of Everyday Things](https://www.amazon.com/gp/product/0465050654/)
+ - [Barbarian Lord](https://www.amazon.com/Barbarian-Lord-Matt-Smith/dp/0547859066)
+ - [The Library of Fates](https://www.goodreads.com/book/show/32766747-the-library-of-fates)
+ - [The Rogue's Guide To Life](https://www.createspace.com/7098811)
+ - [City of Angles: vol//001 Bedlam](https://www.createspace.com/4405318)
+ - [City of Angles: vol//002 Echoes](https://www.createspace.com/4706335)
+ - [City of Angles: vol//003 Lucidity](https://www.createspace.com/5212086)
+ - [We Have No Idea: A Guide to the Unknown Universe](https://www.amazon.com/gp/product/0735211515)
+ - [Thing Explainer: Complicated Stuff in Simple Words](https://www.amazon.com/gp/product/0544668251)
+ - [Dates volume 1](https://gumroad.com/l/datesBook)
 
 ### Backed
 
-- [The Meek volume 1](https://www.kickstarter.com/projects/shingworks/the-meek-volume-1)
-- [Go Get a Roomie book 2](https://www.kickstarter.com/projects/hiveworks/go-get-a-roomie-books-1-2-by-chloe-c/description)
-- [Dates volume 2](https://www.kickstarter.com/projects/marginspublishing/dates-an-anthology-of-queer-historical-fiction-vol)
-- [Dumbing of Age book 6](https://www.kickstarter.com/projects/326540223/dumbing-of-age-sixth-book-collection)
+ - [The Meek volume 1](https://www.kickstarter.com/projects/shingworks/the-meek-volume-1)
+ - [Go Get a Roomie book 2](https://www.kickstarter.com/projects/hiveworks/go-get-a-roomie-books-1-2-by-chloe-c/description)
+ - [Dates volume 2](https://www.kickstarter.com/projects/marginspublishing/dates-an-anthology-of-queer-historical-fiction-vol)
+ - [Dumbing of Age book 6](https://www.kickstarter.com/projects/326540223/dumbing-of-age-sixth-book-collection)
 
 
 ## Donations
@@ -62,32 +62,32 @@ except where explicitly noted.
 
 ### One time
 
-- ACLU: $70
-- AO3: 69 US cents
-- Alice: $100
-- The [Star Wars Galaxy Map](http://www.swgalaxymap.com): $43
-- The Green Party: $150
-- Rainbow Youth: $200
-- Books for [a classroom](https://www.donorschoose.org/project/engaging-reluctant-readers/2724929/): $150
+ - ACLU: $70
+ - AO3: 69 US cents
+ - Alice: $100
+ - The [Star Wars Galaxy Map](http://www.swgalaxymap.com): $43
+ - The Green Party: $150
+ - Rainbow Youth: $200
+ - Books for [a classroom](https://www.donorschoose.org/project/engaging-reluctant-readers/2724929/): $150
 
 -=> 2037
 
 ### Ongoing throughout the year
 
-- IHC: $300
-- Unicef: $300
+ - IHC: $300
+ - Unicef: $300
 
 -=> 1437
 
 ### One time (planned) (section should be entirely removed before year's end)
 
-- Amnesty International: $150
-- Médecins Sans Frontières: $150
-- Reporteurs Sans Frontières: $150
-- CanTeen: $150
-- GiveWell's recommended mix (donated directly to GiveWell): $500
-- Local marae-based code-for-kids org: $50
-- AO3: $37
+ - Amnesty International: $150
+ - Médecins Sans Frontières: $150
+ - Reporteurs Sans Frontières: $150
+ - CanTeen: $150
+ - GiveWell's recommended mix (donated directly to GiveWell): $500
+ - Local marae-based code-for-kids org: $50
+ - AO3: $37
 
 -=> 250
 
@@ -100,9 +100,9 @@ Aside from my 5% donations, I also gave $xxx to various creators on Patreon.
 
 ### Written
 
-- [Empire Day on Thabeska](https://archiveofourown.org/works/11542755)
-- [Naema]() - TBP
+ - [Empire Day on Thabeska](https://archiveofourown.org/works/11542755)
  - [In that bright land from which I come](http://archiveofourown.org/works/11809908).
+ - [Naema]() - TBP
 
 ### Read
 
@@ -110,14 +110,14 @@ Words read per month, based on the monthly update posts. Thus the figure is
 low-balled as the posts don't include fics I read but didn't like, nor the
 updates for incomplete works I follow.
 
-- December 2016 → January 2017: 5,399k
-- January → February: 6,416k
-- February → March: 2,964k
-- March → April: 2,199k
-- April → May: 3,325k
-- May → June: 2,567k
-- June → July: 1,969k
-- July → August: 992k
+ - December 2016 → January 2017: 5,399k
+ - January → February: 6,416k
+ - February → March: 2,964k
+ - March → April: 2,199k
+ - April → May: 3,325k
+ - May → June: 2,567k
+ - June → July: 1,969k
+ - July → August: 992k
 
 
 ## Open Source Projects
