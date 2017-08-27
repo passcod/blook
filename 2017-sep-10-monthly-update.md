@@ -86,6 +86,21 @@ not everything I’ve read during the month. Especially recommended fics are in
  - {HP/SW} [they say that life is full of second chances](https://archiveofourown.org/works/8797453). {6k words}
  - {SW} [Against the odds](https://archiveofourown.org/works/8915611). {31k words}
 
+ - {SW} **[On the Edge of the Devil's Backbone](https://archiveofourown.org/works/4417469)**.
+
+   I'm running out of nice things to say about fics. Assume the details: it's a
+   great fic, well-written, good arcs, awesome concept, etc. What I found really
+   interesting about it is the point of view of people under an authoritarian
+   regime. There's not much by people who enjoy serving under it, and not much
+   by people who resist, although there's a bit of both. No, what's there most
+   is people who believe they're doing the right thing, for very good reasons,
+   who are _loyal_ to the regime, when they really really shouldn't be. There's
+   people destroying themselves to survive, at any cost. It's a story about
+   shades of people operating in a shady world where no circumstance, no
+   decision, is ever black and white, right or wrong, wholly good or wholly
+   evil. It's a convincing and chilling perspective, especially here, today.
+   {282k words atow}
+
 ## Films
 
 This is a new section, where I’ll list films and movies I watched this month and
