@@ -140,7 +140,6 @@ updates for incomplete works I follow.
  - [UPPERCASE-NPM](https://github.com/passcod/UPPERCASE-NPM), a positively awful abomination.
  - [Heroku Buildpack for Neon](https://github.com/passcod/heroku-buildpack-neon).
  - [Cogitare](https://github.com/storily/cogitare), a collection of prompts and story aids, as preparation and backing service for my NaNoWriMo plotbots.
- - [Parable](https://github.com/storily/parable), a lightweight deploy tool built for Cogitare.
 
 ### Contributed to
 
