@@ -30,6 +30,48 @@ makes sense without too much context.
 The title is a derive on a lyric from “The Wayfaring Stranger”. (Johnny Cash’s
 version). The “bright land” in the song is gone **to**, and represents Heaven.
 
+## Meta
+
+Someone asked how I edit those updates. Here's how:
+
+![A list of commits that have gone into this update so far](https://i.imgur.com/dqHeo63.png)
+
+I have two scripts that I use extensively:
+
+- `.bin/monthly` opens the current monthly update, creating it if needed
+- `.bin/fanficline` takes any fanfic URL, fetches and parses metadata, and
+  outputs a line of markdown formatted according to my conventions. It's used
+  with vim's `r!` command, which inserts the output of a command in the buffer.
+
+Each fanfic entry is written and committed (using the initials of the fic)
+shortly (often _immediately_) after I read it.
+
+For everything else, I write up what I've done in the month as I think of
+including it, per section. Everything is pushed to the blog posts' repo as I
+write, which updates the live blog instance.
+
+Blograph supports future-dated posts, so provided I know the URL of a post, I
+can see how it renders before it actually gets published. Publication is a
+passive process: when the time rolls over, new requests to the blog's front
+page, tags, feeds, previous and parent posts, etc get the “new” link. There's no
+manual intervention at all.
+
+I generally schedule a tweet with the update's link and a few words about its
+contents at 1pm NZ time on the day it publishes, and use that morning to check
+over the post, its render, and links, to make sure it's fine. Sometimes I miss a
+few things, which I fix and push out very soon after publication.
+
+I find that this mode of updating not only makes sure I write things as they are
+fresh in mind, but also makes sure that I write _continuously_ throughout each
+month, instead of only doing a burst of writing up an update at the end of a
+month. It also makes the commitment much easier to bear, given I only ever have
+to write in tiny blobs of relevant-now content, and not write an entire
+multi-thousand-word update in one go.
+
+While some updates have been lighter in content than others, I haven't missed
+any. I've spent the year so far writing more each month than I did in the
+entirety of 2016, and that feels absolutely awesome.
+
 ## Fanfiction
 
 As usual, only “good enough to be listed” newly-read fics are, well, listed, and
