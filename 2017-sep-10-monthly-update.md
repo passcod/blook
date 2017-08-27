@@ -101,6 +101,8 @@ not everything I’ve read during the month. Especially recommended fics are in
    evil. It's a convincing and chilling perspective, especially here, today.
    {282k words atow}
 
+ - {SW} [A Million More Deaths](https://archiveofourown.org/works/8995900). {3k words}
+
 ## Films
 
 This is a new section, where I’ll list films and movies I watched this month and
