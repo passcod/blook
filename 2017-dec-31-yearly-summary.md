@@ -69,6 +69,7 @@ except where explicitly noted.
  - The Green Party: $150
  - Rainbow Youth: $200
  - Books for [a classroom](https://www.donorschoose.org/project/engaging-reluctant-readers/2724929/): $150
+ - CanTeen: $150
 
 -=> 2037
 
@@ -84,7 +85,6 @@ except where explicitly noted.
  - Amnesty International: $150
  - Médecins Sans Frontières: $150
  - Reporteurs Sans Frontières: $150
- - CanTeen: $150
  - GiveWell's recommended mix (donated directly to GiveWell): $500
  - Local marae-based code-for-kids org: $50
  - AO3: $37
