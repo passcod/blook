@@ -57,13 +57,12 @@ away in donations to various organisations and charities I believe make the
 world a better place. This year, I chose to give 5% of my gross salary, i.e.
 $2750, to over 15 organisations and individuals.
 
-All amounts are in NZ dollars, even if the donation was in another currency,
-except where explicitly noted.
+All amounts are in NZ dollars, even if the donation was in another currency.
 
 ### One time
 
  - ACLU: $70
- - AO3: 69 US cents
+ - AO3 / Organisation for Transformative Works: $37
  - Alice: $100
  - The [Star Wars Galaxy Map](http://www.swgalaxymap.com): $43
  - The Green Party: $150
@@ -71,14 +70,14 @@ except where explicitly noted.
  - Books for [a classroom](https://www.donorschoose.org/project/engaging-reluctant-readers/2724929/): $150
  - CanTeen: $150
 
--=> 2037
+-=> 2850
 
 ### Ongoing throughout the year
 
  - IHC: $300
  - Unicef: $300
 
--=> 1437
+-=> 1250
 
 ### One time (planned) (section should be entirely removed before year's end)
 
@@ -87,7 +86,6 @@ except where explicitly noted.
  - Reporteurs Sans Frontières: $150
  - GiveWell's recommended mix (donated directly to GiveWell): $500
  - Local marae-based code-for-kids org: $50
- - AO3: $37
 
 -=> 250
 
