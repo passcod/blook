@@ -72,6 +72,12 @@ While some updates have been lighter in content than others, I haven't missed
 any. I've spent the year so far writing more each month than I did in the
 entirety of 2016, and that feels absolutely awesome.
 
+## Donations
+
+I started my round of selecting organisations and making donations for this
+year. I have chosen to give 5% of my average gross salary for the year, which
+adds up to $2750, and exclude Patreon from that.
+
 ## Fanfiction
 
 As usual, only “good enough to be listed” newly-read fics are, well, listed, and
