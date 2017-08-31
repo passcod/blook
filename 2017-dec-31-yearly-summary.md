@@ -69,25 +69,26 @@ All amounts are in NZ dollars, even if the donation was in another currency.
  - Rainbow Youth: $200
  - Books for [a classroom](https://www.donorschoose.org/project/engaging-reluctant-readers/2724929/): $150
  - CanTeen: $150
+ - GiveWell: $300
 
--=> 2850
+-=> 2550
 
 ### Ongoing throughout the year
 
  - IHC: $300
  - Unicef: $300
 
--=> 1250
+-=> 950
 
 ### One time (planned) (section should be entirely removed before year's end)
 
  - Amnesty International: $150
  - Médecins Sans Frontières: $150
  - Reporteurs Sans Frontières: $150
- - GiveWell's recommended mix (donated directly to GiveWell): $500
  - Local marae-based code-for-kids org: $50
+ - People Against Prisons Aotearoa: $100
 
--=> 250
+-=> 350
 
 ### Patreon
 
