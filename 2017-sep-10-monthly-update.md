@@ -171,3 +171,6 @@ think are good enough to be listed.
 
  - [Hidden Figures](https://en.wikipedia.org/wiki/Hidden_Figures),
    _Theodore Melfi_.
+
+ - [Moonrise Kingdom](https://en.wikipedia.org/wiki/Moonrise_Kingdom),
+   _Wes Anderson_. (A rewatch.)
