@@ -153,7 +153,8 @@ not everything I’ve read during the month. Especially recommended fics are in
  - {SW} [What's An Angel?](https://archiveofourown.org/works/2802527). {5k words}
  - {SW} [who cares about your lonely heart](https://archiveofourown.org/works/4177608). {28k words}
  - {SW} [Clarity](https://archiveofourown.org/works/6369427). {74k words atow}
- - {SW} [semantics](https://archiveofourown.org/series/631220) series. {13k words}
+ - {SW} [semantics series](https://archiveofourown.org/series/631220). {13k words}
+ - {SW} [once there was series](https://archiveofourown.org/series/411522). {54k words atow}
 
 ## Films
 
