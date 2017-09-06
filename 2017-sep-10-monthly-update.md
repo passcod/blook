@@ -158,6 +158,15 @@ not everything I’ve read during the month. Especially recommended fics are in
  - {SW} [Though I Never Dared Dream](https://archiveofourown.org/works/5109065). {40k words atow}
  - {SW} [Livewire](https://archiveofourown.org/works/8916019). {28k words}
 
+ - {SW} **[On Ebon Wings, Ere I Breathe](https://archiveofourown.org/works/259396)**.
+
+   There are many good fanfictions, and many good books, but there are few great
+   ones. This is one of them. Like many, it was written over a long time,
+   refined and cultivated. It marries story, originality, and emotion in one big
+   happy polyamorous family, and the climaxes are exhalting if terribly shaking.
+   And of course, nothing is a coincidence, and everything is fucking poetry. A
+   delight. {117k words}
+
 ## Films
 
 This is a new section, where I’ll list films and movies I watched this month and
