@@ -40,7 +40,7 @@ of the features to be finished today.
 
 I've also rebranded all components of Cogitare to have consistent naming: they
 are now all named after the nominative gerund of a Latin verb that could be a
-metaphor for what is is they do. (Nominative gerund = "Verbing" used as a noun.)
+metaphor for what it is they do. (Nominative gerund = "Verbing" used as a noun.)
 
 Doing so, I've noticed that the entire thing comes together as using each of my
 four main languages, that I know in reasonable depth and use often.
