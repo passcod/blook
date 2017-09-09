@@ -117,6 +117,7 @@ updates for incomplete works I follow.
  - May → June: 2,567k
  - June → July: 1,969k
  - July → August: 992k
+ - August → September: 1,727k
 
 
 ## Open Source Projects
@@ -138,11 +139,12 @@ updates for incomplete works I follow.
  - [Stalc](https://github.com/passcod/stalc), a toy language and arbitrary-precision arbitrary-radix calculator with first-class date/time support.
  - [UPPERCASE-NPM](https://github.com/passcod/UPPERCASE-NPM), a positively awful abomination.
  - [Heroku Buildpack for Neon](https://github.com/passcod/heroku-buildpack-neon).
- - [Cogitare](https://github.com/storily/cogitare), a collection of prompts and story aids, as preparation and backing service for my NaNoWriMo plotbots.
+ - [Cogitare](https://cogitare.nz), a collection of prompts and story aids.
 
 ### Contributed to
 
  - [npx](https://github.com/zkat/npx): [#7](https://github.com/zkat/npx/pull/7)
  - [watchexec](https://github.com/mattgreen/watchexec): [#52](https://github.com/mattgreen/watchexec/pull/52)
  - [Bootstrap](https://getbootstrap.com): [#23349](https://github.com/twbs/bootstrap/issues/23349)
- - [Pest](https://github.com/pest-parser/pest): [#147](https://github.com/pest-parser/pest/pull/147)
+ - [Pest](https://github.com/pest-parser/pest): [#147](https://github.com/pest-parser/pest/pull/147) (minor)
+ - [Laravel GraphQL](https://github.com/Folkloreatelier/laravel-graphql): [#190](https://github.com/Folkloreatelier/laravel-graphql/pull/190) (minor)
