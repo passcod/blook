@@ -27,8 +27,30 @@ makes sense without too much context.
 
 [In that bright land from which I come](http://archiveofourown.org/works/11809908).
 
-The title is a derive on a lyric from “The Wayfaring Stranger”. (Johnny Cash’s
-version). The “bright land” in the song is gone **to**, and represents Heaven.
+Writing Naema is going well, despite work being more tiring than I'd thought
+this past two weeks, which has slowed down writing a bit. Nonetheless, I stick
+for now by my estimate of being done by Yule.
+
+## Cogitare
+
+After unsuccessfully trying, for two weeks, to create a backend for Cogitare
+first in Node.js, and then in Rust, I turned to PHP and pumped out a working
+read-only backend with all the bells and whistles in four hours, with the rest
+of the features to be finished today.
+
+I've also rebranded all components of Cogitare to have consistent naming: they
+are now all named after the nominative gerund of a Latin verb that could be a
+metaphor for what is is they do. (Nominative gerund = "Verbing" used as a noun.)
+
+Doing so, I've noticed that the entire thing comes together as using each of my
+four main languages, that I know in reasonable depth and use often.
+
+- **Cogitare: thinking.** The ensemble (and the website, by association). _Node_
+- **Legare: reading.** Parsing and normalising services. _Rust_
+- **Dicere: telling.** API and backend. _PHP_
+- **Rogare: asking.** IRC bot. _Ruby_
+
+Cogitare as it stands can be seen at [cogitare.nz](https://cogitare.nz).
 
 ## Meta
 
