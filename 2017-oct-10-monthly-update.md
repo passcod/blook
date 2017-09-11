@@ -15,3 +15,4 @@ parents:
    Sweary grumpy grampa-figure R2 is the best. {4k words}
 
  - {SW} [landfall](https://archiveofourown.org/works/5600413). {6k words}
+ - {SW} [Balance series](https://archiveofourown.org/series/131172). {123k words atow}
