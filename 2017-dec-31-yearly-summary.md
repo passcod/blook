@@ -55,11 +55,9 @@ parents:
 Every year that I am able to, I try to give a sizeable portion of my salary
 away in donations to various organisations and charities I believe make the
 world a better place. This year, I chose to give 5% of my gross salary, i.e.
-$2750, to over 15 organisations and individuals.
+$2750, to over 20 organisations and individuals.
 
 All amounts are in NZ dollars, even if the donation was in another currency.
-
-### One time
 
  - ACLU: $70
  - AO3 / Organisation for Transformative Works: $37
@@ -70,26 +68,25 @@ All amounts are in NZ dollars, even if the donation was in another currency.
  - Books for [a classroom](https://www.donorschoose.org/project/engaging-reluctant-readers/2724929/): $150
  - CanTeen: $150
  - GiveWell: $300
+ - IHC: $125 ($150?)
 
--=> 2550
+-=> 1425
 
-### Ongoing throughout the year
+### To be adjusted?
 
- - IHC: $300
  - Unicef: $300
 
--=> 950
+### Planned (section should be entirely removed before year's end)
 
-### One time (planned) (section should be entirely removed before year's end)
-
- - Amnesty International: $150
- - Médecins Sans Frontières: $150
- - Reporteurs Sans Frontières: $150
- - Local marae-based code-for-kids org: $50
- - People Against Prisons Aotearoa: $100
+ - Amnesty International: $100
+ - Médecins Sans Frontières: $100
+ - Reporteurs Sans Frontières: $100
+ - Local marae-based code-for-kids org: $70
+ - People Against Prisons Aotearoa: $150
  - Youthline: $50
+ - Greenpeace: $?
 
--=> 300
+(Total planned: 570)
 
 ### Patreon
 
