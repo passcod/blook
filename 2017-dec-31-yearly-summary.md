@@ -87,8 +87,9 @@ All amounts are in NZ dollars, even if the donation was in another currency.
  - Reporteurs Sans Frontières: $150
  - Local marae-based code-for-kids org: $50
  - People Against Prisons Aotearoa: $100
+ - Youthline: $50
 
--=> 350
+-=> 300
 
 ### Patreon
 
