@@ -9,6 +9,9 @@ parents:
 
 ## Fanfiction
 
+As usual, only “good enough to be listed” newly-read fics are, well, listed, and
+not everything I’ve read during the month. Especially recommended fics are in
+**bold**.
 
  - {SW} **[firefly](https://archiveofourown.org/works/9164014)**.
 
