@@ -68,7 +68,7 @@ All amounts are in NZ dollars, even if the donation was in another currency.
  - Books for [a classroom](https://www.donorschoose.org/project/engaging-reluctant-readers/2724929/): $150
  - CanTeen: $150
  - GiveWell: $300
- - IHC: $125 ($150?)
+ - IHC: $125
 
 -=> 1425
 
