@@ -22,3 +22,8 @@ not everything I’ve read during the month. Especially recommended fics are in
  - {SW} [Two Hands to Make the World](https://archiveofourown.org/works/5687815). {27k words}
  - {SW} [when love explodes](https://archiveofourown.org/works/5793757). {1k words}
  - {SW} **[Precipice](https://archiveofourown.org/works/8270582)**. {114k words atow}
+
+ - {SW} [per ardua ad astra](https://archiveofourown.org/works/9223013).
+
+   If you thought Rogue One was tough, emotionally… maybe keep away.
+   {67k words atow}
