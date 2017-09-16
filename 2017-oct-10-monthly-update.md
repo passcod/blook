@@ -28,6 +28,8 @@ not everything I’ve read during the month. Especially recommended fics are in
    If you thought Rogue One was tough, emotionally… maybe keep away.
    {67k words atow}
 
+ - {SW} [Echoes of Mortis](https://archiveofourown.org/works/6082215). {67k words atow}
+
 ## Films
 
 Same rules as the fanfic section.
