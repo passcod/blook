@@ -31,6 +31,7 @@ not everything I’ve read during the month. Especially recommended fics are in
  - {SW} [Echoes of Mortis](https://archiveofourown.org/works/6082215). {67k words atow}
  - {SW} [I Can't Actually Post The Name of This Fic Here Because It Isn't Clean](https://archiveofourown.org/works/7348051). {7k words atow}
  - {SW} [Changeling Children](https://archiveofourown.org/works/6420604). {3k words}
+ - {SW} [The Suns of Tatooine series](https://archiveofourown.org/series/345257). {85k words}
 
 ## Films
 
