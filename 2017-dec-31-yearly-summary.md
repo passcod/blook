@@ -4,6 +4,7 @@ tags:
   - summary
   - yearly
 parents:
+  - "2016/dec/10/blogging-more-and-starting-on-new-year-resolutions-early"
   - "2017/jan/10/monthly-update"
   - "2017/feb/10/monthly-update"
   - "2017/mar/10/monthly-update"
@@ -17,6 +18,38 @@ parents:
   - "2017/nov/10/monthly-update"
   - "2017/dec/10/monthly-update"
 ---
+
+## 2017 Goals
+
+In [the post that started this whole monthly blogging thing][10dec16], I
+outlined three things I wanted to do this year:
+
+ - Improve my accent.
+
+   Hiring a speech therapist didn't work out, because (predictably) it turns
+   out that 1) there's not many actually specialised in the particular narrow
+   field of accent correction, 2) those that are are fully booked for the
+   foreseeable future, and 3) none of them are near Whangarei _anyway_.
+
+   But I've been speaking a lot more, to more people. I'm no extrovert, but I
+   think I've been progressing nonetheless. I'll continue working at it. At
+   some point I'd like to do some meetup and then conference speaking, too.
+
+ - Improve my health.
+
+   I've lost about 5 kg since the beginning of the year. More than that, I've
+   built up some muscle mass. I'm still not where I'd like to be, but the
+   future on the front is actually looking like it's getting brighter.
+
+ - Improve my writing.
+
+   Well, I've definitely done well here. Just in this blog, I have written more
+   this year than every single previous year, _combined_. I've authored several
+   pieces of fanfiction, and published three. Most importantly, I've really
+   enjoyed myself. I write better and faster now, even though I don't think
+   I'll ever be someone who can bang out a novel in a few months.
+
+[10dec16]: 2016/dec/10/blogging-more-and-starting-on-new-year-resolutions-early
 
 ## Conferences
 
