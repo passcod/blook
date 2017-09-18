@@ -7,6 +7,19 @@ parents:
   - "2017/sep/10/monthly-update"
 ---
 
+## Writing
+
+### This blog
+
+After doing some quick calculations, I found out that if I write about three
+thousand more words in this blog before the end of the year, I'll have written
+more in this blog this year than _all prior years combined_! Now that's a pretty
+fun goal.
+
+### Naema
+
+//
+
 ## Fanfiction
 
 As usual, only “good enough to be listed” newly-read fics are, well, listed, and
