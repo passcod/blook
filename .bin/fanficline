@@ -143,8 +143,11 @@ class Ao3Series < Ao3
   end
 
   def title
+    clean = /(\bau\b|\b(multi|uni)?'?verse\b|'\s*$|^\s*')/i
     gettext(@doc.at_css('#main.series-show > h2.heading'))
-      .gsub(/\bAU\b/, '')
+      .gsub(clean, '')
+      .gsub(clean, '')
+      .gsub(clean, '')
       .strip + ' series'
   end
 
