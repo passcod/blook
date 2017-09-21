@@ -2,20 +2,27 @@
 
 if [ "$(date +%d)" -lt 10 ]; then
   date=$(date +"%Y-%b-10")
+  year=$(date +"%Y")
+  month=$(date +"%b-10")
   title="Monthly Update: $(date +'%B %Y')"
   prev=$(date --date='last month' +"%Y/%b/10")
 else
   date=$(date --date='next month' +"%Y-%b-10")
+  year=$(date --date='next month' +"%Y")
+  month=$(date --date='next month' +"%b-10")
   title="Monthly Update: $(date --date='next month' +'%B %Y')"
   prev=$(date +"%Y/%b/10")
 fi
 
 date=${date,,} # lowercase
+month=${month,,} # lowercase
 prev=${prev,,} # lowercase
 slug="monthly-update"
 
-dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-file="${dir}/../${date}-${slug}.md"
+cd "$(dirname "${BASH_SOURCE[0]}")"
+cd ..
+
+file="${slug}/${year}/${month}.md"
 
 if [ ! -f "$file" ]; then
 cat <<FILE > "$file"
@@ -32,6 +39,6 @@ parents:
 FILE
 fi
 
-echo "${date}-${slug}.md"
+echo "$file"
 nvim +10 "$file"
 git add "$file"
