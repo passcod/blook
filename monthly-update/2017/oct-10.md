@@ -50,6 +50,7 @@ not everything I’ve read during the month. Especially recommended fics are in
  - {SW} [Open Fire series](https://archiveofourown.org/series/597679). {15k words atow}
  - {SW} [Circumnavigating The Stars](https://archiveofourown.org/works/6391396). {10k words atow}
  - {SW} [your love (will be safe with me)](https://archiveofourown.org/works/5694505). {2k words}
+ - {SW} [The One Where Barriss Is A Model Padawan And It's Kind Of Freaking Everyone Out](https://archiveofourown.org/works/3947530). {7k words}
 
 ## Films
 
