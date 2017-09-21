@@ -80,12 +80,16 @@ class Fic
   def self.from_url(url)
     url = url.strip
 
-    if Ao3.is(url)
-      return Ao3.new url
-    end
+    kinds = [
+      Ao3Series,
+      Ao3,
+      Ffn,
+    ]
 
-    if Ffn.is(url)
-      return Ffn.new url
+    for kind in kinds
+      if kind.is(url)
+        return kind.new url
+      end
     end
   end
 end
@@ -130,6 +134,39 @@ class Ao3 < Fic
 
   def complete?
     chapters[0] == chapters[1]
+  end
+end
+
+class Ao3Series < Ao3
+  def self.is(url)
+    Ao3.is(url) and /\/series\// =~ url
+  end
+
+  def title
+    gettext(@doc.at_css('#main.series-show > h2.heading'))
+      .gsub(/\bAU\b/, '')
+      .strip + ' series'
+  end
+
+  def work_id
+    %r{#{DOMAIN}/series/(\d+)}.match(@url.to_s)[1].strip
+  end
+
+  def first_chapter
+    "https://#{DOMAIN}/series/#{work_id}"
+  end
+
+  def words
+    @doc.css('.stats dd.words')
+        .to_a
+        .map { |w| (gettext(w) || '').gsub(/,/, '').to_f }
+        .sum
+  end
+
+  def complete?
+    gettext(
+      @doc.at_css('#main.series-show .series.meta dd.stats > dl.stats')
+    ) =~ /Complete:\s*Yes/
   end
 end
 
