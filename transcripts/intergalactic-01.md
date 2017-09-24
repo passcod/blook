@@ -2,7 +2,6 @@
 date: 2017-09-25T09:48:27+13:00
 page: true
 title: Intergalactic Express 01
-parent: /transcripts
 tags:
  - transcript
  - not-saf-for-work
