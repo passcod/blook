@@ -6,9 +6,10 @@ date=${date,,}
 title="$@"
 slug=${title// /-}
 
-dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && cd .. && pwd)"
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+
 file="${date}-${slug,,}.md"
-path="${dir}/${file}"
+path="${file}"
 
 if [ ! -f "$path" ]; then
   cat <<TEMPLATE > "$path"
