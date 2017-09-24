@@ -52,6 +52,7 @@ not everything I’ve read during the month. Especially recommended fics are in
  - {SW} [your love (will be safe with me)](https://archiveofourown.org/works/5694505). {2k words}
  - {SW} [The One Where Barriss Is A Model Padawan And It's Kind Of Freaking Everyone Out](https://archiveofourown.org/works/3947530). {7k words}
  - {SW} [Nobody Wins series](https://archiveofourown.org/series/445195). {39k words atow}
+ - {SW} [They were at Mos Bina (Come and see)](https://archiveofourown.org/works/5896798). {6k words}
 
 ## Films
 
