@@ -315,251 +315,133 @@ it. Like people know, what that game is, because that is the game's point, and
 03: 10:33
 ---------
 
-Speaker 0:
-    I got a bigger guy got on the better because when you plan to do then you get stuck waiting by our and you know what you're going to get no it was a real island I'm meeting the little violence and shooting people gotten bigger and more.
+Speaker 0: S: I gotta say [inaudible] the better, because when you play video
+games you're used to committing violence, and you know it, like you know this
+isn't real violence.
 
-Speaker 0:
-    I'm sure things I think I am so I put it our.
+S: Like I'm committing violence and with guns and that's what the game is about.
+It's kinda fun to shoot things. In a game. It's why I play Halo.
 
-Speaker 2:
-    I mean meddling are.
+S: And then the beginner's guide comes along and then there's... you know,
+there's different kinds of violence.
 
-Speaker 0:
-    Yeah I named bear that comes along those lines there other kind about.
+C: Ooh yeah.
 
-Speaker 0:
-    And oh yeah he's the kind of out you don't like about your playing games like sh boom you know being old resident there and an hour to get worried goblins because when you have a gambling mistakes or dragon age or any game has like they're gonna binary rally system whether or not you plays a good person or a bad person game loss reward your Biden you dare you need to get punished if you're a bad person you get who or what you become stronger.
+S: These are the kind of things you don't think about when you're playing games,
+like, you don't get to be an awful person and have like repurcussions,
+because when you have a game like Mass Effect or Dragon Age where you have the
+kind of binary morality system, whether or not you play as a good person or a
+bad person, the game wants to reward you, whatever you do.
 
-Speaker 0:
-    You get paid more or whatever like you will die short and the games you like a prison in this game.
+S: So you never get punished. If you're a bad person, you get your rewards: you
+get stronger, you get paid more, or whatever. Like, peopple die, sure, but it's
+a game, it's not actually a person, and in _this_ game, because you get the
+story of Davey through Davey, you don't— while you're playing it, you start to
+not really know whether or not it's actually fictional, or if you're playing a
+real, a real scenario, that's been put into a fictional situation as well.
 
-Speaker 0:
-    Because you get the boring and gave me and gave me.
+S: Um. Which you find, when you go on the Steam forum, then you see these
+people like "we have to find Coda".
 
-Speaker 0:
-    You dont while you're playing it you stop not really know where I actually action or if you come here who are real scenario that simply does optional situation is well.
+C: First time I looked all the comments were like "Is it just me, or is it kind
+of unethical to be profitting off Coda's game like this. I hope Davey is giving
+Coda some money."
 
-Speaker 2:
-    Known.
+S: Yeah, I saw some posts were like "Is is not unethical for us to be playing
+this game and get achievments?" like, you idiot, this game is fake. It's— it's
+hard to like— when I first finished the game I was like, "Is… Coda… real?" like,
 
-Speaker 0:
-    Would you find when you go on the steam for many so if you really have to find a car that.
+A: Yeah.
 
-Speaker 2:
-    You have to make this better yeah because like you I have a soul the comments will like is it just me or is it kind unethical to be profiting off cards games like this I thank you giving her to some money.
+S: is this real, I don't actually know if it's a real experience. And then, then
+I talked to you and then I googled it, and I was like, okay, yeah, it's not real
+it's an experience but it could have been based off stuff that we don't know
+about, or on feelings at least, and, even if it's not, it still feels very real.
 
-Speaker 2:
-    Yeah it was definitely.
+A: It feels so real. You go out of the game feeling like this is a huge crime
+against all that is moral, and you take a step back, and you go "oh yeah, this
+is, this is like an artpiece"
 
-Speaker 0:
-    One.
+C: Yeah
 
-Speaker 0:
-    Isn't.
+A: It's not necessarily based on, well, it might be based on, but I think it's
+safe to assume that, at the very least the games that we played weren't.
 
-Speaker 2:
-    It unusual for still.
+C: Yeah, and I mean, you gotta remember that R, whoever R is, I think that R was
+his room-mate? Or his flatmate? I read that somewhere. In the credits, where the
+credits say it's "For R."
 
-Speaker 0:
-    Playing this game and you like Ichiro goes out we don't hear any at this game looks like.
+S: I rememebr, I read an article by someone, who was like, "I may have been R."
+And I was like, "ooh, that's a weird place to be in." I mean, the fact they
+didn't _know_ means it probably wasn't them.
 
-Speaker 2:
-    A time delay.
+C: Nah, I feel like R probably knows.
 
-Speaker 0:
-    Bishops again mostly is.
+S: Yeah.
 
-Speaker 2:
-    Harder real.
+C: That thing you were saying before, about how, ummm, I forget exactly what you
+are saying that it made me think of this discussion I was reading about how the
+more familiar you are with game design, and like set design, the more ah,
+relatable story is, but be transparent that that conceit is because anybody who
+knows anything about game design knows that the sort of things that Coda is
+doing is really freaking hard to do.
 
-Speaker 1:
-    One you know.
+S: Yeah, he made these games in like, a month, and you're like, "No."
 
-Speaker 0:
-    Real I don't know who the real experience in any any adult you and I go well okay yeah it's not really caring that it could be based on real simply don't know about like real feelings at least and you know it's not and still feels very real.
+Speaker 2: C: So I'm glad that— that seems believable to me because I— I like— I
+didn't think it was, I don't think any point I thought it was real. But I— I
+liked being able to immerse myself into that whole… conceit.
 
-Speaker 1:
-    Issue it feels so are you feeling that somehow we're.
+Speaker 0: S: Yeah when I first played it I had a lot less knowledge on game
+design, then. Which. game building and stuff, and yeah, but on my replay I was
+like, there's no way, like, I would believe now that like, this one guy was
+building new amazing environments, in like a month or something, and they look
+like, and is so perfect and bug free and everything, like no, that's not— that's
+not believable.
 
-Speaker 1:
-    You.
+Speaker 2: C: And all— the level that looks like it's got real people in it. And
+whole conversations.
 
-Speaker 1:
-    Can you go out of the game going this is that you like shoots crime.
+Speaker 0: S: Yeah yeah I mean— all of it's obviously original assets. Like it's
+still a smallish game, but
 
-Speaker 1:
-    Against.
+Speaker 2: C: Yeah.
 
-Speaker 2:
-    What Lenin.
+Speaker 0: S: But, I think, people who don't play, or who don't design games,
+who be more immersed into this game, like emotionally, because they wouldbe more
+invested, than people who'd be like, analysing the game design.
 
-Speaker 0:
-    Morrow.
+Speaker 2: C: Yeah. Year.
 
-Speaker 1:
-    And yeah you take a step back and you go.
+Speaker 1: A: I mean I think the moment that you start to overthink, in a way,
+is when you— I'm getting what's wrong.
 
-Speaker 1:
-    Well yeah listens.
+Speaker 0: C: Yeah.
+
+Speaker 1: A: It's like with anything, I think, if you can't enjoy something—
+like obviously there's enjoyment in analysing games, but when you consume it,
+you have to _consume_ it, and so.
+
+Speaker 0: S: I think this game benefits from ah, as well, I mean they want us
+to come— You can't help analysing— A lot of games falter for me becasue I
+analyse the game design when I play it, um, but this game, worked well for that.
+The first time I played, because, I was over-analysising it in the wrong
+direction. I was analysing Coda.
+
+Speaker 2: C:
+    Yeah yeah exactly like you're being lead to do.
+
+Speaker 0: S: And the words and everything, why was I, I was going very
+analysisy, and like what does this mean, is Davey telling me the truth, blah
+blah, and then, erm later on you realize that Davey has lied about a lot of
+these, about the games that he's designed, and he changed game meaning like
+this, and it gets to this point where it loops, and then it ends, and it has to
+end, and that's the point of this, this whole level, is that it ends. You can't
+stay here forever. And then you find out at the end of the game that that looped
+forever, and you can't end it, so you _could_ stay there forever, and keep
+playing. And it completely changes the meaning of the level, of what it even
+meant to begin with.
 
-Speaker 0:
-    Yeah.
-
-Speaker 1:
-    Fairly.
-
-Speaker 1:
-    Okay thought well it might be base and.
-
-Speaker 2:
-    So.
-
-Speaker 1:
-    It seemed it.
-
-Speaker 1:
-    And it may release the games that we might want.
-
-Speaker 1:
-    Where the car to make it didn't.
-
-Speaker 2:
-    I mean you gotta remember that our is a person who ever are is I think I was his roommate very slight may I read that somewhere.
-
-Speaker 0:
-    You.
-
-Speaker 2:
-    Will get the credits when the credits science or are you.
-
-Speaker 0:
-    I remember I read an article once Summerton what was he was like I made it being our.
-
-Speaker 2:
-    I don't like school.
-
-Speaker 0:
-    That way but the van effect they don't normally the problem was and.
-
-Speaker 2:
-    Not feel like are probably types.
-
-Speaker 2:
-    Yeah I think you're saying floor about how am I to get exactly what you are saying that it made me think of this discussion I was reading about how the more familiar you out with game design and like set design the more I relatable stories but be transparent that that conceit is because anybody who knows anything about game design knows that the sort of things that Carter is doing is working hard to do it yeah well I made.
-
-Speaker 0:
-    You made new games in like a month and only now are.
-
-Speaker 2:
-    So I'm glad that that seem believable to me because I I look I didn't think it was I don't think any point I thought it was real.
-
-Speaker 2:
-    But I'll likes being able to immerse myself into that whole.
-
-Speaker 2:
-    MC.
-
-Speaker 0:
-    Yeah when I first played it I didn't hear a lot less knowledge on aim line ends.
-
-Speaker 0:
-    Your going in style arm and yet my reply was like yeah is no way I would believe now that there's one guy was building new amazing environment like a month or something and they look like.
-
-Speaker 0:
-    Means a perfect in bug free and everyday I know that's not.
-
-Speaker 2:
-    Well I don't think all the level it looks like it's going I'm real people in it.
-
-Speaker 2:
-    And we have a patient.
-
-Speaker 0:
-    Yeah yeah I mean I was always leery like it stolen.
-
-Speaker 2:
-    Yeah.
-
-Speaker 0:
-    Okay them.
-
-Speaker 0:
-    Yeah but I think.
-
-Speaker 1:
-    People group.
-
-Speaker 0:
-    Downplaying or doc deadline games but we do a lot more this game.
-
-Speaker 1:
-    Than that.
-
-Speaker 0:
-    Like emotionally because they would be more miss that then people will be like.
-
-Speaker 0:
-    No I.
-
-Speaker 2:
-    Yeah.
-
-Speaker 1:
-    I mean I think the moment that you stop to.
-
-Speaker 1:
-    Much thanks and.
-
-Speaker 0:
-    I will I.
-
-Speaker 1:
-    Is when you I'm getting what's wrong.
-
-Speaker 0:
-    Yeah.
-
-Speaker 2:
-    Yeah think.
-
-Speaker 1:
-    Anything I think if you are doing so well I obviously needs enjoyment in your game.
-
-Speaker 2:
-    Search your.
-
-Speaker 1:
-    I think.
-
-Speaker 1:
-    When you can hear me after.
-
-Speaker 1:
-    So.
-
-Speaker 0:
-    I understand benefits I was off on my arm.
-
-Speaker 0:
-    I mean they want us to come.
-
-Speaker 0:
-    I eat a lot of games folder maybe going over and like Americans on it's I play it on but this game work will put out a press I played it because I was over analyzing in the wrong direction I will analyze me coda.
-
-Speaker 2:
-    Yeah yeah exactly like helping lead to do.
-
-Speaker 0:
-    So in the world and everything so I was I was going very like urinalysis into like windows me is David telling the truth blahblah and then arm later on you realize that they need lied about what.
-
-Speaker 0:
-    About the games into line with what they need let me change game meaning like that brought you.
-
-Speaker 2:
-    I just explained stop on water.
-
-Speaker 0:
-    Anyone in in in and ask the end and that's the point of this small labels that it in your house and your car ever and then you find out it into the game that looks threatened her in so you could stay there forever and keep trying editor lane changes the meaning of the label went live where many thing that I know what it is I mean everything you write ins are at the end you're just letting the fatally analysis done what they need Howard out of this is very old.
 
 Speaker 2:
     And your attic well look the way you know you get to the top of the tower and you see the stop leaving lampposts no my games you you're just like all my god often misinterpreting.

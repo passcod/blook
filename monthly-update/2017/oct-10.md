@@ -18,7 +18,12 @@ fun goal.
 
 ### Naema
 
-//
+Writing has been slower than usual, which is perhaps pushing back the end date.
+
+I have been having difficulties reconciling Leia's character with how I portray
+her in the one interaction that's really important in this fic, my plans for the
+story warring with who she is verily. I think I've got it now, but Leia is
+definitely the hardest character I've had to write about.
 
 ## Fanfiction
 
@@ -53,6 +58,7 @@ not everything I’ve read during the month. Especially recommended fics are in
  - {SW} [The One Where Barriss Is A Model Padawan And It's Kind Of Freaking Everyone Out](https://archiveofourown.org/works/3947530). {7k words}
  - {SW} [Nobody Wins series](https://archiveofourown.org/series/445195). {39k words atow}
  - {SW} [They were at Mos Bina (Come and see)](https://archiveofourown.org/works/5896798). {6k words}
+ - {SW} **[Twin Sunrise](https://archiveofourown.org/works/5162474)**. {289k words atow}
 
 ## Films
 
