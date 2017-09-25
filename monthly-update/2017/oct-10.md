@@ -27,10 +27,6 @@ definitely the hardest character I've had to write about.
 
 ## Fanfiction
 
-As usual, only “good enough to be listed” newly-read fics are, well, listed, and
-not everything I’ve read during the month. Especially recommended fics are in
-**bold**.
-
  - {SW} **[firefly](https://archiveofourown.org/works/9164014)**.
 
    Sweary grumpy grampa-figure R2 is the best. {4k words}
@@ -61,8 +57,6 @@ not everything I’ve read during the month. Especially recommended fics are in
  - {SW} **[Twin Sunrise](https://archiveofourown.org/works/5162474)**. {289k words atow}
 
 ## Films
-
-Same rules as the fanfic section.
 
  - [Pork Pie](https://en.wikipedia.org/wiki/Pork_Pie_%28film%29).
    _Matt Murphy_ (Twice!)
