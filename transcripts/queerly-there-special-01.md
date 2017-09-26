@@ -8,6 +8,8 @@ tags:
  - podcast
 ---
 
+## The meta stuff
+
 > This is a transcript of [Heteronormativity At Hogwarts Part I: Dumbledore,
 > Dormitories And Dancing][hahddd], a [Queerly There][qt] podcast special on
 > the [Not Saf For Work][nsfw] network. You can find the podcast in its
