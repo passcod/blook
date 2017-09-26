@@ -27,6 +27,19 @@ accents are involved. (We both had trouble with those ones.)
 
 The machine transcription uses [IBM's Watson][stt] speech-to-text engine.
 
+Something I noticed that's topical with this podcast's subject is that Watson
+is biased. Probably unintentionally! But... at first I thought maybe it was
+because of accents, but I tried with a bunch of samples and I never managed to
+get it to ever transcribe the word "gay". Like, ever. Sometimes it transcribed
+into "day", sometimes into nothing. But it never, in my experience, actually
+wrote out the word as "gay". "Queer" transcribed correctly _once_.
+
+For some of the more niche words used in the podcast, like "cisgender" or
+"heteronormativity", I was like, yeah, okay, these are pretty complex and
+relatively new words that aren't used a lot in the wider community yet. But
+"gay" has been around a long time and it's quite a common word. So that's
+pretty fucked up. Of course my experiments were pretty limited. But still.
+
 [hahddd]: https://notsafforwork.com/podcasts/heteronormativity-at-hogwarts-part-i-dumbledore-dormitories-and-dancing/
 [qt]: https://notsafforwork.com/category/podcasts/queerly-there/
 [nsfw]: https://notsafforwork.com/nsfw-podcasts/
@@ -34,639 +47,374 @@ The machine transcription uses [IBM's Watson][stt] speech-to-text engine.
 [ie1]: /transcripts/intergalactic-01.md
 [ie2]: /transcripts/intergalactic-02.md
 
----
+--------------------
 
- - 0: Good morning, afternoon, or evening, and welcome to Queerly There! Y'all
-   voted for today's topic on Twitter, and I'm so glad you did. Because this is
-   one of my absolutely favorite things to rant about. We're going to talk
-   about heteronormativity at Hogwarts.
+Good morning, afternoon, or evening, and welcome to Queerly There! Y'all voted
+for today's topic on Twitter, and I'm so glad you did. Because this is one of
+my absolutely favorite things to rant about. We're going to talk about
+heteronormativity at Hogwarts.
 
 [intro song]
 
- - 0: Now, this episode is broken into two parts and both contain content
-   warnings for mentions of pedophilia and rape. Not in any great detail, I
-   just thought I should warn you ahead of time.
+Now, this episode is broken into two parts and both contain content warnings
+for mentions of pedophilia and rape. Not in any great detail, I just thought I
+should warn you ahead of time.
 
- - 0: And to be more accurate, I'm going to be talking about heteronormativity
-   in the wider Harry potter universe, but I said normativity at Hogwarts
-   because I enjoy the assonance better.
+And to be more accurate, I'm going to be talking about heteronormativity in the
+wider Harry potter universe, but I said normativity at Hogwarts because I enjoy
+the assonance better.
 
- - 0: Obviously, the episode contains spoilers for the Harry potter films and
-   books.
+Obviously, the episode contains spoilers for the Harry potter films and books.
 
- - 0: Let's get some definitions out of the way first:
+Let's get some definitions out of the way first:
 
- - 0: Heteronormativity: a term coined by Michael Warner in 1991, refers to
-   prevalent and invisible norms surrounding heterosexuality. Basically, it's
-   the assumption of monogamous straight relationships between cisgender (TK:
-   ed?) men and women are the. only way to be. Or, at least, the default
-   setting and anything else is Other.
+Heteronormativity: a term coined by Michael Warner in 1991, refers to prevalent
+and invisible norms surrounding heterosexuality. Basically, it's the assumption
+of monogamous straight relationships between cisgender men and women are the
+only way to be. Or, at least, the default setting and anything else is Other.
 
- - 0: It ties innately with cisnormativity which is the assumption that
-   everyone is cisgender and that men and women have natural roles. Those that
-   fall outside of these standard roles and relationships are ignored and
-   socially devalued.
+It ties innately with cisnormativity which is the assumption that everyone is
+cisgender and that men and women have natural roles. Those that fall outside of
+these standard roles and relationships are ignored and socially devalued.
 
- - 0: Harry Potter is a series of books and movies that's mostly set in the
-   nineties.
+Harry Potter is a series of books and movies that's mostly set in the nineties.
 
- - 0: I'm going to work on the assumption that if you're listening to this you
-   at least know the basics of the plot through cultural osmosis if nothing
-   else. Because we've got a lot of stuff to get through.
+I'm going to work on the assumption that if you're listening to this you at
+least know the basics of the plot through cultural osmosis if nothing else.
+Because we've got a lot of stuff to get through.
 
- - 0: Let's start at the beginning.
+Let's start at the beginning.
 
- - 0: Dumbledore: gay wizarding icon of a generation, Headmaster of Hogwarts,
-   You probably know where I'm going with this.
+Dumbledore: gay wizarding icon of a generation, Headmaster of Hogwarts, You
+probably know where I'm going with this.
 
- - 0: In 2007, JK Rollings (TK) revealed that Albus Dumbledore was gay but was
-   criticized for not making it explicit in the text.
+In 2007, JK Rowling revealed that Albus Dumbledore was gay but was criticized
+for not making it explicit in the text.
 
- - 0: We get some hints that — you could call them that — but nothing that
-   you'd notice if you weren't going through it with a fine tooth comb like
-   yours truly. In Philosopher Stone, the very first description of Dumbledore
-   says that he's wearing high heeled buckle boots and a purple cloak.
+We get some hints that — you could call them that — but nothing that you'd
+notice if you weren't going through it with a fine tooth comb like yours truly.
+In Philosopher Stone, the very first description of Dumbledore says that he's
+wearing high heeled buckle boots and a purple cloak.
 
- - 0: While undeniably fabulous, obviously, wearing purple and heels doesn't
-   make you gay. His outfit does fall outside the Muggle gender norms but given
-   that all witches and wizards are dressed pretty eccentrically this doesn't
-   indicate anything much about a sexuality.
+While undeniably fabulous, obviously, wearing purple and heels doesn't make you
+gay. His outfit does fall outside the Muggle gender norms but given that all
+witches and wizards are dressed pretty eccentrically this doesn't indicate
+anything much about a sexuality.
 
- - 0: You might argue that Dumbledore being gay isn't really relevant to the
-   story, or maybe you wouldn't if you listen to some of my previous episodes
-   about the importance of queer representation in media.
+You might argue that Dumbledore being gay isn't really relevant to the story,
+or maybe you wouldn't if you listen to some of my previous episodes about the
+importance of queer representation in media.
 
- - 2: But in the _not_ saying it, my dear listeners, a lot of other assumptions
-   come to fill in the gaps.
+But in the _not_ saying it, my dear listeners, a lot of other assumptions come
+to fill in the gaps.
 
- - 2: JK also stated that when she was reading through the script for the sixth
-   film, she edited out a line about an old girlfriend of Dumbledore's,
-   scribbling that he was gay in the margin.
+JK also stated that when she was reading through the script for the sixth film,
+she edited out a line about an old girlfriend of Dumbledore's, scribbling that
+he was gay in the margin.
 
- - 2: (I just realized, he's quite _literally_ a _margin_alized identity.)
+(I just realized, he's quite _literally_ a _margin_alized identity.)
 
- - 2: And that's heteronormativity for you.
+And that's heteronormativity for you.
 
- - 0: Since JK TK) had not started to tumble to sexuality before that point,
-   the script writers assumed heterosexuality.
+Since JK had not started to tumble to sexuality before that point, the script
+writers assumed heterosexuality.
 
- - 0: In the final book, Deathly Hallows, Harry reads Dumbledore's biography
-   written by Rita Skeeter. In it, Skeeter implies that Harry and Dumbledore
-   were unnaturally close. That their relationship was unhealthy and sinister.
-   And that Harry had a troubled adolescence (well, no shit).
+In the final book, Deathly Hallows, Harry reads Dumbledore's biography written
+by Rita Skeeter. In it, Skeeter implies that Harry and Dumbledore were
+unnaturally close. That their relationship was unhealthy and sinister. And that
+Harry had a troubled adolescence (well, no shit).
 
- - 2: The actual direct quote is: "I devote an entire chapter to the whole
-   Potter–Dumbledore relationship. It's been called unhealthy, even sinister.
-   Again, your readers will have to buy my book for the whole story but there's
-   no question that Dumbledore took an unnatural interest in Potter from the
-   word go. Whether that was really in the boy's best interest, well, we'll
-   see. But certainly an open secret that Potter had a most troubled
-   adolescence."
+The actual direct quote is: "I devote an entire chapter to the whole
+Potter–Dumbledore relationship. It's been called unhealthy, even sinister.
+Again, your readers will have to buy my book for the whole story but there's no
+question that Dumbledore took an unnatural interest in Potter from the word go.
+Whether that was really in the boy's best interest, well, we'll see. But
+certainly an open secret that Potter had a most troubled adolescence."
 
- - 2: Now.
+Now, readers are probably well aware that Rita Skeeter is full of shit.
 
- - 0: Rate is the probably well aware that Rita Skeeter is full of shit.
+Some of you may be aware of the myth linking gay men with pedophilia. It's a
+pretty disgusting mess with no basis in fact. And, I wonder if Skeeter is
+building on that to fuel nasty rumors about Dumbledore. Obviously she's trying
+to cause some kind of aspersion here and I have a hard time reading it as
+anything else. Point is. It can be read as a very vague reference to
+Dumbledore's sexuality.
 
- - 2: Some of you.
+Even so, it is a gross and inaccurate one. Is this really the closest we get it
+to Dumbledore sexuality being explicit in the text?
 
- - 0: May be aware of the math linking gay men with pedophilia.
+Well, no, thank god.
 
- - 2: It's.
+His relationship with Grindelwald is usually the clincher. It's— it's the thing
+that people bring out when they want to talk about how it's obvious.
 
- - 0: A pretty disgusting mess with no basis in fact.
+There is no explicit moment in text about their relationship, but there are a
+couple of quotes that hint at it. In his letter to Grindelwald, Albus writes:
+"I do not complain, for if you had not been expelled, we would never have met."
 
- - 2: And.
+He also later explains to Harry that Gellert's ideas inflamed him, that he
+pictured them both as glorious leaders of the revolution, and that he closed
+his eyes to what Grindelwald truly was.
 
- - 2: I want.
+Now, me with my rainbow tinted glasses, reads that as supergay. But also, in a
+heteronormative society, it could just be taken as deep platonic affection,
+maybe.
 
- - 0: To Skeeter is building on that to fuel nasty rumors about Dumbledore.
+Rowling has confirmed that Dumbledore loved Grindelwald in the same Carnegie
+Hall speech in 2007 where she outed him.
 
- - 2: Obviously she's trying to cause some kind of a spirit in here and.
+It may be that the true nature of their relationship will be explored in
+Fantastics Beasts, and we'll get in-world confirmation that Dumbledore is gay.
 
- - 0: I have a hard time reading it as anything else.
+That would be cool but, I'm worried given how Grindelwald is a villain and
+(spoilers!) his behavior towards CRedence in the first Fantastic Beasts movie,
+that he'll play directly into the evil gay manipulative pedophile stereotype.
 
- - 2: Point is.
+Uugh.
 
- - 0: It can be read as a very vague reference to double sexuality.
+Out of curiosity, I googled hints that Dumbledore was gay I got a lot of stuff
+about it outfits. He wears a floral print at one point. And the fact that his
+pet is literally flaming. There was also mention of his levels of emotional
+sensitivity.
 
- - 0: I saw her it is a gross an inaccurate one.
+Obviously, nothing conclusive or direct.
 
- - 2: Is this.
+My favorite clue, hands down, was that so few of us realized he was gay.
 
- - 0: Really the closest we get it turn Dumbledore sexuality being explicit in the text.
+Umm, it's not obvious, no one noticed, so we should have... guessed?
 
- - 2: Well.
+Well in that case, everyone in Harry Potter is queer too. Sorry, you said it.
+Not me.
 
- - 0: Not thank god.
+We get a few indications that Dumbledore is gay, some of them incidental and
+based on stereotypes, some you'd only say if you're queer and desperately
+trying to relate, some you'd only notice if you were really hunting.
 
- - 0: His relationship with print award in the years away the clinch I it's it's nothing the people bring out when they want to talk about how it's OPS.
+(Apparently an anagram of his name is "male balds rule bod." Fucking really?!)
 
- - 2: There is no.
+Some of them leaned dangerously close to the queer villain territory which is a
+whole nother episode on problematic representation by itself.
 
- - 0: Explicit moment.
+And... that's it, that's all we get?
 
- - 0: In takes about their relationship but there are a couple of chords the hand hit.
+No one else is gay in the entire Harry potter universe, huh?
 
- - 2: In his letter to Grindelwald.
+Can't be. Or JK would have mentioned it!
 
- - 0: Albus rights.
+That's the issue of tokenism. Once you've pointed at one dude and gone "He's
+gay." It implies that no one else is. Or you would have said because you're
+sooo progressive.
 
- - 0: I do not complain for if you had not been expelled we would never have made.
+Dumbledore is poor representation. It's not stated directly in text. His
+relationship with the men he cares about are described salaciously as "dirty
+business" by a notoriously unreliable reporter. His age and position renders
+him devoid of sexuality and he dies non-threateningly single. It feels like a
+shoehorned-in last minute representation designed to throw you a bone.
 
- - 0: He also later explains to Harry that Gil its ideas inflamed him that he pictured them both as glorious leaders of the revolution and that he closed his eyes to what Greta will truly laws.
+I think his token presence makes the world seem more heteronormative by
+contrast, especially when considered against the backdrop of some of the other
+shit that gets assumed around Hogwards.
 
- - 2: Now.
+---------------
 
- - 0: Me with my rainbow tinted glasses.
+The girls' dormitory stairs were designed by the founders of Hogwarts to
+transform into a slide when the boys try to climb them.
 
- - 2: Reads that as.
+Hermione says it's an old fashioned rule. And that's due to the founders
+thinking girls are more trustworthy.
 
- - 0: Two per day.
+It's not statued if this is the same for all houses or just Gryffindor. Not
+that I don't see why it wouldn't be the case.
 
- - 2: But alas.
+The tone of the scene in Order of the Phoenix is humorous. It's funny that Ron
+can't ascend the staircase. It's very heteronormative.
 
- - 0: No hitter number of society it could just be taken as deep platonic depiction.
+It ignores the existence of folks outside the gender binary, plays into myths
+about how boys can't control themselves around respecting girls' privacy and
+boundaries, which they can, by the way.
 
- - 0: Maybe.
+Screw "boys will be boys."
 
- - 0: Rolling has confirmed that dumb little love going to walled in the same county and hold speech in two thousand and seven wishy out of him.
+Boys will be held accountable for their actions and to a higher standard of
+self control.
 
- - 2: It.
+It assumes that girls aren't going to be interested in going to the boys' dorms
+for makeout sessions. And that same-gender makeouts... aren't a thing.
 
- - 0: May be that the true nature of their relationship will be explored in fantastic bass.
+Am I to infer from this that the queer kids and girls are considered more
+sexually responsible and so don't need magical regulations?
 
- - 0: And we'll get them world confirmation the tumblers gay.
+How about you can the old fashioned rules and have some decent sex-ed where you
+discuss consent and safety, huh? They're all kids and all equally capable of
+being sexually irresponsible. Because they're individuals.
 
- - 2: That would be cool but.
+There's no gendered basis for being more respectful of consent, privacy, and
+boundaries other than what's trained into us by heteronormative society.
 
- - 0: I'm worried given how Grenoble is a villain and.
+The staircases do allow for so fun trans headcanon, though, where characters'
+genders are affirmed by being able or unable to climb the stairs.
 
- - 2: Spoilers.
+It's kind of a happy accident of fans trying for some queer representation
+though it's definitely not intentional on JK's part.
 
- - 0: His behavior towards credence.
+In the films, the staircase is the same for boys and girls so we don't run into
+the same thing. But this still plenty of heteronormativity in the movie world.
 
- - 0: In the first fantastic bass moving.
+Harry and Hermione's relationship is an interesting one to discuss here. It's
+clear that neither character is interested in the other romantically, books or
+films. But a lot of in-text and outside-text assumptions are made about their
+relationship.
 
- - 2: The.
+This is possibly due to heteronormative ideas about how men and women can't be
+friends, _à la_ "When Harry Met Sally".
 
- - 0: Whole play directly into the evil gay manipulative pitfall stereotype needs.
+In-text, we get all that Rita Skeeter Witch Weekly nonsense during the
+Tournament where she writes about Hermione giving potions to famous boys to
+make them love her because she's not conventionally attractive. It's made very
+clear this is crap.
 
- - 0: Out of curiosity.
+Having gossipy dating rubbish about a boy and a girl who are friends be
+criticized in-text is actually a decent move. It shows this kind of
+heteronormativity exists but that it's built on false assumptions. That's neat.
 
- - 2: I googled.
+Similarly, Ron's insecurities about Harry and Hermione's relationship are also
+debunked.
 
- - 0: Hints that Dumbledore was day I got a lot of stuff about it outfits.
+However, in the film, Dumbledore asks Harry if he and Hermione are thing.
 
- - 0: Where the floral Bowman at one point.
+I get that this could be script writers, trying to be real obvious about how
+platonic Harry and Hermione are, but it's weird to have Dumbledore of all
+people make that comment.
 
- - 0: And the fact that his pit is literally flaming there was also mention of his levels of emotional scenes activity.
+Why would a gay man assume a boy and a girl who like and respect each other are
+dating? Why would the man who's best buddies with a woman, Minerva McGonnagal,
+assume romance?
 
- - 2: Obviously.
+Especially given all the other things or any present in-text that discredit a
+romantic relationship between the two. Was this question even needed?
 
- - 0: Nothing conclusive or direct.
+Perhaps it was required to make it abundantly clear to audiences given how
+heteronormative our society is.
 
- - 0: My favorite Claire hands down.
+Lots of people viewed Hermione in Harry's film dance in the Deathly Hallows as
+romantic. Personally I prefer to read it as besties trying to cheer themselves
+up in a shitty time. My friend viewed it as more of a Nietzschesque fatalistic
+dance on the eve of a revolution and all destroyed. But that's a Hufflepuff and
+a Ravenclaw for you.
 
- - 2: Was that Sir few of us realized he was day.
+I— it's cool. Ship however you want. But there's no denying that assumptions
+about Harry and Hermione being together, play into heteronormativity. So much
+so that it has been debunked repeatedly in-text.
 
- - 2: All I'm.
+Would that have been necessary if the world wasn't so heteronormative to begin
+with? Possibly not.
 
- - 2: It's not obvious.
+And then there's the obvious JK saying that Harry and Hermione would have been
+better together than Ron and Hermione. And frankly. That's bizarre.
 
- - 0: No one noticed so we shouldn't guest.
+Why are Hermione's only options these two boys that are her best friends. That
+doesn't make any sense that she can only choose between the two.
 
- - 2: Well in that case.
+Personally, I do think that Ron and Hermione work well together. but it's kind
+of damning that JK seems to think her best friends are her only romantic
+options.
 
- - 0: Everyone in Harry potter is quieter.
+Yikes.
 
- - 2: Sorry you said it.
+---------------
 
- - 0: Not me.
+The Yule Ball: the heteronormative social event of the season in Goblet of
+Fire.
 
- - 2: We get.
+No mention of queer couples at all. No boyfriends dancing, no affirmative
+lesbians snogging in the rose garden, and no one asks anyone of the same
+gender.
 
- - 0: A few indications that Dumbledore is gay so them incidental and based on stereotypes some you'd only say if you a queer and desperately trying to relate some you only notice if you really hunting.
+This would have done loads to normalise queer relationships, but it's just not
+there at all.
 
- - 0: Apparently an anagram of his name is male balds rule bod really.
+Now I've been complaining a lot so I thought maybe you guys would like a little
+joke just to bring things up.
 
- - 0: Some of them leaned dangerously close to the queer villain territory which is a whole nother if Saddam problematic representation by itself.
+- What did asexual James Potter do when Lily declined to be his date?
+- Went stag.
 
- - 2: And.
+It's very funny.
 
- - 2: That's it that's.
+You can't tell but I did the finger guns at my brand new shiny microphone.
 
- - 0: All we get.
+So.
 
- - 0: No one else is gay Indians higher Harry potter universe how.
+In the films, dancing lessons are given to the Gryffindors, and this entire
+scene reinforces heteronormative gender roles. Boys on one side, girls on the
+other. The boys are leaping lions, the girls are graceful swans. Ron is made
+fun of by Harry and his brothers for being made to dance with his teacher.
 
- - 0: How they.
+Of the boys, only Neville shows willingness and joy in dancing and this is
+played for laughs. It's also worth noting that Neville, sweet bean that he is,
+his character begins as a non-conventionally masculine wimpy comic relief, so
+it's kind of safe for him to enjoy dancing because ha ha. It's just another way
+that he's not a traditional man.
 
- - 2: Were taking.
+The girls are also viewed as targets for dating by the boys.
 
- - 0: Would have mentioned it.
+I think Harry even says at one point: "They always travel in packs. How are we
+supposed to get one of them alone to ask them?"
 
- - 0: That's the issue of tokenism.
+That's a bit creepy, Harry.
 
- - 2: Once you've pointed at one third and gone.
+The dress robes are fairly non-specific in the book aside from Ron's, but in
+the film they're derived from Muggle formal attire. No one dresses outside of
+gender norms and Ron's choices are discussed repeatedly regarding his robes for
+being too lacy, old fashioned, and feminine.
 
- - 0: He's gay.
+Given wizarding dress elsewhere in the books and how gender neutral robes are
+anyway, this dress code feels pretty forced to me.
 
- - 2: It implies that no one else's.
+The Hogwarts uniforms in films are gendered too. Pants for boys, skirts for
+girls, based on British school uniforms, I imagine. But it's an odd decision
+given the, again, neutrality of robes.
 
- - 0: Who you would have seen it because.
+At the Quidditch World Cup in the fourth book we see evidence of wizards not
+really _getting_ Muggle attire, and how Muggles often dress according to gender
+roles.
 
- - 0: Progress the.
+Most witches and wizards dress eccentricly, in brightly colored robes, and
+their attempted dressing-like-muggles is unusual with no real grasp of Muggle
+dress code conventions.
 
- - 2: Dumbledore.
+A wizard named Archie wears his nighty, and a ministry official tries to tell
+him that this is for Muggle women only.
 
- - 0: Is poor representation.
+Thankfully Archie doesn't give any fucks. He just likes wearing it.
 
- - 0: It's not stated directly in text has relationships with them and he cares about described salacious Leah's Dante business.
+It's weird that we give this complete lack of understanding about gender
+clothing for magical people, and they will dress unconventional and gender
+neutrally, and yet we wind up with gendered uniforms and gendered Yule Ball
+clothing in the film.
 
- - 0: By editorials Lee underlie were reported.
+-----------
 
- - 0: His aides imposition arenas him devoid of sexuality and he dies non threatening Lee single.
+It was around this point in the script writing that I realized the episode was
+going to be huge, so I've divided it into two parts. This first part covers
+dormitories, Dumbledore, and dancing; the second part will into witches,
+werewolves, and I'll discuss some queer — potential — queer readings of some of
+my favorite characters.
 
- - 0: It feels like he sure horn N. last minute representation designed to throw you a barn.
+In the meantime, please keep the conversation going on Twitter. Act queerly
+there.
 
- - 2: I think his token prisons.
+Don't be afraid to drop in your queer headcanons, tell me your thoughts about
+this episode, or any of the other episodes, and because this episode is our
+ginormous, I actually have several recommendations, queer media you can check
+out but I will do them all in the second half of the episode.
 
- - 0: Makes the world seem more heteronormative by contrast especially when considered against the backdrop of the.
+That's just for ease in my editing, there's no other real reason for that.
 
- - 0: All the shit they get this year around hope what.
+But, you know, as always you can check out the Twitter and some of my previous
+recommendations for queer stuff.
 
- - 0: It goes Dimitry stands we designed by the founders of Hogwarts to transform into a slide when the boys try to climb.
+[credits]
 
- - 0: Hermione says it's an old fashioned rule.
+[outro song]
 
- - 0: And that's due to the founders thinking go the more trust when a.
-
- - 0: It's not status if this is the same for all houses or just go for it or.
-
- - 2: Not I don't see why it wouldn't be the case.
-
- - 0: Tired of the scene in order of the Phoenix.
-
- - 2: Is humorous that's.
-
- - 0: Money that wrong condescending stick as.
-
- - 2: It's.
-
- - 0: Mary heteronormative.
-
- - 0: It ignores the existence of folks outside the gender binary.
-
- - 0: Plays into myths about how boys Kong control themselves around respect.
-
- - 0: Privacy in boundaries which they can by the way skirt boys will be boys boys will be held accountable for their actions and to a higher standard of self control.
-
- - 2: It is seems the girls are going to be.
-
- - 0: Interested in going to boys dorms for makeout sessions.
-
- - 2: And that same gender make outs.
-
- - 0: On the thing.
-
- - 0: And my Thun flow from this the queer kids and girls are considered more sexually responsible answer don't need medical regulations.
-
- - 0: How about you can the old fashioned rules and have some decent sakes aid we discuss consent insight to how.
-
- - 0: They're all kids and all equally capable of being sexually irresponsible.
-
- - 2: Because they're individuals.
-
- - 2: There's no arm.
-
- - 0: Gene did basis for being more respectful of consent privacy boundaries other than what's trained into us by heteronormative society.
-
- - 0: The state cases do allow for some bomb trans him Canonsburg where characters dean is our family by being able or unable to climb the stairs.
-
- - 0: It's kind of a happy accident of bands trying for some queer presentation though it's definitely not intentional on JK's pop.
-
- - 0: And the film is this a case is the same for boys and girls so we don't run into the same thing.
-
- - 0: But this still plenty of headroom normativity.
-
- - 0: In the movie Welt.
-
- - 0: Harry and Hermione's relationship is an interesting one to discuss here.
-
- - 0: Clear that neither character is interested in the other romantically books or films.
-
- - 2: But a lot of antiques and.
-
- - 0: Outside takes assumptions are made about their relationship.
-
- - 0: This is possibly junior to hitch a normative ideas about how men and women caught be friends all out when Harry met Sally.
-
- - 2: End tape next.
-
- - 2: We do it old bat.
-
- - 0: Reason skis on which weekly nonsense during the trial with the torment where she writes about Hermione giving potions to famous boys to make them love her because she's not conventionally attractive.
-
- - 2: It's very very clear this is crap.
-
- - 0: Having gossipy dating rubbish about a boy and a girl who have friends be criticized in taste is actually a decent move.
-
- - 2: It shows this kind of hitch normativity exists but that's built on false assumptions.
-
- - 0: That's neat.
-
- - 2: Similarly.
-
- - 0: Runs insecurities about Harry and Hermione's relationship are also different.
-
- - 0: However.
-
- - 0: And the film Dumbledore asks Harry if Harry and Hermione are thing.
-
- - 2: I get is.
-
- - 0: That this could be script writers.
-
- - 0: Trying to be real obvious about how platonic Harry and Hermione on but it's weird to have Dumbledore of all people make that comment.
-
- - 0: Why would a guy man assume a boy and a girl who like and respect each other a dating.
-
- - 2: Why would the man who's best buddies with a woman.
-
- - 0: Minogue Madonna will assume merman's.
-
- - 2: Especially given all the.
-
- - 0: Other things or any president and takes the discredit a romantic relationship between the teller.
-
- - 2: Was this question.
-
- - 0: Even needed.
-
- - 0: I perhaps it was required to make it abundantly clear to audiences given how heteronormative out societies.
-
- - 2: Lots of people.
-
- - 0: Year Hermione in Harry's film dons in the deathly Hallows as romantic.
-
- - 2: Personally I prefer to read it.
-
- - 0: Is based is trying to cheer themselves up in a shitty time.
-
- - 0: My friend viewed it as more of a Nietzsche esque fatalistic down some even revolution and well destroyed.
-
- - 0: But that's a humble pub in a written call for you.
-
- - 2: I think it's cool should however you want.
-
- - 0: But there's no denying that assumptions about Harry and Hermione being to give the planes hit you normativity.
-
- - 0: So much slower than it has been debunked repeatedly and taste.
-
- - 0: One that have been necessary if the world wasn't Sir hitch normative to begin with.
-
- - 2: Possibly know.
-
- - 0: And then there's the obvious JK saying that Harry and Hermione would have been better together than Ron and Hermione.
-
- - 2: And frankly.
-
- - 2: That's bizarre.
-
- - 0: Why.
-
- - 0: Our Hermione's only options these two boys that are her best friends.
-
- - 0: That doesn't make.
-
- - 0: Any scenes.
-
- - 0: But she can only choose between the tire.
-
- - 2: Personally.
-
- - 2: I do think that Ron and Hermione work well together.
-
- - 2: But.
-
- - 0: It's kind of damaging the roots.
-
- - 0: JK seems to think.
-
- - 0: Her best friends are her only romantic options.
-
- - 0: Is.
-
- - 2: The Yule.
-
- - 0: Ball I heteronormative social event of the season in goblet of fire.
-
- - 0: No mention of queer couples at all.
-
- - 0: Norm boyfriends down saying Miller favorably means not being in the Mars got in and no one oz got anyone of the same you know.
-
- - 2: This would of downloads to normalize clear relationships but it's just not there at all.
-
- - 0: Now I've been complaining a lot slower I thought maybe you guys would like a little jog just to bring things up.
-
- - 2: What did.
-
- - 0: Asexual James potter when lily declined to be his date.
-
- - 0: Went stag.
-
- - 0: And very funny you can't tell but I did the thing accounts and my brand new shiny micron.
-
- - 2: Sir.
-
- - 0: In the films.
-
- - 0: Danzig within the given to the government offices and this entire scene reinforces Hitra normative gender roles.
-
- - 0: Boys on one side goes on the other.
-
- - 0: The boy is a leaping Elian's the girls a graceful swarms.
-
- - 0: Ron is made fun of by Harry and his brothers for being made to dance with his teacher.
-
- - 0: All the boys only nibble shows willingness enjoy and dancing and this is like the laughs.
-
- - 2: It's also worth noting that naval.
-
- - 0: Sweetbay media's has character begins as a not conventionally masculine wimpy comic relief sorry it's kind of safe for him to enjoy dancing because ha ha.
-
- - 0: It's just another way that he's not a traditional man.
-
- - 2: The goals.
-
- - 0: Are also viewed as targets dating by the boys.
-
- - 0: Kerry can say that one would think always travel impact.
-
- - 0: How are you supposed to get one of them learn to ask them.
-
- - 0: The decree be Harry.
-
- - 2: The dress herbs up feeling known specific in the book and.
-
- - 0: Side from wrongs but in the film they derive from Muggle formal attire.
-
- - 2: No wonder this is outside.
-
- - 0: Of gender norms and run voices discussed repeatedly regarding his robes for being too lazy old fashion and feminine.
-
- - 0: Given wasn't interests elsewhere in the books and how Gina neutral robes ought anyway this dress code feels pretty forced to me.
-
- - 2: The.
-
- - 0: Hope was uniforms in film a gene did tired.
-
- - 0: Pants for Boy Scouts.
-
- - 0: The goals.
-
- - 2: Based on British school uniforms I imagine.
-
- - 2: But it's an old decision given but.
-
- - 0: Again neutrality of herbs.
-
- - 2: At the quidditch World Cup in the fourth book we see evidence of was it's not really get.
-
- - 2: In Muggle attire.
-
- - 0: And how.
-
- - 0: It's often very.
-
- - 0: According to gender roles.
-
- - 0: Most witches and wizards dress eccentric.
-
- - 0: And brightly colored robes and their attempted dressing like muggles are unusual with our room grasp of Michael dress code conventions.
-
- - 0: I wasn't named Archie Chris is nice and a ministry official tries to tell him that this is for Muggle women Armley.
-
- - 2: Thankfully I G. doesn't give.
-
- - 0: Any fox he just wants wearing it.
-
- - 2: It's weird that we give us complete lack of understanding about gender clothing for magical people.
-
- - 2: And.
-
- - 0: They will grace unconventional a engine and usually.
-
- - 2: And yet.
-
- - 0: We wind up with the gene and uniforms and.
-
- - 0: Gina mule bowl clothing on the phone.
-
- - 0: It was around this point and the script writing that I realized the episode was going to be here.
-
- - 0: So far I've divided it into two pots.
-
- - 0: This first pot covens dormitories Dumbledore and.
-
- - 2: Don saying the same compound.
-
- - 0: World garter into which is where I will.
-
- - 0: And all discussed some clear potential clear ratings own.
-
- - 0: Some of my favorite characters.
-
- - 0: Are in the meantime.
-
- - 2: Please keep the conversation going on Twitter.
-
- - 0: At clearly there don't be afraid to drop and you're you're queer hit cannons tell me your thoughts about this if the song earned or any of the other episodes.
-
- - 0: And.
-
- - 0: Because this episode is our journalist I actually have several recommendations her queen media you can check out but I will do them all in the second hall own.
-
- - 0: The if the sword arm.
-
- - 0: That's just for ease in may it is saying is there's no other real reason for that also.
-
- - 2: But you know our.
-
- - 0: As always you can check out the Toyota Tennessee some of my previous recommendations for quest out.
-
- - 2: And I would like to send a thank you.
-
- - 0: Sir thank you Danny your cargo for our wonderful theme song you're very town.
-
- - 0: File of you lot and then you buy more I love you a lot Sir for a beautiful home I.
-
- - 0: And thanks to Seth at the not separate work procrastinate leg which is a network full of some great showers we've got the lesser part cost which is all about Wonder Woman we've got one me see which is all about magical great shows.
-
- - 0: Relevant to Harry potter if you're interested.
-
- - 0: Are we also got the intergalactic express ancestors really amazing and like everything she knows sar yet check her out her because her website to lots of really cool pop culture analysis alone and stop and three great photography is up.
-
- - 0: So yes subscribe to grind it woulda.
-
- - 2: Subscribe to the not so for work progress never Toda subscribe to hear all of the other focus on the network.
-
- - 0: Could shake out now.
-
- - 2: Mailing list subscribe on iTunes labor review her.
-
- - 0: All that good stuff we sincerely love to hear feedback from here and what he ends interaction is one of the things that makes podcasting really awesome for main sorry Cape that all.
-
- - 2: Yeah I.
-
- - 0: I hope you.
-
- - 2: Enjoy this and the following.
-
- - 0: If US armored have a wonderful day will you witches wizards and what's in them.
-
- - 0: Plus the stock.
-
- - 0: The very first description of Dumbledore sees he's wearing high heel buckle boots and a purple cloak.
-
- - 2: Which.
-
- - 0: This undeniably bladder.
-
- - 0: Super guy.
-
- - 2: But alas.
-
- - 2: And I had you know one of society it could be taken.
-
- - 0: Learn to.
-
- - 0: Excuse me you've no idea how many beds at it up.
-
- - 0: Every time.
-
- - 2: Well.
-
- - 0: In that case everyone else is Harry potter.
-
- - 2: Everyone else.
-
- - 0: Is Harry potter we all I Harry potter.
-
- - 0: Bland.
-
- - 0: But there's plenty of headroom nobody in the film.
-
- - 0: Metairie.
-
- - 0: So you were thrown.
-
- - 0: Stop laughing at.
-
- - 2: I get this.
-
- - 2: Strict.
-
- - 2: Then.
-
- - 0: Then that that.
