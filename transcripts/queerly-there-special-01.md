@@ -16,10 +16,14 @@ The podcast was published on September 26, 2017.
 
 This was an experiment on if pre-transcribing something mechanically could help
 with manually transcribing it, or if it would be an impediment, or just
-neutral. This last episode concludes this run of three transcribing
-experiences: [the first][ie1] was a purely human transcription, and [the
-second][ie2] compared a human transcription to a machine transcription within
-the same corpus (although the post does not show overlapping parts).
+neutral. (Results: it really helps, especially if the diction is clear, as a
+large amount, over 90% here I'd say, is actually already there. All that
+remains is to correct the few odd words and arrange the text properly.)
+
+This last episode concludes this run of three transcribing experiences: [the
+first][ie1] was a purely human transcription, and [the second][ie2] compared a
+human transcription to a machine transcription, when multiple voices and
+accents are involved. (We both had trouble with those ones.)
 
 The machine transcription uses [IBM's Watson][stt] speech-to-text engine.
 
@@ -32,165 +36,92 @@ The machine transcription uses [IBM's Watson][stt] speech-to-text engine.
 
 ---
 
- - 0: Good morning afternoon or evening.
+ - 0: Good morning, afternoon, or evening, and welcome to Queerly There! Y'all
+   voted for today's topic on Twitter, and I'm so glad you did. Because this is
+   one of my absolutely favorite things to rant about. We're going to talk
+   about heteronormativity at Hogwarts.
 
- - 2: And welcome to clearly that.
+[intro song]
 
- - 0: You'll voted for today's topic on Twitter.
+ - 0: Now, this episode is broken into two parts and both contain content
+   warnings for mentions of pedophilia and rape. Not in any great detail, I
+   just thought I should warn you ahead of time.
 
- - 2: And I'm so glad you did.
+ - 0: And to be more accurate, I'm going to be talking about heteronormativity
+   in the wider Harry potter universe, but I said normativity at Hogwarts
+   because I enjoy the assonance better.
 
- - 0: Because this is one of my absolutely favorite things to rant about.
+ - 0: Obviously, the episode contains spoilers for the Harry potter films and
+   books.
 
- - 2: We're going to do a running engine normativity.
+ - 0: Let's get some definitions out of the way first:
 
- - 0: Now.
+ - 0: Heteronormativity: a term coined by Michael Warner in 1991, refers to
+   prevalent and invisible norms surrounding heterosexuality. Basically, it's
+   the assumption of monogamous straight relationships between cisgender (TK:
+   ed?) men and women are the. only way to be. Or, at least, the default
+   setting and anything else is Other.
 
- - 2: This.
+ - 0: It ties innately with cisnormativity which is the assumption that
+   everyone is cisgender and that men and women have natural roles. Those that
+   fall outside of these standard roles and relationships are ignored and
+   socially devalued.
 
- - 0: If sword is broken into two pots aims both contain content warnings for mentions of pedophilia and right now in any great detail I just thought I should warn you ahead of time.
+ - 0: Harry Potter is a series of books and movies that's mostly set in the
+   nineties.
 
- - 2: And to be more accurate.
+ - 0: I'm going to work on the assumption that if you're listening to this you
+   at least know the basics of the plot through cultural osmosis if nothing
+   else. Because we've got a lot of stuff to get through.
 
- - 0: I'm going to be talking about hitch normativity in the why the Harry potter universe.
+ - 0: Let's start at the beginning.
 
- - 0: But I soon hit you normativity ad hoc work because I entered the residence better.
+ - 0: Dumbledore: gay wizarding icon of a generation, Headmaster of Hogwarts,
+   You probably know where I'm going with this.
 
- - 2: Obviously.
+ - 0: In 2007, JK Rollings (TK) revealed that Albus Dumbledore was gay but was
+   criticized for not making it explicit in the text.
 
- - 0: The episode contains spoilers for the Harry potter films and books.
+ - 0: We get some hints that — you could call them that — but nothing that
+   you'd notice if you weren't going through it with a fine tooth comb like
+   yours truly. In Philosopher Stone, the very first description of Dumbledore
+   says that he's wearing high heeled buckle boots and a purple cloak.
 
- - 0: Let's get some definitions out of the way first.
+ - 0: While undeniably fabulous, obviously, wearing purple and heels doesn't
+   make you gay. His outfit does fall outside the Muggle gender norms but given
+   that all witches and wizards are dressed pretty eccentrically this doesn't
+   indicate anything much about a sexuality.
 
- - 2: Hatcher normativity.
+ - 0: You might argue that Dumbledore being gay isn't really relevant to the
+   story, or maybe you wouldn't if you listen to some of my previous episodes
+   about the importance of queer representation in media.
 
- - 0: I Tim coined by Michael worn out in nineteen ninety one.
+ - 2: But in the _not_ saying it, my dear listeners, a lot of other assumptions
+   come to fill in the gaps.
 
- - 2: Refers to earn per violent.
+ - 2: JK also stated that when she was reading through the script for the sixth
+   film, she edited out a line about an old girlfriend of Dumbledore's,
+   scribbling that he was gay in the margin.
 
- - 0: And invisible norms surrounding heterosexuality.
+ - 2: (I just realized, he's quite _literally_ a _margin_alized identity.)
 
- - 2: Basically.
+ - 2: And that's heteronormativity for you.
 
- - 0: It's the assumption of monogamous straight relationships between substantive men and women are the.
+ - 0: Since JK TK) had not started to tumble to sexuality before that point,
+   the script writers assumed heterosexuality.
 
- - 2: Only way to pay.
+ - 0: In the final book, Deathly Hallows, Harry reads Dumbledore's biography
+   written by Rita Skeeter. In it, Skeeter implies that Harry and Dumbledore
+   were unnaturally close. That their relationship was unhealthy and sinister.
+   And that Harry had a troubled adolescence (well, no shit).
 
- - 2: Arm at least.
-
- - 0: The default setting and anything else is.
-
- - 0: Other.
-
- - 2: It ties innately web.
-
- - 0: Sites normativity which is the assumption that everyone has since Gina and that men and women have natural roles.
-
- - 0: Those that fall outside of the standard roles and relationships are not hand socially develop it.
-
- - 0: Harry potter is a series of books and movies that's because he's in the nineties.
-
- - 2: I'm.
-
- - 0: Going to work on the assumption that if you're listening to this you at least know the basics of the plot through cultural osmosis if nothing else.
-
- - 2: Because we've got a lot of stuff to get.
-
- - 2: Let's start.
-
- - 0: At the beginning.
-
- - 0: Dumbledore day was the day I called over generation headmaster of Hogwarts.
-
- - 0: You probably know where I'm going with this.
-
- - 2: In two thousand and seven.
-
- - 0: JK Rollings revealed that albus Dumbledore was getting but was criticized for not making explicit in the text.
-
- - 2: We get some hints that.
-
- - 0: You could call them that barrenness you'd notice if you weren't going through it with a fine tooth comb like yours truly.
-
- - 0: Envelopes was done in the very first description of Dumbledore says that he's wearing high heeled buckle boots and a purple cloak.
-
- - 2: Well.
-
- - 0: Undeniably fabulous.
-
- - 2: Obviously.
-
- - 0: Wearing purple and heels doesn't make you get a.
-
- - 2: His outfit does fall outside the Muggle gender norms but given that all witches and wizards.
-
- - 0: Are addressed pretty eccentrically this doesn't indicate anything much about six.
-
- - 2: You might.
-
- - 0: Argue.
-
- - 0: That dumb little being gay isn't really relevant to the story.
-
- - 2: Or.
-
- - 0: Maybe you wouldn't if you listen to some of my previous episodes about the importance of quick rips the taste and media.
-
- - 2: But in the what.
-
- - 0: Saying it my dear listeners.
-
- - 2: A lot of.
-
- - 0: Other assumptions.
-
- - 0: Come to fill in the gaps.
-
- - 2: JK also stated.
-
- - 0: That when she was reading through the script for the sex phone.
-
- - 2: She isn't out.
-
- - 0: A line about an old girlfriend of dumbells.
-
- - 0: Scribbling that he was gay in the margin.
-
- - 2: I just realize.
-
- - 0: Quite literally a marginalized identity.
-
- - 2: And that's Hitra normativity for you.
-
- - 0: Since JK had not started to tumble to sexuality before that point the script writers assumed heterosexual.
-
- - 0: And the final book deathly Hallows.
-
- - 0: Harry Reid stumbles biography written by Rita Skeeter anise skater implies the Harry and Dumbledore were unnaturally close.
-
- - 2: That their relationship was unhealthy and sinister.
-
- - 0: And that Harry had a troubled little isms well no shit.
-
- - 2: The.
-
- - 0: Actual direct quote is.
-
- - 0: I devoted an entire chapter to the whole pothole Dumbledore relationship.
-
- - 0: It's been cold unhealthy even sinister.
-
- - 2: Again.
-
- - 0: Your readers will have to buy my book for the whole story but there's no question that double took an unnatural interest impala from the word go are.
-
- - 2: Whether that was really in the boy's best interest.
-
- - 0: Well we'll see.
-
- - 2: But certainly a.
-
- - 0: Open secret the pot had a most trouble and listens.
+ - 2: The actual direct quote is: "I devote an entire chapter to the whole
+   Potter–Dumbledore relationship. It's been called unhealthy, even sinister.
+   Again, your readers will have to buy my book for the whole story but there's
+   no question that Dumbledore took an unnatural interest in Potter from the
+   word go. Whether that was really in the boy's best interest, well, we'll
+   see. But certainly an open secret that Potter had a most troubled
+   adolescence."
 
  - 2: Now.
 
