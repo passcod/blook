@@ -8,46 +8,54 @@ tags:
  - podcast
 ---
 
-This is a full transcript of [Heteronormativity At Hogwarts Part I: Dumbledore, Dormitories And Dancing][hahddd], a [Queerly There][qt] podcast
-special on the [Not Saf For Work][nsfw] network. You can find the podcast in its
-original audio form at the link above.
-
-The podcast was published on September 26, 2017.
-
-This was an experiment on if pre-transcribing something mechanically could help
-with manually transcribing it, or if it would be an impediment, or just
-neutral. (Results: it really helps, especially if the diction is clear, as a
-large amount, over 90% here I'd say, is actually already there. All that
-remains is to correct the few odd words and arrange the text properly.)
-
-This last episode concludes this run of three transcribing experiences: [the
-first][ie1] was a purely human transcription, and [the second][ie2] compared a
-human transcription to a machine transcription, when multiple voices and
-accents are involved. (We both had trouble with those ones.)
-
-The machine transcription uses [IBM's Watson][stt] speech-to-text engine.
-
-Something I noticed that's topical with this podcast's subject is that Watson
-is biased. Probably unintentionally! But... at first I thought maybe it was
-because of accents, but I tried with a bunch of samples and I never managed to
-get it to ever transcribe the word "gay". Like, ever. Sometimes it transcribed
-into "day", sometimes into nothing. But it never, in my experience, actually
-wrote out the word as "gay". "Queer" transcribed correctly _once_.
-
-For some of the more niche words used in the podcast, like "cisgender" or
-"heteronormativity", I was like, yeah, okay, these are pretty complex and
-relatively new words that aren't used a lot in the wider community yet. But
-"gay" has been around a long time and it's quite a common word. So that's
-pretty fucked up. Of course my experiments were pretty limited. But still.
+> This is a transcript of [Heteronormativity At Hogwarts Part I: Dumbledore,
+> Dormitories And Dancing][hahddd], a [Queerly There][qt] podcast special on
+> the [Not Saf For Work][nsfw] network. You can find the podcast in its
+> original audio form at the link above.
+>
+> [Queerly There][qttw] is hosted by [Rowan][rtw] and is really awesome.
+>
+> The podcast was published on September 26, 2017.
+>
+> This was an experiment on if pre-transcribing something mechanically could
+> help with manually transcribing it, or if it would be an impediment, or just
+> neutral. (Results: it really helps, especially if the diction is clear, as a
+> large amount, over 90% here I'd say, is actually already there. All that
+> remains is to correct the few odd words and arrange the text properly.)
+>
+> This last episode concludes this run of three transcribing experiences: [the
+> first][ie1] was a purely human transcription, and [the second][ie2] compared
+> a human transcription to a machine transcription, when multiple voices and
+> accents are involved. (We both had trouble with those ones.)
+>
+> The machine transcription uses [IBM's Watson][stt] speech-to-text engine.
+>
+> Something I noticed that's topical with this podcast's subject is that Watson
+> is biased. Probably unintentionally! But... at first I thought maybe it was
+> because of accents, but I tried with a bunch of samples and I never managed
+> to get it to ever transcribe the word "gay". Like, ever. Sometimes it
+> transcribed into "day", sometimes into nothing. But it never, in my
+> experience, actually wrote out the word as "gay". "Queer" transcribed
+> correctly _once_.
+>
+> For some of the more niche words used in the podcast, like "cisgender" or
+> "heteronormativity", I was like, yeah, okay, these are pretty complex and
+> relatively new words that aren't used a lot in the wider community yet. But
+> "gay" has been around a long time and it's quite a common word. So that's
+> pretty fucked up. Of course my experiments were pretty limited. But still.
 
 [hahddd]: https://notsafforwork.com/podcasts/heteronormativity-at-hogwarts-part-i-dumbledore-dormitories-and-dancing/
 [qt]: https://notsafforwork.com/category/podcasts/queerly-there/
 [nsfw]: https://notsafforwork.com/nsfw-podcasts/
 [stt]: https://speech-to-text-demo.mybluemix.net/
-[ie1]: /transcripts/intergalactic-01.md
-[ie2]: /transcripts/intergalactic-02.md
+[ie1]: /transcripts/intergalactic-01
+[ie2]: /transcripts/intergalactic-02
+[qttw]: https://twitter.com/queerlythere
+[rtw]: https://twitter.com/RowanGayle
 
---------------------
+----------
+
+## The transcript
 
 Good morning, afternoon, or evening, and welcome to Queerly There! Y'all voted
 for today's topic on Twitter, and I'm so glad you did. Because this is one of
@@ -112,7 +120,7 @@ JK also stated that when she was reading through the script for the sixth film,
 she edited out a line about an old girlfriend of Dumbledore's, scribbling that
 he was gay in the margin.
 
-(I just realized, he's quite _literally_ a _margin_alized identity.)
+(I just realized, he's quite _literally_ a *margin*alized identity.)
 
 And that's heteronormativity for you.
 
@@ -167,15 +175,15 @@ It may be that the true nature of their relationship will be explored in
 Fantastics Beasts, and we'll get in-world confirmation that Dumbledore is gay.
 
 That would be cool but, I'm worried given how Grindelwald is a villain and
-(spoilers!) his behavior towards CRedence in the first Fantastic Beasts movie,
+(spoilers!) his behavior towards Credence in the first Fantastic Beasts movie,
 that he'll play directly into the evil gay manipulative pedophile stereotype.
 
 Uugh.
 
-Out of curiosity, I googled hints that Dumbledore was gay I got a lot of stuff
-about it outfits. He wears a floral print at one point. And the fact that his
-pet is literally flaming. There was also mention of his levels of emotional
-sensitivity.
+Out of curiosity, I googled hints that Dumbledore was gay, and I got a lot of
+stuff about his outfits. He wears a floral print at one point. And the fact
+that his pet is literally flaming. There was also mention of his levels of
+emotional sensitivity.
 
 Obviously, nothing conclusive or direct.
 
@@ -220,23 +228,21 @@ shit that gets assumed around Hogwards.
 The girls' dormitory stairs were designed by the founders of Hogwarts to
 transform into a slide when the boys try to climb them.
 
-Hermione says it's an old fashioned rule. And that's due to the founders
+Hermione says it's an old fashioned rule. And that it's due to the founders
 thinking girls are more trustworthy.
 
-It's not statued if this is the same for all houses or just Gryffindor. Not
+It's not stated if this is the same for all houses or just Gryffindor. Not
 that I don't see why it wouldn't be the case.
 
-The tone of the scene in Order of the Phoenix is humorous. It's funny that Ron
-can't ascend the staircase. It's very heteronormative.
+The tone of the scene in Order of the Phoenix is humorous. It's _funny_ that
+Ron can't ascend the staircase. It's _very_ heteronormative.
 
 It ignores the existence of folks outside the gender binary, plays into myths
 about how boys can't control themselves around respecting girls' privacy and
-boundaries, which they can, by the way.
+boundaries...
 
-Screw "boys will be boys."
-
-Boys will be held accountable for their actions and to a higher standard of
-self control.
+Which they can, by the way. Screw "boys will be boys," boys will be held
+accountable for their actions and to a higher standard of self-control.
 
 It assumes that girls aren't going to be interested in going to the boys' dorms
 for makeout sessions. And that same-gender makeouts... aren't a thing.
@@ -251,14 +257,15 @@ being sexually irresponsible. Because they're individuals.
 There's no gendered basis for being more respectful of consent, privacy, and
 boundaries other than what's trained into us by heteronormative society.
 
-The staircases do allow for so fun trans headcanon, though, where characters'
-genders are affirmed by being able or unable to climb the stairs.
-
-It's kind of a happy accident of fans trying for some queer representation
-though it's definitely not intentional on JK's part.
+The staircases do allow for some fun trans headcanon, though, where characters'
+genders are affirmed by being able or unable to climb the stairs. It's kind of
+a happy accident of fans trying for some queer representation though it's
+definitely not intentional on JK's part.
 
 In the films, the staircase is the same for boys and girls so we don't run into
 the same thing. But this still plenty of heteronormativity in the movie world.
+
+---------------
 
 Harry and Hermione's relationship is an interesting one to discuss here. It's
 clear that neither character is interested in the other romantically, books or
@@ -280,7 +287,7 @@ heteronormativity exists but that it's built on false assumptions. That's neat.
 Similarly, Ron's insecurities about Harry and Hermione's relationship are also
 debunked.
 
-However, in the film, Dumbledore asks Harry if he and Hermione are thing.
+However, in the film, Dumbledore asks Harry if he and Hermione are a thing.
 
 I get that this could be script writers, trying to be real obvious about how
 platonic Harry and Hermione are, but it's weird to have Dumbledore of all
@@ -327,21 +334,21 @@ The Yule Ball: the heteronormative social event of the season in Goblet of
 Fire.
 
 No mention of queer couples at all. No boyfriends dancing, no affirmative
-lesbians snogging in the rose garden, and no one asks anyone of the same
+lesbians snogging in the rose garden, and no one asks out anyone of the same
 gender.
 
 This would have done loads to normalise queer relationships, but it's just not
 there at all.
 
-Now I've been complaining a lot so I thought maybe you guys would like a little
-joke just to bring things up.
+(Now I've been complaining a lot so I thought maybe you guys would like a
+little joke just to bring things up.
 
 - What did asexual James Potter do when Lily declined to be his date?
 - Went stag.
 
 It's very funny.
 
-You can't tell but I did the finger guns at my brand new shiny microphone.
+You can't tell but I did the finger guns at my brand new shiny microphone.)
 
 So.
 
@@ -351,10 +358,10 @@ other. The boys are leaping lions, the girls are graceful swans. Ron is made
 fun of by Harry and his brothers for being made to dance with his teacher.
 
 Of the boys, only Neville shows willingness and joy in dancing and this is
-played for laughs. It's also worth noting that Neville, sweet bean that he is,
-his character begins as a non-conventionally masculine wimpy comic relief, so
-it's kind of safe for him to enjoy dancing because ha ha. It's just another way
-that he's not a traditional man.
+played for laughs. It's also worth noting that Neville, sweet bean that he
+is... his character begins as a non-conventionally masculine wimpy comic
+relief, so it's kind of _safe_ for him to enjoy dancing because ha ha. It's
+just another way that he's not a traditional man.
 
 The girls are also viewed as targets for dating by the boys.
 
@@ -388,14 +395,14 @@ him that this is for Muggle women only.
 
 Thankfully Archie doesn't give any fucks. He just likes wearing it.
 
-It's weird that we give this complete lack of understanding about gender
-clothing for magical people, and they will dress unconventional and gender
+It's weird that we have this complete lack of understanding about gendered
+clothing for magical people, and they all dress unconventionally and gender
 neutrally, and yet we wind up with gendered uniforms and gendered Yule Ball
 clothing in the film.
 
 -----------
 
-It was around this point in the script writing that I realized the episode was
+It was around this point in the script writing that I realised the episode was
 going to be huge, so I've divided it into two parts. This first part covers
 dormitories, Dumbledore, and dancing; the second part will into witches,
 werewolves, and I'll discuss some queer — potential — queer readings of some of
@@ -405,9 +412,9 @@ In the meantime, please keep the conversation going on Twitter. Act queerly
 there.
 
 Don't be afraid to drop in your queer headcanons, tell me your thoughts about
-this episode, or any of the other episodes, and because this episode is our
-ginormous, I actually have several recommendations, queer media you can check
-out but I will do them all in the second half of the episode.
+this episode, or any of the other episodes, and because this episode is
+ginormous, I actually have _several_ recommendations [of] queer media you can
+check out but I will do them all in the second half of the episode.
 
 That's just for ease in my editing, there's no other real reason for that.
 
