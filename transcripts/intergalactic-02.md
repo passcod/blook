@@ -8,28 +8,22 @@ tags:
  - podcast
 ---
 
-This is a very rough transcript of [Intergalactic Express 02][ie2], a podcast
+This is a partial transcript of [Intergalactic Express 02][ie2], a podcast
 episode on the [Not Saf For Work][nsfw] network. You can find the podcast in its
 original audio form at the link above.
 
 The podcast was published on August 20, 2017.
 
-This transcript was partially typed up from scratch by me, a human, and
-partially transcribed by a machine! Using [IBM's Watson][stt], the bulk of the
-audio was first dumped to text, in a manner reminiscent to what you get when
-translating things with Google, or the awful Bing translator on twitter... but
-sometimes it gets things right! Then there was a second pass by me to get the
-machine text into shape.
+This was an experiment and comparison as to how well Speech-to-text works.
 
-As a result, the text is peppered with "Speaker 0", "Speaker 1", "Speaker 2".
-Those don't actually correspond with real speakers, because Watson is not
-human-good (but it's pretty good for a computer). The real speakers are
-indicated by the letter next to that (A, C, S).
+The first third is hand-transcribed and is actually readable.
 
-There's also timestamps in large and bold at some places, because of how I split
-up the audio for transcription. I've left them in there so you can figure out
-where you are in the audio if you're reading this as kind of subtitles, like I
-do when there's a transcription for podcasts I listen to.
+The last two thirds are machine-transcribed using [IBM's Watson][stt], which
+results in text reminiscent to what you get when translating things with
+Google, or the awful Bing translator on twitter... but sometimes it gets things
+right!
+
+But it's not very readable, sorry.
 
 [ie2]: https://notsafforwork.com/podcasts/intergalactic-express-02-the-beginners-guide-to-feeling-terrible/
 [nsfw]: https://notsafforwork.com/nsfw-podcasts/
@@ -56,36 +50,34 @@ A: Hullo
 
 S: Who has very offset tones.
 
-Speaker 2: A Yeah.
+A: Yeah.
 
-Speaker 2: S So what.
+S: So what is the beginner's guide? Canti, you're the one that introduced us to
+it, so.
 
-Speaker 0: S Is the beginner's guide. Canti, you're the one that introduced us
-to it, so.
+C: It's a narra— a fictional documentary about video games and Davey Wreden's
+made it, he's the writer of A Stanley Parable. It's great.
 
-Speaker 2: C It's a narra— a fictional documentary about video games and Davey
-Wreden's made it, he's the writer of A Stanley Parable. It's great.
+S: It is definitely something.
 
-Speaker 0: S It is definitely something.
+S: It is good to know that Davey Wreden's made it, because he's also the
+character— one one the characters— in the game.
 
-Speaker 0: S It is good to know that Davey Wreden's made it, because he's also
-the character— one one the characters— in the game.
+C: I mean it could be a different Davey.
 
-Speaker 2: C I mean it could be a different Davey.
+S: It could be a different Davey, he does never say his last name, but also
+when you're a guy playing a Davey and you're a Davey...
 
-Speaker 0: S It could be a different Davey, he does never say his last name,
-but also when you're a guy playing a Davey and you're a Davey...
+C: You kind of assume it's the same Davey.
 
-Speaker 2: C You kind of assume it's the same Davey.
+C: Which is kind of the whole point, isn't it.
 
-Speaker 2: C Which is kind of the whole point, isn't it.
-
-Speaker 2: S Yeah.
+S: Yeah.
 
 C: Hmm.
 
-Speaker 1: A How much can we say about the game in general, like are we saying
-straight up, now...
+A: How much can we say about the game in general, like are we saying straight
+up, now...
 
 C: Spoilers Alert?
 
@@ -108,38 +100,36 @@ would advise if you haven't played this game yet, go play it now and then come
 back and listen to this afterwards, because we will be spoiling it. It is very
 hard to talk about this game without spoiling it at all.
 
-Speaker 1: A Right now we're like train tracks.
+A: Right now we're like train tracks.
 
-Speaker 1: A And.
+A: And.
 
-Speaker 0: S Yeah, you can't stop us.
+S: Yeah, you can't stop us.
 
-Speaker 1: A And you're like, lying on the tracks.
+A: And you're like, lying on the tracks.
 
-Speaker 1: A And if we hit you.
+A: And if we hit you.
 
-Speaker 0: S You die?
+S: You die?
 
 A: Yeah. I mean.
 
-Speaker 1: A It was never... you'll never get to experience this game in the
-same way.
+A: It was never... you'll never get to experience this game in the same way.
 
-Speaker 0: S Yeah.
+S: Yeah.
 
-Speaker 1: A And also it will kill you.
+A: And also it will kill you.
 
 S: Also that.
 
-Speaker 1: A Yeah.
+A: Yeah.
 
-Speaker 2: S So. What do we think about this game? Canti what do you want to
-say?
+S: So. What do we think about this game? Canti what do you want to say?
 
-Speaker 2: C All I was just gonna say that the video that put me onto the
-beginner's guide was theoretically a review but they didn't wanna spoil it, so
-it was about five minutes of a man talking straight to camera about how it made
-him feel feelings.
+C: All I was just gonna say that the video that put me onto the beginner's
+guide was theoretically a review but they didn't wanna spoil it, so it was
+about five minutes of a man talking straight to camera about how it made him
+feel feelings.
 
 But he couldn't be specific about what the feelings were, cause he couldn't
 spoil it, so was just five minutes of "this game made me feel feelings", which
@@ -149,47 +139,45 @@ feel those feelings.
 
 S: So, yes, spoiler warning. What do we think about this game?
 
-Speaker 0: S I am going to talk through it, because I'm already talking. Um.
+S: I am going to talk through it, because I'm already talking. Um.
 
 C: I really liked that it made me feel complicated and weird feelings and.
 
-Speaker 0: C I like a good narrative that can twist my emotions and that a way
-that it makes me hate myself a little bit.
+C: I like a good narrative that can twist my emotions and that a way that it
+makes me hate myself a little bit.
 
-Speaker 1: A It gave me a headache.
+A: It gave me a headache.
 
-Speaker 0: C Yeah I'm felt the same.
+C: Yeah I'm felt the same.
 
-Speaker 1: A Like, I loved it, don't get me wrong, but.
+A: Like, I loved it, don't get me wrong, but.
 
-Speaker 1: A I— straight after I played it I just went and layed down, for a
-little bit.
+A: I— straight after I played it I just went and layed down, for a little bit.
 
-Speaker 0: C [laughter]
+C: [laughter]
 
-Speaker 1: A Yeah.
+A: Yeah.
 
-Speaker 1: A It was just— it was this realy weird experience. I had this things
-where I was just hating playing it just cause it made me feel awful. [chuckle]
-Um.
+A: It was just— it was this realy weird experience. I had this things where I
+was just hating playing it just cause it made me feel awful. [chuckle] Um.
 
-Speaker 1: A Like it was beautiful, really really well done but, the feelings
-that it creates are so negative, and like that's part of the power of it. And I
-was just really overwhelmed by how, umm, awful it was.
+A: Like it was beautiful, really really well done but, the feelings that it
+creates are so negative, and like that's part of the power of it. And I was
+just really overwhelmed by how, umm, awful it was.
 
 C: It kinda builds up that feeling of awe, and then it completely twists the
 feeling into disgust.
 
-Speaker 1: A Yeah. Yeah exactly.
+A: Yeah. Yeah exactly.
 
-Speaker 1: A Yeah, you're really, it really builds you up to let you down.
+A: Yeah, you're really, it really builds you up to let you down.
 
-Speaker 0: S Yeah it does. Canti what did you think about this game.
+S: Yeah it does. Canti what did you think about this game.
 
-Speaker 2: C: Um I'm gonna— basically the same stuff that you said but in the
-context of having played it twice, because I came out the two times feeling
-very different about it. The first time I played it, you know, I was completely
-blind to everything that Davey is saying, so it really feels like having the
+C: Um I'm gonna— basically the same stuff that you said but in the context of
+having played it twice, because I came out the two times feeling very different
+about it. The first time I played it, you know, I was completely blind to
+everything that Davey is saying, so it really feels like having the
 
 ## 02: 4.48
 
@@ -258,8 +246,8 @@ C: What— Grilled…
 A: Maybe. Maybe. I had zucchini fries last time I was in Melbourne, and I had a
 very good time. THey were very salty, though.
 
-S: You know, I genuinely don't remember when I first started playing it. I think
-you were telling me about it. I think— yeah.
+S: You know, I genuinely don't remember when I first started playing it. I
+think you were telling me about it. I think— yeah.
 
 C: I'm pretty sure— I mean, I'm sure ppl had told you before but I really got
 onto you
@@ -270,14 +258,14 @@ is relevant to what we're talking about, but we can't really talk about it.
 
 S: And I was like, how can you _not_ talk about this game at all, and not spoil
 it, and how is it relevant to all of these things? And, because you had talked
-about it to me so much, like "you have to play this game", and then all of these
-other people were like, "this game is really good", so I was like okay, I'm
-going to finally play this game.
+about it to me so much, like "you have to play this game", and then all of
+these other people were like, "this game is really good", so I was like okay,
+I'm going to finally play this game.
 
-S: And I did, and it did. It made me feel real awful, in a way that made me feel
-real good. Cause— I'm not— Like media kinda generally tries to make you feel
-better about yourself. Like especially the [inaudible] games, they try to make
-you feel like a Good Person.
+S: And I did, and it did. It made me feel real awful, in a way that made me
+feel real good. Cause— I'm not— Like media kinda generally tries to make you
+feel better about yourself. Like especially the [inaudible] games, they try to
+make you feel like a Good Person.
 
 S: And this game is like. No. You're a terrible person, think about what you're
 doing. And I really liked that.
@@ -309,26 +297,27 @@ C: No, I keep hearing about it, but I haven't played.
 
 S: Yeah. It has— it reminded me a little bit of SpecOps, not in an gameplay
 way, cause they're very different games, but the feelings they're trying to
-evoke are both very similar. I mean SPecOps has been talked to death, because of
-it. Like people know, what that game is, because that is the game's point, and
+evoke are both very similar. I mean SPecOps has been talked to death, because
+of it. Like people know, what that game is, because that is the game's point,
+and
 
 03: 10:33
 ---------
 
-Speaker 0: S: I gotta say [inaudible] the better, because when you play video
-games you're used to committing violence, and you know it, like you know this
-isn't real violence.
+S: I gotta say [inaudible] the better, because when you play video games you're
+used to committing violence, and you know it, like you know this isn't real
+violence.
 
-S: Like I'm committing violence and with guns and that's what the game is about.
-It's kinda fun to shoot things. In a game. It's why I play Halo.
+S: Like I'm committing violence and with guns and that's what the game is
+about. It's kinda fun to shoot things. In a game. It's why I play Halo.
 
 S: And then the beginner's guide comes along and then there's... you know,
 there's different kinds of violence.
 
 C: Ooh yeah.
 
-S: These are the kind of things you don't think about when you're playing games,
-like, you don't get to be an awful person and have like repurcussions,
+S: These are the kind of things you don't think about when you're playing
+games, like, you don't get to be an awful person and have like repurcussions,
 because when you have a game like Mass Effect or Dragon Age where you have the
 kind of binary morality system, whether or not you play as a good person or a
 bad person, the game wants to reward you, whatever you do.
@@ -349,14 +338,16 @@ Coda some money."
 
 S: Yeah, I saw some posts were like "Is is not unethical for us to be playing
 this game and get achievments?" like, you idiot, this game is fake. It's— it's
-hard to like— when I first finished the game I was like, "Is… Coda… real?" like,
+hard to like— when I first finished the game I was like, "Is… Coda… real?"
+like,
 
 A: Yeah.
 
-S: is this real, I don't actually know if it's a real experience. And then, then
-I talked to you and then I googled it, and I was like, okay, yeah, it's not real
-it's an experience but it could have been based off stuff that we don't know
-about, or on feelings at least, and, even if it's not, it still feels very real.
+S: is this real, I don't actually know if it's a real experience. And then,
+then I talked to you and then I googled it, and I was like, okay, yeah, it's
+not real it's an experience but it could have been based off stuff that we
+don't know about, or on feelings at least, and, even if it's not, it still
+feels very real.
 
 A: It feels so real. You go out of the game feeling like this is a huge crime
 against all that is moral, and you take a step back, and you go "oh yeah, this
@@ -367,9 +358,9 @@ C: Yeah
 A: It's not necessarily based on, well, it might be based on, but I think it's
 safe to assume that, at the very least the games that we played weren't.
 
-C: Yeah, and I mean, you gotta remember that R, whoever R is, I think that R was
-his room-mate? Or his flatmate? I read that somewhere. In the credits, where the
-credits say it's "For R."
+C: Yeah, and I mean, you gotta remember that R, whoever R is, I think that R
+was his room-mate? Or his flatmate? I read that somewhere. In the credits,
+where the credits say it's "For R."
 
 S: I rememebr, I read an article by someone, who was like, "I may have been R."
 And I was like, "ooh, that's a weird place to be in." I mean, the fact they
@@ -379,59 +370,58 @@ C: Nah, I feel like R probably knows.
 
 S: Yeah.
 
-C: That thing you were saying before, about how, ummm, I forget exactly what you
-are saying that it made me think of this discussion I was reading about how the
-more familiar you are with game design, and like set design, the more ah,
+C: That thing you were saying before, about how, ummm, I forget exactly what
+you are saying that it made me think of this discussion I was reading about how
+the more familiar you are with game design, and like set design, the more ah,
 relatable story is, but be transparent that that conceit is because anybody who
 knows anything about game design knows that the sort of things that Coda is
 doing is really freaking hard to do.
 
 S: Yeah, he made these games in like, a month, and you're like, "No."
 
-Speaker 2: C: So I'm glad that— that seems believable to me because I— I like— I
-didn't think it was, I don't think any point I thought it was real. But I— I
-liked being able to immerse myself into that whole… conceit.
+C: So I'm glad that— that seems believable to me because I— I like— I didn't
+think it was, I don't think any point I thought it was real. But I— I liked
+being able to immerse myself into that whole… conceit.
 
-Speaker 0: S: Yeah when I first played it I had a lot less knowledge on game
-design, then. Which. game building and stuff, and yeah, but on my replay I was
-like, there's no way, like, I would believe now that like, this one guy was
-building new amazing environments, in like a month or something, and they look
-like, and is so perfect and bug free and everything, like no, that's not— that's
-not believable.
+S: Yeah when I first played it I had a lot less knowledge on game design, then.
+Which. game building and stuff, and yeah, but on my replay I was like, there's
+no way, like, I would believe now that like, this one guy was building new
+amazing environments, in like a month or something, and they look like, and is
+so perfect and bug free and everything, like no, that's not— that's not
+believable.
 
-Speaker 2: C: And all— the level that looks like it's got real people in it. And
-whole conversations.
+C: And all— the level that looks like it's got real people in it. And whole
+conversations.
 
-Speaker 0: S: Yeah yeah I mean— all of it's obviously original assets. Like it's
-still a smallish game, but
+S: Yeah yeah I mean— all of it's obviously original assets. Like it's still a
+smallish game, but
 
-Speaker 2: C: Yeah.
+C: Yeah.
 
-Speaker 0: S: But, I think, people who don't play, or who don't design games,
-who be more immersed into this game, like emotionally, because they wouldbe more
-invested, than people who'd be like, analysing the game design.
+S: But, I think, people who don't play, or who don't design games, who be more
+immersed into this game, like emotionally, because they wouldbe more invested,
+than people who'd be like, analysing the game design.
 
-Speaker 2: C: Yeah. Year.
+C: Yeah. Year.
 
-Speaker 1: A: I mean I think the moment that you start to overthink, in a way,
-is when you— I'm getting what's wrong.
+A: I mean I think the moment that you start to overthink, in a way, is when
+you— I'm getting what's wrong.
 
-Speaker 0: C: Yeah.
+C: Yeah.
 
-Speaker 1: A: It's like with anything, I think, if you can't enjoy something—
-like obviously there's enjoyment in analysing games, but when you consume it,
-you have to _consume_ it, and so.
+A: It's like with anything, I think, if you can't enjoy something— like
+obviously there's enjoyment in analysing games, but when you consume it, you
+have to _consume_ it, and so.
 
-Speaker 0: S: I think this game benefits from ah, as well, I mean they want us
-to come— You can't help analysing— A lot of games falter for me becasue I
-analyse the game design when I play it, um, but this game, worked well for that.
-The first time I played, because, I was over-analysising it in the wrong
-direction. I was analysing Coda.
+S: I think this game benefits from ah, as well, I mean they want us to come—
+You can't help analysing— A lot of games falter for me becasue I analyse the
+game design when I play it, um, but this game, worked well for that. The first
+time I played, because, I was over-analysising it in the wrong direction. I was
+analysing Coda.
 
-Speaker 2: C:
-    Yeah yeah exactly like you're being lead to do.
+C: Yeah yeah exactly like you're being lead to do.
 
-Speaker 0: S: And the words and everything, why was I, I was going very
+S: And the words and everything, why was I, I was going very
 analysisy, and like what does this mean, is Davey telling me the truth, blah
 blah, and then, erm later on you realize that Davey has lied about a lot of
 these, about the games that he's designed, and he changed game meaning like
@@ -442,6 +432,9 @@ forever, and you can't end it, so you _could_ stay there forever, and keep
 playing. And it completely changes the meaning of the level, of what it even
 meant to begin with.
 
+------------------------
+
+## End of human-transcribed part
 
 Speaker 2:
     And your attic well look the way you know you get to the top of the tower and you see the stop leaving lampposts no my games you you're just like all my god often misinterpreting.
