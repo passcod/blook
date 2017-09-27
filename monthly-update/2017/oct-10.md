@@ -57,6 +57,7 @@ definitely the hardest character I've had to write about.
  - {SW} **[Twin Sunrise](https://archiveofourown.org/works/5162474)**. {289k words atow}
  - {SW} [‘The Tatooine Cycle’ series](https://archiveofourown.org/series/8580). {13k words}
  - {SW} [‘Three’ series](https://archiveofourown.org/series/385267). {114k words atow}
+ - {SW} [The Street Enters the House](https://archiveofourown.org/works/5660950). {4k words}
 
 ## Films
 
