@@ -55,6 +55,7 @@ definitely the hardest character I've had to write about.
  - {SW} [Nobody Wins series](https://archiveofourown.org/series/445195). {39k words atow}
  - {SW} [They were at Mos Bina (Come and see)](https://archiveofourown.org/works/5896798). {6k words}
  - {SW} **[Twin Sunrise](https://archiveofourown.org/works/5162474)**. {289k words atow}
+ - {SW} [The Tatooine Cycle series](https://archiveofourown.org/series/8580). {13k words}
 
 ## Films
 
