@@ -139,16 +139,17 @@ end
 
 class Ao3Series < Ao3
   def self.is(url)
-    Ao3.is(url) and /\/series\// =~ url
+    Ao3.is(url) and %r{/series/} =~ url
   end
 
   def title
     clean = /(\bau\b|\b(multi|uni)?'?verse\b|'\s*$|^\s*')/i
-    gettext(@doc.at_css('#main.series-show > h2.heading'))
+    t = gettext(@doc.at_css('#main.series-show > h2.heading'))
       .gsub(clean, '')
       .gsub(clean, '')
       .gsub(clean, '')
-      .strip + ' series'
+      .strip
+    "‘#{t}’ series"
   end
 
   def work_id

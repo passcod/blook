@@ -32,7 +32,7 @@ definitely the hardest character I've had to write about.
    Sweary grumpy grampa-figure R2 is the best. {4k words}
 
  - {SW} [landfall](https://archiveofourown.org/works/5600413). {6k words}
- - {SW} [Balance series](https://archiveofourown.org/series/131172). {123k words atow}
+ - {SW} [‘Balance’ series](https://archiveofourown.org/series/131172). {123k words atow}
  - {SW} [Two Hands to Make the World](https://archiveofourown.org/works/5687815). {27k words}
  - {SW} [when love explodes](https://archiveofourown.org/works/5793757). {1k words}
  - {SW} **[Precipice](https://archiveofourown.org/works/8270582)**. {114k words atow}
@@ -45,17 +45,18 @@ definitely the hardest character I've had to write about.
  - {SW} [Echoes of Mortis](https://archiveofourown.org/works/6082215). {67k words atow}
  - {SW} [I Can't Actually Post The Name of This Fic Here Because It Isn't Clean](https://archiveofourown.org/works/7348051). {7k words atow}
  - {SW} [Changeling Children](https://archiveofourown.org/works/6420604). {3k words}
- - {SW} [The Suns of Tatooine series](https://archiveofourown.org/series/345257). {85k words}
+ - {SW} [‘The Suns of Tatooine’ series](https://archiveofourown.org/series/345257). {85k words}
  - {SW} [Imagine Something Of your Very Own](https://archiveofourown.org/works/5549042). {24k words}
- - {SW} [without knowing how, or when, or where series](https://archiveofourown.org/series/738735). {11k words atow}
- - {SW} [Open Fire series](https://archiveofourown.org/series/597679). {15k words atow}
+ - {SW} [‘without knowing how, or when, or where‘ series](https://archiveofourown.org/series/738735). {11k words atow}
+ - {SW} [‘Open Fire’ series](https://archiveofourown.org/series/597679). {15k words atow}
  - {SW} [Circumnavigating The Stars](https://archiveofourown.org/works/6391396). {10k words atow}
  - {SW} [your love (will be safe with me)](https://archiveofourown.org/works/5694505). {2k words}
  - {SW} [The One Where Barriss Is A Model Padawan And It's Kind Of Freaking Everyone Out](https://archiveofourown.org/works/3947530). {7k words}
- - {SW} [Nobody Wins series](https://archiveofourown.org/series/445195). {39k words atow}
+ - {SW} [‘Nobody Wins’ series](https://archiveofourown.org/series/445195). {39k words atow}
  - {SW} [They were at Mos Bina (Come and see)](https://archiveofourown.org/works/5896798). {6k words}
  - {SW} **[Twin Sunrise](https://archiveofourown.org/works/5162474)**. {289k words atow}
- - {SW} [The Tatooine Cycle series](https://archiveofourown.org/series/8580). {13k words}
+ - {SW} [‘The Tatooine Cycle’ series](https://archiveofourown.org/series/8580). {13k words}
+ - {SW} [‘Three’ series](https://archiveofourown.org/series/385267). {114k words atow}
 
 ## Films
 
