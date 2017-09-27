@@ -102,8 +102,9 @@ All amounts are in NZ dollars, even if the donation was in another currency.
  - CanTeen: $150
  - GiveWell: $300
  - IHC: $125
+ - People Against Prisons Aotearoa: $200
 
--=> 1425
+-=> 1625
 
 ### To be adjusted?
 
@@ -115,11 +116,10 @@ All amounts are in NZ dollars, even if the donation was in another currency.
  - Médecins Sans Frontières: $100
  - Reporteurs Sans Frontières: $100
  - Local marae-based code-for-kids org: $70
- - People Against Prisons Aotearoa: $150
  - Youthline: $50
  - Greenpeace: $?
 
-(Total planned: 570)
+(Total planned: 420)
 
 ### Patreon
 
