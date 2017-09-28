@@ -61,6 +61,7 @@ definitely the hardest character I've had to write about.
  - {SW} [from the ashes we rise](https://archiveofourown.org/works/2250321). {4k words}
  - {SW} [Accidental Timeshare](https://archiveofourown.org/works/1617767). {6k words atow}
  - {SW} [We Shall All Be Healed](https://archiveofourown.org/works/7103770). {30k words atow}
+ - {SW} [‘Ripples’ series](https://archiveofourown.org/series/437479). {11k words atow}
 
 ## Films
 
