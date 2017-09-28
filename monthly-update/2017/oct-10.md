@@ -59,6 +59,7 @@ definitely the hardest character I've had to write about.
  - {SW} [‘Three’ series](https://archiveofourown.org/series/385267). {114k words atow}
  - {SW} [The Street Enters the House](https://archiveofourown.org/works/5660950). {4k words}
  - {SW} [from the ashes we rise](https://archiveofourown.org/works/2250321). {4k words}
+ - {SW} [Accidental Timeshare](https://archiveofourown.org/works/1617767). {6k words atow}
 
 ## Films
 
