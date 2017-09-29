@@ -19,7 +19,7 @@ parents:
   - "2017/dec/10/monthly-update"
 ---
 
-## 2017 Goals
+## This year
 
 In [the post that started this whole monthly blogging thing][10dec16], I
 outlined three things I wanted to do this year:
@@ -38,8 +38,12 @@ outlined three things I wanted to do this year:
  - Improve my health.
 
    I've lost about 5 kg since the beginning of the year. More than that, I've
-   built up some muscle mass. I'm still not where I'd like to be, but the
-   future on the front is actually looking like it's getting brighter.
+   built up some muscle mass and established healthier habits. I've changed
+   jobs, going from a highly stressful place where I burned out several times,
+   to a more rewarding _and_ more relaxing opportunity. I sleep better, in part
+   because of more regular and longer cycles, and in part because I have
+   improved my sleeping posture. There are other little things that add up. But
+   it's looking up!
 
  - Improve my writing.
 
@@ -50,6 +54,11 @@ outlined three things I wanted to do this year:
    I'll ever be someone who can bang out a novel in a few months.
 
 [10dec16]: 2016/dec/10/blogging-more-and-starting-on-new-year-resolutions-early
+
+
+## Next year
+
+//
 
 ## Conferences
 
@@ -115,15 +124,36 @@ All amounts are in NZ dollars, even if the donation was in another currency.
  - Amnesty International: $100
  - Médecins Sans Frontières: $100
  - Reporteurs Sans Frontières: $100
- - Local marae-based code-for-kids org: $70
+ - Local code-for-kids org: $50
  - Youthline: $50
- - Greenpeace: $?
+ - Greenpeace: $50
+ - Mozilla: $50
+ - Child Poverty Action Group: $50
+ - Postgres: $30
+ - Creative Commons: $30
 
-(Total planned: 420)
+(Total planned: 610)
 
 ### Patreon
 
 Aside from my 5% donations, I also gave $xxx to various creators on Patreon.
+
+ -  14.38
+ -  96.91
+ -  13.77
+ - 120.37
+ -  14.06
+ - 123.80
+ -  10.03
+ -  61.90
+ -  10.21
+ -  56.37
+ -  78.79
+ -  48.89
+ -  79.91
+ -  49.87
+——————————
+ - 779.26
 
 
 ## Fanfiction
