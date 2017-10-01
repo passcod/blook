@@ -65,6 +65,11 @@ definitely the hardest character I've had to write about.
  - {SW} [There Goes The Atmosphere](https://archiveofourown.org/works/3799492). {69k words atow}
  - {SW} [A Big Deal in the Resistance](https://archiveofourown.org/works/7452109). {15k words}
 
+ - {HP} **[Swung by Serafim](https://archiveofourown.org/works/9821300)**.
+
+   Another masterpiece by flamethrower.
+   {352k words}
+
 ## Films
 
  - [Pork Pie](https://en.wikipedia.org/wiki/Pork_Pie_%28film%29).
