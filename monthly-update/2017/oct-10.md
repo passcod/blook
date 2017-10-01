@@ -70,6 +70,8 @@ definitely the hardest character I've had to write about.
    Another masterpiece by flamethrower.
    {352k words}
 
+ - {SW} [the sharp edge of survival](https://archiveofourown.org/works/8941432). {4k words}
+
 ## Films
 
  - [Pork Pie](https://en.wikipedia.org/wiki/Pork_Pie_%28film%29).
