@@ -71,6 +71,7 @@ definitely the hardest character I've had to write about.
    {352k words}
 
  - {SW} [the sharp edge of survival](https://archiveofourown.org/works/8941432). {4k words}
+ - {SW} [Trading Favours](https://archiveofourown.org/works/10738146). {7k words}
 
 ## Films
 
