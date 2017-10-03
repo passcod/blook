@@ -72,6 +72,7 @@ definitely the hardest character I've had to write about.
 
  - {SW} [the sharp edge of survival](https://archiveofourown.org/works/8941432). {4k words}
  - {SW} [Trading Favours](https://archiveofourown.org/works/10738146). {7k words}
+ - {SW} [The One That Got Away](https://archiveofourown.org/works/9496871). {35k words atow}
 
 ## Films
 

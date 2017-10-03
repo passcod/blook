@@ -129,10 +129,11 @@ All amounts are in NZ dollars, even if the donation was in another currency.
  - Greenpeace: $50
  - Mozilla: $50
  - Child Poverty Action Group: $50
+ - Wikipedia: $40
  - Postgres: $30
  - Creative Commons: $30
 
-(Total planned: 610)
+(Total planned: 650)
 
 ### Patreon
 
