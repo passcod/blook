@@ -25,6 +25,11 @@ her in the one interaction that's really important in this fic, my plans for the
 story warring with who she is verily. I think I've got it now, but Leia is
 definitely the hardest character I've had to write about.
 
+I've been writing and thinking a lot more about Thabeskan culture and history,
+as that is an important part of the interactions between my two protagonists.
+That may have caused a slight change of structure and that in turn may push back
+completion, but oh well. So long as it improves the story…
+
 ## Fanfiction
 
  - {SW} **[firefly](https://archiveofourown.org/works/9164014)**.
@@ -73,6 +78,7 @@ definitely the hardest character I've had to write about.
  - {SW} [the sharp edge of survival](https://archiveofourown.org/works/8941432). {4k words}
  - {SW} [Trading Favours](https://archiveofourown.org/works/10738146). {7k words}
  - {SW} [The One That Got Away](https://archiveofourown.org/works/9496871). {35k words atow}
+ - {SW} [Möbius](https://archiveofourown.org/works/1514531). {6k words}
 
 ## Films
 
