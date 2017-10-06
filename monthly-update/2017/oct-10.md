@@ -79,15 +79,14 @@ completion, but oh well. So long as it improves the story…
  - {SW} [Trading Favours](https://archiveofourown.org/works/10738146). {7k words}
  - {SW} [The One That Got Away](https://archiveofourown.org/works/9496871). {35k words atow}
  - {SW} [Möbius](https://archiveofourown.org/works/1514531). {6k words}
-
-A couple of really good fics just as I reached my self-imposed threshold and
-stopped going through the _entire_ Star Wars AO3:
-
  - {SW} **[The Weeds in the Wilderness](https://archiveofourown.org/works/6731101)**. {144k words atow}
+
  - {SW} [‘**A Pile Of Bones**’ series](https://archiveofourown.org/series/647381). {51k words atow}
 
    (Warning: so much medically graphic shit.)
    {25k words}
+
+ - {SW} [High Stakes](https://archiveofourown.org/works/6819610). {1k words}
 
 ## Films
 
