@@ -87,6 +87,7 @@ completion, but oh well. So long as it improves the story…
    {25k words}
 
  - {SW} [High Stakes](https://archiveofourown.org/works/6819610). {1k words}
+ - {SW} [For the Right Price](https://archiveofourown.org/works/11021901). {70k words atow}
 
 ## Films
 
