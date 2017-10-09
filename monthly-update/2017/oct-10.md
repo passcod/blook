@@ -16,6 +16,10 @@ thousand more words in this blog before the end of the year, I'll have written
 more in this blog this year than _all prior years combined_! Now that's a pretty
 fun goal.
 
+I achieved this handily when I did experiments around [transcripts] later on.
+
+[transcripts]: /tag/transcript
+
 ### Naema
 
 Writing has been slower than usual, which is perhaps pushing back the end date.
