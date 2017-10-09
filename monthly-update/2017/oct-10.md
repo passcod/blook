@@ -100,10 +100,10 @@ Fatso! We loved you.
  - {SW} [Möbius](https://archiveofourown.org/works/1514531). {6k words}
  - {SW} **[The Weeds in the Wilderness](https://archiveofourown.org/works/6731101)**. {144k words atow}
 
- - {SW} [‘**A Pile Of Bones**’ series](https://archiveofourown.org/series/647381). {51k words atow}
+ - {SW} [‘**A Pile Of Bones**’ series](https://archiveofourown.org/series/647381).
 
    (Warning: so much medically graphic shit.)
-   {25k words}
+   {51k words atow}
 
  - {SW} [High Stakes](https://archiveofourown.org/works/6819610). {1k words}
  - {SW} [For the Right Price](https://archiveofourown.org/works/11021901). {70k words atow}
