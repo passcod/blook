@@ -49,6 +49,19 @@ Fatso! We loved you.
 
 [Fatso]: http://www.fatso.co.nz/
 
+## Cogitare
+
+After much gnashing of teeth (I swear _a lot_ when I'm coding), I've finally put
+[Cogitare] together in a way that works decently well and looks good. It's
+usable now, even though there are a number of issues with the UI that I want to
+fix.
+
+During the next week or two, I'm going to finish that, write an import + admin
+interface, hook up the IRC bot, then prepare for NaNoWriMo by loading up a bunch
+of prompts and seeds and deleting the awful from the ones I have currently.
+
+[Cogitare]: https://cogitare.nz
+
 ## Fanfiction
 
  - {SW} **[firefly](https://archiveofourown.org/works/9164014)**.
