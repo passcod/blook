@@ -34,6 +34,21 @@ as that is an important part of the interactions between my two protagonists.
 That may have caused a slight change of structure and that in turn may push back
 completion, but oh well. So long as it improves the story…
 
+## Fatso
+
+This month, [Fatso] also declared they were shutting down. Fatso has been a
+stalwart of these past years at this house, and it brought us a vast and diverse
+set of films even when we couldn't afford downloading or streaming movies in the
+early times when the internet was capped and even slower than it is now. We'll
+miss it, even though we weren't watching as many DVDs recently, having
+diversified the sources of films we were getting. However, Fatso was the only
+way to get non-mainstream or foreign films, especially French (with original
+soundtrack) as well as many niche films from Latin America and the Middle East.
+Those are lost to us for now, unless and until we find another way. So thank you
+Fatso! We loved you.
+
+[Fatso]: http://www.fatso.co.nz/
+
 ## Fanfiction
 
  - {SW} **[firefly](https://archiveofourown.org/works/9164014)**.
@@ -97,3 +112,4 @@ completion, but oh well. So long as it improves the story…
 
  - [Pork Pie](https://en.wikipedia.org/wiki/Pork_Pie_%28film%29).
    _Matt Murphy_ (Twice!)
+
