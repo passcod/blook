@@ -120,6 +120,7 @@ of prompts and seeds and deleting the awful from the ones I have currently.
 
  - {SW} [High Stakes](https://archiveofourown.org/works/6819610). {1k words}
  - {SW} [For the Right Price](https://archiveofourown.org/works/11021901). {70k words atow}
+ - {SW} [Fives Saves the Galaxy](https://archiveofourown.org/works/9060316). {25k words}
 
 ## Films
 
