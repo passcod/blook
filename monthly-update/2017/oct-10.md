@@ -7,6 +7,20 @@ parents:
   - "2017/sep/10/monthly-update"
 ---
 
+## Night-mode improvement
+
+Got an idea as I was thinking about putting glow-in-the-dark stars up my
+ceiling, and it turned out to be a great success at little effort! If you switch
+this blog to Night mode by clicking the tiny button in the bottom left corner,
+you'll see what I mean.
+
+That was done by finding a high-res picture of the night sky, then modifying
+curves to eliminate all the variation in black and dark blues, and converting
+all black in alpha. Then some touch up work was done to eliminate as much as
+possible blue and red halos around some galaxies that were visible on a white
+background. Finally, I used GIMP's seamless tiling algorithm tool to generate
+the tile and layered it using CSS.
+
 ## Writing
 
 ### This blog
