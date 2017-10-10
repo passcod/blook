@@ -180,6 +180,7 @@ updates for incomplete works I follow.
  - June → July: 1,969k
  - July → August: 992k
  - August → September: 1,727k
+ - September → October: 1,868k
 
 
 ## Open Source Projects
