@@ -211,3 +211,4 @@ updates for incomplete works I follow.
  - [Bootstrap](https://getbootstrap.com): [#23349](https://github.com/twbs/bootstrap/issues/23349)
  - [Pest](https://github.com/pest-parser/pest): [#147](https://github.com/pest-parser/pest/pull/147) (minor)
  - [Laravel GraphQL](https://github.com/Folkloreatelier/laravel-graphql): [#190](https://github.com/Folkloreatelier/laravel-graphql/pull/190) (minor)
+ - [postcss-caralho](https://github.com/SaraVieira/postcss-caralho): [#17](https://github.com/SaraVieira/postcss-caralho/pull/17)
