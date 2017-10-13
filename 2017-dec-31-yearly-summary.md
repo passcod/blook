@@ -112,8 +112,9 @@ All amounts are in NZ dollars, even if the donation was in another currency.
  - GiveWell: $300
  - IHC: $125
  - People Against Prisons Aotearoa: $200
+ - [Camp Blaze](https://www.campblazefirecamp.org): $40
 
--=> 1625
+-=> 1665
 
 ### To be adjusted?
 
