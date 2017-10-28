@@ -65,3 +65,4 @@ really have any time to read.
  - {Merlin/Marvel} [In a Land of the 24-hour News Cycle and a Time of Science](https://archiveofourown.org/works/3834724). {121k words atow}
  - {SW} [Care of Obi-Wan 101](https://archiveofourown.org/works/12218535). {1k words}
  - {SW} [The Light You Leave Behind](https://archiveofourown.org/works/7763773). {29k words atow}
+ - {Naruto} [ghosts in her heart](https://archiveofourown.org/works/7623562). {54k words}
