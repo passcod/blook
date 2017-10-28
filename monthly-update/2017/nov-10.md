@@ -68,3 +68,4 @@ really have any time to read.
  - {Naruto} [ghosts in her heart](https://archiveofourown.org/works/7623562). {54k words}
  - {Stargate/Marvel} [The Search for Victory](https://archiveofourown.org/works/2417495). {268k words}
  - {SW} [Sass and Murder](https://archiveofourown.org/works/7698400). {25k words}
+ - {Naruto} [Stormborn](https://archiveofourown.org/works/1877970). {136k words}
