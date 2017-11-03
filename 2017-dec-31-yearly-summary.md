@@ -103,7 +103,7 @@ All amounts are in NZ dollars, even if the donation was in another currency.
 
  - ACLU: $70
  - AO3 / Organisation for Transformative Works: $37
- - Alice: $100
+ - Individuals: $100
  - The [Star Wars Galaxy Map](http://www.swgalaxymap.com): $43
  - The Green Party: $150
  - Rainbow Youth: $200
@@ -113,11 +113,6 @@ All amounts are in NZ dollars, even if the donation was in another currency.
  - IHC: $125
  - People Against Prisons Aotearoa: $200
  - [Camp Blaze](https://www.campblazefirecamp.org): $40
-
--=> 1665
-
-### To be adjusted?
-
  - Unicef: $300
 
 ### Planned (section should be entirely removed before year's end)
@@ -125,16 +120,16 @@ All amounts are in NZ dollars, even if the donation was in another currency.
  - Amnesty International: $100
  - Médecins Sans Frontières: $100
  - Reporteurs Sans Frontières: $100
- - Youthline: $50
- - Greenpeace: $50
+ - Youthline: $80
+ - Child Poverty Action Group: $80
+ - Greenpeace: $70
+ - NaNoWriMo: $60
  - Mozilla: $50
- - NaNoWriMo: $50
- - Child Poverty Action Group: $50
- - Wikipedia: $40
- - Postgres: $30
- - Creative Commons: $30
+ - Wikipedia: $50
+ - Postgres: $50
+ - Creative Commons: $50
 
-(Total planned: 650)
+(Total: 2755)
 
 ### Patreon
 
