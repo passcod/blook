@@ -115,13 +115,13 @@ All amounts are in NZ dollars, even if the donation was in another currency.
  - [Camp Blaze](https://www.campblazefirecamp.org): $40
  - Unicef: $300
  - NaNoWriMo: $60
+ - Youthline: $80
 
 ### Planned (section should be entirely removed before year's end)
 
  - Amnesty International: $100
  - Médecins Sans Frontières: $100
  - Reporteurs Sans Frontières: $100
- - Youthline: $80
  - Child Poverty Action Group: $80
  - Greenpeace: $70
  - Mozilla: $50
