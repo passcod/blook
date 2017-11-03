@@ -96,8 +96,7 @@ outlined three things I wanted to do this year:
 
 Every year that I am able to, I try to give a sizeable portion of my salary
 away in donations to various organisations and charities I believe make the
-world a better place. This year, I chose to give 5% of my gross salary, i.e.
-$2750, to over 20 organisations and individuals.
+world a better place. This year, I chose to give 5% of my estimated income.
 
 All amounts are in NZ dollars, even if the donation was in another currency.
 
