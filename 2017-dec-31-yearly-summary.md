@@ -125,10 +125,10 @@ All amounts are in NZ dollars, even if the donation was in another currency.
  - Amnesty International: $100
  - Médecins Sans Frontières: $100
  - Reporteurs Sans Frontières: $100
- - Local code-for-kids org: $50
  - Youthline: $50
  - Greenpeace: $50
  - Mozilla: $50
+ - NaNoWriMo: $50
  - Child Poverty Action Group: $50
  - Wikipedia: $40
  - Postgres: $30
