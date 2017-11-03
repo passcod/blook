@@ -114,6 +114,7 @@ All amounts are in NZ dollars, even if the donation was in another currency.
  - People Against Prisons Aotearoa: $200
  - [Camp Blaze](https://www.campblazefirecamp.org): $40
  - Unicef: $300
+ - NaNoWriMo: $60
 
 ### Planned (section should be entirely removed before year's end)
 
@@ -123,7 +124,6 @@ All amounts are in NZ dollars, even if the donation was in another currency.
  - Youthline: $80
  - Child Poverty Action Group: $80
  - Greenpeace: $70
- - NaNoWriMo: $60
  - Mozilla: $50
  - Wikipedia: $50
  - Postgres: $50
