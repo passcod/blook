@@ -55,6 +55,15 @@ who build [Better Tweetdeck] and other related projects.
 I briefly started a Rotonde client but it didn't go anywhere, mostly because all
 my other priorities and projects reared up and yelled that I didn't have time.
 
+## NaNoWriMo
+
+The first ten days of [NaNoWriMo] have been going a lot better than I thought,
+and it has been very nice to reconnect with the NZ community. I'll probably
+drive down to Auckland in the second part of November to take part in in-person
+events, too.
+
+[NaNoWriMo]: https://nanowrimo.org/participants/passcod
+
 ## Fanfiction
 
 This month is a big slow down. Didn't really read much, but I focused more on
