@@ -68,4 +68,8 @@ really have any time to read.
  - {Naruto} [ghosts in her heart](https://archiveofourown.org/works/7623562). {54k words}
  - {Stargate/Marvel} [The Search for Victory](https://archiveofourown.org/works/2417495). {268k words}
  - {SW} [Sass and Murder](https://archiveofourown.org/works/7698400). {25k words}
- - {Naruto} [Stormborn](https://archiveofourown.org/works/1877970). {136k words}
+ - {Naruto} **[Stormborn](https://archiveofourown.org/works/1877970)**. {136k words}
+ - {SW} [Attack of the (Time-Traveling) Clones](https://archiveofourown.org/works/11215419). {20k words}
+ - {SW} [With My Soul Clenched](https://archiveofourown.org/works/12453330). {12k words}
+ - {SW} [Pineapple 2: Bacta in the Habit](https://archiveofourown.org/works/7672552). {41k words atow}
+ - {Buffy} **[Fix You](https://archiveofourown.org/works/1494910)**. {169k words}
