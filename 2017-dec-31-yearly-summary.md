@@ -120,10 +120,10 @@ All amounts are in NZ dollars, even if the donation was in another currency.
  - Reporteurs Sans Frontières: $100
  - Child Poverty Action Group: $80
  - Greenpeace: $70
+ - Mozilla: $50
 
 ### Planned (section should be entirely removed before year's end)
 
- - Mozilla: $50
  - Wikipedia: $50
  - Postgres: $50
  - Creative Commons: $50
