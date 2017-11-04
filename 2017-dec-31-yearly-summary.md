@@ -117,10 +117,10 @@ All amounts are in NZ dollars, even if the donation was in another currency.
  - Youthline: $80
  - Amnesty International (NZ branch): $100
  - Médecins Sans Frontières (NZ branch): $100
+ - Reporteurs Sans Frontières: $100
 
 ### Planned (section should be entirely removed before year's end)
 
- - Reporteurs Sans Frontières: $100
  - Child Poverty Action Group: $80
  - Greenpeace: $70
  - Mozilla: $50
