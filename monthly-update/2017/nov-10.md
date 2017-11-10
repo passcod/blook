@@ -69,7 +69,7 @@ November to take part in in-person events, too.
 This month is a big slow down. Didn't really read much, but I focused more on
 various other things. Also in mid-October, my brother and his S.O. came to
 visit, and they're both incredible and funny and long story short I didn't
-really have any time to read.
+really have any time to read. After that, NaNoWriMo started.
 
  - {Merlin/Marvel} [In a Land of the 24-hour News Cycle and a Time of Science](https://archiveofourown.org/works/3834724). {121k words atow}
  - {SW} [Care of Obi-Wan 101](https://archiveofourown.org/works/12218535). {1k words}
