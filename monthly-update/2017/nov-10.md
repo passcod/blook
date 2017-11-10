@@ -57,10 +57,10 @@ my other priorities and projects reared up and yelled that I didn't have time.
 
 ## NaNoWriMo
 
-The first ten days of [NaNoWriMo] have been going a lot better than I thought,
-and it has been very nice to reconnect with the NZ community. I'll probably
-drive down to Auckland in the second part of November to take part in in-person
-events, too.
+The first ten days of [NaNoWriMo] have been going a lot better than I thought (I
+reached 25k words on the 9th!) and it has been very nice to reconnect with the
+NZ community. I'll probably drive down to Auckland in the second part of
+November to take part in in-person events, too.
 
 [NaNoWriMo]: https://nanowrimo.org/participants/passcod
 
