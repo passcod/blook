@@ -102,7 +102,7 @@ All amounts are in NZ dollars, even if the donation was in another currency.
 
  - ACLU: $70
  - AO3 / Organisation for Transformative Works: $37
- - Individuals: $147
+ - Individuals: $195
  - The [Star Wars Galaxy Map](http://www.swgalaxymap.com): $43
  - The Green Party: $150
  - Rainbow Youth: $200
@@ -124,7 +124,7 @@ All amounts are in NZ dollars, even if the donation was in another currency.
  - Wikipedia: $50
  - Creative Commons: $50
 
-(Total: $2752)
+(Total: $2800)
 
 ### Patreon
 
