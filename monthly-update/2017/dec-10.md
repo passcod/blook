@@ -20,3 +20,4 @@ Wars crackfic about ridiculous amounts of titles, as inspired by [a tweet][nn].
  - {Pokémon} [Crest's Journey](https://archiveofourown.org/works/9118390). {3k words atow}
  - {SW} [Pebble in a River](https://archiveofourown.org/works/10304777). {21k words atow}
  - {SW} [‘Through a Mirror Darkly’ series](https://archiveofourown.org/series/247897). {40k words atow}
+ - {SW} [reincarnate](https://archiveofourown.org/works/3891868). {7k words}
