@@ -22,3 +22,4 @@ Wars crackfic about ridiculous amounts of titles, as inspired by [a tweet][nn].
  - {SW} [‘Through a Mirror Darkly’ series](https://archiveofourown.org/series/247897). {40k words atow}
  - {SW} [reincarnate](https://archiveofourown.org/works/3891868). {7k words}
  - {SW} [The One He Wanted](https://archiveofourown.org/works/9871730). {6k words}
+ - {SW} **[burn](https://archiveofourown.org/works/10935006)**. {51k words}
