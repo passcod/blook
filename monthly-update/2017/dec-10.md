@@ -25,3 +25,4 @@ Wars crackfic about ridiculous amounts of titles, as inspired by [a tweet][nn].
  - {SW} **[burn](https://archiveofourown.org/works/10935006)**. {51k words}
  - {SW} [Apprentice](https://archiveofourown.org/works/6059146). {5k words}
  - {HP/SW} [‘Intergalactic’ series](https://archiveofourown.org/series/681911). {37k words atow}
+ - {SW} [‘Obi Wan & Shmi and the Worst Vision ever’ series](https://archiveofourown.org/series/494470). {18k words atow}
