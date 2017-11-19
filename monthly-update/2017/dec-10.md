@@ -19,17 +19,22 @@ Wars crackfic about ridiculous amounts of titles, as inspired by [a tweet][nn].
 Sauce I made up when looking for a softer, creamy, tangy alternative to
 Sriracha for a salmon dish:
 
-- Paprika
-- Chili (powder or flakes or whole peppers chopped up)
-- White vinegar
-- Garlic, crushed and pasted
-- Sugar
-- Salt
+- 3 tbsp **Paprika**
+- **Chili** (powder or flakes or whole peppers chopped up) to taste
+- optionally, 2-3 drops of **Tabasco**
+- 3tbsp **White Vinegar**
+- 3-5 cloves of **Garlic**, crushed/pasted
+- 1 tsp soft brown **Sugar**
+- a generous pinch of **Salt**
+
+All that should make [a wet coarse paste](https://twitter.com/passcod/status/932108438024290304).
 
 Then, to make creamy:
 
-- Mayo (non-sweet if possible)
-- Optionally, Philadelphia
+- 2 heaped tsp **Mayonnaise** (non-sweet if possible)
+- 20g of **Philadelphia**
+
+Mix until smooth, store in fridge.
 
 ## Fanfiction
 
