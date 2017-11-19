@@ -14,6 +14,23 @@ Wars crackfic about ridiculous amounts of titles, as inspired by [a tweet][nn].
 
 [nn]: https://twitter.com/NaNoWordSprints/status/930310576214913024
 
+## Cooking
+
+Sauce I made up when looking for a softer, creamy, tangy alternative to
+Sriracha for a salmon dish:
+
+- Paprika
+- Chili (powder or flakes or whole peppers chopped up)
+- White vinegar
+- Garlic, crushed and pasted
+- Sugar
+- Salt
+
+Then, to make creamy:
+
+- Mayo (non-sweet if possible)
+- Optionally, Philadelphia
+
 ## Fanfiction
 
  - {Glee/Supernatural} [‘Kurt is a Winchester’ series](https://archiveofourown.org/series/51723). {102k words atow}
