@@ -1,4 +1,5 @@
 ---
+# vim: tw=80
 title: A Year of Doing More
 tags:
   - summary
@@ -55,6 +56,7 @@ outlined three things I wanted to do this year:
 
 [10dec16]: 2016/dec/10/blogging-more-and-starting-on-new-year-resolutions-early
 
+
 ## The coming years
 
 I was asked that during nano because I semi-jokingly said my next availability
@@ -64,13 +66,13 @@ are priorities and schedules but they're fuzzy / private.
 
 - Reading: I've challenged myself to read 300 books in 2018
 - Project: Notify v5. From that will follow Cargo Watch, I'm not counting it.
+- Gameplaying: [Reap](https://managore.itch.io/reap)
 - Gamemaking: 'Me and the dark always', draft title, game about tiredness.
 - Project: Irmo. Experiment: an associative knowledge store, machine learning?
 - Gameplaying: Assassins' Creed Origins (already started)
 - Gameplaying: A recent Pokemon, perhaps
 - Gameplaying: Eco
 - Gameplaying: A contemporary FPS or two
-- Gameplaying: [Reap](https://managore.itch.io/reap)
 - Gameplaying: a bunch of other indie games
 - Project: casting my own keycaps
 - Project: make mead
@@ -92,6 +94,7 @@ are priorities and schedules but they're fuzzy / private.
 - Finish next year's nano with 50k words
 
 and more.
+
 
 ## Conferences
 
@@ -186,7 +189,8 @@ Aside from my 5% donations, I also gave $xxx to various creators on Patreon.
 ### Written
 
  - [Empire Day on Thabeska](https://archiveofourown.org/works/11542755)
- - [In that bright land from which I come](http://archiveofourown.org/works/11809908).
+ - [In that bright land from which I come](http://archiveofourown.org/works/11809908)
+ - [Chosen Names](https://archiveofourown.org/works/12722796)
  - [Naema]() - TBP
 
 ### Read
@@ -205,6 +209,8 @@ updates for incomplete works I follow.
  - July → August: 992k
  - August → September: 1,727k
  - September → October: 1,868k
+ - October → November: 876k
+ - November → December: k
 
 
 ## Open Source Projects
@@ -218,6 +224,7 @@ updates for incomplete works I follow.
 
  - [Notify](https://github.com/passcod/notify), my file watcher library for Rust.
  - [Cargo Watch](https://github.com/passcod/cargo-watch), a cargo tool.
+ - [Rogare](https://github.com/storily/rogare), the #nznano IRC bot.
 
 ### Created / Started
 
