@@ -126,6 +126,7 @@ and more.
  - [Go Get a Roomie book 2](https://www.kickstarter.com/projects/hiveworks/go-get-a-roomie-books-1-2-by-chloe-c/description)
  - [Dates volume 2](https://www.kickstarter.com/projects/marginspublishing/dates-an-anthology-of-queer-historical-fiction-vol)
  - [Dumbing of Age book 6](https://www.kickstarter.com/projects/326540223/dumbing-of-age-sixth-book-collection)
+ - [Stand Still, Stay Silent](https://www.kickstarter.com/projects/hiveworks/stand-still-stay-silent-book-2/)
 
 
 ## Donations
