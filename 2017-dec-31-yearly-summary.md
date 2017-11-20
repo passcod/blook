@@ -55,10 +55,43 @@ outlined three things I wanted to do this year:
 
 [10dec16]: 2016/dec/10/blogging-more-and-starting-on-new-year-resolutions-early
 
+## The coming years
 
-## Next year
+I was asked that during nano because I semi-jokingly said my next availability
+to play the latest pokemons would be in mid-2019. So: my current "high-level
+todolist" for the next few years goes like this, in no particular order. There
+are priorities and schedules but they're fuzzy / private.
 
-//
+- Reading: I've challenged myself to read 300 books in 2018
+- Project: Notify v5. From that will follow Cargo Watch, I'm not counting it.
+- Gamemaking: 'Me and the dark always', draft title, game about tiredness.
+- Project: Irmo. Experiment: an associative knowledge store, machine learning?
+- Gameplaying: Assassins' Creed Origins (already started)
+- Gameplaying: A recent Pokemon, perhaps
+- Gameplaying: Eco
+- Gameplaying: A contemporary FPS or two
+- Gameplaying: [Reap](https://managore.itch.io/reap)
+- Gameplaying: a bunch of other indie games
+- Project: casting my own keycaps
+- Project: make mead
+- Gamemaking: another game. I have ideas.
+- Writing: another fic in the dawnverse
+- Writing: a non-Star Wars fic. Again, I have ideas.
+- Writing: original fiction. I have various drafts.
+- Project: instrumenting a hive
+- Cons: WorldCon 2019 and 2020
+- Cons: NZGDC? Perhaps 2019 rather than 2018
+- Cons: Kiwiruby and another NZ.js, at least
+- Buying a small boat
+- Buying an electric car
+- Going to Europe (2019): Ireland, France, other countries
+- Visiting the South Island
+- Visiting the tropics again (I haven't been in ages)
+- Another job after Uber (I plan staying there 2-3 years NO MORE)
+- If I can, a product/SaaS/something... being self-employed/entrepreneur
+- Finish next year's nano with 50k words
+
+and more.
 
 ## Conferences
 
