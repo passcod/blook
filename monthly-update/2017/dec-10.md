@@ -57,3 +57,8 @@ Mix until smooth, store in fridge.
  - {SW} [The Time the Jedi Council Got It Right](https://archiveofourown.org/works/6030337). {12k words atow}
  - {SW} [Infinite Reflections](https://archiveofourown.org/works/8961607). {15k words atow}
  - {SW} [System of Darkness](https://archiveofourown.org/works/4304679). {158k words}
+ - {SW} [Hello From the Other Side](https://archiveofourown.org/works/5671423). {17k words atow}
+ - {SW} [The First Cut is The Deepest](https://archiveofourown.org/works/5804425). {3k words}
+ - {SW} [Unexpected Awakening](https://archiveofourown.org/works/671597). {85k words atow}
+ - {SW} [i think i'm finally clean.](https://archiveofourown.org/works/5568721). {2k words}
+ - {SW} [as the fates unwind](https://archiveofourown.org/works/9642863). {45k words}
