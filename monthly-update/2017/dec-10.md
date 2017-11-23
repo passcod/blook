@@ -63,3 +63,4 @@ Mix until smooth, store in fridge.
  - {SW} [i think i'm finally clean.](https://archiveofourown.org/works/5568721). {2k words}
  - {SW} [as the fates unwind](https://archiveofourown.org/works/9642863). {45k words}
  - {LotR} [Dovahkiin (Dragonborn)](https://archiveofourown.org/works/1408585). {103k words atow}
+ - {SW} [Cryptography](https://archiveofourown.org/works/9141901). {14k words atow}
