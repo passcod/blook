@@ -64,3 +64,4 @@ Mix until smooth, store in fridge.
  - {SW} [as the fates unwind](https://archiveofourown.org/works/9642863). {45k words}
  - {LotR} [Dovahkiin (Dragonborn)](https://archiveofourown.org/works/1408585). {103k words atow}
  - {SW} [Cryptography](https://archiveofourown.org/works/9141901). {14k words atow}
+ - {SW} [Affirmation](https://www.fanfiction.net/s/12441971). {89k words}
