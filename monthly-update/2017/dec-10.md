@@ -22,7 +22,7 @@ Sriracha for a salmon dish:
 - 3 tbsp **Paprika**
 - **Chili** (powder or flakes or whole peppers chopped up) to taste
 - optionally, 2-3 drops of **Tabasco**
-- 3tbsp **White Vinegar**
+- 3 tbsp **White Vinegar**
 - 3-5 cloves of **Garlic**, crushed/pasted
 - 1 tsp soft brown **Sugar**
 - a generous pinch of **Salt**
