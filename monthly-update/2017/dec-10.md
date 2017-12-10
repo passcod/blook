@@ -65,3 +65,8 @@ Mix until smooth, store in fridge.
  - {LotR} [Dovahkiin (Dragonborn)](https://archiveofourown.org/works/1408585). {103k words atow}
  - {SW} [Cryptography](https://archiveofourown.org/works/9141901). {14k words atow}
  - {SW} [Affirmation](https://www.fanfiction.net/s/12441971). {89k words}
+ - {SW} [On Buns and Ovens (working title)](https://archiveofourown.org/works/10880460). {29k words atow}
+ - {SW} [‘Teeny Tiny Mandalorian Kenobis’ series](https://archiveofourown.org/series/251464). {11k words atow}
+ - {SW} [Let Me Follow](https://archiveofourown.org/works/8875921). {63k words atow}
+ - {SW} [‘Stand the hazard of the die’ series](https://archiveofourown.org/series/712206). {116k words atow}
+ - {SW} [Buy a slave, save the galaxy!](https://archiveofourown.org/works/778920). {41k words atow}
