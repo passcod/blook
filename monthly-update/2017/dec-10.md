@@ -39,15 +39,15 @@ stories.
 
 > Patra Fardi's youngest niece, Hedala, is Force-sensitive although she doesn't
 > know it. What she knows is she has keen instincts and she's always better off,
-> in small ways and in large, when she follows it, even when it seems very odd.
+> in small ways and in large, when she follows them, even when they're very odd.
 > Jeira's and Beca's daughter Naema was left alone when her parents suddenly
 > disappeared one night. She's had to survive on her own, and she's focused all
 > her efforts on escaping Thabeska. One day, she finds an opportunity and steals
 > away on a Fardi shuttle. When they land in Rinn, Hedala stays behind, citing
 > feeling off — which the crew assumes is land-sickness: not uncommon in
-> first-time travelers after a long passage. Naema proceeds to steals the shuttle,
-> unknowingly kidnapping the important child! From adversity grows a reluctant
-> partnership as they try to find their way in the Galaxy and in life
+> first-time travelers after a long passage. Naema proceeds to steals the
+> shuttle, unknowingly kidnapping the important child! From adversity grows a
+> reluctant partnership (and perhaps more!) as they try to find their way.
 
 It's pretty fun to write, and I do plan on publishing it at some point. However,
 I'd like to have an entire work finished before I do that. I know better than to
