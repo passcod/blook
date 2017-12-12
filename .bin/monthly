@@ -22,9 +22,11 @@ slug="monthly-update"
 cd "$(dirname "${BASH_SOURCE[0]}")"
 cd ..
 
-file="${slug}/${year}/${month}.md"
+fdir="${slug}/${year}"
+file="${fdir}/${month}.md"
 
 if [ ! -f "$file" ]; then
+mkdir -p "${fdir}"
 cat <<FILE > "$file"
 ---
 # vim: tw=80
