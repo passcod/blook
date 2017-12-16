@@ -56,6 +56,28 @@ outlined three things I wanted to do this year:
 
 [10dec16]: 2016/dec/10/blogging-more-and-starting-on-new-year-resolutions-early
 
+## Next year
+
+I'm not sure I have big goals I want to achieve in 2018. But here goes:
+
+ - I want to read 300 books.
+
+   That's hard-copy, deadtree books with words in them. They'll all be library
+   books unless I buy a few or get given some. Three hundred books is about six
+   books a week, which sounds definitely doable, but we'll see how I go.
+
+ - I want to improve my health more.
+
+   Mostly walking more, exercising more, getting less pear-shaped if I can help
+   it. My diet is fine now. It's just the exercising. No strong goals here, but
+   I'd like to see fuzzily-defined improvement before the winter, at least.
+
+ - I want to release a medium-sized creative project.
+
+   It could be the Star Wars fanfic I've been working on, on and off, all year.
+   It could be something else. I've got a few ideas for a game. Either way, I
+   want to work at it and be in a position to release something during the year.
+
 
 ## The coming years
 
@@ -64,12 +86,11 @@ to play the latest pokemons would be in mid-2019. So: my current "high-level
 todolist" for the next few years goes like this, in no particular order. There
 are priorities and schedules but they're fuzzy / private.
 
-- Reading: I've challenged myself to read 300 books in 2018
+- The three things listed above for 2018.
 - Project: Notify v5. From that will follow Cargo Watch, I'm not counting it.
 - Gameplaying: [Reap](https://managore.itch.io/reap)
-- Gamemaking: 'Me and the dark always', draft title, game about tiredness.
 - Project: Irmo. Experiment: an associative knowledge store, machine learning?
-- Gameplaying: Assassins' Creed Origins (already started)
+- ~~Gameplaying: Assassins' Creed Origins~~
 - Gameplaying: A recent Pokemon, perhaps
 - Gameplaying: Eco
 - Gameplaying: A contemporary FPS or two
@@ -123,10 +144,16 @@ and more.
 ### Backed
 
  - [The Meek volume 1](https://www.kickstarter.com/projects/shingworks/the-meek-volume-1)
- - [Go Get a Roomie book 2](https://www.kickstarter.com/projects/hiveworks/go-get-a-roomie-books-1-2-by-chloe-c/description)
+ - [O Human Star volume 2](https://www.kickstarter.com/projects/772239660/o-human-star-volume-2-volume-1-reprint)
+ - [Johnny Wander](https://www.kickstarter.com/projects/746734715/our-cats-are-more-famous-than-us-a-johnny-wander-o)
+ - [Go Get a Roomie book 2](https://www.kickstarter.com/projects/hiveworks/go-get-a-roomie-books-1-2-by-chloe-c)
  - [Dates volume 2](https://www.kickstarter.com/projects/marginspublishing/dates-an-anthology-of-queer-historical-fiction-vol)
  - [Dumbing of Age book 6](https://www.kickstarter.com/projects/326540223/dumbing-of-age-sixth-book-collection)
- - [Stand Still, Stay Silent](https://www.kickstarter.com/projects/hiveworks/stand-still-stay-silent-book-2/)
+ - [Questionable Content](https://www.kickstarter.com/projects/1677416093/questionable-content-volume-6)
+ - [Girls with Slingshots](https://www.kickstarter.com/projects/ironspike/the-complete-girls-with-slingshots)
+ - [Offhand](https://www.kickstarter.com/projects/746734715/offhand-a-johnny-wander-collection)
+ - [Crossplay](https://www.kickstarter.com/projects/ironspike/crossplay-an-erotic-graphic-novel)
+ - [Stand Still, Stay Silent](https://www.kickstarter.com/projects/hiveworks/stand-still-stay-silent-book-2)
 
 
 ## Donations
@@ -181,8 +208,11 @@ Aside from my 5% donations, I also gave $xxx to various creators on Patreon.
  -  48.89
  -  79.91
  -  49.87
+ -  56.41
+ -  65.25
+ -  59.63
 ——————————
- - 779.26
+ - 960.55
 
 
 ## Fanfiction
@@ -192,7 +222,6 @@ Aside from my 5% donations, I also gave $xxx to various creators on Patreon.
  - [Empire Day on Thabeska](https://archiveofourown.org/works/11542755)
  - [In that bright land from which I come](http://archiveofourown.org/works/11809908)
  - [Chosen Names](https://archiveofourown.org/works/12722796)
- - [Naema]() - TBP
 
 ### Read
 
@@ -211,7 +240,7 @@ updates for incomplete works I follow.
  - August → September: 1,727k
  - September → October: 1,868k
  - October → November: 876k
- - November → December: k
+ - November → December: 1,382k
 
 
 ## Open Source Projects
