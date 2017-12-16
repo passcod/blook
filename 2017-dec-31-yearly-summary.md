@@ -140,6 +140,7 @@ and more.
  - [We Have No Idea: A Guide to the Unknown Universe](https://www.amazon.com/gp/product/0735211515)
  - [Thing Explainer: Complicated Stuff in Simple Words](https://www.amazon.com/gp/product/0544668251)
  - [Dates volume 1](https://gumroad.com/l/datesBook)
+ - [The Barbarian's Guide To Life](https://www.amazon.com/dp/1981657843)
 
 ### Backed
 
