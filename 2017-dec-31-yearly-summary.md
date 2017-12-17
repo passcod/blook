@@ -193,27 +193,7 @@ All amounts are in NZ dollars, even if the donation was in another currency.
 
 ### Patreon
 
-Aside from my 5% donations, I also gave $xxx to various creators on Patreon.
-
- -  14.38
- -  96.91
- -  13.77
- - 120.37
- -  14.06
- - 123.80
- -  10.03
- -  61.90
- -  10.21
- -  56.37
- -  78.79
- -  48.89
- -  79.91
- -  49.87
- -  56.41
- -  65.25
- -  59.63
-——————————
- - 960.55
+Aside from my 5% donations, I also gave $960 to various creators on Patreon.
 
 
 ## Fanfiction
