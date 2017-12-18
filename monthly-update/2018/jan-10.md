@@ -19,3 +19,4 @@ going for (an overabundance of) physical books. I'm still reading some, though.
  - {SW} [The Fires](https://archiveofourown.org/works/7874803). {4k words}
  - {HP} [(honey) there is no right way](https://archiveofourown.org/works/11314398). {24k words}
  - {Avatar} [Samsara: Mai's Long Day](https://archiveofourown.org/works/10897266). {43k words}
+ - {SW} [And The Next](https://archiveofourown.org/works/8876083). {55k words atow}
