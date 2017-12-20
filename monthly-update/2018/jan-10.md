@@ -21,3 +21,4 @@ going for (an overabundance of) physical books. I'm still reading some, though.
  - {Avatar} [Samsara: Mai's Long Day](https://archiveofourown.org/works/10897266). {43k words}
  - {SW} [And The Next](https://archiveofourown.org/works/8876083). {55k words atow}
  - {SW} [Fresh Out](https://archiveofourown.org/works/12681228). {19k words atow}
+ - {Thor} [‘Never Cease to Fly’ series](https://archiveofourown.org/series/33108). {121k words atow}
