@@ -206,9 +206,10 @@ Aside from my 5% donations, I also gave $960 to various creators on Patreon.
 
 ### Read
 
-Words read per month, based on the monthly update posts. Thus the figure is
-low-balled as the posts don't include fics I read but didn't like, nor the
-updates for incomplete works I follow.
+Words of fanfic read per month, based on the monthly update posts. Thus the
+figure is low-balled as the posts don't include fics I read but didn't like, nor
+the updates for incomplete works I follow. And it of course doesn't include all
+I read that _wasn't_ fanfic.
 
  - December 2016 → January 2017: 5,399k
  - January → February: 6,416k
@@ -223,6 +224,7 @@ updates for incomplete works I follow.
  - October → November: 876k
  - November → December: 1,382k
 
+(Total: 31,684k)
 
 ## Open Source Projects
 
