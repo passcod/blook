@@ -27,3 +27,4 @@ going for (an overabundance of) physical books. I'm still reading some, though.
    but part of a series, so I'm not going to individually recommend it. {14k words}
  - {X-Men} [Been There, Done That](https://archiveofourown.org/works/612534). {11k words}
  - {Thor} **[Nameless](https://archiveofourown.org/works/5827387)**. {102k words}
+ - {LotR} [The World Spins Madly On](https://archiveofourown.org/works/1072395). {53k words}
