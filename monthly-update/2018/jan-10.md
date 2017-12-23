@@ -22,3 +22,5 @@ going for (an overabundance of) physical books. I'm still reading some, though.
  - {SW} [And The Next](https://archiveofourown.org/works/8876083). {55k words atow}
  - {SW} [Fresh Out](https://archiveofourown.org/works/12681228). {19k words atow}
  - {Thor} [‘Never Cease to Fly’ series](https://archiveofourown.org/series/33108). {121k words atow}
+ - {SW} [Weapon Test](https://archiveofourown.org/works/13103139). Excellent,
+   but part of a series, so I'm not going to individually recommend it. {14k words}
