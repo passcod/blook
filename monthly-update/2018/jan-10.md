@@ -29,3 +29,5 @@ going for (an overabundance of) physical books. I'm still reading some, though.
  - {Thor} **[Nameless](https://archiveofourown.org/works/5827387)**. {102k words}
  - {LotR} [The World Spins Madly On](https://archiveofourown.org/works/1072395). {53k words}
  - {Naruto} [‘Fuzzy Logic’ series](https://archiveofourown.org/series/746055). {122k words atow}
+ - {HP} [How Soon Is Tomorrow?](https://archiveofourown.org/works/1051739). {5k words}
+ - {LotR} [One of These Days (Again and Again)](https://archiveofourown.org/works/6570637). {13k words}
