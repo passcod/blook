@@ -203,6 +203,7 @@ Aside from my 5% donations, I also gave $960 to various creators on Patreon.
  - [Empire Day on Thabeska](https://archiveofourown.org/works/11542755)
  - [In that bright land from which I come](http://archiveofourown.org/works/11809908)
  - [Chosen Names](https://archiveofourown.org/works/12722796)
+ - [How to Fall to the Dark Side in Ten Minutes and Save Jerks from Themselves](https://archiveofourown.org/works/13125189/chapters/30026574)
 
 ### Read
 
