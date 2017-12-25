@@ -31,3 +31,4 @@ going for (an overabundance of) physical books. I'm still reading some, though.
  - {Naruto} [‘Fuzzy Logic’ series](https://archiveofourown.org/series/746055). {122k words atow}
  - {HP} [How Soon Is Tomorrow?](https://archiveofourown.org/works/1051739). {5k words}
  - {LotR} [One of These Days (Again and Again)](https://archiveofourown.org/works/6570637). {13k words}
+ - {LotR} [Alone in This War](https://archiveofourown.org/works/1116500). {24k words}
