@@ -140,6 +140,9 @@ and more.
  - [We Have No Idea: A Guide to the Unknown Universe](https://www.amazon.com/gp/product/0735211515)
  - [Thing Explainer: Complicated Stuff in Simple Words](https://www.amazon.com/gp/product/0544668251)
  - [Dates volume 1](https://gumroad.com/l/datesBook)
+ - [Once Upon a Time in the North](https://www.whitcoulls.co.nz/once-upon-a-time-in-the-north-978038561432037477)
+ - [Lyra's Oxford](https://www.whitcoulls.co.nz/his-dark-materials-lyra-s-oxford-6277978)
+ - [The Book of Dust volume 1: La Belle Sauvage](https://www.whitcoulls.co.nz/the-book-of-dust-la-belle-sauvage-book-of-dust-volume-1-978037581530037907)
  - [The Barbarian's Guide To Life](https://www.amazon.com/dp/1981657843)
 
 ### Backed
