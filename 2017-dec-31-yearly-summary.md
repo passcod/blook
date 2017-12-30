@@ -90,7 +90,7 @@ are priorities and schedules but they're fuzzy / private.
 - Project: Notify v5. From that will follow Cargo Watch, I'm not counting it.
 - Gameplaying: [Reap](https://managore.itch.io/reap)
 - Project: Irmo. Experiment: an associative knowledge store, machine learning?
-- ~~Gameplaying: Assassins' Creed Origins~~
+- <del>Gameplaying: Assassins' Creed Origins</del>
 - Gameplaying: A recent Pokemon, perhaps
 - Gameplaying: Eco
 - Gameplaying: A contemporary FPS or two
