@@ -54,7 +54,7 @@ outlined three things I wanted to do this year:
    enjoyed myself. I write better and faster now, even though I don't think
    I'll ever be someone who can bang out a novel in a few months.
 
-[10dec16]: 2016/dec/10/blogging-more-and-starting-on-new-year-resolutions-early
+[10dec16]: /2016/dec/10/blogging-more-and-starting-on-new-year-resolutions-early
 
 ## Next year
 
