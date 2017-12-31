@@ -50,3 +50,8 @@ going for (an overabundance of) physical books. I'm still reading some, though.
  - {LotR} [One of These Days (Again and Again)](https://archiveofourown.org/works/6570637). {13k words}
  - {LotR} [Alone in This War](https://archiveofourown.org/works/1116500). {24k words}
  - {HP} [Final Battle Day](https://archiveofourown.org/works/627516). {6k words}
+ - {SW} [higher ground](https://archiveofourown.org/works/9474866). {24k words atow}
+ - {SW} [Past Lives](https://archiveofourown.org/works/6773950). {13k words atow}
+ - {SW} [‘The Journey of the Lights’ series](https://archiveofourown.org/series/805995). {55k words atow}
+ - {SW} [The rise of WildWan](https://archiveofourown.org/works/10406889). {8k words}
+ - {SW} [Pretty-Petaled Death](https://archiveofourown.org/works/10671927). {31k words}
