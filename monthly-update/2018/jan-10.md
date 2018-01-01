@@ -55,3 +55,4 @@ going for (an overabundance of) physical books. I'm still reading some, though.
  - {SW} [‘The Journey of the Lights’ series](https://archiveofourown.org/series/805995). {55k words atow}
  - {SW} [The rise of WildWan](https://archiveofourown.org/works/10406889). {8k words}
  - {SW} [Pretty-Petaled Death](https://archiveofourown.org/works/10671927). {31k words}
+ - {SW} [Welcome to the New Age](https://archiveofourown.org/works/8769568). {36k words atow}
