@@ -24,6 +24,12 @@ lot of drama).
 Depending on how long it runs, it might become my "medium-sized creative
 project" for the year. The year is long still, though.
 
+## Reading
+
+- {fr} [L'arabe du Futur, 1–3](https://fr.wikipedia.org/wiki/L%27Arabe_du_futur)
+
+(Progress: 3/300)
+
 ## Fanfiction
 
 I made a commitment to not start reading _as many_ fanfics this year, instead
