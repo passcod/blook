@@ -199,6 +199,8 @@ If you have yogurt, plain yogurt (greek-style yogurt works), add about half a
 cup in a circle over the curry. It will cook and the simmering will gradually
 mix it into the dish.
 
+![Silverbeet and chicken curry with yogurt ring](https://i.imgur.com/wnKwVCi.jpg)
+
 If needed, add water to ensure the curry doesn't run out. If you want a thicker
 style of curry, you can omit that, but you'll have to make sure to watch over
 the curry and stir occasionally so it doesn't burn.
