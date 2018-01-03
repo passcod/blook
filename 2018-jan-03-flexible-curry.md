@@ -110,13 +110,22 @@ sand. If you've added too little, you'll have a lot of fine powder still — add
 more in this case.
 
 > The reason I prefer to make a coarse sand like that rather than a paste or
-> leaving the powder alone is
+> leaving the powder alone is that it reduces the surface area of the spices
+> when initially cooking them. I've found that with a bit of inattention or too
+> harsh a heating profile it's fairly easy to burn your spices — and then the
+> only thing to do is to throw them away and start over.
+>
+> Also, a wetter paste will stick to the sides of the small bowl I prepare this
+> sand in, which is harder to spoon/toss out in one go.
+>
+> Making a coarse sand means the spices are slightly less well fried, but it
+> makes the critical part of the recipe much easier to handle.
 
 Leave aside.
 
 ### Whole spices or pieces
 
-Get about a teaspoon of cumin and three cloves.
+Get about a teaspoon of cumin seeds and three cloves.
 
 If you have them / feel like it, add a 3–5cm piece of cinnamon, and slice off a
 little of the ginger.
@@ -130,15 +139,16 @@ When the meat is done, take it out of the pan, **leaving the fat**. Place it on
 a plate and cover it.
 
 Toss the whole/pieces spice mix in, trying for an even distribution instead of a
-bit clump. Don't stir: the spices will stick to your spoon instead of staying
+big clump. Don't stir: the spices will stick to your spoon instead of staying
 where they should.
 
 Leave to fry for about 30s to a minute. The spices shouldn't get burned. You
 should be able to smell the cloves or the cinnamon wafting from the pan.
 
 Then add the spice sand/paste. Leave for five seconds, then stir; try to spread
-them out as with the previous mix. If you're using a non-stick pan, you can
-leave them to fry for longer, but aim for about 30s.
+them out as with the previous mix. The spices should soak up the remaining fat.
+If you're using a non-stick pan, you can leave them to fry for longer, but aim
+for about 30s.
 
 During that time, fill up the small bowl you've used to mix the main body of
 spices with about a third of a cup of water. The small bowls I use hold pretty
