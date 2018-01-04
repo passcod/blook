@@ -62,3 +62,9 @@ going for (an overabundance of) physical books. I'm still reading some, though.
  - {SW} [The rise of WildWan](https://archiveofourown.org/works/10406889). {8k words}
  - {SW} [Pretty-Petaled Death](https://archiveofourown.org/works/10671927). {31k words}
  - {SW} [Welcome to the New Age](https://archiveofourown.org/works/8769568). {36k words atow}
+ - {SW} [Open Up the Promise of the Day](https://archiveofourown.org/works/11353227). {17k words}
+ - {HP} [Percy Weasley and the Terrible, Horrible, No Good, Very Bad Day](https://archiveofourown.org/works/6454921). {2k words}
+ - {HP} [when in doubt, go to the library](https://archiveofourown.org/works/4271982). {2k words}
+ - {HP} [face death in the hope](https://archiveofourown.org/works/5986366). {99k words atow}
+ - {HP} [into the arena with your head held high](https://archiveofourown.org/works/4472270). {101k words atow}
+ - {LotR} **[An Expected Journey](https://archiveofourown.org/works/658324)**. {295k words}
