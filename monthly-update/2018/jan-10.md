@@ -68,3 +68,8 @@ going for (an overabundance of) physical books. I'm still reading some, though.
  - {HP} [face death in the hope](https://archiveofourown.org/works/5986366). {99k words atow}
  - {HP} [into the arena with your head held high](https://archiveofourown.org/works/4472270). {101k words atow}
  - {LotR} **[An Expected Journey](https://archiveofourown.org/works/658324)**. {295k words}
+ - {Thor} [If You Had This Time Again](https://archiveofourown.org/works/10920276). {87k words atow}
+ - {HP} [you'll go the same way](https://archiveofourown.org/works/7811107). {14k words}
+ - {HP} [tell me whether he is dead](https://archiveofourown.org/works/9191315). {4k words}
+ - {HP} **[Theft of Assets, Destruction of Property](https://archiveofourown.org/works/1808485)**. {23k words}
+ - {HP} [‘She Just Couldn't Stay Away’ series](https://archiveofourown.org/series/901569). {7k words atow}
