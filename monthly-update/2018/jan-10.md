@@ -73,3 +73,6 @@ going for (an overabundance of) physical books. I'm still reading some, though.
  - {HP} [tell me whether he is dead](https://archiveofourown.org/works/9191315). {4k words}
  - {HP} **[Theft of Assets, Destruction of Property](https://archiveofourown.org/works/1808485)**. {23k words}
  - {HP} [‘She Just Couldn't Stay Away’ series](https://archiveofourown.org/series/901569). {7k words atow}
+ - {Thor} [the Futurist](https://archiveofourown.org/works/9857906). {59k words atow}
+ - {Naruto} [Waves](https://archiveofourown.org/works/10894947). {69k words}
+ - {Naruto} **[‘A How To Guide To Shinobi Life’ series](https://archiveofourown.org/series/525844)**. {81k words}
