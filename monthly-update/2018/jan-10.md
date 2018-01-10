@@ -76,3 +76,7 @@ going for (an overabundance of) physical books. I'm still reading some, though.
  - {Thor} [the Futurist](https://archiveofourown.org/works/9857906). {59k words atow}
  - {Naruto} [Waves](https://archiveofourown.org/works/10894947). {69k words}
  - {Naruto} **[‘A How To Guide To Shinobi Life’ series](https://archiveofourown.org/series/525844)**. {81k words}
+ - {Thor} [Empire of Dirt](https://archiveofourown.org/works/8249764). {7k words atow}
+ - {Thor} [Once More With Empathy](https://archiveofourown.org/works/8640694). {116k words atow}
+ - {Naruto} [The Hokage's Will](https://archiveofourown.org/works/11412642). {75k words atow}
+ - {Naruto} [Tampering with Time](https://archiveofourown.org/works/7818319). {200k words atow}
