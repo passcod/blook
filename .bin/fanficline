@@ -38,6 +38,8 @@ class Fic
       'GoT'
     when /aang/i, /avatar/i, /airbender/i
       'Avatar'
+    when /merlin/i
+      'Merlin'
     end
   end
 
