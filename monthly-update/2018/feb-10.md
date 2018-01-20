@@ -14,3 +14,4 @@ parents:
  - {Naruto} [A Study in Survival](https://archiveofourown.org/works/12299313). {6k words atow}
  - {Merlin} **[Complementarity, Entanglement and the Uncertainty of Destiny —or— A Feminist Mage in King Arthur's Court](https://archiveofourown.org/works/7755808).** {117k words}
  - {Merlin} [And like the cycle of the year, we begin again](https://archiveofourown.org/works/6092269). {210k words}
+ - {Naruto} [Time Flies Like An Arrow](https://archiveofourown.org/works/12668358). {45k words atow}

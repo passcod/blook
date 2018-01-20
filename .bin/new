@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
 datetime=$(date --iso-8601=seconds)
 date=$(date +"%Y-%b-%d")
