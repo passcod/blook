@@ -23,3 +23,5 @@ parents:
  - {Naruto} [Shattered Glass](https://archiveofourown.org/works/8892235). {160k words atow}
  - {HP} [Sense of the Soul](https://archiveofourown.org/works/10842981). {61k words atow}
  - {SW} [The Time the Force Sent Obi-Wan Back in Time and Quinlan Vos kept him from Going Kamikaze because let’s be Honest, Being Forced to Come Back in Time Would Suck.](https://archiveofourown.org/works/10544868). {7k words atow}
+ - {Naruto} [Color Green](https://archiveofourown.org/works/13301145). {7k words atow}
+ - {Thor/X-Men} [The Second Hand Unwinds](https://archiveofourown.org/works/10729617). {22k words}
