@@ -27,3 +27,7 @@ parents:
  - {Thor/X-Men} [The Second Hand Unwinds](https://archiveofourown.org/works/10729617). {22k words}
  - {HP} [Iacta Alea Est](https://archiveofourown.org/works/11491209). {88k words atow}
  - {HP} **[Rewritten in Time](https://archiveofourown.org/series/48618)**. One of the longest Harry Potter fics I've read, and one of the best _completed_ ones. I really really love this Draco. I also love the brand of humour, especially in the early books. It has lots of OCs, which can be offputting at first but works out well. A negative is that there are many many words that or not just badly spelt, but the wrong word altogether, only it _sounds like the right word_. My hypothesis is the author is slightly dyslexic, but who knows. That can cause some pause in the reading, but the reading is worth it. {585k words}
+ - {Neon Genesis Evangelion} [Doing It Right This Time](https://archiveofourown.org/works/5671597). {38k words atow}
+ - {SW} [Troublemaker](https://archiveofourown.org/works/13166286). {6k words}
+ - {HP} [Then Shall I Know](https://archiveofourown.org/works/12946575). {161k words atow}
+ - {HP} [draw the curtain back for Venus](https://archiveofourown.org/works/13233282). {19k words atow}
