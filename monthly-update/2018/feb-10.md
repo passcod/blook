@@ -7,6 +7,8 @@ parents:
   - "2018/jan/10/monthly-update"
 ---
 
+Not much to say this month.
+
 ## Fanfiction
 
  - {SW} [Somewhere In Time](https://archiveofourown.org/works/11113119). {74k words atow}
@@ -31,3 +33,11 @@ parents:
  - {SW} [Troublemaker](https://archiveofourown.org/works/13166286). {6k words}
  - {HP} [Then Shall I Know](https://archiveofourown.org/works/12946575). {161k words atow}
  - {HP} [draw the curtain back for Venus](https://archiveofourown.org/works/13233282). {19k words atow}
+ - {Naruto} [Early Is On Time](https://archiveofourown.org/works/13078869). {11k words atow}
+ - {Naruto} [Healing The Wounds Of The Past](https://archiveofourown.org/works/13226700). {19k words atow}
+ - {HP} [Rewriting Destiny](https://archiveofourown.org/works/13232688). {25k words atow}
+ - {HP} [Lily Luna Potter and the Younger World](https://archiveofourown.org/works/10684917). {24k words atow}
+ - {HP} [The Lion, the Witch and the TARDIS](https://archiveofourown.org/works/13240119). {2k words}
+ - {SW} [All That I Have Seen](https://archiveofourown.org/works/13548414). {12k words atow}
+ - {HP} [Going Back](https://archiveofourown.org/works/12161094). {13k words atow}
+ - {Pacifc Rim} [Can't Quit (It's Not in My Nature)](https://archiveofourown.org/works/11638509). {25k words}
