@@ -97,6 +97,8 @@ where you get a buffer of bytes and figure out how to parse it for your
 applications. There's a whole lot to be written about this, but for now I'll
 skip it. Let's just assume you've got a `Codec` ready.
 
+[`Framed`]: https://docs.rs/tokio-io/0.1.5/tokio_io/codec/struct.Framed.html
+
 Now, *interestingly*, and by that I mean confusingly, when you split a Framed
 TCP stream, the 2-tuple is the other way around:
 
