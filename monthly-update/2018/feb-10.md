@@ -41,3 +41,5 @@ Not much to say this month.
  - {SW} [All That I Have Seen](https://archiveofourown.org/works/13548414). {12k words atow}
  - {HP} [Going Back](https://archiveofourown.org/works/12161094). {13k words atow}
  - {Pacifc Rim} [Can't Quit (It's Not in My Nature)](https://archiveofourown.org/works/11638509). {25k words}
+ - {SW} [The Dance Began](https://archiveofourown.org/works/11871996). {1k words}
+ - {Thor} [Out Without A Map](https://archiveofourown.org/works/8454889). {16k words}
