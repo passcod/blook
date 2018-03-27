@@ -10,6 +10,8 @@ parents:
 
 ## April Fools
 
+<a id=april-fools></a>
+
 This year I did something of my own.
 
 In early March, at work, while pairing, we typo'd PHP's `??` Null Coalesce
