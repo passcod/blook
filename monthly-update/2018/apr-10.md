@@ -8,9 +8,9 @@ parents:
   - "2018/mar/10/monthly-update"
 ---
 
-## April Fools
-
 <a id=april-fools></a>
+
+## April Fools
 
 This year I did something of my own.
 
@@ -27,7 +27,10 @@ frivolous bullshit like that. Instead, I quietly worked at it in spare hours.
 
 As part of my initial research, I found that PHP has a fairly well-delimited
 process for proposing changes, and it all starts with a posting on the mailing
-list to gauge interest. I couldn't do that! It would ruin the surprise.
+list to gauge interest. I couldn't do that! It wouldn't be an April Fools if I
+had to disclose it prior to April. Also, I didn't think it would be nice to
+annoy the PHP developers with this. People on Twitter (or Slack, or wherever you
+came from) at least are _already_ wasting their time.
 
 So I skipped that step, and wrote up a PHP RFC as seriously as I could. I
 included motivations, discussions of why existing features weren't enough, use
