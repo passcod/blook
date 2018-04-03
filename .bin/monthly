@@ -1,17 +1,19 @@
 #!/usr/bin/env bash
 
-if which gdate 2>/dev/null; then
-  _date="gdate"
-else
-  _date="date"
-fi
+_date="date"
 
-if [ "$(date +%d)" -lt 10 ]; then
+if [ "$($_date +%d)" -lt 10 ]; then
   date=$($_date +"%Y-%b-10")
   year=$($_date +"%Y")
   month=$($_date +"%b-10")
   title="Monthly Update: $($_date +'%B %Y')"
   prev=$($_date --date='last month' +"%Y/%b/10")
+elif [ "$($_date +%d)" -gt 30 ]; then
+  date=$($_date --date='yesterday next month' +"%Y-%b-10")
+  year=$($_date --date='yesterday next month' +"%Y")
+  month=$($_date --date='yesterday next month' +"%b-10")
+  title="Monthly Update: $($_date --date='yesterday next month' +'%B %Y')"
+  prev=$($_date +"%Y/%b/10")
 else
   date=$($_date --date='next month' +"%Y-%b-10")
   year=$($_date --date='next month' +"%Y")

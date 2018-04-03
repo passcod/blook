@@ -52,6 +52,17 @@ month. Here is [`???`: The Exception Coalesce Operator][???].
 
 [???]: https://github.com/passcod/rfc-exception-coalesce-operator
 
+## Keyboard practice
+
+Practicing every 2-3 days (sometimes every day) for 20 minutes on Keybr, I
+clocked up 5 hours of practice which got me at acceptable speed over half the
+keyboard (lowercase letters only at this stage).
+
+So guesstimating, that should mean that in another 5 hours or so I'll have the
+entire alphabet down, and I'll be able to switch uppercase on, then symbols.
+After that, I'll start using the keyboard for minor works. With a bit of
+perseverance I hope to always use my Keyboard.io at work in July/August.
+
 ## Fanfiction
 
  - {HP} [the faintest, slimmest, wildest chance](https://archiveofourown.org/works/14016324). {3k words}
