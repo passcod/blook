@@ -18,3 +18,5 @@ parents:
  - {HP} [Dodging Prison and Stealing Witches - Revenge is Best Served Raw](https://archiveofourown.org/works/5058703). {445k words atow}
  - {GoT} [who says you can't go home](https://archiveofourown.org/works/4035976). {18k words}
  - {Naruto} **[Yet, Mad I am Not](https://archiveofourown.org/works/2289335)**. {93k words atow}
+ - {SW} **[{ in a dark and heavy place }](https://archiveofourown.org/works/9313751)**. {125k words}
+ - {HP} [The Most Powerful Magic](https://archiveofourown.org/works/2457953). {84k words}
