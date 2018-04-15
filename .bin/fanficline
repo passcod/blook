@@ -6,8 +6,9 @@ require 'nokogiri'
 require 'typhoeus'
 
 class Fic
-  def initialize(url)
+  def initialize(url, star)
     @url = URI url
+    @star = star
     @doc = Nokogiri::HTML Typhoeus.get(@url, followlocation: true).body
     # puts @doc.inspect
   end
@@ -16,8 +17,10 @@ class Fic
     case dom
     when /star wars/i
       'SW'
-    when /avengers/i, /thor/i
+    when /thor/i
       'Thor'
+    when /avengers/i, /marvel/i
+      'Marvel'
     when /harry potter/i
       'HP'
     when /lord of the rings/i, /LotR/, /LoTR/
@@ -34,9 +37,9 @@ class Fic
       'Dresden'
     when /buffy/i
       'Buffy'
-    when /game of thrones/i, /GoT/
+    when /game of thrones/i, /GoT/, /song of ice/i
       'GoT'
-    when /aang/i, /avatar/i, /airbender/i
+    when /aang/i, /avatar/i, /airbender/i, /korra/i
       'Avatar'
     when /merlin/i
       'Merlin'
@@ -67,10 +70,14 @@ class Fic
   end
 
   def to_s
-    sprintf " - {%s} [%s](%s). {%ik words%s}",
+    starred = if @star then '**' else '' end
+
+    sprintf " - {%s} %s[%s](%s)%s. {%ik words%s}",
       tag,
+      starred,
       title,
       first_chapter,
+      starred,
       (words / 1000).round,
       if complete?
         ''
@@ -82,6 +89,9 @@ class Fic
   def self.from_url(url)
     url = url.strip
 
+    star = url.end_with?('*') || url.end_with?('×')
+    url.gsub!(/[\*×]$/u, '')
+
     kinds = [
       Ao3Series,
       Ao3,
@@ -90,7 +100,7 @@ class Fic
 
     for kind in kinds
       if kind.is(url)
-        return kind.new url
+        return kind.new url, star
       end
     end
   end
