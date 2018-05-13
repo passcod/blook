@@ -17,3 +17,9 @@ parents:
  - {HP} [‘Harry Potter in the Claw of the Raven’ series](https://archiveofourown.org/series/338101). {372k words}
  - {HP} [Dispelling the Silence](https://archiveofourown.org/works/7214524). {81k words}
  - {HP} **[‘Blood’ series](https://archiveofourown.org/series/719610)**. {362k words atow}
+ - {HP} [The Effects of a Kind Act](https://archiveofourown.org/works/6531184). {20k words}
+ - {HP} **[Foxfire](https://archiveofourown.org/works/11468256)**. {90k words}
+ - {HP} [What Friends Are For](https://archiveofourown.org/works/987387). {5k words}
+ - {HP} [Call Me By Name](https://archiveofourown.org/works/2906492). {13k words}
+ - {HP} [Overnight Guest](https://archiveofourown.org/works/5401097). {3k words}
+ - {HP} [A Deft Hand](https://archiveofourown.org/works/3327698). {2k words}
