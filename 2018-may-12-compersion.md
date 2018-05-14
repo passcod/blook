@@ -1,6 +1,7 @@
 ---
 date: 2018-05-12T15:23:41+12:00
 title: Compersion
+frontpage: false
 tags:
    - rant
    - compersion
