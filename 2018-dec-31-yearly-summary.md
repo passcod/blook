@@ -29,11 +29,17 @@ parents:
 
 ## Donations
 
-Every year that I am able to, I try to give a sizeable portion of my salary
-away in donations to various organisations and charities I believe make the
-world a better place.
+Every year that I am able to, I try to give some portion of my salary away in
+donations to various organisations and charities I believe make the world a
+better place.
 
 All amounts are in NZ dollars, even if the donation was in another currency.
+
+### Todo
+
+### Done
+
+- The Guardian: $50
 
 (Total: )
 

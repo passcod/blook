@@ -33,3 +33,14 @@ parents:
  - {HP} [The Rescue](https://archiveofourown.org/works/705194). {5k words}
  - {HP} [Each Other All Along](https://archiveofourown.org/works/3477179). {2k words}
  - {HP} [Waiting Room](https://archiveofourown.org/works/13233807). {61k words}
+ - {HP} [And Then an Owl Flew into the Kitchen](https://archiveofourown.org/works/427278). {23k words}
+ - {HP} [Patron](https://archiveofourown.org/works/6466174). {528k words}
+ - {HP} [Empty Chairs at Empty Tables](https://archiveofourown.org/works/8741551). {51k words atow}
+ - {HP} [Where Credit is Due](https://archiveofourown.org/works/246347). {7k words}
+ - {HP} [Brand New Day](https://archiveofourown.org/works/372228). {5k words}
+ - {HP} [the restless ghost in his old hotel](https://archiveofourown.org/works/466349). {1k words}
+ - {HP} [‘Fate’ series](https://archiveofourown.org/series/2688). {257k words atow}
+ - {HP} **[When the Magic Stops Working](https://archiveofourown.org/works/434599)**. {40k words}
+ - {HP} [Potter 7](https://archiveofourown.org/works/23232). {3k words}
+ - {HP} **[It's Right In Front of You](https://archiveofourown.org/works/20492)**. {3k words}
+ - {HP} [Hufflepuffs and Harmony](https://archiveofourown.org/works/518649). {10k words}
