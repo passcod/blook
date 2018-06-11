@@ -7,6 +7,10 @@ parents:
   - "2018/may/10/monthly-update"
 ---
 
+Nothing much to announce this month. I'm working on various things. Next month
+will be more contentful, with some of what I'm working on revealed and various
+life happenings discussed.
+
 ## Fanfiction
 
  - {HP} [Like This](https://archiveofourown.org/works/9482156). {4k words}
