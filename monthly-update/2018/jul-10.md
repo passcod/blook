@@ -17,3 +17,5 @@ parents:
  - {HP} [A Little Child Shall Lead Them](https://archiveofourown.org/works/14021217). {30k words}
  - {HP} [Cut Into Stars](https://archiveofourown.org/works/13094664). {16k words atow}
  - {HP} [It's Good to Feel Remorse](https://archiveofourown.org/works/2004291). {5k words}
+ - {HP} [‘Veritas’ series](https://archiveofourown.org/series/17088). {353k words atow}
+ - {HTTYD} **[A Thing Of Vikings](https://archiveofourown.org/works/10408971)**. [Also tweeted about here](https://twitter.com/passcod/status/1007944367321968640). {559k words atow}
