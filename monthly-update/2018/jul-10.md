@@ -9,6 +9,8 @@ parents:
 
 ## Fanfiction
 
+A lot of good stuff this month.
+
  - {HP} **[‘Arithmancer’ series](https://archiveofourown.org/series/993900)**. {1039k words atow}
  - {HP} [Lillies and Nightshades](https://archiveofourown.org/works/13688277). {6k words atow}
  - {HP} [Balance](https://archiveofourown.org/works/824021). {3k words}
@@ -27,3 +29,11 @@ parents:
  - {HP} [‘Nargles and Charms’ series](https://archiveofourown.org/series/29673). {167k words atow}
  - {HP} **[The Changeling](https://archiveofourown.org/works/189189)**. [Recommended by EK Johnston](https://twitter.com/passcod/status/1010857121427013633) {183k words}
  - {HP} **[‘Armistice Series’ series](https://archiveofourown.org/series/766017)**. Sequel to the above, still excellent. {173k words atow}
+ - {HP} [we don't know what happened to anyone else](https://archiveofourown.org/works/9636572). {5k words}
+ - {HP/Naruto} [because I could not stop for death (he kindly stopped for me)](https://archiveofourown.org/works/12922311). {17k words atow}
+ - {HP} [because he strayed across the path](https://archiveofourown.org/works/8517286). {47k words atow}
+ - {HP} [assume a shape that you find amusing](https://archiveofourown.org/works/9528002). {15k words atow}
+ - {Marvel} [Small Gods](https://archiveofourown.org/works/4976248). {2k words}
+ - {Marvel} [A Handstand Flip over a Hot-Dog Cart](https://archiveofourown.org/works/6641941). {2k words}
+ - {Marvel} [Reasons why HYDRA should not use FedEx](https://archiveofourown.org/works/7227076). {13k words}
+ - {HP} **[who doesn't know his name](https://archiveofourown.org/works/15107627)**. {29k words atow}
