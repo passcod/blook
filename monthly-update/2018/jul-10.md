@@ -41,3 +41,4 @@ A lot of good stuff this month.
  - {HP} [you will bleed to death with the pain of it](https://archiveofourown.org/works/3916129). {4k words}
  - {HP} [repeated a thousand times in golden ink](https://archiveofourown.org/works/9484514). {3k words}
  - {HP} [a very nice thing to say](https://archiveofourown.org/works/8167328). {5k words atow}
+ - {LotR} **[Mr. and Mrs. Baggins](https://archiveofourown.org/works/4545390)**. {14k words}
