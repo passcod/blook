@@ -43,6 +43,12 @@ class Fic
       'Avatar'
     when /merlin/i
       'Merlin'
+    when /good omens/i
+      'Good Omens'
+    when /sherlock/i
+      'Sherlock'
+    when /\bhowl\b/i
+      'Ghibli'
     end
   end
 
@@ -156,7 +162,7 @@ class Ao3Series < Ao3
 
   def title
     clean = /(\bau\b|\b(multi|uni)?'?verse\b|'\s*$|^\s*')/i
-    t = gettext(@doc.at_css('#main.series-show > h2.heading'))
+    t = (gettext(@doc.at_css('#main.series-show > h2.heading')) || '???')
       .gsub(clean, '')
       .gsub(clean, '')
       .gsub(clean, '')
