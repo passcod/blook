@@ -1,5 +1,5 @@
 ---
-date: 2018-05-13T14:39:37+12:00
+date: 2018-08-01T00:00:00+12:00
 page: true
 title: Trademark
 tags:
@@ -7,9 +7,9 @@ tags:
    - trademark
 ---
 
-As of the twentieth of August 2018, and if everything went well, “**passcod**”
-is now a trademark I own personally. An official, registered, paid for and in
-the books, proper trademark.
+As of August 2018, and if everything went well, “**passcod**” is now a
+trademark I own personally. An official, registered, paid for and in the books,
+proper trademark.
 
 
 This was done for several reasons, three really:
