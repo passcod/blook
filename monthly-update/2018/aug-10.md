@@ -7,6 +7,12 @@ parents:
   - "2018/jul/10/monthly-update"
 ---
 
+## Trademark
+
+I got final approval for [my trademark on “passcod”][tm] just recently.
+
+[tm]: /trademark
+
 ## Fanfiction
 
  - {Naruto} **[What A Big Heart You Have](https://archiveofourown.org/works/9068524)**. {23k words}
