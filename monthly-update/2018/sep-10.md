@@ -51,3 +51,10 @@ pushed away to the next opportunity.
 
 ## Fanfiction
 
+ - {HP} [Best Birthday Ever](https://archiveofourown.org/works/222657). {3k words}
+ - {HP} **[Butterfly Wings](https://archiveofourown.org/works/5885209)**. {324k words}
+ - {HP} [For the Price of a Soul](https://archiveofourown.org/works/14815872). {215k words atow}
+ - {HP} [Maybe They Did Know What They Were Doing](https://archiveofourown.org/works/10972371). {63k words atow}
+ - {Sherlock} **[Turn Left at the Park](https://archiveofourown.org/works/10912236)**. {37k words}
+ - {HP} **[How To Marry A Millionaire Malfoy](https://archiveofourown.org/works/15190946)**. {29k words atow}
+ - {HP} [Changing Winds](https://archiveofourown.org/works/1474159). {52k words atow}
