@@ -27,6 +27,8 @@ work through more of the issues as we go through, but I am very aware that this
 is yet another project on top of my stack of already pending stuff, so I'm
 pacing myself with a lot of care.
 
+[Watchexec]: https://github.com/mattgreen/watchexec
+
 ## Notify
 
 Notify advances slowly. This is mostly a matter of time, now: most of the
@@ -36,10 +38,25 @@ I am getting very interesting snapshots of futures 0.3 and the async/await
 support in Rust itself, which could mean improved ergonomics and better
 development. In the meantime, though, I'm keeping with what I have.
 
-The Rust inotify wrapper has recently gained a rewrite to use futures and Tokio
+The Rust inotify wrapper has recently [gained a feature] to use futures and Tokio
 Reform, which might make it a lot easier to integrate, although it may be that
 the access I require for the Backend is too advanced for the nicely-wrapped
 version. To be seen.
+
+A [wonderful contributor] has spent some time upgrading all of the libraries in
+the **v4 branch**. This will likely be the last release with the old code!
+
+[gained a feature]: https://github.com/inotify-rs/inotify/pull/105
+[wonderful contributor]: https://github.com/passcod/notify/pull/162
+
+## Splash
+
+My mysteriously-named project is a foray into some really old code, and a
+documentation effort more than a coding effort. It's a nice change of pace, even
+though it can be really intense… I like it for the different _kind_ of work.
+
+Perhaps it will see a release this summer, but with everything else piled on,
+I'm making myself no promises.
 
 ## 10 minutes
 
