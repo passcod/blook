@@ -80,3 +80,9 @@ pushed away to the next opportunity.
  - {HP} [Betrothed](https://archiveofourown.org/works/14891849). {25k words atow}
  - {HP} [What Can Never Be Again](https://archiveofourown.org/works/117634). {2k words}
  - {HP/Marvel} **[Spellbound](https://archiveofourown.org/works/13607550)**. {90k words atow}
+ - {HP} [Shadow Magic](https://archiveofourown.org/works/15432591). {48k words}
+ - {HP} [War Games](https://archiveofourown.org/works/15436110). {5k words atow}
+ - {HP} **[Gringott's Lesser-known Branch](https://archiveofourown.org/works/2141337)**. {79k words atow}
+ - {HP} [‘Hecatemus’ series](https://archiveofourown.org/series/620263). {360k words atow}
+ - {HP} [The Grass is Always Greener](https://archiveofourown.org/works/10053200). {101k words}
+ - {HP} [‘Same Story, Different View’ series](https://archiveofourown.org/series/131787). {104k words atow}
