@@ -105,3 +105,4 @@ pushed away to the next opportunity.
  - {HP} [‘Hecatemus’ series](https://archiveofourown.org/series/620263). {360k words atow}
  - {HP} [The Grass is Always Greener](https://archiveofourown.org/works/10053200). {101k words}
  - {HP} [‘Same Story, Different View’ series](https://archiveofourown.org/series/131787). {104k words atow}
+ - {Ghibli} [It Opens Your Chest](https://archiveofourown.org/works/15668772). {2k words}
