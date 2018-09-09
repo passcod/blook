@@ -58,6 +58,25 @@ though it can be really intense… I like it for the different _kind_ of work.
 Perhaps it will see a release this summer, but with everything else piled on,
 I'm making myself no promises.
 
+## [Certainly]
+
+Frustrated by the awful state of certificate tooling, especially for such common
+things as generating self-signed certificates, I made [a small tool][Certainly]
+that makes the whole thing as easy and simple as possible! It especially excels
+at multidomain certificates, and has an extra feature to be able to create a
+local CA and sign certificates that way. All in minimal fuss and no ambiguity:
+
+```
+$ certainly test.com
+Writing test.com.key
+Writing test.com.crt
+```
+
+I also took what I learned from Watchexec and Cargo Watch, and set up prebuilt
+binaries for Linux, Windows, macOS, as well as a Debian deb... for ease of use!
+
+[Certainly]: https://github.com/passcod/certainly
+
 ## 10 minutes
 
 My star wars fanfic is stalled!
