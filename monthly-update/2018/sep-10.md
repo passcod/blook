@@ -22,7 +22,8 @@ busy at work and most importantly, become a first-time parent. Congratulations
 to him! That did mean that there was no more time for the project.
 
 I spent a few evenings reviewing the entire source and looking through all
-issues and pull requests, then made my first release on Sunday 19th. I hope to
+issues and pull requests, then made my first release on Sunday 19th, and another
+one on Sunday 9th after a little more coding to smooth over old PRs. I hope to
 work through more of the issues as we go through, but I am very aware that this
 is yet another project on top of my stack of already pending stuff, so I'm
 pacing myself with a lot of care.
