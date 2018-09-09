@@ -87,6 +87,10 @@ pushed away to the next opportunity.
 
 ## Fanfiction
 
+I finished my binge of the H/Hr tag. (I didn't read _all_ stories within, but
+did go through all 1300 of them and select those I felt would be good for
+reading... took a few months).
+
  - {HP} [Best Birthday Ever](https://archiveofourown.org/works/222657). {3k words}
  - {HP} **[Butterfly Wings](https://archiveofourown.org/works/5885209)**. {324k words}
  - {HP} [For the Price of a Soul](https://archiveofourown.org/works/14815872). {215k words atow}
