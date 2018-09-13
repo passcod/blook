@@ -22,9 +22,13 @@ about gender at all. It's hard to tell.
 So it feels like you're all this giant awesome fucked up family and I'm the one
 well-adjusted person in the middle of it.
 
-So I'm **guy-adjacent**.
+~~So I'm **guy-adjacent**.~~
 
 I don't particularly like the word guy? But it works here in a way
 "man-adjacent" doesn't. I'm not a guy. I'm… adjacent.
 
 Hi.
+
+(And hello again: [see this newer post][more-words] for more on my words.)
+
+[more-words]: /2018/sep/13/my-words
