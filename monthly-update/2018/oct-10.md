@@ -16,3 +16,6 @@ parents:
  - {Marvel/HP} **[‘Raising a Wizard’ series](https://archiveofourown.org/series/916779)**. {73k words atow}
  - {HP/Marvel} **[Our Own Demons](https://archiveofourown.org/works/2704532)**. {115k words atow}
  - {GoT} **[Brittle Glory](https://archiveofourown.org/works/12745350)**. {15k words atow}
+ - {SW} [our voices across the stars](https://archiveofourown.org/works/10745139). {2k words}
+ - {Sherlock} [A Dad By Any Other Name](https://archiveofourown.org/works/9854387). {3k words}
+ - {SW} [salvation, spelled m-o-t-h-e-r](https://archiveofourown.org/works/9603464). {6k words}
