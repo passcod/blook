@@ -265,7 +265,7 @@ like a fiction book or something that kind of teaches you these things about
 the past. Because... fiction, even though it's fiction, still carries a lot of
 like actual historical truth in it. Expecially when you read outside of "white
 male fiction". And I think it's kind of an important part of reading and
-talking about more marginalized fiction.
+talking about more marginalised fiction.
 
 __Megan: [00:10:09]__ Yeah, same. Yeah. As far as my experience has been I
 would say that's true and in general of course it's basically that people who
@@ -919,8 +919,8 @@ don't know, I just keep going back to it. I haven't yet taken any huge breaks.
 I haven't been bored by the game, even though... people weren't wrong when they
 were saying there wasn't much in-game content, but once Warmind came out, and
 then the ramp up to Forsaken, I've discovered that there is a lot that I wanted
-to do, considering. I decided I was going to {inaudible} armor, which was a lot
-of just needing to play to get that armor.
+to do, considering. I decided I was going to {inaudible} armour, which was a lot
+of just needing to play to get that armour.
 
 __Megan: [00:46:21]__ Yes, I got to the blue set. I did not get to the purple
 set, but I did finish them. Or, like, I got the blue set. So yeah that was fun.
@@ -973,7 +973,7 @@ but you can really strategize according to what they're doing, and I really
 like that sense of having a top view of a battlefield, and then also being on
 the ground at the same time just fighting waves of enemies.
 
-__Saf: [00:49:33]__ Not gonna lie, I didn't realize you could see what the
+__Saf: [00:49:33]__ Not gonna lie, I didn't realise you could see what the
 other team was doing! Is that like in the little bars at the top? Does they
 tell you at the top there?
 
@@ -1199,7 +1199,7 @@ __Saf: [01:02:06]__ So just kind of sailing around and I run around after pigs
 because they're really cute and I feed them bananas because pigs are really
 cute. That kind of thing. I just find my own ways to enjoy the game. And it is
 gorgeous. The ocean animation, and the sky, and just everything is amazingly
-gorgeous. The color palettes are really good. It is a very pretty game. And I
+gorgeous. The colour palettes are really good. It is a very pretty game. And I
 think like if you're playing it singleplayer, it's not super exciting, but
 playing it with other people as a team thing or just a social thing is really
 cool, cause it's kind of a cool space to hang out in. So I really like that.
@@ -1474,7 +1474,7 @@ glamourised, but it's like: "Nah, I'm just sitting here like crying as I'm
 typing out words like five minutes for a deadline because I realised I forgot
 the deadline."
 
-__Megan: [01:18:48]__ It's glamourized until you hang out with writers. And
+__Megan: [01:18:48]__ It's glamorized until you hang out with writers. And
 then you ask someone, when you get close enough to someone that you ask them
 how their novel is going and instead of giving you the polite response, they
 just look at you with terror and you see the abyss in their eyes and then, you
@@ -1544,7 +1544,7 @@ their motivation a lot stronger, and I think it has been challenging to then
 thread that back through the novel, but I think ultimately it's been better and
 I've been happy with that, so far.
 
-__Saf: [01:22:54]__ Yeah I recently realized that my main character, upon
+__Saf: [01:22:54]__ Yeah I recently realised that my main character, upon
 looking back at it, I realised they didn't have much agency as a character.
 Weirdly enough, I got this through thinking about Twilight, because in Twilight
 it always felt that. But anyway, the main character I had didn't have a lot of
