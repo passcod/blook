@@ -38,16 +38,9 @@ tags:
 > example, providing names of things they couldn't remember on the spot.
 >
 > All in all it took about half an hour for the automated part... for the whole
-> 1½ hour podcast! And then I spent about N hours cleaning it up. I had to do
+> 1½ hour podcast! And then I spent about 9 hours cleaning it up. I had to do
 > it over a few sessions because it’s a very long thing! But it was very cool.
->                 2
-> 21:30 to 22:40. 1:10
-> 10:30 to 12:20. 1:50
-> 14:20 to 16:30. 2:10
-> 16:50 to 18:40. 1:50
-> 19:20 to 20:10. 0:50
-> 20:50 to 21:50. 1:00
->                 8:50
+>
 > Without further ado... here’s [the original], and here’s the transcription:
 >
 > Wait wait, actually, I want to say: I really liked that episode. Especially
