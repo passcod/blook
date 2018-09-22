@@ -1128,7 +1128,7 @@ Nathan Fillion, I don't want this." Like, no shade on Nathan Fillion, I love
 Cayde, just turns out when a villain looks like Nathan Fillion in a game, it's
 very jarring and I don't like that. Because my brain's like "it's Nathan
 Fillion, Nathan Fillion's here, Nathan Fillion's talking, Nathan Fillion" and I
-can't be like "yes this is the character Buck. It's just Nathan Fillion.".
+can't be like "yes, this is the character Buck." It's just Nathan Fillion.
 
 __Saf: [00:58:31]__ And that's been a big thing with me. It's why I couldn't
 read the book about Buck. It's the reason I struggled with Halo 5 so much.
