@@ -42,7 +42,8 @@ tags:
 >
 > 21:30 to 22:40.
 > 10:30 to 12:20.
-> 14:20 to
+> 14:20 to 16:30.
+> 16:50 to 18:40.
 >
 > Without further ado... here’s [the original], and here’s the transcription:
 >
@@ -91,6 +92,11 @@ tags:
 [Ken Liu]: https://en.wikipedia.org/wiki/Ken_Liu
 [Interstellar]: https://en.wikipedia.org/wiki/Interstellar_(film)
 [Destiny]: https://www.destinythegame.com/
+[Marvel's Spider-Man]: https://en.wikipedia.org/wiki/Spider-Man_(2018_video_game)
+[Andal and Cayde]: http://destiny.wikia.com/wiki/Cayde-6
+[Halo Infinite]: https://www.halowaypoint.com/en-us/news/our-journey-begins
+[ODST]: https://en.wikipedia.org/wiki/Halo_3:_ODST
+[Sea of Thieves]: https://www.seaofthieves.com/
 
 
 -----------
@@ -891,4 +897,353 @@ through.
 
 __Megan: [00:44:53]__ So how about you? Did you also experience that? Were you—
 Was it a lull and then you kind of came back with a vengeance?
+
+__Saf: [00:45:01]__ So I haven't actually taken any huge breaks from Destiny. I
+guess consciously, I took some breaks when I was like, uh, busy with other
+stuff and didn't actually have time for Destiny, or didn't let myself play it
+because I knew I'd play too much. But Destiny... I've kind of fall into a
+pattern of like it's just — at least before the new expansion came out — I
+would just run around and shoot stuff and do, I don't know, collect stuff and
+try and grind up my character just to like do something to relax, because that
+sounds relaxing. It is actually really relaxing for me though, because I really
+enjoy how Bungie does gameplay. They've just really perfected game feel and I
+really appreciate that.
+
+__Megan: [00:45:44]__ They are great at that satisfaction mood thing. Not sure
+if there's a term for it.
+
+__Saf: [00:45:49]__ Yeah, something like that feel. I don't know. There is a
+word for that. I know what you mean. Bungie's soooo good at that, and I just, I
+don't know, I just keep going back to it. I haven't yet taken any huge breaks.
+I haven't been bored by the game, even though... people weren't wrong when they
+were saying there wasn't much in-game content, but once Warmind came out, and
+then the ramp up to Forsaken, I've discovered that there is a lot that I wanted
+to do, considering. I decided I was going to {inaudible} armor, which was a lot
+of just needing to play to get that armor.
+
+__Megan: [00:46:21]__ Yes, I got to the blue set. I did not get to the purple
+set, but I did finish them. Or, like, I got the blue set. So yeah that was fun.
+That was definitely a good— that was during my 'Destiny as social space'
+period, so that gave us a lot to do and that was nice. And of course with
+Forsaken there's a ton to do. I don't — have you — you haven't quite finished
+the campaign yet, right?
+
+__Saf: [00:46:47]__ I finished the campaign but I have it done like everything
+that you can do storywise, I guess. There's the whole Dreaming City thing that
+you can unlock after the campaign is finished. But technically the campaign is
+finished, but I haven't fully finished, basically. I got the achievement and
+the Triumph, like "you finished the campaign" and I was like "cool!" and it was
+like "actually go do this thing" and I'm like "okay" because it gives me more
+to do. So I finished the story of it at least. But I have, I don't know, that
+next little bit to finish off and I was going to finish the campaign right
+after I came out, but then I got very distracted by the new bounty system.
+
+__Megan: [00:47:23]__ So technically I have access to the Dreaming City and I
+thought that I would love it because it had some lore stuff that I adore.
+Forsaken had some moments first, like at camp we were actually singing songs
+greenly like lore stuff that I've been into for 3–4 years.
+
+__Megan: [00:47:47]__ So that was all great, but then when I got to the end
+game I found myself ignoring that Dreaming City stuff and just playing Gambit
+for seventeen hours.
+
+__Saf: [00:47:58]__ Oh you've played so much game. I am so impressed.
+
+__Megan: [00:48:01]__ It's because — it's actually PvP for people who don't
+like PvP it's like waves of enemies and you're playing with real people but you
+don't have to worry about them until the invader section, and it just works
+really well for me. And I love like the new character that comes with it, I
+love the weapons you can get from it. So just having a great time but I really
+need to stop this Gambit addiction and do other actual in-game stuff that I'm
+supposed to be writing about, because I'm supposed to be writing about 17 hours
+of Gambit.
+
+__Saf: [00:48:42]__ They should let you write about 17 hours of Gambit, because
+I would read that, because I've only played one round of Gambit so far. My team
+did win, even though I didn't know what I was doing, and I accidently screwed
+up a whole bunch. So now my team still won. I was being carried along I think.
+
+__Megan: [00:48:55]__ It's very confusing in the beginning, I definitely had my
+moments of "where's the bank, what do I do." Part of what I like so much about
+Gambit is that you can see what the other team is doing. You can see their
+progress, so it's almost feels like being psychic and being able to see what's
+going on, on the other side. You know, you can't actually see the other team,
+but you can really strategize according to what they're doing, and I really
+like that sense of having a top view of a battlefield, and then also being on
+the ground at the same time just fighting waves of enemies.
+
+__Saf: [00:49:33]__ Not gonna lie, I didn't realize you could see what the
+other team was doing! Is that like in the little bars at the top? Does they
+tell you at the top there?
+
+__Megan: [00:49:39]__ Yes.
+
+__Saf: [00:49:39]__ Okay. See, I did not understand what any that was. No, I
+did get like a lot {inaudible} and I was like "hehehe, have fun with this,
+team!"
+
+__Megan: [00:49:49]__ Yes. Yeah. And you'll get it. I think it's really neat
+how they did the UI to show you what stage the other team's at. Definitely
+takes some getting used to.
+
+__Saf: [00:50:01]__ Yeah. It's a very different way of playing, but it's really
+cool.
+
+__Megan: [00:50:08]__ And I think it's very unique. It's a game type that not
+only Bungie hasn't done before, but as far as I know, there hasn't been
+anything quite like it, ever.
+
+__Saf: [00:50:16]__ Yeah, I can't think of any competitive game stuff that does
+something like that. It's a really good way of introducing PvP without it being
+like "Crucible! Fight other people, other live humans who know what they're
+doing." It's like, you are competing. And also a little bit there at the start,
+you can see the other team. It's very good.
+
+__Megan: [00:50:42]__ There's a fun little moment where you're in the lobby,
+and I do think I guess it's kind of a loading screen, but it's also decent
+opportunity to see: "Yeah there are other people on the other side" and have
+the standoff emoji. So, yeah, it's a good time.
+
+__Megan: [00:51:01]__ Oddly enough, I've completely transformed as a person,
+because instead of playing a single player game, I'm just obsessively playing
+Gambit. But the single player game that I probably should or could be
+experiencing is Spiderman the new... I think it's technically called
+**[Marvel's Spider-Man]**, which I have only played the first mission of, and
+was very good.
+
+__Megan: [00:51:29]__ Disclaimer is that I have a friend who worked on it, so I
+had to buy it to like, support her. She interned with the studio and was like
+telling me about how it was, and it was really exciting for her. So I wanted to
+pick it up, but I was also really glad that it got good reviews. People have
+said it's so much fun, and I do really like it.
+
+__Megan: [00:51:49]__ I'm kind of carefully strategizing right now because I'm
+on the PS4 but I play most games on the Xbox, so I like to remember the
+controls, and there are a lot of combos in Spiderman. Seems like I'm going to
+have to remember 8 different combos, and then go to a completely different
+console, and play Gambit for 2 weeks, and then come back, and I'll have
+forgotten everything about Spiderman. Right now I'm kind of strategizing like
+"okay I'm going to just finish this for a while, and that I'll go back." So
+I've put aside Spiderman for now, but what I have seen so far has been really
+fun. The combat's great, the script is really fun. Everybody's talking about
+when he tell us, like the social media feeds... It seems just really polished.
+The idea of a superhero game didn't necessarily appeal to me, as that wasn't
+itself a draw, but I'm glad that I got it, I'm looking forward to playing more.
+
+__Saf: [00:52:45]__ Yeah, I'm excited to see it getting such good reviews.
+People really seem to be loving it. I probably won't play it, mostly because I
+barely touch my PS4 these days, and I'm also so deep in Destiny, I don't think
+I could pull myself away to play another AAA game, because I don't want to
+spend that time not playing Destiny. It's a problem. Destiny has become a
+problem for me.
+
+__Megan: [00:53:07]__ I'm glad you joined us in the Destiny pit.
+
+__Saf: [00:53:10]__ It has absolutely happened. I've just gone so deep in
+there. I'm going to do _everything_, I'm gonna do the clan stuff, I'm gonna do
+nightfalls, and I've been doing everything and it was a lot of stuff.
+
+__Saf: [00:53:20]__ But Spider Man looks really cool. If I get the chance to
+play it, I really want to, because, like you said, it's really polished and I
+love a good polished game.
+
+__Megan: [00:53:28]__ That's about all that I've been playing recently. That we
+did. I want to talk about E3 a little bit. We had discussed adding an episode
+after E3 and it just never happened. I have been around the game announcements
+since. And that was where Forsaken wa announced.
+
+__Saf: [00:53:44]__ Oh yeah, that's right! I forgot about that. So long ago.
+
+__Megan: [00:53:48]__ Sounds like another world now. Well, Forsaken itself was
+not the first trailer, and **[Andal and Cayde]**'s stuff was announced there.
+So the only thing that I wanted to make sure to point out while we're here with
+our limited amount of time, and because we need to stay on brand, is **[Halo
+Infinite]** which was announced, and we know pretty much nothing else about it.
+I have a lot of theories about what's going on, about what it's gonna cover,
+and what kinda game it's gonna be, but with no real solid answer. We just know
+so far that it looks like a very pretty, possibly open world, Master Chief
+game. So that's cool. I don't really have too much to say about it except that
+— it's Western Regions. We couldn't _not_ talk about it.
+
+__Saf: [00:54:33]__ Exactly. I am tentatively very excited, because Halo 5
+continually disappoints me whenever I think about it. Which makes me really sad
+to say, because I've replaying through Halo again with someone else this time,
+because I keep referencing it. Well, I keep making Halo references and now
+they're playing with me so they can understand what I'm talking about. And then
+we hit Halo 4, and like 4 is so well written. Halo 4 is an amazing game. And I
+think about 5 and I'm like "oh no, do we have to. I don't want to." So I want
+another Master Chief game. And I'm glad there is going to be a Master Chief
+game. And I'm also extremely excited for the fact it's gonna be a new engine,
+and they're going to do new stuff through it; I'm really keen to see what they
+do. But I'm also like "please, please write a good game."
+
+__Megan: [00:55:18]__ My relationship to Halo has changed a little bit, and I'm
+not sure I know what I want from it anymore, which also makes speculating
+difficult, because I'm not as invested as I used to be. But, at the same time,
+Halo is one of those things that I've kind of always come back to. So I'm
+looking forward to seeing what this is going to be about.
+
+__Megan: [00:55:45]__ It's tough because it is going to compete with Destiny,
+it's gonna compete with a lot of games that are designed to be long term
+experiences and I'll be kinda curious to see whether it finds a place in my
+schedule as a long term experience the way Halo games have in the past.
+
+__Saf: [00:56:08]__ Yeah. Yeah. It'll be interesting to see. I guess we'll get
+it eventually because they didn't show much at E3, but I'm glad that they
+finally announced it was happening, because there was no news about Halo 6 for
+a while, and I was like "is this actually going to happen? What's going on?"
+But it's happening and that's very exciting.
+
+__Megan: [00:56:29]__ Actually, what do you think about the fact that it's not
+called Halo 6? Do you think that that means that they might go away from some
+of the choices they made in 5? Do you think that it doesn't mean that at all,
+any idea about the fact that they just, they're not branding it as part of the
+forerunner trilogy, which was kind of a big thing and then it... wasn't
+anymore.
+
+__Saf: [00:56:51]__ Yeah I have no clue. I imagine it will still stick to a lot
+of the same stuff, like the Forerunners and the AI stuff, because they've been
+building up a lot of that stuff in the novels as well. I have a lot of theories
+they're basically based off what they have actually been focusing on in novels.
+These things. So they're possibly going to try and bring that more into the
+next game. But it's all theorising. I do find it interesting that they did
+choose not to give it a number though, because I feel like it means that even
+if it does continue the story of the previous two games, it's still gonna do
+something different to try and move away from that, potentially. I have no
+clue, honestly. Like you, all I have is speculation and theories, which are
+based on, y'know, literally nothing, because there's nothing about the game
+out.
+
+__Megan: [00:57:39]__ Yeah, we'll see. It's hard to speculate at this point.
+
+__Saf: [00:57:42]__ But speaking of Halo, I have been playing Halo, but I've
+also finally picked up **[ODST]**... And then I promptly put it back down
+again. It turns out: don't like the game. I remember trying to play it ages ago
+and being like "Eh, I'm not playing {inaudible}, what's the point." And
+basically I had the exact same reaction this time, but also I now have an
+active dislike of Buck which means I've gone into this with already having a
+dislike of Buck. So as soon as Buck was on screen I was like "Ugh it's Buck and
+Nathan Fillion, I don't want this." Like, no shade on Nathan Fillion, I love
+Cayde, just turns out when a villain looks like Nathan Fillion in a game, it's
+very jarring and I don't like that. Because my brain's like "it's Nathan
+Fillion, Nathan Fillion's here, Nathan Fillion's talking, Nathan Fillion" and I
+can't be like "yes this is the character Buck. It's just Nathan Fillion.".
+
+__Saf: [00:58:31]__ And that's been a big thing with me. It's why I couldn't
+read the book about Buck. It's the reason I struggled with Halo 5 so much.
+Turns out I struggled with ODST with it, but also: ODST is just not a great
+game. It has a really big hype around it, and I think it's because when it came
+out it was quite different. It was a new thing. It was interesting. But playing
+it now, after all the other games I play that are Bungie games, and the rest of
+the Halo games I just think the writing's not great, the design of the game
+isn't great, and it's just a little bit frustrating to play. So yeah, I've
+ended up putting it down. Cause turns out, I don't care enough to finish the
+game.
+
+__Megan: [00:59:18]__ I'm actually glad that you're joining me as a Halo
+heretic that doesn't love ODST.
+
+__Saf: [00:59:22]__ Ah, I'm so very glad. I'm with you, very much.
+
+__Megan: [00:59:25]__ Yeah, I feel very much the same way. I didn't get that
+sense of... I mean I think it's pretty, er, I feel goofy saying it but I think
+the big appeal of Halo is that kind of power fantasy of being a SPARTAN, and
+when you didn't have that it just felt like slog. Also I think given the order
+that I played the games in, I didn't get that experience that you had, or
+rather than you said some people had, I think that was a really good
+observation that people liked it as something different. Whereas the way the
+order in which I experienced the games in didn't quite have that. So I agree
+with you. That's my Halo heresy.
+
+__Saf: [01:00:04]__ Yeah. Halo is military sci-fi. And a lot of the military
+camaraderie kind of thing is, y'know, quite played out, because that's part of
+what makes Halo. But I feel like ODST kinda goes a little too far in that and
+the characters are really unlikable because they're kinda making fun of each
+other all the time, they just don't really meld, it doesn't feel like they're
+doing as a squad, it just feels like they all hate each other. It makes it
+really hard to believe they are a team.
+
+__Saf: [01:00:28]__ And also: they're ODSTs. So they're like: "we're not
+leaving without this man." And I'm like, "well, you kind _do_ that though.
+That's like what you're meant to do. You just go in there, head in like you
+expect, like each other to die." Sacrificing all of yourselves to save to pull
+out someone's buddy definitely goes against the whole ODST thing. I don't know.
+I amm biased against ODSTs because of Buck, which is really annoying cause
+ODSTs are really cool.
+
+__Megan: [01:00:55]__ Yeah, the true Spartan loyalty is... I agree with it.
+
+__Saf: [01:00:59]__ And also the whole previous romance thing with Buck and
+what's-her-name was just — the moment they start doing that I'm just like "oh
+my god, are you actually kidding me." Like this is just very tropey, very
+poorly written. It's just not great. No offense to anybody that loves that
+game, because I'm sure you have good reasons to. But it's the one Halo game,
+well, that's a lie, I haven't played the Halo Wars games, but that's cause I'm
+bad at strategy, but it's like the one console Halo game I've just not been
+able to finish. And I've finished Halo 1 multiple times.
+
+__Megan: [01:01:32]__ Yeah I'm with you there.
+
+__Saf: [01:01:36]__ Yeah it was kind of sad. Yeah that, that happened.
+
+__Saf: [01:01:39]__ I've also picked up a bit of **[Sea of Thieves]** which
+was, y'know, the pirate game that came out a while back, which is really fun.
+It's really really fun. I kind of have been playing it with my partner, so it's
+been more of like a chill kind of social thing, I'm kind of been treating it in
+a similar way that I treat Destiny. Just doing what I want, not really caring
+about the story or anything. Well, I do care, but y'know, like this kind of
+thing is social thing.
+
+__Saf: [01:02:06]__ So just kind of sailing around and I run around after pigs
+because they're really cute and I feed them bananas because pigs are really
+cute. That kind of thing. I just find my own ways to enjoy the game. And it is
+gorgeous. The ocean animation, and the sky, and just everything is amazingly
+gorgeous. The color palettes are really good. It is a very pretty game. And I
+think like if you're playing it singleplayer, it's not super exciting, but
+playing it with other people as a team thing or just a social thing is really
+cool, cause it's kind of a cool space to hang out in. So I really like that.
+I'm not going to sink a million hours into it, but I enjoy it enough that if
+someone asks me if I can help them with a quest, I'll be like "yes, I'll join
+you." I'll come up aboard and help you sail your ship and look at the water a
+whole bunch. Yeah, it's a cool game.
+
+__Megan: [01:02:55]__ Good! Yeah I've heard good things about it. That's one,
+that's always online right? That's the other thing I've heard about it. If I'm
+thinking of the right pirate game, is that there's been a lot of griefing,
+where people take the chance to just kind of mess with players. Am I thinking
+of the right thing?
+
+__Saf: [01:03:12]__ It's kind of built for that, though, because it is a pirate
+game. So you can form alliances, but also you can find people that are just
+terrible. There was one point I was playing with my partner and they were like,
+they were like, "Do you want to blow up that ship and take their loot" and I
+was like "yeah! Okay." And then the ship came closer and the person was like
+"Hey! How's it going?" And I was like "oh no, I don't want to." But by that
+point it was too late casue we'd already set the gunpowder barrels. So we blew
+up this ship. And I felt really bad.
+
+__Saf: [01:03:41]__ And both me and the other person died. So we're... Like
+there's a ghost ship you go to you when you die, like you're on your way to
+respawn, and they just sit there like pointing at me with the pointing emote.
+And I was just like, using the quick chat, like going "Sorry, sorry, I'm
+sorry." And they were just shaking their head going "No." Just pointing at me,
+you know, and I'm like "I'm so sorry. Oh my god, I can't believe I've done
+this."
+
+__Saf: [01:04:02]__ So it is somewhat of an expected thing that you will get
+into fights with people. Basically you have to treat like actual pirates. So
+sometimes you can form alliances and people will be nice, but sometimes you
+will find people who just want to destroy your ship. And so you've kinda got to
+play it... Luckily they're not like a ship that you build up over ages, and
+that you care about heaps. They're kind of disposable. A lot of stuff is quite
+disposable. You don't lose your items or anything when you die. So it is always
+like PvP, it is always online, or PvE I guess. But it creates an interesting
+dynamic with the game, which I find really interesting seeing how people deal
+with that. But yeah, if you want to go to a game and not get attacked by people
+ever... it's not a good game for you.
+
+__Megan: [01:04:50]__ No, that sounds like fun, if you go in expecting that.
+
+__Saf: [01:04:53]__ Yeah exactly. And I think a lot of online games don't
+really teach you to expect that, so much.
 
