@@ -29,9 +29,10 @@ tags:
 > and that I could tie back to the plot. I mean most of the time it was fairly
 > obvious once I got the title out of google. But a few times I had to give up
 > and look up the characters or the plot elements that were discussed and get
-> it back from there. There's _a lot_ of books talked about in there. Oh and
-> because I looked them all up, they're also linked up in the transcript. So
-> you get to enjoy that.
+> it back from there. There's _a lot_ of books talked about in there.
+>
+> Oh and because I looked them all up, they're also linked up in the transcript
+> and also in a neat list at the very bottom. So you get to enjoy that.
 >
 > There's also a few notes by me in there marked like: {`trans`: note}. For
 > example, providing names of things they couldn't remember on the spot.
@@ -1246,4 +1247,45 @@ __Megan: [01:04:50]__ No, that sounds like fun, if you go in expecting that.
 
 __Saf: [01:04:53]__ Yeah exactly. And I think a lot of online games don't
 really teach you to expect that, so much.
+
+
+
+
+
+-----
+
+## Stuff that was talked about on the podcast:
+
+(Any mistakes here are by me, the transcriber!)
+
+### Books
+
+ - [Latchkey] and [Archivist Wasp], by Nicole Kornher-Stace
+ - [Trail of Lightning], and [an interview of its author][rr-interview], Rebecca Roanhorse
+ - [The Mere Wife], by Maria Dahvana Headley
+ - [Revenant Gun], a part of the [The Machineries of Empire] series, by Yoon Ha Lee
+ - [A Closed and Common Orbit] and [The Long Way to a Small, Angry Planet], by Becky Chambers
+ - [A Swiftly Tilting Planet], by Madeleine L’Engle
+ - [Updraft], by Fran Wilde
+ - [Semiosis], by Sue Burke
+ - [Planetfall], by Emma Newman {whose other series **The Split Worlds** is also great, by the way}
+ - [Children of God], by Mary Doria Russell
+ - [Grass], by Sheri Tepper
+ - [The Will to Battle] and [Too Like the Lightning], by Ada Palmer
+ - [The Only Harmless Great Thing] and [No Flight Without the Shatter], by [Brooke Bolander]
+ - [The Three-Body Problem], [The Dark Forest], and [Death's End], by Liu Cixin
+
+### Games
+
+ - [Destiny]
+ - [Marvel's Spider-Man]
+ - [Halo Infinite]
+ - Halo: [ODST]
+ - [Sea of Thieves]
+
+### Others
+
+ - [The Radium Girls]
+ - [Ken Liu]
+ - [Interstellar]
 
