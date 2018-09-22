@@ -1,5 +1,5 @@
 ---
-date: 2018-09-22T20:55:55+13:00
+date: 2018-09-22T21:55:55+13:00
 page: true
 title: Western Reaches 38
 tags:
@@ -45,6 +45,8 @@ tags:
 > 10:30 to 12:20.
 > 14:20 to 16:30.
 > 16:50 to 18:40.
+> 19:20 to 20:10.
+> 20:50 to 21:50
 >
 > Without further ado... here’s [the original], and here’s the transcription:
 >
@@ -98,7 +100,12 @@ tags:
 [Halo Infinite]: https://www.halowaypoint.com/en-us/news/our-journey-begins
 [ODST]: https://en.wikipedia.org/wiki/Halo_3:_ODST
 [Sea of Thieves]: https://www.seaofthieves.com/
+[The Fifth Season]: https://www.goodreads.com/book/show/19161852-the-fifth-season
 
+[ToscheStation.Net]: http://toschestation.net/
+[@Wanderlustin]: https://twitter.com/Wanderlustin
+[NotSafForWork.com]: https://notsafforwork.com/
+[@blogfullofwords]: https://twitter.com/blogfullofwords
 
 -----------
 
@@ -1248,8 +1255,440 @@ __Megan: [01:04:50]__ No, that sounds like fun, if you go in expecting that.
 __Saf: [01:04:53]__ Yeah exactly. And I think a lot of online games don't
 really teach you to expect that, so much.
 
+__Megan: [01:05:06]__ So I think that's all we have for games, right. We,
+expected, could talk forever about Destiny. But the last thing I want to talk
+about a little bit is kind of how we've both been doing more creative personal
+work or creative original work, recently. Do we still — we are going kind of
+long, do we still want to have this conversation? We can always recut it later.
+What do you think?
 
+__Saf: [01:05:36]__ Yeah, let's do it, I think. It's been a while since we've
+been here, I'm sure people are happy we're back.
 
+__Megan: [01:05:41]__ Yeah, we're getting back in the swing of things, so I do
+appreciate people's patience but.
+
+__Megan: [01:05:46]__ So the main question here is: how is being a creator
+changed how you look at fandom. And I've been thinking about this a lot
+recently, when I think about the different ways I look at canon and fannon.
+
+__Megan: [01:06:02]__ I'm a big Destiny fan obviously, and I'll ask a lot of
+questions, like "what did the writers mean by this law", or "what happened to
+this character 100 years ago", or "what relationship does one character have to
+another." I ask those questions in a fannish sense, and the more I learn about
+behind the scenes stuff, the more I realize those are kind of unanswerable
+questions because the idea of a persistent background universe is not the same
+as the assumptions you operate under when you're in the revision teamwork
+process of actually creating this work.
+
+__Megan: [01:06:41]__ So asking a question like, y'know, "where is Eris Morn?"
+That's my question in Destiny. That is a super meaningful question to me as a
+fan. With an emotional connection to a character. And I feel in my heart that
+there should be an answer to that question. That she's out there somewhere.
+That the creators know what she's up to, and that what she's up to is going to
+be eventually revealed, in canon.
+
+__Megan: [01:07:06]__ When in truth the more I think about it from a writing
+team's perspective, there is no answer to that question. Where Eris is. Where's
+Ray Slone... Those things are all up in the air. Because they might not have
+been created yet. They might not have been commissioned yet. They might not
+have. They might change at the last minute. For some reason. And the thing that
+I think sums up the idea of what I want us to talk about is I want to talk
+about "consistency", but in quote marks, because really what I've learned from
+being a creator as well as a fan this year is that there is no such thing as
+consistency and there's no such thing as persistent answers to these questions.
+I still ask those questions but it starts to feel like code switching. So
+that's just something I've been thinking about recently.
+
+__Saf: [01:08:03]__ Yeah, I have too. Not quite in the same way, but more in a
+way of... because I, you know, I work in games now. And I've worked on games,
+and I've even had two games come out this year. Which I haven't even talked
+about before. But now that I kind of have been through the whole process — and
+they're not AAA games, obviously, so I haven't worked on those massive games —
+but my mentor is also AAA, so I've learned a little bit from him. And I have a
+much more, a much stronger empathy for game teams, and game creators, and also
+just creators in general now, because big project stuff like when you've got
+more than two people working on a thing, you've got to really be careful of how
+you handle stories, right?
+
+__Saf: [01:08:45]__ Especially if you've got a team of writers. I'm on a
+writing team at the moment and you have to work within the bounds you're given.
+But also you don't get final say as just a writer on a team. You can pitch
+things, and you can try and make them as good as you can. Like if you were on
+the Destiny writing team, right, you'd be pitching Eris stories potentially, or
+if I was on the Destiny team I'd be pitching stories about the ghosts. You'd
+have to pitch it well enough that they find it valuable for the players in the
+game in the long term as well.
+
+__Saf: [01:09:14]__ And when things go wrong in game releases, I have a lot
+more empathy as well because I understand why these things go wrong. And why
+this is so hard and it's basically because managing a big team, and managing a
+story that's built by so many people is extremely hard, turns out. Who could
+have known?!
+
+__Saf: [01:09:31]__ So basically my side of it is just that. Like, yeah, some
+of it is about understanding why stories don't exactly do what I want them to
+do, and that's because they don't have that persistent background.
+
+__Saf: [01:09:45]__ I think a lot of people when they first get into writing
+and the idea of writing a thing, is they create this like big as law Bible,
+right. Like it's a thing of: "this is the entire world of my story." But the
+problem is, if you're actually planning on writing something that's like kind
+of ongoing, or even not ongoing, just long. Like a big thing. It's that you
+need to kind of set your core rules for whatever you're doing but you need to
+be flexible with everything else, because it will change. It will have to
+change to become a released product.
+
+__Saf: [01:10:14]__ Whether or not you're doing it commercially, _it will
+change_, whether or not you want it to. Building that law Bible and spending so
+much time planning all of the stuff that it becomes kind of daunting to even
+get into it, because you've built these walls that you can't really escape.
+
+__Saf: [01:10:29]__ And with games in particular, like Destiny, big stuff that
+is ongoing and ever changing, you can't really settle that law in stone to
+begin with, because then you set yourself a very narrow path to follow. And
+with big games like that, you can't do that which is why, like if you asked a
+creator about certain things, they'll be like "oh, I don't know, it's not in
+our law Bible, we have thought about that yet. We haven't had to. Why would you
+ask me this question?!".
+
+__Megan: [01:10:57]__ After kinda making the switch I am actually amazed that
+more creators don't answer those questions that way. I'm actually amazed that I
+haven't seen that more often.
+
+__Saf: [01:11:11]__ Yeah, right? Honestly same, because that's what I would do
+if someone else asked me about that stuff. Cause I am currently working on
+audio drama, one I'm on the writing team for, and there's not much I can talk
+about there, so I won't say much about it. But like: if you asked me right now,
+I know my general pitches, the stuff that's got accepted for the episodes I'm
+gonna write, but if you ask me like how these episodes are gonna end, or what
+the actual arc of the episode is, I'd just be like "Eh, I dunno." I just have
+the general story idea. I don't know what's gonna happen. I haven't been told
+what the ending should be. I could figure that out however I want but I've
+gotta figure it out on my own, and also in concert with the other writers. And
+I feel like if you haven't done that yourself, if you haven't gone through the
+process of creating a thing, and pitching it, or publishing it, or releasing it
+in some way... It's a lot harder to understand just how kind of changeable all
+that stuff is.
+
+__Megan: [01:12:04]__ Yeah, and not only creating or writing something, but
+iterating on it. Whether that's because you're on a team, or because you just
+have multiple drafts of the thing. I've started, I mean I've always understood
+the idea of editing, in that you have a draft or two but lately I've been doing
+a lot more work with like 7 drafts, or something, or 5 drafts or something, and
+being able to do that requires being less precious about what you do, and being
+less concerned with whether you are preserving the initial idea, and more with
+whether you're gradually improving that idea. Which I think when you're talking
+about tie-in work and franchise work, which I've not done — I haven't had the
+experience of working on a game team but I have seen the job listings and
+spoken to people about how important it is to be able to be flexible enough to
+be precious about your work.
+
+__Megan: [01:13:03]__ For example I could not go in to a writing job and say
+"I'm going to write a story about Eris." That's not how it works. That's not
+how you serve your audience and that's not an effective iteration process.
+
+__Saf: [01:13:22]__ Yeah, exactly. You can't go in like that. You can go in and
+be like "I want to pitch this story with Eris." But, whether or not it fits,
+you'd have to be able to let that stuff go. I ever wrote a Star Wars book, god
+forbid, I'd be like "okay, Imma try and find a way to put Chuchi in here," but
+if it didn't work, I would accept that, and I wouldn't put her in. But I would
+try my best to pitch it. So that she would be in there.
+
+__Saf: [01:13:44]__ A lot of it is about negotiation, it turns out, and
+communication, turns out. Even if you're the sole writer on a thing, you still
+have to negotiate and communicate these things, because when it comes to games
+everything is money and time. And you need to be careful those things. Even if
+it's not a commercial project, you need to be careful of those things.
+
+__Saf: [01:14:01]__ And... there was something else I was going to say but now
+I can't remember what it was. Um. Oh yeah, like with the being precious thing.
+I was on a panel at PAX last year, about writing, game writing. It was with a
+bunch of other game writers, and a big struggle that got mentioned is letting
+go of the ego. Letting go of their precious children of writing, and being able
+to be like "OK, No. This isn't what it needs, it isn't the right thing for the
+story. So I have to cut it, even though it's important." Or like other people
+come in, and they're like "it's not good". Or it's not what it needs, or is not
+the right thing. And then being defensive and frustrated and that.
+
+__Saf: [01:14:33]__ And I've managed to kind of kill that when I was quite
+young, so I don't struggle with that so much myself. But it is hard when you've
+become attached to a certain idea and something, and you really want to use
+that, but you discover later on that the idea is not working. I can really
+struggle with that in particular. I'm on like my, fifth or sixth revision of
+the novel I'm working on at the moment, and the amount that's changed from the
+original intention of that novel is so much. They would be two completely
+different stories at this point, just with similar characters. And I think it's
+better for that. It is so much better for that. It's become a much more solid
+story, the characters are way better, have way more depth than the original
+thing, because I had an idea that I want to bring across. And I drafted it and
+I was like "This isn't quite right." And so I did it again and I did it again
+and every time I've done it it's become a better story for it.
+
+__Saf: [01:15:32]__ It took me a while to be able to let go of some of the
+ideas I had in it originally because I was really attached to those ideas. But
+when I did let them go, and let myself change how that worked, the story became
+stronger. So it is really important to learn how to do those things. But I
+think it's also important as a fan to learn how to let go of those ideas too.
+Because if you don't let go of them, and the story doesn't do that, it's a lot
+harder to mesh with what the story's doing.
+
+__Saf: [01:15:56]__ Especially if you don't even have control over the story. I
+think it's even more important to completely let go of those ideas. But it can
+also be a lot harder, because if you try to control the story you don't have
+that like kind of relationship that you can cut, without feeling as much,
+because you've engaged with it as a fan who really loves the work, you don't
+have that distance that a creator might.
+
+__Megan: [01:16:19]__ Yeah. As much as I've been thinking about this, I've made
+a pretty conscious effort not to try to always look at fandom through this
+lens, because I don't want to become bitter to it, even though it creates a lot
+of bitterness in itself. Like yes, if something doesn't go the way I want it to
+go, I will be disappointed, but I've found that thinking about it as a team of
+writers or whatever, you know whatever your example is, rather than as a fixed
+universe actually can kind of make you feel a little more chill about whether
+or not what you wanted to have happen actually happened.
+
+__Saf: [01:17:03]__ Yeah. I think having to like learn personally that even if
+it's something that I've created, and something I care about, sometimes I feel
+like it's something that is quite dear to me... sometimes it doesn't go that
+way. A story won't go that way, because it's not the right way for it to go. So
+having to like go through that with my own work, and realising that even stuff
+that I really care about in my own wor can't happen. I think it's made me more
+chill about that happening in fictional work that I'm not part of, because I
+understand that maybe the creator is like, I don't know, they wanted to have a
+bit and it didn't serve the story properly or something. I mean there are
+obviously times where I'm still really mad about what a story does because I'm
+like: "it's dumb and I hate it."
+
+__Saf: [01:17:42]__ I think when it comes to, like, smaller things, I'm a bit
+more chill now. Well not smaller things. But like, you know. Like other things,
+like in, The Last Jedi or whatever. I didn't have any expectations going into
+that except for a couple things, and whatever I did it was not what I expected.
+And I was like "you know what? Whatever. I'm just gonna go all along with this
+weird ride."
+
+__Megan: [01:18:02]__ Yeah. I definitely don't want to make it sound like I
+have let go of all of my earthly concerns with fandom, and that I don't have my
+own issues and my own biases because I think everybody does. But I have a sort
+of double vision about them now, where you can see them as both the fiction is
+something that "happened" in a consistent universe, and the fiction is fiction,
+it's a project, it's a product, of drafts and drafts and somebody being
+miserable probably, cause that's how writing works seemingly.
+
+__Saf: [01:18:35]__ Yeah, a lot of writing is very miserable. It's so
+glamourised, but it's like: "Nah, I'm just sitting here like crying as I'm
+typing out words like five minutes for a deadline because I realised I forgot
+the deadline."
+
+__Megan: [01:18:48]__ It's glamourized until you hang out with writers. And
+then you ask someone, when you get close enough to someone that you ask them
+how their novel is going and instead of giving you the polite response, they
+just look at you with terror and you see the abyss in their eyes and then, you
+know.
+
+__Saf: [01:19:08]__ In exciting novel news, I finally figured out the core
+theme for my novel as it is now, but also my brain because I have been working
+on game so much as opposed to like actual novel in prose writing, that as soon
+as I was like "yes! I have my core theme," because I wrote a talk recently, I
+did talk recently about designing your game around your theme. And so, as soon
+as I was like "yes! I have my core theme," I went "how can I design this book
+to better serve the theme?" And I was like, "SAF. You don't design books.
+That's not how it works." And I also shut down the designer part of my brain,
+cause it was like "yessss, a theme, it's time to design this experience
+perfectly for the player." And then I was like, "no no, it's just a book. It's
+a passive thing. It's fine. Just write the book Saf."
+
+__Megan: [01:19:51]__ That's interesting.
+
+__Megan: [01:19:53]__ I definitely feel that, in terms of different kinds of
+writing, kind of getting to all of them meshing together in your brain. Because
+I also have a novel in progress that has changed immensely over the summer for
+the good, I think, but I have to kind of fit it in while doing all these other
+projects, and that is sometimes onerous.
+
+__Saf: [01:20:19]__ Yeah the novel is kind of like the lowest priority of all
+my writing stuff, even though I want it to be the top priority. Money and
+deadlines and clients are the most important priority, unfortunately. Which
+means that the novel... if I could just focus on that, I would have finished it
+this year, I think, but I can't. But I also have the problem that I sponge
+other people's writing really easily without meaning to. And so I will start to
+write in the style of the most recent author I've read. Which means that like
+my novel has changed tone so much because I'll read a book, and then I'll go
+back to the novel for a while, and I'll kind of mesh their style in with my
+own, and then I'll leave it for a while and come back and the style of writing
+then is very different. And it's hard for me to keep that consistency without
+actively working on it all the time. So, it turns out, just coming back to
+projects every now and then is not the best thing to do, sometimes.
+
+__Megan: [01:21:10]__ I feel that, because the other thing that you can do when
+you try to avoid writing in someone else's style, and the thing that I've kind
+of had trouble with recently, is that I try to stick to one style, and end up
+kind of having no style at all. It ends up sounding kind of and scrubbed too
+clean.
+
+__Saf: [01:21:33]__ Yeah I feel that. What I tend to do with that process, well
+it's what I've learned to do, is let myself write in whatever style I've got
+currently, and then when I do an edit pass is to try and make it more
+consistent. So picking up the things that affect certain styles that I like,
+and basically noting them down, so I can bring them back later on when I'm
+editing stuff through. And it's also erasing all of the accidental switching to
+second person when I've been reading **[The Fifth Season]**, cause that
+happened.
+
+__Saf: [01:21:58]__ I accidently wrote an entire chapter in second person
+without realising once, and I went back and I was like "oh. my. god. N. K.
+Jemisin, what have you done to me." So I find that the editing is really kind
+of cathartic, because, I mean, editing your own work is hard. I really, I love
+editing other people's work, but editing your own work is really hard. It's
+also really nice to edit something that's kind of rough and polish it, and be
+like "yeah, this piece of writing is so much better now."
+
+__Megan: [01:22:26]__ It's really good to have that kind of breakthrough. I
+have discovered or changed, I think I'll say changed, cause it wasn't a super
+organic process, but I had changed something about my main character and made
+their motivation a lot stronger, and I think it has been challenging to then
+thread that back through the novel, but I think ultimately it's been better and
+I've been happy with that, so far.
+
+__Saf: [01:22:54]__ Yeah I recently realized that my main character, upon
+looking back at it, I realised they didn't have much agency as a character.
+Weirdly enough, I got this through thinking about Twilight, because in Twilight
+it always felt that. But anyway, the main character I had didn't have a lot of
+agency, she was just kind of... things are happening to her and she was going
+along with it to make the plot happen. So I've kind of gone back and gone like,
+"okay, how can I change it so that she's actually actively making these
+decisions." It turns out, I had to change a lot of the book to make that
+happen. But I'm going to, because I feel like that's an important thing that
+will be very good, in the long term that'll make the book so much better
+because it also changes a lot the dynamics. It can be really hard. Like, this
+is extremely daunting and requires a lot of work. But in the long term, if you
+want to create the best thing you can, whether or not this book ever actually
+gets published because, you know, it's my first novel. I think it's an
+important part of the process to look back on your stuff with a kind of
+critical eye, and be like "okay, what isn't working and why isn't it working,"
+instead of just kind of plowing ahead and just hoping it starts to work.
+
+__Megan: [01:23:53]__ Yeah, and kind of trying to find... Right now what I'm
+doing is putting together a lot of puzzle pieces, and I am enjoying it. I mean,
+I'm basically having to redraft the last half of this novel, but it's making a
+lot of things stronger at the same time, which has been really good.
+
+__Megan: [01:24:13]__ I've seen the way how basically having to change one
+thing means having to change another thing for the better, and in a way that is
+very accessible. I can see the rungs of the ladder ahead of me, I have to climb
+them now, but I can see them. Yeah.
+
+__Saf: [01:24:30]__ Yeah, it's such a good feeling when you can actually see
+them. Like "this is gonna be hard but I can do it! I can see it."
+
+__Saf: [01:24:45]__ I think it's good to... for people who do create, to be
+open about process. Obviously when you're working on some big AAA game, you
+can't be that open about your process because you can't talk about things
+you're NDA'd for. But I think it's good for creators to talk about it, because
+it's kind of assumed by people who aren't doing the stuff, that a lot of it is
+easy. That writing's easy, and that creating a thing is easy.
+
+__Saf: [01:25:08]__ But it's extremely difficult. It requires a lot of
+iteration, a lot of critically looking at your own work — which is hard — and a
+lot of perseverance. And it's not something that a lot of people will talk
+about so much. There's always a running joke that "oh, everyone has a novel
+that they have written," but... some people actually _are_ putting that work
+in, and you may not see it, but it's there. And it's a lot of work. And the
+reason I've been so quiet online is partly because of health reasons, but also
+partly because I've just been so busy trying to actually _work_ on the projects
+I've got and finish things, and, y'know, the rest of my time kinda disappears.
+
+__Saf: [01:25:45]__ It's either doing projects or Destiny, at the moment, which
+I'm okay with because it's kind of nice.
+
+__Megan: [01:25:50]__ That circles back nicely to what started this
+conversation, I think, which is about how you think about the internal
+consistency of your own story. And I don't — I personally don't want to sound
+like I'm giving advice because I don't really have the criteria, I can give you
+advice about fanfiction all day, but I don't really — I have not published
+fiction, I don't really think it's my... Like, I don't think you should listen
+to my advice.
+
+__Megan: [01:26:15]__ But, I like all of what you said, and I guess the thing I
+want to finish with, that I'm going to try to vaguely connect to the fandom
+conversation, because fandom is a thing that I feel like I'm conversant in, in
+a way that's useful... is that you mention there's that saying that everyone
+has a novel, and I think that sometimes that can be used in an inspiring sense,
+that everyone has enough life experience and a talent to write a novel. I think
+that can be good.
+
+__Megan: [01:26:46]__ But I've also heard that said in a kind of negative
+sense, like "oh, anyone can write a novel. It's not hard to do." Or doing it as
+an act of navel gazing rather than an act of creating something that others
+will be interested in. And I think it's important not to be discouraged by
+that. I'm talking partially to myself because I have had in the past people
+kind of say, like, "yeah well everyone's writing a novel" and that doesn't mean
+it's not hard. So yeah this is a pet peeve of mine. This is the, the way people
+talk about that.
+
+__Saf: [01:27:31]__ Big same. Like, I really hate the idea. Like, you know,
+"everyone's working on a novel, everyone's writing a novel." And I was like,
+well, not really. A bunch of people will have an _idea_ of something, because
+ideas are something that you can have. And you don't have to put too much work
+into them, unless you actually want to realise them. Even as an idea for a
+story, they won't help. Because, you know, everyone has that capacity. But if
+you're actually like _writing_ the thing that you want to write, and you're
+actually working on it... Whether it's a slower process or like a quick
+process, if you're doing that, well that is _so much_. That's incredible, to
+actually be like writing a thing and creating a thing. Whether or not you ever
+actually publish it, or decide to release it in anyway, it doesn't really
+matter at that point.
+
+__Saf: [01:28:11]__ Whether or not other people think that what you're doing
+is, y'know, "stupid", and "everyone kind of does it" and "everyone fails at it"
+kind of thing. Like, no. So many people do succeed at this: you can tell,
+because there's so many books out there!
+
+__Saf: [01:28:21]__ I've got weirdly inspirational about this, but I do
+extremely hate the idea of "everyone's writing a novel but nobody ever actually
+writes a novel" like. No. _People clearly do._ People do it all the time.
+
+__Saf: [01:28:33]__ I may not publish my novel yet, even though I'm working out
+for like six years. But that's because I have grown a lot in six years and my
+writing has improved so much in six years. If I had published that first
+version of the novel, that would have been very bad. It wouldn't even have been
+published. And I think the most important thing is just: even when it's hard,
+just to do it, or even do a little bit.
+
+__Saf: [01:28:53]__ I have a talk I'm doing next month — or after? I don't
+know. Soon! — and I need to research it and write it. I need to do a lot work
+on it. But I started planning it and I've written a couple paragraphs of what I
+want to talk about in it. And, you know what? That's a start. That's something
+I'm actually working on in some way. And I think that's important.
+
+__Megan: [01:29:12]__ I agree. That's good, I'm glad we kinda end on an
+inspiring note. And hopefully we will have more... we will grow and have more
+experiences to talk about in the future in regards to original work.
+
+__Megan: [01:29:33]__ So, thank you for listening to our lengthy reunion
+episode and, as I mentioned at the top, we plan to go on a one month schedule
+for the foreseeable future, so we'll be back talking about pop culture and
+video games in October.
+
+__Megan: [01:29:50]__ If you want to check out Western Reaches, and our back
+catalogue, you can visit us at Tosche Station. That's **[ToscheStation.Net]** —
+it used to have a hyphen, it no longer does.
+
+__Megan: [01:30:03]__ Saf, you can talk about you and your work:
+
+__Saf: [01:30:07]__ You can find me on Twitter at **[@Wanderlustin]**. I'm kind
+of on a social media hiatus at the moment, so I'm not super active there. But
+that is the best place to find me. You can also find my podcast network and
+previous serial fiction on **[NotSafForWork.com]**.
+
+__Megan: [01:30:25]__ Cool. And I can be found on Twitter at
+**[@blogfullofwords]**.
+
+__Megan: [01:30:27]__ Thanks for listening and we will talk to you next time?
+...this is a one way dialogue, we will talk _at_ you next time.
+
+__Saf: [01:30:36]__ Sure is. You will listen to us next time.
 
 
 -----
