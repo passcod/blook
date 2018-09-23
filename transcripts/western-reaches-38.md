@@ -34,7 +34,7 @@ tags:
 > Oh and because I looked them all up, they're also linked up in the transcript
 > and also in a neat list at the very bottom. So you get to enjoy that.
 >
-> There's also a few notes by me in there marked like: {`trans`: note}. For
+> There's also a few notes by me in there marked like: {t.n.: note}. For
 > example, providing names of things they couldn't remember on the spot.
 >
 > All in all it took about half an hour for the automated part... for the whole
@@ -107,7 +107,7 @@ __Megan: [00:00:00]__ Hello, welcome back to Western Reaches: Tosche Station's
 grab-bag geek discussion focusing on science-fiction and fantasy books and
 videogames.
 
-__Megan: [00:00:52]__ Saf and I've been on hiatus over the summer, but now
+__Megan: [00:00:52]__ Saf and I have been on hiatus over the summer, but now
 we're back with a goal of sticking to a monthly schedule going forward, for as
 long as that continues to be pleasant for us. We've also been working on a lot
 of creative projects over the summer, so this episode we're going to talk about
@@ -119,7 +119,7 @@ __Megan: [00:01:13]__ Hey Saf, it's been a while!
 __Saf: [00:01:15]__ It has been quite a while, yeah.
 
 __Saf: [00:01:17]__ I was looking at the last episode it was April, I was like
-"Wow, so much has happened since then.".
+"Wow, so much has happened since then."
 
 __Megan: [00:01:22]__ Basically, I'm judging my entire life around the cycle of
 Destiny events right now. So yeah. That was before we had the latest DLC. It
@@ -206,7 +206,7 @@ independent publishers: Archivist Wasp was published by **Small Beer Press**,
 which I remember specifically because I've visited them at a book festival
 yesterday. Latchkey was published by a different publisher, which I _should_
 remember because I worked with them a little bit... but I can't right now.
-{`trans`: it was **Mythic Delirium**}
+{t.n.: it was **Mythic Delirium**}
 
 __Megan: [00:06:00]__ So our great theme of not being able to remember things
 continues. I'll get back to you on that one.
@@ -495,7 +495,7 @@ my knee not long after we recorded our last episode. So I churned through a lot
 of books while recovering, because there wasn't much else I could do but read.
 So I just picked out a few, Megan, because I don't want to talk about
 everything. Not everything's worth talking about, honestly. I read a book
-called **Trigger Happy** {`trans`: there's about fifteen books named that and I
+called **Trigger Happy** {t.n.: there's about fifteen books named that and I
 have no idea which trashy one it is. No link for you!}. It was trash. I knew it
 was gonna be trash going in, but it was _extreme_ trash.
 
@@ -568,14 +568,14 @@ plans.
 __Megan: [00:28:00]__ Oh gosh, yeah. I can definitely see the connection. I
 just remembered how much I loved Grass.
 
-__[00:28:06]__ Yeah I get that. For the first time I read it I was like "oh god
+__Saf: [00:28:06]__ Yeah I get that. For the first time I read it I was like "oh god
 I love Grass." Maybe I should reread that. I also read **[The Will To
 Battle]**. Which I think I might have read before that. I don't actually
 remember when I was reading this book. It was at some point. No it was when I
 had my leg brace, so it was well into my recovery. There we go. So handy. What
 a good frame of reference in my mind.
 
-__[00:28:29]__ It is the third book. Ah, I can't remember what the other books
+__Saf: [00:28:29]__ It is the third book. Ah, I can't remember what the other books
 are called. **[Too Like the Lightning]**! It's by **Ada Palmer**. It's the
 third book after Too Like the Lightning, which I talked about a while back when
 I read it, and it's also a sequel I can't remember the name of the second book.
@@ -589,7 +589,7 @@ was a standalone, so I picked it up and I read it through. And I was like OK,
 cool. And I got like, I don't know, 10 pages from the end, and was like
 "there's no way this book can wrap up in the 10 pages, there's going to be a
 sequel, isn't it?" And so then, there was a sequel. And it was like "the story
-will be continued in this next book." And I was like "okay, cool. I'llgrab the
+will be continued in this next book." And I was like "okay, cool. I'll grab the
 next book and finish the story and I'll be free."
 
 __Saf: [00:29:12]__ And then I got two pages to the end of that book and I was
@@ -644,7 +644,7 @@ because I think he loves ants. I don't remember why, but he just has ants all
 over his. And one of them shows flying castles or stuff like that. Like they
 show us whatever world they believe in, on their cloaks.
 
-__Megan: [00:31:40]__ Interesting. So like a screen or a hologram?
+__Megan: [00:31:40]__ Interesting. So like a screen, or a hologram?
 
 __Saf: [00:31:41]__ Yeah. It's like they're cloaks that can also turn them
 invisible as well I think like a camouflage, so it basically just shows
@@ -662,7 +662,7 @@ what that means." Like I know exactly what it means. And because of the way the
 book leads up, you know what that particular death means for the future of the
 world.
 
-__[00:32:35]__ So the worldbuilding is extremely cool and I really enjoy it. I
+__Saf: [00:32:35]__ So the worldbuilding is extremely cool and I really enjoy it. I
 just wish the characters were extremely cool and realistic, because I can't
 quite get into the characters, even the main character. Like I'm kind of
 attached to him because he's... the main character. But everyone else, I'm like
@@ -681,7 +681,7 @@ them. Which is such a weird place to be in, but it's where I'm at.
 
 __Megan: [00:33:26]__ That is a weird place and I can imagine you,
 theoretically going up to the author and being like: "Hey I like your books but
-you need to stop."
+you need to *stop*."
 
 __Megan: [00:33:39]__ I mean obviously we wouldn't do that in reality but it
 makes me laugh because it's the opposite of having to wait a long time for a
@@ -705,8 +705,8 @@ out Brooke Bolander's an amazing writer, who coulda known?
 __Megan: [00:34:30]__ So good. So so good.
 
 __Saf: [00:34:32]__ So I read **[The Only Harmless Great Thing]** and **[No
-Flight Without the Shatter]** which are two different short novellas. And it is
-both incredibly amazing like Brooke's language is just gorgeous. She writes how
+Flight Without the Shatter]** which are two different short novellas. And they
+are both incredibly amazing. Brooke's language is just gorgeous. She writes how
 I wish I could write. The way she just describes things is just — she writes
 with ambiguity: she doesn't clearly define anything, but the way she writes it
 is all about the emotions and the kind of atmosphere of it and you just get
@@ -716,7 +716,7 @@ __Saf: [00:34:59]__ So The Only Harmless Great Thing is about kind of combining
 two historical events which is: an elephant that got irradiated or something
 like that, Topsy the elephant, and then those nuclear girls who were painting
 the watches with the radiation stuff with the plutonium? I don't remember what
-it's called {`trans`: [The Radium Girls]} with the radiation stuff that glows
+it's called {t.n.: [The Radium Girls]} with the radiation stuff that glows
 so that the watch faces would glow? Who all died because they would use them
 lips to like point the brushes, because that was what they were told to do. And
 at the time they didn't know that that would kill them all because they were
@@ -784,7 +784,7 @@ for a few dollars on your digital books platform of choice.
 
 __Saf: [00:38:26]__ And here I am giving people I care about money, I guess.
 
-__[00:38:31]__ But yeah, it is generally extremely good and if you haven't
+__Saf: [00:38:31]__ But yeah, it is generally extremely good and if you haven't
 experienced Brooke Bolander's writing I would very much recommend going to read
 that, because you'll know it's the right thing. I don't know. I found it very
 easily because it was on my library's— because it was on the Mystery Shelf.
@@ -1383,10 +1383,10 @@ how you serve your audience and that's not an effective iteration process.
 
 __Saf: [01:13:22]__ Yeah, exactly. You can't go in like that. You can go in and
 be like "I want to pitch this story with Eris." But, whether or not it fits,
-you'd have to be able to let that stuff go. I ever wrote a Star Wars book, god
-forbid, I'd be like "okay, Imma try and find a way to put Chuchi in here," but
-if it didn't work, I would accept that, and I wouldn't put her in. But I would
-try my best to pitch it. So that she would be in there.
+you'd have to be able to let that stuff go. If I ever wrote a Star Wars book,
+god forbid, I'd be like "okay, Imma try and find a way to put Chuchi in here,"
+but if it didn't work, I would accept that, and I wouldn't put her in. But I
+would try my best to pitch it. So that she would be in there.
 
 __Saf: [01:13:44]__ A lot of it is about negotiation, it turns out, and
 communication, turns out. Even if you're the sole writer on a thing, you still
