@@ -29,3 +29,4 @@ parents:
  - {Marvel/Thor/HP} **[Tale of the Burrowed Hammer](https://archiveofourown.org/works/16097447)**. {1k words}
  - {HP/Marvel} **[The Blood On My Hands... It Scares Me To Death](https://archiveofourown.org/works/11799474)**. {88k words atow}
  - {SW} [Changing Fate](https://archiveofourown.org/works/11335293). {19k words}
+ - {GoT} **[the lone traveller](https://archiveofourown.org/works/14176137)**. {211k words}
