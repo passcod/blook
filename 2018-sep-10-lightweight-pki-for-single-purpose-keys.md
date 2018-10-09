@@ -1,6 +1,7 @@
 ---
 date: 2018-09-10T20:35:14+12:00
 title: Lightweight PKI for single-purpose keys
+frontpage: false
 tags:
    - introduction
    - crypto
