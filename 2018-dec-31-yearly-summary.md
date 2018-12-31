@@ -1,7 +1,7 @@
 ---
 # vim: tw=80
 title: 2018
-date: 2018-12-31T22:00:00+13:00
+date: 2018-12-31T22:20:00+13:00
 tags:
   - summary
   - yearly
@@ -105,13 +105,6 @@ Let's see how that big list is doing:
    it might become a thing. More of a side business to start with.
  - Nano with 50k. Hahahaha no.
 
-## Conferences
-
-## Books
-
-### Bought
-### Backed
-
 ## Donations
 
 Every year that I am able to, I try to give some portion of my salary away in
@@ -169,12 +162,13 @@ up and running.
 
 ### Open source funding
 
-//
+$800 are allocated for "funding open source software I use." Unfortunately, I
+haven't yet done the final divvy up of that, but I'll do that in the first week
+of the year, which is also my second week of leave.
 
 ### Patreon
 
-Aside from my regular donations, I also gave $xxx to various creators on Patreon.
-
+Aside from my regular donations, I also gave $695 to various creators on Patreon.
 
 ## Fanfiction
 
@@ -206,18 +200,37 @@ After doing some sampling during the year, I have measured that I read about
  - November → December: 112k
  - Updates (estimated): 6,240k
 
-(Total: 22.073 million words, down from 32 last year.)
+(Total: 22 million words, down from 32 last year.)
 
 ## Open Source Projects
 
-### Abandoned / Finished / Stalled
+ - [Notify](https://github.com/passcod/notify), a file watcher library for
+   Rust, version 5, in development without a release for yet another year...
 
-### Maintained / Worked on
+ - [Rogare](https://github.com/storily/rogare), a Discord bot and novel /
+   wordcount management tool (once only for NaNoWriMo, now expanded).
 
- - [Notify](https://github.com/passcod/notify), my file watcher library for Rust.
+ - [Omelette](https://github.com/passcod/omelette), a suite of tools for Twitter
+   (and eventually other platforms) archival and history deletion.
 
-### Created / Started
+ - [Certainly](https://github.com/passcod/certainly), a tool to create
+   self-signed and self-CA-signed multi-domain certificates.
 
-### Contributed to
+### Still private, to be released
 
- - [The Rust Book](https://github.com/rust-lang/book): [#1088](https://github.com/rust-lang/book/pull/1088)
+ - [🔨 Fulliautomatisk](https://github.com/passcod/fulliautomatisk), a tool for
+   monitoring an Asterisk internal database.
+
+ - [💦 Splash](https://github.com/passcod/splash), a reimplementation and
+   modernisation of a radio analysis tool.
+
+ - [🌈 Armstrong](https://github.com/passcod/certainly), a framework and daemon
+   that adds rich job control, composition, and monitoring on top of an ordinary
+   queue.
+
+### Contributions
+
+ - [The Rust Book](https://github.com/rust-lang/book/pull/1088)
+ - [Apexcharts (Vue)](https://github.com/apexcharts/vue-apexcharts/pull/12)
+ - [Node Gearman client](https://github.com/mreinstein/node-gearman/pull/25)
+ - (issue opened) [Ceph Shaman](https://github.com/ceph/shaman/issues/102)
