@@ -118,6 +118,8 @@ All amounts are in NZ dollars, even if the donation was in another currency.
 As a special occasion, I donated $365 to the Internet Archive in the form of my
 remaining [stash of bitcoin][ia-btc] when I decided "that's it, I'm out".
 
+[ia-btc]: https://twitter.com/passcod/status/1015105207389192193
+
 ### Individuals
 
 $100 were given directly to individuals.
