@@ -1,6 +1,7 @@
 ---
 # vim: tw=80
 title: 2018
+date: 2018-12-31T22:00:00+13:00
 tags:
   - summary
   - yearly
