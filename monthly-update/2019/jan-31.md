@@ -111,3 +111,6 @@ the moment.
  - {SW} [Terriers of Conflict Resolution](https://archiveofourown.org/works/12271554). {5k words}
  - {SW} [Second Chances](https://archiveofourown.org/works/11778969). {6k words}
  - {SW} **[Concordance](https://archiveofourown.org/works/17305367)**. {16k words atow}
+ - {SW} [Speaker of Valaeanath](https://archiveofourown.org/works/496954). {19k words}
+ - {SW} [Tell Me No Tales](https://archiveofourown.org/works/12424332). {91k words atow}
+ - {HP} **[Novocaine](https://archiveofourown.org/works/15537897)**. {176k words atow}
