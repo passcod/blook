@@ -93,12 +93,14 @@ makes efficient compute use easy and eliminates hours of setup and discussions.
 And through this one feature, you can already see other aspects of the system.
 More later!
 
-Armstrong is in early stages of development, and no parts of it are available at
-the moment.
+Armstrong is still in development, and no parts of it are yet available.
+
+## Fiction
+
+ - **[Reports of Witches Falling](https://archiveofourown.org/works/17122601)**. {2k words}
 
 ## Fanfiction
 
- - {Original} **[Reports of Witches Falling](https://archiveofourown.org/works/17122601)**. {2k words}
  - {Marvel} [The Plural of Mongoose](https://archiveofourown.org/works/1877010). {1k words}
  - {HP} [A Lack of Static Identity](https://archiveofourown.org/works/3108170). {3k words}
  - {HP} [In Which Sirius Black Fails to Argue with a Hat](https://archiveofourown.org/works/17268434). {14k words atow}
@@ -111,6 +113,11 @@ the moment.
  - {SW} [Terriers of Conflict Resolution](https://archiveofourown.org/works/12271554). {5k words}
  - {SW} [Second Chances](https://archiveofourown.org/works/11778969). {6k words}
  - {SW} **[Concordance](https://archiveofourown.org/works/17305367)**. {16k words atow}
+ - {40k} [Giltran](https://archiveofourown.org/works/17408942). {2k words}
  - {SW} [Speaker of Valaeanath](https://archiveofourown.org/works/496954). {19k words}
  - {SW} [Tell Me No Tales](https://archiveofourown.org/works/12424332). {91k words atow}
  - {HP} **[Novocaine](https://archiveofourown.org/works/15537897)**. {176k words atow}
+
+## Non-fiction
+
+- {CS} [The Little Typer](https://mitpress.mit.edu/books/little-typer). (started, not yet finished)
