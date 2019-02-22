@@ -1,6 +1,7 @@
 ---
 date: 2017-07-29T15:58:37+12:00
 title: Some misconceptions about HPMoR
+frontpage: false
 ---
 
 I don't hold HPMoR to be the best fanfic ever written. I have read much better,
