@@ -28,3 +28,4 @@ again” which was kinda completely unnecessary but also I read some good fics!
    expressing themselves through scathe and scoff. They'd hit it off, I'm sure,
    after Nizar scolds them for being psychotic idiots.
  - {Naruto} [Family's Just Another Word For Something Left To Lose](https://archiveofourown.org/works/6649681). {62k words}
+ - {HP} [Boggarts and monsters](https://www.fanfiction.net/s/12663362). {7k words atow}
