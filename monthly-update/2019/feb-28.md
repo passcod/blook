@@ -66,6 +66,12 @@ ramping up research and prototyping, and some people know what this is, but I’
 also keeping it way under wraps for now. This is something that might actually
 turn into something profitable! So that’s exciting.
 
+## Russian Doll
+
+Yes, [the Netflix show](https://www.netflix.com/title/80211627).
+
+A short note, but I absolutely loved this.
+
 ## Fiction
 
 So what I did this month is finish all my fics in instance, and then I went
