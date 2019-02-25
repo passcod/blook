@@ -93,3 +93,6 @@ again” which was kinda completely unnecessary but also I read some good fics!
    after Nizar scolds them for being psychotic idiots.
  - {Naruto} [Family's Just Another Word For Something Left To Lose](https://archiveofourown.org/works/6649681). {62k words}
  - {HP} [Boggarts and monsters](https://www.fanfiction.net/s/12663362). {7k words atow}
+ - {GoT/HP} [On Dead Wings](https://archiveofourown.org/works/7460943). {21k words atow}
+ - {LotR} [The Gift of the Garden Born](https://archiveofourown.org/works/6467485). {25k words}
+ - {HP} [The Flamel Experiments](https://archiveofourown.org/works/7232674). {87k words atow}
