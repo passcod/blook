@@ -19,11 +19,11 @@ class Fic
       'SW'
     when /thor/i
       'Thor'
-    when /avengers/i, /marvel/i
+    when /avengers/i, /marvel/i, /daredevil/i
       'Marvel'
     when /harry potter/i
       'HP'
-    when /lord of the rings/i, /LotR/, /LoTR/
+    when /lord of the rings/i, /LotR/, /LoTR/, /hobbit/i
       'LotR'
     when /stargate/i, /sg-?1/i
       'Stargate'
@@ -47,8 +47,10 @@ class Fic
       'Good Omens'
     when /sherlock/i
       'Sherlock'
-    when /\bhowl\b/i
+    when /\bhowl\b/i, /ghibli/i
       'Ghibli'
+    when /original/i
+      'Original'
     end
   end
 
