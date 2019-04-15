@@ -18,3 +18,6 @@ Some high-quality fic this month.
  - {HP} **[Do Badgers Dream of Chocolate Hobnobs?](https://archiveofourown.org/works/17439230)**. {6k words}
  - {HP} **[ʸe Gentlewizard's Guide to Courtshippe & Matrimonie](https://archiveofourown.org/works/1550243)**. {24k words}
  - {HP} [Getting Familiar](https://archiveofourown.org/works/1550324). {15k words}
+ - {HP} [HP & the Chamber of Secrets: The Time Jump Chronicles](https://archiveofourown.org/works/18468757). {3k words atow}
+ - {HP} **[‘Sarcasm and Slytherin’ series](https://archiveofourown.org/series/863648)**. {627k words atow}
+ - {Marvel} [Out of the Shadows](https://archiveofourown.org/works/18462290). {5k words}
