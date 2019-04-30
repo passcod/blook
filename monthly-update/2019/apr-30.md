@@ -28,3 +28,4 @@ Some high-quality fic this month, and a new comic!
  - {SW} [‘Let Us’ series](https://archiveofourown.org/series/1076118). {79k words atow}
  - {HP} [Stars Become Them](https://archiveofourown.org/works/8177603). {44k words}
  - {Original Comic} **[Sleepless Domain](http://www.sleeplessdomain.com)**. {410 pages atow}
+ - {HP} **[another bend in the road](https://archiveofourown.org/works/18549484)**. {25k words atow}
