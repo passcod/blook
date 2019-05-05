@@ -16,3 +16,4 @@ parents:
  - {HP} [Some Hours of Loneliness](https://archiveofourown.org/works/18506593). {3k words}
  - {HP} [The Sum of Their Parts](https://archiveofourown.org/works/6334630). {138k words}
  - {HP} [Triumphant, the Dreamer](https://archiveofourown.org/works/10051634). {207k words atow}
+ - {HP} **[Paper Trails](https://archiveofourown.org/works/13486242)**. Also [tweeted about](https://twitter.com/passcod/status/1124886289604419585). {12k words atow}
