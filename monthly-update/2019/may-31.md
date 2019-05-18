@@ -17,3 +17,6 @@ parents:
  - {HP} [The Sum of Their Parts](https://archiveofourown.org/works/6334630). {138k words}
  - {HP} [Triumphant, the Dreamer](https://archiveofourown.org/works/10051634). {207k words atow}
  - {HP} **[Paper Trails](https://archiveofourown.org/works/13486242)**. Also [tweeted about](https://twitter.com/passcod/status/1124886289604419585). {12k words atow}
+ - {Marvel/Thor} [Made For This](https://archiveofourown.org/works/18723403). {5k words}
+ - {Marvel} [The Benevolent Ruler of the Universe](https://archiveofourown.org/works/18818002). {2k words}
+ - {HP} [Even Lady Luck has Favorites](https://archiveofourown.org/works/7251955). {9k words atow}
