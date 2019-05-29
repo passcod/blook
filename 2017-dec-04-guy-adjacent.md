@@ -1,6 +1,7 @@
 ---
 date: 2017-12-04T00:09:49+13:00
 title: Guy-Adjacent
+frontpage: false
 tags:
    - thought
    - gender
