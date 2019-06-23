@@ -49,6 +49,8 @@ class Fic
       'Sherlock'
     when /\bhowl\b/i, /ghibli/i
       'Ghibli'
+    when /good omens/i
+      'Good Omens'
     when /original/i
       'Original'
     end
