@@ -20,3 +20,6 @@ parents:
  - {Marvel} [5 times steve rogers tried to play matchmaker and the 1 time tony intervened.](https://archiveofourown.org/works/19059598). {7k words}
  - {HP/Marvel} [Blindingly Obvious](https://archiveofourown.org/works/19161280). {3k words}
  - {Good Omens} **[It's All Decided For Us](https://archiveofourown.org/works/19076176)**. {2k words}
+ - {HP} [Orange Lilies for Disdain](https://archiveofourown.org/works/17270057). {19k words atow}
+ - {HP} **[The Changing Times](https://archiveofourown.org/works/19361722)**. {19k words}
+ - {HP} [No Journey's End](https://archiveofourown.org/works/8051980). {57k words atow}
