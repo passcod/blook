@@ -24,3 +24,7 @@ I might keep at it and re-link the month’s first in each update.
  - {HP} [Death and the Boy](https://archiveofourown.org/works/1115380). {6k words}
  - {HP} [Unsealed](https://archiveofourown.org/works/1115373). {5k words}
  - {HP} **[‘Island of Fire’ series](https://archiveofourown.org/series/205025)**. {43k words atow}
+
+I’ve also been reading and voting on this year’s Hugo Awards slate. I haven’t
+read _everything_, unfortunately, but I had a lot of fun and tears with the
+shorter works. They were hard to rank!
