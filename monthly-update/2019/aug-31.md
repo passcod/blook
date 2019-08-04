@@ -13,3 +13,4 @@ parents:
  - {HP} [pansy's influence](https://archiveofourown.org/works/14856107). {4k words}
  - {HP} [Kneazles, Cocoa and Chess](https://archiveofourown.org/works/14514261). {1k words}
  - {Good Omens} **[Eridu](https://archiveofourown.org/works/20103811)**. {4k words}
+ - {HP} **[‘Shit Slytherins Say’ series](https://archiveofourown.org/series/961926)**. {6k words atow}
