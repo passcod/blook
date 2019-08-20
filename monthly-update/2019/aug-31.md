@@ -25,3 +25,20 @@ parents:
  - {HP} [Love or Die](https://archiveofourown.org/works/11600229). {1k words}
  - {HP} [‘who would've thought?’ series](https://archiveofourown.org/series/1025037). {3k words atow}
  - {HP} [wear me like a locket around your throat (i'll watch you choke)](https://archiveofourown.org/works/10595394). {2k words}
+ - {HP} **[Shut Up](https://archiveofourown.org/works/6309682)**. {39k words}
+ - {HP} [Close](https://archiveofourown.org/works/2455307). {1k words}
+ - {HP} [A Rocky Road](https://archiveofourown.org/works/2621660). {1k words}
+ - {HP} [The Raven](https://archiveofourown.org/works/11402667). {7k words}
+ - {HP} [Of Bets And One Night Stands](https://archiveofourown.org/works/11352507). {3k words}
+ - {HP} [The Reunion](https://archiveofourown.org/works/10559164). {5k words}
+ - {HP} **[Pansy's Hair](https://archiveofourown.org/works/8924575)**. {1k words}
+ - {HP} [Brownie Points](https://archiveofourown.org/works/8851429). {2k words}
+ - {HP} [Blizzard](https://archiveofourown.org/works/8803243). {2k words}
+ - {HP} [Vice](https://archiveofourown.org/works/8218310). {11k words}
+ - {HP} [Through Chaos](https://archiveofourown.org/works/8286715). {7k words}
+ - {HP} [Postscript](https://archiveofourown.org/works/8003452). {7k words}
+ - {HP} [creek painting](https://archiveofourown.org/works/8034634). {2k words}
+ - {HP} [bad habits for good ideas](https://archiveofourown.org/works/7979209). {1k words}
+ - {HP} [A Promise Kept](https://archiveofourown.org/works/7687510). {7k words}
+ - {HP} [Our Deal](https://archiveofourown.org/works/7361701). {3k words}
+ - {HP} [One Good Reason](https://archiveofourown.org/works/6720898). {1k words}
