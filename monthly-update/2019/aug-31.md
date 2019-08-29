@@ -42,3 +42,8 @@ parents:
  - {HP} [A Promise Kept](https://archiveofourown.org/works/7687510). {7k words}
  - {HP} [Our Deal](https://archiveofourown.org/works/7361701). {3k words}
  - {HP} [One Good Reason](https://archiveofourown.org/works/6720898). {1k words}
+ - {HP} [Prime Cut](https://archiveofourown.org/works/3994798). {5k words}
+ - {HP} [don't be shy, let's cause a scene](https://archiveofourown.org/works/3871411). {25k words}
+ - {HP} **[‘Chaos Theory’ series](https://archiveofourown.org/series/231060)**. {63k words}
+ - {HP} [Bitch](https://archiveofourown.org/works/2825900). {5k words}
+ - {Good Omens} **[Burnt](https://archiveofourown.org/works/20433377)**. {10k words}
