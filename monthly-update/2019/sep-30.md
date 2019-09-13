@@ -8,6 +8,26 @@ parents:
   - "2019-aug-31/monthly-update"
 ---
 
+## Abandoning Notify
+
+I made the decision to abandon Notify. I wrote lots about it, both [on Github]
+and [on Twitter], but the shortest justification is this:
+
+> \[Notify\] sparks *negative joy*, so I’m Marie-Kondo-ing it out.
+
+Turns out however that abandoning such a large piece of software and my life
+isn’t simple. I’m not taking it back, ever at all if I can manage it, but
+getting to the point of it being off my hands completely is not all
+straightforward. I do hope it gets there soonish, though, because otherwise
+quite a few crates and part of the ecosystem will start not working anymore.
+
+I also hope I’m making this transition less painful than other abandonments I’ve
+seen in the OSS space before, though. My goal is to reclaim my own time and joy,
+not to say fuck you to any part of Rust or cause misery to anyone.
+
+[on Github]: https://github.com/passcod/notify/issues/209
+[on Twitter]: https://twitter.com/passcod/status/1170626632089866240
+
 ## Fiction
 
  - {HP} [Making It Believable](https://archiveofourown.org/works/779841). {2k words}
