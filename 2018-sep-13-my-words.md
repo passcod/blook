@@ -44,7 +44,7 @@ All those things are equal influences, all as important as each other.
 
 ---
 
-“**Guy-adjacent**” is still okay as a word. It's one way to describe me.
+“**Guy-adjacent**” is still somewhat okay as a word. It's one way to describe me.
 
 Here are others.
 
@@ -65,15 +65,15 @@ Here are others.
    exposure to others for too long: this is fairly frequent after conferences,
    or even during for long ones. I will happily not talk to anyone else for an
    entire week, if I'm given the opportunity (solo hiking trips being pretty
-   much the only time nowadays).
+   much the only time nowadays — social media counts as talking!).
 
- - “**Bisexual**”. With some preferences towards some aspects. I accept neither
-   “pansexual” (too niche, I feel, and it feels _odd_ all the same) nor
-   “sapiosexual” (connotations are strongly against, and I very much don't get
-   horny only for _brains_ whether physical or metaphoric). I'd say that the
-   _potential_ is there within the general population, and I do get attracted
-   to some and not others, but the divide is neither on gender nor body traits.
-   If I figure it out decisively one day I'll pick a better word.
+ - “**Pansexual**”. With some preferences towards some aspects. Also “bisexual”
+   which was my previous preference over “pan” — words and thoughts change! I
+   reject “sapiosexual” (connotations are strongly against, and I very much
+   don't get horny only for _brains_ whether physical or metaphoric). I'd say
+   that the _potential_ is there within the general population, and I do get
+   attracted to some and not others, but the divide is neither on gender nor body
+   traits. If I figure it out decisively one day I'll pick a better word.
 
  - “**Demi-romantic**”. Not “demi-sexual”. Not “aromantic”. I get crushes. I do
    fall in love. It doesn't happen always, but most importantly for this word:
@@ -84,9 +84,9 @@ Here are others.
    companionship.)
 
  - “**Non-binary**”. I am that. See the first section of this post, and the
-   previous article, for how I am _not_ like others who use that word. But I
-   definitely am. Like the other below, I knew I was non-binary before I knew
-   it was a thing.
+   previous article, for how I am _not_ like some others who use that word.
+   But I definitely am. Like the other below, I knew I was non-binary before
+   I knew it was a thing.
 
  - “**Poly**”. Not out of the absolute _need_ to be with more than one person
    (see demi above), although that varies with context, but out of the complete
