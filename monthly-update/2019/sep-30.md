@@ -52,7 +52,7 @@ not to say fuck you to any part of Rust or cause misery to anyone.
  - {HP} [Margin for Error](https://archiveofourown.org/works/16494956). {4k words}
  - {HP} [Mirror, Mirror](https://archiveofourown.org/works/18346316). {5k words}
  - {HP} [Dancing or Something](https://archiveofourown.org/works/13185630). {7k words}
- - {?} [](https://archiveofourown.org/works/18623245). {0k words atow}
+ - {Meta} [The Only Unproblematic Slash Fic](https://archiveofourown.org/works/18623245). {1k words}
  - {Good Omens} **[Smoke Gets In](https://archiveofourown.org/works/19833880)**. {5k words}
  - {HP} [My Best Friend's Sister](https://archiveofourown.org/works/18157694). {2k words}
  - {HP} **[‘Catching Flies’ series](https://archiveofourown.org/series/783057)**. {17k words atow}
