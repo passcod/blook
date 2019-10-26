@@ -17,9 +17,7 @@ class Fic
     case dom
     when /star wars/i
       'SW'
-    when /thor/i
-      'Thor'
-    when /avengers/i, /marvel/i, /daredevil/i
+    when /thor/i, /avengers/i, /marvel/i, /daredevil/i
       'Marvel'
     when /harry potter/i
       'HP'
@@ -51,6 +49,12 @@ class Fic
       'Ghibli'
     when /good omens/i
       'Good Omens'
+    when /fullmetal alchemist/i
+      'FMA'
+    when /addams family/i
+      'Addams'
+    when /no hero academia/i
+      'No Hero'
     when /original/i
       'Original'
     end
