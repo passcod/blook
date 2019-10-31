@@ -28,3 +28,7 @@ parents:
  - {FMA/HP} [The Colours of the World](https://archiveofourown.org/works/6870892). {114k words atow}
  - {Naruto} **[the bridge that always burns behind us](https://archiveofourown.org/works/17645477)**. {28k words atow}
  - {Naruto} [Second Chance](https://archiveofourown.org/works/7776559). {104k words atow}
+ - {HP} **[made weak by time and fate, but strong in will](https://archiveofourown.org/works/15086759)**. {58k words atow}
+ - {HP} [‘A Trio of Tricksters’ series](https://archiveofourown.org/series/908046). {29k words atow}
+ - {FMA/HP} **[Cerulean Silver vs Amber Gold](https://archiveofourown.org/works/7271614)**. {100k words atow}
+ - {FMA/HP} [‘Through the Gate’ series](https://archiveofourown.org/series/781794). {238k words atow}
