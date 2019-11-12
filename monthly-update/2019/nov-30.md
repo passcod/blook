@@ -21,3 +21,4 @@ parents:
  - {FMA/HP} [About a Boy](https://archiveofourown.org/works/8117647). {36k words atow}
  - {Naruto} **[Adoption by Defenestration; or, A Family Can Be A Fox Demon, Its Jinchuuriki, and Three Dozen Highly-Trained Assassins](https://archiveofourown.org/works/15866901)**. {5k words}
  - {Naruto/Bleach} **[Bite](https://archiveofourown.org/works/8918860)**. {26k words atow}
+ - {HP} [Ambientem](https://archiveofourown.org/works/17170529). {102k words atow}
