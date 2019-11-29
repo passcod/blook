@@ -28,3 +28,4 @@ parents:
  - {Naruto} [‘in dreams you follow (but I dream in the dark)’ series](https://archiveofourown.org/series/722013). {156k words atow}
  - {Naruto/HP} [‘The Troika’ series](https://archiveofourown.org/series/902118). {16k words atow}
  - {Good Omens} [Misfire](https://archiveofourown.org/works/19246183). {80k words atow}
+ - {Naruto} **[Hear the Silence](https://archiveofourown.org/works/15406896)**. {557k words atow}
