@@ -81,3 +81,15 @@ We'll see what next year brings.
  - {Good Omens} [A Certain Distance](https://archiveofourown.org/works/20771585). {2k words}
  - {HP/Naruto/LotR/Pokémon} [‘Lily and the Art of Being Sisyphus’ series](https://archiveofourown.org/series/1105731). {1313k words atow}
  - {HP/Naruto/SW/Marvel} [‘Minato Namikaze and the Destroyer of Worlds’ series](https://archiveofourown.org/series/1106670). {766k words atow}
+ - {Good Omens} **[‘Eden's Echoes’ series](https://archiveofourown.org/series/1509932)**. {204k words atow}
+ - {Good Omens/Sherlock} [‘Omens On Baker Street’ series](https://archiveofourown.org/series/1481288). {154k words atow}
+ - {Good Omens/HP} [no mortal man can win this day (it's a kind of magic)](https://archiveofourown.org/works/20003359). {11k words atow}
+ - {Good Omens/HP} [Emergency Godfather](https://archiveofourown.org/works/19323424). {11k words atow}
+ - {SW} [relative dimensions](https://archiveofourown.org/works/21894925). {4k words}
+ - {HP} [the miracle came with a pop](https://archiveofourown.org/works/21573742). {23k words atow}
+ - {Naruto} [Oh Human Child](https://archiveofourown.org/works/14359941). {25k words atow}
+ - {Good Omens} [the angels never arrived (but i can hear the choir)](https://archiveofourown.org/works/12401013). {1k words}
+ - {Naruto/HP} [A Thousand Years of Light Between Us](https://archiveofourown.org/works/15542409). {10k words}
+ - {FMA/Naruto} [gold meets silver](https://archiveofourown.org/works/13373187). {5k words}
+ - {HP/Naruto} [Nature's Revenge](https://archiveofourown.org/works/16143257). {1k words}
+ - {Marvel/FMA} [The Principle of Loss](https://archiveofourown.org/works/14027520). {56k words atow}
