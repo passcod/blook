@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo 0 0 $(
-  rg \
+  ag \
     -o \
     '\{(([\d.]+)k[\s+]*)+ words[^}]*\}' \
     "$1" \
