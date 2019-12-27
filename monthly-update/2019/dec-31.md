@@ -93,3 +93,11 @@ We'll see what next year brings.
  - {FMA/Naruto} [gold meets silver](https://archiveofourown.org/works/13373187). {5k words}
  - {HP/Naruto} [Nature's Revenge](https://archiveofourown.org/works/16143257). {1k words}
  - {Marvel/FMA} [The Principle of Loss](https://archiveofourown.org/works/14027520). {56k words atow}
+ - {HP} **[The Phoenix Burns Brightest](https://archiveofourown.org/works/17475989)**. {97k words atow}
+ - {HP} **[‘Potter Rage’ series](https://archiveofourown.org/series/1567849)**. {23k words atow}
+ - {No Hero/Marvel} [a window between](https://archiveofourown.org/works/16834105). {9k words atow}
+ - {HP} [‘let's get you off that pedestal - it's warmer down here’ series](https://archiveofourown.org/series/1281209). {19k words atow}
+ - {HP/Marvel} [Polite Battery](https://archiveofourown.org/works/6164557). {3k words}
+ - {Avatar/HP} [Theory In Practice](https://archiveofourown.org/works/360156). {3k words}
+ - {HP/FMA} [Order of the Alchemist](https://archiveofourown.org/works/15546090). {29k words atow}
+ - {Marvel/HP} **[‘For Watering; Greener Grass’ series](https://archiveofourown.org/series/1116729)**. {35k words atow}
