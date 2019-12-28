@@ -142,7 +142,7 @@ class Ao3 < Fic
   end
 
   def work_id
-    %r{#{DOMAIN}/works/(\d+)}.match(@url.to_s)[1].strip
+    %r{#{DOMAIN}(?:/collections/[^/]+)?/works/(\d+)}.match(@url.to_s)[1].strip
   end
 
   def first_chapter
@@ -179,7 +179,7 @@ class Ao3Series < Ao3
   end
 
   def work_id
-    %r{#{DOMAIN}/series/(\d+)}.match(@url.to_s)[1].strip
+    %r{#{DOMAIN}(?:/collections/[^/]+)?/series/(\d+)}.match(@url.to_s)[1].strip
   end
 
   def first_chapter

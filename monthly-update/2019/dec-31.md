@@ -101,3 +101,12 @@ We'll see what next year brings.
  - {Avatar/HP} [Theory In Practice](https://archiveofourown.org/works/360156). {3k words}
  - {HP/FMA} [Order of the Alchemist](https://archiveofourown.org/works/15546090). {29k words atow}
  - {Marvel/HP} **[‘For Watering; Greener Grass’ series](https://archiveofourown.org/series/1116729)**. {35k words atow}
+ - {HP} [‘Crazy=Genius’ series](https://archiveofourown.org/series/996066). {16k words atow}
+ - {Naruto/HP} [you can't be too careful](https://archiveofourown.org/works/12405585). {3k words}
+ - {FMA/Marvel} [Encounter](https://archiveofourown.org/works/8812459). {5k words}
+ - {HP} [‘The Great Escape’ series](https://archiveofourown.org/series/623765). {1k words atow}
+ - {HP/Marvel} [The Dog That Fell Out of the Sky](https://archiveofourown.org/works/9606506). {3k words}
+ - {HP/LotR} [The Dragon of Moria](https://archiveofourown.org/works/6832576). {5k words}
+ - {Naruto} [Uchiha Kyōya](https://archiveofourown.org/works/7417357). {7k words atow}
+ - {Naruto} [‘Obito's (mis)adventures in Death Note’ series](https://archiveofourown.org/series/1221680). {77k words atow}
+ - {HP/Marvel} [Harry Potter and the God That Wasn't](https://archiveofourown.org/works/798650). {80k words atow}
