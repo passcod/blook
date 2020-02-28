@@ -55,6 +55,12 @@ class Fic
       'Addams'
     when /no hero academia/i
       'No Hero'
+    when /inception/i
+      'Inception'
+    when /how to train your dragon/i, /H[tT]TYD/
+      'HTTYD'
+    when /spider[\- ]man/i
+      'Spider-Man'
     when /original/i
       'Original'
     end
@@ -103,8 +109,8 @@ class Fic
   def self.from_url(url)
     url = url.strip
 
-    star = url.end_with?('*') || url.end_with?('×')
-    url.gsub!(/[\*×]$/u, '')
+    star = url.end_with?('~') || url.end_with?('×')
+    url.gsub!(/[~×]$/u, '')
 
     kinds = [
       Ao3Series,
