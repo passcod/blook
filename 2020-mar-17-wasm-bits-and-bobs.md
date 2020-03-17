@@ -102,7 +102,16 @@ In Rust, to specify the import namespace (defaults to `env`), you need to use
 the `#[link(wasm_import_namespace = "foo")]` attribute on the extern block like
 so:
 
-*sample*
+```rust
+#[link(wasm_import_namespace = "log")]
+extern {
+   fn trace(mem: i32, ptr: i32, len: i32);
+   fn debug(mem: i32, ptr: i32, len: i32);
+   fn info(mem: i32, ptr: i32, len: i32);
+   fn warn(mem: i32, ptr: i32, len: i32);
+   fn error(mem: i32, ptr: i32, len: i32);
+}
+```
 
 [AllocRef]: https://doc.rust-lang.org/nightly/std/alloc/trait.AllocRef.html
 
@@ -116,13 +125,38 @@ that is, from inside an imported function call. The first is highly ergonomic,
 the other not very (this will probably improve going forward, there's no reason
 not to).
 
-*code sample to call from an Instance*
+```rust
+let func: Func<(i32, i32)> = instance.func("foo_functer")?;
+let res = func.call(42, 43)?;
+```
 
 To call from a `Ctx`, the best way currently is to pre-emptively (before
 instantiating) obtain the indices of the exported functions you want to call
 from the compiled module, and then call into the `Ctx` using those indices:
 
-*code samples*
+```rust
+// after compiling, with a Module
+let export_index = module
+    .info()
+    .exports
+    .get("foo_functer")
+    .unwrap();
+
+let func_index = if let ExportIndex::Func(func_index) = export_index {
+    unsafe { std::mem::transmute(*func_index) }
+} else {
+    panic!("aaah");
+}
+
+// inside an imported function, with a Ctx
+let foo = 42;
+let fun = 43;
+
+let res = ctx.call_with_table_index(
+    func_index,
+    &[WasmValue::I32(foo as _), WasmValue::I32(fun as _)],
+)?;
+```
 
 [wasmer]: https://wasmer.io
 
