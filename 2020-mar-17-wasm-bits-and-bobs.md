@@ -161,32 +161,40 @@ let res = ctx.call_with_table_index(
 [wasmer]: https://wasmer.io
 
 
-## Instantiation and "executables"
+## Instantiation and the start section
 
-One surprise is that beyond "libraries", wasm modules can contain a `start`
-function, which can be thought of like a `main` function in C and Rust: code
-that runs directly, without being called via an exported function.
+Wasm modules can contain a `start` section, which can **absolutely not** be
+thought of like a `main` function in C and Rust: code that runs directly,
+without being called via an exported function.
 
-The `start` function is run during the instantiation sequence. That does mean
-there is no control as to when to call it, but that same aspect also makes it
-predictable: imports are set up, memories have their initial contents, whatever
-those might be, and everything else is _as-is_.
+The `start` section is run during the instantiation sequence.
+If there's no `start` section, it's not called, simple as that.
 
-If there's no `start` function, it's not called, simple as that.
+Now, wasm people will insist that the `start` section is a compiler detail that
+should absolutely not be used by common plebeians or for programs and such,
+that it's useless anyway because it runs before "the module" and "exports" are
+available, and that implicitely `export`ed functions rely on the `start` having
+been run, so you really shouldn't use this for anything...
 
-However, there's no exception either: if a `start` function is present, it's
-called. That means "libraries" can call their own initialisation code, for
-example. It also means that if a module is designed to be usable both as a
-library or as an entrypoint or executable, there probably needs to be some kind
-of mechanism for it to figure which context it's in. This isn't something I've
-had to deal with yet, though.
+Anyway, you can't generate it.
 
-This `start` function provides a useful mechanism for isolated module calls,
-rather than instantiating once and then repeatedly calling an exported function
-which name you have to document, you load the module's bytecode, compile it
-once, store that result, and then use instantiation as a method call... except
-with the guarantee that all state (except that which is affected by imports
-etc) is reset between calls.
+And fair enough. I'm sure they know their stuff and they have good reasons.
+
+**However**. The instantiation process for Wasm is [precisely defined][w-i].
+*After* this process, the module is ready for use. Wonderful. **The `start`
+section is called as the very last step of the instantiation process.**
+
+So while the official advice is to have some export named, e.g. `main` or
+something and then having the runtime call this export straight away, if you
+want to deliberately flout the guidelines, _you probably can_. You can totally
+use the instantiation of a module as a kind of glorified function call.
+
+It's most certainly a bad idea... but you can.
+
+Given that nothing will generate this for you, you'll need to post-process the
+wasm to add the `start` section in yourself. A small price to pay.
+
+[w-i]: https://webassembly.github.io/spec/core/exec/modules.html#exec-instantiation
 
 
 ## Types
