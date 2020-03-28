@@ -50,6 +50,28 @@ pretty much the extent of my options as much of everything else either embeds
 an entire runtime or is too high level or is too eldritch, [wildly
 annoying][go], or unfamiliar.
 
+Even more useful is wat's ability to write stack instructions in
+s-expressions... or not, as the need may be. For example, this:
+
+```wat
+i32.const 31
+call $addOne
+i32.const 8
+i32.mul
+```
+
+Can equally (and more clearly) be written:
+
+```wat
+(i32.mul
+   (call $addOne
+      (i32.const 31))
+   (i32.const 8))
+```
+
+Strictly more verbose, but helpful where following along with a stack notation
+can be confusing.
+
 [ftl-elf]: https://fasterthanli.me/blog/2020/whats-in-a-linux-executable/
 [`wee_alloc`]: https://github.com/rustwasm/wee_alloc
 [AssemblyScript]: https://github.com/AssemblyScript/assemblyscript
@@ -62,27 +84,28 @@ There is an assymmetry in the module system that... makes sense to anyone who's
 used language-level module systems but might not be immediately obvious when
 approaching this in the context of dynamic libraries.
 
-There are four types of exports and imports: functions, globals (i.e. constants
-and statics), memories, tables (which I don't concern myself with).
+There are four types of exports and imports: functions (bread and butter),
+globals (i.e. constants and statics, but see later), memories (generally only
+one), tables (for dispatch and the like, which I don't much deal with).
 
-While engines do support all types fairly well, languages targetting Wasm often
-only support functions well. It's not uncommon to initially start with an
-integration that expects an exported global, only to then change it to a
+While engines do support all types, as per spec, languages targetting Wasm
+often only support _functions_ well. It's not uncommon to initially start with
+an integration that expects an exported global, only to then change it to a
 function that's read on init and documented to need a constant output, because
 some desired language doesn't support making wasm globals.
 
-Wasm has the concept of _multiple_ linear memories, and of exportable and
-importable memories. Currently, the spec only supports one memory, which can
-either be defined in the module or imported (defined elsewhere, including some
-other module). In theory and/or experiments, most languages also only support a
-single memory, or only support additional memories as addressable blobs of
-data. C &co, with manual memory management, can in theory allocate anywhere,
-and so may be better off... Rust's [AllocRef] nightly feature shows promise to
-be able to specify the allocator for some data, and therefore be able to
-configure multiple allocators each targeted at a different memory. However,
-that will require multiple memory support at the (spec and then) language level
-in the first place. For now, designing integrations to handle more than one
-memories is not required but a good future-proofing step.
+Wasm has the potential concept of _multiple_ linear memories, and of exportable
+and importable memories. Currently, the spec only supports one memory, which
+can either be defined in the module or imported (defined elsewhere, including
+some other module). In theory and/or experiments, most languages also only
+support a single memory, or only support additional memories as addressable
+blobs of data. C &co, with manual memory management, can in theory allocate
+anywhere, and so may be better off... Rust's [AllocRef] nightly feature shows
+promise to be able to specify the allocator for some data, and therefore be
+able to configure multiple allocators each targeted at a different memory.
+However, that will require multiple memory support at the (spec and then)
+language level in the first place. For now, designing integrations to handle
+more than one memories is not required but a good future-proofing step.
 
 Exports are straightforward: each export has a name and maps to some entry in
 the module's index spaces. Once you compile a module from bytecode you can look
@@ -105,11 +128,11 @@ so:
 ```rust
 #[link(wasm_import_namespace = "log")]
 extern {
-   fn trace(mem: i32, ptr: i32, len: i32);
-   fn debug(mem: i32, ptr: i32, len: i32);
-   fn info(mem: i32, ptr: i32, len: i32);
-   fn warn(mem: i32, ptr: i32, len: i32);
-   fn error(mem: i32, ptr: i32, len: i32);
+   fn trace(ptr: i32, len: i32);
+   fn debug(ptr: i32, len: i32);
+   fn info(ptr: i32, len: i32);
+   fn warn(ptr: i32, len: i32);
+   fn error(ptr: i32, len: i32);
 }
 ```
 
@@ -161,6 +184,108 @@ let res = ctx.call_with_table_index(
 [wasmer]: https://wasmer.io
 
 
+## Multi-value
+
+Something that is not obvious at first glance is that multi-value returns in
+wasm is comparatively young and not very well supported, which presents nasty
+surprises when trying to use it in all but the most trivial cases.
+
+Multi-value \[return\] is when wasm functions support multiple return values
+instead of just one:
+
+```wat
+(func $readTwoI32s (param $offset i32) (result i32 i32)
+   (i32.load (local.get $offset))
+   (i32.load (i32.add (local.get $offset) (i32.const 4)))
+)
+```
+
+To compile that with wat2wasm, you need the `--enable-multi-value` flag, which
+should have been a... flag... that this wasn't quite as well-supported as the
+current spec made it out to be.
+
+However, wasmer supports multi-value like a champ, both for calling exports:
+
+```rust
+let func: Func<(i32), (i32, i32)> = instance.func("read_two_i32s")?;
+let (one, two) = func.call(0)?;
+```
+
+and for defining imports:
+
+```rust
+imports! {
+   "env" => {
+      "get_two_i64s" => func!(|| -> (i64, i64) {
+         (41, 42)
+      }),
+   },
+};
+```
+
+That initially lulled me in a false sense of security and I went about
+designing APIs using multi-value and testing them with multi-value hand-written
+wat. All seemed great!
+
+Then I tried using Rust to write wasm modules that used my APIs and everything
+fell apart because Rust does not support multi-value for Wasm... and lies to
+you when you try using it.
+
+See, Rust uses some kind of "C-like" ABI to do the codegen for its imports and
+exports in its wasm support, such that if you write this:
+
+```rust
+extern {
+   fn get_two_i64s() -> (i64, i64);
+}
+```
+
+with multi-value you might expect this wasm:
+
+```wat
+(func (export "get_two_i64s") (result i64 i64))
+```
+
+but what you actually get is this:
+
+```wat
+(func (export "get_two_i64s") (param i32))
+```
+
+Uhhh???
+
+What Rust is actually exporting is a function that would look like this:
+
+```rust
+extern {
+   fn get_two_i64s(pointer_to_write_to: u32);
+}
+```
+
+which you'd then call like:
+
+```rust
+let mut buf: [i64; 2] = [0; 2];
+unsafe { get_two_i64s(buf.as_mut_ptr()); }
+let [a, b] = buf;
+```
+
+So now both sides have to know that `get_two_i64s` expects to write two i64s
+contiguously somewhere in memory you specify, and then you retrieve that.
+
+The wasmrust "framework" _does_ support multi-value. It doesn't magically
+activate a hidden rustc flag to enable multi-value codegen, though: it
+_post-processes the wasm_, looks for "things that look like they're multi-value
+functions", and _writes them a wrapper that is multi-value_, leaving the
+originals in place so you can use _both_ styles. What the actual fuck.
+
+I'm sure it works great with the limited API style that wasmrust's bindgen
+macros write out, and I'm sure it was a lot easier to do this than to add
+multi-value support to Rustc, but it sure seems like a huge kludge.
+
+Anyway, so: multi-value is sexy, but don't even bother with it.
+
+
 ## Instantiation and the start section
 
 Wasm modules can contain a `start` section, which can **absolutely not** be
@@ -192,7 +317,9 @@ use the instantiation of a module as a kind of glorified function call.
 It's most certainly a bad idea... but you can.
 
 Given that nothing will generate this for you, you'll need to post-process the
-wasm to add the `start` section in yourself. A small price to pay.
+wasm to add the `start` section in yourself. A small price to pay. (Seriously,
+though: don't. It's all fun and games until nasal daemons eat your laundry, and
+again, _nothing supports this_.)
 
 [w-i]: https://webassembly.github.io/spec/core/exec/modules.html#exec-instantiation
 
@@ -209,12 +336,12 @@ supported).
 
 To start with, you can't pass 128-bit integers in using v128. Good try!
 
-The wasm pointer size wasm is 32 bits. Period. There's no wasm64 at this point.
-If you're writing an integration and need to store or deal with pointers from
-inside wasm, don't bother with usize and perhaps-faillible casts, use u32 and
-cast up to usize when needed (e.g. when indexing into memories). Then pop this
-up in your code somewhere to be overkill in making sure that cast is always
-safe:
+The wasm pointer size wasm is 32 bits. Period. There's effectively no wasm64 at
+this point, even though it's specced and mentioned in a few places. If you're
+writing an integration and need to store or deal with pointers from inside
+wasm, don't bother with usize and perhaps-faillible casts, use u32 and cast up
+to usize when needed (e.g. when indexing into memories). Then pop this up in
+your code somewhere to be overkill in making sure that cast is always safe:
 
 ```rust
 #[cfg(not(any(target_pointer_width = "32", target_pointer_width = "64")))]
@@ -231,4 +358,4 @@ it's all convention. Make sure everything is documented, because if you pass
 
 ## There may be more
 
-but that's all I can think of for now.
+and I'm adding on as I go.
