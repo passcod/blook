@@ -9,8 +9,7 @@ class Fic
   def initialize(url, star)
     @url = URI url
     @star = star
-    @doc = Nokogiri::HTML Typhoeus.get(@url, followlocation: true).body
-    # puts @doc.inspect
+    @doc = Nokogiri::HTML Typhoeus.get(@url, followlocation: true, accept_encoding: 'gzip,deflate,br').body
   end
 
   def fantag(dom)
