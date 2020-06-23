@@ -4,7 +4,7 @@ title: My words
 parent: 2017/dec/03/guy-adjacent
 ---
 
-**Obsoleted by [Check all applicable labels](/2020/jun/03/check-all-applicable-labels).**
+**Obsoleted by [Check all applicable labels](/2020/jun/22/check-all-applicable-labels).**
 
 ---
 
