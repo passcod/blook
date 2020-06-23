@@ -26,16 +26,16 @@ categories or labels, but I don't really. I'm not presently interested in gettin
 particular direction, either. But I do recognise I am not NT, and that's a step. I think.
 
 I am not the picture of health. I have an invisible, undiagnosed chronic illness or condition, which
-after much questioning, sounds pretty similar to, if an incredibly mild version of, fibro. But maybe
-I think that because several friends _do_ have diagnosed fibro, and I recognise myself in my
-friends. I would never want to make their struggles and hardship about me, though, so I'm not going
-to associate (beyond this post) to the condition. I'm also very wary of something that sounds very
-much like a general “we have no idea, let's describe the symptoms and call it a thing” which I'm
-sure is helpful from a medical and also community point of view, but is super despairing from the
-perspective of someone wondering about what they have and if it's ever fixable and with a dislike of
-doctors. I probably need therapy. And medical care. I don't know if I'll ever work up the nerve to
-push past my past experiences and get there, which sounds very silly because I KNOW I HAVE THE
-PROBLEM, WHY WON'T I DO SOMETHING ABOUT IT.
+after much questioning, sounds pretty similar to, if an incredibly mild version of, a named
+condition. But maybe I think that because several friends _do_ have that named condition, properly
+diagnosed, and I recognise myself in my friends. I would never want to make their struggles and
+hardship about me, though, so I'm not going to associate myself with it. I'm also very wary of
+something that sounds very much like a general “we have no idea, let's describe the symptoms and
+call it a thing” which I'm sure is helpful from a medical and also community point of view, but is
+super despairing from the perspective of someone wondering about what they have and if it's ever
+fixable and with a dislike of doctors. I probably need therapy. And medical care. I don't know if
+I'll ever work up the nerve to push past my past experiences and get there, which sounds very silly
+because I KNOW I HAVE THE PROBLEM, WHY WON'T I DO SOMETHING ABOUT IT.
 
 Speaking of mental health, I don't have impostor syndrome anymore. Wooo. It only took several years.
 I still have a latent fear of rejection. But I'm pretty confident in my skills now, and most
