@@ -4,6 +4,10 @@ title: My words
 parent: 2017/dec/03/guy-adjacent
 ---
 
+**Obsoleted by [Check all applicable labels](/2020/jun/03/check-all-applicable-labels).**
+
+---
+
 When I wrote [Guy-Adjacent](/2017/dec/03/guy-adjacent), I positioned myself
 from a position of not wanting to impede on a space I didn't particularly think
 I should occupy. Most of the sentiments expressed there remain the same: I am
@@ -93,7 +97,5 @@ Here are others.
    lack of any feeling regarding being “mono”. I do not care for it, in all
    meanings of the phrase. That too, I knew about myself before I knew it had a
    word.
-
-I'll edit if or when I find other words I feel as strongly about as I do these.
 
 [limited panics]: https://en.wikipedia.org/wiki/Limited_symptom_attack
