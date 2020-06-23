@@ -32,6 +32,6 @@ Hi.
 
 (And hello again: [see this newer post][more-words] for more on my words.)
 
-(And again, this [even newer post](/2020/jun/23/check-all-applicable-labels) for yet another take on labels.)
+(And again, this [even newer post](/2020/jun/22/check-all-applicable-labels) for yet another take on labels.)
 
 [more-words]: /2018/sep/13/my-words
