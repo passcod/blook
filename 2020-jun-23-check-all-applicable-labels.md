@@ -8,14 +8,8 @@ parents:
 ---
 
 This is the third in a series of posts going back to 2017 where I attempt to describe the labels
-that apply to me. The first, “Guy-Adjacent”, I have since unpublished as I stopped thinking it
-represented me sometime last year and I didn't want it up anymore, even though I know some people
-liked it and resonated with some of the things in it. It's still somewhere in the git history, of
-course.
-
-The second, “My words”, will also probably disappear at some point, unless I find a way to mark
-posts as “deprecated” that leaves me satisfied enough that I can bear to leave it up for archival
-and historical sake.
+that apply to me. The first, “Guy-Adjacent”, I know some people liked a lot and resonated with some
+of the things in it, but it doesn't match me _at all_ anymore. It's there, though.
 
 ---
 
