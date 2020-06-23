@@ -57,7 +57,7 @@ understanding, but it's still extremely important to me that labels are only abo
 communication and sharing, and are not utterly accurate, finite, bounded, prescriptive descriptions
 of me and who I am.
 
-Let's get the easy stuff out of the way: I am **French**, I am **Pákehá**, a **New Zealander**,
+Let's get the easy stuff out of the way: I am **French**, I am **Pākehā**, a **New Zealander**,
 sometimes a **kiwi** depending on context. I am technically European, but don't really have it as an
 identity, and certainly do not feel like an NZ European, whatever that means. I am European in an
 Europe context, but not in an Aotearoa context.
