@@ -1,7 +1,7 @@
 ---
 # vim: tw=100
 date: 2020-08-06T01:59:42+12:00
-title: Known Unknowns: a configuration language
+title: "Known Unknowns: a configuration language (Dhall review)"
 ---
 
 Last month I dove into [Dhall] after discovering it more than a year ago but never having the excuse
