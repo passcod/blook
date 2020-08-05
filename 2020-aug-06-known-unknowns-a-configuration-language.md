@@ -81,6 +81,13 @@ a structure as a `Action<Specifics>` where `Action` has a type and id, and `Spec
 enum/union for `AddPartition` or `WriteFilesystem` but the required structure has type and ids and
 all specific properties on the same level, to different translations for different outputs.
 
+**Postel's Law.** Or robustness principle. The one that goes "Be conservative in what you do, be
+liberal in what you accept from others." Dhall is conservative in what it does, certainly, and also
+very strict in what it accepts. This would not be so much a problem if the tooling/erroring was
+better: JSON can also be said to be strict on the input, and tooling exists that will point to where
+the error is quite precisely; YAML can be said to be quite lax, and may silently do the wrong thing.
+Dhall, however, doesn't improve one way or the other.
+
 ## What I'd really want, and where this starts to seriously diverge
 
 As, I went down this road one nebulous concept really made itself known by its lack, which I'm
