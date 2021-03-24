@@ -4,9 +4,9 @@ CC0 declaration below; ignore this header.
 
 Works in this folder and subfolders created *after* Saturday 13th February
 2016 are Copyright © Félix Saparelli (and may be released under a license
-when specified). Works created prior to that date are covered by the CC0.
-Modifications to works created prior to that date are covered by the CC0
-unless otherwise specified.
+when specified) or Copyright © Their Respective Authors where indicated.
+Works created prior to that date are covered by the CC0. Modifications to
+works created prior to that date are covered by the CC0 unless specified.
 
 ------------------------------------------------------------------------
 
