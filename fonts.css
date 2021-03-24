@@ -1,0 +1,397 @@
+:root {
+  --font-serif: 'Cabrito Didone', ui-serif, serif;
+  --font-sans: 'Rawson Pro', ui-sans-serif, sans-serif;
+  --font-mono: 'Iosevka Curly', Iosevka, ui-monospace, monospace;
+}
+
+
+/* These fonts are licensed for my use only and may not be reused elsewhere. */
+
+@font-face {
+  font-family: 'Cabrito Didone';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 100;
+  src: url(fonts/cabrito-didone_thin.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Cabrito Didone';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 100;
+  src: url(fonts/cabrito-didone_thin-italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Cabrito Didone';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 200;
+  src: url(fonts/cabrito-didone_light.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Cabrito Didone';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 200;
+  src: url(fonts/cabrito-didone_light-italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Cabrito Didone';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  src: url(fonts/cabrito-didone_book.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Cabrito Didone';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 300;
+  src: url(fonts/cabrito-didone_book-italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Cabrito Didone';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/cabrito-didone_regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Cabrito Didone';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: url(fonts/cabrito-didone_regular-italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Cabrito Didone';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: url(fonts/cabrito-didone_medium.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Cabrito Didone';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 500;
+  src: url(fonts/cabrito-didone_medium-italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Cabrito Didone';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: url(fonts/cabrito-didone_demi.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Cabrito Didone';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 600;
+  src: url(fonts/cabrito-didone_demi-italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Cabrito Didone';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/cabrito-didone_bold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Cabrito Didone';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 700;
+  src: url(fonts/cabrito-didone_bold-italic.woff2) format('woff2');
+}
+
+
+@font-face {
+  font-family: 'Rawson Pro';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 100;
+  src: url(fonts/rawson-pro_thin.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Rawson Pro';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 100;
+  src: url(fonts/rawson-pro_thin-italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Rawson Pro';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 200;
+  src: url(fonts/rawson-pro_extralight.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Rawson Pro';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 200;
+  src: url(fonts/rawson-pro_extralight-italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Rawson Pro';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  src: url(fonts/rawson-pro_light.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Rawson Pro';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 300;
+  src: url(fonts/rawson-pro_light-italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Rawson Pro';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/rawson-pro_regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Rawson Pro';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: url(fonts/rawson-pro_regular-italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Rawson Pro';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: url(fonts/rawson-pro_medium.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Rawson Pro';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 500;
+  src: url(fonts/rawson-pro_medium-italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Rawson Pro';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: url(fonts/rawson-pro_semibold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Rawson Pro';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 600;
+  src: url(fonts/rawson-pro_semibold-italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Rawson Pro';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/rawson-pro_bold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Rawson Pro';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 700;
+  src: url(fonts/rawson-pro_bold-italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Rawson Pro';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 800;
+  src: url(fonts/rawson-pro_extrabold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Rawson Pro';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 800;
+  src: url(fonts/rawson-pro_extrabold-italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Rawson Pro';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 900;
+  src: url(fonts/rawson-pro_black.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Rawson Pro';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 900;
+  src: url(fonts/rawson-pro_black-italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Rawson Pro';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 950;
+  src: url(fonts/rawson-pro_extrablack.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Rawson Pro';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 950;
+  src: url(fonts/rawson-pro_extrablack-italic.woff2) format('woff2');
+}
+
+
+/* Iosevka is licensed freely with OFL-1.1: https://typeof.net/Iosevka/ */
+
+@font-face {
+  font-family: 'Iosevka Curly';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 100;
+  src: url(fonts/iosevka-curly_thin.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Curly';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 100;
+  src: url(fonts/iosevka-curly_thin-italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Curly';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 200;
+  src: url(fonts/iosevka-curly_light.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Curly';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 200;
+  src: url(fonts/iosevka-curly_light-italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Curly';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  src: url(fonts/iosevka-curly_regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Curly';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 300;
+  src: url(fonts/iosevka-curly_regular-italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Curly';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/iosevka-curly_medium.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Curly';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: url(fonts/iosevka-curly_medium-italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Curly';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: url(fonts/iosevka-curly_semibold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Curly';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 600;
+  src: url(fonts/iosevka-curly_semibold-italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Curly';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/iosevka-curly_bold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Curly';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 700;
+  src: url(fonts/iosevka-curly_bold-italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Curly';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 900;
+  src: url(fonts/iosevka-curly_heavy.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Curly';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 900;
+  src: url(fonts/iosevka-curly_heavy-italic.woff2) format('woff2');
+}
+
