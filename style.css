@@ -4,11 +4,11 @@
 
 html {
   color: #494949;
-  font-family: 'Rawson Pro', 'Rawson-Pro_Regular', sans-serif;
+  font-family: var(--font-sans);
 }
 
 pre, code, kbd, samp {
-  font-family: 'DroidSans Mono', 'Droid Sans Mono', 'Fira Mono', 'Ubuntu Mono', monospace;
+  font-family: var(--font-mono);
 }
 
 pre, code {
