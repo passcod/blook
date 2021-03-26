@@ -1,14 +1,71 @@
+/** variable **/
+
+:root {
+  --c-red: #ef3953;
+  --c-orange: #fb9834;
+  --c-yellow: #ecca20;
+  --c-green: #36aa27;
+  --c-blue: #2198b9;
+  --c-purple: #9c1dc3;
+  
+  --c-background: white;
+  --c-text: #494949;
+  --c-text-bright: black;
+  --c-text-dimmed: #888;
+  
+  --c-border: var(--c-red);
+  --c-border-mono: #888;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c-background: black;
+    --c-text: #aaa;
+    --c-text-bright: white;
+    --c-text-dimmed: #646464;
+  }
+}
+
+/** layout **/
+
 * {
   box-sizing: border-box;
 }
+
+html {
+  background: var(--c-background);
+  color: var(--c-text);
+  font-family: var(--font-sans);
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 80ch;
+  min-width: 50ch;
+  min-height: 100%;
+  border: 1ch solid var(--c-border);
+
+  display: grid;
+  grid-template:
+    "header" max-content
+    "main" 1fr
+    "footer" max-content
+  / 1fr;
+}
+
+body > header { grid-area: header }
+body > main { grid-area: main }
+body > footer { grid-area: footer }
+
+/** generic **/
 
 p {
   margin: 0.5em auto;
 }
 
 h1, h2, h3, h4, h5, h6, th, thead, tfoot {
-  color: black;
-  font-size: 1rem;
+  color: var(--c-text-bright);
   font-weight: bold;
   margin: 0;
   padding: 0;
@@ -19,7 +76,7 @@ h2 {
 }
 
 article img, section img {
-  border: 1ch solid var(--blue);
+  border: 1ch solid var(--c-blue);
   margin: 1ch;
   max-width: 100%;
 }
@@ -75,40 +132,7 @@ pre code {
   background: none;
 }
 
-:root {
-  --c-red: #ef3953;
-  --c-orange: #fb9834;
-  --c-yellow: #ecca20;
-  --c-green: #36aa27;
-  --c-blue: #2198b9;
-  --c-purple: #9c1dc3;
-  --c-border: var(--c-red);
-}
-
-html {
-  color: #494949;
-  font-family: var(--font-sans);
-  height: 100%;
-}
-
-body {
-  margin: 0 auto;
-  max-width: 80ch;
-  min-width: 50ch;
-  min-height: 100%;
-  border: 1ch solid var(--c-border);
-
-  display: grid;
-  grid-template:
-    "header" max-content
-    "main" 1fr
-    "footer" max-content
-  / 1fr;
-}
-
-body > header { grid-area: header }
-body > main { grid-area: main }
-body > footer { grid-area: footer }
+/** specific **/
 
 body > header, body > footer, main > section {
 	padding: 1ch;
@@ -148,12 +172,22 @@ header p, footer p {
 header .avatar {
   float: right;
   height: 5ch;
-  border: 1px solid #888;
+  border: 1px solid var(--c-border-mono);
 }
 
-p.p-note {
+header .aka {
+	color: var(--c-blue);
+  font-weight: 600;
+}
+
+header .aka a {
+  text-decoration: none;
+}
+
+header .subtitle {
   font-size: 1.2em;
-  color: #888;
+  font-weight: 500;
+  color: var(--c-green);
 }
 
 footer {
@@ -166,16 +200,8 @@ section .avatar {
 }
 
 section h1 {
+  font-size: 1rem;
   font-variant: small-caps;
   font-weight: 600;
   letter-spacing: 0.2px;
-}
-
-.github-fork-ribbon {
-  background-color: #494949;
-}
-
-.github-fork-ribbon a {
-  border-bottom: 1px dotted rgba(255, 255, 255, 0.7);
-  color: white;
 }
