@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Why you’re blocked :: passcod.name</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+    <link rel="stylesheet" href="/fonts.css">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1><a href="https://passcod.name" class="u-url p-name">Félix Saparelli</a></h1>
+      <p class="aka">a.k.a. <span class="p-nickname">passcod</span><a href="https://blog.passcod.name/trademark">™</a></p>
+    </header>
+    <main>
+      <section>
+        <h2>Why you’re blocked</h2>
+
+        <p>I am a fairly prolific blocker on Twitter, and less of one on GitHub. I may also block people on other
+          platforms, but I don’t really use other platforms as I do those two. For a time, it was possible to block
+          some artists on Spotify, and I did that, too, but I believe that’s not really a thing anymore.</p>
+
+        <p>On this page:</p>
+
+        <ul>
+          <li>current block reasons (not exhaustive),</li>
+          <li>historical block reasons and happenstance,</li>
+          <li>some discussion on the difficulty of mass unblocking accounts that may have gotten wrongfully blocked,</li>
+          <li>forgiveness, and why I don’t make use of services like Secateur,</li>
+          <li>what (not) to do if you believe I have you blocked in error.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Current block reasons</h3>
+
+        <h4>On Twitter</h4>
+        <ul>
+          <li>I don’t like you.</li>
+          <li>You’re an asshole to someone I like.</li>
+          <li>You are or support or have voted for a white supremacist, fascist, or other people who are existential threats to me or my friends.</li>
+          <li>You proselytise. Specifically religion, cults, parareligion, or cryptocoin.</li>
+          <li>You’re a transphobe, a sexist, a homophobe of various stripes, an unrepentant racist, etc.</li>
+          <li>You’re a troll. I don't mean shitposting.</li>
+          <li>You’re such a “good” shitposter that you’re indistinguishable from a troll.</li>
+          <li>You promoted a tweet I saw. There are exceptions if I genuinely liked the tweet. At this point this means I have most brands blocked.</li>
+          <li>You are frequently engaged in bad-faith argumentating with people I follow.</li>
+          <li>You had a viral tweet and posted those “sparkly lights” or whatever shitty promotion underneath.</li>
+          <li>You’re a COVID, vaccine, climate change, etc denier.</li>
+        </ul>
+
+        <h4>On GitHub</h4>
+        <ul>
+          <li>You’ve especially pissed me off. Like, it takes a lot.</li>
+          <li>You’ve been credibly accused or even actually convicted (!) of abusive behaviour.</li>
+          <li>You support or work for certain companies which are <em>actively</em> engaged in fascist activities.</li>
+          <li>You signed the 2021 RMS support letter, as of 30 March of that year.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Historical block reasons and block happenstance</h3>
+
+        <h4>On Twitter</h4>
+        <ul>
+          <li>You were on one of several third-party generated blocklists around 2015. These are the majority of wrongful blocks,
+            as they were quite overzealous and of course the scale was very large.</li>
+          <li>You followed some particularly nasty people in 2018-2019, when I ran some block scripts against their followers.</li>
+          <li>You blocked me. I used to operate under a policy of mutual-blocking, that is, if I noticed you blocked me, I would
+            block back. I’m not doing that anymore, and should have reversed all of these, but it’s possible I missed some.</li>
+        </ul>
+
+        <h4>On Spotify</h4>
+        <p>These would be current if blocking artists was still a thing.</p>
+        <ul>
+          <li>You’re an artist who is racist, homophobic, or unapologetically sexist.</li>
+          <li>You’re an artist who financially supported Trump</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Unblocking the wrongfully-blocked</h3>
+
+        <p>…is something I’d love to do, but the difficulty is <em>identifying</em> who is really truly wrongly-blocked.
+          For a sense of scale, at last accurate count in 2019, I had well over 150 000 blocks on Twitter. I would estimate
+          having about 200 000 now. Reviewing a block is a forensic process, because as I’ll explain, you cannot just rely
+          on metadata like who follows someone or their bio. Let’s have an extremely optimistic estimate of an average of
+          two minutes per wrongful block, and ten seconds per rightful block. If <em>everyone I’ve blocked</em> should
+          remain there, hand-reviewing the entire list to assure myself of that would take <strong>24 days of non-stop work</strong>.
+          When I say non-stop, I mean it would take <strong>over 550 hours</strong>. If I have even <em>two percent</em> of
+          wrongful blocks, that inflates to <strong>over 670 hours</strong>. It’s an enormous amount of work.</p>
+
+        <p>But surely, I can automate a large part of it. Reader, I tried. Over several months. It turned out that my block list
+          is extremely varied. Or rather, the people on it are varied. Or rather, the way the people on it present to me, the
+          information I have available about them, is extremely varied. I don’t have much: I have their username, display name,
+          bio, location and website fields, and maybe a few of their tweets if I write some scripts. I can put all that in a
+          database, so I can process the large amounts of information all of this adds up to. And then what?</p>
+
+        <p>There are some terms in bio I can outright block, right? Like <code>MAGA</code>. Right?
+          <a rel="nofollow" href="https://twitter.com/haaspolicy">Right?</a>
+          <a rel="nofollow" href="https://twitter.com/JoJoMorr1231">R</a>&nbsp;<a
+             rel="nofollow" href="https://twitter.com/e_whittler">i</a>&nbsp;<a
+             rel="nofollow" href="https://twitter.com/WestsideFireman">g</a>&nbsp;<a
+             rel="nofollow" href="https://twitter.com/littlebit_mia">h</a>&nbsp;<a
+             rel="nofollow" href="https://twitter.com/madumaga">t</a>?
+          Well, fuck. (For the record, five links above contained text such as “I will block MAGA trolls”, and one is someone
+          literally named Madumaga.) And I don’t even follow any of these people, this is just 30 seconds of searching. Okay,
+          maybe exclude the ones that mention <code>MAGA</code> and <code>block</code>, or <code>MAGA</code> and <code>troll</code>,
+          or some other combinations, surely that would work, <a rel="nofollow" href="https://twitter.com/KellyCreollady2">right</a>?
+          <a rel="nofollow" href="https://twitter.com/cat_conserva">Lol, fuck.</a>. Okay but surely someone who only has the word MAGA
+          and not any of these other ones is a real one, right? <a rel="nofollow" href="https://twitter.com/KayaJade19">LMAO GTFOH</a>.
+          (For the record, the first two are genuine MAGA people who block <em>anti</em>-MAGA “trolls” and the last one is a genuine
+          person whose bio speaks, without using any of the obvious keywords, of them being previously banned due to harassment <em>by</em>
+          MAGA people.)</p>
+
+        <p>And this is a comparitively simple one. Try to do the same for transphobes, and it's a quagmire. But hold on, maybe I should
+          do the inverse and identify people who are <em>clearly</em> not transphobes. Like, maybe someone who has pronouns in their bio
+          and identifies as trans is fairly easy to search for? And surely <em>they</em> would be on the “unblock” candidate list?
+          Boy oh boy. For one thing, truscums are a thing. For another, <strong><em>intersectionality</em></strong>.</p>
+
+        <p>See, it's perfectly possible to have trans racists, gay sexists, lesbian transphobes, feminist anti-vaxxers.
+          Assholes often have layers. But also, everyone can be an asshole. There is not a single group of people whose grouping
+          attribute makes them free of the potential to be an asshole. Even if there was, there would be no reliable way to
+          identify that group from their bio, or who they follow, or who they're followed by, or even scanning some of their
+          tweets. Don’t believe me? Simple thought experiment: say there is such a marker. What is the first harasser who comes
+          across it gonna do?</p>
+      </section>
+      <section>
+        <h3>Forgiveness</h3>
+
+        <p>And then there’s forgiveness. There’s a service run by fellow kiwi <a rel="nofollow" href="https://twitter.com/tveastman">Tom Eastman</a>
+          called <a rel="nofollow" href="https://secateur.app">Secateur</a> which lets you block people (and optionally all their followers,
+          it's the “block script” I mention in one of the historical block reasons above) <em>temporarily</em>. The idea is this: people change.
+          So blocking them now might be good, but they might see the error of their ways or listen to the right person or learn some <em>damn</em>
+          empathy somehow, and now they’re not someone you want to block anymore, right?</p>
+
+        <p>Maybe.</p>
+
+        <p>There are three reasons why I don’t use it or something like it:</p>
+        <ol>
+          <li>It’s another tool. I block a lot. I block quickly, I don’t take two minutes to think about it. I block on tweetdeck,
+            I block on mobile. It’s never going to be a good fit for me to have to open a separate app, copy or type a username
+            across, and hit go. That’s too much work. I just want to block and move on.</li>
+          <li>I don’t think automated forgiveness is the way to go. <em>Because</em> of all the wrongly-blocked, I am also fairly fast
+            at unblocking if someone who is blocked appears in a conversation with people I trust, and a browse of their tweets doesn’t
+            bring up any red flags. The idea there is: if you’re block-worthy, surely I’ll block you again. So, if you’ve changed, and
+            you intersect my life, chances are I’ll just unblock you outright. But if you haven’t, I don’t actually want the app to
+            unblock you. And there’s no way for the app to tell.</li>
+          <li>Blocking isn’t just for me. Blocking someone means they can’t see my tweets, and that includes replies to people, among
+            other interactions. Blocking someone stops them interacting with me, but it also:
+            <ul>
+              <li>stops them interacting with others through me</li>
+              <li>stops me accidentally retweeting one of their viral tweets later on</li>
+              <li>helps protect people I interact with who <em>haven’t</em> blocked them</li>
+              <li>protects people I interact with who <em>have</em>, or are private. Have you ever read a twitter conversation where one side
+                is public and the other is a private account? You can still figure out a lot from one side, right? That’s what I’m talking about.</li>
+            </ul>
+          </li>
+        </ol>
+
+        <p>Maybe I should just unblock everyone, do a great big reset, and then restart my block list from nil, confident that <em>from now on</em>
+          I’ll only block the deserving.</p>
+
+        <p>I don’t think so. I believe that my block list truly makes my twitter experience better, and resetting it would make it materially worse.
+          Maybe not immediately, but certainly in the longer term.</p>
+
+        <p>Overall, the cold final part of it is that I believe that the cost is worth it. That whatever small percentage of people I have wrongly
+          blocked is not significant enough to detract from the amount of good and comfort that having the rest rightfully blocked grants me.</p>
+      </section>
+      <section>
+        <h3>Getting unblocked</h3>
+
+        <p>I don’t think I’m sought after enough that this is thing, but, just in case.</p>
+
+        <p>If we have a mutual in common, you can <em>maybe</em> try to go through them. If they’re okay with it. Don’t fucking harass my friends in
+          trying to get unblocked from me, though, that’s only going to get you blocked <em>harder</em>. You can send me mail. You can contact me on
+          other platforms. You have to be aware, though, that there’s a very high chance I’ll take any such actions extremely suspiciously, even as
+          I outline them on here. Maybe if you really want to (for what reason? I’m not very interesting), and it’s a last resort.</p>
+
+        <p>Specifically on Twitter: the <em>most likely</em> way to get unblocked is to just keep on having interesting conversations with my friends,
+          and chances are I’ll happen upon them, see the block, figure it was a false-positive, and unblock you.</p>
+
+        <p>Specifically on GitHub, if you’ve signed the RMS support letter: congratulations, the reason you figured out you were blocked is probably
+          because you tried using one of my tools, like Cargo Watch, and realised signing a letter supporting an abuser has unintended consequences.
+          Whoops. A good start is unsigning that letter. I’m also doing an amnesty program, where if you donate 100 USD or EUR to a <em>well-known</em>
+          caritative organisation in support of sexual assault victims, and publish the proof publicly along with a denounciation of that fucking letter,
+          and then email me that, I’ll unblock you. Unless you also qualify for a block under the other criteria, in which case, good try, fuck off.</p>
+      </section>
+    </main>
+    <footer>
+      <p>
+        <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>.
+        <a href="/">About</a>
+        <a href="/pages/">Pages</a>.
+        <a href="/avatars/">Avatars</a>.
+      </p>
+    </footer>
+  </body>
+</html>
