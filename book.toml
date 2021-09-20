@@ -4,3 +4,14 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Félix Saparelli"
+
+[output.html]
+# cname = "passcod.name"
+git-repository-url = "https://github.com/passcod/blook"
+curly-quotes = true
+mathjax-support = true
+
+
+[output.html.fold]
+enable = true
+level = 1
