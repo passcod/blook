@@ -1,6 +1,6 @@
 # Reading archive
 
-Starting from 2017 I kept track of the large amounts of fanfiction I read, and
+Starting from 2016 I kept track of the large amounts of fanfiction I read, and
 occasionnally original fiction, non-fiction, comics, BD, etc.
 
 For fanfiction, I also kept track of the words (for ongoing works, "at time of

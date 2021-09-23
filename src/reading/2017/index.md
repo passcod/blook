@@ -1,8 +1,8 @@
 # 2017: summary
 
-> From the future (Sep 2021): that year was the first I started keeping reading records, and I
-> gradually went from individual commentary / review to a simple listing, which format has perdured
-> to this day.
+> From the future (Sep 2021): that year was the first I started keeping detailed reading records,
+> and I gradually went from individual commentary / review to a simple listing, which format has
+> perdured to this day.
 
 ## Fanfic
 
