@@ -1,0 +1,275 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>April - Félix Saparelli</title>
+                
+
+        <!-- Custom HTML head -->
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+                <link rel="icon" href="../../../favicon.svg">
+                        <link rel="shortcut icon" href="../../../favicon.png">
+                <link rel="stylesheet" href="../../../css/variables.css">
+        <link rel="stylesheet" href="../../../css/general.css">
+        <link rel="stylesheet" href="../../../css/chrome.css">
+                <link rel="stylesheet" href="../../../css/print.css" media="print">
+        
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../../FontAwesome/css/font-awesome.css">
+                <link rel="stylesheet" href="../../../fonts/fonts.css">
+        
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../../highlight.css">
+        <link rel="stylesheet" href="../../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+                <!-- MathJax -->
+        <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+            </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../../../intro.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../../../avatars.html"><strong aria-hidden="true">2.</strong> Avatars</a></li><li class="chapter-item expanded "><a href="../../../info/index.html"><strong aria-hidden="true">3.</strong> Persistent information</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../info/keys.html"><strong aria-hidden="true">3.1.</strong> Cryptographic keys</a></li><li class="chapter-item "><a href="../../../info/blocks.html"><strong aria-hidden="true">3.2.</strong> Social media blocks</a></li><li class="chapter-item "><a href="../../../info/trademark.html"><strong aria-hidden="true">3.3.</strong> Trademark</a></li><li class="chapter-item "><a href="../../../info/licensing.html"><strong aria-hidden="true">3.4.</strong> Licensing</a></li></ol></li><li class="chapter-item expanded "><a href="../../../fiction/index.html"><strong aria-hidden="true">4.</strong> Fiction</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div><strong aria-hidden="true">4.1.</strong> TBD</div></li></ol></li><li class="chapter-item expanded "><a href="../../../technical/index.html"><strong aria-hidden="true">5.</strong> Technicals</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div><strong aria-hidden="true">5.1.</strong> TBD</div></li></ol></li><li class="chapter-item expanded "><a href="../../../musings/index.html"><strong aria-hidden="true">6.</strong> Musings</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div><strong aria-hidden="true">6.1.</strong> TBD</div></li></ol></li><li class="chapter-item expanded "><a href="../../../updates/index.html"><strong aria-hidden="true">7.</strong> Progress updates</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../updates/dated/index.html"><strong aria-hidden="true">7.1.</strong> Mostly regular: 2017-2019</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../updates/dated/2016.html"><strong aria-hidden="true">7.1.1.</strong> 2016</a></li><li class="chapter-item expanded "><a href="../../../updates/dated/2017/index.html"><strong aria-hidden="true">7.1.2.</strong> 2017</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../updates/dated/2017/january.html"><strong aria-hidden="true">7.1.2.1.</strong> January</a></li><li class="chapter-item "><a href="../../../updates/dated/2017/febuary.html"><strong aria-hidden="true">7.1.2.2.</strong> Febuary</a></li><li class="chapter-item "><a href="../../../updates/dated/2017/march.html"><strong aria-hidden="true">7.1.2.3.</strong> March</a></li><li class="chapter-item expanded "><a href="../../../updates/dated/2017/april.html" class="active"><strong aria-hidden="true">7.1.2.4.</strong> April</a></li><li class="chapter-item "><a href="../../../updates/dated/2017/may.html"><strong aria-hidden="true">7.1.2.5.</strong> May</a></li><li class="chapter-item "><a href="../../../updates/dated/2017/june.html"><strong aria-hidden="true">7.1.2.6.</strong> June</a></li><li class="chapter-item "><a href="../../../updates/dated/2017/july.html"><strong aria-hidden="true">7.1.2.7.</strong> July</a></li><li class="chapter-item "><a href="../../../updates/dated/2017/august.html"><strong aria-hidden="true">7.1.2.8.</strong> August</a></li><li class="chapter-item "><a href="../../../updates/dated/2017/september.html"><strong aria-hidden="true">7.1.2.9.</strong> September</a></li><li class="chapter-item "><a href="../../../updates/dated/2017/october.html"><strong aria-hidden="true">7.1.2.10.</strong> October</a></li><li class="chapter-item "><a href="../../../updates/dated/2017/november.html"><strong aria-hidden="true">7.1.2.11.</strong> November</a></li><li class="chapter-item "><a href="../../../updates/dated/2017/december.html"><strong aria-hidden="true">7.1.2.12.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../../../updates/dated/2018/index.html"><strong aria-hidden="true">7.1.3.</strong> 2018</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../updates/dated/2018/january.html"><strong aria-hidden="true">7.1.3.1.</strong> January</a></li><li class="chapter-item "><a href="../../../updates/dated/2018/march.html"><strong aria-hidden="true">7.1.3.2.</strong> March</a></li><li class="chapter-item "><a href="../../../updates/dated/2018/april.html"><strong aria-hidden="true">7.1.3.3.</strong> April</a></li><li class="chapter-item "><a href="../../../updates/dated/2018/may.html"><strong aria-hidden="true">7.1.3.4.</strong> May</a></li><li class="chapter-item "><a href="../../../updates/dated/2018/september.html"><strong aria-hidden="true">7.1.3.5.</strong> September</a></li><li class="chapter-item "><a href="../../../updates/dated/2018/november.html"><strong aria-hidden="true">7.1.3.6.</strong> November</a></li><li class="chapter-item "><a href="../../../updates/dated/2018/december.html"><strong aria-hidden="true">7.1.3.7.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../../../updates/dated/2019/index.html"><strong aria-hidden="true">7.1.4.</strong> 2019</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../updates/dated/2019/january.html"><strong aria-hidden="true">7.1.4.1.</strong> January</a></li><li class="chapter-item "><a href="../../../updates/dated/2019/febuary.html"><strong aria-hidden="true">7.1.4.2.</strong> Febuary</a></li><li class="chapter-item "><a href="../../../updates/dated/2019/march.html"><strong aria-hidden="true">7.1.4.3.</strong> March</a></li><li class="chapter-item "><a href="../../../updates/dated/2019/april.html"><strong aria-hidden="true">7.1.4.4.</strong> April</a></li><li class="chapter-item "><a href="../../../updates/dated/2019/september.html"><strong aria-hidden="true">7.1.4.5.</strong> September</a></li><li class="chapter-item "><a href="../../../updates/dated/2019/december.html"><strong aria-hidden="true">7.1.4.6.</strong> December</a></li></ol></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../../reading/index.html"><strong aria-hidden="true">8.</strong> Reading archive</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../reading/2016/index.html"><strong aria-hidden="true">8.1.</strong> 2016</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../reading/2016/july.html"><strong aria-hidden="true">8.1.1.</strong> July</a></li><li class="chapter-item "><a href="../../../reading/2016/december.html"><strong aria-hidden="true">8.1.2.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../../../reading/2017/index.html"><strong aria-hidden="true">8.2.</strong> 2017</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../reading/2017/january.html"><strong aria-hidden="true">8.2.1.</strong> January</a></li><li class="chapter-item "><a href="../../../reading/2017/febuary.html"><strong aria-hidden="true">8.2.2.</strong> Febuary</a></li><li class="chapter-item "><a href="../../../reading/2017/march.html"><strong aria-hidden="true">8.2.3.</strong> March</a></li><li class="chapter-item "><a href="../../../reading/2017/april.html"><strong aria-hidden="true">8.2.4.</strong> April</a></li><li class="chapter-item "><a href="../../../reading/2017/may.html"><strong aria-hidden="true">8.2.5.</strong> May</a></li><li class="chapter-item "><a href="../../../reading/2017/june.html"><strong aria-hidden="true">8.2.6.</strong> June</a></li><li class="chapter-item "><a href="../../../reading/2017/july.html"><strong aria-hidden="true">8.2.7.</strong> July</a></li><li class="chapter-item "><a href="../../../reading/2017/august.html"><strong aria-hidden="true">8.2.8.</strong> August</a></li><li class="chapter-item "><a href="../../../reading/2017/september.html"><strong aria-hidden="true">8.2.9.</strong> September</a></li><li class="chapter-item "><a href="../../../reading/2017/october.html"><strong aria-hidden="true">8.2.10.</strong> October</a></li><li class="chapter-item "><a href="../../../reading/2017/november.html"><strong aria-hidden="true">8.2.11.</strong> November</a></li><li class="chapter-item "><a href="../../../reading/2017/december.html"><strong aria-hidden="true">8.2.12.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../../../reading/2018/index.html"><strong aria-hidden="true">8.3.</strong> 2018</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../reading/2018/january.html"><strong aria-hidden="true">8.3.1.</strong> January</a></li><li class="chapter-item "><a href="../../../reading/2018/febuary.html"><strong aria-hidden="true">8.3.2.</strong> Febuary</a></li><li class="chapter-item "><a href="../../../reading/2018/march.html"><strong aria-hidden="true">8.3.3.</strong> March</a></li><li class="chapter-item "><a href="../../../reading/2018/april.html"><strong aria-hidden="true">8.3.4.</strong> April</a></li><li class="chapter-item "><a href="../../../reading/2018/may.html"><strong aria-hidden="true">8.3.5.</strong> May</a></li><li class="chapter-item "><a href="../../../reading/2018/june.html"><strong aria-hidden="true">8.3.6.</strong> June</a></li><li class="chapter-item "><a href="../../../reading/2018/july.html"><strong aria-hidden="true">8.3.7.</strong> July</a></li><li class="chapter-item "><a href="../../../reading/2018/august.html"><strong aria-hidden="true">8.3.8.</strong> August</a></li><li class="chapter-item "><a href="../../../reading/2018/september.html"><strong aria-hidden="true">8.3.9.</strong> September</a></li><li class="chapter-item "><a href="../../../reading/2018/october.html"><strong aria-hidden="true">8.3.10.</strong> October</a></li><li class="chapter-item "><a href="../../../reading/2018/november.html"><strong aria-hidden="true">8.3.11.</strong> November</a></li><li class="chapter-item "><a href="../../../reading/2018/december.html"><strong aria-hidden="true">8.3.12.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../../../reading/2019/index.html"><strong aria-hidden="true">8.4.</strong> 2019</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../reading/2019/january.html"><strong aria-hidden="true">8.4.1.</strong> January</a></li><li class="chapter-item "><a href="../../../reading/2019/febuary.html"><strong aria-hidden="true">8.4.2.</strong> Febuary</a></li><li class="chapter-item "><a href="../../../reading/2019/march.html"><strong aria-hidden="true">8.4.3.</strong> March</a></li><li class="chapter-item "><a href="../../../reading/2019/april.html"><strong aria-hidden="true">8.4.4.</strong> April</a></li><li class="chapter-item "><a href="../../../reading/2019/may.html"><strong aria-hidden="true">8.4.5.</strong> May</a></li><li class="chapter-item "><a href="../../../reading/2019/june.html"><strong aria-hidden="true">8.4.6.</strong> June</a></li><li class="chapter-item "><a href="../../../reading/2019/july.html"><strong aria-hidden="true">8.4.7.</strong> July</a></li><li class="chapter-item "><a href="../../../reading/2019/august.html"><strong aria-hidden="true">8.4.8.</strong> August</a></li><li class="chapter-item "><a href="../../../reading/2019/september.html"><strong aria-hidden="true">8.4.9.</strong> September</a></li><li class="chapter-item "><a href="../../../reading/2019/october.html"><strong aria-hidden="true">8.4.10.</strong> October</a></li><li class="chapter-item "><a href="../../../reading/2019/november.html"><strong aria-hidden="true">8.4.11.</strong> November</a></li><li class="chapter-item "><a href="../../../reading/2019/december.html"><strong aria-hidden="true">8.4.12.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../../../reading/2020/index.html"><strong aria-hidden="true">8.5.</strong> 2020</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../reading/2020/january.html"><strong aria-hidden="true">8.5.1.</strong> January</a></li><li class="chapter-item "><a href="../../../reading/2020/febuary.html"><strong aria-hidden="true">8.5.2.</strong> Febuary</a></li><li class="chapter-item "><a href="../../../reading/2020/march-june.html"><strong aria-hidden="true">8.5.3.</strong> March—June</a></li><li class="chapter-item "><a href="../../../reading/2020/july.html"><strong aria-hidden="true">8.5.4.</strong> July</a></li><li class="chapter-item "><a href="../../../reading/2020/august-december.html"><strong aria-hidden="true">8.5.5.</strong> August—December</a></li></ol></li><li class="chapter-item "><a href="../../../reading/2021/index.html"><strong aria-hidden="true">8.6.</strong> 2021</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../reading/2021/january-may.html"><strong aria-hidden="true">8.6.1.</strong> First semester</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../../deprecated/index.html"><strong aria-hidden="true">9.</strong> Deprecated content</a></li></ol>            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                                                <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                                            </div>
+
+                    <h1 class="menu-title">Félix Saparelli</h1>
+
+                    <div class="right-buttons">
+                                                <a href="../../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                                                                        <a href="https://github.com/passcod/blook" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                                                
+                    </div>
+                </div>
+
+                                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="april-2017"><a class="header" href="#april-2017">April 2017</a></h1>
+<h2 id="style"><a class="header" href="#style">Style</a></h2>
+<p>As you’ve probably noticed, I have refreshed the style of this website, as well
+as the <a href="https://passcod.name">root of my domain</a>. Goodbye monospaced font for everything! The
+font is <a href="https://www.myfonts.com/fonts/latinotype/rawson">Rawson Pro</a>, by the ever-talented foundry <strong>Latinotype</strong>. And do check
+out “Dark mode” by clicking the tiny little button labelled “Day” (or “Night”)
+in the bottom left corner.</p>
+<h2 id="rust"><a class="header" href="#rust">Rust</a></h2>
+<p>I wrote down <a href="https://github.com/passcod/notify/issues/117">a massive design document</a> for Notify’s future, then
+submitted it to the Rust Reddit community to hopefully get some comments and
+reviews. The response was mostly positive, I think. However, actual
+implementation will likely take a back seat for month to come, as I work on
+other creative endeavours (see below).</p>
+<p>I also published <a href="https://github.com/passcod/cargo-watch/releases/tag/v4.0.0">version 4.0 of Cargo Watch</a>, following a
+near-complete rewrite and finally resolving several long-standing bugs and
+feature requests, including one or two that had been open for more than a year!</p>
+<p>I also upgraded Cargo Watch’s supporting documents to <a href="https://github.com/WeAllJS/weallbehave">WeAllBehave</a> and
+<a href="https://github.com/WeAllJS/weallcontribute">WeAllContribute</a>‘s outstanding templates, adapting them slightly so
+they’re more compatible with a Rust project.</p>
+<h2 id="open-source-and-community"><a class="header" href="#open-source-and-community">Open source and community</a></h2>
+<p>I’m hoping to ramp up my contribution to not only these two projects, but also
+going to more events, and participating in the developer community. The last
+two years have been <em>very quiet</em> personally on that front, and I’d like to
+remedy that.</p>
+<h2 id="nzjs"><a class="header" href="#nzjs">NZ.js</a></h2>
+<p>NZ.js was really good! One attendee made <a href="https://storify.com/knfrances/nz-js-con-wellington-march-2017">a recap via tweets</a>, and
+<a href="http://conference.javascript.org.nz/schedule/">all the talks</a> are already up and available. If you only have a
+little time, I recommend the opening keynote by @rockbot, the closing talk by
+@prototypealex, but almost all the other talks were great too, of course.
+Almost? Almost. There was definitely <strong>one</strong> that I didn’t care for at all, and
+maybe a couple others were merely <em>meh</em>. But overall? great stuff.</p>
+<h2 id="that-star-wars-fanfiction-im-writing"><a class="header" href="#that-star-wars-fanfiction-im-writing">That Star Wars Fanfiction I’m Writing</a></h2>
+<p>(The working title was “Master Kylo”, but things happened, and now Kylo Ren is a
+minor character, so I’ll have to pick a <em>new</em> working title. I’m bad at these.)</p>
+<p>I <a href="https://twitter.com/passcod/status/843336749388447744">tweeted an (intentionally) blurry photo</a> of a timeline I put up
+on my whiteboard. That was a progress shot: its current state is quite a bit
+more complete, but I also can’t show it because <em><strong>spoilers</strong></em>.</p>
+<p>Black is what I’m using from Canon, boxed names are characters or organisations
+I care about (or for context), and correspond to lines showing, by their
+proximity, where people/orgs are in relation to others. Purple is the Alternate
+Universe parts of my fic, the things that are not Canon. Yes, this fic is
+multiple-points-of-departure.</p>
+<p>You can’t see it because it’s so faint, but there’s also dates indicated. That
+busy middle bit before the vertical line going upwards is the period between 5
+and 28 ABY. The leftmost of the board starts at 19 BBY, i.e. the end of Episode
+III, and the rightmost lines end around 34 ABY, i.e. Episode VII. I left a bit
+of space after that for the actual action of my fic. It’s not to scale! There’s
+some areas that are very expanded, and some where five years take as many
+centimetres. I only have so much space.</p>
+<p>I’m now aiming to have a solid detailed outline for Part 1 of the fic, covering
+about 0 ABY until 33 ABY in various threads, as well as at least 15% (10-12k
+words) of the material drafted out, for my birthday. That’s in a month or so,
+and I already have about 4k words written down as of publish of this update.</p>
+<p>The fic has shifted focus a few times during the last few months, and now as it
+approaches its final (for now) plan it’s about the lives and events of several
+characters in-between Episodes VI and VII. We’ll see a little of Luke and Leia
+and Han, but it’s mostly about the Resistance and how it kept on fighting,
+about a boy being kidnapped from a Sectors planet and finding a good head for
+strategy and good company… only to lose it when his conscience calls him out,
+leaving behind a troubled young man who has no idea what he’ll become. It’s
+about an explorer keeping his faith even as he sees a dear friend withdraw from
+the world (with good reason) and as he leaves a place that felt like home to
+hide away, but who also cannot escape the call of discovery and curiosity. It’s
+about a mysterious voice speaking on old frequencies bringing hope and tales
+and unlikely help. It’s about a young woman in a hostile environment determined
+to get out and make her mark on the world, and it’s about another determined to
+stay put and survive where she is. It’s about the worlds continuing to turn
+while you’re looking away.</p>
+<p>What’s amusing is that the plot point that triggered the conception of this fic
+is now a minor detail that will be used only two or three times. But it’s
+there, a reminder that even when you think you know how things work, they can
+surprise you. That’s what this detail is, and that’s what this story is.</p>
+<h2 id="thoughts-on-fanfiction-todo-fix-link"><a class="header" href="#thoughts-on-fanfiction-todo-fix-link">Thoughts on Fanfiction (TODO fix link)</a></h2>
+<p>I wrote a little on <a href="https://blog.passcod.name/2017/apr/01/a-thought-on-fanfiction">what I think fanfiction is about</a>.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                                                    <a rel="prev" href="../../../updates/dated/2017/march.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+                                                    <a rel="next" href="../../../updates/dated/2017/may.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                                    <a rel="prev" href="../../../updates/dated/2017/march.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+                                    <a rel="next" href="../../../updates/dated/2017/may.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                            </nav>
+
+        </div>
+
+        
+        
+        
+                <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+        
+                <script src="../../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+        <script src="../../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+        
+    </body>
+</html>
