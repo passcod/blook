@@ -1,8 +1,12 @@
 # April 2019
 
-## Fiction
+## Original
 
-Some high-quality fic this month, and a new comic!
+ - {Comic} **[Sleepless Domain](http://www.sleeplessdomain.com)**. {410 pages atow}
+
+## Fanfiction
+
+Some high-quality fic this month!
 
  - {GoT} **[‘Winter Roses’ series](https://archiveofourown.org/series/901533)**. {413k words atow}
  - {HP} [Wonderful Tragic Mysterious](https://archiveofourown.org/works/278272). {5k words}
@@ -19,5 +23,4 @@ Some high-quality fic this month, and a new comic!
  - {HP} [Not Dumbledore](https://www.fanfiction.net/s/13266686). {5k words}
  - {SW} [‘Let Us’ series](https://archiveofourown.org/series/1076118). {79k words atow}
  - {HP} [Stars Become Them](https://archiveofourown.org/works/8177603). {44k words}
- - {Original Comic} **[Sleepless Domain](http://www.sleeplessdomain.com)**. {410 pages atow}
  - {HP} **[another bend in the road](https://archiveofourown.org/works/18549484)**. {25k words atow}
