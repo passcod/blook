@@ -1,1 +1,41 @@
-# December
+# December 2019
+
+## Fanfiction
+
+ - {HP} [Death of a Dark Lord, a True Story - by Gilderoy Lockhart](https://archiveofourown.org/works/8906032). {5k words atow}
+ - {Naruto} **[‘in dreams you follow (but I dream in the dark)’ series](https://archiveofourown.org/series/722013)**. {156k words atow}
+ - {FMA/HP} [Golden Opportunity](https://archiveofourown.org/works/9440462). {49k words atow}
+ - {Naruto/Avatar} [Silver-Haired Stranger](https://archiveofourown.org/works/19855051). {35k words atow}
+ - {Naruto} **[A Snake In the Grass, a Wolf At the Door](https://archiveofourown.org/works/2348309)**. {56k words}
+ - {Good Omens} [A Certain Distance](https://archiveofourown.org/works/20771585). {2k words}
+ - {HP/Naruto/LotR/Pokémon} [‘Lily and the Art of Being Sisyphus’ series](https://archiveofourown.org/series/1105731). {1313k words atow}
+ - {HP/Naruto/SW/Marvel} [‘Minato Namikaze and the Destroyer of Worlds’ series](https://archiveofourown.org/series/1106670). {766k words atow}
+ - {Good Omens} **[‘Eden's Echoes’ series](https://archiveofourown.org/series/1509932)**. {204k words atow}
+ - {Good Omens/Sherlock} [‘Omens On Baker Street’ series](https://archiveofourown.org/series/1481288). {154k words atow}
+ - {Good Omens/HP} [no mortal man can win this day (it's a kind of magic)](https://archiveofourown.org/works/20003359). {11k words atow}
+ - {Good Omens/HP} [Emergency Godfather](https://archiveofourown.org/works/19323424). {11k words atow}
+ - {SW} [relative dimensions](https://archiveofourown.org/works/21894925). {4k words}
+ - {HP} [the miracle came with a pop](https://archiveofourown.org/works/21573742). {23k words atow}
+ - {Naruto} [Oh Human Child](https://archiveofourown.org/works/14359941). {25k words atow}
+ - {Good Omens} [the angels never arrived (but i can hear the choir)](https://archiveofourown.org/works/12401013). {1k words}
+ - {Naruto/HP} [A Thousand Years of Light Between Us](https://archiveofourown.org/works/15542409). {10k words}
+ - {FMA/Naruto} [gold meets silver](https://archiveofourown.org/works/13373187). {5k words}
+ - {HP/Naruto} [Nature's Revenge](https://archiveofourown.org/works/16143257). {1k words}
+ - {Marvel/FMA} [The Principle of Loss](https://archiveofourown.org/works/14027520). {56k words atow}
+ - {HP} **[The Phoenix Burns Brightest](https://archiveofourown.org/works/17475989)**. {97k words atow}
+ - {HP} **[‘Potter Rage’ series](https://archiveofourown.org/series/1567849)**. {23k words atow}
+ - {No Hero/Marvel} [a window between](https://archiveofourown.org/works/16834105). {9k words atow}
+ - {HP} [‘let's get you off that pedestal - it's warmer down here’ series](https://archiveofourown.org/series/1281209). {19k words atow}
+ - {HP/Marvel} [Polite Battery](https://archiveofourown.org/works/6164557). {3k words}
+ - {Avatar/HP} [Theory In Practice](https://archiveofourown.org/works/360156). {3k words}
+ - {HP/FMA} [Order of the Alchemist](https://archiveofourown.org/works/15546090). {29k words atow}
+ - {Marvel/HP} **[‘For Watering; Greener Grass’ series](https://archiveofourown.org/series/1116729)**. {35k words atow}
+ - {HP} [‘Crazy=Genius’ series](https://archiveofourown.org/series/996066). {16k words atow}
+ - {Naruto/HP} [you can't be too careful](https://archiveofourown.org/works/12405585). {3k words}
+ - {FMA/Marvel} [Encounter](https://archiveofourown.org/works/8812459). {5k words}
+ - {HP} [‘The Great Escape’ series](https://archiveofourown.org/series/623765). {1k words atow}
+ - {HP/Marvel} [The Dog That Fell Out of the Sky](https://archiveofourown.org/works/9606506). {3k words}
+ - {HP/LotR} [The Dragon of Moria](https://archiveofourown.org/works/6832576). {5k words}
+ - {Naruto} [Uchiha Kyōya](https://archiveofourown.org/works/7417357). {7k words atow}
+ - {Naruto} [‘Obito's (mis)adventures in Death Note’ series](https://archiveofourown.org/series/1221680). {77k words atow}
+ - {HP/Marvel} [Harry Potter and the God That Wasn't](https://archiveofourown.org/works/798650). {80k words atow}
