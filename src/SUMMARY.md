@@ -1,7 +1,7 @@
 # Summary
 
 - [Introduction](intro.md)
-- [Avatars](avatars.md)
+- [Avatars](avatars/index.md)
 - [Persistent information](info/index.md)
   - [Cryptographic keys](info/keys.md)
   - [Social media blocks](info/blocks.md)
