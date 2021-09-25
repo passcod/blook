@@ -33,7 +33,7 @@ On the 3rd of June — it was Tuesday — [mako] gave me an interesting challeng
 
 [mako]: http://makopool.com/
 
-> [ mako ]: If you ever decide to introduce yourself to #merveilles, find a name that hashes to 666 according to the following
+> - { mako }: If you ever decide to introduce yourself to #merveilles, find a name that hashes to 666 according to the following
 
 ```javascript
 String.prototype.hashCode = function(){
@@ -48,7 +48,7 @@ String.prototype.hashCode = function(){
 };
 ```
 
-> [ mako ]: It'll resolve to a BLANK ICON. Nobody else will have one. It will be eerie and awesome.
+> - { mako }: It'll resolve to a BLANK ICON. Nobody else will have one. It will be eerie and awesome.
 
 Huh. Well, okay.
 
@@ -60,21 +60,21 @@ I queried for the exact parameters:
 
 After briefly considering a reverse-engineering approach, I created [a quick prototype in NodeJS][1] to bruteforce the hash using sequential strings. I set it to run, but noticed pretty quickly (i.e. my desktop environment crashed) that it was using too much memory:
 
-> [ passcod ]: I've brute-forced the hash up to 4chars and ~50% of 5chars, and node ate up nearly 2Gb of swap in under a minute. Now I'm considering rewording it in rust to have memory guarantees ;)
+> - { passcod }: I've brute-forced the hash up to 4chars and ~50% of 5chars, and node ate up nearly 2Gb of swap in under a minute. Now I'm considering rewording it in rust to have memory guarantees ;)
 
 After looking around the web (turns out that googling "NodeJS uses too much memory" returns a lot of garbage), I found [a partial solution][2]:
 
-> [ passcod ]: I'm forcing gc in node every 1000 tries, and it's slowed down the memory uptake, but it's still rising and about 1% (of 4G) every 20s :(
+> - { passcod }: I'm forcing gc in node every 1000 tries, and it's slowed down the memory uptake, but it's still rising and about 1% (of 4G) every 20s :(
 
 Clearly that wasn't the right way. Still, I persevered, switching my method to use "the *bogo* approach": generating random strings of random length. The memory usage was still insane, but I hoped to have enough data in a short while to do some analysing:
 
-> [ passcod ]: Right, after 2 million hashes taken from random strings of random(1..20) length, the *only* ones that have three characters [sic, I meant digits] are single chars. These obviously don't go as high as 666.
-> [ passcod ]: I conclude it's either rare or impossible
-> [ mako ]: I wont feel comfortable until we can conclude it's impossible. As far as we know, the devil is still out there, hiding.
+> - { passcod }: Right, after 2 million hashes taken from random strings of random(1..20) length, the *only* ones that have three characters {sic, I meant digits} are single chars. These obviously don't go as high as 666.
+> - { passcod }: I conclude it's either rare or impossible
+> - { mako }: I wont feel comfortable until we can conclude it's impossible. As far as we know, the devil is still out there, hiding.
 
 At this point, mako decided to [write one in C++][3]. Meanwhile, I wondered about outside-the-square solutions: maybe this supported UTF-8! Nope:
 
-> [ mako ]: No unicode allowed.
+> - { mako }: No unicode allowed.
 
 Oh well. Dinner awaited.
 
@@ -86,9 +86,9 @@ Oh well. Dinner awaited.
 
 That evening, I got back to mako finding C++ less than unyielding:
 
-> [ mako ]: I almost just caused an access violation.
-> [ mako ]: Already blowing my fingers off.
-> [ mako ]: Arg, exposing raw pointers. I'm so out of practice.
+> - { mako }: I almost just caused an access violation.
+> - { mako }: Already blowing my fingers off.
+> - { mako }: Arg, exposing raw pointers. I'm so out of practice.
 
 Out of curiosity and a stray "There must be a better way" thought, I started implementing it in Rust. Ninety minutes later, I had this:
 
@@ -135,11 +135,11 @@ fn main() {
 }
 ```
 
-> [ passcod ]: Mostly written because when you gave your C++, I realised I couldn't read C++
+> - { passcod }: Mostly written because when you gave your C++, I realised I couldn't read C++
 
 I started by benchmarking it against the Node version, and found that it was 3x faster unoptimised, ~10x optimised, and had constant memory usage. A definite improvement!
 
-> [ passcod ]: 200,000 iter/s
+> - { passcod }: 200,000 iter/s
 
 I attempted to make it multi-threaded, but benched it to be 2-3x slower (probably my fault, not Rust's). It didn't matter, though, as the *bogo* approach meant I could run two instances of the program with no semantic difference than doing it with threads.
 
@@ -155,13 +155,13 @@ In the morning, I woke up to two things.
   I enquired about his hashing speed (I admit I was starting to be quite proud of myself at this moment), and mentioned that at the rate I was going, I would have computed about 4 billion hashes up 'til then.
 2. I checked Twitter about 15 minutes later, and discovered that my agitation was, really, unwarranted:
 
-> [ passcod ]: I've got it
-> [ passcod ]: I've got TWO
-> [ mako ]: Dear god.
+> - { passcod }: I've got it
+> - { passcod }: I've got TWO
+> - { mako }: Dear god.
 
 They didn't look good, though, ascii barf more than anything: `8XKf2WAkny|CFAZi_vQn` and `LcBqgVVPOSEkdIB7BZlVO`.
 
-> [ mako ]: OH. We could even use my godname generator.
+> - { mako }: OH. We could even use my godname generator.
 
 Mako's current occupation is developing a "platform for encouraging writers to explore a new format for fiction and collaborative world-building." The mentioned [godname generator][4] creates a random, pronounceable name with a music that is quite particular, like "sonoellus" or "tsaleusos" or "thoruh" or "seposh".
 
@@ -184,7 +184,7 @@ _Each one of these icons was produced using an int32 seed. The 666 seed produces
 
 Wednesday evening, I had a good implementation but previous results told me to only expect an answer after five days of computation. I wondered about alternatives:
 
-> [ passcod ]: I'm half tempted to buy a few hours of highcpu AWS compute power and get it done nowish instead
+> - { passcod }: I'm half tempted to buy a few hours of highcpu AWS compute power and get it done nowish instead
 
 After a bit of research, I decided to just go for it. I set myself a $50 spending limit, which gave me about 24 hours of compute on an instance with 32 virtual cores, each about as powerful as one of my Linode's cores.
 
@@ -196,10 +196,10 @@ And went comatose again.
 
 ***
 
-> [ mako ]: That was the best sleep I've had in a while.
-> [ passcod ]: Well, godname 666 is not looking good.
-> [ mako ]: Nothing ?
-> [ passcod ]: I got a cumulative 16 billion godnames generated and hashed, and nothing.
+> - { mako }: That was the best sleep I've had in a while.
+> - { passcod }: Well, godname 666 is not looking good.
+> - { mako }: Nothing ?
+> - { passcod }: I got a cumulative 16 billion godnames generated and hashed, and nothing.
 
 Uh oh.
 
@@ -211,7 +211,7 @@ Investigating further, I realised I had made a few mistakes:
 
 After getting back from class, I set upon fixing those, which took about an hour, and I now had about 10 remaining hours of compute time. I also made an improvement to improve the yield:
 
-> [ passcod ]: Also I've modified it so each instance appends any result it finds to a file and continues running.
+> - { passcod }: Also I've modified it so each instance appends any result it finds to a file and continues running.
 
 I also created two versions of the program: one with godnames, the other with a reduced-alphabet random string generator, in the hopes of still getting readable names. I set both to run on 15 cores each.
 

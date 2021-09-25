@@ -82,5 +82,5 @@ are well-defined, which are up in the air. You can plan as _little_ or as
 _much_ as you want, there's no worldbuilding nor character development
 necessary — only if you _want_ to do it. And I like that about the medium.
 
-<sub>[This was several responses I posted in Merveilles, then edited together
-and published properly here.]</sub>
+> This was several responses I posted in Merveilles, then edited together
+> and published properly here.

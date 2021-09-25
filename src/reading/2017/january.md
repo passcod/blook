@@ -3,8 +3,8 @@
 ## Tourist
 
 There's been two chapters of [Tourist] this period, so naturally I've commented
-with my impressions on both: [[1]][tourist-1], [[2]][tourist-2]. **Tourist** is
-[Saf]'s current serial novel about AI and asexuality and depression and it's
+with my impressions on both: [\[1\]][tourist-1], [\[2\]][tourist-2]. **Tourist**
+is [Saf]'s current serial novel about AI and asexuality and depression and it's
 great! Not only do I love her writing, I love the themes and the way she
 explores them. There's a few scenes which evoke a very particular feeling I've
 experienced, and it's fascinating that Saf is able to make me remember how that

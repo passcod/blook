@@ -49,7 +49,7 @@ This is every fic I’ve read (and liked, as per usual) from January through mid
  - {Naruto} **[Honōka](https://archiveofourown.org/works/26225191)**. {247k words atow}
  - {Naruto} [Branches](https://archiveofourown.org/works/2166312). {55k words}
  - {Avatar} [Love And Fraud](https://archiveofourown.org/works/29448957). {7k words}
- - {Ever Given} **[[Filk] Leave Her Given](https://archiveofourown.org/works/30275235)**. {1k words}
+ - {Ever Given} **[\[Filk\] Leave Her Given](https://archiveofourown.org/works/30275235)**. {1k words}
  - {Avatar} [Lay Down My Heart](https://archiveofourown.org/works/29066391). {11k words}
  - {Avatar} [Make No Apology](https://archiveofourown.org/works/28306332). {7k words}
  - {SW} [A Last Hope: Mind-Healers](https://archiveofourown.org/works/30395838). {12k words}

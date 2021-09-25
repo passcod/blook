@@ -100,7 +100,7 @@ There are three reasons why I don’t use it or something like it:
     Have you ever read a twitter conversation where one side is public and the other is a private
     account? You can still figure out a lot from one side, right? That’s what I’m talking about.
 
-†: I occasionally use the [megablock.xyz](megablock.xyz) app as a one off for especially egregious cases.
+†: I occasionally use the [megablock.xyz](https://megablock.xyz) app as a one off for especially egregious cases.
 
 ## Alternatives
 
