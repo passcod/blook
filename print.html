@@ -153,6 +153,69 @@
 <div style="break-before: page; page-break-before: always;"></div><h1 id="avatars"><a class="header" href="#avatars">Avatars</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="persistent-information"><a class="header" href="#persistent-information">Persistent information</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="cryptographic-keys"><a class="header" href="#cryptographic-keys">Cryptographic keys</a></h1>
+<p>I have two kinds of keys at the moment: good old <a href="info/keys.html#gpg-keys">PGP/GPG keys</a> that are mostly used to
+sign git commits, and <a href="info/keys.html#minisign-keys">minisign keys</a> that are mostly used to sign software.</p>
+<h2 id="gpg-keys"><a class="header" href="#gpg-keys">GPG keys</a></h2>
+<p>These have an expiration date. I initially did 1-year keys, but that was too much trouble, so in
+2015 I decided to use 10-year keys, possibly with more short-lived subkeys.</p>
+<p>The keys are also available on public keyservers, e.g.:</p>
+<ul>
+<li><a href="http://pgp.mit.edu:11371/pks/lookup?search=passcod&amp;op=vindex&amp;fingerprint=on&amp;exact=on">pgp.mit.edu</a></li>
+<li><a href="http://keys.gnupg.net/pks/lookup?search=passcod&amp;op=vindex&amp;fingerprint=on&amp;exact=on">keys.gnupg.net</a></li>
+</ul>
+<h3 id="current-key-passcod06-20152025"><a class="header" href="#current-key-passcod06-20152025">Current key: passcod06 (2015–2025)</a></h3>
+<pre><code class="language-text">pub   4096R/E44FC474 2015-04-11 [expires: 2025-04-08]
+key   C24C ED9C 5790 0009 12F3  BAB4 B948 C4BA E44F C474
+uid   Félix Saparelli (:passcod) &lt;felix@passcod.name&gt;
+</code></pre>
+<ul>
+<li><a href="info/keys/passcod06.asc">Public key</a></li>
+<li><a href="info/keys/passcod06.asc.05.sig">Signature by <code>passcod05</code></a></li>
+</ul>
+<h3 id="passcod05-20142015"><a class="header" href="#passcod05-20142015">passcod05 (2014–2015)</a></h3>
+<pre><code class="language-text">pub   4096R/AE1ED85D 2014-03-27 [expires: 2015-03-27]
+key   E49C 3114 2E3D 10A4 69F0  86DC 6B09 4637 AE1E D85D
+uid   Félix Saparelli (:passcod) &lt;felix@passcod.name&gt;
+</code></pre>
+<ul>
+<li><a href="info/keys/passcod05.asc">Public key</a></li>
+<li><a href="info/keys/passcod05.asc.04.sig">Signature by <code>passcod04</code></a></li>
+<li><a href="info/keys/passcod05.asc.06.sig">Signature by <code>passcod06</code></a></li>
+<li><a href="info/keys/passcod05.revok">Revocation</a></li>
+<li><a href="info/keys/passcod05.revok.06.sig">Signature on revocation by <code>passcod06</code></a></li>
+</ul>
+<h3 id="passcod04-20132014"><a class="header" href="#passcod04-20132014">passcod04 (2013–2014)</a></h3>
+<pre><code class="language-text">pub   4096R/3C51B6EB 2013-03-27 [expired: 2014-03-27]
+key   0417 E9C8 3281 CB17 E7CB  B0EA AE48 6FBE 3C51 B6EB
+uid   Felix Saparelli (:passcod) &lt;me@passcod.name&gt;
+</code></pre>
+<ul>
+<li><a href="info/keys/passcod04.asc">Public key</a></li>
+<li><a href="info/keys/passcod04.asc.03.sig">Signature by <code>passcod03</code></a></li>
+<li><a href="info/keys/passcod04.asc.05.sig">Signature by <code>passcod05</code></a></li>
+<li><a href="info/keys/passcod04.revok">Revocation</a></li>
+<li><a href="info/keys/passcod04.revok.05.sig">Signature on revocation by <code>passcod05</code></a></li>
+</ul>
+<h3 id="passcod03-20122013"><a class="header" href="#passcod03-20122013">passcod03 (2012–2013)</a></h3>
+<pre><code class="language-text">pub   4096R/C2C15214 2012-09-26 [expired: 2013-03-25]
+key   FE31 5C83 9FC5 0618 A49B  AEE3 8487 3386 C2C1 5214
+uid   Felix Saparelli (:passcod) &lt;me@passcod.net&gt;
+</code></pre>
+<ul>
+<li><a href="info/keys/passcod03.asc">Public key</a></li>
+<li><a href="info/keys/passcod03.asc.04.sig">Signature by <code>passcod04</code></a></li>
+<li><a href="info/keys/passcod03.revok">Revocation</a></li>
+<li><a href="info/keys/passcod03.revok.04.sig">Signature on revocation by <code>passcod04</code></a></li>
+</ul>
+<h2 id="minisign-keys"><a class="header" href="#minisign-keys">Minisign keys</a></h2>
+<p>In <a href="https://github.com/jedisct1/minisign">minisign</a> format, used for signing software binaries.</p>
+<h3 id="software"><a class="header" href="#software">Software</a></h3>
+<pre><code class="language-text">untrusted comment: minisign public key: 2264BBE425DA952E
+RWQuldol5LtkIrx0khfo4Z7Y8SixwG2K8OagJSvsJNBcuLgB2oVNJFFv
+</code></pre>
+<ul>
+<li><a href="info/keys/software.pub">Public key</a></li>
+</ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="social-media-blocks"><a class="header" href="#social-media-blocks">Social media blocks</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="trademark"><a class="header" href="#trademark">Trademark</a></h1>
 <p>As of August 2018, “<strong>passcod</strong>” is a trademark I own personally. An official,
