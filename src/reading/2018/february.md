@@ -1,4 +1,4 @@
-# Febuary 2018
+# February 2018
 
 ## Fanfiction
 

@@ -1,4 +1,4 @@
-# Febuary 2017
+# February 2017
 
 ## Writing
 

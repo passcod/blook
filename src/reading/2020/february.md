@@ -1,4 +1,4 @@
-# Febuary 2020
+# February 2020
 
 ## Fanfiction
 
