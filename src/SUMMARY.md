@@ -6,6 +6,7 @@
   - [Cryptographic keys](info/keys.md)
   - [Social media blocks](info/blocks.md)
   - [Trademark](info/trademark.md)
+  - [Twitter authentication](info/twitter-auth.md)
 - [Fiction](fiction/index.md)
   - [Poetry](fiction/poetry/index.md)
     - [Only One Left](fiction/poetry/only-one-left.md)
