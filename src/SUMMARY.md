@@ -38,7 +38,6 @@
       - [(notes for) Regulus](fiction/shorts/regulus-notes.md)
     - [My mountain of Knowledge](fiction/shorts/my-mountain-of-knowledge.md)
     - [Finally, I knew](fiction/shorts/finally-i-knew.md)
-  - [Fanfiction](fiction/fanfic/index.md)
 - [Technicals](technical/index.md)
   - [A little elegant state machine with Async Generators](technical/async-generator-state-machine.md)
   - [Dhall: not quite it](technical/dhall-review.md)
