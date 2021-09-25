@@ -27,7 +27,7 @@ Then I derived a pattern that I use for all such classes:
 
 If I have a Neon class `JsFoo` declared in `jsfoo.rs`:
 
-```rust
+```rust,ignore
 declare_types! {
     pub class JsFoo for Foo {
         init(call) {
@@ -40,7 +40,7 @@ declare_types! {
 I'd put this at the bottom of the file (making sure to have the right number of
 arguments — that caught me out once or twice):
 
-```rust
+```rust,ignore
 pub fn new(call: Call) -> JsResult<JsFoo> {
     let mut scope = call.scope;
     let args = call.arguments;
@@ -56,7 +56,7 @@ pub fn new(call: Call) -> JsResult<JsFoo> {
 
 And then in `lib.rs`, to hook it up to the module, it's just a simple:
 
-```rust
+```rust,ignore
 mod foo;
 
 register_module!(m, {
@@ -99,7 +99,7 @@ approach. This pattern has two sides:
    needs to have its field marked `pub`, and that's what I target the Neon
    class at.
 
-   ```rust
+   ```rust,ignore
    struct WrapFoo(pub Foo);
 
    declare_types! {
@@ -112,7 +112,7 @@ approach. This pattern has two sides:
 With those two things done, the remaining bit is simple, especially combined
 with the previous pattern:
 
-```rust
+```rust,ignore
 fn load(call: Call) -> JsResult<JsList> {
     let scope = call.scope;
     let args = call.arguments;
@@ -143,7 +143,7 @@ return `'WrapList'`… not what I want! I'd rather expose the "nice" name of the
 struct. So, instead of the above, I bound the actual Rust struct to a different
 name, and named the wrapping struct as the original name, like this:
 
-```rust
+```rust,ignore
 use list::List as RustList;
 
 struct List(pub RustList);
@@ -169,7 +169,7 @@ up with values, taking care to set the right indices. And there's also a lot of
 boilerplate to make sure to use the correct variant of the `.set()` method, the
 one with **two** parameters instead of **three**.
 
-```rust
+```rust,ignore
 // Object contains the `.set()` method on JsArray.
 use neon::js::{JsArray, Object};
 

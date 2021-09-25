@@ -60,7 +60,7 @@ that makes the whole thing as easy and simple as possible! It especially excels
 at multidomain certificates, and has an extra feature to be able to create a
 local CA and sign certificates that way. All in minimal fuss and no ambiguity:
 
-```
+```text
 $ certainly test.com
 Writing test.com.key
 Writing test.com.crt

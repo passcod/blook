@@ -92,7 +92,7 @@ That evening, I got back to mako finding C++ less than unyielding:
 
 Out of curiosity and a stray "There must be a better way" thought, I started implementing it in Rust. Ninety minutes later, I had this:
 
-```rust
+```rust,ignore
 mod random {
   use std::string::String;
   use std::rand;

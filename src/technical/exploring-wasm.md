@@ -124,7 +124,7 @@ In Rust, to specify the import namespace (defaults to `env`), you need to use
 the `#[link(wasm_import_namespace = "foo")]` attribute on the extern block like
 so:
 
-```rust
+```rust,ignore
 #[link(wasm_import_namespace = "log")]
 extern {
    fn trace(ptr: i32, len: i32);
@@ -147,7 +147,7 @@ that is, from inside an imported function call. The first is highly ergonomic,
 the other not very (this will probably improve going forward, there's no reason
 not to).
 
-```rust
+```rust,ignore
 let func: Func<(i32, i32)> = instance.func("foo_functer")?;
 let res = func.call(42, 43)?;
 ```
@@ -156,7 +156,7 @@ To call from a `Ctx`, the best way currently is to pre-emptively (before
 instantiating) obtain the indices of the exported functions you want to call
 from the compiled module, and then call into the `Ctx` using those indices:
 
-```rust
+```rust,ignore
 // after compiling, with a Module
 let export_index = module
     .info()
@@ -205,14 +205,14 @@ current spec made it out to be.
 
 However, wasmer supports multi-value like a champ, both for calling exports:
 
-```rust
+```rust,ignore
 let func: Func<(i32), (i32, i32)> = instance.func("read_two_i32s")?;
 let (one, two) = func.call(0)?;
 ```
 
 and for defining imports:
 
-```rust
+```rust,ignore
 imports! {
    "env" => {
       "get_two_i64s" => func!(|| -> (i64, i64) {
@@ -233,7 +233,7 @@ you when you try using it.
 See, Rust uses some kind of "C-like" ABI to do the codegen for its imports and
 exports in its wasm support, such that if you write this:
 
-```rust
+```rust,ignore
 extern {
    fn get_two_i64s() -> (i64, i64);
 }
@@ -255,7 +255,7 @@ Uhhh???
 
 What Rust is actually exporting is a function that would look like this:
 
-```rust
+```rust,ignore
 extern {
    fn get_two_i64s(pointer_to_write_to: u32);
 }
@@ -263,7 +263,7 @@ extern {
 
 which you'd then call like:
 
-```rust
+```rust,ignore
 let mut buf: [i64; 2] = [0; 2];
 unsafe { get_two_i64s(buf.as_mut_ptr()); }
 let [a, b] = buf;
@@ -342,7 +342,7 @@ wasm, don't bother with usize and perhaps-faillible casts, use u32 and cast up
 to usize when needed (e.g. when indexing into memories). Then pop this up in
 your code somewhere to be overkill in making sure that cast is always safe:
 
-```rust
+```rust,ignore
 #[cfg(not(any(target_pointer_width = "32", target_pointer_width = "64")))]
 compile_error!("only 32 and 64 bit pointers are supported");
 ```
