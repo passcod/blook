@@ -1,5 +1,7 @@
 # Accord
 
+> July 2020 to June 2021
+
 ## Pitch
 
 A Discord middleware for writing Discord bots.
@@ -14,6 +16,11 @@ code (as it’s built in to nginx).
 Furthermore, client implementations become restartable with no downtime, it's possible to write
 parts of servers in different languages and stacks, and everything speaks an extremely common
 protocol, which means there are _tonnes_ of tooling.
+
+## Media
+
+- <https://twitter.com/passcod/status/1287114492250165248>
+- <https://twitter.com/passcod/status/1294610133578731522>
 
 ## Outcome
 
