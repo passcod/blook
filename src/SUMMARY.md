@@ -46,6 +46,7 @@
 - [Musings](musings/index.md)
   - [Gaston Lagaffe](musings/gaston-lagaffe/index.md)
   - [Known Unknowns: a configuration language](musings/known-unknowns-conflang.md)
+  - [On the difficulty of automated unblocking](musings/on-the-difficulty-of-automated-unblocking.md)
 - [Progress updates](updates/index.md)
   - [Mostly regular: 2017-2019](updates/dated/index.md)
     - [2016](updates/dated/2016.md)
