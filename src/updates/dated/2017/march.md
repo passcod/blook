@@ -63,6 +63,4 @@ designed_ instead of haphazardly put together. It's live; you're reading this
 article on an instance right now.
 
 [Blograph]: https://github.com/passcod/blograph
-[neon-post]: https://blog.passcod.name/2017/mar/05/lighting-up-rust-with-neon
-
-// TODO fix link
+[neon-post]: ../../../deprecated/outdated/lighting-up-rust-with-neon.md

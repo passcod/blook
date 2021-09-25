@@ -135,6 +135,7 @@
     - [Modern systems languages](deprecated/outdated/modern-systems-languages.md)
     - [Soft limits and meaningful content cuts](deprecated/outdated/soft-limits-meaningful-cuts.md)
     - [Bruteforcing the Devil](deprecated/outdated/bruteforcing-the-devil.md)
+    - [Lighting up Rust with Neon](deprecated/outdated/lighting-up-rust-with-neon.md)
   - [Unheld]()
     - [SIDEBAR](deprecated/unheld/sidebar.md)
     - [A thought on fanfiction](deprecated/unheld/a-thought-on-fanfiction.md)

@@ -1,11 +1,5 @@
 # April 2017
 
-## Thoughts on Fanfiction (TODO fix link)
-
-I wrote a little on [what I think fanfiction is about][thoughts].
-
-[thoughts]: https://blog.passcod.name/2017/apr/01/a-thought-on-fanfiction
-
 ## Original Fiction
 
 Those are original serial fiction I follow and have read one or more chapters

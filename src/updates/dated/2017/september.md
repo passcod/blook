@@ -5,13 +5,11 @@
 I “imported” (as in, moved/copied from elsewhere onto this blog) three poems,
 one song, and one very short piece of absurd fiction:
 
-- [Only One Left](https://blog.passcod.name/2009/jul/28/only-one-left)
-- [Slowly](https://blog.passcod.name/2013/nov/24/slowly)
-- [so many alone at night](https://blog.passcod.name/2014/aug/16/so-many-alone-at-night)
-- [Up Up And Away](https://blog.passcod.name/2014/feb/08/up-up-and-away)
-- [ali.vei.nth.eni.ght](https://blog.passcod.name/2015/jan/10/alive-in-the-night)
-
-// TODO: fix links
+- [Only One Left](../../../fiction/poetry/only-one-left.md)
+- [Slowly](../../../fiction/poetry/slowly.md)
+- [so many alone at night](../../../fiction/poetry/so-many-alone-at-night.md)
+- [Up Up And Away](../../../fiction/poetry/up-up-and-away.md)
+- [ali.vei.nth.eni.ght](../../../fiction/shorts/alive-in-the-night.md)
 
 ## Dawnverse
 

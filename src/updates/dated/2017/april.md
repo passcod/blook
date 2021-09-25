@@ -102,8 +102,8 @@ surprise you. That's what this detail is, and that's what this story is.
 
 [mk-timeline]: https://twitter.com/passcod/status/843336749388447744
 
-## Thoughts on Fanfiction (TODO fix link)
+## Thoughts on Fanfiction
 
 I wrote a little on [what I think fanfiction is about][thoughts].
 
-[thoughts]: https://blog.passcod.name/2017/apr/01/a-thought-on-fanfiction
+[thoughts]: ../../../deprecated/unheld/a-thought-on-fanfiction.md

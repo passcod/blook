@@ -176,7 +176,7 @@ Wednesday afternoon, "Wally" gave up. That was a bit relaxing, although the comp
 
 ***
 
-![A sheet of the icons that hash is used to produce](https://stuff.passcod.name/humgur/blog/hexicon-facesheet.png)
+![A sheet of the icons that hash is used to produce](hexicon-facesheet.png)
 
 _Each one of these icons was produced using an int32 seed. The 666 seed produces a blank icon._
 
