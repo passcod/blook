@@ -1,0 +1,297 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>On the difficulty of automated unblocking - Félix Saparelli</title>
+                
+
+        <!-- Custom HTML head -->
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+                <link rel="icon" href="../favicon.svg">
+                        <link rel="shortcut icon" href="../favicon.png">
+                <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+                <link rel="stylesheet" href="../css/print.css" media="print">
+        
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+                <link rel="stylesheet" href="../fonts/fonts.css">
+        
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+                <!-- MathJax -->
+        <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+            </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../intro.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../avatars/index.html"><strong aria-hidden="true">2.</strong> Avatars</a></li><li class="chapter-item expanded "><a href="../info/index.html"><strong aria-hidden="true">3.</strong> Persistent information</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../info/keys.html"><strong aria-hidden="true">3.1.</strong> Cryptographic keys</a></li><li class="chapter-item "><a href="../info/blocks.html"><strong aria-hidden="true">3.2.</strong> Social media blocks</a></li><li class="chapter-item "><a href="../info/trademark.html"><strong aria-hidden="true">3.3.</strong> Trademark</a></li></ol></li><li class="chapter-item expanded "><a href="../fiction/index.html"><strong aria-hidden="true">4.</strong> Fiction</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../fiction/poetry/index.html"><strong aria-hidden="true">4.1.</strong> Poetry</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../fiction/poetry/only-one-left.html"><strong aria-hidden="true">4.1.1.</strong> Only One Left</a></li><li class="chapter-item "><a href="../fiction/poetry/mid-loss.html"><strong aria-hidden="true">4.1.2.</strong> Mid-loss</a></li><li class="chapter-item "><a href="../fiction/poetry/aftermath.html"><strong aria-hidden="true">4.1.3.</strong> Aftermath</a></li><li class="chapter-item "><a href="../fiction/poetry/one-and-two.html"><strong aria-hidden="true">4.1.4.</strong> one and two</a></li><li class="chapter-item "><a href="../fiction/poetry/grow.html"><strong aria-hidden="true">4.1.5.</strong> Grow</a></li><li class="chapter-item "><a href="../fiction/poetry/slowly.html"><strong aria-hidden="true">4.1.6.</strong> Slowly</a></li><li class="chapter-item "><a href="../fiction/poetry/alya.html"><strong aria-hidden="true">4.1.7.</strong> Alya</a></li><li class="chapter-item "><a href="../fiction/poetry/so-many-alone-at-night.html"><strong aria-hidden="true">4.1.8.</strong> so many alone at night</a></li><li class="chapter-item "><a href="../fiction/poetry/up-up-and-away.html"><strong aria-hidden="true">4.1.9.</strong> Up Up And Away</a></li><li class="chapter-item "><a href="../fiction/poetry/sleep.html"><strong aria-hidden="true">4.1.10.</strong> Sleep</a></li><li class="chapter-item "><a href="../fiction/poetry/hold.html"><strong aria-hidden="true">4.1.11.</strong> Hold</a></li><li class="chapter-item "><a href="../fiction/poetry/sorry.html"><strong aria-hidden="true">4.1.12.</strong> Sorry</a></li><li class="chapter-item "><a href="../fiction/poetry/right-over-there.html"><strong aria-hidden="true">4.1.13.</strong> Right over there</a></li><li class="chapter-item "><a href="../fiction/poetry/the-road-to-hell.html"><strong aria-hidden="true">4.1.14.</strong> The Road to Hell</a></li><li class="chapter-item "><a href="../fiction/poetry/self.html"><strong aria-hidden="true">4.1.15.</strong> Self</a></li><li class="chapter-item "><a href="../fiction/poetry/tree.html"><strong aria-hidden="true">4.1.16.</strong> Tree</a></li><li class="chapter-item "><a href="../fiction/poetry/unlit.html"><strong aria-hidden="true">4.1.17.</strong> Unlit</a></li><li class="chapter-item "><a href="../fiction/poetry/one-summer-morning.html"><strong aria-hidden="true">4.1.18.</strong> One summer morning</a></li><li class="chapter-item "><a href="../fiction/poetry/smile.html"><strong aria-hidden="true">4.1.19.</strong> Smile</a></li></ol></li><li class="chapter-item "><a href="../fiction/shorts/index.html"><strong aria-hidden="true">4.2.</strong> Short Prose</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../fiction/shorts/the-box.html"><strong aria-hidden="true">4.2.1.</strong> The Box</a></li><li class="chapter-item "><a href="../fiction/shorts/a-man.html"><strong aria-hidden="true">4.2.2.</strong> A Man</a></li><li class="chapter-item "><a href="../fiction/shorts/K2.html"><strong aria-hidden="true">4.2.3.</strong> K2</a></li><li class="chapter-item "><a href="../fiction/shorts/the-girl-laughing-in-the-dictionary.html"><strong aria-hidden="true">4.2.4.</strong> The Girl Laughing in the Dictionary</a></li><li class="chapter-item "><a href="../fiction/shorts/people.html"><strong aria-hidden="true">4.2.5.</strong> People</a></li><li class="chapter-item "><a href="../fiction/shorts/alive-in-the-night.html"><strong aria-hidden="true">4.2.6.</strong> ali.vei.nth.eni.ght</a></li><li class="chapter-item "><a href="../fiction/shorts/regulus.html"><strong aria-hidden="true">4.2.7.</strong> Regulus</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../fiction/shorts/regulus-notes.html"><strong aria-hidden="true">4.2.7.1.</strong> (notes for) Regulus</a></li></ol></li><li class="chapter-item "><a href="../fiction/shorts/my-mountain-of-knowledge.html"><strong aria-hidden="true">4.2.8.</strong> My mountain of Knowledge</a></li><li class="chapter-item "><a href="../fiction/shorts/finally-i-knew.html"><strong aria-hidden="true">4.2.9.</strong> Finally, I knew</a></li></ol></li><li class="chapter-item "><a href="../fiction/fanfic/index.html"><strong aria-hidden="true">4.3.</strong> Fanfiction</a></li></ol></li><li class="chapter-item expanded "><a href="../technical/index.html"><strong aria-hidden="true">5.</strong> Technicals</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../technical/async-generator-state-machine.html"><strong aria-hidden="true">5.1.</strong> A little elegant state machine with Async Generators</a></li><li class="chapter-item "><a href="../technical/dhall-review.html"><strong aria-hidden="true">5.2.</strong> Dhall: not quite it</a></li><li class="chapter-item "><a href="../technical/exploring-wasm.html"><strong aria-hidden="true">5.3.</strong> Exploration of Wasm</a></li></ol></li><li class="chapter-item expanded "><a href="../musings/index.html"><strong aria-hidden="true">6.</strong> Musings</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../musings/gaston-lagaffe/index.html"><strong aria-hidden="true">6.1.</strong> Gaston Lagaffe</a></li><li class="chapter-item "><a href="../musings/known-unknowns-conflang.html"><strong aria-hidden="true">6.2.</strong> Known Unknowns: a configuration language</a></li><li class="chapter-item expanded "><a href="../musings/on-the-difficulty-of-automated-unblocking.html" class="active"><strong aria-hidden="true">6.3.</strong> On the difficulty of automated unblocking</a></li></ol></li><li class="chapter-item expanded "><a href="../updates/index.html"><strong aria-hidden="true">7.</strong> Progress updates</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../updates/dated/index.html"><strong aria-hidden="true">7.1.</strong> Mostly regular: 2017-2019</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../updates/dated/2016.html"><strong aria-hidden="true">7.1.1.</strong> 2016</a></li><li class="chapter-item "><a href="../updates/dated/2017/index.html"><strong aria-hidden="true">7.1.2.</strong> 2017</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../updates/dated/2017/january.html"><strong aria-hidden="true">7.1.2.1.</strong> January</a></li><li class="chapter-item "><a href="../updates/dated/2017/february.html"><strong aria-hidden="true">7.1.2.2.</strong> February</a></li><li class="chapter-item "><a href="../updates/dated/2017/march.html"><strong aria-hidden="true">7.1.2.3.</strong> March</a></li><li class="chapter-item "><a href="../updates/dated/2017/april.html"><strong aria-hidden="true">7.1.2.4.</strong> April</a></li><li class="chapter-item "><a href="../updates/dated/2017/may.html"><strong aria-hidden="true">7.1.2.5.</strong> May</a></li><li class="chapter-item "><a href="../updates/dated/2017/june.html"><strong aria-hidden="true">7.1.2.6.</strong> June</a></li><li class="chapter-item "><a href="../updates/dated/2017/july.html"><strong aria-hidden="true">7.1.2.7.</strong> July</a></li><li class="chapter-item "><a href="../updates/dated/2017/august.html"><strong aria-hidden="true">7.1.2.8.</strong> August</a></li><li class="chapter-item "><a href="../updates/dated/2017/september.html"><strong aria-hidden="true">7.1.2.9.</strong> September</a></li><li class="chapter-item "><a href="../updates/dated/2017/october.html"><strong aria-hidden="true">7.1.2.10.</strong> October</a></li><li class="chapter-item "><a href="../updates/dated/2017/november.html"><strong aria-hidden="true">7.1.2.11.</strong> November</a></li><li class="chapter-item "><a href="../updates/dated/2017/december.html"><strong aria-hidden="true">7.1.2.12.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../updates/dated/2018/index.html"><strong aria-hidden="true">7.1.3.</strong> 2018</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../updates/dated/2018/january.html"><strong aria-hidden="true">7.1.3.1.</strong> January</a></li><li class="chapter-item "><a href="../updates/dated/2018/march.html"><strong aria-hidden="true">7.1.3.2.</strong> March</a></li><li class="chapter-item "><a href="../updates/dated/2018/april.html"><strong aria-hidden="true">7.1.3.3.</strong> April</a></li><li class="chapter-item "><a href="../updates/dated/2018/may.html"><strong aria-hidden="true">7.1.3.4.</strong> May</a></li><li class="chapter-item "><a href="../updates/dated/2018/september.html"><strong aria-hidden="true">7.1.3.5.</strong> September</a></li><li class="chapter-item "><a href="../updates/dated/2018/november.html"><strong aria-hidden="true">7.1.3.6.</strong> November</a></li><li class="chapter-item "><a href="../updates/dated/2018/december.html"><strong aria-hidden="true">7.1.3.7.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../updates/dated/2019/index.html"><strong aria-hidden="true">7.1.4.</strong> 2019</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../updates/dated/2019/january.html"><strong aria-hidden="true">7.1.4.1.</strong> January</a></li><li class="chapter-item "><a href="../updates/dated/2019/february.html"><strong aria-hidden="true">7.1.4.2.</strong> February</a></li><li class="chapter-item "><a href="../updates/dated/2019/march.html"><strong aria-hidden="true">7.1.4.3.</strong> March</a></li><li class="chapter-item "><a href="../updates/dated/2019/april.html"><strong aria-hidden="true">7.1.4.4.</strong> April</a></li><li class="chapter-item "><a href="../updates/dated/2019/september.html"><strong aria-hidden="true">7.1.4.5.</strong> September</a></li><li class="chapter-item "><a href="../updates/dated/2019/december.html"><strong aria-hidden="true">7.1.4.6.</strong> December</a></li></ol></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../reading/index.html"><strong aria-hidden="true">8.</strong> Reading archive</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../reading/2016/index.html"><strong aria-hidden="true">8.1.</strong> 2016</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../reading/2016/july.html"><strong aria-hidden="true">8.1.1.</strong> July</a></li><li class="chapter-item "><a href="../reading/2016/december.html"><strong aria-hidden="true">8.1.2.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../reading/2017/index.html"><strong aria-hidden="true">8.2.</strong> 2017</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../reading/2017/january.html"><strong aria-hidden="true">8.2.1.</strong> January</a></li><li class="chapter-item "><a href="../reading/2017/february.html"><strong aria-hidden="true">8.2.2.</strong> February</a></li><li class="chapter-item "><a href="../reading/2017/march.html"><strong aria-hidden="true">8.2.3.</strong> March</a></li><li class="chapter-item "><a href="../reading/2017/april.html"><strong aria-hidden="true">8.2.4.</strong> April</a></li><li class="chapter-item "><a href="../reading/2017/may.html"><strong aria-hidden="true">8.2.5.</strong> May</a></li><li class="chapter-item "><a href="../reading/2017/june.html"><strong aria-hidden="true">8.2.6.</strong> June</a></li><li class="chapter-item "><a href="../reading/2017/july.html"><strong aria-hidden="true">8.2.7.</strong> July</a></li><li class="chapter-item "><a href="../reading/2017/august.html"><strong aria-hidden="true">8.2.8.</strong> August</a></li><li class="chapter-item "><a href="../reading/2017/september.html"><strong aria-hidden="true">8.2.9.</strong> September</a></li><li class="chapter-item "><a href="../reading/2017/october.html"><strong aria-hidden="true">8.2.10.</strong> October</a></li><li class="chapter-item "><a href="../reading/2017/november.html"><strong aria-hidden="true">8.2.11.</strong> November</a></li><li class="chapter-item "><a href="../reading/2017/december.html"><strong aria-hidden="true">8.2.12.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../reading/2018/index.html"><strong aria-hidden="true">8.3.</strong> 2018</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../reading/2018/january.html"><strong aria-hidden="true">8.3.1.</strong> January</a></li><li class="chapter-item "><a href="../reading/2018/february.html"><strong aria-hidden="true">8.3.2.</strong> February</a></li><li class="chapter-item "><a href="../reading/2018/march.html"><strong aria-hidden="true">8.3.3.</strong> March</a></li><li class="chapter-item "><a href="../reading/2018/april.html"><strong aria-hidden="true">8.3.4.</strong> April</a></li><li class="chapter-item "><a href="../reading/2018/may.html"><strong aria-hidden="true">8.3.5.</strong> May</a></li><li class="chapter-item "><a href="../reading/2018/june.html"><strong aria-hidden="true">8.3.6.</strong> June</a></li><li class="chapter-item "><a href="../reading/2018/july.html"><strong aria-hidden="true">8.3.7.</strong> July</a></li><li class="chapter-item "><a href="../reading/2018/august.html"><strong aria-hidden="true">8.3.8.</strong> August</a></li><li class="chapter-item "><a href="../reading/2018/september.html"><strong aria-hidden="true">8.3.9.</strong> September</a></li><li class="chapter-item "><a href="../reading/2018/october.html"><strong aria-hidden="true">8.3.10.</strong> October</a></li><li class="chapter-item "><a href="../reading/2018/november.html"><strong aria-hidden="true">8.3.11.</strong> November</a></li><li class="chapter-item "><a href="../reading/2018/december.html"><strong aria-hidden="true">8.3.12.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../reading/2019/index.html"><strong aria-hidden="true">8.4.</strong> 2019</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../reading/2019/january.html"><strong aria-hidden="true">8.4.1.</strong> January</a></li><li class="chapter-item "><a href="../reading/2019/february.html"><strong aria-hidden="true">8.4.2.</strong> February</a></li><li class="chapter-item "><a href="../reading/2019/march.html"><strong aria-hidden="true">8.4.3.</strong> March</a></li><li class="chapter-item "><a href="../reading/2019/april.html"><strong aria-hidden="true">8.4.4.</strong> April</a></li><li class="chapter-item "><a href="../reading/2019/may.html"><strong aria-hidden="true">8.4.5.</strong> May</a></li><li class="chapter-item "><a href="../reading/2019/june.html"><strong aria-hidden="true">8.4.6.</strong> June</a></li><li class="chapter-item "><a href="../reading/2019/july.html"><strong aria-hidden="true">8.4.7.</strong> July</a></li><li class="chapter-item "><a href="../reading/2019/august.html"><strong aria-hidden="true">8.4.8.</strong> August</a></li><li class="chapter-item "><a href="../reading/2019/september.html"><strong aria-hidden="true">8.4.9.</strong> September</a></li><li class="chapter-item "><a href="../reading/2019/october.html"><strong aria-hidden="true">8.4.10.</strong> October</a></li><li class="chapter-item "><a href="../reading/2019/november.html"><strong aria-hidden="true">8.4.11.</strong> November</a></li><li class="chapter-item "><a href="../reading/2019/december.html"><strong aria-hidden="true">8.4.12.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../reading/2020/index.html"><strong aria-hidden="true">8.5.</strong> 2020</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../reading/2020/january.html"><strong aria-hidden="true">8.5.1.</strong> January</a></li><li class="chapter-item "><a href="../reading/2020/february.html"><strong aria-hidden="true">8.5.2.</strong> February</a></li><li class="chapter-item "><a href="../reading/2020/march-june.html"><strong aria-hidden="true">8.5.3.</strong> March—June</a></li><li class="chapter-item "><a href="../reading/2020/july.html"><strong aria-hidden="true">8.5.4.</strong> July</a></li><li class="chapter-item "><a href="../reading/2020/august-december.html"><strong aria-hidden="true">8.5.5.</strong> August—December</a></li></ol></li><li class="chapter-item "><a href="../reading/2021/index.html"><strong aria-hidden="true">8.6.</strong> 2021</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../reading/2021/january-may.html"><strong aria-hidden="true">8.6.1.</strong> First semester</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../deprecated/index.html"><strong aria-hidden="true">9.</strong> Deprecated content</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../deprecated/blanket.html"><strong aria-hidden="true">9.1.</strong> Blanket license</a></li><li class="chapter-item "><div><strong aria-hidden="true">9.2.</strong> Outdated</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../deprecated/outdated/modern-systems-languages.html"><strong aria-hidden="true">9.2.1.</strong> Modern systems languages</a></li><li class="chapter-item "><a href="../deprecated/outdated/soft-limits-meaningful-cuts.html"><strong aria-hidden="true">9.2.2.</strong> Soft limits and meaningful content cuts</a></li><li class="chapter-item "><a href="../deprecated/outdated/bruteforcing-the-devil.html"><strong aria-hidden="true">9.2.3.</strong> Bruteforcing the Devil</a></li><li class="chapter-item "><a href="../deprecated/outdated/lighting-up-rust-with-neon.html"><strong aria-hidden="true">9.2.4.</strong> Lighting up Rust with Neon</a></li></ol></li><li class="chapter-item "><div><strong aria-hidden="true">9.3.</strong> Unheld</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../deprecated/unheld/sidebar.html"><strong aria-hidden="true">9.3.1.</strong> SIDEBAR</a></li><li class="chapter-item "><a href="../deprecated/unheld/a-thought-on-fanfiction.html"><strong aria-hidden="true">9.3.2.</strong> A thought on fanfiction</a></li><li class="chapter-item "><div><strong aria-hidden="true">9.3.3.</strong> Indentity</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../deprecated/unheld/not-coming.html"><strong aria-hidden="true">9.3.3.1.</strong> This is not a coming out</a></li><li class="chapter-item "><a href="../deprecated/unheld/guy-adjacent.html"><strong aria-hidden="true">9.3.3.2.</strong> Guy-Adjacent</a></li><li class="chapter-item "><a href="../deprecated/unheld/my-words.html"><strong aria-hidden="true">9.3.3.3.</strong> My Words</a></li><li class="chapter-item "><a href="../deprecated/unheld/check-labels.html"><strong aria-hidden="true">9.3.3.4.</strong> Check all applicable labels</a></li></ol></li></ol></li></ol></li></ol>            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                                                <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                                            </div>
+
+                    <h1 class="menu-title">Félix Saparelli</h1>
+
+                    <div class="right-buttons">
+                                                <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                                                                        <a href="https://github.com/passcod/blook" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                                                
+                    </div>
+                </div>
+
+                                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="on-the-difficulty-of-automated-unblocking"><a class="header" href="#on-the-difficulty-of-automated-unblocking">On the difficulty of automated unblocking</a></h1>
+<h2 id="unblocking-the-wrongfully-blocked"><a class="header" href="#unblocking-the-wrongfully-blocked">Unblocking the wrongfully-blocked</a></h2>
+<p>…is something I’d love to do, but the difficulty is <em>identifying</em> who is really truly wrongly-blocked.
+For a sense of scale, at last accurate count in 2019, I had well over 150 000 blocks on Twitter. I would estimate
+having about 200 000 now. Reviewing a block is a forensic process, because as I’ll explain, you cannot just rely
+on metadata like who follows someone or their bio. Let’s have an extremely optimistic estimate of an average of
+two minutes per wrongful block, and ten seconds per rightful block. If <em>everyone I’ve blocked</em> should
+remain there, hand-reviewing the entire list to assure myself of that would take <strong>24 days of non-stop work</strong>.
+When I say non-stop, I mean it would take <strong>over 550 hours</strong>. If I have even <em>two percent</em> of
+wrongful blocks, that inflates to <strong>over 670 hours</strong>. It’s an enormous amount of work.</p>
+<p>But surely, I can automate a large part of it. Reader, I tried. Over several months. It turned out that my block list
+is extremely varied. Or rather, the people on it are varied. Or rather, the way the people on it present to me, the
+information I have available about them, is extremely varied. I don’t have much: I have their username, display name,
+bio, location and website fields, and maybe a few of their tweets if I write some scripts. I can put all that in a
+database, so I can process the large amounts of information all of this adds up to. And then what?</p>
+<p>There are some terms in bio I can outright block, right? Like <code>MAGA</code>. Right?
+<a href="https://twitter.com/haaspolicy">Right?</a>
+<a href="https://twitter.com/JoJoMorr1231">R</a>
+<a href="https://twitter.com/e_whittler">i</a>
+<a href="https://twitter.com/WestsideFireman">g</a>
+<a href="https://twitter.com/littlebit_mia">h</a>
+<a href="https://twitter.com/madumaga">t</a>
+?</p>
+<p>Well, fuck. (For the record, five links above contained text such as “I will block MAGA trolls”, and one is someone
+literally named Madumaga.) And I don’t even follow any of these people, this is just 30 seconds of searching. Okay,
+maybe exclude the ones that mention <code>MAGA</code> and <code>block</code>, or <code>MAGA</code> and <code>troll</code>, or some other combinations, surely that
+would work, <a href="https://twitter.com/KellyCreollady2">right</a>?</p>
+<p><a href="https://twitter.com/cat_conserva">Lol, fuck.</a></p>
+<p>Okay but surely someone who only has the word <code>MAGA</code> and not any of these other ones is a real one, right?</p>
+<p><a href="https://twitter.com/KayaJade19">LMAO GTFOH</a></p>
+<p>(For the record, the first two are genuine MAGA people who block <em>anti</em>-MAGA “trolls” and the last one is a genuine
+person whose bio speaks, without using any of the obvious keywords, of them being previously banned due to harassment
+<em>by</em> MAGA people.)</p>
+<p>And this is a comparitively simple one. Try to do the same for transphobes, and it’s a quagmire. But hold on, maybe I should
+do the inverse and identify people who are <em>clearly</em> not transphobes. Like, maybe someone who has pronouns in their bio
+and identifies as trans is fairly easy to search for? And surely <em>they</em> would be on the “unblock” candidate list?
+Boy oh boy. For one thing, truscums are a thing. For another, <em><strong>intersectionality cuts both ways</strong></em>.</p>
+<p>See, it’s perfectly possible to have trans racists, gay sexists, lesbian transphobes, feminist anti-vaxxers.
+Assholes often have layers. But also, everyone can be an asshole. There is not a single group of people whose grouping
+attribute makes them free of the potential to be an asshole.</p>
+<p>Even if there was, there would be no reliable way to
+identify that group from their bio, or who they follow, or who they’re followed by, or even scanning some of their
+tweets.</p>
+<p>Don’t believe me? Simple thought experiment: say there is such a marker. What is the first harasser who comes
+across it gonna do?</p>
+<h2 id="forgiveness"><a class="header" href="#forgiveness">Forgiveness</a></h2>
+<p>And then there’s forgiveness. There’s a service run by fellow kiwi <a href="https://twitter.com/tveastman">Tom Eastman</a>
+called <a href="https://secateur.app">Secateur</a> which lets you block people (and optionally all their followers,
+it’s the “block script” I mention in one of the historical block reasons above) <em>temporarily</em>. The idea is this: people change.
+So blocking them now might be good, but they might see the error of their ways or listen to the right person or learn some <em>damn</em>
+empathy somehow, and now they’re not someone you want to block anymore, right?</p>
+<p>Maybe.</p>
+<p>There are three reasons why I don’t use it or something like it:</p>
+<ol>
+<li>It’s another tool.</li>
+</ol>
+<p>I block a lot. I block quickly, I don’t take two minutes to think about it. I block on tweetdeck,
+I block on mobile. It’s never going to be a good fit for me to have to open a separate app, copy or type a username
+across, and hit go. That’s too much work. 99% of the time,† I just want to block and move on.</p>
+<ol start="2">
+<li>I don’t think automated forgiveness is the way to go.</li>
+</ol>
+<p><em>Because</em> of all the wrongly-blocked, I am also fairly fast at unblocking if someone who is blocked
+appears in a conversation with people I trust, and a browse of their tweets doesn’t
+bring up any red flags. The idea there is: if you’re block-worthy, surely I’ll block you again.
+So, if you’ve changed, and you intersect my life, chances are I’ll just unblock you outright. But if you haven’t,
+I don’t actually want the app to unblock you. And there’s no way for the app to tell.</p>
+<ol start="3">
+<li>Blocking isn’t just for me.</li>
+</ol>
+<p>Blocking someone means they can’t see my tweets, and that includes replies to people, among
+other interactions. Blocking someone stops them interacting with me, but it also:</p>
+<ul>
+<li>
+<p>stops them interacting with others through me</p>
+</li>
+<li>
+<p>stops me accidentally retweeting one of their viral tweets later on</p>
+</li>
+<li>
+<p>helps protect people I interact with who <em>haven’t</em> blocked them</p>
+</li>
+<li>
+<p>protects people I interact with who <em>have</em>, or are private.</p>
+<p>Have you ever read a twitter conversation where one side is public and the other is a private
+account? You can still figure out a lot from one side, right? That’s what I’m talking about.</p>
+</li>
+</ul>
+<p>†: I occasionally use the <a href="https://megablock.xyz">megablock.xyz</a> app as a one off for especially egregious cases.</p>
+<h2 id="alternatives"><a class="header" href="#alternatives">Alternatives</a></h2>
+<p>Maybe I should just unblock everyone, do a great big reset, and then restart my block list from nil, confident that <em>from now on</em>
+I’ll only block the deserving.</p>
+<p>I don’t think so. I believe that my block list truly makes my twitter experience better, and resetting it would make it materially worse.
+Maybe not immediately, but certainly in the longer term.</p>
+<p>Overall, the cold final part of it is that I believe that the cost is worth it. That whatever small percentage of people I have wrongly
+blocked is not significant enough to detract from the amount of good and comfort that having the rest rightfully blocked grants me.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                                                    <a rel="prev" href="../musings/known-unknowns-conflang.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+                                                    <a rel="next" href="../updates/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                                    <a rel="prev" href="../musings/known-unknowns-conflang.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+                                    <a rel="next" href="../updates/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                            </nav>
+
+        </div>
+
+        
+        
+        
+                <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+        
+                <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+        
+    </body>
+</html>
