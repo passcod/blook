@@ -216,6 +216,12 @@ RWQuldol5LtkIrx0khfo4Z7Y8SixwG2K8OagJSvsJNBcuLgB2oVNJFFv
 <h2 id="sigstore-keys"><a class="header" href="#sigstore-keys">Sigstore keys</a></h2>
 <p>In <a href="https://www.sigstore.dev">sigstore</a>/<a href="https://github.com/sigstore/cosign">cosign</a> format, used
 for signing artifacts (software binary releases, container images, etc).</p>
+<p>Eventually this will disappear as keys move to be ephemeral and generated against my identity, but
+in the meantime you can use this key to verify artifacts, along these lines:</p>
+<pre><code class="language-bash">$ cosign verify \
+  -key https://passcod.name/info/keys/cosign.01.pub \
+  ghcr.io/org/repo:version_target.ext
+</code></pre>
 <h3 id="cosign01"><a class="header" href="#cosign01">Cosign.01</a></h3>
 <pre><code class="language-text">-----BEGIN PUBLIC KEY-----
 MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE3LYhdTwREhG9zVKc2aI3FzR6oHto
