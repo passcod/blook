@@ -1,7 +1,8 @@
 # Cryptographic keys
 
-I have two kinds of keys at the moment: good old [PGP/GPG keys](#gpg-keys) that are mostly used to
-sign git commits, and [minisign keys](#minisign-keys) that are mostly used to sign software.
+I have three kinds of keys at the moment: good old [PGP/GPG keys](#gpg-keys) that are mostly used to
+sign git commits, [minisign keys](#minisign-keys) that are used to sign software (being phased out),
+and [sigstore keys](#sigstore-keys) that are used to sign software (being phased in).
 
 ## GPG keys
 
@@ -77,3 +78,20 @@ RWQuldol5LtkIrx0khfo4Z7Y8SixwG2K8OagJSvsJNBcuLgB2oVNJFFv
 ```
 
 - [Public key](keys/software.pub)
+
+
+## Sigstore keys
+
+In [sigstore](https://www.sigstore.dev)/[cosign](https://github.com/sigstore/cosign) format, used
+for signing artifacts (software binary releases, container images, etc).
+
+### Cosign.01
+
+```text
+-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE3LYhdTwREhG9zVKc2aI3FzR6oHto
+XRYiZtQGxtlbsUMacCHdvvBmTSEg6Zsf9jflNU0slFKExLX/z+zZHykmpg==
+-----END PUBLIC KEY-----
+```
+
+- [Public key](keys/cosign.01.pub)
