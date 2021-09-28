@@ -85,6 +85,15 @@ RWQuldol5LtkIrx0khfo4Z7Y8SixwG2K8OagJSvsJNBcuLgB2oVNJFFv
 In [sigstore](https://www.sigstore.dev)/[cosign](https://github.com/sigstore/cosign) format, used
 for signing artifacts (software binary releases, container images, etc).
 
+Eventually this will disappear as keys move to be ephemeral and generated against my identity, but
+in the meantime you can use this key to verify artifacts, along these lines:
+
+```bash
+$ cosign verify \
+  -key https://passcod.name/info/keys/cosign.01.pub \
+  ghcr.io/org/repo:version_target.ext
+```
+
 ### Cosign.01
 
 ```text
