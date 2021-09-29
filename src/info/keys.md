@@ -104,3 +104,4 @@ XRYiZtQGxtlbsUMacCHdvvBmTSEg6Zsf9jflNU0slFKExLX/z+zZHykmpg==
 ```
 
 - [Public key](keys/cosign.01.pub)
+- [Tweet](https://twitter.com/passcod/status/1443104012253884418) with this public key
