@@ -635,7 +635,7 @@ the program may crash, or worse.</p>
 <p>In our case, though, we know that there are exactly 256 variants, as many values as there are in an
 <code>u8</code>, so we can assure the compiler that yes, we know what we’re about, please transmute.</p>
 <p>And we tell the compiler that the enum must fit in and have the same layout as a <code>u8</code> with the
-<code>repr</code> annotation, which lets us have piece of mind while transmuting, that an optimisation isn’t
+<code>repr</code> annotation, which lets us have peace of mind while transmuting, that an optimisation isn’t
 going to come along and mess up our assumptions.</p>
 <p>Now that we can go back and forth between <code>U8</code> and <code>u8</code>, we can get back to implementing addition:</p>
 <pre><pre class="playground"><code class="language-rust"><span class="boring">fn main() {
@@ -960,7 +960,7 @@ println!(&quot;
 </span><span class="boring">enum {name} {{ {def} }}&quot;,
 </span><span class="boring">    name=name,
 </span><span class="boring">    repr=repr,
-</span><span class="boring">    def=range.map(|n| format!(&quot;{}{}&quot;, prefix, n)).collect::&lt;Vec&lt;_&gt;&gt;().join(&quot;, &quot;),
+</span><span class="boring">    def=range.clone().map(|n| format!(&quot;{}{}&quot;, prefix, n)).collect::&lt;Vec&lt;_&gt;&gt;().join(&quot;, &quot;),
 </span><span class="boring">);
 </span><span class="boring">
 </span><span class="boring">println!(&quot;
@@ -1073,7 +1073,7 @@ course, from Rust’s point of view, they’re different identifiers).</p>
 </span><span class="boring">enum {name} {{ {def} }}&quot;,
 </span><span class="boring">    name=name,
 </span><span class="boring">    repr=repr,
-</span><span class="boring">    def=range.map(|n| format!(&quot;{}{}&quot;, prefix, n)).collect::&lt;Vec&lt;_&gt;&gt;().join(&quot;, &quot;),
+</span><span class="boring">    def=range.clone().map(|n| format!(&quot;{}{}&quot;, prefix, n)).collect::&lt;Vec&lt;_&gt;&gt;().join(&quot;, &quot;),
 </span><span class="boring">);
 </span><span class="boring">
 </span><span class="boring">println!(&quot;
