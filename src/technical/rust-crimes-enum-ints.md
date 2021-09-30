@@ -387,7 +387,7 @@ $ ./not-technically-illegal
 [Exit: 0]
 ```
 
-Much better.
+Excellent.
 
 ---
 
