@@ -570,7 +570,7 @@ In our case, though, we know that there are exactly 256 variants, as many values
 `u8`, so we can assure the compiler that yes, we know what we're about, please transmute.
 
 And we tell the compiler that the enum must fit in and have the same layout as a `u8` with the
-`repr` annotation, which lets us have piece of mind while transmuting, that an optimisation isn't
+`repr` annotation, which lets us have peace of mind while transmuting, that an optimisation isn't
 going to come along and mess up our assumptions.
 
 Now that we can go back and forth between `U8` and `u8`, we can get back to implementing addition:
@@ -922,7 +922,7 @@ println!("
 # enum {name} {{ {def} }}",
 #     name=name,
 #     repr=repr,
-#     def=range.map(|n| format!("{}{}", prefix, n)).collect::<Vec<_>>().join(", "),
+#     def=range.clone().map(|n| format!("{}{}", prefix, n)).collect::<Vec<_>>().join(", "),
 # );
 #
 # println!("
@@ -1042,7 +1042,7 @@ fn main() {
 # enum {name} {{ {def} }}",
 #     name=name,
 #     repr=repr,
-#     def=range.map(|n| format!("{}{}", prefix, n)).collect::<Vec<_>>().join(", "),
+#     def=range.clone().map(|n| format!("{}{}", prefix, n)).collect::<Vec<_>>().join(", "),
 # );
 #
 # println!("
