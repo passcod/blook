@@ -33,7 +33,7 @@ And sometimes different things have the same name:
 use std::cmp::*;
 
 assert_eq!(
-    max(1, 2).cmp(3),
+    max(1, 2).cmp(&3),
     Ordering::Less
 );
 ```
