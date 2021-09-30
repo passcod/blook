@@ -43,6 +43,7 @@
   - [A little elegant state machine with Async Generators](technical/async-generator-state-machine.md)
   - [Dhall: not quite it](technical/dhall-review.md)
   - [Exploration of Wasm](technical/exploring-wasm.md)
+  - [Rust crimes: Enum ints](technical/rust-crimes-enum-ints.md)
 - [Musings](musings/index.md)
   - [Gaston Lagaffe](musings/gaston-lagaffe/index.md)
   - [Known Unknowns: a configuration language](musings/known-unknowns-conflang.md)
