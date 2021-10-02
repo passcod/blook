@@ -53,6 +53,7 @@
   - [Certainly](updates/projects/certainly.md)
   - [Hashmap Entry Insert](updates/projects/entry-insert.md)
   - [Japanese](updates/projects/japanese.md)
+  - [Lah Kara](updates/projects/lah-kara.md)
   - [Sassbot](updates/projects/sassbot.md)
   - [Splash](updates/projects/splash.md)
   - [Watchexec family](updates/projects/cargo-watchexec.md)
