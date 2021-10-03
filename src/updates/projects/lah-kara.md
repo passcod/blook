@@ -13,8 +13,8 @@ A RISC-V mini-ITX immersion-cooled Linux workstation.
 - Intel AX-200 Wifi 6 / Bluetooth 5 adapter.
 - 1TB NVMe M.2 SSD. I've got a double-sided high performance one from a previous build, and if it's
   not compatible I'll get something like a Samsung 970 Evo.
-- RX 570 or 580 graphics, whatever I find. The goal here is not high perfomance (not a gaming rig),
-  but something that can handle a few screens and only need a PCIe Gen 3 interface.
+- RX 570 4GB graphics. The goal here is not high perfomance (not a gaming rig), but something that
+  can handle a few screens and only need a PCIe Gen 3 interface.
 
 ### Cooling
 
@@ -47,10 +47,10 @@ So as much as I'd love having a veggie oil computer I'll probably go with minera
 
 ### Case
 
-I'm thinking of making a custom 5-sides acrylic, 1-side aluminium box that would be the size of a
-classic mini-ITX case. The aluminium side would be the thermal interface, and it would be sealed to
-make it portable and safe from spills (not permanently glued, with a rubber seal or something), so
-it can sit on the topside of the desk looking all cool!
+I'm thinking of making a custom acrylic/copper/solid wood box that would be roughly the size of a
+classic mini-ITX case. A copper side would be the thermal interface, and it could be sealed to make
+it portable and safe from spills (not permanently glued, with a rubber seal or something), so it
+can sit on the topside of the desk looking all cool!
 
 ### Naming
 
