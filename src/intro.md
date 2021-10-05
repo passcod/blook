@@ -16,3 +16,11 @@ an archive, a list of projects, and various information about and around me. Hav
 - **[Twitter](https://twitter.com/passcod)** — My main social venue
 - **[GitHub](https://github.com/passcod)** — Ruby, Rust, Node, Web, and other things
 - **NZ NaNo Discord** — Local writer community
+
+## Other sites
+
+I keep a few other places alive:
+
+- **[Brackets](https://brackets.passcod.name)** — A page of brackets
+- **[Dash](https://dash.passcod.name)** — A page of dashes
+- **[Mechanical Bird](https://mechanicalbird.surge.sh)** — A simple browser-based time tracker
