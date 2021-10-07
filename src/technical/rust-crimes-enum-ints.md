@@ -1110,3 +1110,144 @@ All that's left to do is take the generated crime, stick it in a playground, add
 confuse unexpecting visitors and… sit back to enjoy the profits:
 
 <https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=f6d61baf31e9a9f4f97f07d334f56f12>
+
+---
+
+### Update: safe math
+
+[Reddit delivered](https://www.reddit.com/r/rust/comments/pyuhd4/comment/heym0k8/) with a
+`successor`-based implementation of maths that does not rely on transmutation. It does rely on
+generating another large `match` for each enum. I also had to modify the code a little to make it
+compile, and I used a wrapping successor function to simplify implementation.
+
+```rust
+fn main() {
+    println!("#![allow(uncommon_codepoints)]
+    #![deny(unsafe_code)]
+
+    use U7::*;
+    use U13::*;
+
+    fn fibonacci(n: U7) -> U7 {{
+        match n {{
+           \u{FFA0}0 => \u{FFA0}1,
+           \u{FFA0}1 => \u{FFA0}1,
+            _ => fibonacci(n - \u{FFA0}1) + fibonacci(n - \u{FFA0}2),
+        }}
+    }}
+
+    fn factorial(n: U13) -> U13 {{
+        match n {{
+          \u{FFA0}\u{FFA0}0 | \u{FFA0}\u{FFA0}1 => \u{FFA0}\u{FFA0}1,
+          _ => factorial(n - \u{FFA0}\u{FFA0}1) * n
+        }}
+    }}
+
+    fn main() {{
+        dbg!(fibonacci(\u{FFA0}8));
+        dbg!(factorial(\u{FFA0}\u{FFA0}6));
+    }}");
+
+    define_enum(7, "\u{FFA0}");
+    define_enum(13, "\u{FFA0}\u{FFA0}");
+}
+
+fn define_enum(width: u32, prefix: &str) {
+let name = format!("U{}", width);
+let max = 2_usize.pow(width);
+let range = 0..max;
+let succrange = range.clone().rev();
+
+println!("
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
+#[allow(dead_code)]
+enum {name} {{ {def} }}
+
+impl {name} {{
+    fn successor(self) -> Self {{
+        match self {{ {prefix}{max} => {prefix}0, {succ} }}
+    }}
+}}
+",
+    name=name,
+    def=range.clone().map(|n| format!("{}{}", prefix, n)).collect::<Vec<_>>().join(", "),
+    succ=succrange.clone().zip(succrange.clone().skip(1)).map(|(n, m)| format!("{p}{m} => {p}{n}", p=prefix, m=m, n=n)).collect::<Vec<_>>().join(", "),
+    max=range.clone().last().unwrap(),
+    prefix=prefix,
+);
+
+println!("
+impl std::cmp::PartialOrd for {name} {{
+    fn partial_cmp(&self, other: &Self) -> Option<std::cmp::Ordering> {{
+        if self == other {{
+            return Some(std::cmp::Ordering::Equal);
+        }}
+        let mut x = *self;
+        let mut y = *other;
+        Some(loop {{
+            if x == {prefix}{max} {{
+                break std::cmp::Ordering::Greater;
+            }}
+            if y == {prefix}{max} {{
+                break std::cmp::Ordering::Less;
+            }}
+            x = x.successor();
+            y = y.successor();
+        }})
+    }}
+}}
+
+impl std::ops::Add for {name} {{
+    type Output = Self;
+    fn add(mut self, y: Self) -> Self::Output {{
+        let mut n = {prefix}0;
+        while n != y {{
+            self = self.successor();
+            n = n.successor();
+        }}
+        self
+    }}
+}}
+
+impl std::ops::Sub for {name} {{
+    type Output = Self;
+    fn sub(self, mut y: Self) -> Self::Output {{
+        let mut n = {prefix}0;
+        while self != y {{
+            y = y.successor();
+            n = n.successor();
+        }}
+        n
+    }}
+}}
+
+impl std::ops::Mul for {name} {{
+    type Output = Self;
+    fn mul(self, y: Self) -> Self::Output {{
+        let mut n = {prefix}0;
+        let mut res = {prefix}0;
+        while n != y {{
+            n = n.successor();
+            res = res + self;
+        }}
+        res
+    }}
+}}
+",
+    name=name,
+    prefix=prefix,
+    max=range.last().unwrap(),
+);
+}
+```
+
+```text
+$ rustc crime-sux.rs && ./crime-sux > crime.rs && rustc crime.rs && ./crime
+
+[crime.rs:23] fibonacci(ﾠ8) = ﾠ34
+[crime.rs:24] factorial(ﾠﾠ6) = ﾠﾠ720
+
+[Exit: 0]
+```
+
+No unsafe! (["Hello, I would like a U7 and a U13..."](https://twitter.com/workingjubilee/status/1443619086655627291))
