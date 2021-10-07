@@ -52,6 +52,8 @@ classic mini-ITX case. A copper side would be the thermal interface, and it coul
 it portable and safe from spills (not permanently glued, with a rubber seal or something), so it
 can sit on the topside of the desk looking all cool!
 
+- Base: solid wood (Macrocarpa)
+
 ### Naming
 
 I name all my devices in a Star Wars theme. Workstations (desktop, laptops) after minor characters,
