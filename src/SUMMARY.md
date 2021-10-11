@@ -45,6 +45,7 @@
   - [Gaston Lagaffe](musings/gaston-lagaffe/index.md)
   - [Known Unknowns: a configuration language](musings/known-unknowns-conflang.md)
   - [On the difficulty of automated unblocking](musings/on-the-difficulty-of-automated-unblocking.md)
+  - [On Invoking Deities](musings/on-invoking-deities.md)
 - [Recipes](recipes/index.md)
   - [Thermomix]()
     - [No-effort Dairy Cream](recipes/thermomix/dairy-cream.md)
