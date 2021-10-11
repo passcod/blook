@@ -62,6 +62,24 @@ things, etc) after droids. My wifi network is named after a star system. I'm a n
 
 Lah Kara is from the new Visions series.
 
+### OS
+
+Either FreeBSD or Ubuntu (or both?).
+
+#### FreeBSD
+
+Tier 2 platform support, many packages fail to build.
+
+- <https://wiki.freebsd.org/riscv#Current_Status>
+- <https://wiki.freebsd.org/riscv/ports>
+- <https://wiki.freebsd.org/riscv/HiFiveUnmatched>
+
+#### Ubuntu
+
+Unknown support but they have images and repos.
+
+- <https://wiki.ubuntu.com/RISC-V>
+
 ## Media
 
 - <https://twitter.com/passcod/status/1444140533299834882>
