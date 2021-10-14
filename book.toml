@@ -5,6 +5,11 @@ multilingual = false
 src = "src"
 title = "Félix Saparelli"
 
+[preprocessor.toc]
+renderer = ["html"]
+marker = "* auto-gen TOC;\n{:toc}"
+max-level = 4
+
 [output.html]
 cname = "passcod.name"
 git-repository-url = "https://github.com/passcod/blook"
@@ -14,11 +19,5 @@ mathjax-support = true
 [output.html.fold]
 enable = true
 level = 1
-
-[preprocessor.toc]
-command = "mdbook-toc"
-renderer = ["html"]
-marker = "* auto-gen TOC;\n{:toc}"
-max-level = 4
 
 [output.linkcheck]

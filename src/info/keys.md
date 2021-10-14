@@ -4,6 +4,9 @@ I have three kinds of keys at the moment: good old [PGP/GPG keys](#gpg-keys) tha
 sign git commits, [minisign keys](#minisign-keys) that are used to sign software (being phased out),
 and [sigstore keys](#sigstore-keys) that are used to sign software (being phased in).
 
+* auto-gen TOC;
+{:toc}
+
 ## GPG keys
 
 These have an expiration date. I initially did 1-year keys, but that was too much trouble, so in
