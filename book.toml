@@ -15,4 +15,10 @@ mathjax-support = true
 enable = true
 level = 1
 
-# [output.linkcheck]
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]
+marker = "* auto-gen TOC;\n{:toc}"
+max-level = 4
+
+[output.linkcheck]
