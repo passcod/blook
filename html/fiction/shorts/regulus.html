@@ -1,0 +1,302 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Regulus - Félix Saparelli</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <!-- MathJax -->
+        <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../../intro.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../../avatars/index.html"><strong aria-hidden="true">2.</strong> Avatars</a></li><li class="chapter-item expanded "><a href="../../info/index.html"><strong aria-hidden="true">3.</strong> Persistent information</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../info/keys.html"><strong aria-hidden="true">3.1.</strong> Cryptographic keys</a></li><li class="chapter-item "><a href="../../info/blocks.html"><strong aria-hidden="true">3.2.</strong> Social media blocks</a></li><li class="chapter-item "><a href="../../info/trademark.html"><strong aria-hidden="true">3.3.</strong> Trademark</a></li><li class="chapter-item "><a href="../../info/twitter-auth.html"><strong aria-hidden="true">3.4.</strong> Twitter authentication</a></li></ol></li><li class="chapter-item expanded "><a href="../../fiction/index.html"><strong aria-hidden="true">4.</strong> Fiction</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../fiction/poetry/index.html"><strong aria-hidden="true">4.1.</strong> Poetry</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../fiction/poetry/only-one-left.html"><strong aria-hidden="true">4.1.1.</strong> Only One Left</a></li><li class="chapter-item "><a href="../../fiction/poetry/mid-loss.html"><strong aria-hidden="true">4.1.2.</strong> Mid-loss</a></li><li class="chapter-item "><a href="../../fiction/poetry/aftermath.html"><strong aria-hidden="true">4.1.3.</strong> Aftermath</a></li><li class="chapter-item "><a href="../../fiction/poetry/one-and-two.html"><strong aria-hidden="true">4.1.4.</strong> one and two</a></li><li class="chapter-item "><a href="../../fiction/poetry/grow.html"><strong aria-hidden="true">4.1.5.</strong> Grow</a></li><li class="chapter-item "><a href="../../fiction/poetry/slowly.html"><strong aria-hidden="true">4.1.6.</strong> Slowly</a></li><li class="chapter-item "><a href="../../fiction/poetry/alya.html"><strong aria-hidden="true">4.1.7.</strong> Alya</a></li><li class="chapter-item "><a href="../../fiction/poetry/so-many-alone-at-night.html"><strong aria-hidden="true">4.1.8.</strong> so many alone at night</a></li><li class="chapter-item "><a href="../../fiction/poetry/up-up-and-away.html"><strong aria-hidden="true">4.1.9.</strong> Up Up And Away</a></li><li class="chapter-item "><a href="../../fiction/poetry/sleep.html"><strong aria-hidden="true">4.1.10.</strong> Sleep</a></li><li class="chapter-item "><a href="../../fiction/poetry/hold.html"><strong aria-hidden="true">4.1.11.</strong> Hold</a></li><li class="chapter-item "><a href="../../fiction/poetry/sorry.html"><strong aria-hidden="true">4.1.12.</strong> Sorry</a></li><li class="chapter-item "><a href="../../fiction/poetry/right-over-there.html"><strong aria-hidden="true">4.1.13.</strong> Right over there</a></li><li class="chapter-item "><a href="../../fiction/poetry/the-road-to-hell.html"><strong aria-hidden="true">4.1.14.</strong> The Road to Hell</a></li><li class="chapter-item "><a href="../../fiction/poetry/self.html"><strong aria-hidden="true">4.1.15.</strong> Self</a></li><li class="chapter-item "><a href="../../fiction/poetry/tree.html"><strong aria-hidden="true">4.1.16.</strong> Tree</a></li><li class="chapter-item "><a href="../../fiction/poetry/unlit.html"><strong aria-hidden="true">4.1.17.</strong> Unlit</a></li><li class="chapter-item "><a href="../../fiction/poetry/one-summer-morning.html"><strong aria-hidden="true">4.1.18.</strong> One summer morning</a></li><li class="chapter-item "><a href="../../fiction/poetry/smile.html"><strong aria-hidden="true">4.1.19.</strong> Smile</a></li></ol></li><li class="chapter-item expanded "><a href="../../fiction/shorts/index.html"><strong aria-hidden="true">4.2.</strong> Short Prose</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../fiction/shorts/the-box.html"><strong aria-hidden="true">4.2.1.</strong> The Box</a></li><li class="chapter-item "><a href="../../fiction/shorts/a-man.html"><strong aria-hidden="true">4.2.2.</strong> A Man</a></li><li class="chapter-item "><a href="../../fiction/shorts/alive-in-the-night.html"><strong aria-hidden="true">4.2.3.</strong> ali.vei.nth.eni.ght</a></li><li class="chapter-item expanded "><a href="../../fiction/shorts/regulus.html" class="active"><strong aria-hidden="true">4.2.4.</strong> Regulus</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../fiction/shorts/regulus-notes.html"><strong aria-hidden="true">4.2.4.1.</strong> (notes for) Regulus</a></li></ol></li><li class="chapter-item "><a href="../../fiction/shorts/my-mountain-of-knowledge.html"><strong aria-hidden="true">4.2.5.</strong> My mountain of Knowledge</a></li><li class="chapter-item "><a href="../../fiction/shorts/finally-i-knew.html"><strong aria-hidden="true">4.2.6.</strong> Finally, I knew</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../technical/index.html"><strong aria-hidden="true">5.</strong> Technicals</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../technical/async-generator-state-machine.html"><strong aria-hidden="true">5.1.</strong> A little elegant state machine with Async Generators</a></li><li class="chapter-item "><a href="../../technical/dhall-review.html"><strong aria-hidden="true">5.2.</strong> Dhall: not quite it</a></li><li class="chapter-item "><a href="../../technical/exploring-wasm.html"><strong aria-hidden="true">5.3.</strong> Exploration of Wasm</a></li><li class="chapter-item "><a href="../../technical/rust-crimes-enum-ints.html"><strong aria-hidden="true">5.4.</strong> Rust crimes: Enum ints</a></li></ol></li><li class="chapter-item expanded "><a href="../../musings/index.html"><strong aria-hidden="true">6.</strong> Musings</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../musings/gaston-lagaffe/index.html"><strong aria-hidden="true">6.1.</strong> Gaston Lagaffe</a></li><li class="chapter-item "><a href="../../musings/known-unknowns-conflang.html"><strong aria-hidden="true">6.2.</strong> Known Unknowns: a configuration language</a></li><li class="chapter-item "><a href="../../musings/on-the-difficulty-of-automated-unblocking.html"><strong aria-hidden="true">6.3.</strong> On the difficulty of automated unblocking</a></li><li class="chapter-item "><a href="../../musings/on-invoking-deities.html"><strong aria-hidden="true">6.4.</strong> On Invoking Deities</a></li></ol></li><li class="chapter-item expanded "><a href="../../recipes/index.html"><strong aria-hidden="true">7.</strong> Recipes</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div><strong aria-hidden="true">7.1.</strong> Thermomix</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../recipes/thermomix/dairy-cream.html"><strong aria-hidden="true">7.1.1.</strong> No-effort Dairy Cream</a></li><li class="chapter-item "><a href="../../recipes/thermomix/pasta.html"><strong aria-hidden="true">7.1.2.</strong> Semi-steamed Pasta</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../updates/index.html"><strong aria-hidden="true">8.</strong> Progress updates</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../updates/projects/certainly.html"><strong aria-hidden="true">8.1.</strong> Certainly</a></li><li class="chapter-item "><a href="../../updates/projects/entry-insert.html"><strong aria-hidden="true">8.2.</strong> Hashmap Entry Insert</a></li><li class="chapter-item "><a href="../../updates/projects/japanese.html"><strong aria-hidden="true">8.3.</strong> Japanese</a></li><li class="chapter-item "><a href="../../updates/projects/lah-kara.html"><strong aria-hidden="true">8.4.</strong> Lah Kara</a></li><li class="chapter-item "><a href="../../updates/projects/sassbot.html"><strong aria-hidden="true">8.5.</strong> Sassbot</a></li><li class="chapter-item "><a href="../../updates/projects/splash.html"><strong aria-hidden="true">8.6.</strong> Splash</a></li><li class="chapter-item "><a href="../../updates/projects/cargo-watchexec.html"><strong aria-hidden="true">8.7.</strong> Watchexec family</a></li><li class="chapter-item "><div><strong aria-hidden="true">8.8.</strong> Archived</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../updates/projects/accord.html"><strong aria-hidden="true">8.8.1.</strong> Accord</a></li><li class="chapter-item "><a href="../../updates/projects/armstrong.html"><strong aria-hidden="true">8.8.2.</strong> Armstrong</a></li><li class="chapter-item "><a href="../../updates/projects/caretaker.html"><strong aria-hidden="true">8.8.3.</strong> Caretaker</a></li><li class="chapter-item "><a href="../../updates/projects/car-rainbow.html"><strong aria-hidden="true">8.8.4.</strong> Car Rainbow</a></li><li class="chapter-item "><a href="../../updates/projects/ct.html"><strong aria-hidden="true">8.8.5.</strong> ct</a></li><li class="chapter-item "><a href="../../updates/projects/defnew.html"><strong aria-hidden="true">8.8.6.</strong> defnew</a></li><li class="chapter-item "><a href="../../updates/projects/eqsky.html"><strong aria-hidden="true">8.8.7.</strong> Earthquake Sky</a></li><li class="chapter-item "><a href="../../updates/projects/figleaf.html"><strong aria-hidden="true">8.8.8.</strong> Figleaf</a></li><li class="chapter-item "><a href="../../updates/projects/glass-hanger.html"><strong aria-hidden="true">8.8.9.</strong> Glass Hanger</a></li><li class="chapter-item "><a href="../../updates/projects/intpath.html"><strong aria-hidden="true">8.8.10.</strong> IntPath</a></li><li class="chapter-item "><a href="../../updates/projects/irish.html"><strong aria-hidden="true">8.8.11.</strong> Irish</a></li><li class="chapter-item "><a href="../../updates/projects/keycasting.html"><strong aria-hidden="true">8.8.12.</strong> Keycasting</a></li><li class="chapter-item "><a href="../../updates/projects/mead.html"><strong aria-hidden="true">8.8.13.</strong> Mead</a></li><li class="chapter-item "><a href="../../updates/projects/notify.html"><strong aria-hidden="true">8.8.14.</strong> Notify</a></li><li class="chapter-item "><a href="../../updates/projects/omelette.html"><strong aria-hidden="true">8.8.15.</strong> Omelette</a></li><li class="chapter-item "><a href="../../updates/projects/pinn.html"><strong aria-hidden="true">8.8.16.</strong> Pinn</a></li><li class="chapter-item "><a href="../../updates/projects/reasonable.html"><strong aria-hidden="true">8.8.17.</strong> Reasonable</a></li><li class="chapter-item "><a href="../../updates/projects/reupholstery.html"><strong aria-hidden="true">8.8.18.</strong> Reupholstering chairs</a></li><li class="chapter-item "><a href="../../updates/projects/storq.html"><strong aria-hidden="true">8.8.19.</strong> Storq</a></li><li class="chapter-item "><a href="../../updates/projects/swp.html"><strong aria-hidden="true">8.8.20.</strong> Swp</a></li><li class="chapter-item "><a href="../../updates/projects/trebuchet.html"><strong aria-hidden="true">8.8.21.</strong> Trebuchet</a></li><li class="chapter-item "><a href="../../updates/projects/what.html"><strong aria-hidden="true">8.8.22.</strong> What</a></li></ol></li><li class="chapter-item "><a href="../../updates/dated/index.html"><strong aria-hidden="true">8.9.</strong> 2017-2019 (mostly) regular micro updates</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../updates/dated/2016.html"><strong aria-hidden="true">8.9.1.</strong> 2016</a></li><li class="chapter-item "><a href="../../updates/dated/2017/index.html"><strong aria-hidden="true">8.9.2.</strong> 2017</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../updates/dated/2017/january.html"><strong aria-hidden="true">8.9.2.1.</strong> January</a></li><li class="chapter-item "><a href="../../updates/dated/2017/february.html"><strong aria-hidden="true">8.9.2.2.</strong> February</a></li><li class="chapter-item "><a href="../../updates/dated/2017/march.html"><strong aria-hidden="true">8.9.2.3.</strong> March</a></li><li class="chapter-item "><a href="../../updates/dated/2017/april.html"><strong aria-hidden="true">8.9.2.4.</strong> April</a></li><li class="chapter-item "><a href="../../updates/dated/2017/may.html"><strong aria-hidden="true">8.9.2.5.</strong> May</a></li><li class="chapter-item "><a href="../../updates/dated/2017/june.html"><strong aria-hidden="true">8.9.2.6.</strong> June</a></li><li class="chapter-item "><a href="../../updates/dated/2017/july.html"><strong aria-hidden="true">8.9.2.7.</strong> July</a></li><li class="chapter-item "><a href="../../updates/dated/2017/august.html"><strong aria-hidden="true">8.9.2.8.</strong> August</a></li><li class="chapter-item "><a href="../../updates/dated/2017/september.html"><strong aria-hidden="true">8.9.2.9.</strong> September</a></li><li class="chapter-item "><a href="../../updates/dated/2017/october.html"><strong aria-hidden="true">8.9.2.10.</strong> October</a></li><li class="chapter-item "><a href="../../updates/dated/2017/november.html"><strong aria-hidden="true">8.9.2.11.</strong> November</a></li><li class="chapter-item "><a href="../../updates/dated/2017/december.html"><strong aria-hidden="true">8.9.2.12.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../../updates/dated/2018/index.html"><strong aria-hidden="true">8.9.3.</strong> 2018</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../updates/dated/2018/january.html"><strong aria-hidden="true">8.9.3.1.</strong> January</a></li><li class="chapter-item "><a href="../../updates/dated/2018/march.html"><strong aria-hidden="true">8.9.3.2.</strong> March</a></li><li class="chapter-item "><a href="../../updates/dated/2018/april.html"><strong aria-hidden="true">8.9.3.3.</strong> April</a></li><li class="chapter-item "><a href="../../updates/dated/2018/may.html"><strong aria-hidden="true">8.9.3.4.</strong> May</a></li><li class="chapter-item "><a href="../../updates/dated/2018/september.html"><strong aria-hidden="true">8.9.3.5.</strong> September</a></li><li class="chapter-item "><a href="../../updates/dated/2018/november.html"><strong aria-hidden="true">8.9.3.6.</strong> November</a></li><li class="chapter-item "><a href="../../updates/dated/2018/december.html"><strong aria-hidden="true">8.9.3.7.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../../updates/dated/2019/index.html"><strong aria-hidden="true">8.9.4.</strong> 2019</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../updates/dated/2019/january.html"><strong aria-hidden="true">8.9.4.1.</strong> January</a></li><li class="chapter-item "><a href="../../updates/dated/2019/february.html"><strong aria-hidden="true">8.9.4.2.</strong> February</a></li><li class="chapter-item "><a href="../../updates/dated/2019/march.html"><strong aria-hidden="true">8.9.4.3.</strong> March</a></li><li class="chapter-item "><a href="../../updates/dated/2019/april.html"><strong aria-hidden="true">8.9.4.4.</strong> April</a></li><li class="chapter-item "><a href="../../updates/dated/2019/september.html"><strong aria-hidden="true">8.9.4.5.</strong> September</a></li><li class="chapter-item "><a href="../../updates/dated/2019/december.html"><strong aria-hidden="true">8.9.4.6.</strong> December</a></li></ol></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../reading/index.html"><strong aria-hidden="true">9.</strong> Reading archive</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../reading/2016/index.html"><strong aria-hidden="true">9.1.</strong> 2016</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../reading/2016/july.html"><strong aria-hidden="true">9.1.1.</strong> July</a></li><li class="chapter-item "><a href="../../reading/2016/december.html"><strong aria-hidden="true">9.1.2.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../../reading/2017/index.html"><strong aria-hidden="true">9.2.</strong> 2017</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../reading/2017/january.html"><strong aria-hidden="true">9.2.1.</strong> January</a></li><li class="chapter-item "><a href="../../reading/2017/february.html"><strong aria-hidden="true">9.2.2.</strong> February</a></li><li class="chapter-item "><a href="../../reading/2017/march.html"><strong aria-hidden="true">9.2.3.</strong> March</a></li><li class="chapter-item "><a href="../../reading/2017/april.html"><strong aria-hidden="true">9.2.4.</strong> April</a></li><li class="chapter-item "><a href="../../reading/2017/may.html"><strong aria-hidden="true">9.2.5.</strong> May</a></li><li class="chapter-item "><a href="../../reading/2017/june.html"><strong aria-hidden="true">9.2.6.</strong> June</a></li><li class="chapter-item "><a href="../../reading/2017/july.html"><strong aria-hidden="true">9.2.7.</strong> July</a></li><li class="chapter-item "><a href="../../reading/2017/august.html"><strong aria-hidden="true">9.2.8.</strong> August</a></li><li class="chapter-item "><a href="../../reading/2017/september.html"><strong aria-hidden="true">9.2.9.</strong> September</a></li><li class="chapter-item "><a href="../../reading/2017/october.html"><strong aria-hidden="true">9.2.10.</strong> October</a></li><li class="chapter-item "><a href="../../reading/2017/november.html"><strong aria-hidden="true">9.2.11.</strong> November</a></li><li class="chapter-item "><a href="../../reading/2017/december.html"><strong aria-hidden="true">9.2.12.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../../reading/2018/index.html"><strong aria-hidden="true">9.3.</strong> 2018</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../reading/2018/january.html"><strong aria-hidden="true">9.3.1.</strong> January</a></li><li class="chapter-item "><a href="../../reading/2018/february.html"><strong aria-hidden="true">9.3.2.</strong> February</a></li><li class="chapter-item "><a href="../../reading/2018/march.html"><strong aria-hidden="true">9.3.3.</strong> March</a></li><li class="chapter-item "><a href="../../reading/2018/april.html"><strong aria-hidden="true">9.3.4.</strong> April</a></li><li class="chapter-item "><a href="../../reading/2018/may.html"><strong aria-hidden="true">9.3.5.</strong> May</a></li><li class="chapter-item "><a href="../../reading/2018/june.html"><strong aria-hidden="true">9.3.6.</strong> June</a></li><li class="chapter-item "><a href="../../reading/2018/july.html"><strong aria-hidden="true">9.3.7.</strong> July</a></li><li class="chapter-item "><a href="../../reading/2018/august.html"><strong aria-hidden="true">9.3.8.</strong> August</a></li><li class="chapter-item "><a href="../../reading/2018/september.html"><strong aria-hidden="true">9.3.9.</strong> September</a></li><li class="chapter-item "><a href="../../reading/2018/october.html"><strong aria-hidden="true">9.3.10.</strong> October</a></li><li class="chapter-item "><a href="../../reading/2018/november.html"><strong aria-hidden="true">9.3.11.</strong> November</a></li><li class="chapter-item "><a href="../../reading/2018/december.html"><strong aria-hidden="true">9.3.12.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../../reading/2019/index.html"><strong aria-hidden="true">9.4.</strong> 2019</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../reading/2019/january.html"><strong aria-hidden="true">9.4.1.</strong> January</a></li><li class="chapter-item "><a href="../../reading/2019/february.html"><strong aria-hidden="true">9.4.2.</strong> February</a></li><li class="chapter-item "><a href="../../reading/2019/march.html"><strong aria-hidden="true">9.4.3.</strong> March</a></li><li class="chapter-item "><a href="../../reading/2019/april.html"><strong aria-hidden="true">9.4.4.</strong> April</a></li><li class="chapter-item "><a href="../../reading/2019/may.html"><strong aria-hidden="true">9.4.5.</strong> May</a></li><li class="chapter-item "><a href="../../reading/2019/june.html"><strong aria-hidden="true">9.4.6.</strong> June</a></li><li class="chapter-item "><a href="../../reading/2019/july.html"><strong aria-hidden="true">9.4.7.</strong> July</a></li><li class="chapter-item "><a href="../../reading/2019/august.html"><strong aria-hidden="true">9.4.8.</strong> August</a></li><li class="chapter-item "><a href="../../reading/2019/september.html"><strong aria-hidden="true">9.4.9.</strong> September</a></li><li class="chapter-item "><a href="../../reading/2019/october.html"><strong aria-hidden="true">9.4.10.</strong> October</a></li><li class="chapter-item "><a href="../../reading/2019/november.html"><strong aria-hidden="true">9.4.11.</strong> November</a></li><li class="chapter-item "><a href="../../reading/2019/december.html"><strong aria-hidden="true">9.4.12.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../../reading/2020/index.html"><strong aria-hidden="true">9.5.</strong> 2020</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../reading/2020/january.html"><strong aria-hidden="true">9.5.1.</strong> January</a></li><li class="chapter-item "><a href="../../reading/2020/february.html"><strong aria-hidden="true">9.5.2.</strong> February</a></li><li class="chapter-item "><a href="../../reading/2020/march-june.html"><strong aria-hidden="true">9.5.3.</strong> March—June</a></li><li class="chapter-item "><a href="../../reading/2020/july.html"><strong aria-hidden="true">9.5.4.</strong> July</a></li><li class="chapter-item "><a href="../../reading/2020/august-december.html"><strong aria-hidden="true">9.5.5.</strong> August—December</a></li></ol></li><li class="chapter-item "><a href="../../reading/2021/index.html"><strong aria-hidden="true">9.6.</strong> 2021</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../reading/2021/january-may.html"><strong aria-hidden="true">9.6.1.</strong> First semester</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../deprecated/index.html"><strong aria-hidden="true">10.</strong> Deprecated content</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../deprecated/blanket.html"><strong aria-hidden="true">10.1.</strong> Blanket license</a></li><li class="chapter-item "><div><strong aria-hidden="true">10.2.</strong> Outdated</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../deprecated/outdated/modern-systems-languages.html"><strong aria-hidden="true">10.2.1.</strong> Modern systems languages</a></li><li class="chapter-item "><a href="../../deprecated/outdated/soft-limits-meaningful-cuts.html"><strong aria-hidden="true">10.2.2.</strong> Soft limits and meaningful content cuts</a></li><li class="chapter-item "><a href="../../deprecated/outdated/bruteforcing-the-devil.html"><strong aria-hidden="true">10.2.3.</strong> Bruteforcing the Devil</a></li><li class="chapter-item "><a href="../../deprecated/outdated/lighting-up-rust-with-neon.html"><strong aria-hidden="true">10.2.4.</strong> Lighting up Rust with Neon</a></li></ol></li><li class="chapter-item "><div><strong aria-hidden="true">10.3.</strong> Unheld</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../deprecated/unheld/sidebar.html"><strong aria-hidden="true">10.3.1.</strong> SIDEBAR</a></li><li class="chapter-item "><a href="../../deprecated/unheld/a-thought-on-fanfiction.html"><strong aria-hidden="true">10.3.2.</strong> A thought on fanfiction</a></li><li class="chapter-item "><div><strong aria-hidden="true">10.3.3.</strong> Indentity</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../deprecated/unheld/not-coming.html"><strong aria-hidden="true">10.3.3.1.</strong> This is not a coming out</a></li><li class="chapter-item "><a href="../../deprecated/unheld/guy-adjacent.html"><strong aria-hidden="true">10.3.3.2.</strong> Guy-Adjacent</a></li><li class="chapter-item "><a href="../../deprecated/unheld/my-words.html"><strong aria-hidden="true">10.3.3.3.</strong> My Words</a></li><li class="chapter-item "><a href="../../deprecated/unheld/check-labels.html"><strong aria-hidden="true">10.3.3.4.</strong> Check all applicable labels</a></li></ol></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Félix Saparelli</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/passcod/blook" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="regulus"><a class="header" href="#regulus">Regulus</a></h1>
+<blockquote>
+<p>16 August 2016</p>
+</blockquote>
+<p>We lived forever, and would live forever.<br />
+So we had concluded.</p>
+<p>We didn’t know, of course, because none can predict the future. But we had
+attempted everything, and still, we lived. We had watched, in the meantime,
+people come and go, countries come and go, peoples come and go. Some of us
+helped, to make them come, or to make them go. We clashed, albeit rarely one
+against another; such conflicts rarely went how we wished. It would not be
+accurate to say we warred: we made war, but we didn’t hurt ourselves. Rather,
+those we lead and guided were hurt, and made hurt, and did hurt.</p>
+<p>It took us a century to meet again, all together. And we stayed together for
+almost a decade, casting off from the world, metaphorically. We made peace.</p>
+<p>The world outside raged on.</p>
+<p>In all reunions going forward, we regretted, all of us, for that first moment
+of selfishness. It had taken us a century to make peace among ourselves, at
+little cost to us, given we would live forever, and at excruciating cost to
+everyone else, given that they didn’t. It took us, to our eternal shame, one
+other century to not only repair the damage we had sown, but to help all of
+them, all mortal people, to make peace. Now, they lived longer.</p>
+<p>We split in four: some worked on prosperity, to make the world the best we
+could, not for us, but for them; some worked on space, to explore and move
+there, to make inhabitable, to help prosperity; some worked on knowledge, and
+foremost, on understanding why we lived, to perhaps reverse it, or to perhaps
+share it; some worked on the past, to find why and whom made us live forever,
+to study their history, to help them remember it, such that both us and them
+would endeavour not to repeat it, or at least not the bad parts.</p>
+<p>As of this day, three score centuries on, before I leave for the stars,
+uncertain to come back, we have not finished our work. Humanity has almost
+forgotten us, all according to plan. They live, they think, forever — we know
+otherwise, but still, we hope. Soon I embark. You who reads this, tell me:</p>
+<p>how is Earth?</p>
+<p>— Found in the Sechura Desert, Earth, in the hand of The Owlman, 9387 CE.</p>
+<hr />
+<p>P.S. Shortly after leaving, I made a discovery that let me finish my part of
+our research: The Understanding. I came back here to leave you copies of my
+notes and conclusions. Go find Jiang Maze, last I heard they were living in
+the Phæthontis quadrangle on Mars. They are in charge of the relevant part
+of The Past, and will find these notes interesting, as well as provide you,
+most probably, with a cup of the finest tea in the Sol system, as dusk falls.</p>
+<p>— Found in a decaying ATHENA ΑΘΕ telescope, in L2 orbit, Earth, 9411 CE.</p>
+<hr />
+<p>I hope you’ve found the previous stashes useful, although there was something
+missing, an unexplored thread in my research that will prove critical both in
+the understanding and application of, at least, the last five stashes, and,
+perhaps, a few more. While waiting on this rock, I have also branched off into
+improvements which affect me directly, and will field test them soon. If you’re
+interested in a potential 3% efficiency increase in FTL Type C drives — and
+let’s be honest, who isn’t? — come find my next stop. If you can.</p>
+<p>Nyctimene is bringing me away from the hubbub of the main elliptic plane of
+the Sol system, perfect for a quiet and discreet jump. How was Maze’s tea?</p>
+<p>— Found on 2150 Nyctimene, Sol system, 9436 CE.</p>
+<hr />
+<p>I thought I would spend an entire orbit here, on Dagon. I only lasted 400 years
+before fancy made me take flight again. I have to say, as impressive as it was
+to approach the Eye of Sauron, only to settle within its edge, it was nothing
+compared to centuries of perpetual meteor showers. As usual, you’ll find my
+notes and research here. There’s a lot; take your time. I endeavoured to keep
+linguistic drift low, but I cannot control for how the common tongue will have
+evolved while I was alone here, so I wish you luck, dear reader.</p>
+<p>I have left a clock zeroed at my time of departure, for your information. It
+should be precise for two millennia, beyond that, well. You’d be lagging anyway.</p>
+<p>— Found in a shielded structure on Dagon, Fomalhaut system, 9520 CE.</p>
+<hr />
+<p>As mentioned in my last few notes, being around people once again has quite
+well increased research avenues. Not only that, but I went and got up to date
+with the current state of everything, and I even sent a few messages to my
+colleagues of old, which prompted an impromptu reunion with those that happened
+to be nearby. As a result, this stash is special! Sure, you’ll find the usual,
+but there’s also a record of said reunion, and notes on those I met, along with
+historical observations, recollections, and even archives dating back all the
+way to my first millennium. I do not have the hubris to write conclusions and
+analyses of that data, that and my colleagues might just take offence, but
+perhaps you or yours will want a stab at the matter.</p>
+<p>At my great surprise, although in hindsight it was inevitable, I found I liked
+interacting with people, especially those younger than me (there’s a lot more,
+and they’re not all people who have tried to kill me at some point; it was a
+long time ago, and we’ve all moved past it — so we say). A bright new world
+this is, after being alone so long. So, at my great surprise I started getting
+attached to a few. As I write this, I know I’m leaving; they know I’m leaving.
+And yet I also know I might come back, as my missing them will gnaw at me.</p>
+<p>My destination is Antares, perhaps detouring via Betelgeuse, there’s a very
+interesting research group drawing parallels between native species of the
+two systems, hinting at another species being capable of space travel — now
+that would be the greatest discovery, the crowning of a career, wouldn’t it?</p>
+<p>When you stop by, do make contact with my local fellow ancients, they’re
+intrigued; and your news from Maze are the freshest they’ll get. Bring them
+some tea, too, you know the one. Does it still have the scent of the moon?</p>
+<p>— Found in a beach mansion on Aldébaran-4, Aldebaran system, 9566 CE.</p>
+<hr />
+<p>This is the last note there is. As of writing this, I have finished my era
+of research and study and travels. Well, maybe not travels. I have made
+friends here, and on Aldébaran-4, and around Betelgeuse, and elsewhere. I’ll
+have to keep traveling, if only to visit them all. But my pursuit of
+knowledge and understanding is well and truly over. I have, long ago, finished
+my portion of the work assigned to me, and more. You’ll find next to this the
+last details and conclusions regarding that and all other threads I was
+exploring.</p>
+<p>I find myself wondering if I’ll go back to Sol; probably not soon, but it’s
+a possibility. One I would have never imagined when I started on this trip,
+this exile, if you would. I have lived a very long while, and I have regretted
+a great many events; it is only recently that I have been able to finally face
+them, to forgive myself in a way; it is only recently that I have opened up
+about them to another.</p>
+<p>Perhaps, had I continued on my lonesome, you would eventually have heard these
+grievances against myself… but these notes feel much too impersonal now. I
+cannot help but feel incoming loss at stopping there, yet it is smaller than
+the relief, and smaller still than the joy at being able to dedicate more of my
+life to my friends, my precious people.</p>
+<p>You should know what I look like, nowadays. I’ve included a picture, probably
+not the first you’ve seen, though, as I’m sure you’ll have talked with my
+fellows on previous stops. But if you see smaller versions of me around,
+don’t blink — say hi. I’ve at last managed to acquire some decent tea.</p>
+<p>You will not find any further note. Don’t try. Leave this to be my final one.
+I have been following your progress, lately, as your search coincided with
+my travels. This last stash should satisfy you for a little while, Otto,
+and then it’s your turn. A millennium of research and travel, two centuries
+of chase. Go forth and make it all your own, from now on. And thank you.</p>
+<p>— Found in the Rehua, a citadel-station orbiting Antares, 9570 CE.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../fiction/shorts/alive-in-the-night.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../../fiction/shorts/regulus-notes.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../fiction/shorts/alive-in-the-night.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../../fiction/shorts/regulus-notes.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
