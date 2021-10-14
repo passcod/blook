@@ -4,6 +4,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/cache@v2
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/bin
+          key: cargo-${{ hashFiles('.github/workflows/deploy.yml') }}
+
+      - run: which mdbook-toc || cargo install mdbook-toc --locked --version 0.7.0
+      - run: which mdbook-linkcheck || cargo install mdbook-linkcheck --locked --version 0.7.5
+
       - uses: actions/checkout@v2
       - uses: XAMPPRocky/deploy-mdbook@v1.1
         with:
