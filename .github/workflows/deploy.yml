@@ -11,10 +11,16 @@ jobs:
             ~/.cargo/bin
           key: cargo-${{ hashFiles('.github/workflows/deploy.yml') }}
 
+      - run: which mdbook || cargo install mdbook --locked --version 0.4.13
       - run: which mdbook-toc || cargo install mdbook-toc --locked --version 0.7.0
       - run: which mdbook-linkcheck || cargo install mdbook-linkcheck --locked --version 0.7.5
 
       - uses: actions/checkout@v2
-      - uses: XAMPPRocky/deploy-mdbook@v1.1
+      - run: mdbook build
+      - uses: Cecilapp/GitHub-Pages-deploy@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-            token: ${{ secrets.GITHUB_TOKEN }}
+          email: felix@passcod.name
+          build_dir: book/html
+          jekyll: no
