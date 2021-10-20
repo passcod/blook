@@ -119,7 +119,7 @@ There are also some features which are only supported by newer Time, not by Chro
 
 Therefore, you can now reasonable replace Chrono with Time!
 
-In the future I hope to provide a "quick migration guide" here.
+(In the future I hope to provide a "quick migration guide" here. For now, it's left to the reader!)
 
 [RUSTSEC-2020-0071]: https://rustsec.org/advisories/RUSTSEC-2020-0071
 [RUSTSEC-2020-0159]: https://rustsec.org/advisories/RUSTSEC-2020-0159
