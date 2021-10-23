@@ -53,6 +53,16 @@ it portable and safe from spills (not permanently glued, with a rubber seal or s
 can sit on the topside of the desk looking all cool!
 
 - Base: solid wood (Macrocarpa)
+- Glass: 3mm acrylic. This puts a further thermal restriction as it will melt at 80°C
+- Haven't decided for the back. If I can find a large extruded alu heat sink like plate, that would be ideal, but otherwise will probably reuse and machine some existing computer case steel
+
+### Power
+
+[NJ450-SXL from Silverstone](https://www.silverstonetek.com/product.php?pid=797). This is a small form factor fanless modular 450W. Selecting factors:
+
+- 450W is more than enough, I could do with 300. But a detailed review of this one shows it's most efficient at 50% load, which should be my average load on this system. That works out nicely.
+- It's fanless, but not only that, it's the only PSU I found which was completely enclosed without a grate. It's not waterproof or anything, I'm not gonna go stick it in oil, but it looks really good, certainly good enough to sit outside the case
+- It's modular, which will help integrate it into the case design, and will certainly make for a clean look given I only need the 24-pin and one 6+2 pci feed.
 
 ### Naming
 
