@@ -211,7 +211,8 @@ time that <code>localtime_r</code> is used; in those cases, a segfault may be ob
 settings to provide localtime information and conversion. It is a very useful function that is used
 pretty much everywhere that needs to interact with local/utc time and timezones. Handling timezones
 is largely regarded as all programmers’ bane; replacing this function with one that does not have
-the behaviour is a <a href="https://github.com/time-rs/time/issues/293#issuecomment-909009716">potentially massive endeavour</a>.</p>
+the behaviour is a <a href="https://github.com/time-rs/time/issues/293#issuecomment-909009716">potentially massive endeavour</a>. Over on IRLO, Tony Arcieri
+<a href="https://internals.rust-lang.org/t/synchronized-ffi-access-to-posix-environment-variable-functions/15475">provides a summary of the Rust side of this issue</a>.</p>
 <p>Time has mitigated the issue by removing the calls to <code>localtime_r</code>, returning errors in 0.2 and 0.3
 <a href="https://github.com/time-rs/time/blame/4eebedd48c505fb7b042ad8aff8ad7665c5545ed/src/utc_offset.rs#L330-L332">unless a custom <code>cfg</code> is passed to the compiler</a>. That does mean that if you
 <em>do</em> want that information, you’re out of luck unless you (as an application) or all your end-users
