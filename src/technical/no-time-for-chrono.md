@@ -54,7 +54,8 @@ time that `localtime_r` is used; in those cases, a segfault may be observed.
 settings to provide localtime information and conversion. It is a very useful function that is used
 pretty much everywhere that needs to interact with local/utc time and timezones. Handling timezones
 is largely regarded as all programmers' bane; replacing this function with one that does not have
-the behaviour is a [potentially massive endeavour][time-293-byron].
+the behaviour is a [potentially massive endeavour][time-293-byron]. Over on IRLO, Tony Arcieri
+[provides a summary of the Rust side of this issue][irlo-bascule].
 
 Time has mitigated the issue by removing the calls to `localtime_r`, returning errors in 0.2 and 0.3
 [unless a custom `cfg` is passed to the compiler][time-4eebedd4-unsound]. That does mean that if you
@@ -132,6 +133,7 @@ Therefore, you can now reasonable replace Chrono with Time!
 [env-posix]: https://austingroupbugs.net/view.php?id=188
 [env-rust-felker]: https://twitter.com/RichFelker/status/1450300830381445121
 [env-rust]: https://github.com/rust-lang/rust/pull/24741
+[irlo-bascule]: https://internals.rust-lang.org/t/synchronized-ffi-access-to-posix-environment-variable-functions/15475
 [time-0.3]: https://github.com/time-rs/time/blob/main/CHANGELOG.md#030-2021-07-30
 [time-293]: https://github.com/time-rs/time/issues/293
 [time-293-byron]: https://github.com/time-rs/time/issues/293#issuecomment-909009716
