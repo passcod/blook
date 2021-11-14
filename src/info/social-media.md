@@ -45,6 +45,7 @@ See also my musings on [automated unblocking](../musings/on-the-difficulty-of-au
 - You are or support or have voted for a white supremacist, fascist, or other people who are
   existential threats to me or my friends.
 - You proselytise. Specifically religion, cults, parareligion, or cryptocoin.
+- NFT bullshit.
 - You’re a transphobe, a sexist, a homophobe of various stripes, an unrepentant racist, etc.
 - You’re a troll. I don't mean shitposting.
 - You’re such a “good” shitposter that you’re indistinguishable from a troll.
