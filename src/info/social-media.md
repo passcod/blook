@@ -12,7 +12,7 @@ Tweets will be deleted if they reach:
 
 ## Twitter authentication
 
-> [Inspired by 0xabadidea](https://twitter.com/0xabad1dea/status/532231191257415680)
+> [Inspired by 0xabad1dea](https://twitter.com/0xabad1dea/status/532231191257415680)
 
 If I ever lose control of my Twitter account, I will authenticate the new one, or prove my having
 recovered the old one, by decoding the hash
@@ -22,6 +22,13 @@ recovered the old one, by decoding the hash
 published at <https://twitter.com/passcod/status/705952798844715008>,
 which is also now here and in the git history.
 
+## Copyright etc
+
+Outside of the license afforded to the relevant social media platform as per their terms and conditions,
+I give no permission for use (unless you have been granted such in writing). In particular, my content may
+**not** be used for commercial gain by any entity, any non-commercial or promotional use by cryptocurrency or
+NFT endeavours of any kind, nor the propagation of fascist ideology (not that I expect these to have a strong
+respect of laws that inconvenience them).
 
 ## Blocks
  
