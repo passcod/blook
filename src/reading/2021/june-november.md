@@ -1,0 +1,77 @@
+# Second semester 2021
+
+## Fanfiction
+
+This is every fic I’ve read (and liked, as per usual) from mid-May through November 2021.
+
+ - {HP} [Merope](https://archiveofourown.org/works/26491396). {40k words atow}
+ - {HP} [Siblings](https://archiveofourown.org/works/23910922). {3k words}
+ - {Naruto/LotR} [Itachi: On the Importance of Communication](https://archiveofourown.org/works/11549211). {4k words}
+ - {HP} [Sisters (Doing It for Themselves)](https://archiveofourown.org/works/18209111). {2k words}
+ - {HP} [are we the bad guys?](https://archiveofourown.org/works/28216383). {2k words}
+ - {Naruto} [Black Hole Heart](https://archiveofourown.org/works/16267331). {24k words atow}
+ - {Marvel} [Dara](https://archiveofourown.org/works/16818478). {16k words atow}
+ - {Naruto} [Icarus (protect the flames)](https://archiveofourown.org/works/24968347). {35k words atow}
+ - {Naruto} [Wolves of Fire Country](https://archiveofourown.org/works/16456544). {59k words atow}
+ - {LotR/GoT} [oh, how far you are from home](https://archiveofourown.org/works/23184505). {62k words atow}
+ - {HP} [Full circle](https://archiveofourown.org/works/6614155). {67k words atow}
+ - {Naruto} [Foundling](https://archiveofourown.org/works/2608286). {8k words}
+ - {Naruto} [Moonflower](https://archiveofourown.org/works/15052061). {95k words atow}
+ - {Good Omens} **[Demonology and the Tri-Phasic Model of Trauma: An Integrative Approach](https://archiveofourown.org/works/20177950)**. {99k words}
+ - {Marvel} **[A Bright and Bitter Flame](https://archiveofourown.org/works/534937)**. {314k words atow}
+ - {Naruto} **[‘before you’ series](https://archiveofourown.org/series/1052003)**. {167k words}
+ - {HP} [like dragons but more disappointing](https://archiveofourown.org/works/15773046). {3k words}
+ - {Naruto} [Ear to the Wall](https://archiveofourown.org/works/16685326). {90k words atow}
+ - {HP} [Making Rent](https://archiveofourown.org/works/13475685). {17k words}
+ - {Naruto} [This place is paradise (it's the place I call home)](https://archiveofourown.org/works/24296377). {7k words}
+ - {Naruto} **[Second Bite at the Cherry](https://archiveofourown.org/works/15001781)**. {355k words atow}
+ - {Naruto} [With Nothing On My Tongue](https://archiveofourown.org/works/11252559). {79k words atow}
+ - {SW} **[Haat'Mand'alor be Yaim'ol](https://archiveofourown.org/works/31087886)**. {106k words}
+ - {Marvel/HTTYD} [One of Us (One of Them)](https://archiveofourown.org/works/515653). {2k words}
+ - {SW} **[‘the dark between the stars’ series](https://archiveofourown.org/series/847047)**. {193k words atow}
+ - {GoT} **[Down a Rabbit Hole to Westeros](https://archiveofourown.org/works/20415661)**. {179k words atow}
+ - {Naruto} [Child Borne of Spring](https://archiveofourown.org/works/17815196). {66k words atow}
+ - {Good Omens} [Joining forces with the devil? It's more likely than you think.](https://archiveofourown.org/works/20794223). {105k words}
+ - {TSVSSS} **[Wife #461 Would Like a Different Ending!](https://archiveofourown.org/works/20058109)**. {87k words atow}
+ - {Naruto} **[‘The Compass Points North’ series](https://archiveofourown.org/series/2007121)**. {357k words}
+ - {Marvel} **[If I Could Start Again](https://archiveofourown.org/works/14873238)**. {228k words atow}
+ - {HP} **[Dripping Fingers](https://archiveofourown.org/works/25440826)**. {123k words atow}
+ - {HP} [Weekly VOLDIE](https://archiveofourown.org/works/15672978). {29k words atow}
+ - {Marvel} [the reactions of a dead man](https://archiveofourown.org/works/14727342). {67k words}
+ - {HP} [‘The Bonds We Form’ series](https://archiveofourown.org/series/1410964). {76k words atow}
+ - {HP} **[Diablerie](https://archiveofourown.org/works/16697380)**. {176k words}
+ - {Marvel} **[‘Odin's Son, Tyr's Son’ series](https://archiveofourown.org/series/403348)**. {279k words}
+ - {Avatar} [the beginning of a new and brighter birth](https://archiveofourown.org/works/14921627). {16k words}
+ - {Avatar} [A Strong Bond](https://archiveofourown.org/works/27364756). {20k words atow}
+ - {Dragon Ball} **[The Optimised Wish Project](https://fanfiction.net/s/12863641/1/The-Optimised-Wish-Project)**. {351k words atow}
+ - {Worm} **[Administrative Mishap](https://archiveofourown.org/works/25633546)**. {638k words atow}
+ - {SW} [They Have Taken Photographs of Our Footprints in the Dust](https://archiveofourown.org/works/9127249). {4k words}
+ - {Avatar} [Of Dead Fire and Dragon Dreams](https://archiveofourown.org/works/23010751). {21k words}
+ - {Avatar} [‘Assassin Zuko One Shots’ series](https://archiveofourown.org/series/1072755). {73k words atow}
+ - {Avatar} [To The Victor Goes The Spoils](https://archiveofourown.org/works/27730900). {27k words}
+ - {Avatar} [A Lotus Creates Ripples](https://archiveofourown.org/works/20903819). {21k words atow}
+ - {Naruto} [the name of the game](https://archiveofourown.org/works/27837148). {235k words atow}
+ - {Naruto} [above inferior](https://archiveofourown.org/works/22796119). {60k words}
+ - {Marvel/Spider-Man/Addams} **[‘The Components of Construction’ series](https://archiveofourown.org/series/495916)**. {533k words atow}
+ - {HP} **[‘The Quiet Ones’ series](https://archiveofourown.org/series/1057502)**. {172k words atow}
+ - {HP} [The many deaths of Harry Potter](https://archiveofourown.org/works/10093553). {236k words atow}
+ - {Naruto} [And other things Kakashi did not hallucinate](https://archiveofourown.org/works/20430470). {3k words}
+ - {Avatar} [the heat that drives the light (the fire it ignites)](https://archiveofourown.org/works/21836116). {9k words atow}
+ - {Marvel} [Salt. Swells. Undertows.](https://archiveofourown.org/works/8554159). {13k words}
+ - {Naruto} [A Minor Sealing Mishap](https://archiveofourown.org/works/20380180). {2k words}
+ - {Naruto} [Of Courtship and Kidnapping](https://archiveofourown.org/works/20345545). {1k words}
+ - {Avatar} [Consequences](https://archiveofourown.org/works/23607574). {31k words atow}
+ - {Murderbot/Gideon9th} [your space station sucks and your vibes are awful](https://archiveofourown.org/works/32091157). {3k words}
+ - {Avatar} [Zuko's Invisible Friend](https://archiveofourown.org/works/21221678). {15k words atow}
+ - {Avatar} [‘The Non-Existent Twin’ series](https://archiveofourown.org/series/1573438). {40k words atow}
+ - {Avatar} [Candles and Boring Games](https://archiveofourown.org/works/23796211). {6k words}
+ - {Avatar} [The Cavern and the Koi Pond](https://archiveofourown.org/works/23429017). {20k words}
+ - {Avatar} [‘the kids aren't alright’ series](https://archiveofourown.org/series/1763332). {25k words}
+ - {Avatar} **[Traitor's Face](https://archiveofourown.org/works/3099866)**. {702k words}
+ - {Avatar} [there is a fire in me](https://archiveofourown.org/works/19040134). {59k words}
+ - {Avatar} [Unpicked, rewoven](https://archiveofourown.org/works/34310251). {15k words atow}
+ - {Avatar} [A conversation with Zuzu](https://archiveofourown.org/works/33073999). {2k words}
+ - {Avatar} [Choke On Your Own Ashes](https://archiveofourown.org/works/21284915). {4k words}
+ - {Avatar} **[letter to the editor](https://archiveofourown.org/works/20014126)**. {2k words}
+ - {Avatar} [Call “Uncle”](https://archiveofourown.org/works/15925412). {1k words}
+ - {Avatar} [‘Internment’ series](https://archiveofourown.org/series/1128101). {11k words atow}
