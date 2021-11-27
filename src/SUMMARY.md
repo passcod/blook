@@ -162,6 +162,7 @@
     - [August—December](reading/2020/august-december.md)
   - [2021](reading/2021/index.md)
     - [First semester](reading/2021/january-may.md)
+    - [Second semester](reading/2021/june-november.md)
 - [Deprecated content](deprecated/index.md)
   - [Blanket license](deprecated/blanket.md)
   - [Outdated]()
