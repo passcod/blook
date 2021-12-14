@@ -38,6 +38,12 @@ recovered the old one, by decoding the hash
 published at <https://twitter.com/passcod/status/705952798844715008>,
 which is also now here and in the git history.
 
+## Disclaimer
+
+Views expressed on social media or elsewhere are, unless stated, mine. As opposed to being anyone else's,
+like my employer, any organisation I may be affiliated with, or any other person. Similarly, endorsement
+or agreement is not implied.
+
 ## Copyright etc
 
 Outside of the license afforded to the relevant social media platform as per their terms and conditions,
@@ -67,7 +73,7 @@ See also my musings on [automated unblocking](../musings/on-the-difficulty-of-au
 - You’re an asshole to someone I like.
 - You are or support or have voted for a white supremacist, fascist, or other people who are
   existential threats to me or my friends.
-- You proselytise. Specifically religion, cults, parareligion, or cryptocoin.
+- You proselytise. Specifically but not limited to religion, cults, parareligion, or cryptocoin.
 - NFT bullshit.
 - You’re a transphobe, a sexist, a homophobe of various stripes, an unrepentant racist, etc.
 - You’re a troll. I don't mean shitposting.
