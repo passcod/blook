@@ -44,6 +44,10 @@ Views expressed on social media or elsewhere are, unless stated, mine. As oppose
 like my employer, any organisation I may be affiliated with, or any other person. Similarly, endorsement
 or agreement is not implied.
 
+Twitter in particular and social media in general, including this website, is not to be taken as serious
+nor professional commentary, unless I say so. And even then, one should always keep in mind that one may,
+at any moment, be shitposting.
+
 ## Copyright etc
 
 Outside of the license afforded to the relevant social media platform as per their terms and conditions,
