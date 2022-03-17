@@ -4,7 +4,10 @@
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>Exploration of Wasm - Félix Saparelli</title>
+
+
         <!-- Custom HTML head -->
+        
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,15 +19,18 @@
         <link rel="stylesheet" href="../css/general.css">
         <link rel="stylesheet" href="../css/chrome.css">
         <link rel="stylesheet" href="../css/print.css" media="print">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="../fonts/fonts.css">
+
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="../highlight.css">
         <link rel="stylesheet" href="../tomorrow-night.css">
         <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+
         <!-- MathJax -->
         <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     </head>
@@ -85,7 +91,7 @@
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
+                                <div id="menu-bar-hover-placeholder"></div>
                 <div id="menu-bar" class="menu-bar sticky bordered">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
@@ -115,6 +121,7 @@
                         <a href="https://github.com/passcod/blook" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
+
                     </div>
                 </div>
 
@@ -128,6 +135,7 @@
                         </ul>
                     </div>
                 </div>
+
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
                 <script type="text/javascript">
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
@@ -159,7 +167,7 @@ telecommunication industry in New Zealand.</p>
 to a certain extent the bytecode, is an s-expression. Instructions are the
 usual stack machine as seen e.g. in assembly. But the structure is all
 s-expressions. Perhaps that’s surprising and interesting to me because I’m not
-intimately familiar with other binary library and executable formats...
+intimately familiar with other binary library and executable formats…
 <a href="https://fasterthanli.me/blog/2020/whats-in-a-linux-executable/">fasterthanlime’s ELF exploration is still on my to-read list</a>.</p>
 <p>The standard wasm tools come with <code>wat2wasm</code> and <code>wasm2wat</code>, which translate
 between the bytecode (wasm) and text (wat) formats. <code>wat2wasm</code> will produce
@@ -176,7 +184,7 @@ pretty much the extent of my options as much of everything else either embeds
 an entire runtime or is too high level or is too eldritch, <a href="https://fasterthanli.me/blog/2020/i-want-off-mr-golangs-wild-ride/">wildly
 annoying</a>, or unfamiliar.</p>
 <p>Even more useful is wat’s ability to write stack instructions in
-s-expressions... or not, as the need may be. For example, this:</p>
+s-expressions… or not, as the need may be. For example, this:</p>
 <pre><code class="language-wat">i32.const 31
 call $addOne
 i32.const 8
@@ -191,7 +199,7 @@ i32.mul
 <p>Strictly more verbose, but helpful where following along with a stack notation
 can be confusing.</p>
 <h2 id="the-wasm-module-system"><a class="header" href="#the-wasm-module-system">The wasm module system</a></h2>
-<p>There is an assymmetry in the module system that... makes sense to anyone who’s
+<p>There is an assymmetry in the module system that… makes sense to anyone who’s
 used language-level module systems but might not be immediately obvious when
 approaching this in the context of dynamic libraries.</p>
 <p>There are four types of exports and imports: functions (bread and butter),
@@ -208,7 +216,7 @@ can either be defined in the module or imported (defined elsewhere, including
 some other module). In theory and/or experiments, most languages also only
 support a single memory, or only support additional memories as addressable
 blobs of data. C &amp;co, with manual memory management, can in theory allocate
-anywhere, and so may be better off... Rust’s <a href="https://doc.rust-lang.org/nightly/std/alloc/trait.AllocRef.html">AllocRef</a> nightly feature shows
+anywhere, and so may be better off… Rust’s <a href="https://doc.rust-lang.org/nightly/std/alloc/trait.AllocRef.html">AllocRef</a> nightly feature shows
 promise to be able to specify the allocator for some data, and therefore be
 able to configure multiple allocators each targeted at a different memory.
 However, that will require multiple memory support at the (spec and then)
@@ -284,7 +292,7 @@ instead of just one:</p>
 )
 </code></pre>
 <p>To compile that with wat2wasm, you need the <code>--enable-multi-value</code> flag, which
-should have been a... flag... that this wasn’t quite as well-supported as the
+should have been a… flag… that this wasn’t quite as well-supported as the
 current spec made it out to be.</p>
 <p>However, wasmer supports multi-value like a champ, both for calling exports:</p>
 <pre><code class="language-rust ignore">let func: Func&lt;(i32), (i32, i32)&gt; = instance.func(&quot;read_two_i32s&quot;)?;
@@ -303,7 +311,7 @@ let (one, two) = func.call(0)?;
 designing APIs using multi-value and testing them with multi-value hand-written
 wat. All seemed great!</p>
 <p>Then I tried using Rust to write wasm modules that used my APIs and everything
-fell apart because Rust does not support multi-value for Wasm... and lies to
+fell apart because Rust does not support multi-value for Wasm… and lies to
 you when you try using it.</p>
 <p>See, Rust uses some kind of “C-like” ABI to do the codegen for its imports and
 exports in its wasm support, such that if you write this:</p>
@@ -349,7 +357,7 @@ If there’s no <code>start</code> section, it’s not called, simple as that.</
 should absolutely not be used by common plebeians or for programs and such,
 that it’s useless anyway because it runs before “the module” and “exports” are
 available, and that implicitely <code>export</code>ed functions rely on the <code>start</code> having
-been run, so you really shouldn’t use this for anything...</p>
+been run, so you really shouldn’t use this for anything…</p>
 <p>Anyway, you can’t generate it.</p>
 <p>And fair enough. I’m sure they know their stuff and they have good reasons.</p>
 <p><strong>However</strong>. The instantiation process for Wasm is <a href="https://webassembly.github.io/spec/core/exec/modules.html#exec-instantiation">precisely defined</a>.
@@ -359,14 +367,14 @@ section is called as the very last step of the instantiation process.</strong></
 something and then having the runtime call this export straight away, if you
 want to deliberately flout the guidelines, <em>you probably can</em>. You can totally
 use the instantiation of a module as a kind of glorified function call.</p>
-<p>It’s most certainly a bad idea... but you can.</p>
+<p>It’s most certainly a bad idea… but you can.</p>
 <p>Given that nothing will generate this for you, you’ll need to post-process the
 wasm to add the <code>start</code> section in yourself. A small price to pay. (Seriously,
 though: don’t. It’s all fun and games until nasal daemons eat your laundry, and
 again, <em>nothing supports this</em>.)</p>
 <h2 id="types"><a class="header" href="#types">Types</a></h2>
 <p>People usually start with that, but it’s kind of an implementation detail in
-most cases, and then they leave it at that... there’s some good bits there,
+most cases, and then they leave it at that… there’s some good bits there,
 though.</p>
 <p>As a recap, Wasm at the moment has 2×2 scalar types: signed ints and floats,
 both in 32 and 64 bit widths, plus one 128-bit vector type for SIMD (when
@@ -383,8 +391,8 @@ compile_error!(&quot;only 32 and 64 bit pointers are supported&quot;);
 </code></pre>
 <p>When engines have magical support for unsigned and smaller width integers,
 that’s all convention between the two sides. <code>u8</code> and <code>i16</code> and <code>u32</code> are cast
-to 8, 16, or 32 bits, padded out, given to wasm as an “<code>i32</code>“, and then the
-inner module re-interprets the bits as the right type... if it wants to. Again,
+to 8, 16, or 32 bits, padded out, given to wasm as an “<code>i32</code>”, and then the
+inner module re-interprets the bits as the right type… if it wants to. Again,
 it’s all convention. Make sure everything is documented, because if you pass
 –2079915776 (<code>i32</code>) and meant 2215051520 (<code>u32</code>), well, who could have known?</p>
 <h2 id="there-may-be-more"><a class="header" href="#there-may-be-more">There may be more</a></h2>
@@ -397,9 +405,11 @@ it’s all convention. Make sure everything is documented, because if you pass
                             <a rel="prev" href="../technical/dhall-review.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
+
                             <a rel="next" href="../technical/rust-crimes-enum-ints.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
+
                         <div style="clear: both"></div>
                     </nav>
                 </div>
@@ -409,6 +419,7 @@ it’s all convention. Make sure everything is documented, because if you pass
                     <a rel="prev" href="../technical/dhall-review.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
+
                     <a rel="next" href="../technical/rust-crimes-enum-ints.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
@@ -416,16 +427,24 @@ it’s all convention. Make sure everything is documented, because if you pass
 
         </div>
 
+
+
+
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>
+
+
         <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
         <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
         <script src="../book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
+
+
     </body>
 </html>
