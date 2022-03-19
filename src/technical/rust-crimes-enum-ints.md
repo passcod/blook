@@ -1,5 +1,7 @@
 # Rust crimes: Enum ints
 
+> October 2021
+
 1. > cursed thought: rust enums are expressive enough that you dont really need "built in" types. you can express everything with just enums...
 
     ~[Boxy](https://twitter.com/EllenNyan0214/status/1443349026624126979)
