@@ -1,6 +1,8 @@
 # Gaston Lagaffe
 
-This week I discovered that one of my all-time favourite comics, [Gaston Lagaffe](https://en.wikipedia.org/wiki/Gaston_(comics)), was never translated into English. Ever.
+> September 2016
+
+This week I discovered that one of my all-time favourite comics, [Gaston Lagaffe](https://en.wikipedia.org/wiki/Gaston_(comics)), was never translated into English. Ever. _(Update March 2022: It still hasn't been translated, but a new volume is getting published by Dupuis, so there might be hope!)_
 
 I find that really sad because Gaston was, and still is, a comic I read when I was growing up, and I wish more people I live with (in a global sense, as in my local community) and work with and laugh with… also had read it.
 
