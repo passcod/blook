@@ -1,6 +1,6 @@
 # Hashmap Entry Insert
 
-> September 2020 —
+> September 2020 —  February 2022
 
 ## Pitch
 
@@ -20,12 +20,10 @@ impl<'a, K, V> Entry<'a, K, V> {
 
 ## Outcome
 
-Currently implemented behind the `#![feature(entry_insert)]` flag.
+Currently implemented behind the `#![feature(entry_insert)]` flag, but getting redesigned.
+I have checked out of it and am no longer interested nor involved.
 
 - <https://github.com/rust-lang/rust/pull/64656>
 - <https://github.com/rust-lang/rust/issues/65225>
+- <https://github.com/rust-lang/rust/issues/65225#issuecomment-1047213306>
 
-## Future
-
-The library team has approved it for stabilisation, pending some minor changes. I will get to that…
-soonish.
