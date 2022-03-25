@@ -12,7 +12,7 @@
 
 3. > Please Kate, this is my worst nightmare. I have dependency minimization brain along with use-the-smalleet-int-possible brain. They are terminal and often co-morbid.
 
-    ~[genny](https://twitter.com/gennyble/status/1443444518758621188)
+    ~[genny](https://twitter.com/gennyble/status/1443444518758621188) _(tweet since deleted)_
 
 4. > dw we can't actually do this as there's no way to disambiguate the values.
 
