@@ -11,9 +11,12 @@
     also respond to `he/him`. `She`/`xem`/`peh`/`hie`/`zir` etc are fine if you
     want to for some reason.
 
-  - in French and other gendered languages: in the absence of good consensus
-    for gender-neutral language, I prefer masculine forms along with the
-    pronoun `iel`, or `il` as fallback.
+  - in French and other gendered languages or languages with only an impersonal
+    neuter: in the absence of good consensus for gender-neutral language, I
+    prefer masculine forms. If there is a well-accepted neutral neo-pronoun I
+    prefer its use alongside masculine forms. E.g. `iel` in French, with `il`
+    as fallback, but `αυτός`/`αυτοί` in Greek rather than `τό`.
 
-  - in Māori: that's easy. Use `ia`!
+  - in Māori and other languages with (or with _only_) a personal neuter: that's
+    easy. Use it! (For example: `ia` (Te Reo), `O` (Turkish), `em` (PNG), etc…
 
