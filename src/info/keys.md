@@ -71,9 +71,22 @@ uid   Felix Saparelli (:passcod) <me@passcod.net>
 
 ## Minisign keys
 
-In [minisign](https://github.com/jedisct1/minisign) format, used for signing software binaries.
+In [minisign](https://github.com/jedisct1/minisign) format.
+
+### Identity
+
+Used for identity verification.
+
+```text
+untrusted comment: minisign public key: DC4E60487F4A50B8
+RWS4UEp/SGBO3N8ppvJSbYiYPdYSxUMV6cBU2KvVo+dXLzCmUh9wWCWo
+```
+
+- [Public key](keys/identity.pub)
 
 ### Software
+
+Used for signing software binaries and source.
 
 ```text
 untrusted comment: minisign public key: 2264BBE425DA952E
