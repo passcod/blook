@@ -162,6 +162,7 @@ and <a href="#sigstore-keys">sigstore keys</a> that are used to sign software (b
 </li>
 <li><a href="#minisign-keys">Minisign keys</a>
 <ul>
+<li><a href="#identity">Identity</a></li>
 <li><a href="#software">Software</a></li>
 </ul>
 </li>
@@ -224,8 +225,17 @@ uid   Felix Saparelli (:passcod) &lt;me@passcod.net&gt;
 <li><a href="keys/passcod03.revok.04.sig">Signature on revocation by <code>passcod04</code></a></li>
 </ul>
 <h2 id="minisign-keys"><a class="header" href="#minisign-keys">Minisign keys</a></h2>
-<p>In <a href="https://github.com/jedisct1/minisign">minisign</a> format, used for signing software binaries.</p>
+<p>In <a href="https://github.com/jedisct1/minisign">minisign</a> format.</p>
+<h3 id="identity"><a class="header" href="#identity">Identity</a></h3>
+<p>Used for identity verification.</p>
+<pre><code class="language-text">untrusted comment: minisign public key: DC4E60487F4A50B8
+RWS4UEp/SGBO3N8ppvJSbYiYPdYSxUMV6cBU2KvVo+dXLzCmUh9wWCWo
+</code></pre>
+<ul>
+<li><a href="keys/identity.pub">Public key</a></li>
+</ul>
 <h3 id="software"><a class="header" href="#software">Software</a></h3>
+<p>Used for signing software binaries and source.</p>
 <pre><code class="language-text">untrusted comment: minisign public key: 2264BBE425DA952E
 RWQuldol5LtkIrx0khfo4Z7Y8SixwG2K8OagJSvsJNBcuLgB2oVNJFFv
 </code></pre>
