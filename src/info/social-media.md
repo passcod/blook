@@ -5,7 +5,7 @@
 - **Twitter: [@passcod](https://twitter.com/passcod)**
 - GitHub: [@passcod](https://github.com/passcod)
 - Twitch: [@passcodWitch](https://www.twitch.tv/passcodWitch)
-- [Virtual Regatta](https://www.virtualregatta.com/fr/offshore-jeu/): `passcod`
+- Fediverse: [@passcod@mastodon.social](https://mastodon.social/@passcod)
 - ...you get the drift.
 
 ### Small
