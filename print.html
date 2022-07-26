@@ -3291,8 +3291,8 @@ $ cargo build --target wasm32-wasi --release
 <p>Gah! Two whole megabytes?!</p>
 <p>We could probably optimise this, but it seems like it would be easier to…</p>
 <h2 id="start-from-a-smaller-base"><a class="header" href="#start-from-a-smaller-base">Start from a smaller base</a></h2>
-<p>How about we get rid of the standard library? That would help, right? Let’s google for <a href="https://docs.rust-embedded.org/embedonomicon/smallest-no-std.html">smallest wasi program
-rust</a>…</p>
+<p>How about we get rid of the standard library? That would help, right? Let’s google for
+<a href="https://docs.rust-embedded.org/embedonomicon/smallest-no-std.html">smallest no_std program rust</a>…</p>
 <pre><code class="language-rust ignore">#![no_std]
 
 use core::panic::PanicInfo;
