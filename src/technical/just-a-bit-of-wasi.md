@@ -406,7 +406,61 @@ $ echo $?
 0
 
 $ exa -l wasi-revolution.wasm
-.rw-r--r--@ 137 passcod 26 Jul 20:43 wasi-reborn.wasm
+.rw-r--r--@ 137 passcod 26 Jul 20:43 wasi-revolution.wasm
 ```
 
 Okay! 137 bytes, _and_ we're calling a WASI import. Sounds good to me.
+
+## Extra credit
+
+Do we even need the `__data_end`, `__heap_base`, and `memory`? Let's try without:
+
+```wast
+(module
+ (export "_start" (func $0))
+ (import "wasi_snapshot_preview1" "proc_exit" (func $exit (param i32)))
+ (func $0
+  (call $exit (i32.const 0))
+  (unreachable)
+ )
+)
+```
+
+```
+$ wasm-as hello-wasi.wast -o wasi-reprisal.wasm
+$ wasmtime wasi-reprisal.wasm
+Error: failed to run main module `wasi-reborn.wasm`
+
+Caused by:
+    0: failed to invoke command default
+    1: missing required memory export
+       wasm backtrace:
+           0:   0x4f - <unknown>!<wasm function 1>
+```
+
+That's a nope on the memory, so let's restore that:
+
+```rust
+(module
+ (memory $0 16)
+ (export "memory" (memory $0))
+ (export "_start" (func $0))
+ (import "wasi_snapshot_preview1" "proc_exit" (func $exit (param i32)))
+ (func $0
+  (call $exit (i32.const 0))
+  (unreachable)
+ )
+)
+```
+
+```console
+$ wasm-as hello-wasi.wast -o wasi-renewal.wasm
+$ wasmtime wasi-renewal.wasm
+$ echo $?
+0
+
+$ exa -l wasi-renewal.wasm
+.rw-r--r--@ 97 passcod 26 Jul 20:43 wasi-renewal.wasm
+```
+
+Full points for me!
