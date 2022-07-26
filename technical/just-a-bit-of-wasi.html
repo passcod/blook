@@ -457,9 +457,54 @@ $ echo $?
 0
 
 $ exa -l wasi-revolution.wasm
-.rw-r--r--@ 137 passcod 26 Jul 20:43 wasi-reborn.wasm
+.rw-r--r--@ 137 passcod 26 Jul 20:43 wasi-revolution.wasm
 </code></pre>
 <p>Okay! 137 bytes, <em>and</em> we’re calling a WASI import. Sounds good to me.</p>
+<h2 id="extra-credit"><a class="header" href="#extra-credit">Extra credit</a></h2>
+<p>Do we even need the <code>__data_end</code>, <code>__heap_base</code>, and <code>memory</code>? Let’s try without:</p>
+<pre><code class="language-wast">(module
+ (export &quot;_start&quot; (func $0))
+ (import &quot;wasi_snapshot_preview1&quot; &quot;proc_exit&quot; (func $exit (param i32)))
+ (func $0
+  (call $exit (i32.const 0))
+  (unreachable)
+ )
+)
+</code></pre>
+<pre><code>$ wasm-as hello-wasi.wast -o wasi-reprisal.wasm
+$ wasmtime wasi-reprisal.wasm
+Error: failed to run main module `wasi-reborn.wasm`
+
+Caused by:
+    0: failed to invoke command default
+    1: missing required memory export
+       wasm backtrace:
+           0:   0x4f - &lt;unknown&gt;!&lt;wasm function 1&gt;
+</code></pre>
+<p>That’s a nope on the memory, so let’s restore that:</p>
+<pre><pre class="playground"><code class="language-rust"><span class="boring">#![allow(unused)]
+</span><span class="boring">fn main() {
+</span>(module
+ (memory $0 16)
+ (export &quot;memory&quot; (memory $0))
+ (export &quot;_start&quot; (func $0))
+ (import &quot;wasi_snapshot_preview1&quot; &quot;proc_exit&quot; (func $exit (param i32)))
+ (func $0
+  (call $exit (i32.const 0))
+  (unreachable)
+ )
+)
+<span class="boring">}
+</span></code></pre></pre>
+<pre><code class="language-console">$ wasm-as hello-wasi.wast -o wasi-renewal.wasm
+$ wasmtime wasi-renewal.wasm
+$ echo $?
+0
+
+$ exa -l wasi-renewal.wasm
+.rw-r--r--@ 97 passcod 26 Jul 20:43 wasi-renewal.wasm
+</code></pre>
+<p>Full points for me!</p>
 
                     </main>
 
