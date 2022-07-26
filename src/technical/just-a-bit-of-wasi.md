@@ -48,8 +48,8 @@ We could probably optimise this, but it seems like it would be easier to...
 
 ## Start from a smaller base
 
-How about we get rid of the standard library? That would help, right? Let's google for [smallest wasi program
-rust](https://docs.rust-embedded.org/embedonomicon/smallest-no-std.html)...
+How about we get rid of the standard library? That would help, right? Let's google for
+[smallest no\_std program rust](https://docs.rust-embedded.org/embedonomicon/smallest-no-std.html)...
 
 ```rust,ignore
 #![no_std]
