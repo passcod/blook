@@ -384,6 +384,7 @@ Hey, we have that exit function import above, there, can we use that?
 
 ```wast
 (module
+ (import "wasi_snapshot_preview1" "proc_exit" (func $exit (param i32)))
  (global $global$0 i32 (i32.const 0))
  (global $global$1 i32 (i32.const 0))
  (memory $0 16)
@@ -391,7 +392,6 @@ Hey, we have that exit function import above, there, can we use that?
  (export "_start" (func $0))
  (export "__data_end" (global $global$0))
  (export "__heap_base" (global $global$1))
- (import "wasi_snapshot_preview1" "proc_exit" (func $exit (param i32)))
  (func $0
   (call $exit (i32.const 0))
   (unreachable)
@@ -417,8 +417,8 @@ Do we even need the `__data_end`, `__heap_base`, and `memory`? Let's try without
 
 ```wast
 (module
- (export "_start" (func $0))
  (import "wasi_snapshot_preview1" "proc_exit" (func $exit (param i32)))
+ (export "_start" (func $0))
  (func $0
   (call $exit (i32.const 0))
   (unreachable)
@@ -442,10 +442,10 @@ That's a nope on the memory, so let's restore that:
 
 ```rust
 (module
+ (import "wasi_snapshot_preview1" "proc_exit" (func $exit (param i32)))
  (memory $0 16)
  (export "memory" (memory $0))
  (export "_start" (func $0))
- (import "wasi_snapshot_preview1" "proc_exit" (func $exit (param i32)))
  (func $0
   (call $exit (i32.const 0))
   (unreachable)
