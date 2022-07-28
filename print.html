@@ -3555,6 +3555,7 @@ How big is that?</p>
 <p>Uhh. Well, I guess not? It’s “just” WASM stuff, no WASI API. So we’d really be testing for a <em>WASM</em> runtime, not WASI.</p>
 <p>Hey, we have that exit function import above, there, can we use that?</p>
 <pre><code class="language-wast">(module
+ (import &quot;wasi_snapshot_preview1&quot; &quot;proc_exit&quot; (func $exit (param i32)))
  (global $global$0 i32 (i32.const 0))
  (global $global$1 i32 (i32.const 0))
  (memory $0 16)
@@ -3562,7 +3563,6 @@ How big is that?</p>
  (export &quot;_start&quot; (func $0))
  (export &quot;__data_end&quot; (global $global$0))
  (export &quot;__heap_base&quot; (global $global$1))
- (import &quot;wasi_snapshot_preview1&quot; &quot;proc_exit&quot; (func $exit (param i32)))
  (func $0
   (call $exit (i32.const 0))
   (unreachable)
@@ -3581,8 +3581,8 @@ $ exa -l wasi-revolution.wasm
 <h2 id="extra-credit"><a class="header" href="#extra-credit">Extra credit</a></h2>
 <p>Do we even need the <code>__data_end</code>, <code>__heap_base</code>, and <code>memory</code>? Let’s try without:</p>
 <pre><code class="language-wast">(module
- (export &quot;_start&quot; (func $0))
  (import &quot;wasi_snapshot_preview1&quot; &quot;proc_exit&quot; (func $exit (param i32)))
+ (export &quot;_start&quot; (func $0))
  (func $0
   (call $exit (i32.const 0))
   (unreachable)
@@ -3603,10 +3603,10 @@ Caused by:
 <pre><pre class="playground"><code class="language-rust"><span class="boring">#![allow(unused)]
 </span><span class="boring">fn main() {
 </span>(module
+ (import &quot;wasi_snapshot_preview1&quot; &quot;proc_exit&quot; (func $exit (param i32)))
  (memory $0 16)
  (export &quot;memory&quot; (memory $0))
  (export &quot;_start&quot; (func $0))
- (import &quot;wasi_snapshot_preview1&quot; &quot;proc_exit&quot; (func $exit (param i32)))
  (func $0
   (call $exit (i32.const 0))
   (unreachable)
