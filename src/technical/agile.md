@@ -105,6 +105,10 @@ We need to do a few things before we can actually get to the hands on bit:
 
 ### Find some photovoltaic cells (not entire panels) and rig at least one to measure output current
 
+Finding them is easy: AliExpress has a selection, and I picked [one][ali:pv].
+
+[ali:pv]: https://www.aliexpress.com/item/4000511987311.html
+
 // TODO
 
 ### Figure out what the optimal size of the device and the number, RIs, and thicknesses of the layers is
