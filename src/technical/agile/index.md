@@ -4,9 +4,11 @@
 
 ## Background
 
-Earlier this year [I got interested] in [a Stanford article] and [a Nature paper] that described a
-device called an AGILE: an Axially Graded Index LEns. That's a complex bit of glass-like plastic
-that resembles an upside-down truncated pyramid. I'll quickly summarise the papers:
+Earlier this year [I got interested] in [a Stanford article] and [a Nature paper] that used a device
+called an AGILE (Axially Graded Index LEns) to enhance solar panels. An AGILE is a complex bit of
+glass-like plastic that resembles an upside-down truncated cone or pyramid.
+
+I'll quickly summarise the papers:
 
 The principle is pretty simple: the pyramid is made of a series of horizontal layers with increasing
 refractive indices going deeper (towards the narrow end), and the sloped sides are coated with a
