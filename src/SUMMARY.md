@@ -42,7 +42,7 @@
   - [Rust crimes: Enum ints](technical/rust-crimes-enum-ints.md)
   - [No Time for Chrono](technical/no-time-for-chrono.md)
   - [Just a bit of wasi](technical/just-a-bit-of-wasi.md)
-  - [A cost-effective AGILE](technical/agile.md)
+  - [A cost-effective AGILE](technical/agile/index.md)
 - [Musings](musings/index.md)
   - [Gaston Lagaffe](musings/gaston-lagaffe/index.md)
   - [Known Unknowns: a configuration language](musings/known-unknowns-conflang.md)
