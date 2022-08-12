@@ -176,7 +176,7 @@ bottom will be partitions, and there will be a partition in between each layer.
 
 The thickness of the partitions is the same for all, and for model simplicity I'll say that the
 thickness of the layers is also the same through the AGILE. If the model works out to be
-sufficiently fast, these could be made to vary, to possible get more options or better optimisation.
+sufficiently fast, these could be made to vary, to possibly get more options or better optimisation.
 
 The RI of each layer will be a variable. For model simplicity I won't constrain the layers to be in
 increasing RI top to bottom; that's likely what it will work out to anyway but maybe there will be
