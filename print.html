@@ -3791,13 +3791,13 @@ than not generate them in the first place and then find out we could have.</li>
 <li>Number of layers: 8 possibilities</li>
 <li>Thickness of layers: 270</li>
 <li>Thickness of partitions: 28</li>
-<li>Refractive indices: 17 increments per layer, so 17×8=136 worst case</li>
+<li>Refractive indices: 17 increments per layer, so 17×10=170 worst case</li>
 </ul>
-<p>Possibility space is thus at most 8×270×28×136 = <strong>8 225 280</strong>.</p>
-<p>Multiplied by the amount of rays to compute for each param set, we need to perform about 154 billion
-ray computes, or about 4 trillion individual refraction and reflection calculations. From some early
+<p>Possibility space is thus at most 8×270×28×170 = <strong>10 281 600</strong>.</p>
+<p>Multiplied by the amount of rays to compute for each param set, we need to perform about 194 billion
+ray computes, or about 5 trillion individual refraction and reflection calculations. From some early
 prototyping, I’m fairly confident in saying I can achieve a ray compute in at most 0.1ms. That would
-work out to a week of compute over 24 cores.</p>
+work out to a week of compute over my available cores.</p>
 <p>…welp, I hope I can do better!</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="musings"><a class="header" href="#musings">Musings</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="gaston-lagaffe"><a class="header" href="#gaston-lagaffe">Gaston Lagaffe</a></h1>
