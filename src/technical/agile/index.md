@@ -211,8 +211,9 @@ struct ParamSet {
 On top of this, there will also be some bounds:
 
 - The number of layers will be minimum 2, maximum 10. Two is the minimum useful, ten is arbitrary.
-- The thickness of partitions will be minimum 0.2mm, maximum 3mm, in increments of 0.2mm. These are
-  supply constraints, save for the maximum which is arbitrary.
+- The thickness of partitions will be minimum 0.2mm, maximum 3mm, from the set `0.2mm`, `0.4mm`,
+  `0.6mm`, `0.8mm`, `1.0mm`, `1.2mm`, `1.5mm`, `2.0mm`, `3.0mm`. These are supply constraints, save
+  for the maximum which is arbitrary.
 - The thickness of layers will be minimum 3mm, maximum 30mm, in increments of 0.1mm. The bounds are
   arbitrary on a general gut feel of what will be useful; the increment is the precision of a 3D
   printer.
@@ -227,14 +228,12 @@ So, to finish our estimate and get onto the modelling work:
 
 - Number of layers: 8 possibilities
 - Thickness of layers: 270
-- Thickness of partitions: 28
+- Thickness of partitions: 9
 - Refractive indices: 17 increments per layer, so 17×10=170 worst case
 
-Possibility space is thus at most 8×270×28×170 = **10 281 600**.
+Possibility space is thus at most 8×270×9×170 = **3 304 800**.
 
-Multiplied by the amount of rays to compute for each param set, we need to perform about 194 billion
-ray computes, or about 5 trillion individual refraction and reflection calculations. From some early
-prototyping, I'm fairly confident in saying I can achieve a ray compute in at most 0.1ms. That would
-work out to a week of compute over my available cores.
+Multiplied by the amount of rays to compute for each param set, we need to perform about 62 billion
+ray computes, or about 2 trillion individual refraction and reflection calculations.
 
-...welp, I hope I can do better!
+Welp, that's a lot. Gotta go fast!
