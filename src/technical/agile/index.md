@@ -33,7 +33,7 @@ passive device that doesn't require much overhead in terms of space.
 
 ## Building one
 
-The paper describes how to build an AGILE:
+[This paper][vaidya2011] describes how to build an AGILE:
 
 1. Obtain a set of optical (i.e. extremely clear) resins that can be cured with UV and have a range
    of refractive indices (RI) when cured. Remember this bit.
@@ -91,6 +91,7 @@ Pro: we're looking at something about 40 times cheaper than with resins.
 
 Con: it sounds absolutely bonkers.
 
+[vaidya2011]: https://snfexfab.stanford.edu/sites/g/files/sbiybj8726/f/sections/diplayfiles/ee412_finalreport-gradedindex.pdf
 [norland]: https://www.norlandproducts.com/adhchart.html
 [wiki:glycerol]: https://en.wikipedia.org/wiki/Glycerol
 [purenature]: https://www.purenature.co.nz/products/vegetable-glycerine-refined-palm-free?_pos=3&_sid=dc0f74cf3&_ss=r
