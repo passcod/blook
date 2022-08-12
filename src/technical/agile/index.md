@@ -228,13 +228,13 @@ So, to finish our estimate and get onto the modelling work:
 - Number of layers: 8 possibilities
 - Thickness of layers: 270
 - Thickness of partitions: 28
-- Refractive indices: 17 increments per layer, so 17×8=136 worst case
+- Refractive indices: 17 increments per layer, so 17×10=170 worst case
 
-Possibility space is thus at most 8×270×28×136 = **8 225 280**.
+Possibility space is thus at most 8×270×28×170 = **10 281 600**.
 
-Multiplied by the amount of rays to compute for each param set, we need to perform about 154 billion
-ray computes, or about 4 trillion individual refraction and reflection calculations. From some early
+Multiplied by the amount of rays to compute for each param set, we need to perform about 194 billion
+ray computes, or about 5 trillion individual refraction and reflection calculations. From some early
 prototyping, I'm fairly confident in saying I can achieve a ray compute in at most 0.1ms. That would
-work out to a week of compute over 24 cores.
+work out to a week of compute over my available cores.
 
 ...welp, I hope I can do better!
