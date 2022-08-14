@@ -214,9 +214,9 @@ On top of this, there will also be some bounds:
 - The thickness of partitions will be minimum 0.2mm, maximum 3mm, from the set `0.2mm`, `0.4mm`,
   `0.6mm`, `0.8mm`, `1.0mm`, `1.2mm`, `1.5mm`, `2.0mm`, `3.0mm`. These are supply constraints, save
   for the maximum which is arbitrary.
-- The thickness of layers will be minimum 3mm, maximum 30mm, in increments of 0.1mm. The bounds are
+- The thickness of layers will be minimum 3mm, maximum 28.6mm, in increments of 0.1mm. The bounds are
   arbitrary on a general gut feel of what will be useful; the increment is the precision of a 3D
-  printer.
+  printer. The maximum is for compute optimisation purposes.
 - The refractive indices will be minimum 1.33, maximum 1.50, in increments of 0.01. I don't yet know
   if it will be possible to measure or control RI to that precision, but it seems more likely than
   0.001. The minimum is water (1.333), the maximum is acrylic (1.50): we could totally have a layer
@@ -227,13 +227,32 @@ On top of this, there will also be some bounds:
 So, to finish our estimate and get onto the modelling work:
 
 - Number of layers: 8 possibilities
-- Thickness of layers: 270
+- Thickness of layers: 256
 - Thickness of partitions: 9
 - Refractive indices: 17 increments per layer, so 17×10=170 worst case
 
-Possibility space is thus at most 8×270×9×170 = **3 304 800**.
+Possibility space is thus at most 8×256×9×170 = **3 133 440**.
 
-Multiplied by the amount of rays to compute for each param set, we need to perform about 62 billion
+Multiplied by the amount of rays to compute for each param set, we need to perform about 60 billion
 ray computes, or about 2 trillion individual refraction and reflection calculations.
 
 Welp, that's a lot. Gotta go fast!
+
+> Hold on.
+
+What?
+
+> It's not 17 _times_ 10.
+
+Huh? Oh. Oh no.
+
+It's 17 possibilities, in 10 boxes. Oh no. It's 17 **to the power of 10**.
+
+(Actually, it's 17¹+17²+17³+… 17¹⁰ but that's only marginally larger than 17¹⁰.)
+
+That makes the possibility space about, uhhh, **39 481 224 546 373 632**? 39 quadrillions?
+I'm not super loving it.
+
+####
+
+Alright, so, an exhaustive search is firmly out.
