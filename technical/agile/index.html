@@ -295,7 +295,7 @@ possibility space a lot; for now I’ll keep it fixed.</p>
 for the maximum which is arbitrary.</li>
 <li>The thickness of layers will be minimum 3mm, maximum 28.6mm, in increments of 0.1mm. The bounds are
 arbitrary on a general gut feel of what will be useful; the increment is the precision of a 3D
-printer. The maximum is for compute optimisation purposes.</li>
+printer. The range is chosen so it fits in a <code>u8</code>.</li>
 <li>The refractive indices will be minimum 1.33, maximum 1.50, in increments of 0.01. I don’t yet know
 if it will be possible to measure or control RI to that precision, but it seems more likely than
 0.001. The minimum is water (1.333), the maximum is acrylic (1.50): we could totally have a layer
@@ -326,8 +326,13 @@ ray computes, or about 2 trillion individual refraction and reflection calculati
 <p>(Actually, it’s 17¹+17²+17³+… 17¹⁰ but that’s only marginally larger than 17¹⁰.)</p>
 <p>That makes the possibility space about, uhhh, <strong>39 481 224 546 373 632</strong>? 39 quadrillions?
 I’m not super loving it.</p>
-<h4 id=""><a class="header" href="#"></a></h4>
-<p>Alright, so, an exhaustive search is firmly out.</p>
+<h4 id="evolving-past-this"><a class="header" href="#evolving-past-this">Evolving past this</a></h4>
+<p>Alright, so, an exhaustive search is firmly out. What else is out there?</p>
+<p>Well, this entire project is for fun, and I’ve always wanted to play around
+with genetic algorithms. They just sound so neat! This seems like the perfect
+pretext.</p>
+<p>The first interesting crate I find is [genevo]. It looks complete and flexible.
+Let’s try it out.</p>
 
                     </main>
 
