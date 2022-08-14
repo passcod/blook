@@ -216,7 +216,7 @@ On top of this, there will also be some bounds:
   for the maximum which is arbitrary.
 - The thickness of layers will be minimum 3mm, maximum 28.6mm, in increments of 0.1mm. The bounds are
   arbitrary on a general gut feel of what will be useful; the increment is the precision of a 3D
-  printer. The maximum is for compute optimisation purposes.
+  printer. The range is chosen so it fits in a `u8`.
 - The refractive indices will be minimum 1.33, maximum 1.50, in increments of 0.01. I don't yet know
   if it will be possible to measure or control RI to that precision, but it seems more likely than
   0.001. The minimum is water (1.333), the maximum is acrylic (1.50): we could totally have a layer
@@ -253,6 +253,15 @@ It's 17 possibilities, in 10 boxes. Oh no. It's 17 **to the power of 10**.
 That makes the possibility space about, uhhh, **39 481 224 546 373 632**? 39 quadrillions?
 I'm not super loving it.
 
-####
+#### Evolving past this
 
-Alright, so, an exhaustive search is firmly out.
+Alright, so, an exhaustive search is firmly out. What else is out there?
+
+Well, this entire project is for fun, and I've always wanted to play around
+with genetic algorithms. They just sound so neat! This seems like the perfect
+pretext.
+
+The first interesting crate I find is [genevo]. It looks complete and flexible.
+Let's try it out.
+
+[genovo]: https://lib.rs/crates/genevo
