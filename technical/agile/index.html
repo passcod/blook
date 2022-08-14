@@ -293,9 +293,9 @@ possibility space a lot; for now I’ll keep it fixed.</p>
 <li>The thickness of partitions will be minimum 0.2mm, maximum 3mm, from the set <code>0.2mm</code>, <code>0.4mm</code>,
 <code>0.6mm</code>, <code>0.8mm</code>, <code>1.0mm</code>, <code>1.2mm</code>, <code>1.5mm</code>, <code>2.0mm</code>, <code>3.0mm</code>. These are supply constraints, save
 for the maximum which is arbitrary.</li>
-<li>The thickness of layers will be minimum 3mm, maximum 30mm, in increments of 0.1mm. The bounds are
+<li>The thickness of layers will be minimum 3mm, maximum 28.6mm, in increments of 0.1mm. The bounds are
 arbitrary on a general gut feel of what will be useful; the increment is the precision of a 3D
-printer.</li>
+printer. The maximum is for compute optimisation purposes.</li>
 <li>The refractive indices will be minimum 1.33, maximum 1.50, in increments of 0.01. I don’t yet know
 if it will be possible to measure or control RI to that precision, but it seems more likely than
 0.001. The minimum is water (1.333), the maximum is acrylic (1.50): we could totally have a layer
@@ -306,14 +306,28 @@ than not generate them in the first place and then find out we could have.</li>
 <p>So, to finish our estimate and get onto the modelling work:</p>
 <ul>
 <li>Number of layers: 8 possibilities</li>
-<li>Thickness of layers: 270</li>
+<li>Thickness of layers: 256</li>
 <li>Thickness of partitions: 9</li>
 <li>Refractive indices: 17 increments per layer, so 17×10=170 worst case</li>
 </ul>
-<p>Possibility space is thus at most 8×270×9×170 = <strong>3 304 800</strong>.</p>
-<p>Multiplied by the amount of rays to compute for each param set, we need to perform about 62 billion
+<p>Possibility space is thus at most 8×256×9×170 = <strong>3 133 440</strong>.</p>
+<p>Multiplied by the amount of rays to compute for each param set, we need to perform about 60 billion
 ray computes, or about 2 trillion individual refraction and reflection calculations.</p>
 <p>Welp, that’s a lot. Gotta go fast!</p>
+<blockquote>
+<p>Hold on.</p>
+</blockquote>
+<p>What?</p>
+<blockquote>
+<p>It’s not 17 <em>times</em> 10.</p>
+</blockquote>
+<p>Huh? Oh. Oh no.</p>
+<p>It’s 17 possibilities, in 10 boxes. Oh no. It’s 17 <strong>to the power of 10</strong>.</p>
+<p>(Actually, it’s 17¹+17²+17³+… 17¹⁰ but that’s only marginally larger than 17¹⁰.)</p>
+<p>That makes the possibility space about, uhhh, <strong>39 481 224 546 373 632</strong>? 39 quadrillions?
+I’m not super loving it.</p>
+<h4 id=""><a class="header" href="#"></a></h4>
+<p>Alright, so, an exhaustive search is firmly out.</p>
 
                     </main>
 
