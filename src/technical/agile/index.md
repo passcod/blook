@@ -106,7 +106,7 @@ We need to do a few things before we can actually get to the hands on bit:
 
 I... thought this was going to be hard, but actually refractometres are very common! Turns out
 they're used a lot in a (somewhat dodgy-sounding tbh, how would you control for other effects by
-contaminents?) practice to measure the amount of sugar in a solution, like fruit juices, or
+contaminants?) practice to measure the amount of sugar in a solution, like fruit juices, or
 conversely the amount of water in a sugary liquid, like honey. And apparently also for alcohol in
 wines and beer. Again, I'm a bit concerned here, in many wines and some beers you'd have both
 alcohol and sugar, surely that would be hard to distinguish? But whatever, I don't know enough about
@@ -283,4 +283,66 @@ pretext.
 The first interesting crate I find is [genevo]. It looks complete and flexible.
 Let's try it out.
 
-[genovo]: https://lib.rs/crates/genevo
+[genevo]: https://lib.rs/crates/genevo
+
+!["one eternity later" (the spongebob meme)](./one-eternity-later.jpg)
+
+Implementing the genetic algorithm machinery with genevo was very soothing, really. Just keep
+plugging at it until the thing compiles. A very Rusty afternoon.
+
+However, I come to running it and I find that at the start of the process, I defined my fitness
+function like this:
+
+```rust
+fn fitness_of(&self, params: &ParamSet) -> u64 {
+  raytrace(*params).summarise()
+}
+```
+
+What does that summarise function do? Well, it just summarises Performance:
+
+```rust
+#[derive(Clone, Copy, Debug)]
+pub struct Performance {
+	/// Proportion of rays that exit at the bottom.
+	///
+	/// Calculated as {bottom exit rays} * u32::MAX / {total rays}.
+	///
+	/// Higher is better.
+	pub exit_ratio: u32,
+
+	/// Average of exit angles (to the normal) for rays that exit at the bottom.
+	///
+	/// In 10000th Angle.
+	///
+	/// Lower is better.
+	pub exit_angle: u32,
+
+	/// Total distance light travels inside the lens.
+	///
+	/// In micrometres.
+	///
+	/// Lower is better.
+	pub light_travel: u32,
+}
+
+impl Performance {
+	pub fn summarise(self) -> u64 {
+		let one = self.exit_ratio as u64;
+		let two = u32::MAX.saturating_sub(self.exit_angle) as u64;
+		let three = u32::MAX.saturating_sub(self.light_travel) as u64;
+
+		one * 10 + two * 5 + three
+	}
+}
+```
+
+And how do I _get_ a Performance? Ah:
+
+```rust
+pub fn raytrace(params: ParamSet) -> Performance {
+  todo!()
+}
+```
+
+#### Raytracing. But like, the hard way.
