@@ -346,3 +346,35 @@ pub fn raytrace(params: ParamSet) -> Performance {
 ```
 
 #### Raytracing. But like, the hard way.
+
+I barely know enough about it to know that the activity is called raytracing, and that it's [not the
+3D graphics kind of raytracing][wiki:raytracing]. Something that's mentioned pretty early on is
+[Maxwell's equations][wiki:maxwell], which is an intolerable amount of maths, fuck that.
+
+No, failing to find any physics raytracing crates, I'm going to use good old [the laws of
+refraction][wiki:snell] and the law of reflection. Very simply:
+
+- Refraction: `sin(input) / sin(output) == ri(output) / ri(input)`
+- Critical input angle: `arcsin(ri(output)/ri(input))`, where the output is always 90°
+- Total internal reflection: when the input angle is higher than the critical angle
+- Reflection: output angle == input angle, but staying on the same side
+
+All angles are to the _normal_, that is the perpendicular to the plane upon which the ray is
+reflecting or through which it is refracting. (If it's not a plane it's perpendicular to the tangent
+at that point, but in my model everything is planes, so idgaf.)
+
+If you've done high school physics, you probably remember this.
+
+Coding up these things is pretty easy. The hard bit is figuring out where a ray _is_ in the model,
+what boundary it will be intersecting with _next_, at what angle, and at what position.
+
+At first I thought, you know what, I'll do it with a turtle. I'll advance my ray a bit, I'll take
+note of what I passed through, and
+
+wait, how will I know I've passed something _through_?
+
+and I basically got stuck there.
+
+[wiki:raytracing]: https://en.wikipedia.org/wiki/Ray_tracing_(physics)
+[wiki:maxwell]: https://en.wikipedia.org/wiki/Maxwell's_equations
+[wiki:snell]: https://en.wikipedia.org/wiki/Snell's_law
