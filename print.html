@@ -3893,6 +3893,27 @@ impl Performance {
 <span class="boring">}
 </span></code></pre></pre>
 <h4 id="raytracing-but-like-the-hard-way"><a class="header" href="#raytracing-but-like-the-hard-way">Raytracing. But like, the hard way.</a></h4>
+<p>I barely know enough about it to know that the activity is called raytracing, and that it’s <a href="https://en.wikipedia.org/wiki/Ray_tracing_(physics)">not the
+3D graphics kind of raytracing</a>. Something that’s mentioned pretty early on is
+<a href="https://en.wikipedia.org/wiki/Maxwell&#x27;s_equations">Maxwell’s equations</a>, which is an intolerable amount of maths, fuck that.</p>
+<p>No, failing to find any physics raytracing crates, I’m going to use good old <a href="https://en.wikipedia.org/wiki/Snell&#x27;s_law">the laws of
+refraction</a> and the law of reflection. Very simply:</p>
+<ul>
+<li>Refraction: <code>sin(input) / sin(output) == ri(output) / ri(input)</code></li>
+<li>Critical input angle: <code>arcsin(ri(output)/ri(input))</code>, where the output is always 90°</li>
+<li>Total internal reflection: when the input angle is higher than the critical angle</li>
+<li>Reflection: output angle == input angle, but staying on the same side</li>
+</ul>
+<p>All angles are to the <em>normal</em>, that is the perpendicular to the plane upon which the ray is
+reflecting or through which it is refracting. (If it’s not a plane it’s perpendicular to the tangent
+at that point, but in my model everything is planes, so idgaf.)</p>
+<p>If you’ve done high school physics, you probably remember this.</p>
+<p>Coding up these things is pretty easy. The hard bit is figuring out where a ray <em>is</em> in the model,
+what boundary it will be intersecting with <em>next</em>, at what angle, and at what position.</p>
+<p>At first I thought, you know what, I’ll do it with a turtle. I’ll advance my ray a bit, I’ll take
+note of what I passed through, and</p>
+<p>wait, how will I know I’ve passed something <em>through</em>?</p>
+<p>and I basically got stuck there.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="musings"><a class="header" href="#musings">Musings</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="gaston-lagaffe"><a class="header" href="#gaston-lagaffe">Gaston Lagaffe</a></h1>
 <blockquote>
