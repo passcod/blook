@@ -19,11 +19,17 @@ contain sexual/NSFW imagery or content; on rare occasions I'm much more likely t
 ## Anti-virality measures
 
 Tweets will be deleted if they reach:
-- 1000 likes, or
-- 500 retweets, or
-- 100 quote-tweets, or
-- 50 replies;
+- 500 likes, or
+- 100 retweets, or
+- 50 quote-tweets, or
+- 25 replies;
 - unless I deem the tweet to be public-interest enough to be worth keeping up.
+
+Additionally, tweets will get replies restricted if they reach:
+- 250 likes, or
+- 50 retweets, or
+- 10 quote-tweets;
+- as well as during my night for very active tweets so I can sleep without worrying about moderation.
 
 
 ## Twitter authentication
