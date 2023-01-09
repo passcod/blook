@@ -106,7 +106,7 @@ Read about a hundred fics, didn't keep track of when. Roughly chronological:
 ## Serial fiction
 
  - **[Fox’s Tongue and Kirin’s Bone](https://www.royalroad.com/fiction/42226/foxs-tongue-and-kirins-bone)**.
- - **[Twig](https://twigserial.wordpress.com)** {1,485k words}.
+ - **[Twig](https://twigserial.wordpress.com)** {1,605k words}.
 
 ## Comics
 
