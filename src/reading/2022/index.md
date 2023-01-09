@@ -22,7 +22,7 @@ Read about a hundred fics, didn't keep track of when. Roughly chronological:
  - {HP} [Beware the Jabberwock](https://archiveofourown.org/works/30524463). {34k words}
  - {HP} [Cosmic Latte](https://archiveofourown.org/works/15311298). {228k words}
  - {Stargate} [Message in a Bottle](https://archiveofourown.org/works/36057529). {8k words}
- - {HP} [‘The Mirror of Ecidyrue’ series](https://archiveofourown.org/series/1765369). {1219k words}
+ - {HP} [‘The Mirror of Ecidyrue’ series](https://archiveofourown.org/series/1765369). {1,219k words}
  - {HP/Naruto} [Harry Potter and the Full Power of Youth!!](https://archiveofourown.org/works/16844686). {12k words}
  - {Avatar} [Will We Last the Night](https://archiveofourown.org/works/27547486). {143k words}
  - {Naruto} [I bequeath nothingness to no one](https://archiveofourown.org/works/34762738). {17k words}
@@ -45,7 +45,7 @@ Read about a hundred fics, didn't keep track of when. Roughly chronological:
  - {SW} **[‘The Ties That Bind’ series](https://archiveofourown.org/series/1608202)**. {186k words atow}
  - {SW} **[Solus Gaanada](https://archiveofourown.org/works/30399270)**. {287k words atow}
  - {SW} [Living In Borrowed Time](https://archiveofourown.org/works/24043273). {105k words atow}
- - {SW} [‘The Desert Storm’ series](https://archiveofourown.org/series/1311746). {1145k words}
+ - {SW} [‘The Desert Storm’ series](https://archiveofourown.org/series/1311746). {1,145k words}
  - {SW} [Like glass from sandy ground](https://archiveofourown.org/works/36282427). {3k words}
  - {SW} [Companion of the Ancestors](https://archiveofourown.org/works/28931355). {16k words atow}
  - {SW} [this is unexpected](https://archiveofourown.org/works/5860717). {4k words}
@@ -105,8 +105,8 @@ Read about a hundred fics, didn't keep track of when. Roughly chronological:
 
 ## Serial fiction
 
- - **[Fox’s Tongue and Kirin’s Bone](https://www.royalroad.com/fiction/42226/foxs-tongue-and-kirins-bone)**.
- - **[Twig](https://twigserial.wordpress.com)** {1,605k words}.
+ - **[Fox’s Tongue and Kirin’s Bone](https://www.royalroad.com/fiction/42226/foxs-tongue-and-kirins-bone)**. {143k words atow}
+ - **[Twig](https://twigserial.wordpress.com)**. {1,605k words}
 
 ## Comics
 
