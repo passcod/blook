@@ -112,6 +112,7 @@ Read about a hundred fics, didn't keep track of when. Roughly chronological:
 
  - [Automan's Daughter](https://www.automansdaughter.com)
  - **[Motherlover](https://motherlovercomic.com)**
+ - [How Baby](https://howbabycomic.com/)
  - [Tiger Tiger](https://www.tigertigercomic.com)
  - [Shot & Chaser](https://tjandamal.com/sac/)
  - [Pia and the Little Tiny Things](https://www.littletinythings.com)
