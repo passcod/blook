@@ -25,7 +25,7 @@ Read about a hundred fics, didn't keep track of when. Roughly chronological:
  - {HP} [‘The Mirror of Ecidyrue’ series](https://archiveofourown.org/series/1765369). {1219k words}
  - {HP/Naruto} [Harry Potter and the Full Power of Youth!!](https://archiveofourown.org/works/16844686). {12k words}
  - {Avatar} [Will We Last the Night](https://archiveofourown.org/works/27547486). {143k words}
- - {Naruto} [](https://archiveofourown.org/works/34762738). {17k words}
+ - {Naruto} [I bequeath nothingness to no one](https://archiveofourown.org/works/34762738). {17k words}
  - {Spider-Man/Marvel} [Foster Me This](https://archiveofourown.org/works/31465829). {16k words}
  - {Spider-Man/Marvel} [‘you ask for the truth, but you know you could do so much better’ series](https://archiveofourown.org/series/2641480). {112k words atow}
  - {HP} [A Dunderhead Walks into a Bar (he meets a hero there)](https://archiveofourown.org/works/35781832). {15k words atow}
