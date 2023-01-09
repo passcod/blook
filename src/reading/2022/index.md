@@ -1,6 +1,8 @@
 # 2022
 
-## Fanfiction
+About 11 million words total.
+
+## Fanfiction (9,038k)
 
 Read about a hundred fics, didn't keep track of when. Roughly chronological:
 
