@@ -29,15 +29,7 @@ my criteria and I hadn't already read them, of course. My criteria went thus:
    This was more subtle than that: with very few exceptions, I outright ignored
    all fanfics that kept pretty much everything the same, but then forced the
    characters into the ship. I don't mind when Dramione, or something near it,
-   actually happens organically, as a true part of the fic. For example,
-   [HPMoR], which I do regard as pretty much _the_ Harry Potter fanfic, has a
-   tentative romance and definite, if at first grudging, friendship between
-   Draco and Hermione. But we get there through circumstance that _makes
-   sense_, and is not forced just to get the ship there, or worse, the
-   characters are put together in an abusive or highly disfunctional
-   relationship that's glamoured up by the author. Ugh. Ew. Urgh. Special
-   mention, though, for [The Nietzsche Classes], though, which is a great
-   perversion of the genre, given the reader has the right (twisted) mind.
+   actually happens organically, as a true part of the fic.
 
 5. **No sanctimonious religious bullshit.** If you think atheists don't
    actually have morals because morals are exclusive to people who believe in a
@@ -95,7 +87,5 @@ on screen because of \*hand waving\* pent-up feelings and borderline porn.
 We'll see what comes of it.
 
 [hplist]: https://colah.github.io/posts/2014-07-FFN-Graphs-Vis/pagerank/hp.html
-[HPMoR]: http://hpmor.com/
 [my Pinboard]: https://pinboard.in/u:passcod
 [Naruto list]: https://colah.github.io/posts/2014-07-FFN-Graphs-Vis/pagerank/naruto.html
-[The Nietzsche Classes]: https://www.fanfiction.net/s/2603288/1/The-Nietzsche-Classes
