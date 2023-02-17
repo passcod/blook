@@ -10,6 +10,7 @@
    3 weeks between January and February. While I enjoyed it, even though I had to persist at times,
    I'm not marking it as recommended. Even with a happy ending, it's very dark, graphic, and oftimes
    gratuitous with its violence. It also has _way_ too many lemons (but at least they're good).
+ - {OFMD} [damn, if only these gays used critical thinking](https://archiveofourown.org/works/38256076). {6k words}
 
 ## Serial fiction
 
