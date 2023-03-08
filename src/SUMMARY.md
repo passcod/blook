@@ -44,6 +44,7 @@
   - [Just a bit of wasi](technical/just-a-bit-of-wasi.md)
   - [A cost-effective AGILE](technical/agile/index.md)
 - [Musings](musings/index.md)
+  - [A progression of designs](musings/progression-of-designs.md)
   - [Gaston Lagaffe](musings/gaston-lagaffe/index.md)
   - [Known Unknowns: a configuration language](musings/known-unknowns-conflang.md)
   - [On the difficulty of automated unblocking](musings/on-the-difficulty-of-automated-unblocking.md)
