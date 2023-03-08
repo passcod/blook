@@ -1,6 +1,6 @@
 # A progression of designs
 
-> Late 2022 - March 2023
+> Late 2022 - Early 2023
 
 
 ## Preliminary design
