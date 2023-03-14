@@ -19,3 +19,9 @@
 ## Comics
 
  - **[Fairmeadow](https://www.fairmeadowcomic.com)**.
+
+## Non-fiction
+
+ - [How to Civic Governance](https://acoup.blog/category/collections/how-to-civic-governance/)
+ - [Mastering PostgreSQL](https://www.amazon.com/Mastering-PostgreSQL-techniques-fault-tolerant-applications-ebook/dp/B0BTHSN8L1/)
+ - [The End of Craving](https://www.amazon.com/End-Craving-Recovering-Wisdom-Eating/dp/1501192485/)
