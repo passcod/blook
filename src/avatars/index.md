@@ -13,7 +13,7 @@ All are copyrighted. Do not reuse.
 
 ![beholder](beholder.png)
 
-Commissioned from [Monarobot]([https://ko-fi.com/phomarciam](https://monarobot.com/))
+Commissioned from [Monarobot](https://monarobot.com/)
 in <time datetime="2023-W23">June&nbsp;2023</time>.
 
 ---
