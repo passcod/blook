@@ -1605,7 +1605,194 @@ my quest upon the mountain of Knowledge.</p>
 <p>It was many moons before I understood this seeming contradiction.
 But it was too late; he was gone, and I was alas forever forsaken.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="technicals"><a class="header" href="#technicals">Technicals</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="2023--ipv6-on-mikrotik-on-starlink"><a class="header" href="#2023--ipv6-on-mikrotik-on-starlink">2023 | IPv6 on Mikrotik on Starlink</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="ipv6-on-mikrotik-on-starlink"><a class="header" href="#ipv6-on-mikrotik-on-starlink">IPv6 on Mikrotik on Starlink</a></h1>
+<blockquote>
+<p>11 June 2023</p>
+</blockquote>
+<p>I’ve just gotten a Starlink satellite internet connection as a temporary stopgap until I get fibre wire in.</p>
+<p>My previous ISP didn’t provide native IPv6, so I long played with various tunnels, to various effect;
+Netflix for example is very much not happy if your IPv4 appears to be in New Zealand but your IPv6 comes out in Sydney.
+Most recently I was with Route48, which provided an Auckland-based Wireguard tunnel, which was pretty good, but they shut down over spam.
+Thus, with Starlink having IPv6, I immediately wanted to get it going.</p>
+<p>Some starlink setup details:</p>
+<ul>
+<li>I have a rectangular dishy</li>
+<li>I’m not bypassing the router</li>
+<li>I’m wired in with the official ethernet adapter</li>
+</ul>
+<p>Some mikrotik setup details:</p>
+<ul>
+<li>RouterOS 7.8 everywhere. I’ll upgrade to 7.9 soon but not today.</li>
+<li>I have a hEX PoE at the “comms centre” of my house, which has the Starlink intake on its <code>ether1</code> (PoE in, via a 57V AC/DC adapter)</li>
+<li>That powers two wifi APs in the form of two ac²s at either end of the house</li>
+<li>…I’ve promised myself that I’ll get ax²s when fibre arrives, so I can have proper Wifi 6
+<ul>
+<li>(I did have Wifi 6 via an OpenWRT’d Ubiquiti Unify but it was still too dodgy/unconfigurable for my tastes)</li>
+</ul>
+</li>
+</ul>
+<p>Some network details:</p>
+<ul>
+<li>An IPv4 /23 in the 10/8 block, with the upper /24 for DHCP and the lower for statics</li>
+<li>The hEX acts as router with dhcp/dns/ntp. I don’t do queueing so the mips is plenty for that.</li>
+<li>Double NAT for IPv4, because I don’t want starlink to be able to see my network.</li>
+<li>DNS “terminated” at the hEX with DoH for the upstream, again because I don’t want my DNS to be snoopable.</li>
+</ul>
+<p>The AP setup is uninteresting save that on the topic of IPv6, I didn’t do anything special but cleared the firewall.</p>
+<p>Now, the router setup. Credit where credit is due, I cribbed a bunch of it from:</p>
+<ul>
+<li><a href="https://www.reddit.com/r/Starlink/comments/xv2p04/starlink_ipv6_config_for_mikrotik_routers/">tim4324 on r/starlink</a></li>
+<li><a href="https://www.reddit.com/r/Starlink/comments/xv2p04/comment/iz8htnl/">gmanual on that same thread</a></li>
+<li><a href="https://github.com/tyd/mikrotik-starlink-ipv6">tyd on github</a></li>
+</ul>
+<h2 id="interfaces"><a class="header" href="#interfaces">Interfaces</a></h2>
+<p>You should probably already have that or something like it, but just in case:</p>
+<pre><code class="language-mikrotik">/interface list
+add name=WAN
+add name=LAN
+
+/interface list member
+add interface=ether1 list=WAN
+add interface=ether2 list=LAN
+add interface=ether3 list=LAN
+add interface=ether4 list=LAN
+add interface=ether5 list=LAN
+add interface=bridge list=LAN
+
+# Eventually I'll get the fibre intake on the SFP, so:
+add interface=sfp1 list=WAN
+</code></pre>
+<p>And the bridge:</p>
+<pre><code class="language-mikrotik">/interface bridge port
+add bridge=bridge ingress-filtering=no interface=ether2
+add bridge=bridge ingress-filtering=no interface=ether3
+add bridge=bridge ingress-filtering=no interface=ether4
+add bridge=bridge ingress-filtering=no interface=ether5
+
+# I like to put my non-bridged ports in but disabled so it's clear where they're at
+add bridge=bridge disabled=yes ingress-filtering=no interface=ether1
+add bridge=bridge disabled=yes ingress-filtering=no interface=sfp1
+</code></pre>
+<h2 id="the-actual-ipv6-config"><a class="header" href="#the-actual-ipv6-config">The actual IPv6 config</a></h2>
+<pre><code class="language-mikrotik">/ipv6 settings
+set disable-ipv6=no forward=yes accept-redirects=no \
+    accept-router-advertisements=yes max-neighbor-entries=8192
+
+# that little script is just to print the prefix to logs; originally (see tim's thread) it also warns
+# on prefix change but Starlink no longer changes prefixes willy nilly so it never occurs. but just in case... 
+/ipv6 dhcp-client
+add interface=ether1 pool-name=starlink rapid-commit=no request=prefix \
+    script=&quot;:log info (\$\&quot;pd-prefix\&quot; . \&quot; DHCP\&quot;)\
+    \n:if (\$oldpd = \$\&quot;pd-prefix\&quot;) do={ } else={ :log warning \&quot;different P\
+    D\&quot;  }\
+    \n:global oldpd \$\&quot;pd-prefix\&quot;\
+    \n&quot; use-interface-duid=yes
+
+# wait for prefix delegation
+:delay 5000ms
+
+# Take ::2 in the pool. Leaving ::1 alone may or may not help.
+/ipv6 address
+add address=::2 from-pool=starlink interface=bridge
+
+# If no address was added automatically here only:
+# Replace 2406:xxxx:xxxx:xxxx with your starlink's address prefix
+# again we take ::2; in this case ::1 is nominally the starlink's
+add address=2406:xxxx:xxxx:xxxx::2 advertise=no interface=ether1
+
+# This was the critical bit for me.
+# Other guides insist routing is automatic, but it wasn't in my case. YKMV.
+/ipv6 route
+add disabled=no distance=1 dst-address=2000::/3 gateway=\
+    [/ipv6/dhcp-client get value-name=dhcp-server-v6 number=ether1] \
+    routing-table=main scope=30 target-scope=10
+
+/ipv6 nd prefix default
+set preferred-lifetime=10m valid-lifetime=15m
+
+/ipv6 nd
+set [ find default=yes ] disabled=yes
+add advertise-dns=no advertise-mac-address=no interface=ether1 ra-lifetime=none
+
+# if you're not doing DNS on mikrotik, you'll want to change/remove `dns` here
+add dns=[&lt;your address on bridge&gt;] hop-limit=64 interface=bridge \
+    managed-address-configuration=yes mtu=1280 other-configuration=yes \
+    ra-interval=3m20s-8m20s
+</code></pre>
+<h2 id="v6-firewall"><a class="header" href="#v6-firewall">v6 Firewall</a></h2>
+<p><em>This is basically copied from tyd.</em></p>
+<p>First, some address lists:</p>
+<pre><code class="language-mikrotik">/ipv6 firewall address-list
+add address=::/128 comment=&quot;defconf: unspecified address&quot; list=bad_ipv6
+add address=::1/128 comment=&quot;defconf: lo&quot; list=bad_ipv6
+add address=fec0::/10 comment=&quot;defconf: site-local&quot; list=bad_ipv6
+add address=::ffff:0.0.0.0/96 comment=&quot;defconf: ipv4-mapped&quot; list=bad_ipv6
+add address=::/96 comment=&quot;defconf: ipv4 compat&quot; list=bad_ipv6
+add address=100::/64 comment=&quot;defconf: discard only &quot; list=bad_ipv6
+add address=2001:db8::/32 comment=&quot;defconf: documentation&quot; list=bad_ipv6
+add address=2001:10::/28 comment=&quot;defconf: ORCHID&quot; list=bad_ipv6
+add address=fe80::/10 list=prefix_delegation
+add address=[/ipv6/dhcp-client get value-name=dhcp-server-v6 number=ether1] \
+    list=prefix_delegation comment=&quot;dhcp6 client server value&quot;
+</code></pre>
+<p>Then some rules:</p>
+<pre><code class="language-mikrotik">/ipv6 firewall filter
+add action=accept chain=input dst-port=5678 protocol=udp
+add action=accept chain=input comment=\
+    &quot;defconf: accept established,related,untracked&quot; connection-state=\
+    established,related,untracked
+add action=drop chain=input comment=&quot;defconf: drop invalid&quot; connection-state=\
+    invalid
+add action=accept chain=input comment=&quot;defconf: accept ICMPv6&quot; protocol=\
+    icmpv6
+add action=accept chain=input comment=&quot;defconf: accept UDP traceroute&quot; port=\
+    33434-33534 protocol=udp
+add action=accept chain=input comment=\
+    &quot;defconf: accept DHCPv6-Client prefix delegation.&quot; dst-port=546 protocol=\
+    udp src-address-list=prefix_delegation
+add action=drop chain=input comment=\
+    &quot;defconf: drop everything else not coming from LAN&quot; in-interface=!bridge
+add action=accept chain=forward comment=\
+    &quot;defconf: accept established,related,untracked&quot; connection-state=\
+    established,related,untracked
+add action=drop chain=forward comment=&quot;defconf: drop invalid&quot; \
+    connection-state=invalid
+add action=drop chain=forward comment=\
+    &quot;defconf: drop packets with bad src ipv6&quot; src-address-list=bad_ipv6
+add action=drop chain=forward comment=\
+    &quot;defconf: drop packets with bad dst ipv6&quot; dst-address-list=bad_ipv6
+add action=drop chain=forward comment=&quot;defconf: rfc4890 drop hop-limit=1&quot; \
+    hop-limit=equal:1 protocol=icmpv6
+add action=accept chain=forward comment=&quot;defconf: accept ICMPv6&quot; protocol=\
+    icmpv6
+add action=accept chain=forward comment=&quot;defconf: accept HIP&quot; protocol=139
+add action=drop chain=forward comment=\
+    &quot;defconf: drop everything else not coming from LAN&quot; in-interface=!bridge
+</code></pre>
+<h2 id="optionals-my-setup"><a class="header" href="#optionals-my-setup">Optionals; my setup</a></h2>
+<h3 id="ntp"><a class="header" href="#ntp">NTP</a></h3>
+<pre><code class="language-mikrotik">/system ntp client
+set enabled=yes
+
+/system ntp server
+set enabled=yes
+
+/system ntp client servers
+add address=nz.pool.ntp.org
+</code></pre>
+<h3 id="dns"><a class="header" href="#dns">DNS</a></h3>
+<pre><code class="language-mikrotik">/tool fetch url=https://curl.se/ca/cacert.pem
+/certificate import file-name=cacert.pem password=&quot;&quot;
+
+/ip dns static
+add address=9.9.9.9 name=dns.quad9.net
+add address=149.112.112.112 name=dns.quad9.net
+add address=2620:fe::fe name=dns.quad9.net type=AAAA
+add address=2620:fe::9 name=dns.quad9.net type=AAAA
+/ip dns
+set allow-remote-requests=yes cache-size=4096KiB use-doh-server=\
+    https://dns.quad9.net/dns-query verify-doh-cert=yes
+</code></pre>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="a-cost-effective-agile"><a class="header" href="#a-cost-effective-agile">A cost-effective AGILE</a></h1>
 <blockquote>
 <p>August 2022 <strong>Work in progress</strong></p>
