@@ -1,0 +1,362 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>2023 | Caddy I - Félix Saparelli</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../../intro.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../../avatars/index.html"><strong aria-hidden="true">2.</strong> Avatars</a></li><li class="chapter-item expanded "><a href="../../info/index.html"><strong aria-hidden="true">3.</strong> Persistent information</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../info/keys.html"><strong aria-hidden="true">3.1.</strong> Cryptographic keys</a></li><li class="chapter-item "><a href="../../info/social-media.html"><strong aria-hidden="true">3.2.</strong> Social media policies</a></li><li class="chapter-item "><a href="../../info/trademark.html"><strong aria-hidden="true">3.3.</strong> Trademark</a></li></ol></li><li class="chapter-item expanded "><a href="../../fiction/index.html"><strong aria-hidden="true">4.</strong> Fiction</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../fiction/poetry/index.html"><strong aria-hidden="true">4.1.</strong> Poetry</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../fiction/poetry/only-one-left.html"><strong aria-hidden="true">4.1.1.</strong> Only One Left</a></li><li class="chapter-item "><a href="../../fiction/poetry/mid-loss.html"><strong aria-hidden="true">4.1.2.</strong> Mid-loss</a></li><li class="chapter-item "><a href="../../fiction/poetry/aftermath.html"><strong aria-hidden="true">4.1.3.</strong> Aftermath</a></li><li class="chapter-item "><a href="../../fiction/poetry/one-and-two.html"><strong aria-hidden="true">4.1.4.</strong> one and two</a></li><li class="chapter-item "><a href="../../fiction/poetry/grow.html"><strong aria-hidden="true">4.1.5.</strong> Grow</a></li><li class="chapter-item "><a href="../../fiction/poetry/slowly.html"><strong aria-hidden="true">4.1.6.</strong> Slowly</a></li><li class="chapter-item "><a href="../../fiction/poetry/alya.html"><strong aria-hidden="true">4.1.7.</strong> Alya</a></li><li class="chapter-item "><a href="../../fiction/poetry/so-many-alone-at-night.html"><strong aria-hidden="true">4.1.8.</strong> so many alone at night</a></li><li class="chapter-item "><a href="../../fiction/poetry/up-up-and-away.html"><strong aria-hidden="true">4.1.9.</strong> Up Up And Away</a></li><li class="chapter-item "><a href="../../fiction/poetry/sleep.html"><strong aria-hidden="true">4.1.10.</strong> Sleep</a></li><li class="chapter-item "><a href="../../fiction/poetry/hold.html"><strong aria-hidden="true">4.1.11.</strong> Hold</a></li><li class="chapter-item "><a href="../../fiction/poetry/sorry.html"><strong aria-hidden="true">4.1.12.</strong> Sorry</a></li><li class="chapter-item "><a href="../../fiction/poetry/right-over-there.html"><strong aria-hidden="true">4.1.13.</strong> Right over there</a></li><li class="chapter-item "><a href="../../fiction/poetry/the-road-to-hell.html"><strong aria-hidden="true">4.1.14.</strong> The Road to Hell</a></li><li class="chapter-item "><a href="../../fiction/poetry/self.html"><strong aria-hidden="true">4.1.15.</strong> Self</a></li><li class="chapter-item "><a href="../../fiction/poetry/tree.html"><strong aria-hidden="true">4.1.16.</strong> Tree</a></li><li class="chapter-item "><a href="../../fiction/poetry/unlit.html"><strong aria-hidden="true">4.1.17.</strong> Unlit</a></li><li class="chapter-item "><a href="../../fiction/poetry/one-summer-morning.html"><strong aria-hidden="true">4.1.18.</strong> One summer morning</a></li><li class="chapter-item "><a href="../../fiction/poetry/smile.html"><strong aria-hidden="true">4.1.19.</strong> Smile</a></li></ol></li><li class="chapter-item "><a href="../../fiction/shorts/index.html"><strong aria-hidden="true">4.2.</strong> Short Prose</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../fiction/shorts/the-box.html"><strong aria-hidden="true">4.2.1.</strong> The Box</a></li><li class="chapter-item "><a href="../../fiction/shorts/a-man.html"><strong aria-hidden="true">4.2.2.</strong> A Man</a></li><li class="chapter-item "><a href="../../fiction/shorts/alive-in-the-night.html"><strong aria-hidden="true">4.2.3.</strong> ali.vei.nth.eni.ght</a></li><li class="chapter-item "><a href="../../fiction/shorts/regulus.html"><strong aria-hidden="true">4.2.4.</strong> Regulus</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../fiction/shorts/regulus-notes.html"><strong aria-hidden="true">4.2.4.1.</strong> (notes for) Regulus</a></li></ol></li><li class="chapter-item "><a href="../../fiction/shorts/my-mountain-of-knowledge.html"><strong aria-hidden="true">4.2.5.</strong> My mountain of Knowledge</a></li><li class="chapter-item "><a href="../../fiction/shorts/finally-i-knew.html"><strong aria-hidden="true">4.2.6.</strong> Finally, I knew</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../technical/index.html"><strong aria-hidden="true">5.</strong> Technicals</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../technical/caddy/part-1.html" class="active"><strong aria-hidden="true">5.1.</strong> 2023 | Caddy I</a></li><li class="chapter-item "><a href="../../technical/starlink.html"><strong aria-hidden="true">5.2.</strong> 2023 | IPv6 on Mikrotik on Starlink</a></li><li class="chapter-item "><a href="../../technical/agile/index.html"><strong aria-hidden="true">5.3.</strong> 2022 | A cost-effective AGILE (unfinished)</a></li><li class="chapter-item "><a href="../../technical/just-a-bit-of-wasi.html"><strong aria-hidden="true">5.4.</strong> 2022 | Just a bit of wasi</a></li><li class="chapter-item "><a href="../../technical/no-time-for-chrono.html"><strong aria-hidden="true">5.5.</strong> 2021 | No Time for Chrono</a></li><li class="chapter-item "><a href="../../technical/rust-crimes-enum-ints.html"><strong aria-hidden="true">5.6.</strong> 2021 | Rust crimes: Enum ints</a></li><li class="chapter-item "><a href="../../technical/exploring-wasm.html"><strong aria-hidden="true">5.7.</strong> 2020 | Exploration of Wasm</a></li><li class="chapter-item "><a href="../../technical/dhall-review.html"><strong aria-hidden="true">5.8.</strong> 2020 | Dhall: not quite it</a></li><li class="chapter-item "><a href="../../technical/async-generator-state-machine.html"><strong aria-hidden="true">5.9.</strong> 2018 | A little elegant state machine with Async Generators</a></li></ol></li><li class="chapter-item expanded "><a href="../../musings/index.html"><strong aria-hidden="true">6.</strong> Musings</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../musings/progression-of-designs.html"><strong aria-hidden="true">6.1.</strong> A progression of designs</a></li><li class="chapter-item "><a href="../../musings/gaston-lagaffe/index.html"><strong aria-hidden="true">6.2.</strong> Gaston Lagaffe</a></li><li class="chapter-item "><a href="../../musings/known-unknowns-conflang.html"><strong aria-hidden="true">6.3.</strong> Known Unknowns: a configuration language</a></li><li class="chapter-item "><a href="../../musings/on-the-difficulty-of-automated-unblocking.html"><strong aria-hidden="true">6.4.</strong> On the difficulty of automated unblocking</a></li><li class="chapter-item "><a href="../../musings/on-invoking-deities.html"><strong aria-hidden="true">6.5.</strong> On Invoking Deities</a></li></ol></li><li class="chapter-item expanded "><a href="../../models/index.html"><strong aria-hidden="true">7.</strong> 3D Models</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../models/mijia-hang/index.html"><strong aria-hidden="true">7.1.</strong> Mijia Hang</a></li><li class="chapter-item "><a href="../../models/filabox/index.html"><strong aria-hidden="true">7.2.</strong> Filabox</a></li></ol></li><li class="chapter-item expanded "><a href="../../recipes/index.html"><strong aria-hidden="true">8.</strong> Recipes</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div><strong aria-hidden="true">8.1.</strong> Thermomix</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../recipes/thermomix/dairy-cream.html"><strong aria-hidden="true">8.1.1.</strong> No-effort Dairy Cream</a></li><li class="chapter-item "><a href="../../recipes/thermomix/pasta.html"><strong aria-hidden="true">8.1.2.</strong> Semi-steamed Pasta</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../updates/index.html"><strong aria-hidden="true">9.</strong> Progress updates</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../updates/projects/certainly.html"><strong aria-hidden="true">9.1.</strong> Certainly</a></li><li class="chapter-item "><a href="../../updates/projects/japanese.html"><strong aria-hidden="true">9.2.</strong> Japanese</a></li><li class="chapter-item "><a href="../../updates/projects/lah-kara.html"><strong aria-hidden="true">9.3.</strong> Lah Kara</a></li><li class="chapter-item "><a href="../../updates/projects/sassbot.html"><strong aria-hidden="true">9.4.</strong> Sassbot</a></li><li class="chapter-item "><a href="../../updates/projects/splash.html"><strong aria-hidden="true">9.5.</strong> Splash</a></li><li class="chapter-item "><a href="../../updates/projects/cargo-watchexec.html"><strong aria-hidden="true">9.6.</strong> Watchexec family</a></li><li class="chapter-item "><div><strong aria-hidden="true">9.7.</strong> Archived</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../updates/projects/accord.html"><strong aria-hidden="true">9.7.1.</strong> Accord</a></li><li class="chapter-item "><a href="../../updates/projects/armstrong.html"><strong aria-hidden="true">9.7.2.</strong> Armstrong</a></li><li class="chapter-item "><a href="../../updates/projects/caretaker.html"><strong aria-hidden="true">9.7.3.</strong> Caretaker</a></li><li class="chapter-item "><a href="../../updates/projects/car-rainbow.html"><strong aria-hidden="true">9.7.4.</strong> Car Rainbow</a></li><li class="chapter-item "><a href="../../updates/projects/ct.html"><strong aria-hidden="true">9.7.5.</strong> ct</a></li><li class="chapter-item "><a href="../../updates/projects/defnew.html"><strong aria-hidden="true">9.7.6.</strong> defnew</a></li><li class="chapter-item "><a href="../../updates/projects/eqsky.html"><strong aria-hidden="true">9.7.7.</strong> Earthquake Sky</a></li><li class="chapter-item "><a href="../../updates/projects/figleaf.html"><strong aria-hidden="true">9.7.8.</strong> Figleaf</a></li><li class="chapter-item "><a href="../../updates/projects/glass-hanger.html"><strong aria-hidden="true">9.7.9.</strong> Glass Hanger</a></li><li class="chapter-item "><a href="../../updates/projects/entry-insert.html"><strong aria-hidden="true">9.7.10.</strong> Hashmap Entry Insert</a></li><li class="chapter-item "><a href="../../updates/projects/intpath.html"><strong aria-hidden="true">9.7.11.</strong> IntPath</a></li><li class="chapter-item "><a href="../../updates/projects/irish.html"><strong aria-hidden="true">9.7.12.</strong> Irish</a></li><li class="chapter-item "><a href="../../updates/projects/keycasting.html"><strong aria-hidden="true">9.7.13.</strong> Keycasting</a></li><li class="chapter-item "><a href="../../updates/projects/mead.html"><strong aria-hidden="true">9.7.14.</strong> Mead</a></li><li class="chapter-item "><a href="../../updates/projects/notify.html"><strong aria-hidden="true">9.7.15.</strong> Notify</a></li><li class="chapter-item "><a href="../../updates/projects/omelette.html"><strong aria-hidden="true">9.7.16.</strong> Omelette</a></li><li class="chapter-item "><a href="../../updates/projects/pinn.html"><strong aria-hidden="true">9.7.17.</strong> Pinn</a></li><li class="chapter-item "><a href="../../updates/projects/reasonable.html"><strong aria-hidden="true">9.7.18.</strong> Reasonable</a></li><li class="chapter-item "><a href="../../updates/projects/reupholstery.html"><strong aria-hidden="true">9.7.19.</strong> Reupholstering chairs</a></li><li class="chapter-item "><a href="../../updates/projects/storq.html"><strong aria-hidden="true">9.7.20.</strong> Storq</a></li><li class="chapter-item "><a href="../../updates/projects/swp.html"><strong aria-hidden="true">9.7.21.</strong> Swp</a></li><li class="chapter-item "><a href="../../updates/projects/trebuchet.html"><strong aria-hidden="true">9.7.22.</strong> Trebuchet</a></li><li class="chapter-item "><a href="../../updates/projects/what.html"><strong aria-hidden="true">9.7.23.</strong> What</a></li></ol></li><li class="chapter-item "><a href="../../updates/dated/index.html"><strong aria-hidden="true">9.8.</strong> 2017-2019 (mostly) regular micro updates</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../updates/dated/2016.html"><strong aria-hidden="true">9.8.1.</strong> 2016</a></li><li class="chapter-item "><a href="../../updates/dated/2017/index.html"><strong aria-hidden="true">9.8.2.</strong> 2017</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../updates/dated/2017/january.html"><strong aria-hidden="true">9.8.2.1.</strong> January</a></li><li class="chapter-item "><a href="../../updates/dated/2017/february.html"><strong aria-hidden="true">9.8.2.2.</strong> February</a></li><li class="chapter-item "><a href="../../updates/dated/2017/march.html"><strong aria-hidden="true">9.8.2.3.</strong> March</a></li><li class="chapter-item "><a href="../../updates/dated/2017/april.html"><strong aria-hidden="true">9.8.2.4.</strong> April</a></li><li class="chapter-item "><a href="../../updates/dated/2017/may.html"><strong aria-hidden="true">9.8.2.5.</strong> May</a></li><li class="chapter-item "><a href="../../updates/dated/2017/june.html"><strong aria-hidden="true">9.8.2.6.</strong> June</a></li><li class="chapter-item "><a href="../../updates/dated/2017/july.html"><strong aria-hidden="true">9.8.2.7.</strong> July</a></li><li class="chapter-item "><a href="../../updates/dated/2017/august.html"><strong aria-hidden="true">9.8.2.8.</strong> August</a></li><li class="chapter-item "><a href="../../updates/dated/2017/september.html"><strong aria-hidden="true">9.8.2.9.</strong> September</a></li><li class="chapter-item "><a href="../../updates/dated/2017/october.html"><strong aria-hidden="true">9.8.2.10.</strong> October</a></li><li class="chapter-item "><a href="../../updates/dated/2017/november.html"><strong aria-hidden="true">9.8.2.11.</strong> November</a></li><li class="chapter-item "><a href="../../updates/dated/2017/december.html"><strong aria-hidden="true">9.8.2.12.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../../updates/dated/2018/index.html"><strong aria-hidden="true">9.8.3.</strong> 2018</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../updates/dated/2018/january.html"><strong aria-hidden="true">9.8.3.1.</strong> January</a></li><li class="chapter-item "><a href="../../updates/dated/2018/march.html"><strong aria-hidden="true">9.8.3.2.</strong> March</a></li><li class="chapter-item "><a href="../../updates/dated/2018/april.html"><strong aria-hidden="true">9.8.3.3.</strong> April</a></li><li class="chapter-item "><a href="../../updates/dated/2018/may.html"><strong aria-hidden="true">9.8.3.4.</strong> May</a></li><li class="chapter-item "><a href="../../updates/dated/2018/september.html"><strong aria-hidden="true">9.8.3.5.</strong> September</a></li><li class="chapter-item "><a href="../../updates/dated/2018/november.html"><strong aria-hidden="true">9.8.3.6.</strong> November</a></li><li class="chapter-item "><a href="../../updates/dated/2018/december.html"><strong aria-hidden="true">9.8.3.7.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../../updates/dated/2019/index.html"><strong aria-hidden="true">9.8.4.</strong> 2019</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../updates/dated/2019/january.html"><strong aria-hidden="true">9.8.4.1.</strong> January</a></li><li class="chapter-item "><a href="../../updates/dated/2019/february.html"><strong aria-hidden="true">9.8.4.2.</strong> February</a></li><li class="chapter-item "><a href="../../updates/dated/2019/march.html"><strong aria-hidden="true">9.8.4.3.</strong> March</a></li><li class="chapter-item "><a href="../../updates/dated/2019/april.html"><strong aria-hidden="true">9.8.4.4.</strong> April</a></li><li class="chapter-item "><a href="../../updates/dated/2019/september.html"><strong aria-hidden="true">9.8.4.5.</strong> September</a></li><li class="chapter-item "><a href="../../updates/dated/2019/december.html"><strong aria-hidden="true">9.8.4.6.</strong> December</a></li></ol></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../reading/index.html"><strong aria-hidden="true">10.</strong> Reading archive</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../reading/2016/index.html"><strong aria-hidden="true">10.1.</strong> 2016</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../reading/2016/july.html"><strong aria-hidden="true">10.1.1.</strong> July</a></li><li class="chapter-item "><a href="../../reading/2016/december.html"><strong aria-hidden="true">10.1.2.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../../reading/2017/index.html"><strong aria-hidden="true">10.2.</strong> 2017</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../reading/2017/january.html"><strong aria-hidden="true">10.2.1.</strong> January</a></li><li class="chapter-item "><a href="../../reading/2017/february.html"><strong aria-hidden="true">10.2.2.</strong> February</a></li><li class="chapter-item "><a href="../../reading/2017/march.html"><strong aria-hidden="true">10.2.3.</strong> March</a></li><li class="chapter-item "><a href="../../reading/2017/april.html"><strong aria-hidden="true">10.2.4.</strong> April</a></li><li class="chapter-item "><a href="../../reading/2017/may.html"><strong aria-hidden="true">10.2.5.</strong> May</a></li><li class="chapter-item "><a href="../../reading/2017/june.html"><strong aria-hidden="true">10.2.6.</strong> June</a></li><li class="chapter-item "><a href="../../reading/2017/july.html"><strong aria-hidden="true">10.2.7.</strong> July</a></li><li class="chapter-item "><a href="../../reading/2017/august.html"><strong aria-hidden="true">10.2.8.</strong> August</a></li><li class="chapter-item "><a href="../../reading/2017/september.html"><strong aria-hidden="true">10.2.9.</strong> September</a></li><li class="chapter-item "><a href="../../reading/2017/october.html"><strong aria-hidden="true">10.2.10.</strong> October</a></li><li class="chapter-item "><a href="../../reading/2017/november.html"><strong aria-hidden="true">10.2.11.</strong> November</a></li><li class="chapter-item "><a href="../../reading/2017/december.html"><strong aria-hidden="true">10.2.12.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../../reading/2018/index.html"><strong aria-hidden="true">10.3.</strong> 2018</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../reading/2018/january.html"><strong aria-hidden="true">10.3.1.</strong> January</a></li><li class="chapter-item "><a href="../../reading/2018/february.html"><strong aria-hidden="true">10.3.2.</strong> February</a></li><li class="chapter-item "><a href="../../reading/2018/march.html"><strong aria-hidden="true">10.3.3.</strong> March</a></li><li class="chapter-item "><a href="../../reading/2018/april.html"><strong aria-hidden="true">10.3.4.</strong> April</a></li><li class="chapter-item "><a href="../../reading/2018/may.html"><strong aria-hidden="true">10.3.5.</strong> May</a></li><li class="chapter-item "><a href="../../reading/2018/june.html"><strong aria-hidden="true">10.3.6.</strong> June</a></li><li class="chapter-item "><a href="../../reading/2018/july.html"><strong aria-hidden="true">10.3.7.</strong> July</a></li><li class="chapter-item "><a href="../../reading/2018/august.html"><strong aria-hidden="true">10.3.8.</strong> August</a></li><li class="chapter-item "><a href="../../reading/2018/september.html"><strong aria-hidden="true">10.3.9.</strong> September</a></li><li class="chapter-item "><a href="../../reading/2018/october.html"><strong aria-hidden="true">10.3.10.</strong> October</a></li><li class="chapter-item "><a href="../../reading/2018/november.html"><strong aria-hidden="true">10.3.11.</strong> November</a></li><li class="chapter-item "><a href="../../reading/2018/december.html"><strong aria-hidden="true">10.3.12.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../../reading/2019/index.html"><strong aria-hidden="true">10.4.</strong> 2019</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../reading/2019/january.html"><strong aria-hidden="true">10.4.1.</strong> January</a></li><li class="chapter-item "><a href="../../reading/2019/february.html"><strong aria-hidden="true">10.4.2.</strong> February</a></li><li class="chapter-item "><a href="../../reading/2019/march.html"><strong aria-hidden="true">10.4.3.</strong> March</a></li><li class="chapter-item "><a href="../../reading/2019/april.html"><strong aria-hidden="true">10.4.4.</strong> April</a></li><li class="chapter-item "><a href="../../reading/2019/may.html"><strong aria-hidden="true">10.4.5.</strong> May</a></li><li class="chapter-item "><a href="../../reading/2019/june.html"><strong aria-hidden="true">10.4.6.</strong> June</a></li><li class="chapter-item "><a href="../../reading/2019/july.html"><strong aria-hidden="true">10.4.7.</strong> July</a></li><li class="chapter-item "><a href="../../reading/2019/august.html"><strong aria-hidden="true">10.4.8.</strong> August</a></li><li class="chapter-item "><a href="../../reading/2019/september.html"><strong aria-hidden="true">10.4.9.</strong> September</a></li><li class="chapter-item "><a href="../../reading/2019/october.html"><strong aria-hidden="true">10.4.10.</strong> October</a></li><li class="chapter-item "><a href="../../reading/2019/november.html"><strong aria-hidden="true">10.4.11.</strong> November</a></li><li class="chapter-item "><a href="../../reading/2019/december.html"><strong aria-hidden="true">10.4.12.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../../reading/2020/index.html"><strong aria-hidden="true">10.5.</strong> 2020</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../reading/2020/january.html"><strong aria-hidden="true">10.5.1.</strong> January</a></li><li class="chapter-item "><a href="../../reading/2020/february.html"><strong aria-hidden="true">10.5.2.</strong> February</a></li><li class="chapter-item "><a href="../../reading/2020/march-june.html"><strong aria-hidden="true">10.5.3.</strong> March—June</a></li><li class="chapter-item "><a href="../../reading/2020/july.html"><strong aria-hidden="true">10.5.4.</strong> July</a></li><li class="chapter-item "><a href="../../reading/2020/august-december.html"><strong aria-hidden="true">10.5.5.</strong> August—December</a></li></ol></li><li class="chapter-item "><a href="../../reading/2021/index.html"><strong aria-hidden="true">10.6.</strong> 2021</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../reading/2021/january-may.html"><strong aria-hidden="true">10.6.1.</strong> First semester</a></li><li class="chapter-item "><a href="../../reading/2021/june-november.html"><strong aria-hidden="true">10.6.2.</strong> Second semester</a></li></ol></li><li class="chapter-item "><a href="../../reading/2022/index.html"><strong aria-hidden="true">10.7.</strong> 2022</a></li><li class="chapter-item "><a href="../../reading/2023/index.html"><strong aria-hidden="true">10.8.</strong> 2023</a></li></ol></li><li class="chapter-item expanded "><a href="../../deprecated/index.html"><strong aria-hidden="true">11.</strong> Deprecated content</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../deprecated/blanket.html"><strong aria-hidden="true">11.1.</strong> Blanket license</a></li><li class="chapter-item "><div><strong aria-hidden="true">11.2.</strong> Outdated</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../deprecated/outdated/modern-systems-languages.html"><strong aria-hidden="true">11.2.1.</strong> Modern systems languages</a></li><li class="chapter-item "><a href="../../deprecated/outdated/soft-limits-meaningful-cuts.html"><strong aria-hidden="true">11.2.2.</strong> Soft limits and meaningful content cuts</a></li><li class="chapter-item "><a href="../../deprecated/outdated/bruteforcing-the-devil.html"><strong aria-hidden="true">11.2.3.</strong> Bruteforcing the Devil</a></li><li class="chapter-item "><a href="../../deprecated/outdated/lighting-up-rust-with-neon.html"><strong aria-hidden="true">11.2.4.</strong> Lighting up Rust with Neon</a></li></ol></li><li class="chapter-item "><div><strong aria-hidden="true">11.3.</strong> Unheld</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../deprecated/unheld/sidebar.html"><strong aria-hidden="true">11.3.1.</strong> SIDEBAR</a></li><li class="chapter-item "><a href="../../deprecated/unheld/a-thought-on-fanfiction.html"><strong aria-hidden="true">11.3.2.</strong> A thought on fanfiction</a></li><li class="chapter-item "><div><strong aria-hidden="true">11.3.3.</strong> Identity</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../deprecated/unheld/not-coming.html"><strong aria-hidden="true">11.3.3.1.</strong> This is not a coming out</a></li><li class="chapter-item "><a href="../../deprecated/unheld/guy-adjacent.html"><strong aria-hidden="true">11.3.3.2.</strong> Guy-Adjacent</a></li><li class="chapter-item "><a href="../../deprecated/unheld/my-words.html"><strong aria-hidden="true">11.3.3.3.</strong> My Words</a></li><li class="chapter-item "><a href="../../deprecated/unheld/check-labels.html"><strong aria-hidden="true">11.3.3.4.</strong> Check all applicable labels</a></li></ol></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Félix Saparelli</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/passcod/blook" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="caddy-part-i"><a class="header" href="#caddy-part-i">Caddy, part I</a></h1>
+<blockquote>
+<p>July 2023</p>
+</blockquote>
+<p><em>This is part one of a ‘live’ series on my experiences with [Caddy].</em></p>
+<p>I encountered Caddy in or before 2018. Back then, it was a breath of fresh air in the HTTP server
+space, something that you could spin up very quickly and simply, had good modern defaults, and
+would handle HTTPS for you. However, while quite useful for running small services for personal
+use, it didn’t really seem like a strong option for production. In my professional use, I built
+considerable experience, both good and bad, with both Nginx and HAProxy.</p>
+<pre><code class="language-caddyfile">example.com {
+  file_server /static {
+    root /var/www
+  }
+
+  reverse_proxy localhost:8001
+}
+</code></pre>
+<p>Fast-forward to this month, where I encounter Caddy again while researching solutions for two
+separate, different situations:</p>
+<ol>
+<li>
+<p>As a reverse proxy and static file server for a single non-production application that could
+handle provisioning and using <strong>[Tailscale] certificates</strong>.</p>
+</li>
+<li>
+<p>As a reverse proxy for multiple applications <strong>on Windows</strong> with support for updating the
+configuration without a restart, without the use of signals.</p>
+</li>
+</ol>
+<p>At first blush, Caddy was now a lot more complicated.</p>
+<p>Oh, sure, I could have used the continuing support for the Caddyfile format. But the
+reconfiguration API only supports the new JSON schema. I wanted to evaluate that, see how viable
+Caddy is for my production purposes.</p>
+<p>So, there seems to be three main ways to use Caddy now:</p>
+<ol>
+<li>
+<p>With a static configuration file, reloading via tool.</p>
+<p>Caddy is started like:</p>
+<pre><code class="language-bash">$ caddy run --config /path/to/caddy.json
+</code></pre>
+<p>Reloading happens with:</p>
+<pre><code class="language-bash">$ caddy reload --config /path/to/caddy.json
+</code></pre>
+</li>
+<li>
+<p>With a dynamic configuration file saved to disk, reconfiguring via API.</p>
+<pre><code class="language-bash">$ caddy run --resume /path/to/caddy.json
+</code></pre>
+</li>
+<li>
+<p>With an ephemeral configuration in memory modifiable via API, initially loading from either no
+or a static configuration file.</p>
+<pre><code class="language-bash">$ caddy run --config /path/to/static.json
+</code></pre>
+</li>
+</ol>
+<p>The syntax is also a bit more verbose. Here’s what I went with for an initial file server:</p>
+<pre><code class="language-json">{
+  &quot;logging&quot;: {
+    &quot;logs&quot;: {
+      &quot;default&quot;: {
+        &quot;encoder&quot;: { &quot;format&quot;: &quot;json&quot; },
+        &quot;writer&quot;: {
+          &quot;output&quot;: &quot;file&quot;,
+          &quot;filename&quot;: &quot;/var/log/caddy/default.log&quot;
+        }
+      }
+    }
+  },
+  &quot;apps&quot;: {
+    &quot;http&quot;: {
+      &quot;servers&quot;: {
+        &quot;files&quot;: {
+          &quot;listen&quot;: [&quot;:80&quot;, &quot;:443&quot;],
+          &quot;listener_wrappers&quot;: [
+            { &quot;wrapper&quot;: &quot;http_redirect&quot; },
+            { &quot;wrapper&quot;: &quot;tls&quot; }
+          ],
+          &quot;routes&quot;: [{
+            &quot;match&quot;: [{
+              &quot;host&quot;: [&quot;example.com&quot;]
+            }],
+            &quot;handle&quot;: [{
+              &quot;handler&quot;: &quot;file_server&quot;,
+              &quot;root&quot;: &quot;/var/www&quot;,
+              &quot;browse&quot;: {}
+            }]
+          }]
+        }
+      }
+    }
+  }
+}
+</code></pre>
+<p>Credit where it’s due, this still provisions an appropriate TLS certificate and the logs are
+automatically rotated with a reasonable policy.</p>
+<p>However, it took me quite a while to figure out that I needed to specify the <code>listener_wrappers</code> or
+the HTTP→HTTPS redirect wouldn’t work, that specifying only an address in the listener like <code>::1</code>
+wouldn’t work and that I’d need to give both ports, and how the matchers work when more than one is
+in play. Additionally, configuration errors output typical Go marshal fare:</p>
+<pre><code>json: cannot unmarshal string into Go value of type caddyhttp.MatchHost
+</code></pre>
+<p>(No line numbers, that would be too easy.)</p>
+<p>Here’s the config I arrived at for my first task, with a Tailscale certificate serving a Gunicorn
+plus static files application (<code>logging</code> section as before):</p>
+<pre><code class="language-json">{
+  &quot;apps&quot;: {
+    &quot;http&quot;: {
+      &quot;servers&quot;: {
+        &quot;app&quot;: {
+          &quot;listen&quot;: [&quot;:80&quot;, &quot;:443&quot;],
+          &quot;listener_wrappers&quot;: [
+            { &quot;wrapper&quot;: &quot;http_redirect&quot; },
+            { &quot;wrapper&quot;: &quot;tls&quot; }
+          ],
+          &quot;routes&quot;: [
+            {
+              &quot;match&quot;: [{
+                &quot;host&quot;: [&quot;app.tailnet.ts.net&quot;],
+                &quot;path&quot;: [&quot;/static/*&quot;]
+              }],
+              &quot;handle&quot;: [{
+                &quot;handler&quot;: &quot;file_server&quot;,
+                &quot;root&quot;: &quot;/var/www&quot;,
+                &quot;browse&quot;: {}
+              }],
+              &quot;terminal&quot;: true
+            },
+            {
+              &quot;match&quot;: [{
+                &quot;host&quot;: [&quot;app.tailnet.ts.net&quot;]
+              }],
+              &quot;handle&quot;: [{
+                &quot;handler&quot;: &quot;reverse_proxy&quot;,
+                &quot;upstreams&quot;: [{ &quot;dial&quot;: &quot;localhost:8001&quot; }]
+              }]
+            }
+          ]
+        }
+      }
+    },
+    &quot;tls&quot;: {
+      &quot;automation&quot;: {
+        &quot;policies&quot;: [{
+          &quot;subjects&quot;: [&quot;app.tailnet.ts.net&quot;],
+          &quot;get_certificate&quot;: [{ &quot;via&quot;: &quot;tailscale&quot; }]
+        }]
+      }
+    }
+  }
+}
+</code></pre>
+<p>So, do I like it?</p>
+<p>Well, as much as the configuration is very verbose, I do like that it is in good old regular JSON
+instead of some custom configuration format that nobody implements a decent serializer for. Writing
+templates in Jinja or Consul-Template for Nginx or HAProxy is exceedingly brittle.</p>
+<p>The decision to completely eschew signals for configuration reloading in favour of an API is
+interesting, too. It certainly makes it a lot easier to use on Windows, where signals are less of a
+thing, to say the least. I’m also curious about authentication possibilities there.</p>
+<p>My interest is piqued. There’s some rough edges to be mindful of, but I’m going to keep looking
+into it. Hence, this is part one. At some point in the future, I’ll post some kind of follow-up
+about what my thoughts are after more research and experimentation. Stay tuned!</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../technical/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../../technical/starlink.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../technical/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../../technical/starlink.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
+
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>
