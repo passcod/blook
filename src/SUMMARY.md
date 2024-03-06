@@ -55,6 +55,7 @@
   - [Mijia Hang](models/mijia-hang/index.md)
   - [Filabox](models/filabox/index.md)
 - [Recipes](recipes/index.md)
+  - [Blue Orange Cocktail](recipes/blue-orange.md)
   - [Thermomix]()
     - [No-effort Dairy Cream](recipes/thermomix/dairy-cream.md)
     - [Semi-steamed Pasta](recipes/thermomix/pasta.md)
