@@ -36,6 +36,7 @@
     - [My mountain of Knowledge](fiction/shorts/my-mountain-of-knowledge.md)
     - [Finally, I knew](fiction/shorts/finally-i-knew.md)
 - [Technicals](technical/index.md)
+  - [2024 | Nouveau on Dell G7 7700](technical/g7-7700-nouveau.md)
   - [2023 | Caddy I](technical/caddy/part-1.md)
   - [2023 | IPv6 on Mikrotik on Starlink](technical/starlink.md)
   - [2022 | A cost-effective AGILE (unfinished)](technical/agile/index.md)
