@@ -1,6 +1,6 @@
 # Certainly
 
-> September 2018
+> September 2018 to 2020ish
 
 ## Pitch
 
@@ -28,6 +28,4 @@ certificates.
 
 Done: <https://github.com/passcod/certainly>
 
-## Future
-
-I want to finish the Rustls version.
+Deprecated. One should use the largely superior [step](https://smallstep.com/docs/step-cli/) tooling instead.

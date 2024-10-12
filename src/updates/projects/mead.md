@@ -29,3 +29,5 @@ day, for a week, and finally stored them back for another round.
 I have lots of pretty good mead!
 
 I also have no idea how alcoholic they are. Whoops?
+
+6-years-later update (October 2024): still dunno how alcoholic. A delightful gold colour... I should start on drinking those...

@@ -1,6 +1,6 @@
 # Splash
 
-> Since July 2018
+> 2018
 
 ## Pitch
 
@@ -23,4 +23,6 @@ arbitrary topography resolutions rather than hardcoding only two modes, and bein
 
 ## Outcome
 
-Still at it: <https://github.com/passcod/splash>
+Partial code is here: <https://github.com/passcod/splash>
+
+Unlikely to pick this up again.

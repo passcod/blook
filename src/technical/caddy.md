@@ -1,10 +1,8 @@
-# Caddy, part I
+# Caddy
 
 > July 2023
 
-_This is part one of a 'live' series on my experiences with [Caddy]._
-
-I encountered Caddy in or before 2018. Back then, it was a breath of fresh air in the HTTP server
+I encountered [Caddy] in or before 2018. Back then, it was a breath of fresh air in the HTTP server
 space, something that you could spin up very quickly and simply, had good modern defaults, and
 would handle HTTPS for you. However, while quite useful for running small services for personal
 use, it didn't really seem like a strong option for production. In my professional use, I built
@@ -180,5 +178,11 @@ interesting, too. It certainly makes it a lot easier to use on Windows, where si
 thing, to say the least. I'm also curious about authentication possibilities there.
 
 My interest is piqued. There's some rough edges to be mindful of, but I'm going to keep looking
-into it. Hence, this is part one. At some point in the future, I'll post some kind of follow-up
-about what my thoughts are after more research and experimentation. Stay tuned!
+into it.
+
+## Update: 2024
+
+Caddy is now my primary server in production for actual real live dayjob
+products in critical applications; however I found that in most scenarios where
+humans ever have to read and/or write configs, using the Caddyfile format is
+still the best.
