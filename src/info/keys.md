@@ -1,18 +1,18 @@
 # Cryptographic keys
 
-I have three kinds of keys at the moment: good old [PGP/GPG keys](#gpg-keys) that are mostly used to
-sign git commits, [minisign keys](#minisign-keys) that are used to sign software (being phased out),
-and [sigstore keys](#sigstore-keys) that are used to sign software (being phased in).
+I used to have a variety of keys; now I use SSH keys for signing commits, and that's about it.
+So everything below is deprecated.
 
 * auto-gen TOC;
 {:toc}
 
 ## GPG keys
 
-These have an expiration date. I initially did 1-year keys, but that was too much trouble, so in
-2015 I decided to use 10-year keys, possibly with more short-lived subkeys.
+These have an expiration date. I initially did 1-year keys, but that was too
+much trouble, so in 2015 I decided to use 10-year keys, possibly with more
+short-lived subkeys. In 2024 I decided I wouldn't renew the habit.
 
-The keys are also available on public keyservers, e.g.:
+The keys were also available on public keyservers, but these seem to be unreliable nowadays.
 - [pgp.mit.edu](http://pgp.mit.edu:11371/pks/lookup?search=passcod&op=vindex&fingerprint=on&exact=on)
 - [keys.gnupg.net](http://keys.gnupg.net/pks/lookup?search=passcod&op=vindex&fingerprint=on&exact=on)
 
