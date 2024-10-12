@@ -22,5 +22,6 @@ an archive, a list of projects, and various information about and around me. Hav
 I keep a few other places alive:
 
 - **[Brackets](https://brackets.passcod.name)** — A page of brackets
-- **[Dash](https://dash.passcod.name)** — A page of dashes
+- **[Dashes](https://dashes.passcod.name)** — A page of dashes
+- **[Tildes](https://tildes.passcod.name)** — A page of tildes
 - **[Mechanical Bird](https://mechanicalbird.surge.sh)** — A simple browser-based time tracker
