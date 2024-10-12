@@ -174,6 +174,7 @@
     - [Second semester](reading/2021/june-november.md)
   - [2022](reading/2022/index.md)
   - [2023](reading/2023/index.md)
+  - [2024](reading/2024/index.md)
 - [Deprecated content](deprecated/index.md)
   - [Blanket license](deprecated/blanket.md)
   - [Cryptographic keys](info/keys.md)
