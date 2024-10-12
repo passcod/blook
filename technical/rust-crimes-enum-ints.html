@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js light">
+<html lang="en" class="light" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -10,7 +10,7 @@
         
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+        <meta name="theme-color" content="#ffffff">
 
         <link rel="icon" href="../favicon.svg">
         <link rel="shortcut icon" href="../favicon.png">
@@ -33,7 +33,8 @@
         <!-- MathJax -->
         <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     </head>
-    <body>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
         <!-- Provide site root to javascript -->
         <script>
             var path_to_root = "../";
@@ -62,40 +63,71 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
         </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
                 <ol class="chapter"><li class="chapter-item expanded "><a href="../intro.html"><strong aria-hidden="true">1.</strong> Introduction</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../avatars/index.html"><strong aria-hidden="true">1.1.</strong> Avatars</a></li><li class="chapter-item "><a href="../info/index.html"><strong aria-hidden="true">1.2.</strong> Pronouns</a></li><li class="chapter-item "><a href="../info/keys.html"><strong aria-hidden="true">1.3.</strong> Cryptographic keys</a></li><li class="chapter-item "><a href="../info/trademark.html"><strong aria-hidden="true">1.4.</strong> Trademark</a></li></ol></li><li class="chapter-item expanded "><a href="../technical/index.html"><strong aria-hidden="true">2.</strong> Technicals</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../technical/g7-7700-nouveau.html"><strong aria-hidden="true">2.1.</strong> 2024 | Nouveau on Dell G7 7700</a></li><li class="chapter-item "><a href="../technical/caddy.html"><strong aria-hidden="true">2.2.</strong> 2023 | Caddy</a></li><li class="chapter-item "><a href="../technical/starlink.html"><strong aria-hidden="true">2.3.</strong> 2023 | IPv6 on Mikrotik on Starlink</a></li><li class="chapter-item "><a href="../technical/just-a-bit-of-wasi.html"><strong aria-hidden="true">2.4.</strong> 2022 | Just a bit of wasi</a></li><li class="chapter-item expanded "><a href="../technical/rust-crimes-enum-ints.html" class="active"><strong aria-hidden="true">2.5.</strong> 2021 | Rust crimes: Enum ints</a></li><li class="chapter-item "><a href="../technical/exploring-wasm.html"><strong aria-hidden="true">2.6.</strong> 2020 | Exploration of Wasm</a></li><li class="chapter-item "><a href="../technical/async-generator-state-machine.html"><strong aria-hidden="true">2.7.</strong> 2018 | A little elegant state machine with Async Generators</a></li></ol></li><li class="chapter-item expanded "><a href="../musings/index.html"><strong aria-hidden="true">3.</strong> Musings</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../musings/progression-of-designs.html"><strong aria-hidden="true">3.1.</strong> A progression of designs</a></li><li class="chapter-item "><a href="../musings/gaston-lagaffe/index.html"><strong aria-hidden="true">3.2.</strong> Gaston Lagaffe</a></li><li class="chapter-item "><a href="../musings/known-unknowns-conflang.html"><strong aria-hidden="true">3.3.</strong> Known Unknowns: a configuration language</a></li><li class="chapter-item "><a href="../musings/on-the-difficulty-of-automated-unblocking.html"><strong aria-hidden="true">3.4.</strong> On the difficulty of automated unblocking</a></li><li class="chapter-item "><a href="../musings/on-invoking-deities.html"><strong aria-hidden="true">3.5.</strong> On Invoking Deities</a></li></ol></li><li class="chapter-item expanded "><a href="../models/index.html"><strong aria-hidden="true">4.</strong> 3D Models</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../models/wall-plant-pots/index.html"><strong aria-hidden="true">4.1.</strong> Wall Plant Pots</a></li><li class="chapter-item "><a href="../models/mijia-hang/index.html"><strong aria-hidden="true">4.2.</strong> Mijia Hang</a></li><li class="chapter-item "><a href="../models/filabox/index.html"><strong aria-hidden="true">4.3.</strong> Filabox</a></li></ol></li><li class="chapter-item expanded "><a href="../fiction/index.html"><strong aria-hidden="true">5.</strong> Fiction</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../fiction/poetry/index.html"><strong aria-hidden="true">5.1.</strong> Poetry</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../fiction/poetry/only-one-left.html"><strong aria-hidden="true">5.1.1.</strong> Only One Left</a></li><li class="chapter-item "><a href="../fiction/poetry/mid-loss.html"><strong aria-hidden="true">5.1.2.</strong> Mid-loss</a></li><li class="chapter-item "><a href="../fiction/poetry/aftermath.html"><strong aria-hidden="true">5.1.3.</strong> Aftermath</a></li><li class="chapter-item "><a href="../fiction/poetry/one-and-two.html"><strong aria-hidden="true">5.1.4.</strong> one and two</a></li><li class="chapter-item "><a href="../fiction/poetry/grow.html"><strong aria-hidden="true">5.1.5.</strong> Grow</a></li><li class="chapter-item "><a href="../fiction/poetry/slowly.html"><strong aria-hidden="true">5.1.6.</strong> Slowly</a></li><li class="chapter-item "><a href="../fiction/poetry/alya.html"><strong aria-hidden="true">5.1.7.</strong> Alya</a></li><li class="chapter-item "><a href="../fiction/poetry/so-many-alone-at-night.html"><strong aria-hidden="true">5.1.8.</strong> so many alone at night</a></li><li class="chapter-item "><a href="../fiction/poetry/up-up-and-away.html"><strong aria-hidden="true">5.1.9.</strong> Up Up And Away</a></li><li class="chapter-item "><a href="../fiction/poetry/sleep.html"><strong aria-hidden="true">5.1.10.</strong> Sleep</a></li><li class="chapter-item "><a href="../fiction/poetry/hold.html"><strong aria-hidden="true">5.1.11.</strong> Hold</a></li><li class="chapter-item "><a href="../fiction/poetry/sorry.html"><strong aria-hidden="true">5.1.12.</strong> Sorry</a></li><li class="chapter-item "><a href="../fiction/poetry/right-over-there.html"><strong aria-hidden="true">5.1.13.</strong> Right over there</a></li><li class="chapter-item "><a href="../fiction/poetry/the-road-to-hell.html"><strong aria-hidden="true">5.1.14.</strong> The Road to Hell</a></li><li class="chapter-item "><a href="../fiction/poetry/self.html"><strong aria-hidden="true">5.1.15.</strong> Self</a></li><li class="chapter-item "><a href="../fiction/poetry/tree.html"><strong aria-hidden="true">5.1.16.</strong> Tree</a></li><li class="chapter-item "><a href="../fiction/poetry/unlit.html"><strong aria-hidden="true">5.1.17.</strong> Unlit</a></li><li class="chapter-item "><a href="../fiction/poetry/one-summer-morning.html"><strong aria-hidden="true">5.1.18.</strong> One summer morning</a></li><li class="chapter-item "><a href="../fiction/poetry/smile.html"><strong aria-hidden="true">5.1.19.</strong> Smile</a></li></ol></li><li class="chapter-item "><a href="../fiction/shorts/index.html"><strong aria-hidden="true">5.2.</strong> Short Prose</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../fiction/shorts/the-box.html"><strong aria-hidden="true">5.2.1.</strong> The Box</a></li><li class="chapter-item "><a href="../fiction/shorts/a-man.html"><strong aria-hidden="true">5.2.2.</strong> A Man</a></li><li class="chapter-item "><a href="../fiction/shorts/alive-in-the-night.html"><strong aria-hidden="true">5.2.3.</strong> ali.vei.nth.eni.ght</a></li><li class="chapter-item "><a href="../fiction/shorts/regulus.html"><strong aria-hidden="true">5.2.4.</strong> Regulus</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../fiction/shorts/regulus-notes.html"><strong aria-hidden="true">5.2.4.1.</strong> (notes for) Regulus</a></li></ol></li><li class="chapter-item "><a href="../fiction/shorts/my-mountain-of-knowledge.html"><strong aria-hidden="true">5.2.5.</strong> My mountain of Knowledge</a></li><li class="chapter-item "><a href="../fiction/shorts/finally-i-knew.html"><strong aria-hidden="true">5.2.6.</strong> Finally, I knew</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../recipes/index.html"><strong aria-hidden="true">6.</strong> Recipes</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../recipes/blue-orange.html"><strong aria-hidden="true">6.1.</strong> Blue Orange Cocktail</a></li><li class="chapter-item "><a href="../recipes/thermomix/dairy-cream.html"><strong aria-hidden="true">6.2.</strong> No-effort Dairy Cream</a></li><li class="chapter-item "><a href="../recipes/thermomix/pasta.html"><strong aria-hidden="true">6.3.</strong> Semi-steamed Pasta</a></li></ol></li><li class="chapter-item expanded "><a href="../updates/index.html"><strong aria-hidden="true">7.</strong> Progress updates</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../updates/projects/sassbot.html"><strong aria-hidden="true">7.1.</strong> Sassbot</a></li><li class="chapter-item "><a href="../updates/projects/spanish.html"><strong aria-hidden="true">7.2.</strong> Spanish</a></li><li class="chapter-item "><a href="../updates/projects/super.html"><strong aria-hidden="true">7.3.</strong> Super</a></li><li class="chapter-item "><a href="../updates/projects/cargo-watchexec.html"><strong aria-hidden="true">7.4.</strong> Watchexec</a></li><li class="chapter-item "><div><strong aria-hidden="true">7.5.</strong> Archived</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../updates/projects/accord.html"><strong aria-hidden="true">7.5.1.</strong> Accord</a></li><li class="chapter-item "><a href="../technical/agile/index.html"><strong aria-hidden="true">7.5.2.</strong> AGILE</a></li><li class="chapter-item "><a href="../updates/projects/armstrong.html"><strong aria-hidden="true">7.5.3.</strong> Armstrong</a></li><li class="chapter-item "><a href="../updates/projects/caretaker.html"><strong aria-hidden="true">7.5.4.</strong> Caretaker</a></li><li class="chapter-item "><a href="../updates/projects/car-rainbow.html"><strong aria-hidden="true">7.5.5.</strong> Car Rainbow</a></li><li class="chapter-item "><a href="../updates/projects/certainly.html"><strong aria-hidden="true">7.5.6.</strong> Certainly</a></li><li class="chapter-item "><a href="../updates/projects/ct.html"><strong aria-hidden="true">7.5.7.</strong> ct</a></li><li class="chapter-item "><a href="../updates/projects/defnew.html"><strong aria-hidden="true">7.5.8.</strong> defnew</a></li><li class="chapter-item "><a href="../updates/projects/eqsky.html"><strong aria-hidden="true">7.5.9.</strong> Earthquake Sky</a></li><li class="chapter-item "><a href="../updates/projects/figleaf.html"><strong aria-hidden="true">7.5.10.</strong> Figleaf</a></li><li class="chapter-item "><a href="../updates/projects/glass-hanger.html"><strong aria-hidden="true">7.5.11.</strong> Glass Hanger</a></li><li class="chapter-item "><a href="../updates/projects/entry-insert.html"><strong aria-hidden="true">7.5.12.</strong> Hashmap Entry Insert</a></li><li class="chapter-item "><a href="../updates/projects/intpath.html"><strong aria-hidden="true">7.5.13.</strong> IntPath</a></li><li class="chapter-item "><a href="../updates/projects/irish.html"><strong aria-hidden="true">7.5.14.</strong> Irish</a></li><li class="chapter-item "><a href="../updates/projects/japanese.html"><strong aria-hidden="true">7.5.15.</strong> Japanese</a></li><li class="chapter-item "><a href="../updates/projects/keycasting.html"><strong aria-hidden="true">7.5.16.</strong> Keycasting</a></li><li class="chapter-item "><a href="../updates/projects/lah-kara.html"><strong aria-hidden="true">7.5.17.</strong> Lah Kara</a></li><li class="chapter-item "><a href="../updates/projects/mead.html"><strong aria-hidden="true">7.5.18.</strong> Mead</a></li><li class="chapter-item "><a href="../updates/projects/notify.html"><strong aria-hidden="true">7.5.19.</strong> Notify</a></li><li class="chapter-item "><a href="../updates/projects/omelette.html"><strong aria-hidden="true">7.5.20.</strong> Omelette</a></li><li class="chapter-item "><a href="../updates/projects/pinn.html"><strong aria-hidden="true">7.5.21.</strong> Pinn</a></li><li class="chapter-item "><a href="../updates/projects/reasonable.html"><strong aria-hidden="true">7.5.22.</strong> Reasonable</a></li><li class="chapter-item "><a href="../updates/projects/reupholstery.html"><strong aria-hidden="true">7.5.23.</strong> Reupholstering chairs</a></li><li class="chapter-item "><a href="../updates/projects/splash.html"><strong aria-hidden="true">7.5.24.</strong> Splash</a></li><li class="chapter-item "><a href="../updates/projects/storq.html"><strong aria-hidden="true">7.5.25.</strong> Storq</a></li><li class="chapter-item "><a href="../updates/projects/swp.html"><strong aria-hidden="true">7.5.26.</strong> Swp</a></li><li class="chapter-item "><a href="../updates/projects/trebuchet.html"><strong aria-hidden="true">7.5.27.</strong> Trebuchet</a></li><li class="chapter-item "><a href="../updates/projects/what.html"><strong aria-hidden="true">7.5.28.</strong> What</a></li><li class="chapter-item "><a href="../updates/projects/zarc.html"><strong aria-hidden="true">7.5.29.</strong> Zarc</a></li></ol></li><li class="chapter-item "><a href="../updates/dated/index.html"><strong aria-hidden="true">7.6.</strong> 2017-2019 (mostly) regular micro updates</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../updates/dated/2016.html"><strong aria-hidden="true">7.6.1.</strong> 2016</a></li><li class="chapter-item "><a href="../updates/dated/2017/index.html"><strong aria-hidden="true">7.6.2.</strong> 2017</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../updates/dated/2017/january.html"><strong aria-hidden="true">7.6.2.1.</strong> January</a></li><li class="chapter-item "><a href="../updates/dated/2017/february.html"><strong aria-hidden="true">7.6.2.2.</strong> February</a></li><li class="chapter-item "><a href="../updates/dated/2017/march.html"><strong aria-hidden="true">7.6.2.3.</strong> March</a></li><li class="chapter-item "><a href="../updates/dated/2017/april.html"><strong aria-hidden="true">7.6.2.4.</strong> April</a></li><li class="chapter-item "><a href="../updates/dated/2017/may.html"><strong aria-hidden="true">7.6.2.5.</strong> May</a></li><li class="chapter-item "><a href="../updates/dated/2017/june.html"><strong aria-hidden="true">7.6.2.6.</strong> June</a></li><li class="chapter-item "><a href="../updates/dated/2017/july.html"><strong aria-hidden="true">7.6.2.7.</strong> July</a></li><li class="chapter-item "><a href="../updates/dated/2017/august.html"><strong aria-hidden="true">7.6.2.8.</strong> August</a></li><li class="chapter-item "><a href="../updates/dated/2017/september.html"><strong aria-hidden="true">7.6.2.9.</strong> September</a></li><li class="chapter-item "><a href="../updates/dated/2017/october.html"><strong aria-hidden="true">7.6.2.10.</strong> October</a></li><li class="chapter-item "><a href="../updates/dated/2017/november.html"><strong aria-hidden="true">7.6.2.11.</strong> November</a></li><li class="chapter-item "><a href="../updates/dated/2017/december.html"><strong aria-hidden="true">7.6.2.12.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../updates/dated/2018/index.html"><strong aria-hidden="true">7.6.3.</strong> 2018</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../updates/dated/2018/january.html"><strong aria-hidden="true">7.6.3.1.</strong> January</a></li><li class="chapter-item "><a href="../updates/dated/2018/march.html"><strong aria-hidden="true">7.6.3.2.</strong> March</a></li><li class="chapter-item "><a href="../updates/dated/2018/april.html"><strong aria-hidden="true">7.6.3.3.</strong> April</a></li><li class="chapter-item "><a href="../updates/dated/2018/may.html"><strong aria-hidden="true">7.6.3.4.</strong> May</a></li><li class="chapter-item "><a href="../updates/dated/2018/september.html"><strong aria-hidden="true">7.6.3.5.</strong> September</a></li><li class="chapter-item "><a href="../updates/dated/2018/november.html"><strong aria-hidden="true">7.6.3.6.</strong> November</a></li><li class="chapter-item "><a href="../updates/dated/2018/december.html"><strong aria-hidden="true">7.6.3.7.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../updates/dated/2019/index.html"><strong aria-hidden="true">7.6.4.</strong> 2019</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../updates/dated/2019/january.html"><strong aria-hidden="true">7.6.4.1.</strong> January</a></li><li class="chapter-item "><a href="../updates/dated/2019/february.html"><strong aria-hidden="true">7.6.4.2.</strong> February</a></li><li class="chapter-item "><a href="../updates/dated/2019/march.html"><strong aria-hidden="true">7.6.4.3.</strong> March</a></li><li class="chapter-item "><a href="../updates/dated/2019/april.html"><strong aria-hidden="true">7.6.4.4.</strong> April</a></li><li class="chapter-item "><a href="../updates/dated/2019/september.html"><strong aria-hidden="true">7.6.4.5.</strong> September</a></li><li class="chapter-item "><a href="../updates/dated/2019/december.html"><strong aria-hidden="true">7.6.4.6.</strong> December</a></li></ol></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../reading/index.html"><strong aria-hidden="true">8.</strong> Reading archive</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../reading/2016/index.html"><strong aria-hidden="true">8.1.</strong> 2016</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../reading/2016/july.html"><strong aria-hidden="true">8.1.1.</strong> July</a></li><li class="chapter-item "><a href="../reading/2016/december.html"><strong aria-hidden="true">8.1.2.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../reading/2017/index.html"><strong aria-hidden="true">8.2.</strong> 2017</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../reading/2017/january.html"><strong aria-hidden="true">8.2.1.</strong> January</a></li><li class="chapter-item "><a href="../reading/2017/february.html"><strong aria-hidden="true">8.2.2.</strong> February</a></li><li class="chapter-item "><a href="../reading/2017/march.html"><strong aria-hidden="true">8.2.3.</strong> March</a></li><li class="chapter-item "><a href="../reading/2017/april.html"><strong aria-hidden="true">8.2.4.</strong> April</a></li><li class="chapter-item "><a href="../reading/2017/may.html"><strong aria-hidden="true">8.2.5.</strong> May</a></li><li class="chapter-item "><a href="../reading/2017/june.html"><strong aria-hidden="true">8.2.6.</strong> June</a></li><li class="chapter-item "><a href="../reading/2017/july.html"><strong aria-hidden="true">8.2.7.</strong> July</a></li><li class="chapter-item "><a href="../reading/2017/august.html"><strong aria-hidden="true">8.2.8.</strong> August</a></li><li class="chapter-item "><a href="../reading/2017/september.html"><strong aria-hidden="true">8.2.9.</strong> September</a></li><li class="chapter-item "><a href="../reading/2017/october.html"><strong aria-hidden="true">8.2.10.</strong> October</a></li><li class="chapter-item "><a href="../reading/2017/november.html"><strong aria-hidden="true">8.2.11.</strong> November</a></li><li class="chapter-item "><a href="../reading/2017/december.html"><strong aria-hidden="true">8.2.12.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../reading/2018/index.html"><strong aria-hidden="true">8.3.</strong> 2018</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../reading/2018/january.html"><strong aria-hidden="true">8.3.1.</strong> January</a></li><li class="chapter-item "><a href="../reading/2018/february.html"><strong aria-hidden="true">8.3.2.</strong> February</a></li><li class="chapter-item "><a href="../reading/2018/march.html"><strong aria-hidden="true">8.3.3.</strong> March</a></li><li class="chapter-item "><a href="../reading/2018/april.html"><strong aria-hidden="true">8.3.4.</strong> April</a></li><li class="chapter-item "><a href="../reading/2018/may.html"><strong aria-hidden="true">8.3.5.</strong> May</a></li><li class="chapter-item "><a href="../reading/2018/june.html"><strong aria-hidden="true">8.3.6.</strong> June</a></li><li class="chapter-item "><a href="../reading/2018/july.html"><strong aria-hidden="true">8.3.7.</strong> July</a></li><li class="chapter-item "><a href="../reading/2018/august.html"><strong aria-hidden="true">8.3.8.</strong> August</a></li><li class="chapter-item "><a href="../reading/2018/september.html"><strong aria-hidden="true">8.3.9.</strong> September</a></li><li class="chapter-item "><a href="../reading/2018/october.html"><strong aria-hidden="true">8.3.10.</strong> October</a></li><li class="chapter-item "><a href="../reading/2018/november.html"><strong aria-hidden="true">8.3.11.</strong> November</a></li><li class="chapter-item "><a href="../reading/2018/december.html"><strong aria-hidden="true">8.3.12.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../reading/2019/index.html"><strong aria-hidden="true">8.4.</strong> 2019</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../reading/2019/january.html"><strong aria-hidden="true">8.4.1.</strong> January</a></li><li class="chapter-item "><a href="../reading/2019/february.html"><strong aria-hidden="true">8.4.2.</strong> February</a></li><li class="chapter-item "><a href="../reading/2019/march.html"><strong aria-hidden="true">8.4.3.</strong> March</a></li><li class="chapter-item "><a href="../reading/2019/april.html"><strong aria-hidden="true">8.4.4.</strong> April</a></li><li class="chapter-item "><a href="../reading/2019/may.html"><strong aria-hidden="true">8.4.5.</strong> May</a></li><li class="chapter-item "><a href="../reading/2019/june.html"><strong aria-hidden="true">8.4.6.</strong> June</a></li><li class="chapter-item "><a href="../reading/2019/july.html"><strong aria-hidden="true">8.4.7.</strong> July</a></li><li class="chapter-item "><a href="../reading/2019/august.html"><strong aria-hidden="true">8.4.8.</strong> August</a></li><li class="chapter-item "><a href="../reading/2019/september.html"><strong aria-hidden="true">8.4.9.</strong> September</a></li><li class="chapter-item "><a href="../reading/2019/october.html"><strong aria-hidden="true">8.4.10.</strong> October</a></li><li class="chapter-item "><a href="../reading/2019/november.html"><strong aria-hidden="true">8.4.11.</strong> November</a></li><li class="chapter-item "><a href="../reading/2019/december.html"><strong aria-hidden="true">8.4.12.</strong> December</a></li></ol></li><li class="chapter-item "><a href="../reading/2020/index.html"><strong aria-hidden="true">8.5.</strong> 2020</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../reading/2020/january.html"><strong aria-hidden="true">8.5.1.</strong> January</a></li><li class="chapter-item "><a href="../reading/2020/february.html"><strong aria-hidden="true">8.5.2.</strong> February</a></li><li class="chapter-item "><a href="../reading/2020/march-june.html"><strong aria-hidden="true">8.5.3.</strong> March—June</a></li><li class="chapter-item "><a href="../reading/2020/july.html"><strong aria-hidden="true">8.5.4.</strong> July</a></li><li class="chapter-item "><a href="../reading/2020/august-december.html"><strong aria-hidden="true">8.5.5.</strong> August—December</a></li></ol></li><li class="chapter-item "><a href="../reading/2021/index.html"><strong aria-hidden="true">8.6.</strong> 2021</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../reading/2021/january-may.html"><strong aria-hidden="true">8.6.1.</strong> First semester</a></li><li class="chapter-item "><a href="../reading/2021/june-november.html"><strong aria-hidden="true">8.6.2.</strong> Second semester</a></li></ol></li><li class="chapter-item "><a href="../reading/2022/index.html"><strong aria-hidden="true">8.7.</strong> 2022</a></li><li class="chapter-item "><a href="../reading/2023/index.html"><strong aria-hidden="true">8.8.</strong> 2023</a></li></ol></li><li class="chapter-item expanded "><a href="../deprecated/index.html"><strong aria-hidden="true">9.</strong> Deprecated content</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../deprecated/blanket.html"><strong aria-hidden="true">9.1.</strong> Blanket license</a></li><li class="chapter-item "><div><strong aria-hidden="true">9.2.</strong> Outdated</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../technical/no-time-for-chrono.html"><strong aria-hidden="true">9.2.1.</strong> No Time for Chrono</a></li><li class="chapter-item "><a href="../technical/dhall-review.html"><strong aria-hidden="true">9.2.2.</strong> Dhall: not quite it</a></li><li class="chapter-item "><a href="../deprecated/outdated/modern-systems-languages.html"><strong aria-hidden="true">9.2.3.</strong> Modern systems languages</a></li><li class="chapter-item "><a href="../deprecated/outdated/soft-limits-meaningful-cuts.html"><strong aria-hidden="true">9.2.4.</strong> Soft limits and meaningful content cuts</a></li><li class="chapter-item "><a href="../deprecated/outdated/bruteforcing-the-devil.html"><strong aria-hidden="true">9.2.5.</strong> Bruteforcing the Devil</a></li><li class="chapter-item "><a href="../deprecated/outdated/lighting-up-rust-with-neon.html"><strong aria-hidden="true">9.2.6.</strong> Lighting up Rust with Neon</a></li></ol></li><li class="chapter-item "><div><strong aria-hidden="true">9.3.</strong> Unheld</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../deprecated/unheld/sidebar.html"><strong aria-hidden="true">9.3.1.</strong> SIDEBAR</a></li><li class="chapter-item "><a href="../deprecated/unheld/a-thought-on-fanfiction.html"><strong aria-hidden="true">9.3.2.</strong> A thought on fanfiction</a></li><li class="chapter-item "><div><strong aria-hidden="true">9.3.3.</strong> Identity</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../deprecated/unheld/not-coming.html"><strong aria-hidden="true">9.3.3.1.</strong> This is not a coming out</a></li><li class="chapter-item "><a href="../deprecated/unheld/guy-adjacent.html"><strong aria-hidden="true">9.3.3.2.</strong> Guy-Adjacent</a></li><li class="chapter-item "><a href="../deprecated/unheld/my-words.html"><strong aria-hidden="true">9.3.3.3.</strong> My Words</a></li><li class="chapter-item "><a href="../deprecated/unheld/check-labels.html"><strong aria-hidden="true">9.3.3.4.</strong> Check all applicable labels</a></li></ol></li></ol></li></ol></li></ol>
             </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
         </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
 
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
                                 <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
-                        </button>
+                        </label>
                         <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
                             <i class="fa fa-paint-brush"></i>
                         </button>
@@ -313,8 +345,8 @@ space, or nothing at all.</p>
 enum Foo { ﾠBar }
 
 <span class="boring">fn main () {
-</span>println!(&quot;{:?}&quot;, format!(&quot;{:?}&quot;, Foo::ﾠBar));
-println!(&quot;{:?}&quot;, format!(&quot;{:?}&quot;, Foo::ﾠBar).as_bytes());
+</span>println!("{:?}", format!("{:?}", Foo::ﾠBar));
+println!("{:?}", format!("{:?}", Foo::ﾠBar).as_bytes());
 <span class="boring">}</span></code></pre></pre>
 <pre><code class="language-text">$ rustc notacrime.rs
 warning: identifier contains uncommon Unicode codepoints
@@ -330,7 +362,7 @@ warning: 1 warning emitted
 [Exit: 0]
 
 $ ./notacrime
-&quot;ﾠBar&quot;
+"ﾠBar"
 [239, 190, 160, 66, 97, 114]
 
 [Exit: 0]
@@ -343,15 +375,15 @@ about uncommon codepoints which points directly at our deception:</p>
 enum Foo { ﾠBar }
 
 <span class="boring">fn main () {
-</span>println!(&quot;{:?}&quot;, format!(&quot;{:?}&quot;, Foo::ﾠBar));
-println!(&quot;{:?}&quot;, format!(&quot;{:?}&quot;, Foo::ﾠBar).as_bytes());
+</span>println!("{:?}", format!("{:?}", Foo::ﾠBar));
+println!("{:?}", format!("{:?}", Foo::ﾠBar).as_bytes());
 <span class="boring">}</span></code></pre></pre>
 <pre><code class="language-text">$ rustc notacrime.rs
 
 [Exit: 0]
 
 $ ./notacrime
-&quot;ﾠBar&quot;
+"ﾠBar"
 [239, 190, 160, 66, 97, 114]
 
 [Exit: 0]
@@ -469,8 +501,8 @@ $ ./not-technically-illegal
 integer is going to get old fast. So let’s make a generator for our Rust crimes:</p>
 <pre><pre class="playground"><code class="language-rust"><span class="boring">#![allow(unused)]
 </span><span class="boring">fn main() {
-</span>println!(&quot;enum U8 {{ {} }}&quot;,
-    (0..256).map(|n| format!(&quot;\u{FFA0}{}&quot;, n)).collect::&lt;Vec&lt;_&gt;&gt;().join(&quot;, &quot;)
+</span>println!("enum U8 {{ {} }}",
+    (0..256).map(|n| format!("\u{FFA0}{}", n)).collect::&lt;Vec&lt;_&gt;&gt;().join(", ")
 );
 <span class="boring">}</span></code></pre></pre>
 <p>The output is very long and it’s only going to get longer, so from now you can run these yourself
@@ -478,21 +510,21 @@ with the little ⏵ play icon on the code listing.</p>
 <p>Let’s just go ahead and add all the other decoration we’ve established to that little generator,
 but do something a little more interesting: addition.</p>
 <pre><pre class="playground"><code class="language-rust"><span class="boring">fn main() {
-</span>println!(&quot;#![allow(uncommon_codepoints)]\n\n&quot;);
+</span>println!("#![allow(uncommon_codepoints)]\n\n");
 
-println!(&quot;use U8::*;
+println!("use U8::*;
 
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]
 #[allow(dead_code)]
-enum U8 {{ {} }}&quot;,
-    (0..256).map(|n| format!(&quot;\u{FFA0}{}&quot;, n)).collect::&lt;Vec&lt;_&gt;&gt;().join(&quot;, &quot;)
+enum U8 {{ {} }}",
+    (0..256).map(|n| format!("\u{FFA0}{}", n)).collect::&lt;Vec&lt;_&gt;&gt;().join(", ")
 );
 
-println!(&quot;
+println!("
 
 fn main() {{
     dbg!(\u{FFA0}1 + \u{FFA0}2);
-}}&quot;);
+}}");
 <span class="boring">}</span></code></pre></pre>
 <pre><code class="language-text">$ rustc crime-scene.rs &amp;&amp; ./crime-scene &gt; crime.rs &amp;&amp; rustc crime.rs &amp;&amp; ./crime
 error[E0369]: cannot add `U8` to `U8`
@@ -514,23 +546,23 @@ For more information about this error, try `rustc --explain E0369`.
 <p>Now what?</p>
 <p>Ah, right, we haven’t defined how addition works for our new integer type. Let’s do that:</p>
 <pre><pre class="playground"><code class="language-rust"><span class="boring">fn main() {
-</span><span class="boring">println!(&quot;#![allow(uncommon_codepoints)]\n\n&quot;);
+</span><span class="boring">println!("#![allow(uncommon_codepoints)]\n\n");
 </span><span class="boring">
-</span><span class="boring">println!(&quot;use U8::*;
+</span><span class="boring">println!("use U8::*;
 </span><span class="boring">
 </span><span class="boring">#[derive(Clone, Copy, Debug, PartialEq, Eq)]
 </span><span class="boring">#[allow(dead_code)]
-</span><span class="boring">enum U8 {{ {} }}&quot;,
-</span><span class="boring">    (0..256).map(|n| format!(&quot;\u{FFA0}{}&quot;, n)).collect::&lt;Vec&lt;_&gt;&gt;().join(&quot;, &quot;)
+</span><span class="boring">enum U8 {{ {} }}",
+</span><span class="boring">    (0..256).map(|n| format!("\u{FFA0}{}", n)).collect::&lt;Vec&lt;_&gt;&gt;().join(", ")
 </span><span class="boring">);
 </span><span class="boring">
-</span><span class="boring">println!(&quot;
+</span><span class="boring">println!("
 </span><span class="boring">
 </span><span class="boring">fn main() {{
 </span><span class="boring">    dbg!(\u{FFA0}1 + \u{FFA0}2);
-</span><span class="boring">}}&quot;);
+</span><span class="boring">}}");
 </span><span class="boring">
-</span>println!(&quot;
+</span>println!("
 use std::ops::Add;
 
 impl Add for U8 {{
@@ -538,7 +570,7 @@ impl Add for U8 {{
     fn add(self, other: Self) -&gt; Self {{
         U8::from(u8::from(self) + u8::from(other))
     }}
-}}&quot;);
+}}");
 <span class="boring">}</span></code></pre></pre>
 <p>…what?</p>
 <p>Right, I’ve skipped a few things.</p>
@@ -549,50 +581,50 @@ corresponding native ints, do maths, and then go back.</p>
 <p>How do we convert?</p>
 <p>Well, going from our type to a primitive is pretty simple:</p>
 <pre><pre class="playground"><code class="language-rust"><span class="boring">fn main() {
-</span><span class="boring">println!(&quot;#![allow(uncommon_codepoints)]\n\n&quot;);
+</span><span class="boring">println!("#![allow(uncommon_codepoints)]\n\n");
 </span><span class="boring">
-</span><span class="boring">println!(&quot;use U8::*;
+</span><span class="boring">println!("use U8::*;
 </span><span class="boring">
 </span><span class="boring">#[derive(Clone, Copy, Debug, PartialEq, Eq)]
 </span><span class="boring">#[allow(dead_code)]
-</span><span class="boring">enum U8 {{ {} }}&quot;,
-</span><span class="boring">    (0..256).map(|n| format!(&quot;\u{FFA0}{}&quot;, n)).collect::&lt;Vec&lt;_&gt;&gt;().join(&quot;, &quot;)
+</span><span class="boring">enum U8 {{ {} }}",
+</span><span class="boring">    (0..256).map(|n| format!("\u{FFA0}{}", n)).collect::&lt;Vec&lt;_&gt;&gt;().join(", ")
 </span><span class="boring">);
 </span><span class="boring">
-</span><span class="boring">println!(&quot;
+</span><span class="boring">println!("
 </span><span class="boring">
 </span><span class="boring">fn main() {{
 </span><span class="boring">    dbg!(u8::from(\u{FFA0}0));
-</span><span class="boring">}}&quot;);
+</span><span class="boring">}}");
 </span><span class="boring">
-</span>println!(&quot;
+</span>println!("
 
 impl From&lt;U8&gt; for u8 {{
     fn from(n: U8) -&gt; Self {{
         n as _
     }}
-}}&quot;);
+}}");
 <span class="boring">}</span></code></pre></pre>
 <p>Going back, however, requires a few more pieces:</p>
 <pre><pre class="playground"><code class="language-rust"><span class="boring">fn main() {
-</span><span class="boring">println!(&quot;#![allow(uncommon_codepoints)]\n\n&quot;);
+</span><span class="boring">println!("#![allow(uncommon_codepoints)]\n\n");
 </span><span class="boring">
-</span>println!(&quot;use U8::*;
+</span>println!("use U8::*;
 
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]
 #[allow(dead_code)]
 #[repr(u8)] // &lt;===================== this thing
-enum U8 {{ {} }}&quot;,
-    (0..256).map(|n| format!(&quot;\u{FFA0}{}&quot;, n)).collect::&lt;Vec&lt;_&gt;&gt;().join(&quot;, &quot;)
+enum U8 {{ {} }}",
+    (0..256).map(|n| format!("\u{FFA0}{}", n)).collect::&lt;Vec&lt;_&gt;&gt;().join(", ")
 );
 <span class="boring">
-</span><span class="boring">println!(&quot;
+</span><span class="boring">println!("
 </span><span class="boring">
 </span><span class="boring">fn main() {{
 </span><span class="boring">    dbg!(U8::from(0));
-</span><span class="boring">}}&quot;);
+</span><span class="boring">}}");
 </span><span class="boring">
-</span>println!(&quot;
+</span>println!("
 <span class="boring">
 </span><span class="boring">impl From&lt;U8&gt; for u8 {{
 </span><span class="boring">    fn from(n: U8) -&gt; Self {{
@@ -604,7 +636,7 @@ impl From&lt;u8&gt; for U8 {{
     fn from(n: u8) -&gt; Self {{
         unsafe {{ std::mem::transmute(n) }}
     }}
-}}&quot;);
+}}");
 <span class="boring">}</span></code></pre></pre>
 <p>UNSAFE?!?!?</p>
 <p>Well, not quite.</p>
@@ -619,24 +651,24 @@ the program may crash, or worse.</p>
 going to come along and mess up our assumptions.</p>
 <p>Now that we can go back and forth between <code>U8</code> and <code>u8</code>, we can get back to implementing addition:</p>
 <pre><pre class="playground"><code class="language-rust"><span class="boring">fn main() {
-</span><span class="boring">println!(&quot;#![allow(uncommon_codepoints)]\n\n&quot;);
+</span><span class="boring">println!("#![allow(uncommon_codepoints)]\n\n");
 </span><span class="boring">
-</span><span class="boring">println!(&quot;use U8::*;
+</span><span class="boring">println!("use U8::*;
 </span><span class="boring">
 </span><span class="boring">#[derive(Clone, Copy, Debug, PartialEq, Eq)]
 </span><span class="boring">#[allow(dead_code)]
 </span><span class="boring">#[repr(u8)]
-</span><span class="boring">enum U8 {{ {} }}&quot;,
-</span><span class="boring">    (0..256).map(|n| format!(&quot;\u{FFA0}{}&quot;, n)).collect::&lt;Vec&lt;_&gt;&gt;().join(&quot;, &quot;)
+</span><span class="boring">enum U8 {{ {} }}",
+</span><span class="boring">    (0..256).map(|n| format!("\u{FFA0}{}", n)).collect::&lt;Vec&lt;_&gt;&gt;().join(", ")
 </span><span class="boring">);
 </span><span class="boring">
-</span>println!(&quot;
+</span>println!("
 <span class="boring">
 </span>fn main() {{
     dbg!(\u{FFA0}1 + \u{FFA0}2);
-}}&quot;);
+}}");
 
-println!(&quot;
+println!("
 <span class="boring">
 </span><span class="boring">impl From&lt;U8&gt; for u8 {{
 </span><span class="boring">    fn from(n: U8) -&gt; Self {{
@@ -657,7 +689,7 @@ impl Add for U8 {{
     fn add(self, other: Self) -&gt; Self {{
         U8::from(u8::from(self) + u8::from(other))
     }}
-}}&quot;);
+}}");
 <span class="boring">}</span></code></pre></pre>
 <pre><code class="language-text">$ rustc crime-scene.rs &amp;&amp; ./crime-scene &gt; crime.rs &amp;&amp; rustc crime.rs &amp;&amp; ./crime
 
@@ -668,24 +700,24 @@ impl Add for U8 {{
 <p>It works!</p>
 <p>In the same vein, we can implement <code>-</code>, <code>/</code>, and <code>*</code>:</p>
 <pre><pre class="playground"><code class="language-rust"><span class="boring">fn main() {
-</span><span class="boring">println!(&quot;#![allow(uncommon_codepoints)]\n\n&quot;);
+</span><span class="boring">println!("#![allow(uncommon_codepoints)]\n\n");
 </span><span class="boring">
-</span><span class="boring">println!(&quot;use U8::*;
+</span><span class="boring">println!("use U8::*;
 </span><span class="boring">
 </span><span class="boring">#[derive(Clone, Copy, Debug, PartialEq, Eq)]
 </span><span class="boring">#[allow(dead_code)]
 </span><span class="boring">#[repr(u8)]
-</span><span class="boring">enum U8 {{ {} }}&quot;,
-</span><span class="boring">    (0..256).map(|n| format!(&quot;\u{FFA0}{}&quot;, n)).collect::&lt;Vec&lt;_&gt;&gt;().join(&quot;, &quot;)
+</span><span class="boring">enum U8 {{ {} }}",
+</span><span class="boring">    (0..256).map(|n| format!("\u{FFA0}{}", n)).collect::&lt;Vec&lt;_&gt;&gt;().join(", ")
 </span><span class="boring">);
 </span><span class="boring">
-</span><span class="boring">println!(&quot;
+</span><span class="boring">println!("
 </span><span class="boring">
 </span><span class="boring">fn main() {{
 </span><span class="boring">    dbg!(\u{FFA0}1 + \u{FFA0}2 * \u{FFA0}3 / \u{FFA0}4);
-</span><span class="boring">}}&quot;);
+</span><span class="boring">}}");
 </span><span class="boring">
-</span>println!(&quot;
+</span>println!("
 <span class="boring">
 </span><span class="boring">impl From&lt;U8&gt; for u8 {{
 </span><span class="boring">    fn from(n: U8) -&gt; Self {{
@@ -733,22 +765,22 @@ impl Mul for U8 {{
     fn mul(self, other: Self) -&gt; Self {{
         U8::from(u8::from(self) * u8::from(other))
     }}
-}}&quot;);
+}}");
 <span class="boring">}</span></code></pre></pre>
 <p>With that, we can implement something a little less trivial than base arithmetic:</p>
 <pre><pre class="playground"><code class="language-rust"><span class="boring">fn main() {
-</span><span class="boring">println!(&quot;#![allow(uncommon_codepoints)]\n\n&quot;);
+</span><span class="boring">println!("#![allow(uncommon_codepoints)]\n\n");
 </span><span class="boring">
-</span><span class="boring">println!(&quot;use U8::*;
+</span><span class="boring">println!("use U8::*;
 </span><span class="boring">
 </span><span class="boring">#[derive(Clone, Copy, Debug, PartialEq, Eq)]
 </span><span class="boring">#[allow(dead_code)]
 </span><span class="boring">#[repr(u8)]
-</span><span class="boring">enum U8 {{ {} }}&quot;,
-</span><span class="boring">    (0..256).map(|n| format!(&quot;\u{FFA0}{}&quot;, n)).collect::&lt;Vec&lt;_&gt;&gt;().join(&quot;, &quot;)
+</span><span class="boring">enum U8 {{ {} }}",
+</span><span class="boring">    (0..256).map(|n| format!("\u{FFA0}{}", n)).collect::&lt;Vec&lt;_&gt;&gt;().join(", ")
 </span><span class="boring">);
 </span><span class="boring">
-</span>println!(&quot;
+</span>println!("
 
 fn fibonacci(n: U8) -&gt; U8 {{
    match n {{
@@ -760,9 +792,9 @@ fn fibonacci(n: U8) -&gt; U8 {{
 
 fn main() {{
     dbg!(fibonacci(\u{FFA0}8));
-}}&quot;);
+}}");
 <span class="boring">
-</span><span class="boring">println!(&quot;
+</span><span class="boring">println!("
 </span><span class="boring">
 </span><span class="boring">impl From&lt;U8&gt; for u8 {{
 </span><span class="boring">    fn from(n: U8) -&gt; Self {{
@@ -810,7 +842,7 @@ fn main() {{
 </span><span class="boring">    fn mul(self, other: Self) -&gt; Self {{
 </span><span class="boring">        U8::from(u8::from(self) * u8::from(other))
 </span><span class="boring">    }}
-</span><span class="boring">}}&quot;);
+</span><span class="boring">}}");
 </span><span class="boring">}</span></code></pre></pre>
 <pre><code class="language-text">$ rustc crime-scene.rs &amp;&amp; ./crime-scene &gt; crime.rs &amp;&amp; rustc crime.rs &amp;&amp; ./crime
 
@@ -824,7 +856,7 @@ type and sidestep the ambiguity issue?</p>
 <p>Yes, by adding another Hangul Filler as prefix!</p>
 <p>First let’s move some of our machinery into functions so we’re a bit more generic when generating:</p>
 <pre><pre class="playground"><code class="language-rust">fn main() {
-    println!(&quot;#![allow(uncommon_codepoints)]
+    println!("#![allow(uncommon_codepoints)]
 
     use U8::*;
 
@@ -838,23 +870,23 @@ type and sidestep the ambiguity issue?</p>
 
     fn main() {{
         dbg!(fibonacci(\u{FFA0}8));
-    }}&quot;);
+    }}");
 
-    define_enum(&quot;U8&quot;, &quot;u8&quot;, &quot;\u{FFA0}&quot;, 0..256);
+    define_enum("U8", "u8", "\u{FFA0}", 0..256);
 }
 
 fn define_enum(name: &amp;str, repr: &amp;str, prefix: &amp;str, range: std::ops::Range&lt;usize&gt;) {
-println!(&quot;
+println!("
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]
 #[allow(dead_code)]
 #[repr({repr})]
-enum {name} {{ {def} }}&quot;,
+enum {name} {{ {def} }}",
     name=name,
     repr=repr,
-    def=range.map(|n| format!(&quot;{}{}&quot;, prefix, n)).collect::&lt;Vec&lt;_&gt;&gt;().join(&quot;, &quot;),
+    def=range.map(|n| format!("{}{}", prefix, n)).collect::&lt;Vec&lt;_&gt;&gt;().join(", "),
 );
 
-println!(&quot;
+println!("
 
 impl From&lt;{name}&gt; for {repr} {{
     fn from(n: {name}) -&gt; Self {{
@@ -894,19 +926,19 @@ impl std::ops::Mul for {name} {{
     fn mul(self, other: Self) -&gt; Self {{
         {name}::from({repr}::from(self) * {repr}::from(other))
     }}
-}}&quot;,
+}}",
     name=name,
     repr=repr,
 );
 }</code></pre></pre>
 <p>So now we can define another enum integer:</p>
-<pre><code class="language-rust ignore">define_enum(&quot;U16&quot;, &quot;u16&quot;, &quot;\u{FFA0}\u{FFA0}&quot;, 0..65536);</code></pre>
+<pre><code class="language-rust ignore">define_enum("U16", "u16", "\u{FFA0}\u{FFA0}", 0..65536);</code></pre>
 <p>If you try to compile this, you’re going to hit a limitation of the compiler: it gets very very
 slow to compile… whoa, <em>seven hundred kilobytes</em> of source?</p>
 <p>Right, so that’s a <strong>lot</strong>. In the interest of keeping this demo-able, let’s define our own type to
 be a little smaller. Let’s say we want a <code>U12</code>, which goes from 0 to 4095, backed by a <code>u16</code>:</p>
 <pre><pre class="playground"><code class="language-rust">fn main() {
-    println!(&quot;#![allow(uncommon_codepoints)]
+    println!("#![allow(uncommon_codepoints)]
 
     use U8::*;
     use U12::*;
@@ -921,24 +953,24 @@ be a little smaller. Let’s say we want a <code>U12</code>, which goes from 0 t
 
     fn main() {{
         dbg!(fibonacci(\u{FFA0}8));
-    }}&quot;);
+    }}");
 
-    define_enum(&quot;U8&quot;, &quot;u8&quot;, &quot;\u{FFA0}&quot;, 0..256);
-    define_enum(&quot;U12&quot;, &quot;u16&quot;, &quot;\u{FFA0}\u{FFA0}&quot;, 0..4096);
+    define_enum("U8", "u8", "\u{FFA0}", 0..256);
+    define_enum("U12", "u16", "\u{FFA0}\u{FFA0}", 0..4096);
 }
 
 fn define_enum(name: &amp;str, repr: &amp;str, prefix: &amp;str, range: std::ops::Range&lt;usize&gt;) {
-println!(&quot;
+println!("
 <span class="boring">#[derive(Clone, Copy, Debug, PartialEq, Eq)]
 </span><span class="boring">#[allow(dead_code)]
 </span><span class="boring">#[repr({repr})]
-</span><span class="boring">enum {name} {{ {def} }}&quot;,
+</span><span class="boring">enum {name} {{ {def} }}",
 </span><span class="boring">    name=name,
 </span><span class="boring">    repr=repr,
-</span><span class="boring">    def=range.clone().map(|n| format!(&quot;{}{}&quot;, prefix, n)).collect::&lt;Vec&lt;_&gt;&gt;().join(&quot;, &quot;),
+</span><span class="boring">    def=range.clone().map(|n| format!("{}{}", prefix, n)).collect::&lt;Vec&lt;_&gt;&gt;().join(", "),
 </span><span class="boring">);
 </span><span class="boring">
-</span><span class="boring">println!(&quot;
+</span><span class="boring">println!("
 </span><span class="boring">
 </span><span class="boring">impl From&lt;{name}&gt; for {repr} {{
 </span><span class="boring">    fn from(n: {name}) -&gt; Self {{
@@ -982,7 +1014,7 @@ impl From&lt;{repr}&gt; for {name} {{
 </span><span class="boring">        {name}::from({repr}::from(self) * {repr}::from(other))
 </span><span class="boring">    }}
 </span><span class="boring">}}
-</span>&quot;,
+</span>",
     name=name,
     repr=repr,
     max=range.last().unwrap(),
@@ -1010,7 +1042,7 @@ warning: 1 warning emitted
 course, from Rust’s point of view, they’re different identifiers).</p>
 <p>With bigger ints, we can go for bigger maths:</p>
 <pre><pre class="playground"><code class="language-rust">fn main() {
-    println!(&quot;#![allow(uncommon_codepoints)]
+    println!("#![allow(uncommon_codepoints)]
 
     use U8::*;
     use U12::*;
@@ -1033,24 +1065,24 @@ course, from Rust’s point of view, they’re different identifiers).</p>
     fn main() {{
         dbg!(fibonacci(\u{FFA0}8));
         dbg!(factorial(\u{FFA0}\u{FFA0}6));
-    }}&quot;);
+    }}");
 
-    define_enum(&quot;U8&quot;, &quot;u8&quot;, &quot;\u{FFA0}&quot;, 0..256);
-    define_enum(&quot;U12&quot;, &quot;u16&quot;, &quot;\u{FFA0}\u{FFA0}&quot;, 0..4096);
+    define_enum("U8", "u8", "\u{FFA0}", 0..256);
+    define_enum("U12", "u16", "\u{FFA0}\u{FFA0}", 0..4096);
 }
 <span class="boring">
 </span><span class="boring">fn define_enum(name: &amp;str, repr: &amp;str, prefix: &amp;str, range: std::ops::Range&lt;usize&gt;) {
-</span><span class="boring">println!(&quot;
+</span><span class="boring">println!("
 </span><span class="boring">#[derive(Clone, Copy, Debug, PartialEq, Eq)]
 </span><span class="boring">#[allow(dead_code)]
 </span><span class="boring">#[repr({repr})]
-</span><span class="boring">enum {name} {{ {def} }}&quot;,
+</span><span class="boring">enum {name} {{ {def} }}",
 </span><span class="boring">    name=name,
 </span><span class="boring">    repr=repr,
-</span><span class="boring">    def=range.clone().map(|n| format!(&quot;{}{}&quot;, prefix, n)).collect::&lt;Vec&lt;_&gt;&gt;().join(&quot;, &quot;),
+</span><span class="boring">    def=range.clone().map(|n| format!("{}{}", prefix, n)).collect::&lt;Vec&lt;_&gt;&gt;().join(", "),
 </span><span class="boring">);
 </span><span class="boring">
-</span><span class="boring">println!(&quot;
+</span><span class="boring">println!("
 </span><span class="boring">
 </span><span class="boring">impl From&lt;{name}&gt; for {repr} {{
 </span><span class="boring">    fn from(n: {name}) -&gt; Self {{
@@ -1092,7 +1124,7 @@ course, from Rust’s point of view, they’re different identifiers).</p>
 </span><span class="boring">        {name}::from({repr}::from(self) * {repr}::from(other))
 </span><span class="boring">    }}
 </span><span class="boring">}}
-</span><span class="boring">&quot;,
+</span><span class="boring">",
 </span><span class="boring">    name=name,
 </span><span class="boring">    repr=repr,
 </span><span class="boring">    max=range.last().unwrap(),
@@ -1116,7 +1148,7 @@ confuse unexpecting visitors and… sit back to enjoy the profits:</p>
 generating another large <code>match</code> for each enum. I also had to modify the code a little to make it
 compile, and I used a wrapping successor function to simplify implementation.</p>
 <pre><pre class="playground"><code class="language-rust">fn main() {
-    println!(&quot;#![allow(uncommon_codepoints)]
+    println!("#![allow(uncommon_codepoints)]
     #![deny(unsafe_code)]
 
     use U7::*;
@@ -1140,19 +1172,19 @@ compile, and I used a wrapping successor function to simplify implementation.</p
     fn main() {{
         dbg!(fibonacci(\u{FFA0}8));
         dbg!(factorial(\u{FFA0}\u{FFA0}6));
-    }}&quot;);
+    }}");
 
-    define_enum(7, &quot;\u{FFA0}&quot;);
-    define_enum(13, &quot;\u{FFA0}\u{FFA0}&quot;);
+    define_enum(7, "\u{FFA0}");
+    define_enum(13, "\u{FFA0}\u{FFA0}");
 }
 
 fn define_enum(width: u32, prefix: &amp;str) {
-let name = format!(&quot;U{}&quot;, width);
+let name = format!("U{}", width);
 let max = 2_usize.pow(width);
 let range = 0..max;
 let succrange = range.clone().rev();
 
-println!(&quot;
+println!("
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]
 #[allow(dead_code)]
 enum {name} {{ {def} }}
@@ -1162,15 +1194,15 @@ impl {name} {{
         match self {{ {prefix}{max} =&gt; {prefix}0, {succ} }}
     }}
 }}
-&quot;,
+",
     name=name,
-    def=range.clone().map(|n| format!(&quot;{}{}&quot;, prefix, n)).collect::&lt;Vec&lt;_&gt;&gt;().join(&quot;, &quot;),
-    succ=succrange.clone().zip(succrange.clone().skip(1)).map(|(n, m)| format!(&quot;{p}{m} =&gt; {p}{n}&quot;, p=prefix, m=m, n=n)).collect::&lt;Vec&lt;_&gt;&gt;().join(&quot;, &quot;),
+    def=range.clone().map(|n| format!("{}{}", prefix, n)).collect::&lt;Vec&lt;_&gt;&gt;().join(", "),
+    succ=succrange.clone().zip(succrange.clone().skip(1)).map(|(n, m)| format!("{p}{m} =&gt; {p}{n}", p=prefix, m=m, n=n)).collect::&lt;Vec&lt;_&gt;&gt;().join(", "),
     max=range.clone().last().unwrap(),
     prefix=prefix,
 );
 
-println!(&quot;
+println!("
 impl std::cmp::PartialOrd for {name} {{
     fn partial_cmp(&amp;self, other: &amp;Self) -&gt; Option&lt;std::cmp::Ordering&gt; {{
         if self == other {{
@@ -1227,7 +1259,7 @@ impl std::ops::Mul for {name} {{
         res
     }}
 }}
-&quot;,
+",
     name=name,
     prefix=prefix,
     max=range.last().unwrap(),
@@ -1250,7 +1282,7 @@ impl std::ops::Mul for {name} {{
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next" href="../technical/exploring-wasm.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="../technical/exploring-wasm.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -1264,7 +1296,7 @@ impl std::ops::Mul for {name} {{
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next" href="../technical/exploring-wasm.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="../technical/exploring-wasm.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
@@ -1290,5 +1322,6 @@ impl std::ops::Mul for {name} {{
         <!-- Custom JS scripts -->
 
 
+    </div>
     </body>
 </html>
