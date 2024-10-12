@@ -13,6 +13,7 @@
   - [2020 | Exploration of Wasm](technical/exploring-wasm.md)
   - [2018 | A little elegant state machine with Async Generators](technical/async-generator-state-machine.md)
 - [Musings](musings/index.md)
+  - [On generative AI for programming Rust](musings/ai.md)
   - [A progression of designs](musings/progression-of-designs.md)
   - [Gaston Lagaffe](musings/gaston-lagaffe/index.md)
   - [Known Unknowns: a configuration language](musings/known-unknowns-conflang.md)
