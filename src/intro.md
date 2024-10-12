@@ -7,15 +7,16 @@ an archive, a list of projects, and various information about and around me. Hav
 
 ## Selected Works
 
-- **[Watchexec](https://watchexec.github.io)** — A library to build tools to watch files and run commands
-- **[Cargo Watch](https://watchexec.github.io)** — A watcher for Cargo projects
+- **[Watchexec](https://github.com/watchexec/watchexec)** — A library to build tools to watch files and run commands
+- **[Cargo Watch](https://github.com/watchexec/cargo-watch)** — A watcher for Cargo projects (defunct)
 - **[what are you even doing](https://archiveofourown.org/series/2041813)** — A collection of standalone short fanfics
 
 ## Social media
 
-- **[Twitter](https://twitter.com/passcod)** — My main social venue
-- **[GitHub](https://github.com/passcod)** — Ruby, Rust, Node, Web, and other things
+- **[GitHub](https://github.com/passcod)** — Rust, Node, KiCad, Ruby, Web, and other things
+- **[Blue Shell Strike Force](https://bssf.gitlab.io/wiki/index.html)** — Discord community
 - **NZ NaNo Discord** — Local writer community
+- **[Mastodon](https://mastodon.social/@passcod), [Bluesky](https://bsky.app/profile/passcod.bsky.social), [Twitter](https://twitter.com/passcod)** — Mostly abandoned, occasional postings
 
 ## Other sites
 
