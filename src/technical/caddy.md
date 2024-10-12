@@ -180,6 +180,9 @@ thing, to say the least. I'm also curious about authentication possibilities the
 My interest is piqued. There's some rough edges to be mindful of, but I'm going to keep looking
 into it.
 
+[Caddy]: https://caddyserver.com/
+[Tailscale]: https://tailscale.com/
+
 ## Update: 2024
 
 Caddy is now my primary server in production for actual real live dayjob
