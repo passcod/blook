@@ -7,7 +7,7 @@
 - {SW} [Commander Luthal](https://archiveofourown.org/works/49048390). {103k words atow}
 - {SW} [Indomitable Heart](https://archiveofourown.org/works/44379964). {28k words atow}
 - {SW} [Bitter Dregs](https://archiveofourown.org/works/51893794). {6k words}
-- {SW} [At The End Of The World](https://archiveofourown.org/works/45817360). {?k words deleted}
+- {SW} [At The End Of The World](https://archiveofourown.org/works/45817360). {2k words [deleted](http://web.archive.org/web/20230317204817/https://archiveofourown.org/works/45817360)}
 - {SW} [Won't Go Down in History](https://archiveofourown.org/works/51093841). {99k words atow}
 
 ## Serial fiction
