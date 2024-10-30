@@ -192,5 +192,5 @@
       - [This is not a coming out](deprecated/unheld/not-coming.md)
       - [Guy-Adjacent](deprecated/unheld/guy-adjacent.md)
       - [My Words](deprecated/unheld/my-words.md)
-    - [On generative AI for programming Rust](musings/ai.md)
       - [Check all applicable labels](deprecated/unheld/check-labels.md)
+    - [On generative AI for programming Rust](musings/ai.md)
