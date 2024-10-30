@@ -2,6 +2,8 @@
 
 > October 2024
 
+> You can tell how fast this space and opinions were moving because it took me a few conversations over a few weeks to unhold this.
+
 _This was originally posted as [a comment on r/rust](https://www.reddit.com/r/rust/comments/1g1vwxj/comment/lrjkz2x/), but I felt like it belonged here too._
 
 ---
