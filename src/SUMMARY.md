@@ -13,7 +13,6 @@
   - [2020 | Exploration of Wasm](technical/exploring-wasm.md)
   - [2018 | A little elegant state machine with Async Generators](technical/async-generator-state-machine.md)
 - [Musings](musings/index.md)
-  - [On generative AI for programming Rust](musings/ai.md)
   - [A progression of designs](musings/progression-of-designs.md)
   - [Gaston Lagaffe](musings/gaston-lagaffe/index.md)
   - [Known Unknowns: a configuration language](musings/known-unknowns-conflang.md)
@@ -193,4 +192,5 @@
       - [This is not a coming out](deprecated/unheld/not-coming.md)
       - [Guy-Adjacent](deprecated/unheld/guy-adjacent.md)
       - [My Words](deprecated/unheld/my-words.md)
+    - [On generative AI for programming Rust](musings/ai.md)
       - [Check all applicable labels](deprecated/unheld/check-labels.md)
