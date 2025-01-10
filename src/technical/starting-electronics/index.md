@@ -215,7 +215,9 @@ use them for other USB things while soldering (like a [heated table](#heated-tab
 
 You'll also need a good power supply, like the
 [PinePower](https://pine64.com/product-category/pinepower/) or a GaN USB-PD charger or a USB-PD
-power bank. I use [this Baseus 65W
+power bank. Some power supplies don't work with some USB-PD devices, likely because of voltages or
+how seamlessly they handle voltage transitions. For example one of my GaN chargers can be used with
+the Pinecil, but not with my heated table. Anecdotally, I use [this Baseus 65W
 battery](https://www.baseus.com/products/adaman-power-bank-65w-20000mah) with both my Pinecil and my
 heated table.
 
