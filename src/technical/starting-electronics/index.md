@@ -25,7 +25,7 @@ For hobbyist use you'll want at minimum:
 - a soldering iron
 - a [heated table](#heated-tables)
 - an iron cleaning wool station
-- a syringe of low-temperature solder paste
+- a syringe of [low-temperature solder paste](#melting-point)
 - a [syringe of flux](#flux-forms)
 - a spool of lead-free solder wire
 
@@ -177,6 +177,41 @@ of the board that go beyond the edges, and only heat the part you're working on.
 this is that your table is going to need to dump a lot more heat to maintain temperature as you're
 massively increasing the cooling surface, and you might get temperature gradients across the board
 which can be iffy for mechanical reasons.
+
+## Iron
+
+Even if you use a heated table for 90% of your soldering like I do, you'll still want a soldering
+iron. There's... many soldering irons out there. The one I use is a
+[Pinecil](https://pine64.com/product/pinecil-smart-mini-portable-soldering-iron/) which is a US$26
+USB-powered iron with swappable TS-factor tips.
+
+Generally, you want:
+
+- temperature control to 10°C increments or better
+- swappable tips (so you can use different sizes / shapes)
+
+### Tips
+
+Soldering tips come in form factors (`TS` (long) or `ST` (short), suitable for the TS100, Pinecil,
+etc soldering irons) and tip types. The tip type is the size and shape it is.
+
+I prefer short length tips as that feels more like a pencil (remember you can't hold the metal bit
+of the soldering iron, as that's the hot part!).
+
+Most of the time I use a ST-I tip, which is a short barrel and a conical tip shape at about a 15°
+angle. For through-hole soldering work I'll swap in a ST-K or ST-C4, which are thicker rectangular
+sections with a 45° angle at the tip, so you can apply a large surface at the working interface.
+Both of these are available in [this pinecil tip
+set](https://pine64.com/product/pinecil-soldering-short-tip-set-gross/).
+
+![box of four tip with diagram descriptions of their shapes and size](./pinecil-tip-short-gross.jpg)
+
+A finer tip gives you more control and the ability to target much smaller areas, but the larger area
+you can touch with your iron, the more heat you can dump into the touching metal, and so the faster
+you can work.
+
+I've bought both gross (large) and fine (small) sets of tips for the Pinecil and I very rarely if
+ever use the fine set, even working with SMD components that are <2mm.
 
 ## Delivery
 
