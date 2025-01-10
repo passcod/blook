@@ -184,6 +184,17 @@ this is that your table is going to need to dump a lot more heat to maintain tem
 massively increasing the cooling surface, and you might get temperature gradients across the board
 which can be iffy for mechanical reasons.
 
+You're not heating anything to red-hot or white-hot temperatures, which is great for safety, but
+also means that you'll have zero indication that something is hot. Heated tables typically have a
+temperature display when the heat is off, and may even have it in a "sleep mode." However, if you
+disconnect power, that will go away. So always keep your table plugged in until it's reached lower
+temperatures (40°C or less). Similarly, keep a hot PCB _on_ the table while it's cooling: you don't
+want to take it off the table and then grab it with your bare fingers when it's still 150°C!
+
+If you absolutely have to grab a warm (<100°C) PCB, hold it by the sides (unless you have plated
+sides). This will limit your contact area and you'll only be grabbing the laminate insulating
+material, not the thermally conductive copper.
+
 ## Iron
 
 Even if you use a heated table for 90% of your soldering like I do, you'll still want a soldering
@@ -275,6 +286,10 @@ liquefy inside the tip, gunking it up.
 
 Syringes will usually come with tips but buying a pack of spares in the diameter you prefer will not
 cost a lot and will ensure you're not at the mercy of whatever tip size the manufacturer included.
+
+It's really easy to push more stuff out the syringe than you need, so always keep something to wipe
+the nozzle with. If you have a soldering iron sponge, use it for this [instead of
+cleaning](#iron-cleaning)!
 
 ### Syringe applicators
 
