@@ -27,7 +27,7 @@ For hobbyist use you'll want at minimum:
 - an [iron cleaning station](#iron-cleaning)
 - a syringe of [low-temperature solder paste](#melting-point)
 - a [syringe of flux](#flux-forms)
-- a spool of lead-free solder wire
+- a [spool of lead-free solder wire](#solder)
 - [ventilation and PPE](#ppe)
 
 ## Flux
