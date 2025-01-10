@@ -111,7 +111,7 @@ to work with it at around 220-250°C, because at 180°C it will be _just barely_
 workable at all. You want it more liquid so you can push it around and so it can flow into joints.
 
 If you're having a hard time imagining this, think of chocolate. When water is freezing/melting, it
-goes either fully solid (ice) or fully liquid pretty much immediately. But when you heat chocolate,
+goes either hard solid (ice) or free-flowing liquid, there's no middle. But when you heat chocolate,
 there's a good range where it's no longer solid but still one block that is kinda soft, and then it
 gradually becomes a viscous paste, and when hot it's much more liquid like a thick hot chocolate.
 
