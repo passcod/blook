@@ -110,6 +110,11 @@ with this value is that it's really the "solidifying point": if you have 180°C 
 to work with it at around 220-250°C, because at 180°C it will be _just barely_ liquid, and not
 workable at all. You want it more liquid so you can push it around and so it can flow into joints.
 
+If you're having a hard time imagining this, think of chocolate. When water is freezing/melting, it
+goes either fully solid (ice) or fully liquid pretty much immediately. But when you heat chocolate,
+there's a good range where it's no longer solid but still one block that is kinda soft, and then it
+gradually becomes a viscous paste, and when hot it's much more liquid like a thick hot chocolate.
+
 There's a wide range of melting points that various alloys have achieved, from about 90°C all the
 way up to 450°C. Most solder melts at around 180°C. You can get "low temperature" solder that
 instead melts at 138°C (or around there), and therefore you can work at a lower temperature of
