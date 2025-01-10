@@ -234,14 +234,26 @@ and stop work, and a deeper clean once in a while. At best you'll want to clean 
 
 A quick clean takes a few seconds:
 
-- wipe the tip on a (wet but not dripping) sponge pad to remove excess solder and debris
 - rub and push the tip in a brass wool wire ball
 - tin the tip (apply a bit of solder to coat the tip)
 
 A more thorough clean is:
 
-- the above steps for longer
-- using a tip cleaner powder/paste (also called a "tip tinner")
+- use the brass wool wire for longer
+- using a tip cleaner powder/paste (also called a "tip tinner" or "[tip
+  activator](https://www.amazon.com.au/dp/B002V7QDZQ)") before tinning
+- using a [polishing bar](https://www.digikey.com/en/products/detail/apex-tool-group/WPB1/1801475)
+- tin the tip
+- repeat the process another time
+
+If you're ever at the point that you feel like using sandpaper, the tip is probably unsalvageable.
+Being aggressive with sandpaper runs the risk of removing the iron plating and exposing the copper
+core. Copper dissolves into solder, so your tip will quickly die soon after. Additionally sandpaper
+grit (the bits of glass/sand that make up the abrasive surface) will contaminate your iron.
+
+Despite what many tutorials say, you [shouldn't use a sponge to clean your
+iron](https://forum.digikey.com/t/how-to-clean-tin-and-maintain-soldering-iron-tip/2006/2), as bits
+of sponge will come off and contaminate your iron, and later your solder joins.
 
 ## Delivery
 
