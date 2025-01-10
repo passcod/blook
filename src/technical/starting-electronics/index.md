@@ -68,7 +68,7 @@ solder it "overflows").
 Flux comes in two common forms:
 
 - a tin of rosin, which is pine tree sap and also used by violonists and in the medical field;
-- a syringe of liquid-at-room-temperature flux
+- a syringe of liquid-at-room-temperature flux (this might be diluted rosin or some other compound).
 
 Soldering kits will typically have a tin of rosin. That has its uses, but is honestly annoying and
 non-obvious; buy a syringe of flux and a [syringe applicator](#syringe-applicators) and you'll have
@@ -323,3 +323,34 @@ There's two small caveats with it:
   enough that it would be useful for temperature measurement like an infrared camera, but it _is_
   taken into account by the auto-contrast mechanism. For this reason, when the board is heated up,
   you generally want to turn the built-in light _down_ to get better contrast.
+
+## PPE
+
+You're working with high temperatures (>150°C) and corrosive materials (flux). You should use:
+
+- safety glasses (buy more than one pair)
+- non-flammable clothes (no plastic/synthetics)
+- ventilation
+
+You may also want:
+
+- some kind of mask
+- extraction vents
+- filtered fans
+- heat-resistant gloves
+
+Ventilation is critical.
+
+Some guides say to work with your head to the side of the work area, not directly above. I... find
+this impractical in general, and ineffective anyway. Instead, arrange for air movement to draw fumes
+away. You don't need to keep a window open, instead run a cheap $5 USB fan from the side of your
+work area pointing slightly or fully away from you, but still blowing gently across your work. That
+will disperse any fumes away from your face.
+
+A better solution if you can is an extractor fan: instead of dispersing fumes, pull them into the
+fan, and either throw them outside with a duct, or pass them through a HEPA filter, or both.
+
+As a clarification point, what you're trying to avoid is _flux_ fumes and perhaps solder suspension.
+Solder itself boils at 1700°C. Just like water, small amounts will evaporate off the surface of
+liquid solder, but you'll never get massive amounts of solder vapour like you will for flux and any
+impurities in the solder mixes.
