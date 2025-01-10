@@ -22,7 +22,7 @@ There's several ways to do soldering. The three main ones are:
 
 For hobbyist use you'll want at minimum:
 
-- a soldering iron
+- a [soldering iron](#iron)
 - a [heated table](#heated-tables)
 - an iron cleaning wool station
 - a syringe of [low-temperature solder paste](#melting-point)
