@@ -24,10 +24,11 @@ For hobbyist use you'll want at minimum:
 
 - a [soldering iron](#iron)
 - a [heated table](#heated-tables)
-- an iron cleaning wool station
+- an [iron cleaning station](#iron-cleaning)
 - a syringe of [low-temperature solder paste](#melting-point)
 - a [syringe of flux](#flux-forms)
 - a spool of lead-free solder wire
+- ventilation and PPE
 
 ## Flux
 
@@ -189,6 +190,18 @@ Generally, you want:
 
 - temperature control to 10°C increments or better
 - swappable tips (so you can use different sizes / shapes)
+- idle sleep (so it cuts off the heat when idle for a few minutes, which preserves the tip)
+
+If you use a USB-powered iron like the Pinecil, get a silicon cable instead of rubber/plastic so
+you don't accidentally melt it when soldering. In fact, get a few cables so you have spares and can
+use them for other USB things while soldering (like a [heated table](#heated-table) or
+[microscope](#microscope)).
+
+You'll also need a good power supply, like the
+[PinePower](https://pine64.com/product-category/pinepower/) or a GaN USB-PD charger or a USB-PD
+power bank. I use [this Baseus 65W
+battery](https://www.baseus.com/products/adaman-power-bank-65w-20000mah) with both my Pinecil and my
+heated table.
 
 ### Tips
 
@@ -212,6 +225,23 @@ you can work.
 
 I've bought both gross (large) and fine (small) sets of tips for the Pinecil and I very rarely if
 ever use the fine set, even working with SMD components that are <2mm.
+
+### Iron cleaning
+
+Keeping the tip of your iron clean is very important, as a dirty iron tip will not conduct heat as
+well (and may even gunk your project). At minimum you want to do a quick clean whenever you start
+and stop work, and a deeper clean once in a while. At best you'll want to clean _during_ work too.
+
+A quick clean takes a few seconds:
+
+- wipe the tip on a (wet but not dripping) sponge pad to remove excess solder and debris
+- rub and push the tip in a brass wool wire ball
+- tin the tip (apply a bit of solder to coat the tip)
+
+A more thorough clean is:
+
+- the above steps for longer
+- using a tip cleaner powder/paste (also called a "tip tinner")
 
 ## Delivery
 
