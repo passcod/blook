@@ -193,9 +193,10 @@ on an excellent experience for building and maintaining part libraries, various 
 programmatic EDA like <a href="https://github.com/michaelgale/pcbflow">pcbflow</a>, and online EDAs typically
 as part of a low-cost fab’s offering, like <a href="https://easyeda.com/">EasyEDA</a>.</p>
 <p>All EDAs output <strong>Gerber</strong>, which is a file format that describes how to print the copper, solder
-mask, silkscreen, solder paste, and where to drill and the board stackup, BOM (Bill Of Material) CSV
-files which describe which components are required for assembly, and pick-and-place CSV files which
-describe where to place components (used by pick-and-place machines for automated assembly).</p>
+mask, silkscreen, solder paste, and where to drill and the board stackup, <strong>BOM</strong> (Bill Of Material)
+CSV files which describe which components are required for assembly, and <strong>pick-and-place</strong> CSV
+files which describe where to place components (used by pick-and-place machines for automated
+assembly).</p>
 <h2 id="pcb-board"><a class="header" href="#pcb-board">PCB, Board</a></h2>
 <p>The Printed Circuit Board is generally <em>just</em> the board, that is, the laminated stack of etched
 copper and core and prepreg, not including the components mounted on it. By extension, a <em>populated</em>
@@ -244,7 +245,7 @@ Immersion Gold), which is a nickel coating that is further finished with a thin 
 gives the characteristic yellow colour of pads. HASL is cheap, Lead-free HASL is a bit more
 expensive, and ENIG is expensive. Typically I’ll use HASL for prototyping (as long as you’re not
 licking the board, leaded HASL is fine).</li>
-<li>a decorative printed ink layer called the silkscreen, which provides text and graphics, such as
+<li>a decorative printed ink layer called the <strong>silkscreen</strong>, which provides text and graphics, such as
 for component outlines and reference designators (used for hand-assembly and debugging), connector
 port names, assembly instructions, branding, revision/version information, etc. This is typically
 a single colour, often white unless a lighter solder mask colour is used like yellow or white; in
