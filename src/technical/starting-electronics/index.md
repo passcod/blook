@@ -45,16 +45,46 @@ A "bare" or "unpopulated" PCB is one without any of the components attached yet.
 
 ![a bare PCB](./bare-pcb.jpg)
 
-## Traces, circuits, planes, pours
+## Layers
 
-A trace or track is a continuous bit of conductor within a PCB. Typically a trace is on a single
+A PCB is a laminated (glued together) stack of conductive and non-conductive material.
+
+Typically when talking about layers we're talking about the conductive layers. Prototype PCBs will
+typically have 1, 2, or 4 conductive layers. Advanced PCBs may have 6, 8, 12, all the way up to 32
+layers (or even more!).
+
+The PCB also includes dielectric or non-conductive layers, in between and above and below the
+conductive layers. Typically conductive layers are called "copper" layer; most of the time they
+_are_ literal copper but there's also other technologies out there.
+
+Dielectric material is typically FR4 (which stands for Flame Retardant grade 4). That's a weave of
+fibreglass impregnated by resin. In very cheap in-house prototyping ([Steven Hawes
+(2025)](https://www.youtube.com/watch?v=wAiGCyZZq6w)) you might also see FR1 which is a kind of
+cardboard. There's also ([Ike-Eze
+(2023)](https://www.researchgate.net/publication/369913845_An_Overview_of_Flame_Retardants_in_Printed_Circuit_Boards_for_LEDs_and_other_Electronic_Devices))
+FR2 (more durable FR1), FR3 (cardboard and epoxy), FR5 (high-temperature FR4, typically for
+automotive), CEM-3 (epoxy composite, newer advance on FR4), Polyimide (flexible film for flexible
+PCBs), PTFE (teflon, high frequency flexible PCBs), and Aluminum (cheaper, thermally conductive) as
+well as other metals ([Burr
+(2013)](https://www.researchgate.net/publication/263565968_Printed_circuit_board_technologies_for_thermal_management)).
+
+In a **stackup** (the specification of electric and dielectric materials and their layer thicknesses
+in a board), you'll often see a difference between "core" and "prepreg". These are manufacturing
+concerns: "prepreg" is uncured dielectric material that is applied between layers _during_ board
+manufacture, while "core" is dielectric material that is pre-assembled between conductive layers and
+cured into rigid sheets prior to manufacture, typically by a different factory ([Neil\_UK
+(2018)](https://electronics.stackexchange.com/q/356072)).
+
+## Traces, planes, pours, thermal reliefs
+
+A **trace** or track is a continuous bit of conductor within a PCB. Typically a trace is on a single
 layer, and traces on different layers are connected with _vias_, but by extension one can talk about
 an entire multi-layer connection between two or more pins as a single trace.
 
 ![a cross section diagram of a two-layer PCB showing a trace on the top and a plane on the
 bottom](pcb-trace-section.png)
 
-A plane is when an entire layer is one sheet of conductor. There can be small holes (for vias or
+A **plane** is when an entire layer is one sheet of conductor. There can be small holes (for vias or
 keep-out zones) and there can be small bits of other traces within the plane in some cases where
 it's not possible to do otherwise, but one does not want to _split_ or _break_ the plane ([TI
 (1999)](https://www.ti.com/lit/an/szza009/szza009.pdf)): to have sections of the plane that are
@@ -62,13 +92,43 @@ separate or almost-separate from each other.
 
 ![a PCB plane with only vias and a cutout](./pcb-plane.png)
 
-Power planes can be different here, though [Bogatin
-(2021)](https://www.youtube.com/watch?v=kdCJxdR7L_I) recommends not using power planes anyway.
+Power planes can be different here, though [Bogatin (2021)] recommends not using power planes
+anyway.
+
+**Pours** are when you flood the "empty spaces" on a signal layer with copper, which you generally
+attach to ground or leave floating.
+
+Pours on signal layers are generally considered a bad thing for signal integrity reasons, see
+[Bogatin (2022)], [SteveSh (2020)](https://electronics.stackexchange.com/a/481066/355126),
+
+However, pours on outer layers specifically are often required for manufacturing yield, see [JLCPCB
+(2024)](https://jlcpcb.com/blog/the-importance-of-copper-pour-in-empty-areas).
+
+[Bogatin (2021)]: https://www.youtube.com/watch?v=kdCJxdR7L_I
+[Bogatin (2022)]: https://www.amazon.com.au/dp/163081962X
+
+**Thermal reliefs** are wheel-spoke attachements from pads to copper pours and planes for the
+purpose of limiting thermal conductivity while still having a good electrical connection. You
+typically want to limit thermal conductivity so that it's easier to solder, especially for
+through-hole components.
+
+Kicad has an option (in a Zone's properties) to specify that all plated through-holes attached to a
+zone must have thermal reliefs.
 
 ## Components
 
 Components are the devices mounted to a PCB. These can occasionally be entire PCBs in their own
 regard.
+
+### Pins, connectors
+
+**Pins** have a double meaning: it can either refer to physical pins, which are thin conductors you
+can connect to, like for pin headers or within connectors; and it can also refer to the physical
+numbering and logical assignment of signals to connectors of an IC.
+
+For example, you can refer to "a ground pin" or "the clock input pin" or "pin 1" and those will mean
+the connection on an IC, but in "pin headers" the term refers to the exposed cylinder or square
+section of metal that's sticking up which you can connect female Dupont or jumpers to.
 
 ### Through-hole, THT, Leaded components
 
@@ -110,6 +170,66 @@ Often you'll have just the mounting pins (non-electrical connections) as THT. So
 have both SMD and THT signal pins, such as [this USB-C
 connector](https://www.mouser.com/datasheet/2/837/usb4230-3507435.pdf).
 
+## Holes, vias, mounting holes, PTH, NPTH
+
+A **hole** is an opening in a PCB. We generally distinguish between conductive holes and non-conductive
+holes: non-conductive holes are used for mounting (fitting screws and posts to physically mount the
+PCB to an enclosure or support, or for fixing components to the PCB) and mechanical concerns (like
+stress relief for cables). Conductive holes are used for connecting layers together (vias), or for
+connecting through-hole components.
+
+**Vias** are holes that are plated on the inside of the hole specifically such that an electrical
+connection is made between layers that are connected to the hole. Full size vias have a large hole
+and thus a large area inside the hole for the connection, micro vias have much smaller diameters,
+buried vias are holes that don't go all the way through, used in 4 and higher layer PCBs to connect
+two or more layers without intruding on the other layers. _JLCPCB and other low-cost fabs don't
+support buried vias._
+
+**PTH** and **NPTH** are typically used for non-via holes to describe their footprint. PTH means
+Plated Through Hole, which is when the hole will be plated on the surface, that is it will have a
+ring of conductor on the outer layers. NPTH means Non-Plated Through Hole, where the plating is
+absent. PTH can be used to connect mounting holes to the mounting screws thermally and electrically
+as well as mechanically.
+
+## Ground, floating, not connected, not internally connected
+
+**Ground** is the common "zero voltage" level. There can be multiple types of ground in a board, and
+occasionally you'll have boards that have multiple isolated grounds. Sometimes you'll also have two
+types of grounds that are nonetheless connected.
+
+Some different types of grounds:
+
+- signal ground (typically a downward triangle)
+- chassis ground (looks like a rake), that's when you're connecting to a metal enclosure or chassis
+- earth ground (looks like parallel horizontal lines in the shape of a downward triangle), that's
+  connected to the earth e.g. when working with mains electricity
+- digital ground vs analog ground, often when you have a power management IC the digital control
+  lines like SMBus or I2C will have their own ground area from the power lines' ground area, even if
+  these are stiched together by vias, such that the noise from the power lines doesn't affect the
+  digital lines.
+
+**Floating** means a conductor that's not attached to any voltage level or ground. The conductor
+will basically have some random value at any given point, as it acts as the receiver for any
+electromagnetic fields that are generated by the surrounding circuit or environment.
+
+If you have a pin on a chip that you don't care about, typically you still want to connect it to
+something so that the value is fixed (to either ground or signal high) and it doesn't "float"
+between values at random, which could cause it to appear to be a signal to do something to the chip.
+
+Generally pins that can be left floating will specifically mention that.
+
+**NC** or **Not Connected** pins should not be connected to any trace, but should still have a pad (the pad
+should be left floating). Those pins might not be used as signal pins but they could be used
+internally for thermals or mechanically.
+
+**NiC** or **Not Internally Connected** pins are explicitly not connected to anything inside the chip. This
+means that if you want, you can use those pins as conductors for other signals, which may help for
+routing.
+
+Not all datasheets make the difference between NC and NiC; sometimes you can know you can treat an
+NC pin as NiC from usage, but without it being mentioned in the documentation. It can be risky to do
+that if the manufacturer ever decides to change the internals of the chip; an NiC mention is an
+explicit guarantee, but its absence leaves the manufacturer to do whatever they want.
 
 # Soldering
 
