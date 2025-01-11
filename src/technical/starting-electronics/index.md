@@ -185,6 +185,10 @@ buried vias are holes that don't go all the way through, used in 4 and higher la
 two or more layers without intruding on the other layers. _JLCPCB and other low-cost fabs don't
 support buried vias._
 
+Kicad will default micro vias to be buried; you can still use non-buried micro vias by changing the
+start/end layers in the via properties to the top and bottom layers and setting "pads only on
+connected layers".
+
 **PTH** and **NPTH** are typically used for non-via holes to describe their footprint. PTH means
 Plated Through Hole, which is when the hole will be plated on the surface, that is it will have a
 ring of conductor on the outer layers. NPTH means Non-Plated Through Hole, where the plating is
