@@ -169,6 +169,74 @@ starting in this, and while I’m very much a beginner hobbyist myself there’s
 I wish I’d known, that I told that person about, and more that I didn’t because it was already
 getting way too long. This page is a work in progress / living document: it will be updated with
 more as I think of it, and then also as I learn more, and if more-experienced people give feedback.</p>
+<h1 id="rules"><a class="header" href="#rules">Rules</a></h1>
+<p>In EE, “rules” are more like guidelines. You’ll find plenty of advice for contradictory “rules” and
+many rules can be broken “if you know what you’re doing” or if you accept the tradeoffs. That said,
+as a beginner it’s worth following rules as much as you can, as you most likely <em>don’t</em> “know what
+you’re doing” or understand the tradeoffs.</p>
+<p>There’s also a tremendous amount of advice out there that is outdated or based on little else than
+“it’s always been done that way.” Unfortunately as a beginner you (and I) won’t have the knowledge
+to discount those, or to be able to decide if a piece of advice only really applies to certain use
+cases and not your own. <a href="https://www.youtube.com/@RobertFeranec">Robert Feranec</a>’s YouTube channel
+is pretty great here.</p>
+<h1 id="terminology"><a class="header" href="#terminology">Terminology</a></h1>
+<h2 id="pcb-board"><a class="header" href="#pcb-board">PCB, Board</a></h2>
+<p>The Printed Circuit Board is generally <em>just</em> the board, that is, the laminated stack of etched
+copper and core and prepreg, not including the components mounted on it. By extension, a <em>populated</em>
+(“that has the components attached”) board will also be called a PCB as a whole, by opposition to
+the wires, screws, enclosures, and such.</p>
+<p>The distinction can be important when talking about a particular design, e.g. “how is this connected
+on the PCB” refers to the traces within the circuit board rather than any external wiring or by
+components. (Although there can exist “zero ohm resistors” or “solder bridges” which are technically
+components that provide trace continuity outside of the board itself.)</p>
+<p><img src="./populated-pcb.webp" alt="a populated PCB" /></p>
+<p>A “bare” or “unpopulated” PCB is one without any of the components attached yet.</p>
+<p><img src="./bare-pcb.jpg" alt="a bare PCB" /></p>
+<h2 id="traces-circuits-planes-pours"><a class="header" href="#traces-circuits-planes-pours">Traces, circuits, planes, pours</a></h2>
+<p>A trace or track is a continuous bit of conductor within a PCB. Typically a trace is on a single
+layer, and traces on different layers are connected with <em>vias</em>, but by extension one can talk about
+an entire multi-layer connection between two or more pins as a single trace.</p>
+<p><img src="pcb-trace-section.png" alt="a cross section diagram of a two-layer PCB showing a trace on the top and a plane on the bottom" /></p>
+<p>A plane is when an entire layer is one sheet of conductor. There can be small holes (for vias or
+keep-out zones) and there can be small bits of other traces within the plane in some cases where
+it’s not possible to do otherwise, but one does not want to <em>split</em> or <em>break</em> the plane (<a href="https://www.ti.com/lit/an/szza009/szza009.pdf">TI
+(1999)</a>): to have sections of the plane that are
+separate or almost-separate from each other.</p>
+<p><img src="./pcb-plane.png" alt="a PCB plane with only vias and a cutout" /></p>
+<p>Power planes can be different here, though <a href="https://www.youtube.com/watch?v=kdCJxdR7L_I">Bogatin
+(2021)</a> recommends not using power planes anyway.</p>
+<h2 id="components"><a class="header" href="#components">Components</a></h2>
+<p>Components are the devices mounted to a PCB. These can occasionally be entire PCBs in their own
+regard.</p>
+<h3 id="through-hole-tht-leaded-components"><a class="header" href="#through-hole-tht-leaded-components">Through-hole, THT, Leaded components</a></h3>
+<p>THT is Through-Hole Technology. Leaded components refers to components which have <em>leads</em> i.e. long
+thin wire legs, for the pins. This includes both <a href="https://www.microhm.net/m/news/articles/1377.html">Axial packages for passives like
+resistors</a> and <a href="https://en.wikipedia.org/wiki/Dual_in-line_package">DIP packages for
+ICs</a> and <a href="https://en.wikipedia.org/wiki/TO-92">TO packages typical for
+transistors</a>, among many others.</p>
+<p>Through-hole components are soldered by passing each <em>lead</em> through a plated hole, and then soldering the
+legs to the holes.</p>
+<h3 id="smd-smt"><a class="header" href="#smd-smt">SMD, SMT</a></h3>
+<p>SMD means Surface Mount Device and SMT is Surface Mount Technology. Technically SMD should be for
+components and SMT for the process but in practice these are used interchangeably.</p>
+<p>SMD components either have leads that are folded to sit flat on the PCB, or are “lead-less” or
+“non-leaded”, which means they have a connective surface as part of the package but not “sticking
+out” like a leg. Compare <a href="https://en.wikipedia.org/wiki/Small_outline_integrated_circuit">SOIC</a> and
+<a href="https://en.wikipedia.org/wiki/Small-outline_transistor">SOT</a> with
+<a href="https://en.wikipedia.org/wiki/Flat_no-leads_package">QFN</a>.</p>
+<p>Surface mount components are soldered by positioning the entire package on its PCB footprint such
+that the legs coincide with the pads, then soldering. Often this is done by adding solder paste
+before positioning, as that allows for pads that are fully under devices where they wouldn’t be
+accessible otherwise.</p>
+<p>“Hand soldering” (using a soldering iron) of SMD components is sometimes possible but requires
+forethought as the pads should be larger to allow for iron surface access.</p>
+<h3 id="hybrid"><a class="header" href="#hybrid">Hybrid</a></h3>
+<p>You can have components with both through-hole pins and SMD pins. Connectors are often like this:
+through-hole connections provide a strong <em>mechanical</em> binding but SMD pins require less space and
+only a single layer.</p>
+<p>Often you’ll have just the mounting pins (non-electrical connections) as THT. Some components can
+have both SMD and THT signal pins, such as <a href="https://www.mouser.com/datasheet/2/837/usb4230-3507435.pdf">this USB-C
+connector</a>.</p>
 <h1 id="soldering"><a class="header" href="#soldering">Soldering</a></h1>
 <p>There’s several ways to do soldering. The three main ones are:</p>
 <ul>
@@ -384,9 +452,9 @@ activator</a>”) before tinning</li>
 Being aggressive with sandpaper runs the risk of removing the iron plating and exposing the copper
 core. Copper dissolves into solder, so your tip will quickly die soon after. Additionally sandpaper
 grit (the bits of glass/sand that make up the abrasive surface) will contaminate your iron.</p>
-<p>Despite what many tutorials say, you <a href="https://forum.digikey.com/t/how-to-clean-tin-and-maintain-soldering-iron-tip/2006/2">shouldn’t use a sponge to clean your
-iron</a>, as bits
-of sponge will come off and contaminate your iron, and later your solder joins.</p>
+<p>Despite what many tutorials say, you shouldn’t use a sponge to clean your iron (<a href="https://forum.digikey.com/t/how-to-clean-tin-and-maintain-soldering-iron-tip/2006/2">Daveca
+(2018)</a>), as
+bits of sponge will come off and contaminate your iron, and later your solder joins.</p>
 <h2 id="delivery"><a class="header" href="#delivery">Delivery</a></h2>
 <h3 id="syringe-tips"><a class="header" href="#syringe-tips">Syringe tips</a></h3>
 <p>Syringes for flux and solder paste have a removable <em>tip</em> that gets screwed on. Tips can be entirely
