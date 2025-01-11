@@ -195,6 +195,10 @@ ring of conductor on the outer layers. NPTH means Non-Plated Through Hole, where
 absent. PTH can be used to connect mounting holes to the mounting screws thermally and electrically
 as well as mechanically.
 
+Make sure to consult your fab's restrictions for hole size and clearances, and set those as defaults
+in your EDA's board settings _before you start layout._ There's nothing more annoying than redoing
+layout for a bunch of traces because your vias are too small for the fab.
+
 ## Ground, floating, not connected, not internally connected
 
 **Ground** is the common "zero voltage" level. There can be multiple types of ground in a board, and
