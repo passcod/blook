@@ -27,6 +27,28 @@ is pretty great here.
 
 # Terminology
 
+## EDA, CAD, Gerber, BOM
+
+Computer Assisted Design or CAD is both the practice and more typically as a shorthand the
+_software_ used for designing something.
+
+EDA is Electronic Design Automation, and similarly EDA is typically used to refer to EDA _software_
+which is specialised CAD for electronics design.
+
+I use [Kicad](https://www.kicad.org/) which is free (and open source), you'll also see [Autodesk
+EAGLE](http://eagle.autodesk.com/) especially on older resources as EAGLE is discontinued, and
+[Altium](https://www.altium.com/) which is the leading professional solution.
+
+There's also more experimental solutions like [Horizon EDA](https://horizon-eda.org/) which focuses
+on an excellent experience for building and maintaining part libraries, various efforts to make
+programmatic EDA like [pcbflow](https://github.com/michaelgale/pcbflow), and online EDAs typically
+as part of a low-cost fab's offering, like [EasyEDA](https://easyeda.com/).
+
+All EDAs output **Gerber**, which is a file format that describes how to print the copper, solder
+mask, silkscreen, solder paste, and where to drill and the board stackup, BOM (Bill Of Material) CSV
+files which describe which components are required for assembly, and pick-and-place CSV files which
+describe where to place components (used by pick-and-place machines for automated assembly).
+
 ## PCB, Board
 
 The Printed Circuit Board is generally _just_ the board, that is, the laminated stack of etched
@@ -75,6 +97,24 @@ manufacture, while "core" is dielectric material that is pre-assembled between c
 cured into rigid sheets prior to manufacture, typically by a different factory ([Neil\_UK
 (2018)](https://electronics.stackexchange.com/q/356072)).
 
+Finally, on top of the front and back outer layers several coatings are done:
+
+- a protective non-conductive coating called the **solder mask**, which masks off the areas that
+  _don't_ need to be soldered or conductive (this is what gives the typical green colour of PCBs,
+  though other colours are available but more expensive).
+- a protective conductive coating applied to the non-solder-masked areas, called the **surface
+  finish**. This is either HASL (Hot Air Solder Leveling), which covers the exposed copper in
+  solder, Lead-Free HASL (HASL but with lead-free solder), or ENIG (Electro-less Nickel and
+  Immersion Gold), which is a nickel coating that is further finished with a thin gold plating, and
+  gives the characteristic yellow colour of pads. HASL is cheap, Lead-free HASL is a bit more
+  expensive, and ENIG is expensive. Typically I'll use HASL for prototyping (as long as you're not
+  licking the board, leaded HASL is fine).
+- a decorative printed ink layer called the silkscreen, which provides text and graphics, such as
+  for reference designators (used for hand-assembly and debugging), connector port names, assembly
+  instructions, branding, revision/version information, etc. This is typically a single colour,
+  often white unless a lighter solder mask colour is used like yellow or white; in some fabs
+  multi-colour silkscreens are available (but expensive).
+
 ## Traces, planes, pours, thermal reliefs
 
 A **trace** or track is a continuous bit of conductor within a PCB. Typically a trace is on a single
@@ -114,6 +154,11 @@ through-hole components.
 
 Kicad has an option (in a Zone's properties) to specify that all plated through-holes attached to a
 zone must have thermal reliefs.
+
+It's somewhat common to write text or graphics into the (outer) copper layers for branding purposes,
+in a similar fashion as the silkscreen but more discreet and harder to alter. It's also possible to
+have such decorations on inner layers, though that's more of an easter-egg or for quality-control
+purposes as those wouldn't be visible except using X-Ray inspection or by delaminating the board.
 
 ## Components
 
