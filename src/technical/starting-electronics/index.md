@@ -110,10 +110,10 @@ Finally, on top of the front and back outer layers several coatings are done:
   expensive, and ENIG is expensive. Typically I'll use HASL for prototyping (as long as you're not
   licking the board, leaded HASL is fine).
 - a decorative printed ink layer called the silkscreen, which provides text and graphics, such as
-  for reference designators (used for hand-assembly and debugging), connector port names, assembly
-  instructions, branding, revision/version information, etc. This is typically a single colour,
-  often white unless a lighter solder mask colour is used like yellow or white; in some fabs
-  multi-colour silkscreens are available (but expensive).
+  for component outlines and reference designators (used for hand-assembly and debugging), connector
+  port names, assembly instructions, branding, revision/version information, etc. This is typically
+  a single colour, often white unless a lighter solder mask colour is used like yellow or white; in
+  some fabs multi-colour silkscreens are available (but expensive).
 
 ## Traces, planes, pours, thermal reliefs
 
