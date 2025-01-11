@@ -231,6 +231,22 @@ NC pin as NiC from usage, but without it being mentioned in the documentation. I
 that if the manufacturer ever decides to change the internals of the chip; an NiC mention is an
 explicit guarantee, but its absence leaves the manufacturer to do whatever they want.
 
+## High speed, low speed, high frequency signals
+
+There's plenty of advice and rules that only apply to either high or low speed/frequency signals.
+
+High speed/frequency is typically "above 100 MHz".
+
+For example, PCIE, HDMI, USB 2.0 and higher, Ethernet at 100Mbps or higher... are all "high speed".
+However, you can get away with breaking more rules if you're dealing with "low speed" signals like
+USB 1.1, 10Mbps Ethernet, or I2C, 1-Wire, SPI, etc.
+
+Also note that Ethernet in particular is highly resistant to rule-breaking. Signal integrity losses
+will result in lower effective speeds but generally not errors on the wire.
+
+Something that switches less frequently than once a second (e.g. a power enable line for a voltage
+regulator) is typically never a worry for signal considerations.
+
 # Soldering
 
 There's several ways to do soldering. The three main ones are:
