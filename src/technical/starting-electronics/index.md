@@ -146,10 +146,13 @@ pours on outer layers specifically are often required for manufacturing yield, s
 [Bogatin (2021)]: https://www.youtube.com/watch?v=kdCJxdR7L_I
 [Bogatin (2022)]: https://www.amazon.com.au/dp/163081962X
 
-**Thermal reliefs** are wheel-spoke attachements from pads to copper pours and planes for the
-purpose of limiting thermal conductivity while still having a good electrical connection. You
-typically want to limit thermal conductivity so that it's easier to solder, especially for
-through-hole components.
+**[Thermal reliefs](https://en.wikipedia.org/wiki/Thermal_relief)** are wheel-spoke attachements
+from pads to copper pours and planes for the purpose of limiting thermal conductivity while still
+having a good electrical connection. You typically want to limit thermal conductivity so that it's
+easier to solder, especially for through-hole components.
+
+![PCB diagram showing thermal reliefs by Wikipedia user Romanski, CC BY-SA
+2.0](./pcb-thermal-relief.png)
 
 Kicad has an option (in a Zone's properties) to specify that all plated through-holes attached to a
 zone must have thermal reliefs.
