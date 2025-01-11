@@ -139,9 +139,8 @@ anyway.
 attach to ground or leave floating.
 
 Pours on signal layers are generally considered a bad thing for signal integrity reasons, see
-[Bogatin (2022)], [SteveSh (2020)](https://electronics.stackexchange.com/a/481066/355126),
-
-However, pours on outer layers specifically are often required for manufacturing yield, see [JLCPCB
+[Bogatin (2022)], [SteveSh (2020)](https://electronics.stackexchange.com/a/481066/355126). However,
+pours on outer layers specifically are often required for manufacturing yield, see [JLCPCB
 (2024)](https://jlcpcb.com/blog/the-importance-of-copper-pour-in-empty-areas).
 
 [Bogatin (2021)]: https://www.youtube.com/watch?v=kdCJxdR7L_I
