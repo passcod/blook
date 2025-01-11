@@ -12,6 +12,105 @@ I wish I'd known, that I told that person about, and more that I didn't because 
 getting way too long. This page is a work in progress / living document: it will be updated with
 more as I think of it, and then also as I learn more, and if more-experienced people give feedback.
 
+# Rules
+
+In EE, "rules" are more like guidelines. You'll find plenty of advice for contradictory "rules" and
+many rules can be broken "if you know what you're doing" or if you accept the tradeoffs. That said,
+as a beginner it's worth following rules as much as you can, as you most likely _don't_ "know what
+you're doing" or understand the tradeoffs.
+
+There's also a tremendous amount of advice out there that is outdated or based on little else than
+"it's always been done that way." Unfortunately as a beginner you (and I) won't have the knowledge
+to discount those, or to be able to decide if a piece of advice only really applies to certain use
+cases and not your own. [Robert Feranec](https://www.youtube.com/@RobertFeranec)'s YouTube channel
+is pretty great here.
+
+# Terminology
+
+## PCB, Board
+
+The Printed Circuit Board is generally _just_ the board, that is, the laminated stack of etched
+copper and core and prepreg, not including the components mounted on it. By extension, a _populated_
+("that has the components attached") board will also be called a PCB as a whole, by opposition to
+the wires, screws, enclosures, and such.
+
+The distinction can be important when talking about a particular design, e.g. "how is this connected
+on the PCB" refers to the traces within the circuit board rather than any external wiring or by
+components. (Although there can exist "zero ohm resistors" or "solder bridges" which are technically
+components that provide trace continuity outside of the board itself.)
+
+![a populated PCB](./populated-pcb.webp)
+
+A "bare" or "unpopulated" PCB is one without any of the components attached yet.
+
+![a bare PCB](./bare-pcb.jpg)
+
+## Traces, circuits, planes, pours
+
+A trace or track is a continuous bit of conductor within a PCB. Typically a trace is on a single
+layer, and traces on different layers are connected with _vias_, but by extension one can talk about
+an entire multi-layer connection between two or more pins as a single trace.
+
+![a cross section diagram of a two-layer PCB showing a trace on the top and a plane on the
+bottom](pcb-trace-section.png)
+
+A plane is when an entire layer is one sheet of conductor. There can be small holes (for vias or
+keep-out zones) and there can be small bits of other traces within the plane in some cases where
+it's not possible to do otherwise, but one does not want to _split_ or _break_ the plane ([TI
+(1999)](https://www.ti.com/lit/an/szza009/szza009.pdf)): to have sections of the plane that are
+separate or almost-separate from each other.
+
+![a PCB plane with only vias and a cutout](./pcb-plane.png)
+
+Power planes can be different here, though [Bogatin
+(2021)](https://www.youtube.com/watch?v=kdCJxdR7L_I) recommends not using power planes anyway.
+
+## Components
+
+Components are the devices mounted to a PCB. These can occasionally be entire PCBs in their own
+regard.
+
+### Through-hole, THT, Leaded components
+
+THT is Through-Hole Technology. Leaded components refers to components which have _leads_ i.e. long
+thin wire legs, for the pins. This includes both [Axial packages for passives like
+resistors](https://www.microhm.net/m/news/articles/1377.html) and [DIP packages for
+ICs](https://en.wikipedia.org/wiki/Dual_in-line_package) and [TO packages typical for
+transistors](https://en.wikipedia.org/wiki/TO-92), among many others.
+
+Through-hole components are soldered by passing each _lead_ through a plated hole, and then soldering the
+legs to the holes.
+
+### SMD, SMT
+
+SMD means Surface Mount Device and SMT is Surface Mount Technology. Technically SMD should be for
+components and SMT for the process but in practice these are used interchangeably.
+
+SMD components either have leads that are folded to sit flat on the PCB, or are "lead-less" or
+"non-leaded", which means they have a connective surface as part of the package but not "sticking
+out" like a leg. Compare [SOIC](https://en.wikipedia.org/wiki/Small_outline_integrated_circuit) and
+[SOT](https://en.wikipedia.org/wiki/Small-outline_transistor) with
+[QFN](https://en.wikipedia.org/wiki/Flat_no-leads_package).
+
+Surface mount components are soldered by positioning the entire package on its PCB footprint such
+that the legs coincide with the pads, then soldering. Often this is done by adding solder paste
+before positioning, as that allows for pads that are fully under devices where they wouldn't be
+accessible otherwise.
+
+"Hand soldering" (using a soldering iron) of SMD components is sometimes possible but requires
+forethought as the pads should be larger to allow for iron surface access.
+
+### Hybrid
+
+You can have components with both through-hole pins and SMD pins. Connectors are often like this:
+through-hole connections provide a strong _mechanical_ binding but SMD pins require less space and
+only a single layer.
+
+Often you'll have just the mounting pins (non-electrical connections) as THT. Some components can
+have both SMD and THT signal pins, such as [this USB-C
+connector](https://www.mouser.com/datasheet/2/837/usb4230-3507435.pdf).
+
+
 # Soldering
 
 There's several ways to do soldering. The three main ones are:
@@ -269,9 +368,9 @@ Being aggressive with sandpaper runs the risk of removing the iron plating and e
 core. Copper dissolves into solder, so your tip will quickly die soon after. Additionally sandpaper
 grit (the bits of glass/sand that make up the abrasive surface) will contaminate your iron.
 
-Despite what many tutorials say, you [shouldn't use a sponge to clean your
-iron](https://forum.digikey.com/t/how-to-clean-tin-and-maintain-soldering-iron-tip/2006/2), as bits
-of sponge will come off and contaminate your iron, and later your solder joins.
+Despite what many tutorials say, you shouldn't use a sponge to clean your iron ([Daveca
+(2018)](https://forum.digikey.com/t/how-to-clean-tin-and-maintain-soldering-iron-tip/2006/2)), as
+bits of sponge will come off and contaminate your iron, and later your solder joins.
 
 ## Delivery
 
@@ -376,3 +475,4 @@ As a clarification point, what you're trying to avoid is _flux_ fumes and perhap
 Solder itself boils at 1700°C. Just like water, small amounts will evaporate off the surface of
 liquid solder, but you'll never get massive amounts of solder vapour like you will for flux and any
 impurities in the solder mixes.
+
