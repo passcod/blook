@@ -45,9 +45,10 @@ programmatic EDA like [pcbflow](https://github.com/michaelgale/pcbflow), and onl
 as part of a low-cost fab's offering, like [EasyEDA](https://easyeda.com/).
 
 All EDAs output **Gerber**, which is a file format that describes how to print the copper, solder
-mask, silkscreen, solder paste, and where to drill and the board stackup, BOM (Bill Of Material) CSV
-files which describe which components are required for assembly, and pick-and-place CSV files which
-describe where to place components (used by pick-and-place machines for automated assembly).
+mask, silkscreen, solder paste, and where to drill and the board stackup, **BOM** (Bill Of Material)
+CSV files which describe which components are required for assembly, and **pick-and-place** CSV
+files which describe where to place components (used by pick-and-place machines for automated
+assembly).
 
 ## PCB, Board
 
@@ -109,7 +110,7 @@ Finally, on top of the front and back outer layers several coatings are done:
   gives the characteristic yellow colour of pads. HASL is cheap, Lead-free HASL is a bit more
   expensive, and ENIG is expensive. Typically I'll use HASL for prototyping (as long as you're not
   licking the board, leaded HASL is fine).
-- a decorative printed ink layer called the silkscreen, which provides text and graphics, such as
+- a decorative printed ink layer called the **silkscreen**, which provides text and graphics, such as
   for component outlines and reference designators (used for hand-assembly and debugging), connector
   port names, assembly instructions, branding, revision/version information, etc. This is typically
   a single colour, often white unless a lighter solder mask colour is used like yellow or white; in
