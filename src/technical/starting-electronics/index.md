@@ -680,4 +680,4 @@ There's many pieces of advice and guidelines that only apply to high speed signa
 else, including I2C, SPI, GPIO, most analog signals, USB 1.1, etc, you can be a lot more relaxed.
 Signals that are high speed include USB 2.0 and up (480Mbps), HDMI, Gigabit Ethernet, PCIe...
 
-A great "quick reference" style guide for high speed routing is [TI's SPRAAR7J](www.ti.com/lit/an/spraar7j/spraar7j.pdf).
+A great "quick reference" style guide for high speed routing is [TI's SPRAAR7J](https://www.ti.com/lit/an/spraar7j/spraar7j.pdf).
