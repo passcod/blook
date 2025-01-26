@@ -668,3 +668,16 @@ Solder itself boils at 1700°C. Just like water, small amounts will evaporate of
 liquid solder, but you'll never get massive amounts of solder vapour like you will for flux and any
 impurities in the solder mixes.
 
+# Design
+
+## High speed
+
+"High speed" means 300MHz and above. ([user36129, 2013](https://electronics.stackexchange.com/q/75575))
+
+Well, really, high speed is about rise time, rather than frequency ([Peterson, 2021](https://resources.altium.com/p/what-high-speed-design)), but 300MHz is a good enough shorthand for most usage.
+
+There's many pieces of advice and guidelines that only apply to high speed signals. For everything
+else, including I2C, SPI, GPIO, most analog signals, USB 1.1, etc, you can be a lot more relaxed.
+Signals that are high speed include USB 2.0 and up (480Mbps), HDMI, Gigabit Ethernet, PCIe...
+
+A great "quick reference" style guide for high speed routing is [TI's SPRAAR7J](www.ti.com/lit/an/spraar7j/spraar7j.pdf).
