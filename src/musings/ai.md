@@ -8,7 +8,7 @@ _This was originally posted as [a comment on r/rust](https://www.reddit.com/r/ru
 
 ---
 
-**Question**: I think [AI tools] can be helpful and save developer time when
+**Question**: I think \[AI tools\] can be helpful and save developer time when
 used correctly, but you cannot trust them to generate correct code. That's why
 strong type systems (like Rust's) are still very important for checking program
 correctness (combined with unit tests etc.).
