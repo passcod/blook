@@ -738,24 +738,27 @@ liquid solder, but you’ll never get massive amounts of solder vapour like you 
 impurities in the solder mixes.</p>
 <h1 id="design"><a class="header" href="#design">Design</a></h1>
 <h2 id="high-speed-low-speed-high-frequency-signals"><a class="header" href="#high-speed-low-speed-high-frequency-signals">High speed, low speed, high frequency signals</a></h2>
-<p>There’s plenty of advice and rules that only apply to either high or low speed/frequency signals.</p>
-<p>High speed/frequency is typically above 100MHz.</p>
+<p>There’s plenty of advice and rules that only apply to either high or low speed/frequency signals.
+The goal with most of this advice is to maximise signal <em>integrity</em> or <em>quality</em>.</p>
 <p>High speed is often expressed in frequency, but the true determinant is rise time (<a href="https://resources.altium.com/p/what-high-speed-design">Peterson, 2021</a>).</p>
-<p>For example, PCIE, HDMI, USB 2.0 and higher, Ethernet at 100Mbps or higher… are all “high speed”.
-However, you can get away with breaking more rules if you’re dealing with “low speed” signals like
-USB 1.1, 10Mbps Ethernet, or I2C, 1-Wire, SPI, etc.</p>
-<p>Also note that Ethernet in particular is highly resistant to rule-breaking. Signal integrity losses
-will result in lower effective speeds but generally not errors on the wire.</p>
-<p>A great “quick reference” style guide for high speed routing is <a href="https://www.ti.com/lit/an/spraar7j/spraar7j.pdf">TI’s SPRAAR7J</a>.</p>
 <p>Something that switches less frequently than once a second (e.g. a power enable line for a voltage
 regulator) is never a worry for signal considerations. A line is considered a “signal” from about
 1kHz (<a href="https://www.youtube.com/watch?v=icRzEZF3eZo">Bogatin, 2020</a>).</p>
 <p>As a summary:</p>
 <ul>
 <li>below 1kHz: not considered a signal for integrity purposes</li>
-<li>100kHz: fast signals</li>
+<li>100kHz: “fast”</li>
+<li>10MHz: low speed</li>
 <li>100MHz: high speed signals</li>
 </ul>
+<p>For example, PCIE, HDMI, USB 2.0 and higher, Ethernet at 100Mbps or higher… are all “high speed”.
+However, you can get away with breaking more rules if you’re dealing with “low speed” signals like
+USB 1.1, 10Mbps Ethernet, or “fast” signals like I2C, 1-Wire, etc. Note that SPI can driven at
+various speeds, ranging from “fast” (kHz) to “low speed” (tens of MHz), but is never considered
+“high speed”.</p>
+<p>Also note that Ethernet in particular is highly resistant to rule-breaking. Signal integrity losses
+will result in lower effective speeds but generally not errors on the wire.</p>
+<p>A great “quick reference” style guide for high speed routing is <a href="https://www.ti.com/lit/an/spraar7j/spraar7j.pdf">TI’s SPRAAR7J</a>.</p>
 
                     </main>
 
