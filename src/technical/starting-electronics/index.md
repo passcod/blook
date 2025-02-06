@@ -663,19 +663,9 @@ impurities in the solder mixes.
 ## High speed, low speed, high frequency signals
 
 There's plenty of advice and rules that only apply to either high or low speed/frequency signals.
-
-High speed/frequency is typically above 100MHz.
+The goal with most of this advice is to maximise signal _integrity_ or _quality_.
 
 High speed is often expressed in frequency, but the true determinant is rise time ([Peterson, 2021](https://resources.altium.com/p/what-high-speed-design)).
-
-For example, PCIE, HDMI, USB 2.0 and higher, Ethernet at 100Mbps or higher... are all "high speed".
-However, you can get away with breaking more rules if you're dealing with "low speed" signals like
-USB 1.1, 10Mbps Ethernet, or I2C, 1-Wire, SPI, etc.
-
-Also note that Ethernet in particular is highly resistant to rule-breaking. Signal integrity losses
-will result in lower effective speeds but generally not errors on the wire.
-
-A great "quick reference" style guide for high speed routing is [TI's SPRAAR7J](https://www.ti.com/lit/an/spraar7j/spraar7j.pdf).
 
 Something that switches less frequently than once a second (e.g. a power enable line for a voltage
 regulator) is never a worry for signal considerations. A line is considered a "signal" from about
@@ -684,6 +674,18 @@ regulator) is never a worry for signal considerations. A line is considered a "s
 As a summary:
 
 - below 1kHz: not considered a signal for integrity purposes
-- 100kHz: fast signals
+- 100kHz: "fast"
+- 10MHz: low speed
 - 100MHz: high speed signals
+
+For example, PCIE, HDMI, USB 2.0 and higher, Ethernet at 100Mbps or higher... are all "high speed".
+However, you can get away with breaking more rules if you're dealing with "low speed" signals like
+USB 1.1, 10Mbps Ethernet, or "fast" signals like I2C, 1-Wire, etc. Note that SPI can driven at
+various speeds, ranging from "fast" (kHz) to "low speed" (tens of MHz), but is never considered
+"high speed".
+
+Also note that Ethernet in particular is highly resistant to rule-breaking. Signal integrity losses
+will result in lower effective speeds but generally not errors on the wire.
+
+A great "quick reference" style guide for high speed routing is [TI's SPRAAR7J](https://www.ti.com/lit/an/spraar7j/spraar7j.pdf).
 
