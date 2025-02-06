@@ -12,6 +12,9 @@ I wish I'd known, that I told that person about, and more that I didn't because 
 getting way too long. This page is a work in progress / living document: it will be updated with
 more as I think of it, and then also as I learn more, and if more-experienced people give feedback.
 
+The document is currently about 20% done (i.e. 20% to documenting the current state of my knowledge
+in this field). You may want to check back in a while as I complete more of it.
+
 * auto-gen TOC;
 {:toc}
 
