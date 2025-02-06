@@ -12,6 +12,8 @@ I wish I'd known, that I told that person about, and more that I didn't because 
 getting way too long. This page is a work in progress / living document: it will be updated with
 more as I think of it, and then also as I learn more, and if more-experienced people give feedback.
 
+{:toc}
+
 # Rules
 
 In EE, "rules" are more like guidelines. You'll find plenty of advice for contradictory "rules" and
