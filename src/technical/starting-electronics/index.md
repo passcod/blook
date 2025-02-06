@@ -43,7 +43,9 @@ which is specialised CAD for electronics design.
 
 I use [Kicad](https://www.kicad.org/) which is free (and open source), you'll also see [Autodesk
 EAGLE](http://eagle.autodesk.com/) especially on older resources as EAGLE is discontinued, and
-[Altium](https://www.altium.com/) which is the leading professional solution.
+[Altium](https://www.altium.com/) and [Keysight] which are leading professional solutions.
+
+[Keysight]: https://www.keysight.com/us/en/products/software/pathwave-design-software/pathwave-advanced-design-system/pathwave-ads-rf-microwave-circuit-design.html
 
 There's also more experimental solutions like [Horizon EDA](https://horizon-eda.org/) which focuses
 on an excellent experience for building and maintaining part libraries, various efforts to make
