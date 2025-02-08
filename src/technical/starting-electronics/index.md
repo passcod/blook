@@ -791,7 +791,8 @@ for FR4), \\(c\\) is the speed of light, and \\(f\\) is the frequency in Hz.
 Place vias at spacings of one tenth the wavelength. You can vary this ratio to 1/8th or 1/20th etc
 if that creates spacings that are too large compared to the board or too small for clearance.
 
-For example, at 2.4 GHz, the via stitching at 1/20th would be at intervals of 2.94mm.
+For example, at 2.4 GHz, the via stitching at 1/20th would be at intervals of
+[2.94mm](https://rinkcalc.app/?q=(c/sqrt(4.5))/2.4GHz/20).
 
 [wave velocity]: https://en.wikipedia.org/wiki/Velocity_factor
 
