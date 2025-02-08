@@ -1,6 +1,6 @@
 <!-- vim: set tw=100 : -->
 
-# Things I wish I'd known before starting electronics design
+# Learning electronics design
 
 > January 2025
 
