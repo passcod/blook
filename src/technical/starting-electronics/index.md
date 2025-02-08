@@ -662,6 +662,25 @@ impurities in the solder mixes.
 
 # Design
 
+## Mounting holes, heatsink holes, stress relief
+
+Always start by adding your desired board size and shape as the outline, and then immediately add
+mounting holes to the schematic, and then to the PCB. If you forget it will be very hard to add
+them later, and they'll end up in weird places. For rectangular boards, one mounting hole per
+corner is a very good start. For larger boards, consider adding a mounting hole in the center, to
+reduce vibrations or the potential for breakage or distension if there's pressure on the board.
+
+As you add the main components, like MCUs, power converters, and other ICs, consider whether you
+will need heatsinks for those. If you do, you may want to add mounting holes for those as well.
+If you have a wire plugging into a board and going outside of the case, or to a movable part, or
+set in such a way that pulling in the wrong direction could cause damage, consider adding stress
+relief holes. ([Feranec, 2017](https://www.youtube.com/watch?v=409u7RaraEc))
+
+M3 is a decent size. Holes will have a large clearance around them: this is for the screw head or
+fixing post base or nut on a bolt or standoffs; you therefore don't want to violate this clearance
+and have any components in there. You also should refrain from routing traces within that area on
+the top and bottom layers, as an overtight screw could strip those right out.
+
 ## High speed, low speed, high frequency signals
 
 There's plenty of advice and rules that only apply to either high or low speed/frequency signals.
