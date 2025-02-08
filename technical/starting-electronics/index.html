@@ -392,12 +392,12 @@ connecting through-hole components.</p>
 <p><strong>Vias</strong> are holes that are plated on the inside of the hole specifically such that an electrical
 connection is made between layers that are connected to the hole. Full size vias have a large hole
 and thus a large area inside the hole for the connection, micro vias have much smaller diameters,
-buried vias are holes that don’t go all the way through, used in 4 and higher layer PCBs to connect
-two or more layers without intruding on the other layers. <em>JLCPCB and other low-cost fabs don’t
-support buried vias.</em></p>
+blind and buried vias are holes that don’t go all the way through, used in 4 and higher layer PCBs
+to connect two or more layers without intruding on the other layers. Blind vias go from a side but
+stop before the other side, and buried vias only exist within the board, and don’t protrude on
+either side. <em>JLCPCB and other low-cost fabs typically don’t support blind and buried vias.</em></p>
 <p>Kicad will default micro vias to be buried; you can still use non-buried micro vias by changing the
-start/end layers in the via properties to the top and bottom layers and setting “pads only on
-connected layers”.</p>
+via type to “Through” in the via properties, and optionally setting “pads only on connected layers”.</p>
 <p><strong>PTH</strong> and <strong>NPTH</strong> are typically used for non-via holes to describe their footprint. PTH means
 Plated Through Hole, which is when the hole will be plated on the surface, that is it will have a
 ring of conductor on the outer layers. NPTH means Non-Plated Through Hole, where the plating is
@@ -759,7 +759,10 @@ the top and bottom layers, as an overtight screw could strip those right out.</p
 <h2 id="high-speed-low-speed-high-frequency-signals"><a class="header" href="#high-speed-low-speed-high-frequency-signals">High speed, low speed, high frequency signals</a></h2>
 <p>There’s plenty of advice and rules that only apply to either high or low speed/frequency signals.
 The goal with most of this advice is to maximise signal <em>integrity</em> or <em>quality</em>.</p>
-<p>High speed is often expressed in frequency, but the true determinant is rise time (<a href="https://resources.altium.com/p/what-high-speed-design">Peterson, 2021</a>).</p>
+<p>High speed is often expressed in frequency, but the true determinant is rise time
+(<a href="https://resources.altium.com/p/what-high-speed-design">Peterson, 2021</a>). That is, even if you
+don’t have a high speed clock signal, you might have high speed electromagnetic waves if you have
+short rise times. A 500ps rise time is equivalent to a 2 gigahertz signal.</p>
 <p>Something that switches less frequently than once a second (e.g. a power enable line for a voltage
 regulator) is never a worry for signal considerations. A line is considered a “signal” from about
 1kHz (<a href="https://www.youtube.com/watch?v=icRzEZF3eZo">Bogatin, 2020</a>).</p>
@@ -824,6 +827,8 @@ be ground planes. For most purposes I use:</p>
 <li>for 2 layers: top signal, bottom ground</li>
 <li>for 4 layers: top and bottom signal, middle two layers ground</li>
 </ul>
+<p>Generally you want to have a ground plane layer associated with each signal layer, and you don’t
+want to have a signal layer have to “go through” <em>another</em> signal layer to reach its ground plane.</p>
 <h2 id="logos"><a class="header" href="#logos">Logos</a></h2>
 <p>There’s “designed with KiCad”, “Open Hardware”, and other logos in the standard footprint library.
 They all come in copper and silkscreen variants. However, when updating the PCB from the schematic,
