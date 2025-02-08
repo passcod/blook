@@ -689,13 +689,60 @@ various speeds, ranging from "fast" (kHz) to "low speed" (tens of MHz), but is n
 Also note that Ethernet in particular is highly resistant to rule-breaking. Signal integrity losses
 will result in lower effective speeds but generally not errors on the wire.
 
-A great "quick reference" style guide for high speed routing is [TI's SPRAAR7J][SPRAAR7J]
+A great "quick reference" style guide for high speed routing is [TI's SPRAAR7J][SPRAAR7J].
 
 [SPRAAR7J]: https://www.ti.com/lit/an/spraar7j/spraar7j.pdf
 
-# KiCad
+## Routing differential pairs
 
-These are bits of knowledge specifically about KiCad; they may or may not transfer to others EDAs.
+The main activity when dealing with high speed differential signals is routing pairs. Before that,
+you need to configure the size and spacing of the conductors in the pair. Before _that_, you need
+to figure out and configure the stackup for the board.
+
+To calculate and configure the pairs, see [this Digikey guide from Shawn Hymel (2020)][kicad-diff],
+which walks through the process using KiCad, for USB data lines.
+
+When routing, you want to:
+- keep the lines over an unbroken ground plane
+- avoid branches
+- avoid ≥90° turns (KiCad will prevent this anyway)
+- avoid crossing other high speed lines
+- if you can't avoid a crossing, keep the intersection as short as possible; never have two high
+  speed lines overlap vertically over a length
+- if you can, keep different pairs separated by three times the conductor-plane gap or more
+- if you have to cross the planes:
+  - cross to other signal planes, don't route on ground planes
+  - put the vias for each conductor in the pair together as possible
+  - add ground vias close to the signal vias to allow the return current to cross ground planes
+
+Once you've got the routing done, use the skew tool to match the length of conductors within a
+pair. For very long traces, you may also need to match the length of pairs to other pairs in the
+connection; refer to the device manual as it may have information on these. For example, in the
+[Raspberry Pi CM5 manual][rpi-cm5-manual]:
+
+> **2.4. USB 3.0 (Super speed)**
+>
+> Each USB 3.0 interface supports up to 5Gb/s signalling simultaneously. The differential pair
+> should be routed as a 90Ω differential pair. There is no need to match the lengths between pairs,
+> only the signals within a pair need to be length matched, ideally to less than 0.1mm. The P/N
+> signals of the USB 3 signals may be P and N swapped. The USB 2 pairs can’t be P/N swapped.
+
+[kicad-diff]: https://www.digikey.com/en/maker/projects/how-to-route-differential-pairs-in-kicad-for-usb/45b99011f5d34879ae1831dce1f13e93
+[rpi-cm5-manual]: https://datasheets.raspberrypi.com/cm5/cm5-datasheet.pdf
+
+## Stackup
+
+![screenshot of a configured 4-layer board stackup in KiCad](./kicad-stackup.png)
+
+Start by selecting the layer count, then go to your fab and look for their stackup. For JLCPCB,
+this is found on the [impedance control page](https://jlcpcb.com/impedance). This page has many
+different stackups; use the "no requirements" stackup unless you know what you want.
+
+You also need to choose which layers will be signal layers (where routing happens), and which will
+be ground planes. For most purposes I use:
+
+- for 2 layers: top signal, bottom ground
+- for 4 layers: top and bottom signal, middle two layers ground
 
 ## Logos
 
