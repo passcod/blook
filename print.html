@@ -441,6 +441,7 @@ in this field). You may want to check back in a while as I complete more of it.<
 </li>
 <li><a href="technical/starting-electronics/index.html#design">Design</a>
 <ul>
+<li><a href="technical/starting-electronics/index.html#mounting-holes-heatsink-holes-stress-relief">Mounting holes, heatsink holes, stress relief</a></li>
 <li><a href="technical/starting-electronics/index.html#high-speed-low-speed-high-frequency-signals">High speed, low speed, high frequency signals</a></li>
 <li><a href="technical/starting-electronics/index.html#routing-differential-pairs">Routing differential pairs</a></li>
 <li><a href="technical/starting-electronics/index.html#stackup">Stackup</a></li>
@@ -957,6 +958,21 @@ Solder itself boils at 1700°C. Just like water, small amounts will evaporate of
 liquid solder, but you’ll never get massive amounts of solder vapour like you will for flux and any
 impurities in the solder mixes.</p>
 <h1 id="design"><a class="header" href="#design">Design</a></h1>
+<h2 id="mounting-holes-heatsink-holes-stress-relief"><a class="header" href="#mounting-holes-heatsink-holes-stress-relief">Mounting holes, heatsink holes, stress relief</a></h2>
+<p>Always start by adding your desired board size and shape as the outline, and then immediately add
+mounting holes to the schematic, and then to the PCB. If you forget it will be very hard to add
+them later, and they’ll end up in weird places. For rectangular boards, one mounting hole per
+corner is a very good start. For larger boards, consider adding a mounting hole in the center, to
+reduce vibrations or the potential for breakage or distension if there’s pressure on the board.</p>
+<p>As you add the main components, like MCUs, power converters, and other ICs, consider whether you
+will need heatsinks for those. If you do, you may want to add mounting holes for those as well.
+If you have a wire plugging into a board and going outside of the case, or to a movable part, or
+set in such a way that pulling in the wrong direction could cause damage, consider adding stress
+relief holes. (<a href="https://www.youtube.com/watch?v=409u7RaraEc">Feranec, 2017</a>)</p>
+<p>M3 is a decent size. Holes will have a large clearance around them: this is for the screw head or
+fixing post base or nut on a bolt or standoffs; you therefore don’t want to violate this clearance
+and have any components in there. You also should refrain from routing traces within that area on
+the top and bottom layers, as an overtight screw could strip those right out.</p>
 <h2 id="high-speed-low-speed-high-frequency-signals"><a class="header" href="#high-speed-low-speed-high-frequency-signals">High speed, low speed, high frequency signals</a></h2>
 <p>There’s plenty of advice and rules that only apply to either high or low speed/frequency signals.
 The goal with most of this advice is to maximise signal <em>integrity</em> or <em>quality</em>.</p>
