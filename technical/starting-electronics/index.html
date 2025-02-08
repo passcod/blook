@@ -228,6 +228,7 @@ in this field). You may want to check back in a while as I complete more of it.<
 <li><a href="#high-speed-low-speed-high-frequency-signals">High speed, low speed, high frequency signals</a></li>
 <li><a href="#routing-differential-pairs">Routing differential pairs</a></li>
 <li><a href="#stackup">Stackup</a></li>
+<li><a href="#stitching-vias">Stitching vias</a></li>
 <li><a href="#logos">Logos</a></li>
 </ul>
 </li>
@@ -829,6 +830,20 @@ be ground planes. For most purposes I use:</p>
 </ul>
 <p>Generally you want to have a ground plane layer associated with each signal layer, and you don’t
 want to have a signal layer have to “go through” <em>another</em> signal layer to reach its ground plane.</p>
+<h2 id="stitching-vias"><a class="header" href="#stitching-vias">Stitching vias</a></h2>
+<p>When you have multiple ground planes (and/or multiple power planes), you want to stitch the planes
+together. This means to add a lot of vias to the board, which all connect to the ground layers.
+In KiCad, you can use the <a href="https://github.com/weirdgyn/viastitching">viastitching plugin</a>.</p>
+<p>To select the spacing of the via grid, take the highest frequency (clock or rise time) that the
+board will carry, find the <a href="https://en.wikipedia.org/wiki/Velocity_factor">wave velocity</a> \(v\) in the conductor:</p>
+<p>$$ v = \frac{c}{\sqrt{\kappa}} $$</p>
+<p>And then the wavelength \(\lambda\):</p>
+<p>$$ \lambda = \frac{v}{f} $$</p>
+<p>where \(\kappa\) is the “epsilon R” value for the dielectric of your stackup (typically \(4.5\)
+for FR4), \(c\) is the speed of light, and \(f\) is the frequency in Hz.</p>
+<p>Place vias at spacings of one tenth the wavelength. You can vary this ratio to 1/8th or 1/20th etc
+if that creates spacings that are too large compared to the board or too small for clearance.</p>
+<p>For example, at 2 GHz, the via stitching at 1/10th would be at intervals of 7.1mm.</p>
 <h2 id="logos"><a class="header" href="#logos">Logos</a></h2>
 <p>There’s “designed with KiCad”, “Open Hardware”, and other logos in the standard footprint library.
 They all come in copper and silkscreen variants. However, when updating the PCB from the schematic,
