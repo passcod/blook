@@ -733,6 +733,7 @@ When routing, you want to:
   - cross to other signal planes, don't route on ground planes
   - put the vias for each conductor in the pair together as possible
   - add ground vias close to the signal vias to allow the return current to cross ground planes
+    ([Feranec et al, 2021](https://www.youtube.com/watch?v=52fxuRGifLU)).
 
 Once you've got the routing done, use the skew tool to match the length of conductors within a
 pair. For very long traces, you may also need to match the length of pairs to other pairs in the
