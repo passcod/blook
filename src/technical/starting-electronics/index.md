@@ -689,5 +689,16 @@ various speeds, ranging from "fast" (kHz) to "low speed" (tens of MHz), but is n
 Also note that Ethernet in particular is highly resistant to rule-breaking. Signal integrity losses
 will result in lower effective speeds but generally not errors on the wire.
 
-A great "quick reference" style guide for high speed routing is [TI's SPRAAR7J](https://www.ti.com/lit/an/spraar7j/spraar7j.pdf).
+A great "quick reference" style guide for high speed routing is [TI's SPRAAR7J][SPRAAR7J]
 
+[SPRAAR7J]: https://www.ti.com/lit/an/spraar7j/spraar7j.pdf
+
+# KiCad
+
+These are bits of knowledge specifically about KiCad; they may or may not transfer to others EDAs.
+
+## Logos
+
+There's "designed with KiCad", "Open Hardware", and other logos in the standard footprint library.
+They all come in copper and silkscreen variants. However, when updating the PCB from the schematic,
+they'll disappear! ...unless you enable the "Not in schematic" attribute in their properties.
