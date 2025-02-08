@@ -442,10 +442,8 @@ in this field). You may want to check back in a while as I complete more of it.<
 <li><a href="technical/starting-electronics/index.html#design">Design</a>
 <ul>
 <li><a href="technical/starting-electronics/index.html#high-speed-low-speed-high-frequency-signals">High speed, low speed, high frequency signals</a></li>
-</ul>
-</li>
-<li><a href="technical/starting-electronics/index.html#kicad">KiCad</a>
-<ul>
+<li><a href="technical/starting-electronics/index.html#routing-differential-pairs">Routing differential pairs</a></li>
+<li><a href="technical/starting-electronics/index.html#stackup">Stackup</a></li>
 <li><a href="technical/starting-electronics/index.html#logos">Logos</a></li>
 </ul>
 </li>
@@ -980,9 +978,52 @@ various speeds, ranging from “fast” (kHz) to “low speed” (tens of MHz), 
 “high speed”.</p>
 <p>Also note that Ethernet in particular is highly resistant to rule-breaking. Signal integrity losses
 will result in lower effective speeds but generally not errors on the wire.</p>
-<p>A great “quick reference” style guide for high speed routing is <a href="https://www.ti.com/lit/an/spraar7j/spraar7j.pdf">TI’s SPRAAR7J</a></p>
-<h1 id="kicad"><a class="header" href="#kicad">KiCad</a></h1>
-<p>These are bits of knowledge specifically about KiCad; they may or may not transfer to others EDAs.</p>
+<p>A great “quick reference” style guide for high speed routing is <a href="https://www.ti.com/lit/an/spraar7j/spraar7j.pdf">TI’s SPRAAR7J</a>.</p>
+<h2 id="routing-differential-pairs"><a class="header" href="#routing-differential-pairs">Routing differential pairs</a></h2>
+<p>The main activity when dealing with high speed differential signals is routing pairs. Before that,
+you need to configure the size and spacing of the conductors in the pair. Before <em>that</em>, you need
+to figure out and configure the stackup for the board.</p>
+<p>To calculate and configure the pairs, see <a href="https://www.digikey.com/en/maker/projects/how-to-route-differential-pairs-in-kicad-for-usb/45b99011f5d34879ae1831dce1f13e93">this Digikey guide from Shawn Hymel (2020)</a>,
+which walks through the process using KiCad, for USB data lines.</p>
+<p>When routing, you want to:</p>
+<ul>
+<li>keep the lines over an unbroken ground plane</li>
+<li>avoid branches</li>
+<li>avoid ≥90° turns (KiCad will prevent this anyway)</li>
+<li>avoid crossing other high speed lines</li>
+<li>if you can’t avoid a crossing, keep the intersection as short as possible; never have two high
+speed lines overlap vertically over a length</li>
+<li>if you can, keep different pairs separated by three times the conductor-plane gap or more</li>
+<li>if you have to cross the planes:
+<ul>
+<li>cross to other signal planes, don’t route on ground planes</li>
+<li>put the vias for each conductor in the pair together as possible</li>
+<li>add ground vias close to the signal vias to allow the return current to cross ground planes</li>
+</ul>
+</li>
+</ul>
+<p>Once you’ve got the routing done, use the skew tool to match the length of conductors within a
+pair. For very long traces, you may also need to match the length of pairs to other pairs in the
+connection; refer to the device manual as it may have information on these. For example, in the
+<a href="https://datasheets.raspberrypi.com/cm5/cm5-datasheet.pdf">Raspberry Pi CM5 manual</a>:</p>
+<blockquote>
+<p><strong>2.4. USB 3.0 (Super speed)</strong></p>
+<p>Each USB 3.0 interface supports up to 5Gb/s signalling simultaneously. The differential pair
+should be routed as a 90Ω differential pair. There is no need to match the lengths between pairs,
+only the signals within a pair need to be length matched, ideally to less than 0.1mm. The P/N
+signals of the USB 3 signals may be P and N swapped. The USB 2 pairs can’t be P/N swapped.</p>
+</blockquote>
+<h2 id="stackup"><a class="header" href="#stackup">Stackup</a></h2>
+<p><img src="technical/starting-electronics/./kicad-stackup.png" alt="screenshot of a configured 4-layer board stackup in KiCad" /></p>
+<p>Start by selecting the layer count, then go to your fab and look for their stackup. For JLCPCB,
+this is found on the <a href="https://jlcpcb.com/impedance">impedance control page</a>. This page has many
+different stackups; use the “no requirements” stackup unless you know what you want.</p>
+<p>You also need to choose which layers will be signal layers (where routing happens), and which will
+be ground planes. For most purposes I use:</p>
+<ul>
+<li>for 2 layers: top signal, bottom ground</li>
+<li>for 4 layers: top and bottom signal, middle two layers ground</li>
+</ul>
 <h2 id="logos"><a class="header" href="#logos">Logos</a></h2>
 <p>There’s “designed with KiCad”, “Open Hardware”, and other logos in the standard footprint library.
 They all come in copper and silkscreen variants. However, when updating the PCB from the schematic,
