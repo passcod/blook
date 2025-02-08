@@ -227,6 +227,11 @@ in this field). You may want to check back in a while as I complete more of it.<
 <li><a href="#high-speed-low-speed-high-frequency-signals">High speed, low speed, high frequency signals</a></li>
 </ul>
 </li>
+<li><a href="#kicad">KiCad</a>
+<ul>
+<li><a href="#logos">Logos</a></li>
+</ul>
+</li>
 </ul>
 <h1 id="rules"><a class="header" href="#rules">Rules</a></h1>
 <p>In EE, “rules” are more like guidelines. You’ll find plenty of advice for contradictory “rules” and
@@ -758,7 +763,13 @@ various speeds, ranging from “fast” (kHz) to “low speed” (tens of MHz), 
 “high speed”.</p>
 <p>Also note that Ethernet in particular is highly resistant to rule-breaking. Signal integrity losses
 will result in lower effective speeds but generally not errors on the wire.</p>
-<p>A great “quick reference” style guide for high speed routing is <a href="https://www.ti.com/lit/an/spraar7j/spraar7j.pdf">TI’s SPRAAR7J</a>.</p>
+<p>A great “quick reference” style guide for high speed routing is <a href="https://www.ti.com/lit/an/spraar7j/spraar7j.pdf">TI’s SPRAAR7J</a></p>
+<h1 id="kicad"><a class="header" href="#kicad">KiCad</a></h1>
+<p>These are bits of knowledge specifically about KiCad; they may or may not transfer to others EDAs.</p>
+<h2 id="logos"><a class="header" href="#logos">Logos</a></h2>
+<p>There’s “designed with KiCad”, “Open Hardware”, and other logos in the standard footprint library.
+They all come in copper and silkscreen variants. However, when updating the PCB from the schematic,
+they’ll disappear! …unless you enable the “Not in schematic” attribute in their properties.</p>
 
                     </main>
 
