@@ -686,7 +686,10 @@ the top and bottom layers, as an overtight screw could strip those right out.
 There's plenty of advice and rules that only apply to either high or low speed/frequency signals.
 The goal with most of this advice is to maximise signal _integrity_ or _quality_.
 
-High speed is often expressed in frequency, but the true determinant is rise time ([Peterson, 2021](https://resources.altium.com/p/what-high-speed-design)).
+High speed is often expressed in frequency, but the true determinant is rise time
+([Peterson, 2021](https://resources.altium.com/p/what-high-speed-design)). That is, even if you
+don't have a high speed clock signal, you might have high speed electromagnetic waves if you have
+short rise times. A 500ps rise time is equivalent to a 2 gigahertz signal.
 
 Something that switches less frequently than once a second (e.g. a power enable line for a voltage
 regulator) is never a worry for signal considerations. A line is considered a "signal" from about
