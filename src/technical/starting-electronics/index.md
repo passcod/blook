@@ -770,6 +770,31 @@ be ground planes. For most purposes I use:
 Generally you want to have a ground plane layer associated with each signal layer, and you don't
 want to have a signal layer have to "go through" _another_ signal layer to reach its ground plane.
 
+## Stitching vias
+
+When you have multiple ground planes (and/or multiple power planes), you want to stitch the planes
+together. This means to add a lot of vias to the board, which all connect to the ground layers.
+In KiCad, you can use the [viastitching plugin](https://github.com/weirdgyn/viastitching).
+
+To select the spacing of the via grid, take the highest frequency (clock or rise time) that the
+board will carry, find the [wave velocity] \\(v\\) in the conductor:
+
+$$ v = \frac{c}{\sqrt{\kappa}} $$
+
+And then the wavelength \\(\lambda\\):
+
+$$ \lambda = \frac{v}{f} $$
+
+where \\(\kappa\\) is the "epsilon R" value for the dielectric of your stackup (typically \\(4.5\\)
+for FR4), \\(c\\) is the speed of light, and \\(f\\) is the frequency in Hz.
+
+Place vias at spacings of one tenth the wavelength. You can vary this ratio to 1/8th or 1/20th etc
+if that creates spacings that are too large compared to the board or too small for clearance.
+
+For example, at 2.4 GHz, the via stitching at 1/20th would be at intervals of 2.94mm.
+
+[wave velocity]: https://en.wikipedia.org/wiki/Velocity_factor
+
 ## Logos
 
 There's "designed with KiCad", "Open Hardware", and other logos in the standard footprint library.
