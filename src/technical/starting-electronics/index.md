@@ -237,13 +237,13 @@ connecting through-hole components.
 **Vias** are holes that are plated on the inside of the hole specifically such that an electrical
 connection is made between layers that are connected to the hole. Full size vias have a large hole
 and thus a large area inside the hole for the connection, micro vias have much smaller diameters,
-buried vias are holes that don't go all the way through, used in 4 and higher layer PCBs to connect
-two or more layers without intruding on the other layers. _JLCPCB and other low-cost fabs don't
-support buried vias._
+blind and buried vias are holes that don't go all the way through, used in 4 and higher layer PCBs
+to connect two or more layers without intruding on the other layers. Blind vias go from a side but
+stop before the other side, and buried vias only exist within the board, and don't protrude on
+either side. _JLCPCB and other low-cost fabs typically don't support blind and buried vias._
 
 Kicad will default micro vias to be buried; you can still use non-buried micro vias by changing the
-start/end layers in the via properties to the top and bottom layers and setting "pads only on
-connected layers".
+via type to "Through" in the via properties, and optionally setting "pads only on connected layers".
 
 **PTH** and **NPTH** are typically used for non-via holes to describe their footprint. PTH means
 Plated Through Hole, which is when the hole will be plated on the surface, that is it will have a
@@ -763,6 +763,9 @@ be ground planes. For most purposes I use:
 
 - for 2 layers: top signal, bottom ground
 - for 4 layers: top and bottom signal, middle two layers ground
+
+Generally you want to have a ground plane layer associated with each signal layer, and you don't
+want to have a signal layer have to "go through" _another_ signal layer to reach its ground plane.
 
 ## Logos
 
