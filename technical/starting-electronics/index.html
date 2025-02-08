@@ -797,7 +797,8 @@ speed lines overlap vertically over a length</li>
 <ul>
 <li>cross to other signal planes, don’t route on ground planes</li>
 <li>put the vias for each conductor in the pair together as possible</li>
-<li>add ground vias close to the signal vias to allow the return current to cross ground planes</li>
+<li>add ground vias close to the signal vias to allow the return current to cross ground planes
+(<a href="https://www.youtube.com/watch?v=52fxuRGifLU">Feranec et al, 2021</a>).</li>
 </ul>
 </li>
 </ul>
@@ -818,8 +819,7 @@ signals of the USB 3 signals may be P and N swapped. The USB 2 pairs can’t be 
 this is found on the <a href="https://jlcpcb.com/impedance">impedance control page</a>. This page has many
 different stackups; use the “no requirements” stackup unless you know what you want.</p>
 <p>You also need to choose which layers will be signal layers (where routing happens), and which will
-be ground planes. See <a href="https://www.youtube.com/watch?v=52fxuRGifLU">this extensive video by Feranec et al, 2021</a>.</p>
-<p>For most purposes I use:</p>
+be ground planes. For most purposes I use:</p>
 <ul>
 <li>for 2 layers: top signal, bottom ground</li>
 <li>for 4 layers: top and bottom signal, middle two layers ground</li>
