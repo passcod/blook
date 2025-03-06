@@ -29,7 +29,7 @@ There's also a tremendous amount of advice out there that is outdated or based o
 to discount those, or to be able to decide if a piece of advice only really applies to certain use
 cases and not your own. [Robert Feranec](https://www.youtube.com/@RobertFeranec)'s YouTube channel
 is pretty great here. This document also includes links to sources whenever possible, with the year
-of publication; this is for readers to consult for more details on the topic, and for readers to
+of publication; this is for learners to consult for more details on the topic, and for readers to
 judge whether something is outdated compared to another piece of advice they may have received.
 However, note that date of publication is an imprecise tool, as the author may have relied on older
 knowledge without verifying it. 
