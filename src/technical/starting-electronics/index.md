@@ -109,6 +109,9 @@ manufacture, while "core" is dielectric material that is pre-assembled between c
 cured into rigid sheets prior to manufacture, typically by a different factory ([Neil\_UK
 (2018)](https://electronics.stackexchange.com/q/356072)).
 
+For manufacturing reasons, FR4 boards always have even numbers of layers. Teflon PCBs (as used for
+FPCs, for example) aren't restricted to this and you may see 3-layer, 5-layer, etc flexible PCBs.
+
 Finally, on top of the front and back outer layers several coatings are done:
 
 - a protective non-conductive coating called the **solder mask**, which masks off the areas that
