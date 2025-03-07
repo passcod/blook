@@ -14,25 +14,12 @@ I could impart that I figured would be useful and save their time and money.
 The document is currently about 20% done (i.e. 20% to documenting the current state of my knowledge
 in this field). You may want to check back in a while as I complete more of it.
 
+_There are links to sources in (Author, Year) format whenever possible, with the year being that of
+publication; this is for learners to consult for more details on the topic, and for more advanced
+readers to judge whether something is incorrect or outdated._
+
 * auto-gen TOC;
 {:toc}
-
-# Rules
-
-In EE online advice, "rules" are more like guidelines. You'll find plenty of advice for seemingly
-contradictory "rules" and many rules can be broken "if you know what you're doing" or if you accept
-the tradeoffs. That said, as a beginner it's worth following rules as much as you can, as you most
-likely _don't_ "know what you're doing" or understand the tradeoffs.
-
-There's also a tremendous amount of advice out there that is outdated or based on little else than
-"it's always been done that way." Unfortunately as a beginner you (and I) won't have the knowledge
-to discount those, or to be able to decide if a piece of advice only really applies to certain use
-cases and not your own. [Robert Feranec](https://www.youtube.com/@RobertFeranec)'s YouTube channel
-is pretty great here. This document also includes links to sources whenever possible, with the year
-of publication; this is for learners to consult for more details on the topic, and for readers to
-judge whether something is outdated compared to another piece of advice they may have received.
-However, note that date of publication is an imprecise tool, as the author may have relied on older
-knowledge without verifying it. 
 
 # Terminology
 
