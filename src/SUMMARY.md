@@ -5,7 +5,6 @@
   - [Pronouns](info/index.md)
   - [Trademark](info/trademark.md)
 - [Technicals](technical/index.md)
-  - [2025 | Learning electronics design](technical/starting-electronics/index.md)
   - [2024 | Nouveau on Dell G7 7700](technical/g7-7700-nouveau.md)
   - [2023 | Caddy](technical/caddy.md)
   - [2023 | IPv6 on Mikrotik on Starlink](technical/starlink.md)
