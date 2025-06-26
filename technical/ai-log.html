@@ -437,7 +437,157 @@ fn segmented() {
 <span class="boring">}</span></code></pre></pre>
 <h2 id="2025-06-23"><a class="header" href="#2025-06-23">2025-06-23</a></h2>
 <h3 id="0330--duckduckgo"><a class="header" href="#0330--duckduckgo">03:30 | DuckDuckGo</a></h3>
-<p>Searched for <code>stray digicode safe</code>. The “AI assist” feature returned two codes, one of which I already had. The second worked in game, so I didn’t look further.</p>
+<p>Searched for <code>stray digicode safe</code>. The “AI assist” feature returned two codes,
+one of which I already had. The second worked in game, so I didn’t look further.</p>
+<h3 id="1305--zed--claude-sonnet-4-thinking"><a class="header" href="#1305--zed--claude-sonnet-4-thinking">13:05 | Zed | Claude Sonnet 4 Thinking</a></h3>
+<p>I couldn’t recall the named captures regex syntax so I wrote:</p>
+<pre><code class="language-js">if (!/\/(?&lt;&gt;:‡\d+)$/.test(step)) {
+</code></pre>
+<p>and paused to let Zed complete:</p>
+<pre><code class="language-js">if (/\/(?&lt;step&gt;[^/]+)\/(?&lt;version&gt;\d+)$/.test(step)) {
+</code></pre>
+<p>On one hand, that does show me the right syntax, but on the other, it
+hallucinated a whole additional capture and an input syntax that was not what I
+was looking for, and also discarded the NOT operator.</p>
+<h3 id="1306--zed--claude-sonnet-4-thinking"><a class="header" href="#1306--zed--claude-sonnet-4-thinking">13:06 | Zed | Claude Sonnet 4 Thinking</a></h3>
+<p>Having rewritten the regex to match what I wanted, I applied it to my input:</p>
+<pre><code class="language-js">const re = /^(?&lt;file&gt;.+?)(\/(?&lt;version&gt;\d+))?$/;
+const { file, ‡ }
+</code></pre>
+<p>Autocompleted:</p>
+<pre><code class="language-js">const re = /^(?&lt;file&gt;.+?)(\/(?&lt;version&gt;\d+))?$/;
+const { file, version } = re.exec(step)?.groups || {};
+</code></pre>
+<h3 id="1335--zed--claude-sonnet-4-thinking"><a class="header" href="#1335--zed--claude-sonnet-4-thinking">13:35 | Zed | Claude Sonnet 4 Thinking</a></h3>
+<p>I copied a test case block to modify it into a new one, rewrote the <code>it</code>
+description…</p>
+<pre><code class="language-ts">it('needsStep throws when index is missing‡', async () =&gt; {
+  expect(needsStep('steps/1749079898013-initDeviceKey/0')).toBe(
+    `${STEP_PREFIX}1749079898013-initDeviceKey/0`,
+  );
+});
+</code></pre>
+<p>and Zed autocompleted the modification to make the test go:</p>
+<pre><code class="language-ts">it('needsStep throws when index is missing', async () =&gt; {
+  expect(() =&gt; needsStep('steps/1749079898013-initDeviceKey')).toThrow(
+    'You must provide an index when depending on upgrade steps',
+  );
+});
+</code></pre>
+<p>This does what I want and the test passes.</p>
+<h3 id="1400--zed--claude-sonnet-4-thinking"><a class="header" href="#1400--zed--claude-sonnet-4-thinking">14:00 | Zed | Claude Sonnet 4 Thinking</a></h3>
+<p>I added an alias in one file:</p>
+<pre><code class="language-js">export const upgradeCommand = new Command('upgrade')
+  .alias('migrate')
+  .description('Upgrade Tamanu installation')
+</code></pre>
+<p>Then opened another very similar file and it suggested adding the same alias:</p>
+<pre><code class="language-js">export const upgradeCommand = new Command('upgrade')‡
+  .description('Upgrade Tamanu installation')
+</code></pre>
+<h3 id="1505--coderabbit"><a class="header" href="#1505--coderabbit">15:05 | CodeRabbit</a></h3>
+<p>I accepted <a href="https://github.com/beyondessential/tamanu/pull/7867#discussion_r2160628686">a commitable suggestion from a review comment</a>. The diff it was showing was unnecessarily long for the one-line change it proposed, but I figured it was just a generation error.</p>
+<p>However, after apply I went to check its work and found out that it had indeed completely fucked up, duplicating lines and breaking the build:</p>
+<pre><code class="language-ts">export async function up(query: QueryInterface): Promise&lt;void&gt; {
+export async function up(query: QueryInterface): Promise&lt;void&gt; {
+  await query.sequelize.query(`
+    CREATE OR REPLACE FUNCTION public.set_updated_at()
+     RETURNS trigger
+     LANGUAGE plpgsql
+    AS $function$
+    BEGIN
+        IF (
+            NEW IS DISTINCT FROM OLD AND
+            NEW.updated_at IS NOT DISTINCT FROM OLD.updated_at
+        ) THEN
+            NEW.updated_at := current_timestamp;
+        END IF;
+        RETURN NEW;
+    END;
+    $function$
+  `);
+}
+}
+</code></pre>
+<h2 id="2025-06-24"><a class="header" href="#2025-06-24">2025-06-24</a></h2>
+<h3 id="1600--zed--claude-sonnet-4-thinking"><a class="header" href="#1600--zed--claude-sonnet-4-thinking">16:00 | Zed | Claude Sonnet 4 Thinking</a></h3>
+<p>I was looking for the correct journalctl incantation to get just the messages, not the timestamps.
+I initially made a couple of regular DDG searches, but wasn’t getting good results:</p>
+<ul>
+<li>journalctl without timestamps</li>
+<li>journalctl just the message</li>
+</ul>
+<p>So I asked the chat-UI panel in my editor with the following prompt:</p>
+<blockquote>
+<p>give me the journalctl command to print logs with just the message content, not other information like timestamp and unit</p>
+</blockquote>
+<p>Which returned the right answer (<code>-o cat</code>).</p>
+<p>Granted, trying this exact phrase in DDG returns the same answer (via a SU question).</p>
+<h2 id="2025-06-25"><a class="header" href="#2025-06-25">2025-06-25</a></h2>
+<p>Nothing today as I worked support rather than dev.</p>
+<h2 id="2025-06-26"><a class="header" href="#2025-06-26">2025-06-26</a></h2>
+<h3 id="1540--coderabbit"><a class="header" href="#1540--coderabbit">15:40 | CodeRabbit</a></h3>
+<pre><code class="language-ts">const encounterFacility = (
+  await this.sequelize.query(
+    `
+      SELECT f.* FROM facilities f
+      JOIN encounters e ON f.id = e.facilityId
+      WHERE e.id = $encounterId
+    `,
+    {
+      type: QueryTypes.SELECT,
+      model: Facility,
+      mapToModel: true,
+      bind: {
+        encounterId: this.encounterId,
+      },
+    },
+  )
+)?.[0];
+</code></pre>
+<p>Coderabbit suggested that I add error handling to this. Good call: I really miss
+working with Rust in those instances, where it would just not have allowed me to
+ignore the database error possibility.</p>
+<p>However, Coderabbit suggested I wrap the entire thing in a try-catch, which
+duplicated some downstream logic. Instead, I used the less-well-known but more
+expressive 2-ary <code>.then()</code>:</p>
+<pre><code class="language-ts">.then(
+  (res: Facility[]) =&gt; res?.[0],
+  (_err: Error) =&gt; null,
+);
+</code></pre>
+<p>Which is really the spiritual equivalent of the Rust code:</p>
+<pre><pre class="playground"><code class="language-rust"><span class="boring">#![allow(unused)]
+</span><span class="boring">fn main() {
+</span>query().and_then(|f| f.get(0)).unwrap_or_default();
+<span class="boring">}</span></code></pre></pre>
+<h3 id="1550--zed--claude-sonnet-4"><a class="header" href="#1550--zed--claude-sonnet-4">15:50 | Zed | Claude Sonnet 4</a></h3>
+<p>Was typing this and wanted to tab-complete it:</p>
+<pre><code class="language-ts">import { log } from '@tamanu/shared/services/‡';
+</code></pre>
+<p>What I was expecting:</p>
+<pre><code class="language-ts">import { log } from '@tamanu/shared/services/logging';
+</code></pre>
+<p>What I got instead:</p>
+<pre><code class="language-ts">import { log } from 'services/logging';
+</code></pre>
+<p>Mate how the fuck did you think deleting the package was a good idea???</p>
+<h3 id="1700--github-copilot-chat--claude-sonnet-4"><a class="header" href="#1700--github-copilot-chat--claude-sonnet-4">17:00 | Github Copilot Chat | Claude Sonnet 4</a></h3>
+<p>I was looking for what percentile I’m in, salary-wise, in New Zealand.</p>
+<p>I downloaded a CSV from figure.nz but it wasn’t in the format I wanted, so I got lazy and thought, okay, I’m gonna ask an AI to tell me how:</p>
+<blockquote>
+<p>given this CSV, write a Linux command line to extract only the rows of “Number of people earning a wage/salary” for 2024</p>
+</blockquote>
+<p>As I finished typing, I realised this was actually pretty easy, so I went to do this:</p>
+<pre><code class="language-console">rg 2024.+earning file.csv &gt; output.csv
+</code></pre>
+<p>However, I checked back and the AI had done basically the same thing, but also given me an extra option:</p>
+<blockquote>
+<p>If you want to include the header row as well, you can use:</p>
+<pre><code class="language-console">awk -F',' 'NR==1 || ($1 == "2024" &amp;&amp; $3 == "Number of people earning a wage/salary")' file.csv
+</code></pre>
+</blockquote>
+<p>That seemed even better, so I used it instead.</p>
 
                     </main>
 
