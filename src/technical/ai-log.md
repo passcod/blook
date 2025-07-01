@@ -532,4 +532,85 @@ However, I checked back and the AI had done basically the same thing, but also g
 
 That seemed even better, so I used it instead.
 
+## 2025-07-01
 
+### 20:00 | Zed | Claude Sonnet 4
+
+Decided I should try to be make this a little more interesting and do agentic AI stuff.
+
+Wrote a prompt, giving it the context of work's repo LLM rules, and then instructing it:
+
+> Write a plan into llm/plans/ for this: introduce a way for users to change
+> their own passwords. There must be a user profile in the frontend, which is
+> accessible from both facility and central server. That profile must have a
+> change password button and associated modal, which lets the user enter a new
+> password and a confirmation. The user model must be changed to allow
+> bidirectional syncing.
+
+It wrote a plan, which I reviewed. It had forgotten a bit, so I reprompted:
+
+> You need to add the backend routes to both central server and facility server.
+
+I then reviewed the plan and was satisfied that it at least covered a good first try.
+
+**This phase took 10 minutes.**
+
+I then instructed to:
+
+> Okay, start implementing the plan
+
+and started watching a youtube video.
+
+**30 minutes later**, it said it had finished phases 1-3, and if I wanted to
+continue. I asked it to first commit the work, then continue. It issued the
+following commands, with Zed prompting me every time:
+
+```bash
+git add .
+git status --porcelain
+git commit -m "..." # with a commit message in convcommit format
+```
+
+Then continued with the implementation.
+
+That took **a further 6 minutes**. Without prompting, it went to commit the
+work using the same commands (and Zed prompted me to confirm).
+
+During this second phase, it also edited the plan to mark things as complete,
+and I was very happy to have committed the plan earlier, because it *completely
+fucked it,* erased wide swathe of the plan, created duplicate headers, and put
+things that were originally part of the plan (testing, documentation, gating
+behind feature flag) in a neat little "next steps" section (and completely
+forgot about the feature flag thing).
+
+Then I pushed and created a draft PR. CodeRabbit then started doing a review
+and summarisation, which took it 6 minutes. It picked up on many "obvious"
+mistakes the coding agent made: bad imports, logic with security holes,
+inconsistent errors, name conflicts in imports.
+
+I then started manual review, and found:
+- unwanted "features", like having to enter your current password when changing
+  it, which was not in the plan nor prompt
+- slightly inconsistent password strength validation implemented in no less
+  than five different places
+- weird-ass formatting issues like multiple blank newlines and missing final
+  newline on some files
+- hardcoding colours and not using theme constants
+- using h6 headers for error text content instead of bold styling
+- inconsistent casing (kebab case vs camel case)
+
+Separately, Code Rabbit had a false positive where it claimed that something
+was not done when it in fact was.
+
+Another note is that humans would have committed _wayyyy_ more often.
+
+None of the two agents ever raised the truly interesting/challenging aspect of
+this feature, which is how password updating should work securely in a
+distributed-offline system with multiple authoritative servers that often
+operate in "split brain" configurations. That's genuinely hard and I don't
+really have a good idea right now about it.
+
+This review took me 15 minutes.
+
+Having done this, and convinced there's no risk to deploy this to isolated test
+infrastructure, I did so, to see if it actually worked. It did not.
