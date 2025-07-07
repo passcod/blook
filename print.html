@@ -930,6 +930,61 @@ hard for many years to cultivate excellence can, in a few short months of
 uncritically adopting AI workflows everywhere, accidentally delete its own
 culture in favour of the machine mediocre. Effects will be felt, but not
 immediately enough to course-correct.</p>
+<h2 id="2025-07-08-1030--zed--claude-sonnet-4"><a class="header" href="#2025-07-08-1030--zed--claude-sonnet-4">2025-07-08 10:30 | Zed | Claude Sonnet 4</a></h2>
+<p>This was a hybrid, guided workflow. I started by manually making changes to the
+LLM rules, then asked the agent to commit and push the rules, and then asked
+the agent to make further changes to the rules and commits:</p>
+<blockquote>
+<p>@rules create a new branch, commit, push, and create a PR</p>
+</blockquote>
+<p>As per our current rules, it asked for a “ticket number”:</p>
+<blockquote>
+<p>I can see there are updates to several LLM rule files and a new rebase-branch
+rule. However, I need the ticket code to create an appropriate branch name.
+What’s the ticket code for this work?</p>
+</blockquote>
+<p>I noticed that the terminology was wrong, we use “card” instead of ticket. So:</p>
+<blockquote>
+<p>no ticket code, omit that. but before you push, modify the rules and commit
+to clarify that we use “card” instead of “ticket”</p>
+</blockquote>
+<p>At this point, I made a mistake that would have been understood and corrected
+by a human but wasn’t by this machine: I should have said to commit <em>my</em> work
+and then do its own in a separate commit. As it was, it modified files and lost
+the distinction.</p>
+<p>When it committed, it therefore almagamated all the changes in one commit. I
+asked it to split things up:</p>
+<blockquote>
+<p>undo the most recent commit, keeping its changes in the worktree, then split
+it into a series of smaller meaningful commits, then force-push (with lease)
+the branch</p>
+</blockquote>
+<p>It was a bit overzealous with that, creating three changes that should have
+been one. Thus:</p>
+<blockquote>
+<p>squash the last three commits together and reword the commit message</p>
+</blockquote>
+<p>It then committed and pushed. At this point I noticed that it kept saying it
+would create a PR, but actually all it was doing was creating a PR
+<em>description</em> and then presenting it to the user. I quickly reviewed the
+relevant rule manually and determined that was in fact its instructions. I
+asked it to change that:</p>
+<blockquote>
+<p>modify the rule to create a PR, which detects if the <code>gh</code> or <code>hub</code> tools are
+installed and uses those (in this order of preference) to create the PR from
+the command line</p>
+</blockquote>
+<p>It did so appropriately, and then immediately created the PR using the new process.</p>
+<p>Finally, I asked to include a mention in the PR body that it was created using
+an agentic process:</p>
+<blockquote>
+<p>change the create-pr rule to add a “{agentic: Model Name}” label in the PR
+description when creating a PR as an agent</p>
+</blockquote>
+<p>Analysis: this went a lot smoother. There were still minor mistakes but
+arguably some of those are on me. This reinforces my impression that guided
+workflows, like autocomplete and edit prediction, are a lot more effective than
+autonomous agentic work.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="nouveau-on-dell-g7-7700"><a class="header" href="#nouveau-on-dell-g7-7700">Nouveau on Dell G7 7700</a></h1>
 <blockquote>
 <p>April 2024</p>
