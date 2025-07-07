@@ -680,4 +680,63 @@ uncritically adopting AI workflows everywhere, accidentally delete its own
 culture in favour of the machine mediocre. Effects will be felt, but not
 immediately enough to course-correct.
 
+## 2025-07-08 10:30 | Zed | Claude Sonnet 4
+
+This was a hybrid, guided workflow. I started by manually making changes to the
+LLM rules, then asked the agent to commit and push the rules, and then asked
+the agent to make further changes to the rules and commits:
+
+> @rules create a new branch, commit, push, and create a PR
+
+As per our current rules, it asked for a "ticket number":
+
+> I can see there are updates to several LLM rule files and a new rebase-branch
+> rule. However, I need the ticket code to create an appropriate branch name.
+> What's the ticket code for this work?
+
+I noticed that the terminology was wrong, we use "card" instead of ticket. So:
+
+> no ticket code, omit that. but before you push, modify the rules and commit
+> to clarify that we use "card" instead of "ticket"
+
+At this point, I made a mistake that would have been understood and corrected
+by a human but wasn't by this machine: I should have said to commit _my_ work
+and then do its own in a separate commit. As it was, it modified files and lost
+the distinction.
+
+When it committed, it therefore almagamated all the changes in one commit. I
+asked it to split things up:
+
+> undo the most recent commit, keeping its changes in the worktree, then split
+> it into a series of smaller meaningful commits, then force-push (with lease)
+> the branch
+
+It was a bit overzealous with that, creating three changes that should have
+been one. Thus:
+
+> squash the last three commits together and reword the commit message
+
+It then committed and pushed. At this point I noticed that it kept saying it
+would create a PR, but actually all it was doing was creating a PR
+_description_ and then presenting it to the user. I quickly reviewed the
+relevant rule manually and determined that was in fact its instructions. I
+asked it to change that:
+
+> modify the rule to create a PR, which detects if the `gh` or `hub` tools are
+> installed and uses those (in this order of preference) to create the PR from
+> the command line
+
+It did so appropriately, and then immediately created the PR using the new process.
+
+Finally, I asked to include a mention in the PR body that it was created using
+an agentic process:
+
+> change the create-pr rule to add a "{agentic: Model Name}" label in the PR
+> description when creating a PR as an agent
+
+Analysis: this went a lot smoother. There were still minor mistakes but
+arguably some of those are on me. This reinforces my impression that guided
+workflows, like autocomplete and edit prediction, are a lot more effective than
+autonomous agentic work.
+
 
