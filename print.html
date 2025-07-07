@@ -871,6 +871,65 @@ really have a good idea right now about it.</p>
 <p>This review took me 15 minutes.</p>
 <p>Having done this, and convinced there’s no risk to deploy this to isolated test
 infrastructure, I did so, to see if it actually worked. It did not.</p>
+<h2 id="2025-07-08-1730--zed--claude-sonnet-4"><a class="header" href="#2025-07-08-1730--zed--claude-sonnet-4">2025-07-08 17:30 | Zed | Claude Sonnet 4</a></h2>
+<p>I wanted to try agentic mode again on something less complicated, a fairly
+mechanical conversion of a package from Javascript to Typescript. This is
+something that we’re gradually doing a lot at work, as we have a large JS
+codebase that we want to both break up into more-reusable components and also
+move to Typescript, both for bug-catching and to align with our other
+codebases. This is a multi-year endeavour at this point.</p>
+<p>(As I write this content, hours after recording the timings and bones of the
+interaction, I am struck by how hostile the agentic interface is to any kind of
+recall or review of the history of the conversation. Home and Page Up don’t
+work. Scrolling is strangely slow compared to the main editor window. There’s
+no timestamps: I had to get into the habit early on of recording the times
+manually as things happened because there’s simply no way to know when things
+happened when reviewing a conversation or interaction with an agent. It’s both
+really annoying and honestly kinda telling.)</p>
+<p>Anyway, here’s the prompt:</p>
+<blockquote>
+<p>The api-client package is written in javascript, but now we need it in typescript contexts. Without changing any functionality, switch it over.</p>
+</blockquote>
+<p>This was also given the “LLM rules” context from the work repo.</p>
+<p>It immediately went along and started adding types and changing file extensions
+and so on. At 17:37 it had done the conversion. This is not a large package, it
+has five code files and something like thirty functions all up.</p>
+<p>It then proceeded with the iterative process of running the build and fixing
+errors. At 17:43 it was fully done, and stopped working. It provided this
+summary of its work:</p>
+<blockquote>
+<p>The package now provides excellent TypeScript developer experience while
+maintaining full compatibility with existing JavaScript consumers.</p>
+</blockquote>
+<p>Just to complete the experience, I asked it to commit the work, and also move
+its branch so it could be merged more easily:</p>
+<blockquote>
+<p>commit this to a new branch, and then rebase it on top of feat/sync/streaming instead</p>
+</blockquote>
+<p>It took four minutes to achieve this, making numerous mistakes in the process
+and painstakingly fixing them. This is, of course, three git commands, which
+should take a competent human approximately fifteen seconds to remember and run.</p>
+<p>This was the end of my day so I only did the analysis and review later:</p>
+<ul>
+<li>despite passing some of its local build tests, this conversion broke the build</li>
+<li>reviewing the conversation, it had failed to keep the code building in one of the three forms that TS needs to transpile to (the JS ecosystem is a fucking nightmare). It called this out while doing it, but forgot this entirely by the time it got to its final summary, claiming both ESM and CJS builds worked, while it had broken the ESM build</li>
+<li>despite clear instruction, it changed the behaviour of the code in subtle ways in several instances. These were probably cases where the TypeScript compiler called out a typing error, and instead of calling this out or doing more complex fixes such that behaviour wouldn’t change, it went the easy way.</li>
+<li>it introduced code and build conventions that are inconsistent with the way existing code and build processes looked.</li>
+</ul>
+<p>That last point is one that was revelatory to me, not in a direct way, but
+because I’d already seen the different patterns it introduced: in another
+package refactor a colleague had submitted some months back. This shows to me
+that there’s a high likelihood that refactor was in fact done via an agentic
+workflow, which isn’t that surprising, but more importantly that it wasn’t
+reviewed and modified for consistency with the existing codebase before
+submission. This is really something that sticks in my craw: not just that
+coding AI agents by nature deliver the universal average with new code, but
+also that gradually they will deliver the universal average to existing code
+via under-reviewed agentic refactors. A codebase or workplace that has worked
+hard for many years to cultivate excellence can, in a few short months of
+uncritically adopting AI workflows everywhere, accidentally delete its own
+culture in favour of the machine mediocre. Effects will be felt, but not
+immediately enough to course-correct.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="nouveau-on-dell-g7-7700"><a class="header" href="#nouveau-on-dell-g7-7700">Nouveau on Dell G7 7700</a></h1>
 <blockquote>
 <p>April 2024</p>
