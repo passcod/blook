@@ -14,6 +14,10 @@ when appropriate (every single interaction means not only for personal use, but
 also for work — in fact most of the events are for work, as I simply don't use
 AI a lot outside of that for various reasons).
 
+This document itself was written "by hand"; no prose was edited or suggested by
+AI (I used Vim, which I keep free of AI). You can tell because I used
+semicolons correctly.
+
 Most of this will be in code editors. I indicate the model when known. I have
 free access to Github Copilot Pro via opensource contributions (or something,
 idk what the criteria is exactly), I also use the free default tier of Zed's AI
@@ -851,3 +855,4 @@ trap '
 ```
 
 I reviewed and manually committed and pushed.
+
