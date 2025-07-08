@@ -730,7 +730,9 @@ uncritically adopting AI workflows everywhere, accidentally delete its own
 culture in favour of the machine mediocre. Effects will be felt, but not
 immediately enough to course-correct.
 
-## 2025-07-08 10:30 | Zed | Claude Sonnet 4
+## 2025-07-08
+
+### 10:30 | Zed | Claude Sonnet 4
 
 This was a hybrid, guided workflow. I started by manually making changes to the
 LLM rules, then asked the agent to commit and push the rules, and then asked
@@ -818,3 +820,34 @@ thoroughly.
 The result was so bad I manually backed out and closed the second PR it had
 created. By then, so much time had passed that the debate going on in the
 background had already reached a conclusion, removing the need for the split PR.
+
+### 13:10 | Zed | Claude Sonnet 4
+
+I always get tripped up by the upside down syntax of `trap` in bash scripts, so I asked:
+
+> @rules add a TRAP on error to print out all *.out files and then quit with
+> the same exit code
+
+It did a little more than that, though put it all on one line so I had to ask:
+
+> cool make it multiline for clarity
+
+Result:
+
+```bash
+# Trap on error to print all *.out files and exit with the same code
+trap '
+    exit_code=$?
+    echo "=== ERROR: Script failed with exit code $exit_code ==="
+    for file in *.out; do
+        if [ -f "$file" ]; then
+            echo "=== Contents of $file ==="
+            cat "$file"
+            echo "=== End of $file ==="
+        fi
+    done
+    exit $exit_code
+' ERR
+```
+
+I reviewed and manually committed and pushed.
