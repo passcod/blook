@@ -761,7 +761,8 @@ hard for many years to cultivate excellence can, in a few short months of
 uncritically adopting AI workflows everywhere, accidentally delete its own
 culture in favour of the machine mediocre. Effects will be felt, but not
 immediately enough to course-correct.</p>
-<h2 id="2025-07-08-1030--zed--claude-sonnet-4"><a class="header" href="#2025-07-08-1030--zed--claude-sonnet-4">2025-07-08 10:30 | Zed | Claude Sonnet 4</a></h2>
+<h2 id="2025-07-08"><a class="header" href="#2025-07-08">2025-07-08</a></h2>
+<h3 id="1030--zed--claude-sonnet-4"><a class="header" href="#1030--zed--claude-sonnet-4">10:30 | Zed | Claude Sonnet 4</a></h3>
 <p>This was a hybrid, guided workflow. I started by manually making changes to the
 LLM rules, then asked the agent to commit and push the rules, and then asked
 the agent to make further changes to the rules and commits:</p>
@@ -843,6 +844,32 @@ thoroughly.</p>
 <p>The result was so bad I manually backed out and closed the second PR it had
 created. By then, so much time had passed that the debate going on in the
 background had already reached a conclusion, removing the need for the split PR.</p>
+<h3 id="1310--zed--claude-sonnet-4"><a class="header" href="#1310--zed--claude-sonnet-4">13:10 | Zed | Claude Sonnet 4</a></h3>
+<p>I always get tripped up by the upside down syntax of <code>trap</code> in bash scripts, so I asked:</p>
+<blockquote>
+<p>@rules add a TRAP on error to print out all *.out files and then quit with
+the same exit code</p>
+</blockquote>
+<p>It did a little more than that, though put it all on one line so I had to ask:</p>
+<blockquote>
+<p>cool make it multiline for clarity</p>
+</blockquote>
+<p>Result:</p>
+<pre><code class="language-bash"># Trap on error to print all *.out files and exit with the same code
+trap '
+    exit_code=$?
+    echo "=== ERROR: Script failed with exit code $exit_code ==="
+    for file in *.out; do
+        if [ -f "$file" ]; then
+            echo "=== Contents of $file ==="
+            cat "$file"
+            echo "=== End of $file ==="
+        fi
+    done
+    exit $exit_code
+' ERR
+</code></pre>
+<p>I reviewed and manually committed and pushed.</p>
 
                     </main>
 
