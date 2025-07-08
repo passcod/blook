@@ -172,28 +172,31 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="ai-log"><a class="header" href="#ai-log">AI Log</a></h1>
-<p>This is a diary where I record every single interaction I knowingly have with an genAI system,
-over a one-month period from 2025-06-21 to 2025-07-20.</p>
-<p>Records are made first briefly by pasting text or code, and then revised with more detail later.
-This may give the impression that I constantly interrupted myself recording the interaction, but
-in fact most of the explanations describing the sequences of actions are reconstructed, then when
-appropriate or relevant an analysis is added on top. While I’ve recorded almost every interaction,
-and tried to preserve notes as best I could, the final version you’re reading has had several edit
-passes for clarity as well as redaction when appropriate (every single interaction means not only
-for personal use, but also for work — in fact most of the events are for work, as I simply don’t
-use AI a lot outside of that for various reasons).</p>
-<p>Most of this will be in code editors. I indicate the model when known. I have free access to Github
-Copilot Pro via opensource contributions (or something, idk what the criteria is exactly), I also
-use the free default tier of Zed’s AI models, and occasionally I might use local models run on GPU
-via Ollama or LM Studio. When not in code editors, I may use Gemini as part of my workplace’s Google
-subscription, and other genAIs embedded in various products.</p>
-<p>Google Translate and transcription services are not considered genAI by this research. Summaries on
-top of transcriptions are.</p>
+<p>This is a diary where I record every single interaction I knowingly have with
+an genAI system, over a one-month period from 2025-06-21 to 2025-07-20.</p>
+<p>Records are made first briefly by pasting text or code, and then revised with
+more detail later. This may give the impression that I constantly interrupted
+myself recording the interaction, but in fact most of the explanations
+describing the sequences of actions are reconstructed, then when appropriate or
+relevant an analysis is added on top. While I’ve recorded almost every
+interaction, and tried to preserve notes as best I could, the final version
+you’re reading has had several edit passes for clarity as well as redaction
+when appropriate (every single interaction means not only for personal use, but
+also for work — in fact most of the events are for work, as I simply don’t use
+AI a lot outside of that for various reasons).</p>
+<p>Most of this will be in code editors. I indicate the model when known. I have
+free access to Github Copilot Pro via opensource contributions (or something,
+idk what the criteria is exactly), I also use the free default tier of Zed’s AI
+models, and occasionally I might use local models run on GPU via Ollama or LM
+Studio. When not in code editors, I may use Gemini as part of my workplace’s
+Google subscription, and other genAIs embedded in various products.</p>
+<p>Google Translate and transcription services are not considered genAI by this
+research. Summaries on top of transcriptions are.</p>
 <p>Times are approximate and largely reconstructed.</p>
 <p>Cursor position when relevant is indicated with ‡.</p>
-<p>This is a tremendously long document; if you’re looking for overall analysis and retrospective, that
-will come in a later post: there is no point scrolling to the end if you’re not interested in the
-minutiae of the data.</p>
+<p>This is a tremendously long document; if you’re looking for overall analysis
+and retrospective, that will come in a later post: there is no point scrolling
+to the end if you’re not interested in the minutiae of the data.</p>
 <h2 id="2025-06-20"><a class="header" href="#2025-06-20">2025-06-20</a></h2>
 <h3 id="2330--zed--claude-sonnet-37"><a class="header" href="#2330--zed--claude-sonnet-37">23:30 | Zed | Claude Sonnet 3.7</a></h3>
 <p>I was writing a parser for the Mercurial ignore format. I typed:</p>
@@ -240,17 +243,27 @@ Instead, Zed autocompleted the entire function body:</p>
 	line
 }
 <span class="boring">}</span></code></pre></pre>
-<p>I was trying to deliberately think through parser approach and design, so it was kinda unwanted.</p>
-<p>For this experiment’s sake, though, I decided to keep it initially and review instead of immediately hitting Undo:</p>
+<p>I was trying to deliberately think through parser approach and design, so it
+was kinda unwanted.</p>
+<p>For this experiment’s sake, though, I decided to keep it initially and review
+instead of immediately hitting Undo:</p>
 <ul>
-<li><code>"string".to_string().padded().map(...)</code> is nonsense. this isn’t how the chumsky API works at all. Instead, I’d write something like <code>just("string").padded().to(...)</code>.</li>
-<li>even then, adding the padding to every call is silly, and also wrong, as whitespace is significant in this context.</li>
-<li>the pattern part can be considerably more things than would be matched by <code>text::ident</code>.</li>
-<li>the comment part needs to come after a <code>#</code>, which is completely absent from this approach</li>
-<li>the comment part also assumes that there will be a newline in the input, which is nonsense, especially in chumsky’s approach that parsers are complete by default.</li>
+<li><code>"string".to_string().padded().map(...)</code> is nonsense. this isn’t how the
+chumsky API works at all. Instead, I’d write something like
+<code>just("string").padded().to(...)</code>.</li>
+<li>even then, adding the padding to every call is silly, and also wrong, as
+whitespace is significant in this context.</li>
+<li>the pattern part can be considerably more things than would be matched by
+<code>text::ident</code>.</li>
+<li>the comment part needs to come after a <code>#</code>, which is completely absent from
+this approach</li>
+<li>the comment part also assumes that there will be a newline in the input,
+which is nonsense, especially in chumsky’s approach that parsers are complete
+by default.</li>
 </ul>
-<p>All in all, this was an unwanted interaction that had the right general structure but was utterly wrong on most details.
-I scrapped it and continued by hand, as I’d initially intended.</p>
+<p>All in all, this was an unwanted interaction that had the right general
+structure but was utterly wrong on most details. I scrapped it and continued by
+hand, as I’d initially intended.</p>
 <h3 id="2332--zed--claude-sonnet-4"><a class="header" href="#2332--zed--claude-sonnet-4">23:32 | Zed | Claude Sonnet 4</a></h3>
 <p>I typed:</p>
 <pre><pre class="playground"><code class="language-rust"><span class="boring">#![allow(unused)]
@@ -368,7 +381,8 @@ I scrapped it and continued by hand, as I’d initially intended.</p>
 </span><span class="boring">fn main() {
 </span>pub fn pattern_syntax&lt;'src&gt;() -&gt; impl Parser&lt;'src...
 <span class="boring">}</span></code></pre></pre>
-<p>including an entire body. This was not what I wanted at all, so I had to kill the suggestion and continue by hand.</p>
+<p>including an entire body. This was not what I wanted at all, so I had to kill
+the suggestion and continue by hand.</p>
 <h3 id="0350--zed--claude-sonnet-4"><a class="header" href="#0350--zed--claude-sonnet-4">03:50 | Zed | Claude Sonnet 4</a></h3>
 <p>I started writing an if-else expression:</p>
 <pre><pre class="playground"><code class="language-rust"><span class="boring">#![allow(unused)]
@@ -486,8 +500,12 @@ description…</p>
   .description('Upgrade Tamanu installation')
 </code></pre>
 <h3 id="1505--coderabbit"><a class="header" href="#1505--coderabbit">15:05 | CodeRabbit</a></h3>
-<p>I accepted <a href="https://github.com/beyondessential/tamanu/pull/7867#discussion_r2160628686">a commitable suggestion from a review comment</a>. The diff it was showing was unnecessarily long for the one-line change it proposed, but I figured it was just a generation error.</p>
-<p>However, after apply I went to check its work and found out that it had indeed completely fucked up, duplicating lines and breaking the build:</p>
+<p>I accepted <a href="https://github.com/beyondessential/tamanu/pull/7867#discussion_r2160628686">a commitable suggestion from a review
+comment</a>.
+The diff it was showing was unnecessarily long for the one-line change it
+proposed, but I figured it was just a generation error.</p>
+<p>However, after apply I went to check its work and found out that it had indeed
+completely fucked up, duplicating lines and breaking the build:</p>
 <pre><code class="language-ts">export async function up(query: QueryInterface): Promise&lt;void&gt; {
 export async function up(query: QueryInterface): Promise&lt;void&gt; {
   await query.sequelize.query(`
@@ -511,15 +529,17 @@ export async function up(query: QueryInterface): Promise&lt;void&gt; {
 </code></pre>
 <h2 id="2025-06-24"><a class="header" href="#2025-06-24">2025-06-24</a></h2>
 <h3 id="1600--zed--claude-sonnet-4-thinking"><a class="header" href="#1600--zed--claude-sonnet-4-thinking">16:00 | Zed | Claude Sonnet 4 Thinking</a></h3>
-<p>I was looking for the correct journalctl incantation to get just the messages, not the timestamps.
-I initially made a couple of regular DDG searches, but wasn’t getting good results:</p>
+<p>I was looking for the correct journalctl incantation to get just the messages,
+not the timestamps. I initially made a couple of regular DDG searches, but
+wasn’t getting good results:</p>
 <ul>
 <li>journalctl without timestamps</li>
 <li>journalctl just the message</li>
 </ul>
 <p>So I asked the chat-UI panel in my editor with the following prompt:</p>
 <blockquote>
-<p>give me the journalctl command to print logs with just the message content, not other information like timestamp and unit</p>
+<p>give me the journalctl command to print logs with just the message content,
+not other information like timestamp and unit</p>
 </blockquote>
 <p>Which returned the right answer (<code>-o cat</code>).</p>
 <p>Granted, trying this exact phrase in DDG returns the same answer (via a SU question).</p>
@@ -574,14 +594,18 @@ expressive 2-ary <code>.then()</code>:</p>
 <p>Mate how the fuck did you think deleting the package was a good idea???</p>
 <h3 id="1700--github-copilot-chat--claude-sonnet-4"><a class="header" href="#1700--github-copilot-chat--claude-sonnet-4">17:00 | Github Copilot Chat | Claude Sonnet 4</a></h3>
 <p>I was looking for what percentile I’m in, salary-wise, in New Zealand.</p>
-<p>I downloaded a CSV from figure.nz but it wasn’t in the format I wanted, so I got lazy and thought, okay, I’m gonna ask an AI to tell me how:</p>
+<p>I downloaded a CSV from figure.nz but it wasn’t in the format I wanted, so I
+got lazy and thought, okay, I’m gonna ask an AI to tell me how:</p>
 <blockquote>
-<p>given this CSV, write a Linux command line to extract only the rows of “Number of people earning a wage/salary” for 2024</p>
+<p>given this CSV, write a Linux command line to extract only the rows of
+“Number of people earning a wage/salary” for 2024</p>
 </blockquote>
-<p>As I finished typing, I realised this was actually pretty easy, so I went to do this:</p>
+<p>As I finished typing, I realised this was actually pretty easy, so I went to do
+this:</p>
 <pre><code class="language-console">rg 2024.+earning file.csv &gt; output.csv
 </code></pre>
-<p>However, I checked back and the AI had done basically the same thing, but also given me an extra option:</p>
+<p>However, I checked back and the AI had done basically the same thing, but also
+given me an extra option:</p>
 <blockquote>
 <p>If you want to include the header row as well, you can use:</p>
 <pre><code class="language-console">awk -F',' 'NR==1 || ($1 == "2024" &amp;&amp; $3 == "Number of people earning a wage/salary")' file.csv
@@ -654,6 +678,20 @@ really have a good idea right now about it.</p>
 <p>This review took me 15 minutes.</p>
 <p>Having done this, and convinced there’s no risk to deploy this to isolated test
 infrastructure, I did so, to see if it actually worked. It did not.</p>
+<h2 id="about-a-week-of-no-ai"><a class="header" href="#about-a-week-of-no-ai">about a week of no AI</a></h2>
+<p>Kinda ruins the experiment but I was very tired of this shit. It’s extra
+annoying to decide to not use AI for a bit because there’s no global “no AI”
+toggle in Zed (or VSCode). So how this really manifested is that the
+autocomplete would keep suggesting stuff and I would hit escape to quiet it,
+repeatedly. Unfortunately there’s no actual intelligence I can talk to and say
+“just shut up for now” — a complaint I have with a lot of other computers, from
+Maps navigation while driving (I know the road and just want to listen to the
+fucking podcast, shut up until we get to the bloody Auckland nightmare
+exchanger) to ads (nuff said) to shops sending me fifty emails for a single
+delivery (all I need is the tracking number and if there’s any delays in
+sending it, not a by-the-minute report of how you’ve packed the order and then
+a subpar proxying of the messages you get from the same tracking number; and
+for fuck’s sake don’t make me login to obtain the fucking tracking).</p>
 <h2 id="2025-07-08-1730--zed--claude-sonnet-4"><a class="header" href="#2025-07-08-1730--zed--claude-sonnet-4">2025-07-08 17:30 | Zed | Claude Sonnet 4</a></h2>
 <p>I wanted to try agentic mode again on something less complicated, a fairly
 mechanical conversion of a package from Javascript to Typescript. This is
@@ -671,7 +709,8 @@ happened when reviewing a conversation or interaction with an agent. It’s both
 really annoying and honestly kinda telling.)</p>
 <p>Anyway, here’s the prompt:</p>
 <blockquote>
-<p>The api-client package is written in javascript, but now we need it in typescript contexts. Without changing any functionality, switch it over.</p>
+<p>The api-client package is written in javascript, but now we need it in
+typescript contexts. Without changing any functionality, switch it over.</p>
 </blockquote>
 <p>This was also given the “LLM rules” context from the work repo.</p>
 <p>It immediately went along and started adding types and changing file extensions
