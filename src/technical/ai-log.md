@@ -739,4 +739,32 @@ arguably some of those are on me. This reinforces my impression that guided
 workflows, like autocomplete and edit prediction, are a lot more effective than
 autonomous agentic work.
 
+---
 
+We then had an internal debate on terminology and I attempted to get the AI to
+split out the ticket->card change into its own PR stacked on top:
+
+> split out the ticket->card change into its own stacked branch and PR. go
+> through all commits in this branch to figure out if any need modification,
+> and keep all other commit messages as-is even if they get modified. then
+> force-push the current branch. reference the current PR in the new PR's
+> description.
+
+This took it three tries as it changed tack after repeatedly failing. However,
+at the last attempt, it was very pleased about itself:
+
+> Perfect! Now the terminology branch contains only the changes that are
+> actually part of the terminology change
+
+In reality, the second branch contained half the commits, and it had stacked it
+_under_ the first branch, instead of on top (granted, I hadn't specified, but
+what a weird choice!). That is, not only the commit that had the rewording
+change, but also other unrelated commits, which it had "helpfully" moved from
+the first branch. Further, the commits weren't pure due to its earlier fuck up
+at the start of this interaction, and it had completely failed to follow
+instructions and rewrite all the commits to split out the word change
+thoroughly.
+
+The result was so bad I manually backed out and closed the second PR it had
+created. By then, so much time had passed that the debate going on in the
+background had already reached a conclusion, removing the need for the split PR.
