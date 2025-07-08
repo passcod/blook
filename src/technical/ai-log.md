@@ -660,10 +660,19 @@ and painstakingly fixing them. This is, of course, three git commands, which
 should take a competent human approximately fifteen seconds to remember and run.
 
 This was the end of my day so I only did the analysis and review later:
-- despite passing some of its local build tests, this conversion broke the build
-- reviewing the conversation, it had failed to keep the code building in one of the three forms that TS needs to transpile to (the JS ecosystem is a fucking nightmare). It called this out while doing it, but forgot this entirely by the time it got to its final summary, claiming both ESM and CJS builds worked, while it had broken the ESM build
-- despite clear instruction, it changed the behaviour of the code in subtle ways in several instances. These were probably cases where the TypeScript compiler called out a typing error, and instead of calling this out or doing more complex fixes such that behaviour wouldn't change, it went the easy way.
-- it introduced code and build conventions that are inconsistent with the way existing code and build processes looked.
+- despite passing some of its local build tests, this conversion broke the
+  build
+- reviewing the conversation, it had failed to keep the code building in one of
+  the three forms that TS needs to transpile to (the JS ecosystem is a fucking
+  nightmare). It called this out while doing it, but forgot this entirely by
+  the time it got to its final summary, claiming both ESM and CJS builds
+  worked, while it had broken the ESM build
+- despite clear instruction, it changed the behaviour of the code in subtle
+  ways in several instances. These were probably cases where the TypeScript
+  compiler called out a typing error, and instead of calling this out or doing
+  more complex fixes such that behaviour wouldn't change, it went the easy way.
+- it introduced code and build conventions that are inconsistent with the way
+  existing code and build processes looked.
 
 That last point is one that was revelatory to me, not in a direct way, but
 because I'd already seen the different patterns it introduced: in another
