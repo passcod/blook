@@ -1,33 +1,36 @@
 # AI Log
 
-This is a diary where I record every single interaction I knowingly have with an genAI system,
-over a one-month period from 2025-06-21 to 2025-07-20.
+This is a diary where I record every single interaction I knowingly have with
+an genAI system, over a one-month period from 2025-06-21 to 2025-07-20.
 
-Records are made first briefly by pasting text or code, and then revised with more detail later.
-This may give the impression that I constantly interrupted myself recording the interaction, but
-in fact most of the explanations describing the sequences of actions are reconstructed, then when
-appropriate or relevant an analysis is added on top. While I've recorded almost every interaction,
-and tried to preserve notes as best I could, the final version you're reading has had several edit
-passes for clarity as well as redaction when appropriate (every single interaction means not only
-for personal use, but also for work — in fact most of the events are for work, as I simply don't
-use AI a lot outside of that for various reasons).
+Records are made first briefly by pasting text or code, and then revised with
+more detail later. This may give the impression that I constantly interrupted
+myself recording the interaction, but in fact most of the explanations
+describing the sequences of actions are reconstructed, then when appropriate or
+relevant an analysis is added on top. While I've recorded almost every
+interaction, and tried to preserve notes as best I could, the final version
+you're reading has had several edit passes for clarity as well as redaction
+when appropriate (every single interaction means not only for personal use, but
+also for work — in fact most of the events are for work, as I simply don't use
+AI a lot outside of that for various reasons).
 
-Most of this will be in code editors. I indicate the model when known. I have free access to Github
-Copilot Pro via opensource contributions (or something, idk what the criteria is exactly), I also
-use the free default tier of Zed's AI models, and occasionally I might use local models run on GPU
-via Ollama or LM Studio. When not in code editors, I may use Gemini as part of my workplace's Google
-subscription, and other genAIs embedded in various products.
+Most of this will be in code editors. I indicate the model when known. I have
+free access to Github Copilot Pro via opensource contributions (or something,
+idk what the criteria is exactly), I also use the free default tier of Zed's AI
+models, and occasionally I might use local models run on GPU via Ollama or LM
+Studio. When not in code editors, I may use Gemini as part of my workplace's
+Google subscription, and other genAIs embedded in various products.
 
-Google Translate and transcription services are not considered genAI by this research. Summaries on
-top of transcriptions are.
+Google Translate and transcription services are not considered genAI by this
+research. Summaries on top of transcriptions are.
 
 Times are approximate and largely reconstructed.
 
 Cursor position when relevant is indicated with ‡.
 
-This is a tremendously long document; if you're looking for overall analysis and retrospective, that
-will come in a later post: there is no point scrolling to the end if you're not interested in the
-minutiae of the data.
+This is a tremendously long document; if you're looking for overall analysis
+and retrospective, that will come in a later post: there is no point scrolling
+to the end if you're not interested in the minutiae of the data.
 
 ## 2025-06-20
 
@@ -79,18 +82,28 @@ pub fn line<'src>() -> impl Parser<'src, &'src str, Line, ParserErr<'src>> {
 }
 ```
 
-I was trying to deliberately think through parser approach and design, so it was kinda unwanted.
+I was trying to deliberately think through parser approach and design, so it
+was kinda unwanted.
 
-For this experiment's sake, though, I decided to keep it initially and review instead of immediately hitting Undo:
+For this experiment's sake, though, I decided to keep it initially and review
+instead of immediately hitting Undo:
 
-- `"string".to_string().padded().map(...)` is nonsense. this isn't how the chumsky API works at all. Instead, I'd write something like `just("string").padded().to(...)`.
-- even then, adding the padding to every call is silly, and also wrong, as whitespace is significant in this context.
-- the pattern part can be considerably more things than would be matched by `text::ident`.
-- the comment part needs to come after a `#`, which is completely absent from this approach
-- the comment part also assumes that there will be a newline in the input, which is nonsense, especially in chumsky's approach that parsers are complete by default.
+- `"string".to_string().padded().map(...)` is nonsense. this isn't how the
+  chumsky API works at all. Instead, I'd write something like
+  `just("string").padded().to(...)`.
+- even then, adding the padding to every call is silly, and also wrong, as
+  whitespace is significant in this context.
+- the pattern part can be considerably more things than would be matched by
+  `text::ident`.
+- the comment part needs to come after a `#`, which is completely absent from
+  this approach
+- the comment part also assumes that there will be a newline in the input,
+  which is nonsense, especially in chumsky's approach that parsers are complete
+  by default.
 
-All in all, this was an unwanted interaction that had the right general structure but was utterly wrong on most details.
-I scrapped it and continued by hand, as I'd initially intended.
+All in all, this was an unwanted interaction that had the right general
+structure but was utterly wrong on most details. I scrapped it and continued by
+hand, as I'd initially intended.
 
 ### 23:32 | Zed | Claude Sonnet 4
 
@@ -226,7 +239,8 @@ and the autocomplete started suggesting something like
 pub fn pattern_syntax<'src>() -> impl Parser<'src...
 ```
 
-including an entire body. This was not what I wanted at all, so I had to kill the suggestion and continue by hand.
+including an entire body. This was not what I wanted at all, so I had to kill
+the suggestion and continue by hand.
 
 ### 03:50 | Zed | Claude Sonnet 4
 
@@ -392,9 +406,13 @@ export const upgradeCommand = new Command('upgrade')‡
 
 ### 15:05 | CodeRabbit
 
-I accepted [a commitable suggestion from a review comment](https://github.com/beyondessential/tamanu/pull/7867#discussion_r2160628686). The diff it was showing was unnecessarily long for the one-line change it proposed, but I figured it was just a generation error.
+I accepted [a commitable suggestion from a review
+comment](https://github.com/beyondessential/tamanu/pull/7867#discussion_r2160628686).
+The diff it was showing was unnecessarily long for the one-line change it
+proposed, but I figured it was just a generation error.
 
-However, after apply I went to check its work and found out that it had indeed completely fucked up, duplicating lines and breaking the build:
+However, after apply I went to check its work and found out that it had indeed
+completely fucked up, duplicating lines and breaking the build:
 
 ```ts
 export async function up(query: QueryInterface): Promise<void> {
@@ -423,15 +441,17 @@ export async function up(query: QueryInterface): Promise<void> {
 
 ### 16:00 | Zed | Claude Sonnet 4 Thinking
 
-I was looking for the correct journalctl incantation to get just the messages, not the timestamps.
-I initially made a couple of regular DDG searches, but wasn't getting good results:
+I was looking for the correct journalctl incantation to get just the messages,
+not the timestamps. I initially made a couple of regular DDG searches, but
+wasn't getting good results:
 
 - journalctl without timestamps
 - journalctl just the message
 
 So I asked the chat-UI panel in my editor with the following prompt:
 
-> give me the journalctl command to print logs with just the message content, not other information like timestamp and unit
+> give me the journalctl command to print logs with just the message content,
+> not other information like timestamp and unit
 
 Which returned the right answer (`-o cat`).
 
@@ -512,17 +532,21 @@ Mate how the fuck did you think deleting the package was a good idea???
 
 I was looking for what percentile I'm in, salary-wise, in New Zealand.
 
-I downloaded a CSV from figure.nz but it wasn't in the format I wanted, so I got lazy and thought, okay, I'm gonna ask an AI to tell me how:
+I downloaded a CSV from figure.nz but it wasn't in the format I wanted, so I
+got lazy and thought, okay, I'm gonna ask an AI to tell me how:
 
-> given this CSV, write a Linux command line to extract only the rows of "Number of people earning a wage/salary" for 2024
+> given this CSV, write a Linux command line to extract only the rows of
+> "Number of people earning a wage/salary" for 2024
 
-As I finished typing, I realised this was actually pretty easy, so I went to do this:
+As I finished typing, I realised this was actually pretty easy, so I went to do
+this:
 
 ```console
 rg 2024.+earning file.csv > output.csv
 ```
 
-However, I checked back and the AI had done basically the same thing, but also given me an extra option:
+However, I checked back and the AI had done basically the same thing, but also
+given me an extra option:
 
 > If you want to include the header row as well, you can use:
 >
@@ -615,6 +639,22 @@ This review took me 15 minutes.
 Having done this, and convinced there's no risk to deploy this to isolated test
 infrastructure, I did so, to see if it actually worked. It did not.
 
+## about a week of no AI
+
+Kinda ruins the experiment but I was very tired of this shit. It's extra
+annoying to decide to not use AI for a bit because there's no global "no AI"
+toggle in Zed (or VSCode). So how this really manifested is that the
+autocomplete would keep suggesting stuff and I would hit escape to quiet it,
+repeatedly. Unfortunately there's no actual intelligence I can talk to and say
+"just shut up for now" — a complaint I have with a lot of other computers, from
+Maps navigation while driving (I know the road and just want to listen to the
+fucking podcast, shut up until we get to the bloody Auckland nightmare
+exchanger) to ads (nuff said) to shops sending me fifty emails for a single
+delivery (all I need is the tracking number and if there's any delays in
+sending it, not a by-the-minute report of how you've packed the order and then
+a subpar proxying of the messages you get from the same tracking number; and
+for fuck's sake don't make me login to obtain the fucking tracking).
+
 ## 2025-07-08 17:30 | Zed | Claude Sonnet 4
 
 I wanted to try agentic mode again on something less complicated, a fairly
@@ -635,7 +675,8 @@ really annoying and honestly kinda telling.)
 
 Anyway, here's the prompt:
 
-> The api-client package is written in javascript, but now we need it in typescript contexts. Without changing any functionality, switch it over.
+> The api-client package is written in javascript, but now we need it in
+> typescript contexts. Without changing any functionality, switch it over.
 
 This was also given the "LLM rules" context from the work repo.
 
