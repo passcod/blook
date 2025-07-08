@@ -825,7 +825,7 @@ background had already reached a conclusion, removing the need for the split PR.
 
 I always get tripped up by the upside down syntax of `trap` in bash scripts, so I asked:
 
-> @rules add a TRAP on error to print out all *.out files and then quit with
+> @rules add a TRAP on error to print out all \*.out files and then quit with
 > the same exit code
 
 It did a little more than that, though put it all on one line so I had to ask:
