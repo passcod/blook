@@ -856,3 +856,10 @@ trap '
 
 I reviewed and manually committed and pushed.
 
+## and then I ran out of "premium requests"
+
+which I think means all the agentic stuff.
+
+What was that, three workflows? Per month?? Wild.
+
+##
