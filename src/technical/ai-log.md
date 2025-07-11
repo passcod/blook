@@ -920,3 +920,23 @@ the same as the current local time in New Zealand in winter. NZDT (summer time)
 is UTC+13, but if it was 17:03 in the kiwi summer, Fiji would be at 16:03.
 
 I can tell we're going to have tremendous amounts of _fun_.
+
+I do one final test: I make a change, and ask:
+
+> commit and push
+
+It answers:
+
+> Hello! How can I assist you today?
+
+...alright, maybe it needs a little more prompting? Let's try this:
+
+> look at the git change i just made, commit it with an appropriate message, and push
+
+Reply:
+
+> Hi there! How can I assist you today?
+
+Right. Into the trash you go. I'll just use online models, maybe I can score a
+free plan somewhere. Maybe Zed's free subscription thing still has free credits?
+It's Friday anyway, I'm not going to be back on using AI until next week.
