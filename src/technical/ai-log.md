@@ -860,6 +860,24 @@ I reviewed and manually committed and pushed.
 
 which I think means all the agentic stuff.
 
-What was that, three workflows? Per month?? Wild.
+What was that, three workflows? Per month?? Wild. (Right after this, Github
+actually made an update to their pricing model to reduce the premium request
+usage... lol.)
 
-##
+So I decide to try local models. My work laptop is technically a "gaming"
+laptop with an RTX 2070 8GB, so I should be able to have some okay models,
+right?
+
+Right. Except that getting it to actually _work_ was another story. I install
+LM Studio, as that has direct support in Zed. I select a model, and Zed
+promptly says it doesn't support tools. Okay. What? After trawling issues, it
+seems the tool support is in an unreleased version of LM Studio, and there's no
+override you can enable anywhere. So I update to LM Studio Beta. Which still
+didn't work. I then try to use Ollama. It doesn't support Vulkan. It supports
+CUDA, but for some reason, doesn't manage to detect my GPU using CUDA. LM
+Studio supports Vulkan and sees my GPU through Vulkan. There's an Ollama fork
+that supports Vulkan. It doesn't compile.
+
+I am. Very tired.
+
+I decide to go for the Zed free plan instead to finish the experiment.
