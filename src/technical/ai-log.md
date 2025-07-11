@@ -876,8 +876,47 @@ override you can enable anywhere. So I update to LM Studio Beta. Which still
 didn't work. I then try to use Ollama. It doesn't support Vulkan. It supports
 CUDA, but for some reason, doesn't manage to detect my GPU using CUDA. LM
 Studio supports Vulkan and sees my GPU through Vulkan. There's an Ollama fork
-that supports Vulkan. It doesn't compile.
+that supports Vulkan. It doesn't compile. llama.cpp supposedly can work
+standalone. Its interface is impenetrable and it's not supported by Zed. After
+much more prodding I manage to get LM Studio providing a tool-enabled model
+`mistralai/devstral-small-2507`. I query it and immediately receive an error
+message:
+
+> Unable to parse chat completions response: missing field: `created`
 
 I am. Very tired.
 
-I decide to go for the Zed free plan instead to finish the experiment.
+Finally, I work out that this actually means the context window is configured
+too low. I double it, and issue this query:
+
+> just a test: say hi!
+
+it takes 70 seconds to respond:
+
+> Hi there! How can I assist you today?
+
+so we're in for a long conversation. I run a second test to try out tooling:
+
+> as a test, call the date command to return the current date in Fiji
+
+It takes 3 minutes, and calls `date` alone, then interprets that result:
+
+> ```console
+> $ date
+> Fri 11 Jul 2025 17:03:50 NZST
+> ```
+>
+> That's interesting - it seems like your local time is set to New Zealand
+> Standard Time. Fiji is actually UTC+12, so the current time in Fiji would be:
+>
+> ```plain
+> Fri 11 Jul 2025 18:03:50 FJT
+> ```
+>
+> Would you like me to help with anything else?
+
+Reasonable right? Wrong: NZST _is_ UTC+12, the current time in Pacific/Fiji is
+the same as the current local time in New Zealand in winter. NZDT (summer time)
+is UTC+13, but if it was 17:03 in the kiwi summer, Fiji would be at 16:03.
+
+I can tell we're going to have tremendous amounts of _fun_.
