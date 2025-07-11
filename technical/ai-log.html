@@ -875,8 +875,23 @@ trap '
 <p>I reviewed and manually committed and pushed.</p>
 <h2 id="and-then-i-ran-out-of-premium-requests"><a class="header" href="#and-then-i-ran-out-of-premium-requests">and then I ran out of “premium requests”</a></h2>
 <p>which I think means all the agentic stuff.</p>
-<p>What was that, three workflows? Per month?? Wild.</p>
-<h2 id=""><a class="header" href="#"></a></h2>
+<p>What was that, three workflows? Per month?? Wild. (Right after this, Github
+actually made an update to their pricing model to reduce the premium request
+usage… lol.)</p>
+<p>So I decide to try local models. My work laptop is technically a “gaming”
+laptop with an RTX 2070 8GB, so I should be able to have some okay models,
+right?</p>
+<p>Right. Except that getting it to actually <em>work</em> was another story. I install
+LM Studio, as that has direct support in Zed. I select a model, and Zed
+promptly says it doesn’t support tools. Okay. What? After trawling issues, it
+seems the tool support is in an unreleased version of LM Studio, and there’s no
+override you can enable anywhere. So I update to LM Studio Beta. Which still
+didn’t work. I then try to use Ollama. It doesn’t support Vulkan. It supports
+CUDA, but for some reason, doesn’t manage to detect my GPU using CUDA. LM
+Studio supports Vulkan and sees my GPU through Vulkan. There’s an Ollama fork
+that supports Vulkan. It doesn’t compile.</p>
+<p>I am. Very tired.</p>
+<p>I decide to go for the Zed free plan instead to finish the experiment.</p>
 
                     </main>
 
