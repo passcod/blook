@@ -1,7 +1,7 @@
 # AI Log
 
 This is a diary where I record every single interaction I knowingly have with
-an genAI system, over a one-month period from 2025-06-21 to 2025-07-20.
+an genAI system, over several weeks from 2025-06-20 to 2025-07-10.
 
 Records are made first briefly by pasting text or code, and then revised with
 more detail later. This may give the impression that I constantly interrupted
@@ -18,23 +18,18 @@ This document itself was written "by hand"; no prose was edited or suggested by
 AI (I used Vim, which I keep free of AI). You can tell because I used
 semicolons correctly.
 
-Most of this will be in code editors. I indicate the model when known. I have
+Most of this is in code editors. I indicate the model when known. I have
 free access to Github Copilot Pro via opensource contributions (or something,
 idk what the criteria is exactly), I also use the free default tier of Zed's AI
-models, and occasionally I might use local models run on GPU via Ollama or LM
-Studio. When not in code editors, I may use Gemini as part of my workplace's
-Google subscription, and other genAIs embedded in various products.
-
-Google Translate and transcription services are not considered genAI by this
-research. Summaries on top of transcriptions are.
+models. 99% of it is Claude, from past experience most of the others commercial
+models are a significant step down in quality.
 
 Times are approximate and largely reconstructed.
 
 Cursor position when relevant is indicated with ‡.
 
-This is a tremendously long document; if you're looking for overall analysis
-and retrospective, that will come in a later post: there is no point scrolling
-to the end if you're not interested in the minutiae of the data.
+This is a pretty long document; it has some analysis inline but I'll do an overall
+analysis and retrospective in a later post.
 
 ## 2025-06-20
 
@@ -940,3 +935,10 @@ Reply:
 Right. Into the trash you go. I'll just use online models, maybe I can score a
 free plan somewhere. Maybe Zed's free subscription thing still has free credits?
 It's Friday anyway, I'm not going to be back on using AI until next week.
+
+Originally I was going to run this experiment for a full month but I decided to
+end it early here due to the tedium and general frustration and perhaps the
+realisation that this wasn't as valuable as I thought.
+
+An interesting paper on qualitative analysis of AI usage done by actual researchers
+is here: <https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/>
