@@ -38,6 +38,7 @@
             const path_to_root = "../";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="../toc.js"></script>
@@ -94,10 +95,13 @@
                 sidebar = sidebar || 'visible';
             } else {
                 sidebar = 'hidden';
+                sidebar_toggle.checked = false;
             }
-            sidebar_toggle.checked = sidebar === 'visible';
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -151,7 +155,12 @@
 
                 <div id="search-wrapper" class="hidden">
                     <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
                     </form>
                     <div id="searchresults-outer" class="searchresults-outer hidden">
                         <div id="searchresults-header" class="searchresults-header"></div>
@@ -173,7 +182,7 @@
                     <main>
                         <h1 id="ai-log"><a class="header" href="#ai-log">AI Log</a></h1>
 <p>This is a diary where I record every single interaction I knowingly have with
-an genAI system, over a one-month period from 2025-06-21 to 2025-07-20.</p>
+an genAI system, over several weeks from 2025-06-20 to 2025-07-10.</p>
 <p>Records are made first briefly by pasting text or code, and then revised with
 more detail later. This may give the impression that I constantly interrupted
 myself recording the interaction, but in fact most of the explanations
@@ -187,19 +196,15 @@ AI a lot outside of that for various reasons).</p>
 <p>This document itself was written “by hand”; no prose was edited or suggested by
 AI (I used Vim, which I keep free of AI). You can tell because I used
 semicolons correctly.</p>
-<p>Most of this will be in code editors. I indicate the model when known. I have
+<p>Most of this is in code editors. I indicate the model when known. I have
 free access to Github Copilot Pro via opensource contributions (or something,
 idk what the criteria is exactly), I also use the free default tier of Zed’s AI
-models, and occasionally I might use local models run on GPU via Ollama or LM
-Studio. When not in code editors, I may use Gemini as part of my workplace’s
-Google subscription, and other genAIs embedded in various products.</p>
-<p>Google Translate and transcription services are not considered genAI by this
-research. Summaries on top of transcriptions are.</p>
+models. 99% of it is Claude, from past experience most of the others commercial
+models are a significant step down in quality.</p>
 <p>Times are approximate and largely reconstructed.</p>
 <p>Cursor position when relevant is indicated with ‡.</p>
-<p>This is a tremendously long document; if you’re looking for overall analysis
-and retrospective, that will come in a later post: there is no point scrolling
-to the end if you’re not interested in the minutiae of the data.</p>
+<p>This is a pretty long document; it has some analysis inline but I’ll do an overall
+analysis and retrospective in a later post.</p>
 <h2 id="2025-06-20"><a class="header" href="#2025-06-20">2025-06-20</a></h2>
 <h3 id="2330--zed--claude-sonnet-37"><a class="header" href="#2330--zed--claude-sonnet-37">23:30 | Zed | Claude Sonnet 3.7</a></h3>
 <p>I was writing a parser for the Mercurial ignore format. I typed:</p>
@@ -945,6 +950,11 @@ is UTC+13, but if it was 17:03 in the kiwi summer, Fiji would be at 16:03.</p>
 <p>Right. Into the trash you go. I’ll just use online models, maybe I can score a
 free plan somewhere. Maybe Zed’s free subscription thing still has free credits?
 It’s Friday anyway, I’m not going to be back on using AI until next week.</p>
+<p>Originally I was going to run this experiment for a full month but I decided to
+end it early here due to the tedium and general frustration and perhaps the
+realisation that this wasn’t as valuable as I thought.</p>
+<p>An interesting paper on qualitative analysis of AI usage done by actual researchers
+is here: <a href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/">https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/</a></p>
 
                     </main>
 
@@ -992,6 +1002,7 @@ It’s Friday anyway, I’m not going to be back on using AI until next week.</p
         <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
+
 
 
     </div>
