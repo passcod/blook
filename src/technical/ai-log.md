@@ -655,6 +655,12 @@ sending it, not a by-the-minute report of how you've packed the order and then
 a subpar proxying of the messages you get from the same tracking number; and
 for fuck's sake don't make me login to obtain the fucking tracking).
 
+A global permanent toggle would be useful, but perhaps something even better
+would be something that detects that X suggestions have been instantly rejected
+in Y seconds (this shouldn't be too hard to do) and proposes to toggle off for
+the next hour. That would reduce the tedium when editing parts where Zeta is
+unhelpful, without removing the capability altogether. Something like that.
+
 ## 2025-07-08 17:30 | Zed | Claude Sonnet 4
 
 I wanted to try agentic mode again on something less complicated, a fairly
