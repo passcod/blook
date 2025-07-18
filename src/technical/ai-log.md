@@ -33,7 +33,7 @@ analysis and retrospective in a later post.
 
 ## 2025-06-20
 
-### 23:30 | Zed | Claude Sonnet 3.7
+### 23:30 | Zed | Zeta
 
 I was writing a parser for the Mercurial ignore format. I typed:
 
@@ -104,7 +104,7 @@ All in all, this was an unwanted interaction that had the right general
 structure but was utterly wrong on most details. I scrapped it and continued by
 hand, as I'd initially intended.
 
-### 23:32 | Zed | Claude Sonnet 4
+### 23:32 | Zed | Zeta
 
 I typed:
 
@@ -148,7 +148,7 @@ I then went to review the literals for the prefixes from the source material.
 
 ## 2025-06-21
 
-### 01:22 | Zed | Claude Sonnet 4
+### 01:22 | Zed | Zeta
 
 I added the `, pattern` part below:
 
@@ -170,7 +170,7 @@ And accepted an edit suggestion for the following.
 		})
 ```
 
-### 01:25 | Zed | Claude Sonnet 4
+### 01:25 | Zed | Zeta
 
 I started with:
 
@@ -224,7 +224,7 @@ And then figured it out, hit Undo twice, and wrote the correct change:
 		})
 ```
 
-### 03:15 | Zed | Claude Sonnet 4
+### 03:15 | Zed | Zeta
 
 I started writing
 
@@ -241,7 +241,7 @@ pub fn pattern_syntax<'src>() -> impl Parser<'src...
 including an entire body. This was not what I wanted at all, so I had to kill
 the suggestion and continue by hand.
 
-### 03:50 | Zed | Claude Sonnet 4
+### 03:50 | Zed | Zeta
 
 I started writing an if-else expression:
 
@@ -257,12 +257,12 @@ and it autocompleted correctly:
 
 ## 2025-06-22
 
-### 03:30 to 04:30 | Zed | Claude Sonnet 4
+### 03:30 to 04:30 | Zed | Zeta
 
 A series of about 20 interactions where my code editor would keep suggesting
 stupid shit and I had to keep telling it to fuck off.
 
-### 20:45 | Zed | Claude Sonnet 4
+### 20:45 | Zed | Zeta
 
 While mass-rewriting tests using multiple selections, two weren't in the same
 layout as the others and got messed up. I fixed the first by hand, then Zed
@@ -292,7 +292,7 @@ To:
 ),
 ```
 
-### 21:20 | Zed | Claude Sonnet 4
+### 21:20 | Zed | Zeta
 
 Writing a test, I started writing the expected value:
 
@@ -327,7 +327,7 @@ fn segmented() {
 Searched for `stray digicode safe`. The "AI assist" feature returned two codes,
 one of which I already had. The second worked in game, so I didn't look further.
 
-### 13:05 | Zed | Claude Sonnet 4 Thinking
+### 13:05 | Zed | Zeta
 
 I couldn't recall the named captures regex syntax so I wrote:
 
@@ -345,7 +345,7 @@ On one hand, that does show me the right syntax, but on the other, it
 hallucinated a whole additional capture and an input syntax that was not what I
 was looking for, and also discarded the NOT operator.
 
-### 13:06 | Zed | Claude Sonnet 4 Thinking
+### 13:06 | Zed | Zeta
 
 Having rewritten the regex to match what I wanted, I applied it to my input:
 
@@ -361,7 +361,7 @@ const re = /^(?<file>.+?)(\/(?<version>\d+))?$/;
 const { file, version } = re.exec(step)?.groups || {};
 ```
 
-### 13:35 | Zed | Claude Sonnet 4 Thinking
+### 13:35 | Zed | Zeta
 
 I copied a test case block to modify it into a new one, rewrote the `it`
 description...
@@ -386,7 +386,7 @@ it('needsStep throws when index is missing', async () => {
 
 This does what I want and the test passes.
 
-### 14:00 | Zed | Claude Sonnet 4 Thinking
+### 14:00 | Zed | Zeta
 
 I added an alias in one file:
 
@@ -505,7 +505,7 @@ Which is really the spiritual equivalent of the Rust code:
 query().and_then(|f| f.get(0)).unwrap_or_default();
 ```
 
-### 15:50 | Zed | Claude Sonnet 4
+### 15:50 | Zed | Zeta
 
 Was typing this and wanted to tab-complete it:
 
