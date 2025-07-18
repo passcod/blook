@@ -206,7 +206,7 @@ models are a significant step down in quality.</p>
 <p>This is a pretty long document; it has some analysis inline but I’ll do an overall
 analysis and retrospective in a later post.</p>
 <h2 id="2025-06-20"><a class="header" href="#2025-06-20">2025-06-20</a></h2>
-<h3 id="2330--zed--claude-sonnet-37"><a class="header" href="#2330--zed--claude-sonnet-37">23:30 | Zed | Claude Sonnet 3.7</a></h3>
+<h3 id="2330--zed--zeta"><a class="header" href="#2330--zed--zeta">23:30 | Zed | Zeta</a></h3>
 <p>I was writing a parser for the Mercurial ignore format. I typed:</p>
 <pre><pre class="playground"><code class="language-rust"><span class="boring">#![allow(unused)]
 </span><span class="boring">fn main() {
@@ -272,7 +272,7 @@ by default.</li>
 <p>All in all, this was an unwanted interaction that had the right general
 structure but was utterly wrong on most details. I scrapped it and continued by
 hand, as I’d initially intended.</p>
-<h3 id="2332--zed--claude-sonnet-4"><a class="header" href="#2332--zed--claude-sonnet-4">23:32 | Zed | Claude Sonnet 4</a></h3>
+<h3 id="2332--zed--zeta"><a class="header" href="#2332--zed--zeta">23:32 | Zed | Zeta</a></h3>
 <p>I typed:</p>
 <pre><pre class="playground"><code class="language-rust"><span class="boring">#![allow(unused)]
 </span><span class="boring">fn main() {
@@ -312,7 +312,7 @@ hand, as I’d initially intended.</p>
 <li><code>file</code> was wrong; it should have been <code>filepath</code>. Kinda baffling that it got that wrong given it correctly replicated the variant name.</li>
 </ul>
 <h2 id="2025-06-21"><a class="header" href="#2025-06-21">2025-06-21</a></h2>
-<h3 id="0122--zed--claude-sonnet-4"><a class="header" href="#0122--zed--claude-sonnet-4">01:22 | Zed | Claude Sonnet 4</a></h3>
+<h3 id="0122--zed--zeta"><a class="header" href="#0122--zed--zeta">01:22 | Zed | Zeta</a></h3>
 <p>I added the <code>, pattern</code> part below:</p>
 <pre><pre class="playground"><code class="language-rust"><span class="boring">#![allow(unused)]
 </span><span class="boring">fn main() {
@@ -331,7 +331,7 @@ hand, as I’d initially intended.</p>
 			comment: None,
 		})
 <span class="boring">}</span></code></pre></pre>
-<h3 id="0125--zed--claude-sonnet-4"><a class="header" href="#0125--zed--claude-sonnet-4">01:25 | Zed | Claude Sonnet 4</a></h3>
+<h3 id="0125--zed--zeta"><a class="header" href="#0125--zed--zeta">01:25 | Zed | Zeta</a></h3>
 <p>I started with:</p>
 <pre><pre class="playground"><code class="language-rust"><span class="boring">#![allow(unused)]
 </span><span class="boring">fn main() {
@@ -378,7 +378,7 @@ hand, as I’d initially intended.</p>
 			comment,
 		})
 <span class="boring">}</span></code></pre></pre>
-<h3 id="0315--zed--claude-sonnet-4"><a class="header" href="#0315--zed--claude-sonnet-4">03:15 | Zed | Claude Sonnet 4</a></h3>
+<h3 id="0315--zed--zeta"><a class="header" href="#0315--zed--zeta">03:15 | Zed | Zeta</a></h3>
 <p>I started writing</p>
 <pre><pre class="playground"><code class="language-rust"><span class="boring">#![allow(unused)]
 </span><span class="boring">fn main() {
@@ -391,7 +391,7 @@ hand, as I’d initially intended.</p>
 <span class="boring">}</span></code></pre></pre>
 <p>including an entire body. This was not what I wanted at all, so I had to kill
 the suggestion and continue by hand.</p>
-<h3 id="0350--zed--claude-sonnet-4"><a class="header" href="#0350--zed--claude-sonnet-4">03:50 | Zed | Claude Sonnet 4</a></h3>
+<h3 id="0350--zed--zeta"><a class="header" href="#0350--zed--zeta">03:50 | Zed | Zeta</a></h3>
 <p>I started writing an if-else expression:</p>
 <pre><pre class="playground"><code class="language-rust"><span class="boring">#![allow(unused)]
 </span><span class="boring">fn main() {
@@ -403,10 +403,10 @@ the suggestion and continue by hand.</p>
 </span>.map(|opt| opt.and_then(|pat| if pat.is_empty() { None } else { Some(pat) })),
 <span class="boring">}</span></code></pre></pre>
 <h2 id="2025-06-22"><a class="header" href="#2025-06-22">2025-06-22</a></h2>
-<h3 id="0330-to-0430--zed--claude-sonnet-4"><a class="header" href="#0330-to-0430--zed--claude-sonnet-4">03:30 to 04:30 | Zed | Claude Sonnet 4</a></h3>
+<h3 id="0330-to-0430--zed--zeta"><a class="header" href="#0330-to-0430--zed--zeta">03:30 to 04:30 | Zed | Zeta</a></h3>
 <p>A series of about 20 interactions where my code editor would keep suggesting
 stupid shit and I had to keep telling it to fuck off.</p>
-<h3 id="2045--zed--claude-sonnet-4"><a class="header" href="#2045--zed--claude-sonnet-4">20:45 | Zed | Claude Sonnet 4</a></h3>
+<h3 id="2045--zed--zeta"><a class="header" href="#2045--zed--zeta">20:45 | Zed | Zeta</a></h3>
 <p>While mass-rewriting tests using multiple selections, two weren’t in the same
 layout as the others and got messed up. I fixed the first by hand, then Zed
 proposed an autocorrection for the second.</p>
@@ -432,7 +432,7 @@ proposed an autocorrection for the second.</p>
   Vec::new()
 ),
 <span class="boring">}</span></code></pre></pre>
-<h3 id="2120--zed--claude-sonnet-4"><a class="header" href="#2120--zed--claude-sonnet-4">21:20 | Zed | Claude Sonnet 4</a></h3>
+<h3 id="2120--zed--zeta"><a class="header" href="#2120--zed--zeta">21:20 | Zed | Zeta</a></h3>
 <p>Writing a test, I started writing the expected value:</p>
 <pre><pre class="playground"><code class="language-rust"><span class="boring">#![allow(unused)]
 </span><span class="boring">fn main() {
@@ -461,7 +461,7 @@ fn segmented() {
 <h3 id="0330--duckduckgo"><a class="header" href="#0330--duckduckgo">03:30 | DuckDuckGo</a></h3>
 <p>Searched for <code>stray digicode safe</code>. The “AI assist” feature returned two codes,
 one of which I already had. The second worked in game, so I didn’t look further.</p>
-<h3 id="1305--zed--claude-sonnet-4-thinking"><a class="header" href="#1305--zed--claude-sonnet-4-thinking">13:05 | Zed | Claude Sonnet 4 Thinking</a></h3>
+<h3 id="1305--zed--zeta"><a class="header" href="#1305--zed--zeta">13:05 | Zed | Zeta</a></h3>
 <p>I couldn’t recall the named captures regex syntax so I wrote:</p>
 <pre><code class="language-js">if (!/\/(?&lt;&gt;:‡\d+)$/.test(step)) {
 </code></pre>
@@ -471,7 +471,7 @@ one of which I already had. The second worked in game, so I didn’t look furthe
 <p>On one hand, that does show me the right syntax, but on the other, it
 hallucinated a whole additional capture and an input syntax that was not what I
 was looking for, and also discarded the NOT operator.</p>
-<h3 id="1306--zed--claude-sonnet-4-thinking"><a class="header" href="#1306--zed--claude-sonnet-4-thinking">13:06 | Zed | Claude Sonnet 4 Thinking</a></h3>
+<h3 id="1306--zed--zeta"><a class="header" href="#1306--zed--zeta">13:06 | Zed | Zeta</a></h3>
 <p>Having rewritten the regex to match what I wanted, I applied it to my input:</p>
 <pre><code class="language-js">const re = /^(?&lt;file&gt;.+?)(\/(?&lt;version&gt;\d+))?$/;
 const { file, ‡ }
@@ -480,7 +480,7 @@ const { file, ‡ }
 <pre><code class="language-js">const re = /^(?&lt;file&gt;.+?)(\/(?&lt;version&gt;\d+))?$/;
 const { file, version } = re.exec(step)?.groups || {};
 </code></pre>
-<h3 id="1335--zed--claude-sonnet-4-thinking"><a class="header" href="#1335--zed--claude-sonnet-4-thinking">13:35 | Zed | Claude Sonnet 4 Thinking</a></h3>
+<h3 id="1335--zed--zeta"><a class="header" href="#1335--zed--zeta">13:35 | Zed | Zeta</a></h3>
 <p>I copied a test case block to modify it into a new one, rewrote the <code>it</code>
 description…</p>
 <pre><code class="language-ts">it('needsStep throws when index is missing‡', async () =&gt; {
@@ -497,7 +497,7 @@ description…</p>
 });
 </code></pre>
 <p>This does what I want and the test passes.</p>
-<h3 id="1400--zed--claude-sonnet-4-thinking"><a class="header" href="#1400--zed--claude-sonnet-4-thinking">14:00 | Zed | Claude Sonnet 4 Thinking</a></h3>
+<h3 id="1400--zed--zeta"><a class="header" href="#1400--zed--zeta">14:00 | Zed | Zeta</a></h3>
 <p>I added an alias in one file:</p>
 <pre><code class="language-js">export const upgradeCommand = new Command('upgrade')
   .alias('migrate')
@@ -589,7 +589,7 @@ expressive 2-ary <code>.then()</code>:</p>
 </span><span class="boring">fn main() {
 </span>query().and_then(|f| f.get(0)).unwrap_or_default();
 <span class="boring">}</span></code></pre></pre>
-<h3 id="1550--zed--claude-sonnet-4"><a class="header" href="#1550--zed--claude-sonnet-4">15:50 | Zed | Claude Sonnet 4</a></h3>
+<h3 id="1550--zed--zeta"><a class="header" href="#1550--zed--zeta">15:50 | Zed | Zeta</a></h3>
 <p>Was typing this and wanted to tab-complete it:</p>
 <pre><code class="language-ts">import { log } from '@tamanu/shared/services/‡';
 </code></pre>
