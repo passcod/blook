@@ -18,11 +18,12 @@ This document itself was written "by hand"; no prose was edited or suggested by
 AI (I used Vim, which I keep free of AI). You can tell because I used
 semicolons correctly.
 
-Most of this is in code editors. I indicate the model when known. I have
-free access to Github Copilot Pro via opensource contributions (or something,
-idk what the criteria is exactly), I also use the free default tier of Zed's AI
-models. 99% of it is Claude, from past experience most of the others commercial
-models are a significant step down in quality.
+Most of this is in code editors. I indicate the model when known. I have free
+access to Github Copilot Pro via opensource contributions (or something, idk
+what the criteria is exactly), I also use the free default tier of Zed's AI
+models. Half of it is Zeta, Zed's model that powers edit prediction mode, and
+Claude, which from past experience against most of the others commercial models
+is a significant step up in quality.
 
 Times are approximate and largely reconstructed.
 
