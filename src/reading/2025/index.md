@@ -10,6 +10,7 @@
 - {SW} [The Jedi’s Gambit](https://archiveofourown.org/works/62402200). {52k words atow}
 - {SW} [Lost In Transit](https://archiveofourown.org/works/65215264). {52k words atow}
 - {SW} [Yaim'ol](https://archiveofourown.org/works/67261855). {19k words atow}
+- {SW} [How a Romance Novel Saved the Galaxy](https://archiveofourown.org/series/2044417). {197k words atom}
 
 ## Serial fiction
 
