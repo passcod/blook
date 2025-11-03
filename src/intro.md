@@ -16,7 +16,7 @@ an archive, a list of projects, and various information about and around me. Hav
 
 - **[Bluesky](https://bsky.app/profile/passcod.nz)**
 - **[GitHub](https://github.com/passcod)**
-- [Blue Shell Strike Force](https://bssf.gitlab.io/wiki/index.html)
+<!-- - [Blue Shell Strike Force](https://bssf.gitlab.io/wiki/index.html) -->
 - [Mastodon](https://mastodon.social/@passcod)
 - [AO3](https://archiveofourown.org/users/passcod)
 
