@@ -5,7 +5,7 @@
 This is mostly for my own records.
 
 For work I have a Dell G7 7700 laptop. This is a gaming-type laptop with 32GB
-RAM (honestly disappointed it can't have 64GB or more), a decent 6-core
+RAM (honestly disappointed it can't have 64GB or more **update 2026: it _can_ have 64GB**), a decent 6-core
 12-thread i7-10750H, and both Intel UHD graphics and an Nvidia RTX 2070 mobile
 graphics card.
 
