@@ -21,7 +21,7 @@ jobs:
       - name: Install mdBook
         uses: taiki-e/install-action@ab6895351a88b908e96a4697860d4ffea5e57dbe # v2.87.27
         with:
-          tool: mdbook@0.5.4,mdbook-toc@0.15.4
+          tool: mdbook@0.5.4,mdbook-toc@0.15.4,mdbook-linkcheck2@0.13.0
 
       - name: Build book
         run: mdbook build
@@ -32,5 +32,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           email: felix@passcod.name
-          build_dir: book
+          build_dir: book/html
           jekyll: no
