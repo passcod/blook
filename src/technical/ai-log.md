@@ -1,5 +1,28 @@
 # AI Log
 
+> [!NOTE]
+> **Update 2026-10-12:** It's been over a year later. I don't have precise logs,
+> but I took a couple months break and then started using AI again, at first only
+> at work. The improvements in quality and reliability over that _single year_
+> have been frankly staggering. I still have strong reservations for its use
+> outside of the areas which I am knowledgeable about; one has to keep in mind
+> the [Gell-Mann Amnesia Effect](https://en.wiktionary.org/wiki/Gell-Mann_amnesia_effect):
+> as I still frequently catch AI systems being bullshitting about things I know
+> about, I must not start trusting AI systems in regards to things I don't.
+> That said, within bounds, and for code and development in particular, the gains
+> are significant. There's a phrase I've adopted when talking about this at work:
+> «AI makes the easy trivial, the hard easy, and the impossible accessible.»
+> There are entire projects and tools that would never have existed before because
+> doing them was not worth it; not just in a business sense, but even where that
+> does not apply, like for non-remunerated ("open-source", though that has never
+> really been the point to me) work. If something previously would have taken a
+> year of full time work, or a year of weekends for open-source, that's a lot to
+> take on. If, _with significant guidance, push-back, and critical feedback_, that
+> same thing takes two days from zero to prototype, two weeks to MVP, and two
+> months to polished product… that's a significant leap. I don't believe these
+> systems should be used socially. But it would be a damn shame to not have them
+> available professionally.
+
 This is a diary where I record every single interaction I knowingly have with
 an genAI system, over several weeks from 2025-06-20 to 2025-07-10.
 
