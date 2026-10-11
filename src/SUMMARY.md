@@ -2,9 +2,8 @@
 
 - [Introduction](intro.md)
   - [Avatars](avatars/index.md)
-  - [Pronouns](info/index.md)
   - [Trademark](info/trademark.md)
-- Blog
+- [Blog]()
   - [2026 | Turn your devboard into an embedded peripheral explorer for Linux](technical/rp-extio.html)
   - [2025 | AI Log](technical/ai-log.md)
   - [2024 | Nouveau on Dell G7 7700](technical/g7-7700-nouveau.md)
