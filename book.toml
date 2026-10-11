@@ -12,7 +12,7 @@ max-level = 4
 [output.html]
 cname = "passcod.name"
 git-repository-url = "https://github.com/passcod/blook"
-curly-quotes = true
+smart-punctuation = true
 mathjax-support = true
 
 [output.html.fold]

@@ -1,21 +1,36 @@
 name: Deploy
-on: [push]
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
-      - name: Install mdbook
-        uses: taiki-e/install-action@v2
+      - name: Install mdBook
+        uses: taiki-e/install-action@ab6895351a88b908e96a4697860d4ffea5e57dbe # v2.87.27
         with:
-          tool: mdbook,mdbook-linkcheck,mdbook-toc
+          tool: mdbook@0.5.4,mdbook-toc@0.15.4
 
-      - run: mdbook build
-      - uses: Cecilapp/GitHub-Pages-deploy@v3
+      - name: Build book
+        run: mdbook build
+
+      - name: Deploy to GitHub Pages
+        uses: Cecilapp/GitHub-Pages-deploy@e1d24a95b0050d8d97ce8647409a3b0d8d01ebeb # 3.3.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           email: felix@passcod.name
-          build_dir: book/html
+          build_dir: book
           jekyll: no
